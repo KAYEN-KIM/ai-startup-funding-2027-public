@@ -1,12 +1,18 @@
 {
   "schema": "public-funding-monitor/v1",
   "status": "ok_changed",
-  "last_attempt_at": "2026-10-28T13:21:19+09:00",
-  "last_success_at": "2026-10-28T13:21:19+09:00",
+  "last_attempt_at": "2026-10-28T13:27:04+09:00",
+  "last_success_at": "2026-10-28T13:27:04+09:00",
   "changed_count": 68,
   "checked_count": 250,
-  "message": "공식 API 250건 확인 · 관심 공고 74건 · 신규 68건 · 변경 0건",
+  "message": "공식 API 250건 확인 · AI 관련 제목 후보 18건 · 추가 0건 · 수정 15건 · 비관련 자동후보 정리 53건 (신규 후보는 원문 적격성 검토 필요)",
   "events": [
+    {
+      "at": "2026-10-28T13:27:04+09:00",
+      "status": "ok_changed",
+      "changed": 68,
+      "message": "공식 API 250건 확인 · AI 관련 제목 후보 18건 · 추가 0건 · 수정 15건 · 비관련 자동후보 정리 53건 (신규 후보는 원문 적격성 검토 필요)"
+    },
     {
       "at": "2026-10-28T13:21:19+09:00",
       "status": "ok_changed",

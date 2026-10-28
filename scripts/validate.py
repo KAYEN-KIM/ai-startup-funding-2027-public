@@ -16,7 +16,7 @@ for p in items:
     for required in ("id", "title", "year", "mode", "kind", "source"):
         assert p.get(required), "Missing %s in %s" % (required, p.get("id"))
     assert p["year"] in (2026, 2027, 2028)
-    assert p["mode"] in ("beneficiary", "reference", "operator", "budget")
+    assert p["mode"] in ("beneficiary", "discovery", "reference", "operator", "budget")
     src = urlparse(p["source"])
     assert src.scheme == "https" and src.hostname and (src.hostname.endswith(".go.kr") or src.hostname.endswith(".or.kr") or src.hostname.endswith(".kr")), p["source"]
     if p["mode"] == "reference":

@@ -23,6 +23,7 @@
     return Number.isNaN(+v) ? null : v;
   };
   function classify(p) {
+    if (p.mode === "discovery") return {text:"공식 API 발견 · 원문 검토 전",css:"s-purple",code:"discovery"};
     if (p.mode === "reference") return {text:"2026 조건 참고",css:"s-gold",code:"reference"};
     if (p.mode === "operator") return {text:"운영기관 모집 · 기업신청 아님",css:"s-gray",code:"operator"};
     if (p.mode === "budget") return {text:"예산안 · 공고 아님",css:"s-gray",code:"budget"};
@@ -56,7 +57,8 @@
     let list=state.items.filter(p=>{
       if(y!=="all"&&String(p.year)!==y) return false;
       if(t==="grant"&&p.mode!=="beneficiary") return false;
-      if(t==="reference"&&p.mode!=="reference") return false;
+      if(t==="discovery"&&p.mode!=="discovery") return false;
+    if(t==="reference"&&p.mode!=="reference") return false;
       if(t==="operator"&&p.mode!=="operator") return false;
       if(t==="budget"&&p.mode!=="budget") return false;
       return !q || [p.title,p.eligibility,p.note,p.amount,p.kind,p.year].some(s=>String(s||"").toLocaleLowerCase("ko-KR").includes(q));

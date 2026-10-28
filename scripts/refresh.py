@@ -20,7 +20,8 @@ PROGRAMS = ROOT / "data" / "programs.json"
 MONITOR = ROOT / "data" / "monitor.json"
 KST = dt.timezone(dt.timedelta(hours=9))
 API_URL = "https://www.bizinfo.go.kr/uss/rss/bizinfoApi.do"
-KEYWORDS = re.compile(r"인공지능|(?:^|[^a-z])ai(?:[^a-z]|$)|(?:^|[^a-z])ax(?:[^a-z]|$)|창업|초격차|딥테크|saas|데이터바우처|gpu|llm|머신러닝|연구개발|r&d",re.I)
+AI_TITLE = re.compile(r"인공지능|(?<![a-z])ai(?![a-z])|(?<![a-z])ax(?![a-z])|초격차|딥테크|saas|데이터바우처|gpu|llm|머신러닝|생성형|피지컬\s*ai|디지털\s*혁신", re.I)
+# Generic 'startup'/'R&D' in a long description is NOT sufficient for AI relevance.
 OPERATOR = re.compile(r"주관기관\s*모집|운영기관\s*모집|전담기관\s*모집|수행기관\s*모집")
 BUDGET = re.compile(r"예산안|예산편성|예산\s*요구")
 ALLOWED_ROOT = "bizinfo.go.kr"
@@ -50,18 +51,24 @@ def safe_official_url(raw, seq):
     return "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=" + seq
 
 def parse_range(v):
-    # Bizinfo documents 20220727 ~ 20220930 format. No guessing on absent dates.
-    values = re.findall(r"20\d{6}", str(v or ""))
-    if len(values) < 2:
+    # The API can return 20261028, 2026-10-28, 2026.10.28 or 2026년 10월 28일.
+    # Never invent a closing date when only one date is present.
+    values = re.findall(r"(?<!\d)20\d{2}(?:[-./년\s]*\d{1,2}[-./월\s]*\d{1,2}일?|\d{4})(?!\d)", str(v or ""))
+    dates = []
+    for raw in values:
+        nums = re.findall(r"\d+", raw)
+        try:
+            if len(nums) == 1 and len(nums[0]) == 8:
+                dates.append(dt.datetime.strptime(nums[0], "%Y%m%d").date())
+            elif len(nums) == 3:
+                dates.append(dt.date(int(nums[0]), int(nums[1]), int(nums[2])))
+        except ValueError:
+            continue
+    if len(dates) == 1:
+        return dates[0].isoformat(), None
+    if len(dates) < 2 or dates[1] < dates[0]:
         return None, None
-    try:
-        start = dt.datetime.strptime(values[0], "%Y%m%d").date()
-        end = dt.datetime.strptime(values[1], "%Y%m%d").date()
-        if end < start:
-            return None, None
-        return start.isoformat(), end.isoformat()
-    except ValueError:
-        return None, None
+    return dates[0].isoformat(), dates[1].isoformat()
 
 def convert_xml(xml_data, today):
     root = ET.fromstring(xml_data)
@@ -73,7 +80,7 @@ def convert_xml(xml_data, today):
         fields = {c.tag.rsplit("}", 1)[-1]: (c.text or "") for c in item}
         title = clean_text(fields.get("pblancNm") or fields.get("title"))
         desc = clean_text(fields.get("bsnsSumryCn") or fields.get("description"))
-        if not title or not KEYWORDS.search(title + " " + desc):
+        if not title or not AI_TITLE.search(title):
             continue
         seq = clean_text(fields.get("pblancId") or fields.get("seq"))
         if not re.fullmatch(r"PBLN_[0-9]{9,22}", seq):
@@ -86,7 +93,7 @@ def convert_xml(xml_data, today):
         elif BUDGET.search(title):
             mode = "budget"
         else:
-            mode = "beneficiary"  # Preliminary: applicant-side eligibility NOT verified.
+            mode = "discovery"  # API index alone is not a verified applicant-side opportunity.
         url = safe_official_url(fields.get("pblancUrl") or fields.get("link"), seq)
         records.append({
             "id": "BIZINFO-" + seq,
@@ -100,10 +107,24 @@ def convert_xml(xml_data, today):
             "verified_at": today.isoformat(),
             "amount": "지원금액 · 공고 원문 확인 필요",
             "eligibility": clean_text(fields.get("trgetNm")) or "상세 공고 원문에서 신청자격 확인",
-            "note": "기업마당 공식 API 자동수집. 수혜기업 여부·지원금액·중복제한은 공고 원문 확인 필요.",
+            "note": "기업마당 API 목록에서 자동 발견. 실제 신청대상·지원금·마감시각·중복수혜는 공고 원문 확인 전까지 미확정.",
             "source_level": "official_api_index_not_full_application_verified",
         })
     return records, len(elems)
+
+def prune_api_false_positives(known):
+    """Keep curator-verified entries; remove unrelated auto-discovered titles only.
+
+    Never called on an API failure. These were provisional index leads,
+    not confirmed awards or user data.
+    """
+    before = len(known["items"])
+    known["items"] = [
+        p for p in known["items"]
+        if p.get("source_level") != "official_api_index_not_full_application_verified"
+        or AI_TITLE.search(p["title"])
+    ]
+    return before - len(known["items"])
 
 def merge_records(known, updates):
     items = known["items"]
@@ -157,10 +178,16 @@ def main():
                 if len(raw) > 3_000_000:
                     raise ValueError("API 응답 크기 초과")
             updates, fetched = convert_xml(raw, today)
+            removed_count = prune_api_false_positives(known)
             new_count, changed_count = merge_records(known, updates)
-            changed = new_count + changed_count
+            changed = new_count + changed_count + removed_count
             monitor["status"] = "ok_changed" if changed else "ok_no_change"
-            monitor["message"] = "공식 API "+str(fetched)+"건 확인 · 관심 공고 "+str(len(updates))+"건 · 신규 "+str(new_count)+"건 · 변경 "+str(changed_count)+"건"
+            monitor["message"] = (
+                "공식 API "+str(fetched)+"건 확인 · AI 관련 제목 후보 "+str(len(updates))
+                +"건 · 추가 "+str(new_count)+"건 · 수정 "+str(changed_count)
+                +"건 · 비관련 자동후보 정리 "+str(removed_count)+"건"
+                +" (신규 후보는 원문 적격성 검토 필요)"
+            )
             monitor["last_success_at"] = now.isoformat(timespec="seconds")
             monitor["checked_count"] = fetched
             monitor["changed_count"] = changed

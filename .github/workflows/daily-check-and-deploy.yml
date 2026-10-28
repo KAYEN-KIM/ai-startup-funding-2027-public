@@ -1,0 +1,62 @@
+name: Public Funding Radar - Daily Check and Deploy
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  schedule:
+    # 23:00 UTC = 08:00 Korea. GitHub can delay execution.
+    - cron: "0 23 * * *"
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: funding-radar-deployment
+  cancel-in-progress: false
+jobs:
+  update-and-publish:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Refresh public records (preserve manually verified entries)
+        env:
+          BIZINFO_API_KEY: ${{ secrets.BIZINFO_API_KEY }}
+        run: python scripts/refresh.py
+      - name: Validate public metadata
+        run: python scripts/validate.py
+      - name: Commit only public data
+        run: |
+          if [[ -n "$(git status --porcelain -- data)" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data/programs.json data/monitor.json
+            git commit -m "chore: record daily public funding check"
+            git push
+          else
+            echo "No public data change."
+          fi
+      - name: Assemble static public-only site
+        run: |
+          mkdir -p dist
+          cp index.html .nojekyll dist/
+          cp -R assets data dist/
+          cp _headers dist/
+      - name: Setup GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: Upload public site only
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist
+      - name: Deploy public website
+        id: deployment
+        uses: actions/deploy-pages@v4

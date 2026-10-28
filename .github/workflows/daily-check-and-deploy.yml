@@ -29,6 +29,7 @@ jobs:
         with:
           python-version: "3.12"
       - name: Refresh public records (preserve manually verified entries)
+        if: github.event_name != 'push'
         env:
           BIZINFO_API_KEY: ${{ secrets.BIZINFO_API_KEY }}
         run: python scripts/refresh.py

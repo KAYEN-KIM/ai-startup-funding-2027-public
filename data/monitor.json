@@ -1,12 +1,18 @@
 {
   "schema": "public-funding-monitor/v1",
   "status": "needs_api_key",
-  "last_attempt_at": "2026-10-28T09:32:44+09:00",
+  "last_attempt_at": "2026-10-28T09:33:05+09:00",
   "last_success_at": null,
   "changed_count": null,
   "checked_count": 0,
   "message": "정기 확인은 실행됐으나 기업마당 공식 API 인증키가 설정되지 않아 신규 공고를 조회하지 못했습니다.",
   "events": [
+    {
+      "at": "2026-10-28T09:33:05+09:00",
+      "status": "needs_api_key",
+      "changed": null,
+      "message": "정기 확인은 실행됐으나 기업마당 공식 API 인증키가 설정되지 않아 신규 공고를 조회하지 못했습니다."
+    },
     {
       "at": "2026-10-28T09:32:44+09:00",
       "status": "needs_api_key",

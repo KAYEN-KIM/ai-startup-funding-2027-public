@@ -1,12 +1,18 @@
 {
   "schema": "public-funding-monitor/v1",
   "status": "ok_changed",
-  "last_attempt_at": "2026-10-29T07:59:43+09:00",
-  "last_success_at": "2026-10-29T07:59:43+09:00",
-  "changed_count": 11,
-  "checked_count": 12,
-  "message": "공식기관 상세 공고 12건 대조 · 2027 컨소시엄 공고 1건 수혜기업 구분 검증 · 2026 관련 공고 3건 추가 · 기존 8건 정정(신청대상 7, 경과 마감 1). API 250건 자동 재조회는 별도 GitHub 워크플로에서 수행. 일부 NIPA 원문 열람 실패로 연장 여부 확인 필요.",
+  "last_attempt_at": "2026-10-29T08:01:04+09:00",
+  "last_success_at": "2026-10-29T08:01:04+09:00",
+  "changed_count": 2,
+  "checked_count": 250,
+  "message": "공식 API 250건 확인 · AI 관련 제목 후보 17건 · 추가 2건 · 수정 0건 · 비관련 자동후보 정리 0건 (신규 후보는 원문 적격성 검토 필요)",
   "events": [
+    {
+      "at": "2026-10-29T08:01:04+09:00",
+      "status": "ok_changed",
+      "changed": 2,
+      "message": "공식 API 250건 확인 · AI 관련 제목 후보 17건 · 추가 2건 · 수정 0건 · 비관련 자동후보 정리 0건 (신규 후보는 원문 적격성 검토 필요)"
+    },
     {
       "at": "2026-10-29T07:59:43+09:00",
       "status": "ok_changed",

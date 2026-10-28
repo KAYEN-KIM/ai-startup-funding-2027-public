@@ -1,6 +1,6 @@
 {
   "schema": "public-funding-radar/v1",
-  "generated_at": "2026-10-29T07:59:28+09:00",
+  "generated_at": "2026-10-29T08:01:04+09:00",
   "provenance": "공식기관 공개 공고 및 2026년 참고 제도. 2027년 미확정 사항은 자동 승격하지 않음.",
   "disclaimer": "본 자료는 신청·선정을 보장하지 않으며 최신 원문 확인 필요.",
   "items": [
@@ -596,6 +596,36 @@
       "eligibility": "AI 기반 기술혁신을 활용해 첨단 바이오소재·디지털헬스 제품을 개발·고도화하려는 기업",
       "note": "2026-10-28 공식 공고. '모집 완료시까지'로 명시, 확정 마감일 미기재. 수요 맞춤 기업지원이며 일반 창업 현금지원과 구별.",
       "source_level": "official_notice_summary_verified"
+    },
+    {
+      "id": "BIZINFO-PBLN_000000000127523",
+      "title": "2026년 대구 지역거점 AX 혁신 기술개발 사업 신규지원 대상과제 공고(표준모델 AX R&D)",
+      "year": 2026,
+      "kind": "기술",
+      "mode": "discovery",
+      "opens": "2026-10-26",
+      "deadline": "2026-11-09",
+      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127523",
+      "verified_at": "2026-10-29",
+      "amount": "지원금액 · 공고 원문 확인 필요",
+      "eligibility": "중소기업",
+      "note": "기업마당 API 목록에서 자동 발견. 실제 신청대상·지원금·마감시각·중복수혜는 공고 원문 확인 전까지 미확정.",
+      "source_level": "official_api_index_not_full_application_verified"
+    },
+    {
+      "id": "BIZINFO-PBLN_000000000127506",
+      "title": "2026년 연구개발특구진흥재단 X 알테오젠 바이오 딥테크 오픈이노베이션 참여기업ㆍ연구기관 모집 공고",
+      "year": 2026,
+      "kind": "기술",
+      "mode": "discovery",
+      "opens": "2026-10-26",
+      "deadline": "2026-11-16",
+      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127506",
+      "verified_at": "2026-10-29",
+      "amount": "지원금액 · 공고 원문 확인 필요",
+      "eligibility": "중소기업",
+      "note": "기업마당 API 목록에서 자동 발견. 실제 신청대상·지원금·마감시각·중복수혜는 공고 원문 확인 전까지 미확정.",
+      "source_level": "official_api_index_not_full_application_verified"
     }
   ]
 }

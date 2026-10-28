@@ -1,12 +1,18 @@
 {
   "schema": "public-funding-monitor/v1",
-  "status": "needs_api_key",
-  "last_attempt_at": "2026-10-28T09:33:05+09:00",
-  "last_success_at": null,
-  "changed_count": null,
-  "checked_count": 0,
-  "message": "정기 확인은 실행됐으나 기업마당 공식 API 인증키가 설정되지 않아 신규 공고를 조회하지 못했습니다.",
+  "status": "ok_changed",
+  "last_attempt_at": "2026-10-28T13:21:19+09:00",
+  "last_success_at": "2026-10-28T13:21:19+09:00",
+  "changed_count": 68,
+  "checked_count": 250,
+  "message": "공식 API 250건 확인 · 관심 공고 74건 · 신규 68건 · 변경 0건",
   "events": [
+    {
+      "at": "2026-10-28T13:21:19+09:00",
+      "status": "ok_changed",
+      "changed": 68,
+      "message": "공식 API 250건 확인 · 관심 공고 74건 · 신규 68건 · 변경 0건"
+    },
     {
       "at": "2026-10-28T09:33:05+09:00",
       "status": "needs_api_key",

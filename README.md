@@ -165,3 +165,8 @@ All input stays in page memory. No automatic persistence or input transport.
 Only explicit buttons export a private JSON report or an agency-question TXT.
 Changing inputs or stale reviewed sources revokes the previous result/export.
 See `docs/P08_PORTFOLIO.md` for the exact scope and regression commands.
+
+
+## P0.9 — 원문 제한·비용 증빙·급여 원금 대조
+
+기존 `portfolio.html`에서 사업연도·진행단계·2026 제한목록 대응을 입력합니다. 두 초기창업 HWPX 원문의 단방향 제한과 38개 사업명 대응, 익명 경제적 비용 중복·증빙 준비·같은 인력/월 급여 원금 대조를 연결했습니다. 신청과 수행을 구분하고 TIPS R&D를 TIPS 창업사업화로 간주하지 않습니다. 2027 확정 규칙이나 비용 인정·법정 인건비계상률 판정은 아닙니다. 입력의 자동 저장·전송은 없으며 공개 데이터 3개만 읽습니다. 자세한 범위는 `docs/P09_EVIDENCE_COSTS.md`를 따릅니다.

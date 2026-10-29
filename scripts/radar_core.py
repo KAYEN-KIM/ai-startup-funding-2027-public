@@ -223,6 +223,12 @@ def merge(known, incoming, review_doc, at):
                         "previous": old.get(key), "observed": value, "source": row["source"],
                         "observed_at": at, "status": "pending", "kind": "api_difference_review_required"}
                     suggested += 1
+        if is_auto and old.get("deadline"):
+            # Retained exact cutoffs must retain matching precision metadata.
+            precision = "datetime" if len(old["deadline"]) > 10 else "date"
+            if old.get("deadline_precision") != precision:
+                old["deadline_precision"] = precision
+                changed = True
         if changed:
             old["verified_at"] = at[:10]
             modified += 1

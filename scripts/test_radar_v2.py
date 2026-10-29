@@ -80,6 +80,12 @@ class PreserveAndReview(unittest.TestCase):
         r=record_from_fields(field(),TODAY);r["deadline"]=None
         new,_,_=merge(known,[r],reviews,AT)
         self.assertEqual(new["items"][0]["deadline"],known["items"][0]["deadline"])
+    def test_retained_precision_matches_value(self):
+        known,reviews=self.setup_data();known["items"][0].update(mode="discovery",source_level=AUTO_LEVEL,deadline_precision="datetime")
+        incoming=record_from_fields(field(),TODAY)
+        result,_,_=merge(known,[incoming],reviews,AT)
+        self.assertEqual(result["items"][0]["deadline_precision"],"datetime")
+        self.assertIn("T15:00",result["items"][0]["deadline"])
     def test_no_mutation_input(self):
         known,reviews=self.setup_data();before=copy.deepcopy(known);r=record_from_fields(field(),TODAY);r["deadline"]="2026-12-01";merge(known,[r],reviews,AT)
         self.assertEqual(known,before);self.assertEqual(reviews["items"],[])

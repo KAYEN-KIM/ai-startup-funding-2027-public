@@ -91,7 +91,7 @@
     const url=URL.createObjectURL(new Blob(["\ufeff"+csv],{type:"text/csv;charset=utf-8"}));
     const a=document.createElement("a");a.href=url;a.download="AI_Funding_Radar_Public.csv";document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),300);
   }
-  function tick(){ $("kstTime").textContent=fmt(new Date().toISOString())+" KST";if(state.items.length){renderStats();renderMonitor();} }
+  function tick(){ $("kstTime").textContent=fmt(new Date().toISOString())+" KST";if(state.items.length){renderStats();renderList();renderMonitor();} }
   ["searchInput","yearSelect","typeSelect","sortSelect","statusSelect","laneSelect"].forEach(id=>$(id)?.addEventListener(id==="searchInput"?"input":"change",renderList));
   $("refreshBtn").addEventListener("click",reload);$("csvBtn").addEventListener("click",exportCsv);
   tick();setInterval(tick,60000);reload();

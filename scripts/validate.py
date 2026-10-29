@@ -6,7 +6,7 @@ from pathlib import Path
 from radar_core import official_url
 from condition_catalog import build_catalog, validate_registry
 ROOT=Path(__file__).resolve().parents[1]
-FILES={'programs.json','monitor.json','evidence.json','change_reviews.json','conditions.json','attachments.json','funding_rules.json'}
+FILES={'programs.json','monitor.json','evidence.json','change_reviews.json','conditions.json','attachments.json','funding_rules.json','startup_routes.json','startup_sources.json'}
 PROGRAM_FIELDS={'id','title','year','years','year_basis','kind','mode','relevance','opens','deadline','deadline_precision','application_period_raw','source','verified_at','amount','eligibility','note','priority','source_level','agency','attachments'}
 PRIVATE={'company_profile','applicant_profile','applicant_memo','resident_number','taxpayer_id','bank_account','access_token','secret_key','password','api_key','crtfcKey','serviceKey','budget_private','application_documents'}
 MODES={'beneficiary','discovery','reference','operator','budget'}
@@ -70,6 +70,11 @@ def main():
     scan(funding);validate_funding(funding)
     require('funding_rules.json' in loaded,'Planning catalog missing')
     require(loaded['funding_rules.json']==build_funding(p,funding,loaded['attachments.json'],loaded['evidence.json'],loaded['change_reviews.json']),'Planning catalog is stale or changed outside the reviewed registry')
+    from startup_catalog import build_catalog as build_startup
+    startup=json.loads((ROOT/'config/startup_reference.json').read_text(encoding='utf-8'))
+    scan(startup)
+    require('startup_routes.json' in loaded and 'startup_sources.json' in loaded,'Startup reference catalog missing')
+    require(loaded['startup_routes.json']==build_startup(p,startup,loaded['startup_sources.json']),'Startup reference catalog is stale or altered')
     print('Public schema validation OK:',len(items),'records;',len(found),'allowlisted JSON files')
 
 if __name__=='__main__':main()

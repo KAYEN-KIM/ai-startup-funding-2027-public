@@ -1,0 +1,340 @@
+{
+  "schema": "reviewed-startup-preparation/v1",
+  "version": "0.6.0",
+  "records": [
+    {
+      "id": "pre",
+      "program_id": "PRE-STARTUP-2026",
+      "label": "예비창업패키지 · 2026 2차 수정본",
+      "reference_year": 2026,
+      "target_year": 2027,
+      "scope": "historical_preparation_only",
+      "stage": "pre",
+      "reviewed_at": "2026-10-29T15:43:18+09:00",
+      "program_snapshot": {
+        "id": "PRE-STARTUP-2026",
+        "title": "예비창업패키지 / 차기 예비창업 지원체계",
+        "source": "https://www.k-startup.go.kr/",
+        "year": 2026,
+        "mode": "reference",
+        "eligibility": "사업자등록·법인 대표권 등 기준일 자격 확인",
+        "amount": "평균 4,000만원 (2026 참고)",
+        "opens": null,
+        "deadline": null
+      },
+      "source": {
+        "id": "pre",
+        "url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1066579&cbIdx=310&streFileNm=236d517e-fc4d-4607-8ba0-6b2557afeb62.pdf",
+        "sha256": "d705d10cd5a4be4c304a28dafd9cd054739b95781b89d196617cf96adb38304b",
+        "format": "pdf",
+        "review_method": "official_pdf_text_and_parallel_copy_visual_check",
+        "locator": "PDF 물리 1쪽(인쇄 2쪽) 자금지원; 물리 2쪽(인쇄 3쪽) 자격; 물리 6쪽(인쇄 12쪽) 동시수행"
+      },
+      "average_support_won": 40000000,
+      "scenarios": [
+        {
+          "id": "stage1",
+          "label": "1단계만 · 2,000만원 기준 상한",
+          "government_bps": 10000,
+          "cash_min_bps": 0,
+          "inkind_max_bps": 0,
+          "own_model": "none",
+          "max_support_won": 20000000
+        }
+      ],
+      "conditions": [
+        "2026.1.22 기준 본인 사업자등록 및 법인의 법률상 대표권 여부를 판단했습니다.",
+        "2026.1.23 이후 등록·법인등기를 완료한 경우의 신청 가능 예외가 있습니다. 현재 사업자라는 이유만으로 자동 제외하지 않습니다.",
+        "부동산 임대업 예외, 폐업·해산 이력, 과점주주, 기수혜·제재 등 추가 제한은 별도 검토가 필요합니다."
+      ],
+      "notes": [
+        "2026 종료 공고의 일부 조항만 검토한 준비용 자료입니다. 2027 지원액·신청일·적격성을 확정하지 않습니다.",
+        "평균 지원액은 최대액·최소 보장액·선정 확률이 아닙니다. 부가세·비인정비용·선지출은 별도 현금입니다.",
+        "계산은 1단계 2,000만원 범위만 다룹니다. 중간평가 후 약 50% 내외 추가지원은 개인의 선정 확률이 아니며, 2단계 금액을 역산하거나 합산하지 않습니다.",
+        "자기부담사업비 없음은 모든 운영비를 정부가 부담한다는 뜻이 아닙니다."
+      ],
+      "restrictions": [
+        "2026 중앙정부·공공기관 창업사업화 동시수행 제한을 확인해야 합니다. 신청과 협약·수행은 다른 단계입니다.",
+        "초기 일반형·딥테크·투자연계형은 2026 중복 신청 가능하나 1개 유형만 수행 가능한 구조였습니다.",
+        "이전 연도·지자체·R&D 사업을 모두 허용하거나 모두 금지하는 뜻이 아닙니다. 사업별 조항과 동일 비용을 별도 확인하십시오."
+      ],
+      "tasks": [
+        {
+          "id": "customer",
+          "label": "실제 고객 인터뷰·유료 실증 수요와 문제 비용 정리",
+          "basis": "내부 준비 제안 · 제출 필수서류로 확정한 항목 아님"
+        },
+        {
+          "id": "demo",
+          "label": "작동하는 제품 데모와 기존 방식 대비 성능·비용 자료",
+          "basis": "내부 준비 제안"
+        },
+        {
+          "id": "rights",
+          "label": "코드·학습데이터·콘텐츠 사용권과 팀의 권리 관계 정리",
+          "basis": "내부 준비 제안"
+        },
+        {
+          "id": "history",
+          "label": "대표·기업의 이전 사업·지원사업·확약서 이력 정리",
+          "basis": "원문 자격·제외요건 확인을 위한 준비"
+        },
+        {
+          "id": "budget",
+          "label": "견적·현물 인정 증빙·운영현금·지급 시차 준비",
+          "basis": "사업비 구성과 집행 범위 별도 검토"
+        },
+        {
+          "id": "new_notice",
+          "label": "2027 수혜기업 원공고·수정공고·서식 확인",
+          "basis": "차년도 확정 조건 없음 · 가장 먼저 재확인"
+        },
+        {
+          "id": "review",
+          "label": "새 공고의 자격·중복지원·지역 분류를 담당기관과 확인",
+          "basis": "2026 참고 규칙을 2027에 자동 적용 금지"
+        }
+      ]
+    },
+    {
+      "id": "early-general",
+      "program_id": "EARLY-GENERAL-2026",
+      "label": "초기창업패키지 일반형 · 2026 공고",
+      "reference_year": 2026,
+      "target_year": 2027,
+      "scope": "historical_preparation_only",
+      "stage": "early",
+      "reviewed_at": "2026-10-29T15:43:18+09:00",
+      "program_snapshot": {
+        "id": "EARLY-GENERAL-2026",
+        "title": "초기창업패키지 일반형",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000117819",
+        "year": 2026,
+        "mode": "reference",
+        "eligibility": "창업 3년 이내 등",
+        "amount": "평균 5,000만원·최대 1억원 (2026)",
+        "opens": null,
+        "deadline": null
+      },
+      "source": {
+        "id": "early-general",
+        "url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1065015&cbIdx=310&streFileNm=6d1ee9de-ebd4-4a28-b361-f3b43db0b3a1.hwpx",
+        "sha256": "e34bdaf1618c03d37e48c4aa0836f9e03aa7b3d8b3f2b9c8a14af098a163341f",
+        "format": "hwpx",
+        "review_method": "hwpx_structured_cells_and_context",
+        "locator": "Contents/section0.xml 표 9(0부터 번호) 총사업비 구성; 표 13 신청자격; 신청 시 유의사항"
+      },
+      "average_support_won": 50000000,
+      "scenarios": [
+        {
+          "id": "special",
+          "label": "특별지원 지역",
+          "government_bps": 9000,
+          "cash_min_bps": 0,
+          "inkind_max_bps": 1000,
+          "own_model": "cash_or_inkind",
+          "max_support_won": 100000000
+        },
+        {
+          "id": "preferred",
+          "label": "우대지원 지역",
+          "government_bps": 8000,
+          "cash_min_bps": 1000,
+          "inkind_max_bps": 1000,
+          "own_model": "ratio_of_total",
+          "max_support_won": 100000000
+        },
+        {
+          "id": "ordinary",
+          "label": "일반지역(비수도권)",
+          "government_bps": 7500,
+          "cash_min_bps": 1000,
+          "inkind_max_bps": 1500,
+          "own_model": "ratio_of_total",
+          "max_support_won": 100000000
+        },
+        {
+          "id": "nonpreferred",
+          "label": "지방우대 비해당 지역",
+          "government_bps": 7000,
+          "cash_min_bps": 1000,
+          "inkind_max_bps": 2000,
+          "own_model": "ratio_of_total",
+          "max_support_won": 100000000
+        }
+      ],
+      "conditions": [
+        "2026 공고의 창업일 범위는 2023.1.23~2026.1.22입니다. 2027 창업일 범위로 이동하지 않습니다.",
+        "개인은 개업연월일, 법인은 설립등기일 기준이며, 실제 창업 인정·이전사업·공동대표·기수혜 제외요건을 추가 확인해야 합니다."
+      ],
+      "notes": [
+        "2026 종료 공고의 일부 조항만 검토한 준비용 자료입니다. 2027 지원액·신청일·적격성을 확정하지 않습니다.",
+        "평균 지원액은 최대액·최소 보장액·선정 확률이 아닙니다. 부가세·비인정비용·선지출은 별도 현금입니다.",
+        "지역 분류는 2026 원문 붙임 6의 실제 본점 소재지 기준입니다. 임의 이전·시도 단위 자동 판정은 하지 않습니다.",
+        "금액은 원 단위 수학적 하한이며 공고 예시의 천원 단위 표시·협약 인정액과 다를 수 있습니다."
+      ],
+      "restrictions": [
+        "2026 중앙정부·공공기관 창업사업화 동시수행 제한을 확인해야 합니다. 신청과 협약·수행은 다른 단계입니다.",
+        "초기 일반형·딥테크·투자연계형은 2026 중복 신청 가능하나 1개 유형만 수행 가능한 구조였습니다.",
+        "이전 연도·지자체·R&D 사업을 모두 허용하거나 모두 금지하는 뜻이 아닙니다. 사업별 조항과 동일 비용을 별도 확인하십시오."
+      ],
+      "tasks": [
+        {
+          "id": "customer",
+          "label": "실제 고객 인터뷰·유료 실증 수요와 문제 비용 정리",
+          "basis": "내부 준비 제안 · 제출 필수서류로 확정한 항목 아님"
+        },
+        {
+          "id": "demo",
+          "label": "작동하는 제품 데모와 기존 방식 대비 성능·비용 자료",
+          "basis": "내부 준비 제안"
+        },
+        {
+          "id": "rights",
+          "label": "코드·학습데이터·콘텐츠 사용권과 팀의 권리 관계 정리",
+          "basis": "내부 준비 제안"
+        },
+        {
+          "id": "history",
+          "label": "대표·기업의 이전 사업·지원사업·확약서 이력 정리",
+          "basis": "원문 자격·제외요건 확인을 위한 준비"
+        },
+        {
+          "id": "budget",
+          "label": "견적·현물 인정 증빙·운영현금·지급 시차 준비",
+          "basis": "사업비 구성과 집행 범위 별도 검토"
+        },
+        {
+          "id": "new_notice",
+          "label": "2027 수혜기업 원공고·수정공고·서식 확인",
+          "basis": "차년도 확정 조건 없음 · 가장 먼저 재확인"
+        },
+        {
+          "id": "review",
+          "label": "새 공고의 자격·중복지원·지역 분류를 담당기관과 확인",
+          "basis": "2026 참고 규칙을 2027에 자동 적용 금지"
+        }
+      ]
+    },
+    {
+      "id": "early-deep",
+      "program_id": "EARLY-DEEP-2026",
+      "label": "초기창업패키지 딥테크 특화형 · 2026 공고",
+      "reference_year": 2026,
+      "target_year": 2027,
+      "scope": "historical_preparation_only",
+      "stage": "early_ai",
+      "reviewed_at": "2026-10-29T15:43:18+09:00",
+      "program_snapshot": {
+        "id": "EARLY-DEEP-2026",
+        "title": "초기창업패키지 딥테크 특화형",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000117173",
+        "year": 2026,
+        "mode": "reference",
+        "eligibility": "창업 3년 이내·AI 등 해당 분야",
+        "amount": "평균 1억3천만원·최대 1억5천만원 (2026)",
+        "opens": null,
+        "deadline": null
+      },
+      "source": {
+        "id": "early-deep",
+        "url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1064566&cbIdx=310&streFileNm=af3acf02-931b-4f29-945a-5f9d792c6b42.hwpx",
+        "sha256": "6bdb1a0a28bc4903361b8525c0e8988e7bfdd45d4f014cc55b4e49cbe409e658",
+        "format": "hwpx",
+        "review_method": "hwpx_structured_cells_and_context",
+        "locator": "Contents/section0.xml 표 9(0부터 번호) 총사업비 구성; 표 13 기술분야·업력; 신청 시 유의사항"
+      },
+      "average_support_won": 130000000,
+      "scenarios": [
+        {
+          "id": "special",
+          "label": "특별지원 지역",
+          "government_bps": 9000,
+          "cash_min_bps": 0,
+          "inkind_max_bps": 1000,
+          "own_model": "cash_or_inkind",
+          "max_support_won": 150000000
+        },
+        {
+          "id": "preferred",
+          "label": "우대지원 지역",
+          "government_bps": 8000,
+          "cash_min_bps": 1000,
+          "inkind_max_bps": 1000,
+          "own_model": "ratio_of_total",
+          "max_support_won": 150000000
+        },
+        {
+          "id": "ordinary",
+          "label": "일반지역(비수도권)",
+          "government_bps": 7500,
+          "cash_min_bps": 1000,
+          "inkind_max_bps": 1500,
+          "own_model": "ratio_of_total",
+          "max_support_won": 150000000
+        },
+        {
+          "id": "nonpreferred",
+          "label": "지방우대 비해당 지역",
+          "government_bps": 7000,
+          "cash_min_bps": 1000,
+          "inkind_max_bps": 2000,
+          "own_model": "ratio_of_total",
+          "max_support_won": 150000000
+        }
+      ],
+      "conditions": [
+        "2026 공고의 창업일 범위는 2023.1.6~2026.1.5입니다. 2027 창업일 범위로 이동하지 않습니다.",
+        "빅데이터·AI, 로봇, 바이오·헬스, 미래모빌리티, 친환경·에너지의 핵심기술 분야 중 하나를 선택합니다. 단순 AI 이용만으로 기술요건을 충족한다고 판정하지 않습니다."
+      ],
+      "notes": [
+        "2026 종료 공고의 일부 조항만 검토한 준비용 자료입니다. 2027 지원액·신청일·적격성을 확정하지 않습니다.",
+        "평균 지원액은 최대액·최소 보장액·선정 확률이 아닙니다. 부가세·비인정비용·선지출은 별도 현금입니다.",
+        "지역 분류는 2026 원문 붙임 6의 실제 본점 소재지 기준입니다. 임의 이전·시도 단위 자동 판정은 하지 않습니다.",
+        "금액은 원 단위 수학적 하한이며 공고 예시의 천원 단위 표시·협약 인정액과 다를 수 있습니다."
+      ],
+      "restrictions": [
+        "2026 중앙정부·공공기관 창업사업화 동시수행 제한을 확인해야 합니다. 신청과 협약·수행은 다른 단계입니다.",
+        "초기 일반형·딥테크·투자연계형은 2026 중복 신청 가능하나 1개 유형만 수행 가능한 구조였습니다.",
+        "이전 연도·지자체·R&D 사업을 모두 허용하거나 모두 금지하는 뜻이 아닙니다. 사업별 조항과 동일 비용을 별도 확인하십시오."
+      ],
+      "tasks": [
+        {
+          "id": "customer",
+          "label": "실제 고객 인터뷰·유료 실증 수요와 문제 비용 정리",
+          "basis": "내부 준비 제안 · 제출 필수서류로 확정한 항목 아님"
+        },
+        {
+          "id": "demo",
+          "label": "작동하는 제품 데모와 기존 방식 대비 성능·비용 자료",
+          "basis": "내부 준비 제안"
+        },
+        {
+          "id": "rights",
+          "label": "코드·학습데이터·콘텐츠 사용권과 팀의 권리 관계 정리",
+          "basis": "내부 준비 제안"
+        },
+        {
+          "id": "history",
+          "label": "대표·기업의 이전 사업·지원사업·확약서 이력 정리",
+          "basis": "원문 자격·제외요건 확인을 위한 준비"
+        },
+        {
+          "id": "budget",
+          "label": "견적·현물 인정 증빙·운영현금·지급 시차 준비",
+          "basis": "사업비 구성과 집행 범위 별도 검토"
+        },
+        {
+          "id": "new_notice",
+          "label": "2027 수혜기업 원공고·수정공고·서식 확인",
+          "basis": "차년도 확정 조건 없음 · 가장 먼저 재확인"
+        },
+        {
+          "id": "review",
+          "label": "새 공고의 자격·중복지원·지역 분류를 담당기관과 확인",
+          "basis": "2026 참고 규칙을 2027에 자동 적용 금지"
+        }
+      ]
+    }
+  ]
+}

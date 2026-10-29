@@ -121,3 +121,13 @@ Next scope remains attachment-body extraction with source locations, additional 
 See RELEASE_P05.md. New route: planning.html. Three reviewed standard annual voucher formulae, six scoped restriction checks across two programs, and one consortium ambiguity held for clarification. Five rule bundles cover three notices; no full eligibility, regional uplift, multiyear sum or funding portfolio optimizer is claimed. Inputs remain memory-only with explicit private local export.
 
 Build order: condition_catalog.py, funding_catalog.py, validate.py, allowlisted build. Both derived catalogs are regenerated after collector updates and after rebase. Tests: python -m unittest discover -s scripts -p test_planning.py -v; node --test scripts/test_planning.cjs scripts/test_planning_ui.cjs. Existing registry and public source records are preserved.
+
+## P0.6 early/pre-startup historical preparation (2026-10-29)
+
+See RELEASE_P06.md. New route: startup.html. Three reviewed 2026 reference routes (pre-startup second revision, early general, early deeptech), nine historical funding scenarios, and a seven-item internal preparation checklist. This does not promote reference entries to confirmed 2027 grants or provide a portfolio total. New 2027 title candidates are flagged for separate review.
+
+Regional selection is explicit, special-region cash-or-in-kind is distinct from zero own contribution, and pre-startup calculations cover stage one only. Average support is never a cap or a predicted award. Inputs remain page-memory-only, with explicit private local export and stale-result invalidation.
+
+A daily bounded check verifies the three reviewed original-file hashes, preserving last success on failure and holding changed/stale sources. This is not complete amendment discovery. Registry: config/startup_reference.json; audit: data/startup_sources.json; derived output: data/startup_routes.json. All existing program entries and earlier registries are preserved by this feature.
+
+Tests: python -m unittest discover -s scripts -p test_startup.py -v; node --test scripts/test_startup.cjs scripts/test_startup_ui.cjs. Both generated catalogs and the startup reference catalog are rebuilt after updates/rebase before publication.

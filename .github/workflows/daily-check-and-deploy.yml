@@ -44,6 +44,10 @@ jobs:
         run: |
           python -m unittest discover -s scripts -p test_planning.py -v
           node --test scripts/test_planning.cjs scripts/test_planning_ui.cjs
+      - name: Historical startup reference and privacy regressions
+        run: |
+          python -m unittest discover -s scripts -p test_startup.py -v
+          node --test scripts/test_startup.cjs scripts/test_startup_ui.cjs
       - name: Script syntax and public schema
         run: |
           node --check assets/app.js
@@ -51,6 +55,8 @@ jobs:
           node --check assets/eligibility-ui.js
           node --check assets/planning-core.js
           node --check assets/planning-ui.js
+          node --check assets/startup-core.js
+          node --check assets/startup-ui.js
           python -m compileall -q scripts
           python scripts/build_public.py
   update-and-publish:
@@ -87,17 +93,23 @@ jobs:
         if: github.event_name != 'push'
         continue-on-error: true
         run: python scripts/refresh_attachments.py
+      - name: Recheck reviewed historical startup originals
+        id: startup_sources
+        if: github.event_name != 'push'
+        continue-on-error: true
+        run: python scripts/refresh_startup_sources.py
       - name: Build condition catalog and validate before any public commit
         run: |
           python scripts/condition_catalog.py
           python scripts/funding_catalog.py
+          python scripts/startup_catalog.py
           python scripts/validate.py
       - name: Commit allowlisted public records only
         run: |
           if [[ -n "$(git status --porcelain -- data)" ]]; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add data/programs.json data/monitor.json data/evidence.json data/change_reviews.json data/conditions.json data/attachments.json data/funding_rules.json
+            git add data/programs.json data/monitor.json data/evidence.json data/change_reviews.json data/conditions.json data/attachments.json data/funding_rules.json data/startup_routes.json data/startup_sources.json
             git commit -m "chore: record public discovery and evidence review"
             git fetch origin main
             git rebase origin/main
@@ -105,9 +117,10 @@ jobs:
             # Rebuild and commit the derived catalog after rebase, before pushing/deploying.
             python scripts/condition_catalog.py
             python scripts/funding_catalog.py
+            python scripts/startup_catalog.py
             python scripts/validate.py
-            if ! git diff --quiet -- data/conditions.json data/funding_rules.json; then
-              git add data/conditions.json data/funding_rules.json
+            if ! git diff --quiet -- data/conditions.json data/funding_rules.json data/startup_routes.json; then
+              git add data/conditions.json data/funding_rules.json data/startup_routes.json
               git commit -m "chore: align condition catalog with rebased public records"
             fi
             git push origin HEAD:main
@@ -122,7 +135,7 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
       - name: Surface collector failure after publishing honest status
-        if: steps.refresh.outcome == 'failure' || steps.attachments.outcome == 'failure'
+        if: steps.refresh.outcome == 'failure' || steps.attachments.outcome == 'failure' || steps.startup_sources.outcome == 'failure'
         run: |
           echo '::error::Collection incomplete/failed. Previous records preserved; see public source audit.'
           exit 1

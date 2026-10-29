@@ -1,0 +1,45 @@
+{
+  "schema": "public-startup-source-checks/v1",
+  "records": {
+    "early-general": {
+      "id": "early-general",
+      "url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1065015&cbIdx=310&streFileNm=6d1ee9de-ebd4-4a28-b361-f3b43db0b3a1.hwpx",
+      "expected_sha256": "e34bdaf1618c03d37e48c4aa0836f9e03aa7b3d8b3f2b9c8a14af098a163341f",
+      "observed_sha256": "e34bdaf1618c03d37e48c4aa0836f9e03aa7b3d8b3f2b9c8a14af098a163341f",
+      "status": "matched",
+      "last_attempt_at": "2026-10-29T15:51:47+09:00",
+      "last_success_at": "2026-10-29T15:51:47+09:00",
+      "review_required": false,
+      "error": null
+    },
+    "early-deep": {
+      "id": "early-deep",
+      "url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1064566&cbIdx=310&streFileNm=af3acf02-931b-4f29-945a-5f9d792c6b42.hwpx",
+      "expected_sha256": "6bdb1a0a28bc4903361b8525c0e8988e7bfdd45d4f014cc55b4e49cbe409e658",
+      "observed_sha256": "6bdb1a0a28bc4903361b8525c0e8988e7bfdd45d4f014cc55b4e49cbe409e658",
+      "status": "matched",
+      "last_attempt_at": "2026-10-29T15:51:47+09:00",
+      "last_success_at": "2026-10-29T15:51:47+09:00",
+      "review_required": false,
+      "error": null
+    },
+    "pre": {
+      "id": "pre",
+      "url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1066579&cbIdx=310&streFileNm=236d517e-fc4d-4607-8ba0-6b2557afeb62.pdf",
+      "expected_sha256": "d705d10cd5a4be4c304a28dafd9cd054739b95781b89d196617cf96adb38304b",
+      "observed_sha256": "d705d10cd5a4be4c304a28dafd9cd054739b95781b89d196617cf96adb38304b",
+      "status": "matched",
+      "last_attempt_at": "2026-10-29T15:51:47+09:00",
+      "last_success_at": "2026-10-29T15:51:47+09:00",
+      "review_required": false,
+      "error": null
+    }
+  },
+  "run": {
+    "at": "2026-10-29T15:51:47+09:00",
+    "scope": "검토된 2026 원본 3개 URL의 파일 지문 재확인입니다. 새로운 수정공고·2027 공고 전체 탐색이 아닙니다.",
+    "matched": 3,
+    "changed": 0,
+    "failed": 0
+  }
+}

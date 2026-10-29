@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ko"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#0b1220">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'">
+<meta name="referrer" content="no-referrer"><meta name="robots" content="noindex">
+<title>예비·초기 창업 준비 | AI FUNDING RADAR 2027</title>
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="assets/style.css"><link rel="stylesheet" href="assets/eligibility.css"><link rel="stylesheet" href="assets/planning.css"><link rel="stylesheet" href="assets/startup.css">
+<script src="assets/radar-core.js" defer></script><script src="assets/planning-core.js" defer></script><script src="assets/startup-core.js" defer></script><script src="assets/startup-ui.js" defer></script>
+</head><body><a class="skip-link" href="#startupForm">준비 조건 입력으로 이동</a>
+<main class="eligibility-shell">
+<header class="eligibility-header"><a class="btn btn-secondary" href="./">← 공개 현황판</a><a class="btn btn-secondary" href="eligibility.html">공고별 조건 검토</a><a class="btn btn-secondary" href="planning.html">현재 공고 자부담 검토</a><a class="btn btn-secondary" href="attachments.html">첨부 원문</a></header>
+<section class="eligibility-intro"><span class="eyebrow">P0.6 · STARTUP PREPARATION</span><h1>예비·초기 AI 창업,<br><em>어떤 경로를 준비할 것인가.</em></h1><p>2026 종료 공고를 바탕으로 준비할 일과 필요한 자부담을 비교합니다. <strong>2027년 확정 지원금·신청자격을 계산하는 화면이 아닙니다.</strong></p></section>
+<div class="privacy-notice" role="note"><strong>입력은 이 화면 메모리에서만 처리합니다.</strong><p>자동 저장·서버 전송·기기 간 동기화가 없습니다. 이름·연락처·사업자번호를 입력하지 않습니다. 새로고침 시 입력이 사라지며, 직접 저장한 파일은 공개 저장소에 올리지 마십시오.</p></div>
+<div class="status-strip" id="startupStatus" role="status">공개 참고 자료를 확인하는 중입니다.</div>
+<section class="scope-panel"><h2>2027 원공고 확인이 먼저입니다</h2><p>기존 법인 설립 여부만으로 예비창업 자격을 확정하지 않습니다. 2026에는 기준일 이후 등록 예외가 있었습니다. 2027 기준일·예외·지원규모는 새 공고를 확인한 뒤 별도로 검토해야 합니다.</p><div id="newNotices"></div><p class="startup-muted">정기 확인은 아래에 연결된 2026 원본 파일 3개의 지문을 재확인합니다. 새 URL로 게시된 수정공고까지 모두 찾았다는 의미는 아니며, 2027 후보는 기존 공고 데이터 범위에서 별도로 표시합니다.</p></section>
+<div class="eligibility-layout planning-layout">
+<section class="input-panel"><h2>1. 준비 경로 선택</h2><form id="startupForm" autocomplete="off">
+<label for="startupRoute">2026 참고 공고<select id="startupRoute" disabled><option value="">불러오는 중</option></select></label>
+<label for="businessState">현재 사업 상태 · 자격 판정용 아님<select id="businessState"><option value="unknown">미입력</option><option value="preparing">아직 사업자 등록 전</option><option value="registered">사업자 또는 법인 등록됨</option></select></label>
+<label for="startupScenario">2026 지역·단계별 조건<select id="startupScenario" disabled><option value="">경로를 선택하십시오</option></select></label>
+<label class="check-row" for="referenceAck"><input id="referenceAck" type="checkbox">2026 참고 계산이며 2027 확정 조건이 아님을 확인했습니다.</label>
+<label class="check-row" id="regionAckRow" for="regionAck"><input id="regionAck" type="checkbox">지역 분류는 2026 붙임 6 확인 또는 가정이며, 실제 인정은 별도임을 확인했습니다.</label>
+<label for="startupSupport">요청 지원액 가정 · 원<input id="startupSupport" type="text" inputmode="numeric" maxlength="13" placeholder="선정액이 아닌 요청 시나리오"><small id="scenarioHint"></small></label>
+<label for="startupInkind">인정 가능하다고 가정한 현물 · 원<input id="startupInkind" type="text" inputmode="numeric" maxlength="13" value="0"><small>현물이 적으면 필요한 현금이 늘어납니다. 자동으로 현물 인정을 보장하지 않습니다.</small></label>
+<label for="startupExtra">별도 운영·선지출 필요 현금 · 원<input id="startupExtra" type="text" inputmode="numeric" maxlength="13" value="0"></label>
+<label for="startupAvailable">가용 자기 현금 · 원, 선택<input id="startupAvailable" type="text" inputmode="numeric" maxlength="13" placeholder="미입력은 부족액 판단 보류"></label>
+<fieldset><legend>2. 내부 준비 체크</legend><p class="startup-muted">선정 확률이나 공식 제출서류 점수가 아닙니다.</p><div id="startupTasks"></div></fieldset>
+<div class="form-actions"><button id="startupRun" class="btn btn-primary" type="button" disabled>준비 항목·참고 자부담 보기</button><button id="startupClear" class="btn btn-secondary" type="button">입력·결과 지우기</button></div>
+</form></section>
+<section class="result-panel"><div class="section-title"><h2>원문 조건과 준비 결과</h2><button class="btn btn-secondary" type="button" id="startupReload">공개 자료 다시 읽기</button></div>
+<div id="startupSummary"></div><div id="startupResult" aria-live="polite"><div class="assessment-empty">경로를 선택하고 필요한 가정을 입력하십시오.</div></div>
+<button class="btn btn-secondary report-download" id="startupExport" type="button" hidden>내 기기에 입력·결과 저장 (JSON)</button><p id="startupExportWarning" class="export-warning" hidden>이 파일에는 금액과 준비 상태가 포함됩니다. 공개 사이트·저장소에 업로드하지 마십시오.</p>
+</section></div>
+<section class="scope-panel"><h2>대안별 경로 — 합산 금지</h2><div id="startupComparison"></div><p>같은 해의 창업사업화 과제는 동시신청과 협약·수행 제한이 다를 수 있습니다. 일반형 1억원과 딥테크 1.5억원을 더해 2.5억원 확보 시나리오로 만들지 않습니다. R&amp;D·지자체 사업도 별도 공고 검토 전 병행 허용으로 처리하지 않습니다.</p></section>
+<footer>AI FUNDING RADAR 2027 <span>P0.6 · 2026 종료 공고 기반 준비 · 실제 신청·투자·대출 실행 없음</span></footer>
+</main></body></html>

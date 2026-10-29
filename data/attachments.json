@@ -1,9 +1,9 @@
 {
   "schema": "public-funding-attachments/v1",
   "version": "0.4.0",
-  "generated_at": "2026-10-29T15:03:49+09:00",
+  "generated_at": "2026-10-29T16:01:58+09:00",
   "run": {
-    "at": "2026-10-29T15:03:49+09:00",
+    "at": "2026-10-29T16:01:58+09:00",
     "notice_success": 3,
     "notice_failed": 0,
     "attempted": 4,
@@ -13,7 +13,7 @@
     "failed": 0,
     "changed": 0,
     "manifest_changed": 0,
-    "queued_total": 19,
+    "queued_total": 26,
     "scope": "회차당 원문 최대 3건·첨부 최대 4건. 본문 추출은 자격 검증이 아니며 전체 기관 수집을 뜻하지 않습니다."
   },
   "records": {
@@ -2311,6 +2311,618 @@
           "표·그림·각주 의미와 문서의 모든 제외조건은 미검토"
         ]
       }
+    },
+    "7970a877ad0c3c3d1a41ee86": {
+      "id": "7970a877ad0c3c3d1a41ee86",
+      "program_id": "BIZINFO-PBLN_000000000117371",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000117371",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000740619&fileSn=0",
+      "name": "다운로드",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-10-29T16:01:58+09:00",
+      "last_success_at": "2026-10-29T16:01:58+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-10-29T16:01:58+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "3cd81c46293e4d64c438590840a37ff7ece3378f7764ed89fb68dd7399dcb868"
+        }
+      ],
+      "observed_sha256": "3cd81c46293e4d64c438590840a37ff7ece3378f7764ed89fb68dd7399dcb868",
+      "sha256": "3cd81c46293e4d64c438590840a37ff7ece3378f7764ed89fb68dd7399dcb868",
+      "extraction": {
+        "format": "hwp",
+        "parser": "olefile/0.47+hwp-body/0.4.0",
+        "sha256": "3cd81c46293e4d64c438590840a37ff7ece3378f7764ed89fb68dd7399dcb868",
+        "bytes": 81920,
+        "status": "text_extracted",
+        "text_characters": 1937,
+        "units": 77,
+        "text_sha256": "72397b365cbcc4da69d6e60e190991843f03556bebef58ae1e62364ec323d2da",
+        "pages": null,
+        "sections": 1,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "e71623f4f944c903bdea",
+            "category": "deadline",
+            "excerpt": "○ 공고 및 접수기간 : 2026. 1. 9 ~ 예산 소진시",
+            "locator": "BodyText/Section0 / record 50 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "e495b56b4598e5b33d66",
+            "category": "amount",
+            "excerpt": "○ 지원규모 : 기업당 최대 3억 5천만원 이내(보조금 항목당 1회만 신청가능)",
+            "locator": "BodyText/Section0 / record 54 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "9726ecea0e11470f2dd6",
+            "category": "eligibility",
+            "excerpt": "○ 지원대상 : 기본요건과 세부지원항목별 지원기준을 만족 하는 기업",
+            "locator": "BodyText/Section0 / record 65 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "435d276afbc0fd50be56",
+            "category": "amount",
+            "excerpt": "∙ 임대료의 50% 이내(2년까지 최대 2천만원)",
+            "locator": "BodyText/Section0 / record 136 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "f1cbcdcfc094d48279bb",
+            "category": "documents",
+            "excerpt": "○ 제출서류 : 인공지능산업융합사업단( www.aica-gj.kr) 홈페이지 공고문에 첨부된 서류(신청서, 계획서 등)를 내려받아 인공지능(AI)유치기업 보조금 지원사업 관리기준의 각 지원 항목별 서류 목록 준수하여 작성 후 제출",
+            "locator": "BodyText/Section0 / record 380 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "1106bb38f4d79b4b6232",
+            "category": "eligibility",
+            "excerpt": "○ 지원 대상으로 확정 통보를 받았다고 하더라도, 협약 시에 필요 서류를 제출하지 않을 경우 협약 및 선정이 취소될 수 있음",
+            "locator": "BodyText/Section0 / record 396 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "32b4e3fbeeb4e6bf3d9c",
+            "category": "amount",
+            "excerpt": "○ 타인의 지식재산권에 대한 침해 사실이 확인될 경우는 선정취소, 지원금 환수, 민‧형사상 법적인 조치를 취할 수 있음",
+            "locator": "BodyText/Section0 / record 400 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "a2db9239f9438042c7ad",
+            "category": "amount",
+            "excerpt": " 신청 내용이 음란, 폭력물, 불법정보 등 불법 및 위법인 경우는 심사에서 제외되거나, 선정 후에도 선정이 취소되며 지원금이 환수됨",
+            "locator": "BodyText/Section0 / record 404 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "03afe7e57480a31ad143",
+            "category": "amount",
+            "excerpt": "○ 보조금의 부당 사용, 지식재산권 분쟁 등 협약의 해약 사유가 발생할 경우는 지원금이 환수되며 관련 규정에 따라 제재 조치를 받을 수 있음",
+            "locator": "BodyText/Section0 / record 412 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "구역·레코드 위치는 실제 인쇄 쪽번호가 아닙니다.",
+          "표·그림·각주 의미와 문서의 모든 제외조건은 미검토"
+        ]
+      }
+    },
+    "e7d63d95710377be6ed96ed1": {
+      "id": "e7d63d95710377be6ed96ed1",
+      "program_id": "BIZINFO-PBLN_000000000117371",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000117371",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000740620&fileSn=0",
+      "name": "다운로드",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
+    },
+    "c9fd9e863ad7103844a11e03": {
+      "id": "c9fd9e863ad7103844a11e03",
+      "program_id": "BIZINFO-PBLN_000000000117371",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000117371",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000740620&fileSn=1",
+      "name": "다운로드",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
+    },
+    "90c1ad618f3050bc55a7d341": {
+      "id": "90c1ad618f3050bc55a7d341",
+      "program_id": "BIZINFO-PBLN_000000000117583",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000117583",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000741150&fileSn=0",
+      "name": "다운로드",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
+    },
+    "3a624bb29e87f609780172f7": {
+      "id": "3a624bb29e87f609780172f7",
+      "program_id": "BIZINFO-PBLN_000000000117583",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000117583",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000741161&fileSn=0",
+      "name": "다운로드",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-10-29T16:01:58+09:00",
+      "last_success_at": "2026-10-29T16:01:58+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-10-29T16:01:58+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "e1c531c617626084aa7a28ceba3120fa4000662f454b0c9fc4d8d0f84f7d43d1"
+        }
+      ],
+      "observed_sha256": "e1c531c617626084aa7a28ceba3120fa4000662f454b0c9fc4d8d0f84f7d43d1",
+      "sha256": "e1c531c617626084aa7a28ceba3120fa4000662f454b0c9fc4d8d0f84f7d43d1",
+      "extraction": {
+        "format": "hwp",
+        "parser": "olefile/0.47+hwp-body/0.4.0",
+        "sha256": "e1c531c617626084aa7a28ceba3120fa4000662f454b0c9fc4d8d0f84f7d43d1",
+        "bytes": 76800,
+        "status": "text_extracted",
+        "text_characters": 3171,
+        "units": 195,
+        "text_sha256": "a639f489f10232daf8359232abd73caed4ce11578a8d6454e744e10e9058d293",
+        "pages": null,
+        "sections": 1,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "4c8998450fdbc42f5634",
+            "category": "eligibility",
+            "excerpt": "춘천시 창업지원자금(중소기업동행지원) 신청서",
+            "locator": "BodyText/Section0 / record 16 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "1381586c21add3a6e9f7",
+            "category": "amount",
+            "excerpt": "가 없음을 확인하며, 추후 허위 등의 사유 등 문제 발생, 융자금 사업 목적 외 타 용도로 사용 시 지원 중단 또는 지원금이 환수될 수 있음을",
+            "locator": "BodyText/Section0 / record 228 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "004392e97010bd605348",
+            "category": "eligibility",
+            "excerpt": "※ 지원대상 기업으로 선정되었더라도 금융기관의 보증이 불가하거나 여신거래가 불가한 경우",
+            "locator": "BodyText/Section0 / record 290 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "c75b9eabc014504c86a9",
+            "category": "amount",
+            "excerpt": "지원이 이루어지지 않을 수 있으며, 심사과정에서 지원금액이 조정될 수 있습니다.",
+            "locator": "BodyText/Section0 / record 294 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "83ce8bd1e3507d01938f",
+            "category": "eligibility",
+            "excerpt": "춘천시에서는 귀하의 개인정보를 중요시하며, 춘천시 창업지원자금(중소기업 동행지원) 지원 및 자격요건 확인, 신청 결과 및 기업지원시책에 관한 안내 문자, 전수조사, 은행 정보 확인 등 개인정보 보호법 제15조, 제17조에 따라 아래와 같이 동의를 얻고자 합니다.",
+            "locator": "BodyText/Section0 / record 522 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "993e7b7e58f1ee88ab4b",
+            "category": "exclusion",
+            "excerpt": "기업 휴·폐업, 관외 이전을 확인하기 위한 전수조사를 위한 개인 및 기업정보 (업체명, 대표자명, 사업자등록번호,대출실행 정보) 이용 및 제공",
+            "locator": "BodyText/Section0 / record 637 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "bbd6b36b21167e04951b",
+            "category": "eligibility",
+            "excerpt": "「춘천시 창업지원자금(중소기업동행지원)」",
+            "locator": "BodyText/Section0 / record 711 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "e67f75b8bb2f0989b355",
+            "category": "eligibility",
+            "excerpt": "□ 소재지",
+            "locator": "BodyText/Section0 / record 825 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "124374374fb3047820c7",
+            "category": "exclusion",
+            "excerpt": "융자추천 제외대상 업종",
+            "locator": "BodyText/Section0 / record 1434 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "구역·레코드 위치는 실제 인쇄 쪽번호가 아닙니다.",
+          "표·그림·각주 의미와 문서의 모든 제외조건은 미검토"
+        ]
+      }
+    },
+    "132fb5ef5e136159791fe39f": {
+      "id": "132fb5ef5e136159791fe39f",
+      "program_id": "BIZINFO-PBLN_000000000117603",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000117603",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000741184&fileSn=0",
+      "name": "다운로드",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-10-29T16:01:58+09:00",
+      "last_success_at": "2026-10-29T16:01:58+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-10-29T16:01:58+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "2e080d50c9e1f94e749f8cf3802138704463b1ef35b80d50530b06bba0cdee49"
+        }
+      ],
+      "observed_sha256": "2e080d50c9e1f94e749f8cf3802138704463b1ef35b80d50530b06bba0cdee49",
+      "sha256": "2e080d50c9e1f94e749f8cf3802138704463b1ef35b80d50530b06bba0cdee49",
+      "extraction": {
+        "format": "hwp",
+        "parser": "olefile/0.47+hwp-body/0.4.0",
+        "sha256": "2e080d50c9e1f94e749f8cf3802138704463b1ef35b80d50530b06bba0cdee49",
+        "bytes": 69632,
+        "status": "text_extracted",
+        "text_characters": 2808,
+        "units": 102,
+        "text_sha256": "3b8a2e590b6e5d289207199403006d2fde71fa15834d7fc317a7c4b997a75d76",
+        "pages": null,
+        "sections": 1,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "acb04680e0d7cbbb1b5c",
+            "category": "eligibility",
+            "excerpt": "2026년도 원주시 창업기업자금 동행지원 계획 공고",
+            "locator": "BodyText/Section0 / record 14 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "e2bc0b6db103ab1df0fe",
+            "category": "eligibility",
+            "excerpt": "2026년도 원주시 창업기업자금 동행지원 계획을 다음과 같이 공고 합니다.",
+            "locator": "BodyText/Section0 / record 22 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "487afbad62029b14d484",
+            "category": "eligibility",
+            "excerpt": "■ 원주시 창업기업자금 동행지원 계획",
+            "locator": "BodyText/Section0 / record 43 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "19f3cd9f14059081d2fa",
+            "category": "documents",
+            "excerpt": "※ 은행 대출 상담 시 구비 서류는 해당 은행에 문의 후 방문 요망",
+            "locator": "BodyText/Section0 / record 102 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "63d36b1e7d466ba3b87e",
+            "category": "eligibility",
+            "excerpt": "2. 지원대상",
+            "locator": "BodyText/Section0 / record 118 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "834247ff7dedd814ef6d",
+            "category": "eligibility",
+            "excerpt": " 신청일 현재 원주시에 소재하며 다음에 해당하는 창업 7년 이내 중소기업",
+            "locator": "BodyText/Section0 / record 122 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "e66bb8312a84ca989912",
+            "category": "exclusion",
+            "excerpt": "3. 지원 제외 대상",
+            "locator": "BodyText/Section0 / record 183 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "52643fc7dc4cbd7d1a37",
+            "category": "exclusion",
+            "excerpt": "① 「원주시 지역경제촉진 등에 관한 조례」 제4조 융자추천 제외 대상 업체",
+            "locator": "BodyText/Section0 / record 187 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "677429f97871ba892e82",
+            "category": "exclusion",
+            "excerpt": "② 세금(국세 또는 지방세)을 체납 중인 업체",
+            "locator": "BodyText/Section0 / record 211 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "a06fb24d6801c723dd8d",
+            "category": "deadline",
+            "excerpt": "4. 신청기간 : 2026. 1. 6. ~ 2026. 12.(자금 소진 시까지)",
+            "locator": "BodyText/Section0 / record 246 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "02f38411e43719c3a5ec",
+            "category": "documents",
+            "excerpt": "7. 구비서류",
+            "locator": "BodyText/Section0 / record 348 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "c47c33f5fefd6597d3b8",
+            "category": "documents",
+            "excerpt": " 융자금 전액 사용 시 완료보고서【서식 4】 및 증빙자료 제출 :",
+            "locator": "BodyText/Section0 / record 425 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "2a0eb6e653c5b2a30352",
+            "category": "documents",
+            "excerpt": "※지출증빙자료: 융자금 계좌거래내역, 세금계산서, 급여대장, 영수증 등",
+            "locator": "BodyText/Section0 / record 433 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "ef1bb5a8e3a88b0e4faf",
+            "category": "exclusion",
+            "excerpt": " 휴‧폐업 및 타 시군구 이전기업 지원 중지",
+            "locator": "BodyText/Section0 / record 441 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "80bfd94471b15ef9283c",
+            "category": "exclusion",
+            "excerpt": "약 보증기관의 보증을 연계해 협약 금융기관의 자금을 융자하는 것으로, 신청 기업에 대한 적격여부 심사과정에서 지원이 제외될 수 있으며, 지원 대상으로 선정되었더라도 협약 금융기관의 보증이 불가하거나 여신거래가 불가한 경우 융자가 이루어지지 않을 수 있음",
+            "locator": "BodyText/Section0 / record 481 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "구역·레코드 위치는 실제 인쇄 쪽번호가 아닙니다.",
+          "표·그림·각주 의미와 문서의 모든 제외조건은 미검토"
+        ]
+      }
+    },
+    "52c0073409bf4a3605132c87": {
+      "id": "52c0073409bf4a3605132c87",
+      "program_id": "BIZINFO-PBLN_000000000117603",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000117603",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000741185&fileSn=0",
+      "name": "다운로드",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-10-29T16:01:58+09:00",
+      "last_success_at": "2026-10-29T16:01:58+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-10-29T16:01:58+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "23041797987f8cb46258ac8fd8f88c4edada40e7ceaf8fc785ddc017241ce258"
+        }
+      ],
+      "observed_sha256": "23041797987f8cb46258ac8fd8f88c4edada40e7ceaf8fc785ddc017241ce258",
+      "sha256": "23041797987f8cb46258ac8fd8f88c4edada40e7ceaf8fc785ddc017241ce258",
+      "extraction": {
+        "format": "hwp",
+        "parser": "olefile/0.47+hwp-body/0.4.0",
+        "sha256": "23041797987f8cb46258ac8fd8f88c4edada40e7ceaf8fc785ddc017241ce258",
+        "bytes": 71680,
+        "status": "text_extracted",
+        "text_characters": 2821,
+        "units": 235,
+        "text_sha256": "b0fd234a24f546cb3bf151142500c418948debebfde8d4ae7568ac4a9a0229ee",
+        "pages": null,
+        "sections": 1,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "7e931bdc42e96dac4de1",
+            "category": "eligibility",
+            "excerpt": "「원주시 창업기업자금 동행지원」신청서",
+            "locator": "BodyText/Section0 / record 16 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "b15bb842b0b483a5f658",
+            "category": "eligibility",
+            "excerpt": "원주시 창업기업자금 동행지원 신청을 위해 제출된 모든 서류에 허위가 없음을 확인하며, 추후 허위 등의 사유 등 문제 발생, 융자금 사업 목적 외 타 용도로 사용 시 지원 중단 또는 지원금이 환수될 수 있음을 확인합니다.",
+            "locator": "BodyText/Section0 / record 238 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "a51a349f4bb6fdb6f345",
+            "category": "amount",
+            "excerpt": "가 없음을 확인하며, 추후 허위 등의 사유 등 문제 발생, 융자금 사업 목적 외 타 용도로 사용 시 지원 중단 또는 지원금이 환수될 수 있음을 확인합니다.",
+            "locator": "BodyText/Section0 / record 238 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "b39a35bfa96b39f62a3f",
+            "category": "documents",
+            "excerpt": "인은 위 사무의 처리를 위하여 「전자정부법」 제36조 제1항에 따른 행정정보의 공동이용을 활용하여 업무처리 담당자가 구비서류를 확인하는 것에 동의합니다. ※ 동의하지 아니하는 경우에는 신청인이 직접 서류를 제출하여야 합니다.",
+            "locator": "BodyText/Section0 / record 272 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "8d3f64c3635b92548dbb",
+            "category": "amount",
+            "excerpt": "※ 본 확인증이 최종 추천선정 여부 및 금융기관의 최종 대출지원 여부를 결정하는 것은 아니며,지원가능 여부 및 지원금액은 금융기관의 대출 심사 결과에 따라 달라질 수 있음",
+            "locator": "BodyText/Section0 / record 323 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "3763b3ae7907261c3f65",
+            "category": "eligibility",
+            "excerpt": "- 창업기업자금 동행지원에 따른 기대효과",
+            "locator": "BodyText/Section0 / record 347 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "f0805837eefbf5133020",
+            "category": "exclusion",
+            "excerpt": "휴 폐업 시 이차보전 중단 및 회수의 대상이 되며 향후 시 자금신청 시 지원 제외대상이 될 수 있습니다. 자금승인 취소 및 이차보전 중단(회수) 등에 이의가 없음을 확인합니다.",
+            "locator": "BodyText/Section0 / record 551 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "3727ba4f6ae5beb32d7b",
+            "category": "eligibility",
+            "excerpt": "「원주시 창업기업자금 동행지원」변경 신청서",
+            "locator": "BodyText/Section0 / record 566 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "7c6fd06e3a8af27da421",
+            "category": "eligibility",
+            "excerpt": "□ 소재지",
+            "locator": "BodyText/Section0 / record 676 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "5117429e459e9311dc44",
+            "category": "documents",
+            "excerpt": "공동이용을 활용하여 업무처리담당자가 구비서류를 확인하는 데에 동의합니다.",
+            "locator": "BodyText/Section0 / record 791 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "da96bcbcf879467055b7",
+            "category": "documents",
+            "excerpt": "* 지출증빙서류 별도 첨부",
+            "locator": "BodyText/Section0 / record 1291 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "1212ea3434bee88dd479",
+            "category": "exclusion",
+            "excerpt": "융자추천 제외대상 업종",
+            "locator": "BodyText/Section0 / record 1429 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "구역·레코드 위치는 실제 인쇄 쪽번호가 아닙니다.",
+          "표·그림·각주 의미와 문서의 모든 제외조건은 미검토"
+        ]
+      }
     }
   },
   "programs": {
@@ -2428,6 +3040,46 @@
         "acd7d0bb8dadfecb761c9299",
         "24edaf1516a87e12d57c9c39",
         "3faf62058a33d05f4845b302"
+      ],
+      "review_required": false,
+      "last_error": null
+    },
+    "BIZINFO-PBLN_000000000117371": {
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000117371",
+      "last_notice_attempt_at": "2026-10-29T16:01:58+09:00",
+      "last_notice_success_at": "2026-10-29T16:01:58+09:00",
+      "notice_status": "links_available",
+      "manifest_sha256": "f87d93f99f3a62cbde7516cf537be339030d10e5371931fc715b8d604488240f",
+      "document_ids": [
+        "7970a877ad0c3c3d1a41ee86",
+        "e7d63d95710377be6ed96ed1",
+        "c9fd9e863ad7103844a11e03"
+      ],
+      "review_required": false,
+      "last_error": null
+    },
+    "BIZINFO-PBLN_000000000117583": {
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000117583",
+      "last_notice_attempt_at": "2026-10-29T16:01:58+09:00",
+      "last_notice_success_at": "2026-10-29T16:01:58+09:00",
+      "notice_status": "links_available",
+      "manifest_sha256": "1fd77975df089b8186e9a25f631a1e543c036b992e5c267f4a0290b60a74a5b2",
+      "document_ids": [
+        "90c1ad618f3050bc55a7d341",
+        "3a624bb29e87f609780172f7"
+      ],
+      "review_required": false,
+      "last_error": null
+    },
+    "BIZINFO-PBLN_000000000117603": {
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000117603",
+      "last_notice_attempt_at": "2026-10-29T16:01:58+09:00",
+      "last_notice_success_at": "2026-10-29T16:01:58+09:00",
+      "notice_status": "links_available",
+      "manifest_sha256": "2f8b3f45ddb9e5d70f6dfffafc9e1d935830a1d8f920e50b02770cfd2de79e87",
+      "document_ids": [
+        "132fb5ef5e136159791fe39f",
+        "52c0073409bf4a3605132c87"
       ],
       "review_required": false,
       "last_error": null

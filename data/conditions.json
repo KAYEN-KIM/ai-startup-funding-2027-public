@@ -1,8 +1,8 @@
 {
   "schema": "public-funding-conditions/v1",
   "version": "0.3.0",
-  "generated_at": "2026-10-29T11:13:46+09:00",
-  "input_fingerprint": "e8840a1054af189f6d58a9f9f17425a8b97261dc36656e8324d12bd67fe55bc7",
+  "generated_at": "2026-10-29T16:00:36+09:00",
+  "input_fingerprint": "49485c245b21afa9224245fa5a2cc7e36ed274bf8f84c2bb09da49246fa9e80e",
   "disclaimer": "요약에서 확인한 조건만 판정합니다. 자동 추출은 미검증 후보이며 기관의 최종 심사를 대체하지 않습니다.",
   "records": {
     "IBK-2027-1": {
@@ -4612,6 +4612,60 @@
         "amount": "지원금액 · 공고 원문 확인 필요",
         "opens": null,
         "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000127547": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000127547",
+      "basis_fingerprint": "859dd74c011fe4cab65630fe74899792895ef80eea719d76972b50c07636ddaf",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000127547",
+        "title": "[대구] 2026년 글로벌 AI로봇 특화지구 조성 사업 지원기업 모집 공고(아태 AI 특화지구(AHAP) 조성 사업)",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127547",
+        "year": 2026,
+        "eligibility": "중소기업",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": "2026-10-28",
+        "deadline": "2026-11-16"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000127546": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000127546",
+      "basis_fingerprint": "84273b344f789f58ae28a36bea56d73eaa660b5c1ff32c7bda8b48db282683d4",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000127546",
+        "title": "[대전] 2026년 창업도시 프로젝트 딥테크 스튜디오 플러스 프로그램 참여기업 모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127546",
+        "year": 2026,
+        "eligibility": "창업벤처",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": "2026-10-28",
+        "deadline": "2026-12-11"
       },
       "coverage": "unreviewed",
       "metadata_state": "current",

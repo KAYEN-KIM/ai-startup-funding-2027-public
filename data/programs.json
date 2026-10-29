@@ -1,6 +1,6 @@
 {
   "schema": "public-funding-radar/v1",
-  "generated_at": "2026-10-29T09:33:40+09:00",
+  "generated_at": "2026-10-29T16:00:36+09:00",
   "provenance": "공식기관 공개 공고 및 2026년 참고 제도. 2027년 미확정 사항은 자동 승격하지 않음.",
   "disclaimer": "본 자료는 신청·선정을 보장하지 않으며 최신 원문 확인 필요.",
   "items": [
@@ -4447,6 +4447,76 @@
         {
           "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000739008&fileSn=1",
           "name": "(공고문)_2026년도_중앙부처_및_지자체_창업지원사업_통합공고문(제2025-648호_2025.12.19.).pdf",
+          "status": "link_only_not_read"
+        }
+      ]
+    },
+    {
+      "id": "BIZINFO-PBLN_000000000127547",
+      "title": "[대구] 2026년 글로벌 AI로봇 특화지구 조성 사업 지원기업 모집 공고(아태 AI 특화지구(AHAP) 조성 사업)",
+      "year": 2026,
+      "years": [
+        2026
+      ],
+      "year_basis": "title",
+      "kind": "기술",
+      "mode": "discovery",
+      "relevance": "ai",
+      "opens": "2026-10-28",
+      "deadline": "2026-11-16",
+      "deadline_precision": "date",
+      "application_period_raw": "2026-10-28 ~ 2026-11-16",
+      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127547",
+      "verified_at": "2026-10-29",
+      "amount": "지원금액 · 공고 원문 확인 필요",
+      "eligibility": "중소기업",
+      "note": "공식 API 목록 발견. 신청자격·지원금·첨부 조건은 검증 전입니다.",
+      "source_level": "official_api_index_not_full_application_verified",
+      "agency": "과학기술정보통신부",
+      "attachments": [
+        {
+          "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000778101&fileSn=2@https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000778101&fileSn=3@https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000778101&fileSn=4",
+          "name": "붙임3. (서식) 대구 글로벌 AI로봇 특화지구 조성 사업 참여기업 신청 관련서류.hwpx@붙임2. (양식) 대구 글로벌 AI로봇 특화지구 조성 사업 참여기업 사업계획서(글로벌진출형).hwpx@붙임2. (양식) 대구 글로벌 AI로봇 특화지구 조성 사업 참여기업 사업계획서(성장형스타트업)",
+          "status": "link_only_not_read"
+        },
+        {
+          "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000778100&fileSn=1",
+          "name": "붙임1. 대구 글로벌 AI로봇 특화지구 조성 사업 지원기업 모집 공고.hwpx",
+          "status": "link_only_not_read"
+        }
+      ]
+    },
+    {
+      "id": "BIZINFO-PBLN_000000000127546",
+      "title": "[대전] 2026년 창업도시 프로젝트 딥테크 스튜디오 플러스 프로그램 참여기업 모집 공고",
+      "year": 2026,
+      "years": [
+        2026
+      ],
+      "year_basis": "title",
+      "kind": "창업",
+      "mode": "discovery",
+      "relevance": "ai",
+      "opens": "2026-10-28",
+      "deadline": "2026-12-11",
+      "deadline_precision": "date",
+      "application_period_raw": "2026-10-28 ~ 2026-12-11",
+      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127546",
+      "verified_at": "2026-10-29",
+      "amount": "지원금액 · 공고 원문 확인 필요",
+      "eligibility": "창업벤처",
+      "note": "공식 API 목록 발견. 신청자격·지원금·첨부 조건은 검증 전입니다.",
+      "source_level": "official_api_index_not_full_application_verified",
+      "agency": "대전광역시",
+      "attachments": [
+        {
+          "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000778105&fileSn=1@https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000778105&fileSn=2",
+          "name": "붙임3. 2026년 창업도시 프로젝트 「2026 딥테크 스튜디오 플러스」 프로그램 참여기업 모집 공고 포스터.pdf@붙임2. 2026년 창업도시 프로젝트 「2026 딥테크 스튜디오 플러스」 참가신청서 및 사업계획서.hwpx",
+          "status": "link_only_not_read"
+        },
+        {
+          "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000778104&fileSn=1",
+          "name": "붙임1. 2026년 창업도시 프로젝트 「2026 딥테크 스튜디오 플러스」 프로그램 참여기업 모집 공고+.pdf",
           "status": "link_only_not_read"
         }
       ]

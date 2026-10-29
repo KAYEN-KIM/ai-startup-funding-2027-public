@@ -15,11 +15,11 @@
     const timeText=p.deadline&&p.deadline.length>10?fmt(p.deadline)+" KST":p.deadline?"날짜만 확인 · 23:59로 가정하지 않음":"상시/미정 여부 원문 확인";
     return '<article class="program-card"><div class="card-top"><span class="tag '+verification.css+'">'+esc(verification.text)+'</span><span class="tag '+d.css+'">'+esc(d.text)+'</span><span class="tag kind">'+esc(p.kind)+'</span><span class="tag">'+esc(C.years(p).join(" · "))+'</span>'+(p.relevance==="startup_general"?'<span class="tag s-gold">일반 창업지원 · AI 전용 아님</span>':"")+'</div>'+
       '<div class="card-main"><div><h3>'+esc(p.title)+'</h3><div class="meta"><span>'+esc(p.eligibility||"신청자격 확인 필요")+'</span></div><p class="desc">'+esc(p.note||"")+'</p></div><div class="deadline"><b>'+esc(deadlineText)+'</b><span>'+esc(timeText)+'</span></div></div>'+
-      '<div class="card-bottom"><div class="amount">'+esc(p.amount||"규모 미확인")+'</div>'+link(p.source,"공식 원문")+'</div>'+
+      '<div class="card-bottom"><div class="amount">'+esc(p.amount||"규모 미확인")+'</div>'+link(p.source,"공식 원문")+(!["operator","budget"].includes(p.mode)?'<a href="applications.html#notice='+encodeURIComponent(p.id)+'">신청 준비 보드 →</a>':"")+'</div>'+
       '<details class="evidence-details"><summary>근거·첨부·변경 검토'+(reviewCount?' · 검토 대기 '+reviewCount+'건':"")+'</summary><p>'+esc(evStatus)+'</p><p>최종 원문 열람 성공: '+esc(fmt(ev?.last_success_at))+' / 최근 시도: '+esc(fmt(ev?.last_attempt_at))+'</p>'+
       (ev?.body_sha256?'<p>본문 해시: <code>'+esc(ev.body_sha256.slice(0,16))+'…</code> · 내용 변경 감지용이며 적격성 보증이 아닙니다.</p>':"")+
       (p.application_period_raw?'<p>API 신청기간 원문: '+esc(p.application_period_raw)+'</p>':"")+
-      '<p>첨부 '+attachments.length+'건: '+(attachments.length?attachments.slice(0,10).map(a=>link(C.attachmentURL(a.url,p.source),(a.name||"첨부파일")+" · 공고/원본")).join(" · "):"발견된 링크 없음")+'</p><p>첨부는 링크만 수집했습니다. 본문과 제출서류 요건은 아직 검토하지 않았습니다.</p></details></article>';
+      '<p>첨부 '+attachments.length+'건: '+(attachments.length?attachments.slice(0,10).map(a=>link(C.attachmentURL(a.url,p.source),(a.name||"첨부파일")+" · 공고/원본")).join(" · "):"발견된 링크 없음")+'</p><p>이 카드의 첨부 목록은 링크 발견 기록입니다. 본문 추출 상태는 첨부 원문 화면에서 확인하십시오. 추출된 문구도 조건 검증 완료를 뜻하지 않습니다.</p></details></article>';
   }
   function renderList() {
     const q=$("searchInput").value.trim().toLowerCase(), y=$("yearSelect").value, t=$("typeSelect").value, sort=$("sortSelect").value;
@@ -49,7 +49,7 @@
     $("openCount").textContent=state.items.filter(p=>p.mode==="beneficiary"&&["open","open_date"].includes(C.deadline(p).code)).length+"개";
     $("yearCount").textContent=state.items.filter(p=>C.years(p).includes(2027)&&p.mode==="beneficiary").length+"개";
     $("refCount").textContent=state.items.filter(p=>p.mode==="reference").length+"개";
-    $("footerDate").textContent="P0.3 · 데이터 변경일 "+day(state.meta.generated_at);
+    $("footerDate").textContent="공개 목록 · 데이터 변경일 "+day(state.meta.generated_at);
     if($("qualitySummary"))$("qualitySummary").textContent="자격 미검증 후보 "+state.items.filter(p=>p.mode==="discovery").length+"개 · 오늘 마감시각 미확인 "+state.items.filter(p=>C.deadline(p).code==="today_unknown").length+"개 · API 차이 검토 "+state.reviews.items.filter(r=>r.status==="pending").length+"건. 수혜기업 모집 분류는 귀사 적격 판정이 아닙니다.";
   }
   function renderMonitor() {
@@ -65,7 +65,7 @@
     $("successState").textContent="API 목록 수집 성공과 원문·첨부 검증은 별개입니다. 36시간 이상 갱신되지 않으면 경고합니다.";
     if($("sourceAudit")) {
       const h=m.sources?.html_evidence, ed=m.sources?.editorial;
-      $("sourceAudit").innerHTML='<div class="audit-box"><b>자료원별 확인 범위</b><p>기업마당 API: '+esc(a.checked_count??m.checked_count??0)+'건 · '+esc(a.pages??"기록 없음")+'페이지 / 제공 총건수 '+esc(a.reported_total??"미확인")+' · '+(a.coverage_complete?"API 제공 범위 확인 완료":"일부 범위 또는 실패")+'</p><p>원문 HTML: '+esc(h?.success??0)+'건 성공 / '+esc(h?.failed??0)+'건 실패 · '+esc(fmt(h?.last_attempt_at))+'</p><p>독립 상세공고 검토 기록: '+esc(fmt(ed?.last_attempt_at))+' (API 수집 시각과 별도)</p><p>기관 전체 직접 수집과 첨부 PDF/HWP 본문 검증은 아직 제공하지 않습니다.</p>'+(state.optionalErrors.length?'<p class="warning">보조자료 로드 실패: '+esc(state.optionalErrors.join(", "))+'</p>':"")+'</div>';
+      $("sourceAudit").innerHTML='<div class="audit-box"><b>자료원별 확인 범위</b><p>기업마당 API: '+esc(a.checked_count??m.checked_count??0)+'건 · '+esc(a.pages??"기록 없음")+'페이지 / 제공 총건수 '+esc(a.reported_total??"미확인")+' · '+(a.coverage_complete?"API 제공 범위 확인 완료":"일부 범위 또는 실패")+'</p><p>원문 HTML: '+esc(h?.success??0)+'건 성공 / '+esc(h?.failed??0)+'건 실패 · '+esc(fmt(h?.last_attempt_at))+'</p><p>독립 상세공고 검토 기록: '+esc(fmt(ed?.last_attempt_at))+' (API 수집 시각과 별도)</p><p>기관 전체 직접 수집은 아직 제공하지 않습니다. 첨부 본문 추출은 별도 순환 수집 범위에서 이루어지며 전체 조건 검증이 아닙니다.</p>'+(state.optionalErrors.length?'<p class="warning">보조자료 로드 실패: '+esc(state.optionalErrors.join(", "))+'</p>':"")+'</div>';
     }
     if($("reviewList")) {
       const pending=state.reviews.items.filter(r=>r.status==="pending");

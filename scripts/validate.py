@@ -6,7 +6,7 @@ from pathlib import Path
 from radar_core import official_url
 from condition_catalog import build_catalog, validate_registry
 ROOT=Path(__file__).resolve().parents[1]
-FILES={'programs.json','monitor.json','evidence.json','change_reviews.json','conditions.json'}
+FILES={'programs.json','monitor.json','evidence.json','change_reviews.json','conditions.json','attachments.json'}
 PROGRAM_FIELDS={'id','title','year','years','year_basis','kind','mode','relevance','opens','deadline','deadline_precision','application_period_raw','source','verified_at','amount','eligibility','note','priority','source_level','agency','attachments'}
 PRIVATE={'company_profile','applicant_profile','applicant_memo','resident_number','taxpayer_id','bank_account','access_token','secret_key','password','api_key','crtfcKey','serviceKey','budget_private','application_documents'}
 MODES={'beneficiary','discovery','reference','operator','budget'}
@@ -62,6 +62,9 @@ def main():
     scan(registry);validate_registry(registry)
     require('conditions.json' in loaded,'Conditions catalog missing')
     require(loaded['conditions.json']==build_catalog(p,registry),'Condition catalog is stale or contains unsupported fields; rebuild it')
+    from attachment_core import validate_public
+    require('attachments.json' in loaded,'Attachment catalog missing')
+    validate_public(loaded['attachments.json'])
     print('Public schema validation OK:',len(items),'records;',len(found),'allowlisted JSON files')
 
 if __name__=='__main__':main()

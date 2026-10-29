@@ -2,7 +2,7 @@
 'use strict';
 (() => {
   const $=id=>document.getElementById(id), E=window.EligibilityCore, C=window.RadarCore, esc=C.esc;
-  const state={ready:false,programs:[],conditions:{records:{}},evidence:{records:{}},reviews:{items:[]},last:null};
+  const state={ready:false,programs:[],conditions:{records:{}},evidence:{records:{}},reviews:{items:[]},attachments:{records:{},programs:{}},last:null};
   const booleanFields=['is_sme','innovation','digital_capability'];
   const textValue=v=>v===true?'해당·보유':v===false?'비해당·미보유':({not_established:'미설립',sole_proprietor:'개인사업자',corporation:'법인사업자'}[v]||String(v??'미입력'));
   function readInput(){
@@ -16,7 +16,7 @@
   }
   function safeLink(url,label){const value=C.sourceURL(url);return value?'<a href="'+esc(value)+'" target="_blank" rel="noopener noreferrer">'+esc(label)+' ↗</a>':esc('출처 미확인');}
   function conditionFor(p){return state.conditions.records[p.id]||null;}
-  function evaluate(p,input,now){return E.evaluate(p,conditionFor(p),input,{now,evidence:state.evidence.records[p.id],reviews:state.reviews.items});}
+  function evaluate(p,input,now){return E.evaluate(p,conditionFor(p),input,{now,evidence:state.evidence.records[p.id],reviews:state.reviews.items,attachments:state.attachments});}
   function resetResult(){state.last=null;$('exportReport').hidden=true;$('exportWarning').hidden=true;$('comparisonPanel').hidden=true;$('comparisonResults').replaceChildren();}
   function renderResult(p,r,input){
     const condition=conditionFor(p),d=C.deadline(p);
@@ -26,7 +26,7 @@
     const missing=r.missing_fields?.length?'<p class="missing-fields">입력 필요: '+r.missing_fields.map(x=>esc(E.FIELDS[x])).join(' · ')+'</p>':'';
     const facts=(condition?.candidate_facts||[]).slice(0,8);
     const candidates=facts.length?'<details class="candidate-panel"><summary>자동 추출 후보 '+facts.length+'건 — 판정에는 사용하지 않음</summary>'+facts.map(f=>'<p><span class="tag s-purple">미검증</span> '+esc(f.excerpt)+' <small>('+esc(f.origin_field)+')</small></p>').join('')+'</details>':'';
-    $('result').innerHTML='<article class="assessment-result"><div class="assessment-heading"><span class="tag '+color+'">'+esc(r.label)+'</span><span class="tag '+d.css+'">'+esc(d.text)+'</span></div><h3>'+esc(p.title)+'</h3><p>'+r.reasons.map(esc).join(' ')+'</p>'+missing+rows+questions+candidates+'<p class="assessment-disclaimer">'+esc(r.disclaimer)+'</p>'+safeLink(p.source,'전체 공고')+'</article>';
+    $('result').innerHTML='<article class="assessment-result"><div class="assessment-heading"><span class="tag '+color+'">'+esc(r.label)+'</span><span class="tag '+d.css+'">'+esc(d.text)+'</span></div><h3>'+esc(p.title)+'</h3><p>'+r.reasons.map(esc).join(' ')+'</p>'+missing+rows+questions+candidates+'<p class="assessment-disclaimer">'+esc(r.disclaimer)+'</p>'+safeLink(p.source,'전체 공고')+' · <a href="attachments.html">첨부 조건 후보 확인 ↗</a></article>';
     state.last={schema:'local-funding-precheck/v1',created_at:new Date().toISOString(),private_local_input:input,program:{id:p.id,title:p.title,source:p.source},result:r};
     $('exportReport').hidden=false;$('exportWarning').hidden=false;
   }
@@ -64,9 +64,10 @@
     const stamp=Date.now();
     const get=async name=>{const response=await fetch('data/'+name+'?v='+stamp,{cache:'no-store',credentials:'omit',referrerPolicy:'no-referrer'});if(!response.ok)throw new Error(name+' HTTP '+response.status);return response.json();};
     try{
-      const [p,c,e,r]=await Promise.all(['programs.json','conditions.json','evidence.json','change_reviews.json'].map(get));
+      const [p,c,e,r,a]=await Promise.all(['programs.json','conditions.json','evidence.json','change_reviews.json','attachments.json'].map(get));
+      if(a.schema!=='public-funding-attachments/v1'||!a.records||!a.programs)throw new Error('첨부 근거를 확인할 수 없습니다.');
       if(p.schema!=='public-funding-radar/v1'||c.schema!=='public-funding-conditions/v1'||e.schema!=='public-funding-evidence/v1'||r.schema!=='public-funding-reviews/v1'||!Array.isArray(p.items)||!c.records||!e.records||!Array.isArray(r.items))throw new Error('공개 자료의 스키마가 일치하지 않습니다.');
-      state.programs=p.items;state.conditions=c;state.evidence=e;state.reviews=r;state.ready=true;
+      state.programs=p.items;state.conditions=c;state.evidence=e;state.reviews=r;state.attachments=a;state.ready=true;
       const programs=[...p.items].sort((a,b)=>Number(Boolean(c.records[b.id]?.clauses.length))-Number(Boolean(c.records[a.id]?.clauses.length))||a.title.localeCompare(b.title,'ko'));
       $('programChoice').replaceChildren();
       for(const item of programs){const option=document.createElement('option');option.value=item.id;option.textContent=(c.records[item.id]?.clauses.length?'[부분 규칙 검토] ':'[규칙 미검토] ')+item.title;$('programChoice').append(option);}

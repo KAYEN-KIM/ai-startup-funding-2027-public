@@ -103,3 +103,15 @@ This release does not implement personal eligibility, funding-combination optimi
 - Jump-Up: https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127267
 
 Next scope remains attachment-body extraction with source locations, additional reviewed rule coverage, authoritative eligibility exceptions, private application/project management and funding-combination/cash-flow analysis. No submission, loan or investment execution is implemented.
+
+## P0.4 located attachment candidates (2026-10-29)
+
+- New route `attachments.html`; data `data/attachments.json`. Official linked sources only. No user uploads, paid APIs or company data.
+- PDF uses pypdf; HWPX body sections use bounded ZIP/XML parsing; HWP v5 body streams use olefile and bounded record decoding. Protected/DRM/distribution documents are not bypassed. No OCR, preview-only fallback, macros, embedded programs or remote XML references.
+- Candidates include eligibility, exclusions, overlap restrictions, own contribution, funding amounts, documents and dates. They are exact bounded text snippets with source locations and hashes, NOT validated rules or complete eligibility. PDF layout and HWP/HWPX tables need manual review. HWP/HWPX locators are section/paragraph or section/record, not invented page numbers.
+- Daily workflow rotates at most 3 notice pages and 4 linked files, 8 MB/file, with a 30-second isolated parser timeout. Linux workers also have memory/CPU limits; Windows uses the parent wall timeout and size bounds. Original bytes and whole bodies are temporary and never committed.
+- On failure preserve the last successful extraction with an explicit failure status. File/list changes require review and suppress previously usable eligibility decisions. A successful later unchanged fetch does not silently clear the review flag.
+- Browser-local eligibility loads the public attachment state before enabling checks; no company input is transmitted. No new rules or attachment-completeness claims are automatically created.
+- Validation: `python -m unittest discover -s scripts -p test_attachments.py -v`; `node --test scripts/test_attachments.cjs`; all earlier regression suites remain required.
+- Formats follow Hancom's published HWP 5.0 document structure and HWPX XML format; PDF extraction limitations follow pypdf's official documentation. This is bounded text extraction, not complete rendering or a legal eligibility opinion.
+- Next: review actual attachment conditions against original page/table context, add source-bound reviewed rules and authoritative exceptions, then funding-combination/cash-flow models.

@@ -79,6 +79,11 @@
     const boundKeys=['id','title','source','year','eligibility','amount','opens','deadline'];
     if(!binding||Object.keys(binding).length!==boundKeys.length||boundKeys.some(k=>!Object.hasOwn(binding,k)||JSON.stringify(program[k]??null)!==JSON.stringify(binding[k]??null)))return finish('insufficient',['공고와 조건 자료의 버전이 일치하지 않습니다. 다시 읽고 재검토하십시오.'],[],common);
     if(condition.metadata_state!=='current')return finish('insufficient',['검토 후 공고 정보가 변경되었습니다. 규칙을 다시 검토해야 합니다.'],[],common);
+    const attachment=context.attachments;
+    if(attachment){
+      const manifest=attachment.programs?.[program.id],docs=attachment.records||{};
+      if(manifest&&(manifest.notice_source!==program.source||manifest.review_required||manifest.notice_status==='source_unavailable'||(manifest.document_ids||[]).some(id=>docs[id]?.review_required||(docs[id]?.last_error&&docs[id]?.extraction))))return finish('insufficient',['첨부 원문·목록이 변경되었거나 최신 확인에 실패했습니다. 기존 조건의 재검토가 필요합니다.'],[],common);
+    }
     const ev=context.evidence;
     if(ev&&(ev.review_required||ev.status==='fetch_failed'))return finish('insufficient',['원문 변경 또는 열람 실패로 이전 조건의 최신성을 확인해야 합니다.'],[],common);
     const pending=(context.reviews||[]).filter(r=>r.program_id===program.id&&r.status==='pending'&&['title','eligibility','opens','deadline'].includes(r.field));

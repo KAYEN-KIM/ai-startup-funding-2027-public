@@ -1,9 +1,9 @@
 {
   "schema": "public-funding-attachments/v1",
   "version": "0.4.0",
-  "generated_at": "2026-10-30T00:25:54+09:00",
+  "generated_at": "2026-10-30T01:16:08+09:00",
   "run": {
-    "at": "2026-10-30T00:25:54+09:00",
+    "at": "2026-10-30T01:16:08+09:00",
     "notice_success": 3,
     "notice_failed": 0,
     "attempted": 4,
@@ -13,7 +13,7 @@
     "failed": 0,
     "changed": 0,
     "manifest_changed": 0,
-    "queued_total": 61,
+    "queued_total": 69,
     "scope": "회차당 원문 최대 3건·첨부 최대 4건. 본문 추출은 자격 검증이 아니며 전체 기관 수집을 뜻하지 않습니다."
   },
   "records": {
@@ -5678,6 +5678,615 @@
       "http_status": null,
       "failure_kind": null,
       "retryable": false
+    },
+    "43bdc9b312c0de034fabf57f": {
+      "id": "43bdc9b312c0de034fabf57f",
+      "program_id": "BIZINFO-PBLN_000000000119999",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000119999",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000748594&fileSn=1",
+      "name": "다운로드",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-10-30T01:16:08+09:00",
+      "last_success_at": "2026-10-30T01:16:08+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-10-30T01:16:08+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "0a11398088c49c96a9bee540e9675a0427e60fe0cd4dc6e7d3f76b804d77e4a8",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "0a11398088c49c96a9bee540e9675a0427e60fe0cd4dc6e7d3f76b804d77e4a8",
+      "sha256": "0a11398088c49c96a9bee540e9675a0427e60fe0cd4dc6e7d3f76b804d77e4a8",
+      "extraction": {
+        "format": "pdf",
+        "parser": "pypdf/6.15.0",
+        "sha256": "0a11398088c49c96a9bee540e9675a0427e60fe0cd4dc6e7d3f76b804d77e4a8",
+        "bytes": 282107,
+        "status": "text_extracted",
+        "text_characters": 4816,
+        "units": 19,
+        "text_sha256": "b20c3690cbe8d9362bd26001fc4568fd4d79cea7e29b8da45a5c9f53f923d60b",
+        "pages": 8,
+        "sections": null,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "987c28a13ebafd9154e8",
+            "category": "eligibility",
+            "excerpt": "혁신센터 창업-BuS(BuildupStrategyforStart-ups)프로그램'참가 기업을 아래와 같이 모집합니다.창업 기업들의 많은 참여 바랍니다. 2026년 3월 18일 인천창조경제혁신센터대표이사(직인생략)1 사업개요□ 사업목적:연중 상시 정례적 스타트업 발굴 창구 제공 및 맞춤형 지원을 통한 스타트업의 스케일업 밀착 지원□ 지원대상:7년 이내초격차 분야 창업기업(공고일 기준)□ 지원기간:2026.01.",
+            "locator": "PDF p.1 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "2eb6d087115ea263f7fd",
+            "category": "amount",
+            "excerpt": "일업 밀착 지원□ 지원대상:7년 이내초격차 분야 창업기업(공고일 기준)□ 지원기간:2026.01.~2026.12.□ 지원규모:창업-BuS선정 기업(20개사)내외□ 주요 지원내용-맞춤형 전문가 컨설팅 지원 (바우처 형태)-센터 직접 투자 및 외부 투자 유치 지원-내부 프로그램(TIPS,대중견 OI프로그램 등)연계 및 참여 우대-전국 센터 연합 IR참여 및 후속투자 기회 제공 등",
+            "locator": "PDF p.1 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "519709423b4ad8d0931d",
+            "category": "eligibility",
+            "excerpt": " 추진절차추진 절차일 정 주요 내용기업 모집연중 상시- 인천센터 홈페이지 내 기업 상시 모집 ㆍ대상 : 초격차 분야 업력 7년 이내 창업기업▼서류 평가주 1회-신청 기업 서류 평가 ㆍ평가항목 : 시장성·기술성, 투자유치 및 글로벌 진출 가능성 등▼Weekly빅웨이브 Day주 1회(매주 화요일)- 1차 발표 (Weekly 빅웨이브 Day) ㆍ대상 : 서류 평가 통과 기업 ㆍ평가항목 : 시 장 성·기 술 성, 투",
+            "locator": "PDF p.2 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "4bed7c996d7f44d34c4c",
+            "category": "eligibility",
+            "excerpt": "2 지원 세부내용□ 지원기간 : 창업-BuSDB등록일로부터 1년 이내□ 지원내용◦창업-BuS선정 기업(DB등록) -(대상)1차 발표(Weekly빅웨이브 Day)통과 기업 -(지원사항) ①기업 진단 및 맞춤형 전문가 컨설팅 지원 (* 기업당 5~10시간 바우처 지급)< 바우처 컨설팅 프로그램(안) >분 야 내 용공통(기업 진단) 기업 점검, 밸류 및 투자유치 금액 적정성 판단 등(일반) 경영, 투자 유치, ",
+            "locator": "PDF p.3 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "7934719da2fa35e875e5",
+            "category": "eligibility",
+            "excerpt": "< 센터 내부 프로그램 현황(2026년 기준) >성장 단계지원 대상단계 목표연계 가능 사업 (*변동 가능)Start Up아이디어만 있는 예비창업자사업계획서 및 IR 피칭덱 작성창업스쿨시제품 제작터스타트업 (원스톱)멘토링Grow UpSeed 투자유치 기초 역량을 보유한 초기창업자 Seed 투자유치창업스쿨 심화과정마케팅 지원ESG 사업화지원 ※ 운영 시기 및 상황에 따라 연계사업은 달라질 수 있음",
+            "locator": "PDF p.3 / text-line 3",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "1bae8ba5036e9df3a3e9",
+            "category": "eligibility",
+            "excerpt": "◦창업-BuS입학 기업 -(대상)창업-BuS선정 기업 중 투자를 유치한 기업 (센터 직접 투자 또는 외부 투자 등) -(지원사항) ①센터 내부 프로그램 연계(TIPS포함)및 참여 우대",
+            "locator": "PDF p.4 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "e83d87c02df38e7e908c",
+            "category": "documents",
+            "excerpt": "황에 따라 변동될 수 있으며, 선정 기업 대상 세부 일정 안내 예정□ 평가방법 및 지표◦(서류평가) -사업계획서 등 제출 서류 심사 및 발표평가 대상자 선정-사업 적격 여부,시장성·기술성,투자유치 및 글로벌 진출 가능성 등 평가◦(발표평가) -평가는 온・오프라인으로 진행하며,기업별 30분 내외(기업발표 15분 /질의응답 15분 내외)배정 예정 -발표는 대표자 참석이 원칙이나 부득이한 경우 기업을 대표할 수 있",
+            "locator": "PDF p.5 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "3d07f3e93955fd6bcc65",
+            "category": "documents",
+            "excerpt": "5 유의사항□ 신청 시 ◦동 사업 신청은 해당 창업기업의 대표자가 하여야 하며,동 사업 신청자가 제출서류 상의 신청자와 일치하지않을 경우 평가대상 제외 및 탈락처리 되거나 추후 발견 시 선정 및 협약 취소될 수 있음◦동 사업 신청자가 공고문 및 내부 운영 방침 등에 위배되거나,참여 신청서 및 사업계획서 내용을 허위 기재,도용,누락한 경우 평가대상에서 제외될 수 있음◦본 사업 신청 시 사업계획서 양식을 반드시 ",
+            "locator": "PDF p.6 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "ef7a09eef975c2a64ae6",
+            "category": "exclusion",
+            "excerpt": "협약 이후에 신청자격 미충족 등이 확인되는 경우 탈락 처리될 수 있음※신청 제외 대상① 금융기관 등으로부터 채무불이행으로 규제 중인 자(기업)< ①조건 예외 대상 (사업 신청·접수 마감일 기준) >1. 채무변제 완료 후 증빙 가능한 자2. 신용회복위원회 프리워크아웃, 개인워크아웃 제도에서 채무조정합의서를 체결한 자3. 법원의 회생계획인가 또는 변제계획인가를 받은 자, 파산절차에서 면책결정이 확정된 자 4. 신",
+            "locator": "PDF p.6 / text-line 3",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "1fad6660e4e275232334",
+            "category": "deadline",
+            "excerpt": " 수 있음※신청 제외 대상① 금융기관 등으로부터 채무불이행으로 규제 중인 자(기업)< ①조건 예외 대상 (사업 신청·접수 마감일 기준) >1. 채무변제 완료 후 증빙 가능한 자2. 신용회복위원회 프리워크아웃, 개인워크아웃 제도에서 채무조정합의서를 체결한 자3. 법원의 회생계획인가 또는 변제계획인가를 받은 자, 파산절차에서 면책결정이 확정된 자 4. 신용보증기금·기술보증기금의 ‘재도전·재창업 재기지원보증’ 또는",
+            "locator": "PDF p.6 / text-line 3",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "표 열 순서·이미지·주석의 의미는 검토하지 않았습니다.",
+          "OCR 미수행"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
+    },
+    "d9f0eaf4a54b360f729cda4c": {
+      "id": "d9f0eaf4a54b360f729cda4c",
+      "program_id": "BIZINFO-PBLN_000000000119999",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000119999",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000748595&fileSn=1",
+      "name": "다운로드",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
+    },
+    "8094daba366e1aea3df05035": {
+      "id": "8094daba366e1aea3df05035",
+      "program_id": "BIZINFO-PBLN_000000000120234",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120234",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000749412&fileSn=1",
+      "name": "다운로드",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
+    },
+    "08234a74ea10a8138ef3ba12": {
+      "id": "08234a74ea10a8138ef3ba12",
+      "program_id": "BIZINFO-PBLN_000000000120406",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120406",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000749987&fileSn=0",
+      "name": "다운로드",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-10-30T01:16:08+09:00",
+      "last_success_at": "2026-10-30T01:16:08+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-10-30T01:16:08+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "1341d73a3e7ecf9fb4e9c4840474bb7ad2f1483948575722879b692afb459f44",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "1341d73a3e7ecf9fb4e9c4840474bb7ad2f1483948575722879b692afb459f44",
+      "sha256": "1341d73a3e7ecf9fb4e9c4840474bb7ad2f1483948575722879b692afb459f44",
+      "extraction": {
+        "format": "pdf",
+        "parser": "pypdf/6.15.0",
+        "sha256": "1341d73a3e7ecf9fb4e9c4840474bb7ad2f1483948575722879b692afb459f44",
+        "bytes": 227349,
+        "status": "text_extracted",
+        "text_characters": 3183,
+        "units": 17,
+        "text_sha256": "1bc80dfc4c0fd9693f34f80cf5449ba88ceed7f0e251ad7abd52f7d220b8fd73",
+        "pages": 5,
+        "sections": null,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "af4bdb5026691e57229d",
+            "category": "eligibility",
+            "excerpt": "PS 연계 민간투자 성과확산 인센티브 지원』2. 사업기간 : 2026. 03. ~ 2026. 11.(약 9개월)3. 신청대상 : 중소벤처기업부 TIPS 민간 운영사 (별첨 1)4. 사업예산 : 금120,000,000원(금일억이천만원) *예산 소진시까지5. 지원내용 - 충남 천안 그린스타트업타운 입주기업에 대한 투자 및 TIPS 선정 결과에 따른 인센티브 지원(투자금액 및 TIPS 유형별 인센티브 금액 상이) ",
+            "locator": "PDF p.1 / text-line 4",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "bfb6da092e2680b591ea",
+            "category": "eligibility",
+            "excerpt": "Ⅱ 세부내용 1. 신청대상 : TIPS 민간 운영사면서 충남 천안 그린스타트업타운 회원(등록 예정)기관※ '충남 천안 그린스타트업타운(GST) 회원기관'(*)으로 사전등록 후 인센티브 신청 가능 회원기관 신청은 상시 가능하며, 평가 및 선정은 6월, 9월, 11월에 진행 예정 '2026 그린스타트업타운 스케일업 프로그램' 운영사는 인센티브 신청 대상에서 제외(*) 회원기관이란? GST와 협력하여 입주기업을 지",
+            "locator": "PDF p.2 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "ef45b830509bb57dd777",
+            "category": "overlap",
+            "excerpt": "운영사당 지급 상한액(30백만원) 설정, 예산 집행의 효율성 및 형평성 확보 - 유사목적의 타 기관 인센티브 사업과 중복지원 불가 (동일 투자건에 대해 타 기관으로부터 투자 인센티브·지원금 등을 수령한 경우)3. 지원조건 : 2026년 사업기간 내(3월~11월) 투자 및 TIPS 연계 실적지원조건①당해 연도투자 보상②TIPS 최종 선정 보상당해 연도동시 달성(추가 보상)입 주기업 1개사 당 유형별 최대 지급 ",
+            "locator": "PDF p.2 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "d45e7f4c6ff48dedb256",
+            "category": "amount",
+            "excerpt": "평성 확보 - 유사목적의 타 기관 인센티브 사업과 중복지원 불가 (동일 투자건에 대해 타 기관으로부터 투자 인센티브·지원금 등을 수령한 경우)3. 지원조건 : 2026년 사업기간 내(3월~11월) 투자 및 TIPS 연계 실적지원조건①당해 연도투자 보상②TIPS 최종 선정 보상당해 연도동시 달성(추가 보상)입 주기업 1개사 당 유형별 최대 지급 한도투자금액(*)TIPS 유형5천만원 이상R&D 일반트랙500만원5",
+            "locator": "PDF p.2 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "8b135f91f18c192bb5b0",
+            "category": "overlap",
+            "excerpt": " 사실 및 TIPS 선정 결과 공문 등)⇩④ 자격 심사 (제출 후 2주 내외)그린스타트업타운 평가위원· 자격 심사 (중복지원 여부 및 요건 검토)⇩⑤ 선정 통보 (심사 후 1주 내외)진흥원→운영사 · 승인 및 통보⇩⑥ 인센티브 지급 (선정통보 후 2주 내외)진흥원→운영사 · 승인금액 인센티브 지급⑦ 사후 관리진흥원→운영사 · 사후관리 및 성과 모니터링※ 접수, 평가, 선정 등 추진 일정은 진행 상황에 따라 변",
+            "locator": "PDF p.3 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "ee534fad34825e660acd",
+            "category": "documents",
+            "excerpt": " 말일까지) *11월은 3주차까지 신청운영사→진흥원· 그린스타트업타운 회원기관 등록· 신청/접수 - 신청서 및 투자 증빙서류 제출 (투자 사실 및 TIPS 선정 결과 공문 등)⇩④ 자격 심사 (제출 후 2주 내외)그린스타트업타운 평가위원· 자격 심사 (중복지원 여부 및 요건 검토)⇩⑤ 선정 통보 (심사 후 1주 내외)진흥원→운영사 · 승인 및 통보⇩⑥ 인센티브 지급 (선정통보 후 2주 내외)진흥원→운영사 · ",
+            "locator": "PDF p.3 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "ef75a7711356368c80f4",
+            "category": "eligibility",
+            "excerpt": "지원대상",
+            "locator": "PDF p.4 / text-line 3",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "bd9033a824ab0ead27dd",
+            "category": "eligibility",
+            "excerpt": "1. 신청자격 : 입주(예정)기업을 대상으로 투자 및 TIPS 프로그램에 선정된 민간 운영사 [별첨1 TIPS 운영사 현황], [별첨2 충남 천안 그린스타트업타운 입주기업/기관 현황] - 입주 예정인 유망기업의 입주 전 투자/TIPS 선정 실적도 소급 신청 가능 단, '26년도 투자/선정 건만 인정되며, 본 사업기간 내 입주협약 체결 완료 후 인센티브 신청 가능 예) VC인 A사가 2026년 2월 스타트업 B",
+            "locator": "PDF p.4 / text-line 4",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "104b91578499c6ef66fb",
+            "category": "exclusion",
+            "excerpt": " 6개월 내 중도 퇴실 시 투자사가 지급 받은 인센티브는 전액 반환해야 함. 기존 입주기업의 경우 해당사항 없음2. 제외대상 ① 금융기관 등으로부터 채무불이행으로 규제 중인 경우 ② 부도 또는 휴·폐업 중이거나 국세 및 지방세 체납 중인 경우 ③ 접수 마감일 기준 정부지원사업 참여 제한 등 제재조치를 받고 있는 경우 ④ 제출한 서류가 허위로 판명된 경우",
+            "locator": "PDF p.4 / text-line 4",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "3efe0b33a189609477c8",
+            "category": "amount",
+            "excerpt": "채무불이행으로 규제 중인 경우 ② 부도 또는 휴·폐업 중이거나 국세 및 지방세 체납 중인 경우 ③ 접수 마감일 기준 정부지원사업 참여 제한 등 제재조치를 받고 있는 경우 ④ 제출한 서류가 허위로 판명된 경우",
+            "locator": "PDF p.4 / text-line 4",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "c5b2979dedfb33c26931",
+            "category": "deadline",
+            "excerpt": "융기관 등으로부터 채무불이행으로 규제 중인 경우 ② 부도 또는 휴·폐업 중이거나 국세 및 지방세 체납 중인 경우 ③ 접수 마감일 기준 정부지원사업 참여 제한 등 제재조치를 받고 있는 경우 ④ 제출한 서류가 허위로 판명된 경우",
+            "locator": "PDF p.4 / text-line 4",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "0b8e35429bf9ab290396",
+            "category": "deadline",
+            "excerpt": "1. 신청기간 : 사업기간 내 상시2. 신청마감 : 매월 말일(3/31, 4/30, 5/29, 6/30, 7/31, 8/31, 9/30, 10/30, 11/20) 15:00시 까지 단, 11월은 3주차(11/20)까지만 신청 가능 ※ 마감시간 이후 제출분 차월 신청분으로 접수3. 신청방법 : 충남콘텐츠진흥원 담당자 이메일 접수 [별첨3 지원사업 안내서 및 신청양식]◆ 신청 전 확인사항 ◆ • 투자 판단 시 입",
+            "locator": "PDF p.4 / text-line 6",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "59fdf3164a2d8435a330",
+            "category": "documents",
+            "excerpt": "자격심사-심사방법 : 제출서류 기반 100% 서류심사-심사위원 구성 : 충남 천안 그린스타트업타운 평가위원회 위원으로 구성-심사절차인센티브 신청➡자격 심사(서류평가)➡선정 통보공문 발송➡인센티브 지급매월 말 접수제출 후 2주 내외심사 후 1주 내외선정통보 후 2주 내외",
+            "locator": "PDF p.4 / text-line 7",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "표 열 순서·이미지·주석의 의미는 검토하지 않았습니다.",
+          "OCR 미수행"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
+    },
+    "96e59accc98b7662900e7d9f": {
+      "id": "96e59accc98b7662900e7d9f",
+      "program_id": "BIZINFO-PBLN_000000000120406",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120406",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000749988&fileSn=0",
+      "name": "다운로드",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
+    },
+    "61522f66f453956569c2cbc6": {
+      "id": "61522f66f453956569c2cbc6",
+      "program_id": "BIZINFO-PBLN_000000000120406",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120406",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000749988&fileSn=1",
+      "name": "다운로드",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-10-30T01:16:08+09:00",
+      "last_success_at": "2026-10-30T01:16:08+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-10-30T01:16:08+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "148b1f9a9f1a8d15c2fbcd6214d7e7dc0eecf7d9a506f5942b91f7e38683b0da",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "148b1f9a9f1a8d15c2fbcd6214d7e7dc0eecf7d9a506f5942b91f7e38683b0da",
+      "sha256": "148b1f9a9f1a8d15c2fbcd6214d7e7dc0eecf7d9a506f5942b91f7e38683b0da",
+      "extraction": {
+        "format": "hwp",
+        "parser": "olefile/0.47+hwp-body/0.4.0",
+        "sha256": "148b1f9a9f1a8d15c2fbcd6214d7e7dc0eecf7d9a506f5942b91f7e38683b0da",
+        "bytes": 90112,
+        "status": "text_extracted",
+        "text_characters": 5973,
+        "units": 580,
+        "text_sha256": "4f1bf95abb10e0b2d433ac7f91eaf153545a2d56a6a06f0df3ded5a11f2c7185",
+        "pages": null,
+        "sections": 1,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "b7f12073b62f6b0a83b9",
+            "category": "eligibility",
+            "excerpt": "자동차 인테리어 플라스틱 사출 부품 및 생물기반 탄소저장 소재 제품",
+            "locator": "BodyText/Section0 / record 223 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "7ad1d4ba7e8995a7c74b",
+            "category": "eligibility",
+            "excerpt": "친환경 원료 코르크 소재 활용 바닥포장재 제작 등",
+            "locator": "BodyText/Section0 / record 1397 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "구역·레코드 위치는 실제 인쇄 쪽번호가 아닙니다.",
+          "표·그림·각주 의미와 문서의 모든 제외조건은 미검토"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
+    },
+    "5a48430971071b3f947dadd1": {
+      "id": "5a48430971071b3f947dadd1",
+      "program_id": "BIZINFO-PBLN_000000000120406",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120406",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000749988&fileSn=2",
+      "name": "다운로드",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-10-30T01:16:08+09:00",
+      "last_success_at": "2026-10-30T01:16:08+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-10-30T01:16:08+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "d3c2fefe33cd30d62cd535466a25fdcafac8aa2c96e202bf20ce46e8268c7354",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "d3c2fefe33cd30d62cd535466a25fdcafac8aa2c96e202bf20ce46e8268c7354",
+      "sha256": "d3c2fefe33cd30d62cd535466a25fdcafac8aa2c96e202bf20ce46e8268c7354",
+      "extraction": {
+        "format": "hwp",
+        "parser": "olefile/0.47+hwp-body/0.4.0",
+        "sha256": "d3c2fefe33cd30d62cd535466a25fdcafac8aa2c96e202bf20ce46e8268c7354",
+        "bytes": 104960,
+        "status": "text_extracted",
+        "text_characters": 5157,
+        "units": 339,
+        "text_sha256": "0e6f04b5fe205b15a405d885eb01a3b8619026ce4cb661bcc1ae5cfe3da9d854",
+        "pages": null,
+        "sections": 1,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "06eadee47dd6a4b3da9d",
+            "category": "documents",
+            "excerpt": "1. 신청 방법 및 제출서류",
+            "locator": "BodyText/Section0 / record 125 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "49ee7fa54a5dd26fa224",
+            "category": "documents",
+            "excerpt": "◆ 제출서류",
+            "locator": "BodyText/Section0 / record 166 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "9d8551d189373ddf497f",
+            "category": "documents",
+            "excerpt": "제출서류",
+            "locator": "BodyText/Section0 / record 182 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "e05623884012758930a8",
+            "category": "documents",
+            "excerpt": "증빙서류",
+            "locator": "BodyText/Section0 / record 346 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "c75312dad403e08ffd5a",
+            "category": "eligibility",
+            "excerpt": "소재지",
+            "locator": "BodyText/Section0 / record 680 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "75d01e356afafa1c4123",
+            "category": "eligibility",
+            "excerpt": "본사",
+            "locator": "BodyText/Section0 / record 685 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "7905af80c792ea9191f5",
+            "category": "eligibility",
+            "excerpt": "제출한 서류의 내용에 허위사실이 있을 경우 인센티브 지원대상 탈락 및 지원금 환수 등의 조치에 동의합니다.",
+            "locator": "BodyText/Section0 / record 895 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "6fd3fe3f071ed2e15aaf",
+            "category": "amount",
+            "excerpt": "제출한 서류의 내용에 허위사실이 있을 경우 인센티브 지원대상 탈락 및 지원금 환수 등의 조치에 동의합니다.",
+            "locator": "BodyText/Section0 / record 895 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "44a899281ef2beaf6c4d",
+            "category": "deadline",
+            "excerpt": "ㅇ 본 동의서가 작성된 때로부터 지원사업 공고, 접수 기간, 선정평가, 접수정보 보유 기간까지(영구)",
+            "locator": "BodyText/Section0 / record 1728 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "8d0c48b93b59f20dfbaa",
+            "category": "amount",
+            "excerpt": "ㅇ 신청일 현재 사업자가 당해연도 충남콘텐츠진흥원 지원사업에서 지원금을 직접 교부받아 완료 또는 추진 중인 과제가 총 3개 과제 이하이거나(2,000만 원 이하인 과제는 제외) 당해연도 지원받은 누적 금액과 신규신청금액의 합계액이 5억 원 이하인 사업자",
+            "locator": "BodyText/Section0 / record 1801 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "bedcae12889f375693e8",
+            "category": "amount",
+            "excerpt": "(정부, 지자체 및 공공기관)으로부터 지원금을 직접 지원받은 적이 없다.",
+            "locator": "BodyText/Section0 / record 1837 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "53c9c125d30808e9d195",
+            "category": "exclusion",
+            "excerpt": "ㅇ 신청일 현재 국세 또는 지방세 체납사실이 없다.",
+            "locator": "BodyText/Section0 / record 1901 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "387cdf390db2702ad236",
+            "category": "exclusion",
+            "excerpt": "ㅇ 신청일 현재 세금, 기술료 체납 이력이 없고 타 기관의 지원사업 등에 대한 정산반납 체납 등의 사실이 없다.",
+            "locator": "BodyText/Section0 / record 1969 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "21041001472cb17a9573",
+            "category": "amount",
+            "excerpt": "1. 지원금을 지원받은 개인 및 단체가 허위 또는 위조 등의 방법으로 지원금 횡령",
+            "locator": "BodyText/Section0 / record 2116 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "b1e7d8bb079ad9e8e9a5",
+            "category": "amount",
+            "excerpt": "2. 지원금을 지원받은 개인 및 단체가 허위 또는 위조 등의 방법으로 지원금 유용",
+            "locator": "BodyText/Section0 / record 2145 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "48f642d1f57916d14f8b",
+            "category": "documents",
+            "excerpt": "* (주1) 요약서의 순서대로 증빙서류 제출",
+            "locator": "BodyText/Section0 / record 2593 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "구역·레코드 위치는 실제 인쇄 쪽번호가 아닙니다.",
+          "표·그림·각주 의미와 문서의 모든 제외조건은 미검토"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
+    },
+    "d1da01269852e239e0517f66": {
+      "id": "d1da01269852e239e0517f66",
+      "program_id": "BIZINFO-PBLN_000000000120406",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120406",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000749988&fileSn=3",
+      "name": "다운로드",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
     }
   },
   "programs": {
@@ -6068,6 +6677,47 @@
       "document_ids": [
         "e77b6dd7795a73631e98dfc8",
         "0e519d91f207c902c5cc8a06"
+      ],
+      "review_required": false,
+      "last_error": null
+    },
+    "BIZINFO-PBLN_000000000119999": {
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000119999",
+      "last_notice_attempt_at": "2026-10-30T01:16:08+09:00",
+      "last_notice_success_at": "2026-10-30T01:16:08+09:00",
+      "notice_status": "links_available",
+      "manifest_sha256": "0afe037ac43b0cafaf484bdcd4628c4b243b7a5daf50f767f0f9ee4393986a84",
+      "document_ids": [
+        "43bdc9b312c0de034fabf57f",
+        "d9f0eaf4a54b360f729cda4c"
+      ],
+      "review_required": false,
+      "last_error": null
+    },
+    "BIZINFO-PBLN_000000000120234": {
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120234",
+      "last_notice_attempt_at": "2026-10-30T01:16:08+09:00",
+      "last_notice_success_at": "2026-10-30T01:16:08+09:00",
+      "notice_status": "links_available",
+      "manifest_sha256": "74621a2135ae41ceaf4b5e32e99aafb071c9a35cdf69d5a1b6aefa5d39223e37",
+      "document_ids": [
+        "8094daba366e1aea3df05035"
+      ],
+      "review_required": false,
+      "last_error": null
+    },
+    "BIZINFO-PBLN_000000000120406": {
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120406",
+      "last_notice_attempt_at": "2026-10-30T01:16:08+09:00",
+      "last_notice_success_at": "2026-10-30T01:16:08+09:00",
+      "notice_status": "links_available",
+      "manifest_sha256": "42fd1378d714e5a5dfd0079b86d1109d9992a666045cf8343a3d0349446f32e6",
+      "document_ids": [
+        "08234a74ea10a8138ef3ba12",
+        "96e59accc98b7662900e7d9f",
+        "61522f66f453956569c2cbc6",
+        "5a48430971071b3f947dadd1",
+        "d1da01269852e239e0517f66"
       ],
       "review_required": false,
       "last_error": null

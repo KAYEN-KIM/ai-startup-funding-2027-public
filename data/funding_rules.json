@@ -1,0 +1,414 @@
+{
+  "schema": "public-funding-planning/v1",
+  "version": "0.5.0",
+  "generated_at": "2026-10-29T14:51:22+09:00",
+  "registry_fingerprint": "6cc9a9dbe93cb377cac01e99bac93b9f32bdc368e10568463e3c8cf432ab3621",
+  "records": [
+    {
+      "id": "jumpup-100-standard",
+      "program_id": "JUMPUP-2027",
+      "label": "Jump-Up 100 · 일반 한도 · 1개 연도",
+      "status": "reviewed_limited_scope",
+      "coverage": "selected_clauses_only",
+      "reviewed_at": "2026-10-29T14:51:22+09:00",
+      "program_snapshot": {
+        "id": "JUMPUP-2027",
+        "title": "2027년 도약(Jump-Up) 프로그램 참여기업",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127267",
+        "year": 2027,
+        "eligibility": "원칙적으로 업력 7년 이상 중소기업",
+        "amount": "단계별 오픈바우처 등",
+        "opens": "2026-10-15",
+        "deadline": "2026-11-13"
+      },
+      "reviewed_difference_ids": [
+        "7c5e5d2fc3761b412c8f6d54",
+        "8e068c22b1edb947ea4db249"
+      ],
+      "evidence": {
+        "document_id": "0be6e38011c739bba6c1dc46",
+        "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000776876&fileSn=0",
+        "sha256": "f9eaf14d758270ed99147a6243fe7c51936506d1be71ac03f3a4051bfd1b8b96",
+        "manifest_sha256": "499fb64a04ffd89797ce46ab61a0bf9e53eefc31d8cc122a270439efdd2b9fdb",
+        "pages": [
+          1,
+          2,
+          6,
+          9
+        ],
+        "review_method": "rendered_page_and_text_check",
+        "reviewed_at": "2026-10-29T14:51:22+09:00"
+      },
+      "finance": {
+        "model": "ratio_of_total",
+        "amount_type": "voucher_face_value",
+        "period": "one_year",
+        "cap_scope": "standard_not_regional_uplift",
+        "max_support_won": 200000000,
+        "government_max_bps": 8000,
+        "cash_min_bps": 1000,
+        "inkind_max_bps": 1000,
+        "locator": "PDF p.9 / 오픈바우처 및 총 사업비 구성 표"
+      },
+      "restrictions": [
+        {
+          "id": "jump-active",
+          "type": "prohibit_true",
+          "field": "active_jumpup",
+          "label": "현재 다른 도약프로그램 지원사업 수행 중",
+          "locator": "PDF p.2 / 제외대상 ①"
+        },
+        {
+          "id": "jump-dips",
+          "type": "conditional_exception",
+          "field": "active_dips",
+          "exception_field": "dips_final_year_2026",
+          "label": "초격차 스타트업 1000+·딥테크 TIPS 수행 중",
+          "locator": "PDF p.2 / 제외대상 ② 및 해당 행의 각주"
+        },
+        {
+          "id": "jump-worldclass",
+          "type": "prohibit_true",
+          "field": "active_worldclass",
+          "label": "월드클래스300 플러스 수행 중",
+          "locator": "PDF p.2 / 제외대상 ③"
+        },
+        {
+          "id": "jump-cost",
+          "type": "prohibit_true",
+          "field": "same_cost",
+          "label": "다른 지원사업과 일부라도 같은 비용 항목을 중복 지원받는 계획",
+          "locator": "PDF p.6 / 사업비 집행 유의사항"
+        },
+        {
+          "id": "jump-copay",
+          "type": "prohibit_true",
+          "field": "other_copayment",
+          "label": "이 바우처로 다른 지원사업의 자부담을 납부하는 계획",
+          "locator": "PDF p.6 / 사업비 집행 유의사항"
+        }
+      ],
+      "notes": [
+        "총사업비를 분모로 정부지원·현금·현물 비율을 계산합니다. 바우처 액면은 자유롭게 쓸 수 있는 현금 입금액이 아닙니다.",
+        "일반 연간 한도만 적용합니다. 비수도권 A/B/C 우대와 다년도 총액은 자동 적용·합산하지 않습니다.",
+        "공고상 지원내용은 2027년 예산 심의에 따라 달라질 수 있으며 선정·협약액을 보장하지 않습니다.",
+        "1년차 필수 컨설팅 집행 항목 합계 90,000,000원은 공고상 비용 항목 안내이며 별도 추가 지원금이 아닙니다. 산정·정산은 협약에서 확인해야 합니다.",
+        "인건비·임차료 등 제외비용과 현물 인정범위가 있습니다. 사용자가 입력한 현물은 증빙 후 인정된다는 가정이며, 자동 인증하지 않습니다.",
+        "신설 AI 기업의 기본 신청 경로가 아닙니다. 업력 7년 원칙의 예외·트랙별 자격은 별도로 검토해야 합니다."
+      ],
+      "open_questions": [
+        "세부 트랙의 기업·매출·성장요건, 업력 예외 및 평가를 충족하는가?",
+        "필수 집행 항목, 세금·부가세 처리와 현물 인정액이 협약에서 승인되는가?",
+        "다른 모든 지원사업의 동시수행 제한까지 기관에 확인했는가?"
+      ],
+      "source_state": "ready",
+      "hold_reasons": [],
+      "rule_fingerprint": "eab05e52faabde94c0a38918f7ed051aa171aade4eb931e764140808e5ebf915"
+    },
+    {
+      "id": "jumpup-500-standard",
+      "program_id": "JUMPUP-2027",
+      "label": "Jump-Up 500 · 일반 한도 · 1개 연도",
+      "status": "reviewed_limited_scope",
+      "coverage": "selected_clauses_only",
+      "reviewed_at": "2026-10-29T14:51:22+09:00",
+      "program_snapshot": {
+        "id": "JUMPUP-2027",
+        "title": "2027년 도약(Jump-Up) 프로그램 참여기업",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127267",
+        "year": 2027,
+        "eligibility": "원칙적으로 업력 7년 이상 중소기업",
+        "amount": "단계별 오픈바우처 등",
+        "opens": "2026-10-15",
+        "deadline": "2026-11-13"
+      },
+      "reviewed_difference_ids": [
+        "7c5e5d2fc3761b412c8f6d54",
+        "8e068c22b1edb947ea4db249"
+      ],
+      "evidence": {
+        "document_id": "0be6e38011c739bba6c1dc46",
+        "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000776876&fileSn=0",
+        "sha256": "f9eaf14d758270ed99147a6243fe7c51936506d1be71ac03f3a4051bfd1b8b96",
+        "manifest_sha256": "499fb64a04ffd89797ce46ab61a0bf9e53eefc31d8cc122a270439efdd2b9fdb",
+        "pages": [
+          1,
+          2,
+          6,
+          12
+        ],
+        "review_method": "rendered_page_and_text_check",
+        "reviewed_at": "2026-10-29T14:51:22+09:00"
+      },
+      "finance": {
+        "model": "ratio_of_total",
+        "amount_type": "voucher_face_value",
+        "period": "one_year",
+        "cap_scope": "standard_not_regional_uplift",
+        "max_support_won": 280000000,
+        "government_max_bps": 7000,
+        "cash_min_bps": 1000,
+        "inkind_max_bps": 2000,
+        "locator": "PDF p.12 / 오픈바우처 및 총 사업비 구성 표"
+      },
+      "restrictions": [
+        {
+          "id": "jump-active",
+          "type": "prohibit_true",
+          "field": "active_jumpup",
+          "label": "현재 다른 도약프로그램 지원사업 수행 중",
+          "locator": "PDF p.2 / 제외대상 ①"
+        },
+        {
+          "id": "jump-dips",
+          "type": "conditional_exception",
+          "field": "active_dips",
+          "exception_field": "dips_final_year_2026",
+          "label": "초격차 스타트업 1000+·딥테크 TIPS 수행 중",
+          "locator": "PDF p.2 / 제외대상 ② 및 해당 행의 각주"
+        },
+        {
+          "id": "jump-worldclass",
+          "type": "prohibit_true",
+          "field": "active_worldclass",
+          "label": "월드클래스300 플러스 수행 중",
+          "locator": "PDF p.2 / 제외대상 ③"
+        },
+        {
+          "id": "jump-cost",
+          "type": "prohibit_true",
+          "field": "same_cost",
+          "label": "다른 지원사업과 일부라도 같은 비용 항목을 중복 지원받는 계획",
+          "locator": "PDF p.6 / 사업비 집행 유의사항"
+        },
+        {
+          "id": "jump-copay",
+          "type": "prohibit_true",
+          "field": "other_copayment",
+          "label": "이 바우처로 다른 지원사업의 자부담을 납부하는 계획",
+          "locator": "PDF p.6 / 사업비 집행 유의사항"
+        }
+      ],
+      "notes": [
+        "총사업비를 분모로 정부지원·현금·현물 비율을 계산합니다. 바우처 액면은 자유롭게 쓸 수 있는 현금 입금액이 아닙니다.",
+        "일반 연간 한도만 적용합니다. 비수도권 A/B/C 우대와 다년도 총액은 자동 적용·합산하지 않습니다.",
+        "공고상 지원내용은 2027년 예산 심의에 따라 달라질 수 있으며 선정·협약액을 보장하지 않습니다.",
+        "1년차 필수 컨설팅 집행 항목 합계 180,000,000원은 공고상 비용 항목 안내이며 별도 추가 지원금이 아닙니다. 산정·정산은 협약에서 확인해야 합니다.",
+        "인건비·임차료 등 제외비용과 현물 인정범위가 있습니다. 사용자가 입력한 현물은 증빙 후 인정된다는 가정이며, 자동 인증하지 않습니다.",
+        "신설 AI 기업의 기본 신청 경로가 아닙니다. 업력 7년 원칙의 예외·트랙별 자격은 별도로 검토해야 합니다."
+      ],
+      "open_questions": [
+        "세부 트랙의 기업·매출·성장요건, 업력 예외 및 평가를 충족하는가?",
+        "필수 집행 항목, 세금·부가세 처리와 현물 인정액이 협약에서 승인되는가?",
+        "다른 모든 지원사업의 동시수행 제한까지 기관에 확인했는가?"
+      ],
+      "source_state": "ready",
+      "hold_reasons": [],
+      "rule_fingerprint": "d7dc5b6dcf506de237e9157b2cb0a65f093578c22f8361f4a9f30dd6f6ae3219"
+    },
+    {
+      "id": "jumpup-1000-standard",
+      "program_id": "JUMPUP-2027",
+      "label": "Jump-Up 1000 · 일반 한도 · 1개 연도",
+      "status": "reviewed_limited_scope",
+      "coverage": "selected_clauses_only",
+      "reviewed_at": "2026-10-29T14:51:22+09:00",
+      "program_snapshot": {
+        "id": "JUMPUP-2027",
+        "title": "2027년 도약(Jump-Up) 프로그램 참여기업",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127267",
+        "year": 2027,
+        "eligibility": "원칙적으로 업력 7년 이상 중소기업",
+        "amount": "단계별 오픈바우처 등",
+        "opens": "2026-10-15",
+        "deadline": "2026-11-13"
+      },
+      "reviewed_difference_ids": [
+        "7c5e5d2fc3761b412c8f6d54",
+        "8e068c22b1edb947ea4db249"
+      ],
+      "evidence": {
+        "document_id": "0be6e38011c739bba6c1dc46",
+        "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000776876&fileSn=0",
+        "sha256": "f9eaf14d758270ed99147a6243fe7c51936506d1be71ac03f3a4051bfd1b8b96",
+        "manifest_sha256": "499fb64a04ffd89797ce46ab61a0bf9e53eefc31d8cc122a270439efdd2b9fdb",
+        "pages": [
+          1,
+          2,
+          6,
+          15
+        ],
+        "review_method": "rendered_page_and_text_check",
+        "reviewed_at": "2026-10-29T14:51:22+09:00"
+      },
+      "finance": {
+        "model": "ratio_of_total",
+        "amount_type": "voucher_face_value",
+        "period": "one_year",
+        "cap_scope": "standard_not_regional_uplift",
+        "max_support_won": 750000000,
+        "government_max_bps": 6000,
+        "cash_min_bps": 1000,
+        "inkind_max_bps": 3000,
+        "locator": "PDF p.15 / 오픈바우처 및 총 사업비 구성 표"
+      },
+      "restrictions": [
+        {
+          "id": "jump-active",
+          "type": "prohibit_true",
+          "field": "active_jumpup",
+          "label": "현재 다른 도약프로그램 지원사업 수행 중",
+          "locator": "PDF p.2 / 제외대상 ①"
+        },
+        {
+          "id": "jump-dips",
+          "type": "conditional_exception",
+          "field": "active_dips",
+          "exception_field": "dips_final_year_2026",
+          "label": "초격차 스타트업 1000+·딥테크 TIPS 수행 중",
+          "locator": "PDF p.2 / 제외대상 ② 및 해당 행의 각주"
+        },
+        {
+          "id": "jump-worldclass",
+          "type": "prohibit_true",
+          "field": "active_worldclass",
+          "label": "월드클래스300 플러스 수행 중",
+          "locator": "PDF p.2 / 제외대상 ③"
+        },
+        {
+          "id": "jump-cost",
+          "type": "prohibit_true",
+          "field": "same_cost",
+          "label": "다른 지원사업과 일부라도 같은 비용 항목을 중복 지원받는 계획",
+          "locator": "PDF p.6 / 사업비 집행 유의사항"
+        },
+        {
+          "id": "jump-copay",
+          "type": "prohibit_true",
+          "field": "other_copayment",
+          "label": "이 바우처로 다른 지원사업의 자부담을 납부하는 계획",
+          "locator": "PDF p.6 / 사업비 집행 유의사항"
+        }
+      ],
+      "notes": [
+        "총사업비를 분모로 정부지원·현금·현물 비율을 계산합니다. 바우처 액면은 자유롭게 쓸 수 있는 현금 입금액이 아닙니다.",
+        "일반 연간 한도만 적용합니다. 비수도권 A/B/C 우대와 다년도 총액은 자동 적용·합산하지 않습니다.",
+        "공고상 지원내용은 2027년 예산 심의에 따라 달라질 수 있으며 선정·협약액을 보장하지 않습니다.",
+        "1년차 필수 컨설팅 집행 항목 합계 400,000,000원은 공고상 비용 항목 안내이며 별도 추가 지원금이 아닙니다. 산정·정산은 협약에서 확인해야 합니다.",
+        "인건비·임차료 등 제외비용과 현물 인정범위가 있습니다. 사용자가 입력한 현물은 증빙 후 인정된다는 가정이며, 자동 인증하지 않습니다.",
+        "신설 AI 기업의 기본 신청 경로가 아닙니다. 업력 7년 원칙의 예외·트랙별 자격은 별도로 검토해야 합니다."
+      ],
+      "open_questions": [
+        "세부 트랙의 기업·매출·성장요건, 업력 예외 및 평가를 충족하는가?",
+        "필수 집행 항목, 세금·부가세 처리와 현물 인정액이 협약에서 승인되는가?",
+        "다른 모든 지원사업의 동시수행 제한까지 기관에 확인했는가?"
+      ],
+      "source_state": "ready",
+      "hold_reasons": [],
+      "rule_fingerprint": "e2682520969f4bb710234f8e4121abc0b0fe011be75457f43e2577e846a4dfc6"
+    },
+    {
+      "id": "ibk-centres",
+      "program_id": "IBK-2027-1",
+      "label": "IBK창공 · 센터 간 중복지원 확인",
+      "status": "reviewed_limited_scope",
+      "coverage": "selected_clauses_only",
+      "reviewed_at": "2026-10-29T14:51:22+09:00",
+      "program_snapshot": {
+        "id": "IBK-2027-1",
+        "title": "2027년 상반기 IBK창공 혁신창업기업 모집",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127358",
+        "year": 2027,
+        "eligibility": "업력 7년 이내 혁신기술 기업 · 예비창업자 제외",
+        "amount": "고정 현금지원액 없음",
+        "opens": "2026-10-19",
+        "deadline": "2026-11-13T14:00:00+09:00"
+      },
+      "reviewed_difference_ids": [
+        "6e5dbc70d16e085d743e409e",
+        "09b59c06fbac59c0e0dfd059"
+      ],
+      "evidence": {
+        "document_id": "64754b36691578a969bb06e4",
+        "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000777273&fileSn=1",
+        "sha256": "688b2b707494980f6d42f2986509384c0443b0518bf4bea5815cabebfc033503",
+        "manifest_sha256": "bf083a13db66112ae7afe28ca4c7d90a5e09e36bc1ff82639e1616a0a0b2884f",
+        "pages": [
+          2
+        ],
+        "review_method": "rendered_page_and_text_check",
+        "reviewed_at": "2026-10-29T14:51:22+09:00"
+      },
+      "finance": null,
+      "restrictions": [
+        {
+          "id": "ibk-centres",
+          "type": "max_count",
+          "field": "ibk_centres",
+          "limit": 1,
+          "label": "이번 모집에서 지원하는 IBK창공 센터 수",
+          "locator": "PDF p.2 / 선발규모 아래 중복지원 각주"
+        }
+      ],
+      "notes": [
+        "센터 간 중복지원 제한만 다룹니다. 다른 기관 사업과의 병행까지 금지하거나 허용하는 규칙으로 확대하지 않습니다.",
+        "이 근거에는 고정 현금지원액이 없으므로 수령액·자부담 계산을 제공하지 않습니다."
+      ],
+      "open_questions": [
+        "센터 외 다른 지원사업의 중복제한과 제출요건은 별도 확인해야 합니다."
+      ],
+      "source_state": "ready",
+      "hold_reasons": [],
+      "rule_fingerprint": "af3122a5a659a965677d3b11c6f03d16f4d3a52d30a922ad36fcd512a28043cf"
+    },
+    {
+      "id": "gyeongbuk-consortium",
+      "program_id": "BIZINFO-PBLN_000000000127330",
+      "label": "경북 디지털 혁신 · 컨소시엄 부담 기준 확인 필요",
+      "status": "clarification_required",
+      "coverage": "selected_clauses_only",
+      "reviewed_at": "2026-10-29T14:51:22+09:00",
+      "program_snapshot": {
+        "id": "BIZINFO-PBLN_000000000127330",
+        "title": "[경북] 2027년 지역 자율형 디지털 혁신프로젝트 신규과제 컨소시엄 모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127330",
+        "year": 2027,
+        "eligibility": "경북 소재 디지털 기술 개발·실증 기업(사업자등록증상 본사 기준). 경북 시·군 디지털 수요처와 공급기업 중심 컨소시엄 구성 필요",
+        "amount": "2027~2029년 디지털 신기술 개발·현장실증 과제 지원. 보조금·민간부담·선정규모의 확정 세부액은 첨부 공고문 확인 필요",
+        "opens": "2026-10-21",
+        "deadline": "2026-11-05"
+      },
+      "reviewed_difference_ids": [
+        "c4412154cfc6130dc90ca3d0"
+      ],
+      "evidence": {
+        "document_id": "47ecec11e0fa0ab4dbe97e28",
+        "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000777143&fileSn=0",
+        "sha256": "02e08f1f3a3e081794ab7323228c3ecf3c24993a4e3500461affb1edae22ee43",
+        "manifest_sha256": "fb5f1590867ac8ef1e30785ebd0fc31e3228185b35f5019a0482d50e0574d5c5",
+        "pages": [
+          3
+        ],
+        "review_method": "rendered_page_and_text_check",
+        "reviewed_at": "2026-10-29T14:51:22+09:00"
+      },
+      "finance": null,
+      "restrictions": [],
+      "notes": [
+        "1개 연도 컨소시엄 지원 3.5억원, 민간부담 1.2억원 이상, 총 4.7억원이라는 문구를 확인했습니다. 단일 회사가 전액 수령하는 금액이 아닙니다.",
+        "현금 10%의 정확한 분모와 컨소시엄 내부 분담은 이 페이지에서 명확하지 않아 임의 계산하지 않습니다."
+      ],
+      "open_questions": [
+        "현금 10%는 민간부담금 기준인가, 총사업비 기준인가?",
+        "참여기업·지자체별 실제 부담과 지원액은 어떻게 배분되는가?",
+        "기초지자체 예산 편성과 협약 시 최종 금액은 얼마인가?"
+      ],
+      "source_state": "hold",
+      "hold_reasons": [
+        "rule_scope_needs_clarification"
+      ],
+      "rule_fingerprint": "2bfdc8bd64025c2ac1bad46c5761749f60d17ce7e407842ed6799a06bba78ab2"
+    }
+  ],
+  "disclaimer": "검토한 일부 조항의 계산·충돌 점검입니다. 선정·교부·현물인정·전체 적격성·사업 병행 허용을 보장하지 않습니다."
+}

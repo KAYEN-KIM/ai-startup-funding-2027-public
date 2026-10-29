@@ -6,7 +6,7 @@ from pathlib import Path
 from radar_core import official_url
 from condition_catalog import build_catalog, validate_registry
 ROOT=Path(__file__).resolve().parents[1]
-FILES={'programs.json','monitor.json','evidence.json','change_reviews.json','conditions.json','attachments.json'}
+FILES={'programs.json','monitor.json','evidence.json','change_reviews.json','conditions.json','attachments.json','funding_rules.json'}
 PROGRAM_FIELDS={'id','title','year','years','year_basis','kind','mode','relevance','opens','deadline','deadline_precision','application_period_raw','source','verified_at','amount','eligibility','note','priority','source_level','agency','attachments'}
 PRIVATE={'company_profile','applicant_profile','applicant_memo','resident_number','taxpayer_id','bank_account','access_token','secret_key','password','api_key','crtfcKey','serviceKey','budget_private','application_documents'}
 MODES={'beneficiary','discovery','reference','operator','budget'}
@@ -65,6 +65,11 @@ def main():
     from attachment_core import validate_public
     require('attachments.json' in loaded,'Attachment catalog missing')
     validate_public(loaded['attachments.json'])
+    from funding_catalog import build_catalog as build_funding, validate_registry as validate_funding
+    funding=json.loads((ROOT/'config/funding_rules.json').read_text(encoding='utf-8'))
+    scan(funding);validate_funding(funding)
+    require('funding_rules.json' in loaded,'Planning catalog missing')
+    require(loaded['funding_rules.json']==build_funding(p,funding,loaded['attachments.json'],loaded['evidence.json'],loaded['change_reviews.json']),'Planning catalog is stale or changed outside the reviewed registry')
     print('Public schema validation OK:',len(items),'records;',len(found),'allowlisted JSON files')
 
 if __name__=='__main__':main()

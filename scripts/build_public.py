@@ -4,10 +4,12 @@ from pathlib import Path
 import shutil
 from validate import main as validate
 from condition_catalog import main as build_conditions
+from funding_catalog import main as build_planning
 ROOT=Path(__file__).resolve().parents[1]
-FILES=['index.html','.nojekyll','_headers','assets/app.js','assets/radar-core.js','assets/style.css','assets/favicon.svg','data/programs.json','data/monitor.json','data/evidence.json','data/change_reviews.json','eligibility.html','assets/eligibility-core.js','assets/eligibility-ui.js','assets/eligibility.css','data/conditions.json','attachments.html','assets/attachments-core.js','assets/attachments-ui.js','assets/attachments.css','data/attachments.json']
+FILES=['index.html','.nojekyll','_headers','assets/app.js','assets/radar-core.js','assets/style.css','assets/favicon.svg','data/programs.json','data/monitor.json','data/evidence.json','data/change_reviews.json','eligibility.html','assets/eligibility-core.js','assets/eligibility-ui.js','assets/eligibility.css','data/conditions.json','attachments.html','assets/attachments-core.js','assets/attachments-ui.js','assets/attachments.css','data/attachments.json','planning.html','assets/planning-core.js','assets/planning-ui.js','assets/planning.css','data/funding_rules.json']
 def main():
     build_conditions()
+    build_planning()
     validate()
     dist=ROOT/'dist'
     if dist.exists():shutil.rmtree(dist)

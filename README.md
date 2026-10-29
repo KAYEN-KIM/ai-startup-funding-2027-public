@@ -115,3 +115,9 @@ Next scope remains attachment-body extraction with source locations, additional 
 - Validation: `python -m unittest discover -s scripts -p test_attachments.py -v`; `node --test scripts/test_attachments.cjs`; all earlier regression suites remain required.
 - Formats follow Hancom's published HWP 5.0 document structure and HWPX XML format; PDF extraction limitations follow pypdf's official documentation. This is bounded text extraction, not complete rendering or a legal eligibility opinion.
 - Next: review actual attachment conditions against original page/table context, add source-bound reviewed rules and authoritative exceptions, then funding-combination/cash-flow models.
+
+## P0.5 source-bound funding scenarios (2026-10-29)
+
+See RELEASE_P05.md. New route: planning.html. Three reviewed standard annual voucher formulae, six scoped restriction checks across two programs, and one consortium ambiguity held for clarification. Five rule bundles cover three notices; no full eligibility, regional uplift, multiyear sum or funding portfolio optimizer is claimed. Inputs remain memory-only with explicit private local export.
+
+Build order: condition_catalog.py, funding_catalog.py, validate.py, allowlisted build. Both derived catalogs are regenerated after collector updates and after rebase. Tests: python -m unittest discover -s scripts -p test_planning.py -v; node --test scripts/test_planning.cjs scripts/test_planning_ui.cjs. Existing registry and public source records are preserved.

@@ -65,3 +65,20 @@ https://ai-startup-funding-2027.vegetalcat.chatgpt.site/
 
 Its /api/update-instructions returned HTTP 401 in the last monitor run. This
 public edition DOES NOT claim private-to-public backend synchronization.
+
+## P0.2 evidence and collection (2026-10-29)
+
+- Runtime entrypoint: scripts/refresh_v2.py. Legacy refresh.py remains for compatibility only.
+- Official Bizinfo pageIndex/pageUnit pagination, 200/page, max 10 pages; total and actual coverage are recorded. Repeated/failed/capped pages are PARTIAL, never silently complete.
+- AI and general-startup discovery lanes; neither implies applicant eligibility. No automatic deletion of retained notices.
+- Manual conditions are preserved. API differences are recorded in data/change_reviews.json for review, not automatically accepted.
+- Up to six official notice HTML pages are fetched per run, with identity checks, body hashes and attachment link discovery. PDF/HWP attachment bodies are NOT read. Hash changes do NOT prove a material policy change.
+- data/evidence.json keeps last successful evidence after failures. HTML fetch and independent editorial checks have separate source timestamps.
+- Date-only deadlines are not converted to 23:59. Verification and reception status have independent badges.
+- No applicant information, company profile, private funding plan or credentials may enter this public repository.
+- Tests gate deployment; only explicit files are copied by scripts/build_public.py. A failed collector can publish its failure record, then fail the workflow rather than presenting success.
+
+Validation: python scripts/test_refresh.py; python -m unittest discover -s scripts -p test_radar_v2.py; node --test scripts/test_frontend.cjs; python scripts/build_public.py
+
+Official API contract: https://www.bizinfo.go.kr/apiDetail.do?id=bizinfoApi
+This release does not implement personal eligibility, funding-combination optimization, automatic application submission or full multi-agency/attachment ingestion.

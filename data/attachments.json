@@ -1,19 +1,19 @@
 {
   "schema": "public-funding-attachments/v1",
   "version": "0.4.0",
-  "generated_at": "2026-10-29T12:12:24+09:00",
+  "generated_at": "2026-10-29T12:16:02+09:00",
   "run": {
-    "at": "2026-10-29T12:12:24+09:00",
-    "notice_success": 0,
+    "at": "2026-10-29T12:16:02+09:00",
+    "notice_success": 3,
     "notice_failed": 0,
     "attempted": 4,
-    "text_extracted": 4,
+    "text_extracted": 2,
     "partial_or_no_text": 0,
-    "blocked_or_unsupported": 0,
+    "blocked_or_unsupported": 2,
     "failed": 0,
     "changed": 0,
     "manifest_changed": 0,
-    "queued_total": 6,
+    "queued_total": 13,
     "scope": "회차당 원문 최대 3건·첨부 최대 4건. 본문 추출은 자격 검증이 아니며 전체 기관 수집을 뜻하지 않습니다."
   },
   "records": {
@@ -1128,6 +1128,599 @@
           "표 셀 관계·그림·각주 의미는 미검토"
         ]
       }
+    },
+    "84f5def712e1dd3a961e18e1": {
+      "id": "84f5def712e1dd3a961e18e1",
+      "program_id": "AHAP-MFG-2026",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127448",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000777689&fileSn=0",
+      "name": "다운로드",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-10-29T12:16:02+09:00",
+      "last_success_at": "2026-10-29T12:16:02+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-10-29T12:16:02+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "5984483edb696d465fb00f0328917608f1af176ab2d20e44a67c6eb0c3a65bc6"
+        }
+      ],
+      "observed_sha256": "5984483edb696d465fb00f0328917608f1af176ab2d20e44a67c6eb0c3a65bc6",
+      "sha256": "5984483edb696d465fb00f0328917608f1af176ab2d20e44a67c6eb0c3a65bc6",
+      "extraction": {
+        "format": "pdf",
+        "parser": "pypdf/6.15.0",
+        "sha256": "5984483edb696d465fb00f0328917608f1af176ab2d20e44a67c6eb0c3a65bc6",
+        "bytes": 591974,
+        "status": "text_extracted",
+        "text_characters": 8116,
+        "units": 381,
+        "text_sha256": "cbe1edd88366c09c8c9de4ec6fb33c603cde60d0cf40e1321c98a9a46f462db5",
+        "pages": 11,
+        "sections": null,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "0bc03ed5f03b53990b1e",
+            "category": "amount",
+            "excerpt": "지원규모 총 개 사 총 지원금액 억 원 차년도 억 차년도 억",
+            "locator": "PDF p.2 / text-line 15",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "25e91ae31cd1ad15b1af",
+            "category": "amount",
+            "excerpt": "차년도 사업결과 평가에 따라 차년도 지속 지원 여부 및 지원 규모를 1 2※",
+            "locator": "PDF p.2 / text-line 16",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "f72558f57c4b2ae4337f",
+            "category": "eligibility",
+            "excerpt": "지원대상",
+            "locator": "PDF p.2 / text-line 18",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "816533e63e259b50f300",
+            "category": "eligibility",
+            "excerpt": "신청자격 아래 항목을 모두 충족하여 구성( ) ",
+            "locator": "PDF p.2 / text-line 21",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "14a737c469d9f9b2bc20",
+            "category": "eligibility",
+            "excerpt": "가 본사 또는 지사 연구소가 . · 전남광주통합특별시에 소재한 기업",
+            "locator": "PDF p.2 / text-line 22",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "a81d5b6d494a221a3117",
+            "category": "cofunding",
+            "excerpt": "나 민간부담금 부담이 가능한 기업 .",
+            "locator": "PDF p.2 / text-line 28",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "8a810c364b1b3799b9fa",
+            "category": "cofunding",
+            "excerpt": "민간부담금 부담 기준□",
+            "locator": "PDF p.3 / text-line 6",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "963ba4fec3009588d34f",
+            "category": "cofunding",
+            "excerpt": "주요사항 기업 규모별 아래 해당 기준에 따라 민간부담금 반영 및",
+            "locator": "PDF p.3 / text-line 8",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "aaebe0ece7bc8d2764c5",
+            "category": "cofunding",
+            "excerpt": "민간부담금 내 현금 부담 필수 반영",
+            "locator": "PDF p.3 / text-line 9",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "04a63c0abe4172a05bc4",
+            "category": "cofunding",
+            "excerpt": "기업구분 총 사업비 정부지원금 현금( ) 민간부담금 현금 및 현물( )",
+            "locator": "PDF p.3 / text-line 10",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "ea76b69ff8128c6a7713",
+            "category": "amount",
+            "excerpt": "기업구분 총 사업비 정부지원금 현금( ) 민간부담금 현금 및 현물( )",
+            "locator": "PDF p.3 / text-line 10",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "6516c702be739cc3fc88",
+            "category": "amount",
+            "excerpt": "중소기업 지원금 현금( )",
+            "locator": "PDF p.3 / text-line 11",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "32831f549baea5f7f9ea",
+            "category": "documents",
+            "excerpt": "관련 인정 실적 증빙자료 기준표 [AI ]",
+            "locator": "PDF p.3 / text-line 25",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "e82566c838c1d0282b72",
+            "category": "documents",
+            "excerpt": "인정 실적 증빙자료 예시",
+            "locator": "PDF p.3 / text-line 26",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "1c9ce0a61157bdeefa62",
+            "category": "exclusion",
+            "excerpt": "- 제외대상 : 위에 해당하지 않는 기업이나 기관 조달청 기준 부정당사업체, ,",
+            "locator": "PDF p.3 / text-line 44",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "5da812057ba69ca07efe",
+            "category": "exclusion",
+            "excerpt": "금융기관으로부터 채무불이행으로 규제 중인 기업 휴업 및 세금 체납 기업,",
+            "locator": "PDF p.3 / text-line 45",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "3d792d7bd65228a04256",
+            "category": "documents",
+            "excerpt": "기타 제출서류 ➍",
+            "locator": "PDF p.7 / text-line 8",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "da7a50e295840f99db3d",
+            "category": "documents",
+            "excerpt": "공모안내서 기재사항에 따른 해당 제출서류 일체",
+            "locator": "PDF p.7 / text-line 9",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "8a866ba8613817e98f40",
+            "category": "documents",
+            "excerpt": "5접수 및 제출서류",
+            "locator": "PDF p.7 / text-line 12",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "a27982c21b1e47edf195",
+            "category": "deadline",
+            "excerpt": "접수기간 목 목",
+            "locator": "PDF p.7 / text-line 14",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "a1c781f81779f7b1851b",
+            "category": "overlap",
+            "excerpt": "6 ㆍ 데이터중복지원 방지 확약서AI· ○ -",
+            "locator": "PDF p.7 / text-line 23",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "3cd350f77f5e57f0be1c",
+            "category": "eligibility",
+            "excerpt": "지사 소재 기업의 경우 본사 서류 포함 제출 , ※",
+            "locator": "PDF p.7 / text-line 28",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "9321e7e4186404bedda9",
+            "category": "amount",
+            "excerpt": "지원금 정산교부 및 점검 결과평가",
+            "locator": "PDF p.8 / text-line 10",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "cc3bbeec6d3bf63c2a49",
+            "category": "exclusion",
+            "excerpt": "지원제외대상 접수 마감일 기준",
+            "locator": "PDF p.9 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "표 열 순서·이미지·주석의 의미는 검토하지 않았습니다.",
+          "OCR 미수행"
+        ]
+      }
+    },
+    "fa1615d90f635c3db4c65fa6": {
+      "id": "fa1615d90f635c3db4c65fa6",
+      "program_id": "AHAP-MFG-2026",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127448",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000777690&fileSn=0",
+      "name": "다운로드",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
+    },
+    "9a9314e8c877cc7b1adb2858": {
+      "id": "9a9314e8c877cc7b1adb2858",
+      "program_id": "AHAP-MFG-2026",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127448",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000777690&fileSn=1",
+      "name": "다운로드",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-10-29T12:16:02+09:00",
+      "last_success_at": "2026-10-29T12:16:02+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-10-29T12:16:02+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "c492d89912370d22246f9886f7c7451b05e8fe98aaacb8c90da9648a15d713a5"
+        }
+      ],
+      "observed_sha256": "c492d89912370d22246f9886f7c7451b05e8fe98aaacb8c90da9648a15d713a5",
+      "sha256": "c492d89912370d22246f9886f7c7451b05e8fe98aaacb8c90da9648a15d713a5",
+      "extraction": {
+        "format": "hwp",
+        "parser": "olefile/0.47+hwp-body/0.4.0",
+        "sha256": "c492d89912370d22246f9886f7c7451b05e8fe98aaacb8c90da9648a15d713a5",
+        "bytes": 67584,
+        "status": "text_extracted",
+        "text_characters": 5590,
+        "units": 289,
+        "text_sha256": "91134841aa3d14767efcf25554b442e974efc505ca7052c7d44f446bc2d28c59",
+        "pages": null,
+        "sections": 1,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "9c4c5730e33bfa9ae2f0",
+            "category": "cofunding",
+            "excerpt": "[서식1] 현금/ 현물출자(납입)확약서",
+            "locator": "BodyText/Section0 / record 2 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "36ba0975ddb93d008357",
+            "category": "cofunding",
+            "excerpt": "현금/현물 출자(납입)확약서",
+            "locator": "BodyText/Section0 / record 21 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "f7c78963593143173e44",
+            "category": "cofunding",
+            "excerpt": "의 사업 수행을 위한 광주정보문화산업진흥원장과의 협약서 및 수행계획서의 사업내용에 동의하고, 본 사업의 수행을 위한 현금부담금을 관계 법령에 의거하여 아래와 같이 납부합니다.",
+            "locator": "BodyText/Section0 / record 86 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "6ad6642049eb8cf27c47",
+            "category": "cofunding",
+            "excerpt": "[붙임] 1. 현금부담금 납부확인서 1부.",
+            "locator": "BodyText/Section0 / record 213 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "a8e571f987bff2c4be7f",
+            "category": "eligibility",
+            "excerpt": " – 올인원 AI 허브 AX 실증’ 사업수행을 위하여 사업 수행계획서의 사업내용에 동의하고, 본 과제의 심의를 거쳐 지원 대상으로 선정될 시 정보통신진흥기금 운용‧관리규정 등 관련 규정에 의거하여 과제를 성실히 수행할 것을 확약하며, 상기 확약 사실을 위반하였을 경우 선정 제외 및 정보통신진흥기금 운용 관리 등 관련 규정 및 법령에 따른 참여 제한 등의 제재조치를 감수할 것을 확약합니다.",
+            "locator": "BodyText/Section0 / record 298 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "3b354d5801e19be5afd8",
+            "category": "amount",
+            "excerpt": " 성명, 생년월일, 근무기관, 주소, 전화번호, 학력(학교, 전공, 학위, 연구분야 등), 경력, 특허/논문 실적, 정부지원사업 수행실적, 현재 수행중인 정부지원사업 전체 참여율 등에 대한 인적사항",
+            "locator": "BodyText/Section0 / record 624 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "c1936a06c24c787e83b5",
+            "category": "amount",
+            "excerpt": "✓ 보조사업, 기금사업, 국가연구개발사업 등 정부지원사업 참여제한 여부 확인 및 채무불이행 정보 등 신용조회",
+            "locator": "BodyText/Section0 / record 670 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "94fb4e2dd796a5f0e092",
+            "category": "amount",
+            "excerpt": "✓ 정부지원사업 등의 사업 참여율 합계 확인",
+            "locator": "BodyText/Section0 / record 680 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "38456378121607333507",
+            "category": "amount",
+            "excerpt": "④ 제공하는 개인정보 항목 : 성명, 근무기관, 학력(학교, 전공, 학위, 연구분야 등), 경력, 특허/논문 실적, 정부출연사업 수행실적, 현재 수행중인 정부출연사업 참여율",
+            "locator": "BodyText/Section0 / record 706 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "c31e18ad4646bd74d8e1",
+            "category": "cofunding",
+            "excerpt": "[서식 6] 사업수행기관 현금부담 및 현물출자 확약서",
+            "locator": "BodyText/Section0 / record 1799 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "f59b01be811617f42cba",
+            "category": "amount",
+            "excerpt": "정부출연금",
+            "locator": "BodyText/Section0 / record 1912 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "2a1ee71fe23ed7fe6284",
+            "category": "documents",
+            "excerpt": "* 인건비는 수행기관의 실지급액 기준으로 산정하며, 정산시 급여지급 증빙서류 제출",
+            "locator": "BodyText/Section0 / record 2292 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "0e5e9dfa825e0a39ac16",
+            "category": "eligibility",
+            "excerpt": "[서식7] 과제 신청 자격요건 사전 자기점검표",
+            "locator": "BodyText/Section0 / record 2647 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "dc1fc6fcb162a913dae9",
+            "category": "eligibility",
+            "excerpt": "과제 신청 자격요건 사전 자기점검표",
+            "locator": "BodyText/Section0 / record 2651 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "93f4c853dab88bfc1eb3",
+            "category": "eligibility",
+            "excerpt": "신청인은 과제 신청을 위해 신청자격 제한여부에 해당하는지를 스스로 점검하시고, 해당 란에 표시()하여 주십시오.",
+            "locator": "BodyText/Section0 / record 2658 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "3bbb7a8a4c03ca2ed1f0",
+            "category": "eligibility",
+            "excerpt": "1. 신청자격 여부",
+            "locator": "BodyText/Section0 / record 2707 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "b516614435c65cd5071b",
+            "category": "exclusion",
+            "excerpt": "4. 사전 지원제외 대상 여부",
+            "locator": "BodyText/Section0 / record 2760 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "258e2c3a03b4d435cbec",
+            "category": "exclusion",
+            "excerpt": "√ 현재 신청인은 세무당국에 의하여 국세, 지방세 등의 체납처분을 받았나요?",
+            "locator": "BodyText/Section0 / record 2787 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "a21d07202edf8aa39860",
+            "category": "overlap",
+            "excerpt": "5. 과제 중복 지원 여부",
+            "locator": "BodyText/Section0 / record 2856 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "6458d3a630a0ce3cb2d5",
+            "category": "deadline",
+            "excerpt": "√ 현재 신청인은 사업 공고문 등에서 정한 신청 마감일 전날까지 국가연구개발사업에 참여 제한받은 사실이 있나요?",
+            "locator": "BodyText/Section0 / record 2881 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "138d99677a581f33677d",
+            "category": "deadline",
+            "excerpt": "√ 접수 마감일 기준 2년 이내 전담기관을 통해 개인정보보호 위반으로 인한 제재처분(협약 해약, 사업비 환수 등)을 받은 사실이 있나요?",
+            "locator": "BodyText/Section0 / record 2943 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "00f3d22ad928c27bd94f",
+            "category": "exclusion",
+            "excerpt": "본 신청인은 위 사항에 대해 사실을 확인하였으며, 만일 사실과 다를 경우 관련 규정에 따른 지원 제외 또는 선정 취소 등이 될 수 있다는 것에 이의가 없음을 확약합니다.",
+            "locator": "BodyText/Section0 / record 2965 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "443e6e7f33f3038223a5",
+            "category": "overlap",
+            "excerpt": "[서식 8] AIㆍ데이터 중복지원 방지 확약서",
+            "locator": "BodyText/Section0 / record 2996 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "d1b73360dac48af72a5f",
+            "category": "overlap",
+            "excerpt": "AI·데이터 중복지원 방지 확약서",
+            "locator": "BodyText/Section0 / record 3003 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "구역·레코드 위치는 실제 인쇄 쪽번호가 아닙니다.",
+          "표·그림·각주 의미와 문서의 모든 제외조건은 미검토"
+        ]
+      }
+    },
+    "e5a257fda3a3c5f30ac73b32": {
+      "id": "e5a257fda3a3c5f30ac73b32",
+      "program_id": "AI-RF-2026",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127270",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000776882&fileSn=0",
+      "name": "다운로드",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
+    },
+    "598c73b627fbf67b0e72097d": {
+      "id": "598c73b627fbf67b0e72097d",
+      "program_id": "AI-RF-2026",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127270",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000776883&fileSn=0",
+      "name": "다운로드",
+      "status": "size_limit",
+      "last_attempt_at": "2026-10-29T12:16:02+09:00",
+      "last_success_at": null,
+      "last_error": "size_limit",
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-10-29T12:16:02+09:00",
+          "status": "size_limit",
+          "observed_sha256": null
+        }
+      ]
+    },
+    "037b42bba1cce1db1b924fb6": {
+      "id": "037b42bba1cce1db1b924fb6",
+      "program_id": "AI-RF-2026",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127270",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000776883&fileSn=1",
+      "name": "다운로드",
+      "status": "size_limit",
+      "last_attempt_at": "2026-10-29T12:16:02+09:00",
+      "last_success_at": null,
+      "last_error": "size_limit",
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-10-29T12:16:02+09:00",
+          "status": "size_limit",
+          "observed_sha256": null
+        }
+      ]
+    },
+    "c7a6f84b6930fbd3fd384b5a": {
+      "id": "c7a6f84b6930fbd3fd384b5a",
+      "program_id": "BIZINFO-PBLN_000000000116904",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000116904",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000739008&fileSn=1",
+      "name": "다운로드",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
     }
   },
   "programs": {
@@ -1166,6 +1759,46 @@
       "document_ids": [
         "0be6e38011c739bba6c1dc46",
         "451a184d05090347af4bdafb"
+      ],
+      "review_required": false,
+      "last_error": null
+    },
+    "AHAP-MFG-2026": {
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127448",
+      "last_notice_attempt_at": "2026-10-29T12:16:02+09:00",
+      "last_notice_success_at": "2026-10-29T12:16:02+09:00",
+      "notice_status": "links_available",
+      "manifest_sha256": "c67e2574c3689b1af12a3edea21b89563a8a4b0c0e51233e87d55bfa665536b9",
+      "document_ids": [
+        "84f5def712e1dd3a961e18e1",
+        "fa1615d90f635c3db4c65fa6",
+        "9a9314e8c877cc7b1adb2858"
+      ],
+      "review_required": false,
+      "last_error": null
+    },
+    "AI-RF-2026": {
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127270",
+      "last_notice_attempt_at": "2026-10-29T12:16:02+09:00",
+      "last_notice_success_at": "2026-10-29T12:16:02+09:00",
+      "notice_status": "links_available",
+      "manifest_sha256": "1bb299f1541c56481d7434ae8e1b5b5e22390dd69d5e383116fb3ad4a6b039a5",
+      "document_ids": [
+        "e5a257fda3a3c5f30ac73b32",
+        "598c73b627fbf67b0e72097d",
+        "037b42bba1cce1db1b924fb6"
+      ],
+      "review_required": false,
+      "last_error": null
+    },
+    "BIZINFO-PBLN_000000000116904": {
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000116904",
+      "last_notice_attempt_at": "2026-10-29T12:16:02+09:00",
+      "last_notice_success_at": "2026-10-29T12:16:02+09:00",
+      "notice_status": "links_available",
+      "manifest_sha256": "99a4a30337f1cbd6dd90f61c9ed6810de3072217fd1e66c9e78f7492991aa964",
+      "document_ids": [
+        "c7a6f84b6930fbd3fd384b5a"
       ],
       "review_required": false,
       "last_error": null

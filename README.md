@@ -82,3 +82,24 @@ Validation: python scripts/test_refresh.py; python -m unittest discover -s scrip
 
 Official API contract: https://www.bizinfo.go.kr/apiDetail.do?id=bizinfoApi
 This release does not implement personal eligibility, funding-combination optimization, automatic application submission or full multi-agency/attachment ingestion.
+
+## P0.3 condition catalog and browser-local pre-screening (2026-10-29)
+
+- New route: `eligibility.html`, linked from the public dashboard. No account, backend writes, cookies, localStorage or sessionStorage are used for company inputs. Inputs live in page memory, reset on reload, and are exported only through an explicit local JSON download. This is NOT a private authenticated multi-user workspace.
+- Six optional aggregate inputs: business status, incorporation/startup date, SME status, headquarters region, innovative technology/idea, digital development/demonstration capability. No name, contact, business registration ID, bank account, revenue or representative birth date is requested.
+- `config/eligibility_rules.json` holds editorially reviewed public rules, short exact evidence excerpts, source URLs, source locators, reference dates, incomplete-scope questions and reviewed metadata-difference IDs. These IDs acknowledge already observed API labeling differences for this rule review only; original pending-review records are NOT deleted or auto-accepted.
+- `scripts/condition_catalog.py` creates public `data/conditions.json` from every current program. Regex-extracted tenure/location/amount/copayment snippets remain `candidate_unverified`; they never grant or deny eligibility.
+- Three initial PARTIAL rule sets: IBK Changgong 2027 H1, Gyeongbuk 2027 regional digital innovation consortium, Jump-Up 2027. Only the official notice summaries were rechecked. PDF/HWP/HWPX bodies, exceptions, application documents and full overlap restrictions are NOT verified.
+- IBK tenure uses its stated closing date. Jump-Up uses the announcement date, which is NOT inferred from the portal posting date; its age test remains unknown until the original announcement date is verified. Exact seven-year boundary dates and leap-day interpretation require original-notice review.
+- Missing input, missing/draft/stale evidence (14 days), changed program metadata, an unreviewed source difference or an HTML fetch failure hold the decision. Unknown never becomes a pass. A summary-only rule set cannot produce complete eligibility.
+- Results distinguish insufficient information, conditional review, a confirmed mandatory-condition mismatch, expired application windows and non-applicant notices. Full condition satisfaction requires an explicitly complete/full-notice-reviewed ruleset, reviewed attachments and exceptions; none of the three initial production rulesets claims that completeness.
+- Public catalog generation is deterministic and is integrated before daily data commits. Existing program records, manual conditions, evidence history and private legacy workspace data are not rewritten by this feature.
+- Unit tests: `python -m unittest discover -s scripts -p test_conditions.py -v`; `node --test scripts/test_eligibility.cjs scripts/test_eligibility_ui.cjs`. These include VM/DOM interaction and outbound-request checks, not a real-browser visual acceptance test.
+
+### Editorial sources checked for P0.3
+
+- IBK: https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127358
+- Gyeongbuk: https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127330
+- Jump-Up: https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127267
+
+Next scope remains attachment-body extraction with source locations, additional reviewed rule coverage, authoritative eligibility exceptions, private application/project management and funding-combination/cash-flow analysis. No submission, loan or investment execution is implemented.

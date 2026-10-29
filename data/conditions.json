@@ -1,0 +1,4630 @@
+{
+  "schema": "public-funding-conditions/v1",
+  "version": "0.3.0",
+  "generated_at": "2026-10-29T11:13:46+09:00",
+  "input_fingerprint": "e8840a1054af189f6d58a9f9f17425a8b97261dc36656e8324d12bd67fe55bc7",
+  "disclaimer": "요약에서 확인한 조건만 판정합니다. 자동 추출은 미검증 후보이며 기관의 최종 심사를 대체하지 않습니다.",
+  "records": {
+    "IBK-2027-1": {
+      "schema": "program-conditions/v1",
+      "program_id": "IBK-2027-1",
+      "basis_fingerprint": "f30698266fb1d9d5241e8061ca12410fef31e006385de6b0e1f3a6b8eeba728e",
+      "bound_fields": {
+        "id": "IBK-2027-1",
+        "title": "2027년 상반기 IBK창공 혁신창업기업 모집",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127358",
+        "year": 2027,
+        "eligibility": "업력 7년 이내 혁신기술 기업 · 예비창업자 제외",
+        "amount": "고정 현금지원액 없음",
+        "opens": "2026-10-19",
+        "deadline": "2026-11-13T14:00:00+09:00"
+      },
+      "coverage": "partial",
+      "metadata_state": "current",
+      "reviewed_at": "2026-10-29T11:13:46+09:00",
+      "sources": {
+        "summary": {
+          "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127358",
+          "locator": "기업마당 공식 상세 공고 · 사업개요 · 신청대상 요약",
+          "excerpt": "공고 마감일 기준 업력 7년 이내 혁신기술 및 아이디어를 보유한 중소기업",
+          "checked_at": "2026-10-29T11:13:46+09:00",
+          "level": "official_summary_reviewed"
+        }
+      },
+      "clauses": [
+        {
+          "id": "business",
+          "label": "사업체의 신청 여부",
+          "status": "reviewed",
+          "field": "entity",
+          "op": "in",
+          "evidence_id": "summary",
+          "values": [
+            "sole_proprietor",
+            "corporation"
+          ]
+        },
+        {
+          "id": "sme",
+          "label": "중소기업 해당",
+          "status": "reviewed",
+          "field": "is_sme",
+          "op": "eq",
+          "evidence_id": "summary",
+          "value": true
+        },
+        {
+          "id": "innovation",
+          "label": "혁신기술·아이디어 보유",
+          "status": "reviewed",
+          "field": "innovation",
+          "op": "eq",
+          "evidence_id": "summary",
+          "value": true
+        },
+        {
+          "id": "tenure",
+          "label": "2026-11-13 마감일 기준 업력 7년 이내",
+          "status": "reviewed",
+          "field": "founded_on",
+          "op": "tenure_lte",
+          "evidence_id": "summary",
+          "years": 7,
+          "as_of": "2026-11-13"
+        }
+      ],
+      "candidate_facts": [
+        {
+          "id": "84942d193768ce1f",
+          "category": "tenure",
+          "origin_field": "eligibility",
+          "excerpt": "업력 7년 이내",
+          "status": "candidate_unverified",
+          "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127358"
+        }
+      ],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [
+        "6e5dbc70d16e085d743e409e",
+        "09b59c06fbac59c0e0dfd059"
+      ],
+      "open_questions": [
+        "첨부의 창업 인정·기산일·경계일 산정과 제외사유를 확인해야 합니다.",
+        "모집센터·입주·기존 수혜 이력 등 추가요건은 첨부 검토 전입니다.",
+        "선정이 확정 현금보조금 지급을 의미하지 않습니다."
+      ]
+    },
+    "NIPA-GPU-2026-B300": {
+      "schema": "program-conditions/v1",
+      "program_id": "NIPA-GPU-2026-B300",
+      "basis_fingerprint": "d5ad9c52fbb0b1c7df99ef2a7972563d4d8907a1abd4f594ab03e56bf54eb10b",
+      "bound_fields": {
+        "id": "NIPA-GPU-2026-B300",
+        "title": "첨단 GPU 활용 지원사업 B300 베타서비스",
+        "source": "https://www.nipa.kr/home/bsnsAll/00/nttDetail?bbsNo=4&bsnsDtlsIemNo=849&nttNo=16976&tab=2",
+        "year": 2026,
+        "eligibility": "산학연 해당요건 · 사업자·연구계획 확인",
+        "amount": "GPU 8~32개 연구용 자원 · 현금 아님",
+        "opens": "2026-10-23",
+        "deadline": "2026-10-28T15:00:00+09:00"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "AHAP-MFG-2026": {
+      "schema": "program-conditions/v1",
+      "program_id": "AHAP-MFG-2026",
+      "basis_fingerprint": "54ea22c562346c8448cfcd55b10e1f31bd10547b286ea12ad12cd2a081fcced9",
+      "bound_fields": {
+        "id": "AHAP-MFG-2026",
+        "title": "아태 AI 특화지구 제조 AX 실증 수행기업 모집",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127448",
+        "year": 2026,
+        "eligibility": "전남광주 지역 본사·지사·연구소 보유 제조 AX 기업",
+        "amount": "공고 세부 사업비 확인 필요",
+        "opens": "2026-10-22",
+        "deadline": "2026-10-29"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [
+        {
+          "id": "92e03ce77487626d",
+          "category": "location",
+          "origin_field": "eligibility",
+          "excerpt": "전남광주 지역 본사·지사·연구소 보유 제조 AX 기업",
+          "status": "candidate_unverified",
+          "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127448"
+        }
+      ],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "STEEL-AX-2026": {
+      "schema": "program-conditions/v1",
+      "program_id": "STEEL-AX-2026",
+      "basis_fingerprint": "98ae6eb0349192bd18659931675bdeaa52eb04c1ab8d04a7ec7078d82fbdd61b",
+      "bound_fields": {
+        "id": "STEEL-AX-2026",
+        "title": "철강·금속 AX 실증센터 기업지원 기초단계",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127469",
+        "year": 2026,
+        "eligibility": "광양만권 철강·금속 제조·가공기업",
+        "amount": "외주 전문기업 기술지원",
+        "opens": "2026-10-22",
+        "deadline": "2026-10-30"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "AI-RF-2026": {
+      "schema": "program-conditions/v1",
+      "program_id": "AI-RF-2026",
+      "basis_fingerprint": "b5506f4429c5170ea148822c63ab58cb4114e86065202522db815911f238cf13",
+      "bound_fields": {
+        "id": "AI-RF-2026",
+        "title": "AI 기반 주파수 간섭분석 및 전파예측 R&D",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127270",
+        "year": 2026,
+        "eligibility": "해당 세부기술 개발역량과 R&D 참여요건 보유 기업·기관",
+        "amount": "RFP에서 확인",
+        "opens": "2026-11-03",
+        "deadline": "2026-11-16"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "TESTBUY-2026": {
+      "schema": "program-conditions/v1",
+      "program_id": "TESTBUY-2026",
+      "basis_fingerprint": "89af5c7787719b9b73b13efe4e251b2959fac4a353c5335edd2481c549a80f67",
+      "bound_fields": {
+        "id": "TESTBUY-2026",
+        "title": "제4차 기술개발제품 시범구매 지원",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127379",
+        "year": 2026,
+        "eligibility": "기술개발제품 인증 등 공고 요건",
+        "amount": "공공 구매·판로 지원",
+        "opens": "2026-10-21",
+        "deadline": "2026-11-10"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "EXPORT-CERT-2026": {
+      "schema": "program-conditions/v1",
+      "program_id": "EXPORT-CERT-2026",
+      "basis_fingerprint": "c281c573342d694f6ccf39e731539ea9b6f872e6335f25b0018c797591d0bdde",
+      "bound_fields": {
+        "id": "EXPORT-CERT-2026",
+        "title": "해외규격인증획득지원 3차",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127188",
+        "year": 2026,
+        "eligibility": "중소기업·직접수출액·해외규격 인증 수요",
+        "amount": "해외 인증비용 일부 · 연간 최대 1억원",
+        "opens": "2026-10-14",
+        "deadline": "2026-11-13"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [
+        {
+          "id": "38641f764fe148e2",
+          "category": "funding_amount",
+          "origin_field": "amount",
+          "excerpt": "해외 인증비용 일부 · 연간 최대 1억원",
+          "status": "candidate_unverified",
+          "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127188"
+        }
+      ],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "JUMPUP-2027": {
+      "schema": "program-conditions/v1",
+      "program_id": "JUMPUP-2027",
+      "basis_fingerprint": "273d43d0e170d6e9265c427e14365af1a6f0a71dc417c90cac4992cc22dba1a2",
+      "bound_fields": {
+        "id": "JUMPUP-2027",
+        "title": "2027년 도약(Jump-Up) 프로그램 참여기업",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127267",
+        "year": 2027,
+        "eligibility": "원칙적으로 업력 7년 이상 중소기업",
+        "amount": "단계별 오픈바우처 등",
+        "opens": "2026-10-15",
+        "deadline": "2026-11-13"
+      },
+      "coverage": "partial",
+      "metadata_state": "current",
+      "reviewed_at": "2026-10-29T11:13:46+09:00",
+      "sources": {
+        "summary": {
+          "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127267",
+          "locator": "기업마당 공식 상세 공고 · 사업개요 · 신청대상 요약",
+          "excerpt": "공고일 기준 업력 7년 이상의 중소기업 중 세부 프로그램별 신청요건을 충족하는 기업",
+          "checked_at": "2026-10-29T11:13:46+09:00",
+          "level": "official_summary_reviewed"
+        }
+      },
+      "clauses": [
+        {
+          "id": "business",
+          "label": "사업체의 신청 여부",
+          "status": "reviewed",
+          "field": "entity",
+          "op": "in",
+          "evidence_id": "summary",
+          "values": [
+            "sole_proprietor",
+            "corporation"
+          ]
+        },
+        {
+          "id": "sme",
+          "label": "중소기업 해당",
+          "status": "reviewed",
+          "field": "is_sme",
+          "op": "eq",
+          "evidence_id": "summary",
+          "value": true
+        },
+        {
+          "id": "tenure",
+          "label": "공고일 기준 업력 7년 이상 — 원문 공고일 미확인",
+          "status": "reviewed",
+          "field": "founded_on",
+          "op": "tenure_gte",
+          "evidence_id": "summary",
+          "years": 7,
+          "as_of": null
+        }
+      ],
+      "candidate_facts": [
+        {
+          "id": "2d4738ef8d437b79",
+          "category": "tenure",
+          "origin_field": "eligibility",
+          "excerpt": "업력 7년 이상",
+          "status": "candidate_unverified",
+          "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127267"
+        }
+      ],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [
+        "7c5e5d2fc3761b412c8f6d54",
+        "8e068c22b1edb947ea4db249"
+      ],
+      "open_questions": [
+        "게시일과 원문 공고일을 동일시하지 않습니다. 업력 기준일 확인이 필요합니다.",
+        "세부 트랙별 요건·제외사유·부담금·첨부 제출서류를 추가 검토해야 합니다."
+      ]
+    },
+    "DIPS-OPERATOR-2027": {
+      "schema": "program-conditions/v1",
+      "program_id": "DIPS-OPERATOR-2027",
+      "basis_fingerprint": "83176a50d7c89c3560a80483e369a18b642e3d44e68eee47c14c0c01085078ac",
+      "bound_fields": {
+        "id": "DIPS-OPERATOR-2027",
+        "title": "2027년 초격차 정부 첫 실증·구매 주관기관 모집",
+        "source": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?bcIdx=1071648&cbIdx=310&parentSeq=1071648",
+        "year": 2027,
+        "eligibility": "주관기관 대상",
+        "amount": "수혜기업 공고가 아님",
+        "opens": null,
+        "deadline": "2026-10-29T15:00:00+09:00"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "DIPS-OPERATOR-INVEST-2027": {
+      "schema": "program-conditions/v1",
+      "program_id": "DIPS-OPERATOR-INVEST-2027",
+      "basis_fingerprint": "251a319e2035ff6292bb808c8e0ba8e379fc98902272f55d20c28247d691ca5c",
+      "bound_fields": {
+        "id": "DIPS-OPERATOR-INVEST-2027",
+        "title": "2027 초격차 기술사업화·투자유치 주관기관 모집",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126609",
+        "year": 2027,
+        "eligibility": "사업 운영기관 대상",
+        "amount": "수혜기업 공고가 아님",
+        "opens": null,
+        "deadline": "2026-10-12"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "MSIT-BUDGET-2027": {
+      "schema": "program-conditions/v1",
+      "program_id": "MSIT-BUDGET-2027",
+      "basis_fingerprint": "503b2c6a825395dd3d4021fb4848e8fa0625523f71f44f70ffd02b840036606d",
+      "bound_fields": {
+        "id": "MSIT-BUDGET-2027",
+        "title": "2027 과기정통부 AI 예산안",
+        "source": "https://ebrief.korea.kr/briefing/68280",
+        "year": 2027,
+        "eligibility": "개별 신청사업이 아닌 정부 예산안",
+        "amount": "부처 전체 AI 예산안 9.4조원",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "NIPA-AIVOUCHER-2026": {
+      "schema": "program-conditions/v1",
+      "program_id": "NIPA-AIVOUCHER-2026",
+      "basis_fingerprint": "0b6146b2d927de18c8d9319b7e579802c100fd66cf08ad535e15effbae49d840",
+      "bound_fields": {
+        "id": "NIPA-AIVOUCHER-2026",
+        "title": "2026 AI 통합 바우처 — AI바우처",
+        "source": "https://nipa.kr/home/bsnsAll/3/nttDetail?bbsNo=4&bsnsDtlsIemNo=&nttNo=16546&tab=1",
+        "year": 2026,
+        "eligibility": "수요기업 신청·등록 공급기업 협업",
+        "amount": "수요기업 도입 과제당 최대 2억원 (2026)",
+        "opens": null,
+        "deadline": "2026-03-30T15:00:00+09:00"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [
+        {
+          "id": "0aaf88fbc15a9804",
+          "category": "funding_amount",
+          "origin_field": "amount",
+          "excerpt": "수요기업 도입 과제당 최대 2억원 (2026)",
+          "status": "candidate_unverified",
+          "source": "https://nipa.kr/home/bsnsAll/3/nttDetail?bbsNo=4&bsnsDtlsIemNo=&nttNo=16546&tab=1"
+        }
+      ],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "PRE-STARTUP-2026": {
+      "schema": "program-conditions/v1",
+      "program_id": "PRE-STARTUP-2026",
+      "basis_fingerprint": "0e2fd96d3f49467dcf8cc5f93420ff872f7abf0c9de4e9ccdf261bd54e5ee2cc",
+      "bound_fields": {
+        "id": "PRE-STARTUP-2026",
+        "title": "예비창업패키지 / 차기 예비창업 지원체계",
+        "source": "https://www.k-startup.go.kr/",
+        "year": 2026,
+        "eligibility": "사업자등록·법인 대표권 등 기준일 자격 확인",
+        "amount": "평균 4,000만원 (2026 참고)",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "EARLY-GENERAL-2026": {
+      "schema": "program-conditions/v1",
+      "program_id": "EARLY-GENERAL-2026",
+      "basis_fingerprint": "352e756137d288adc1d3d755a58c154d8f6446d9692debb4bcc10315575981c2",
+      "bound_fields": {
+        "id": "EARLY-GENERAL-2026",
+        "title": "초기창업패키지 일반형",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000117819",
+        "year": 2026,
+        "eligibility": "창업 3년 이내 등",
+        "amount": "평균 5,000만원·최대 1억원 (2026)",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [
+        {
+          "id": "1413b6ab4e472993",
+          "category": "tenure",
+          "origin_field": "eligibility",
+          "excerpt": "창업 3년 이내",
+          "status": "candidate_unverified",
+          "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000117819"
+        },
+        {
+          "id": "47e56240948be6ba",
+          "category": "funding_amount",
+          "origin_field": "amount",
+          "excerpt": "평균 5,000만원·최대 1억원 (2026)",
+          "status": "candidate_unverified",
+          "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000117819"
+        }
+      ],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "EARLY-DEEP-2026": {
+      "schema": "program-conditions/v1",
+      "program_id": "EARLY-DEEP-2026",
+      "basis_fingerprint": "b6b893af5e66d556d041fbf1e0a91163c622be52ec76006733b2a1557bcbed7e",
+      "bound_fields": {
+        "id": "EARLY-DEEP-2026",
+        "title": "초기창업패키지 딥테크 특화형",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000117173",
+        "year": 2026,
+        "eligibility": "창업 3년 이내·AI 등 해당 분야",
+        "amount": "평균 1억3천만원·최대 1억5천만원 (2026)",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [
+        {
+          "id": "1413b6ab4e472993",
+          "category": "tenure",
+          "origin_field": "eligibility",
+          "excerpt": "창업 3년 이내",
+          "status": "candidate_unverified",
+          "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000117173"
+        },
+        {
+          "id": "a880fc9c5366317c",
+          "category": "funding_amount",
+          "origin_field": "amount",
+          "excerpt": "평균 1억3천만원·최대 1억5천만원 (2026)",
+          "status": "candidate_unverified",
+          "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000117173"
+        }
+      ],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "YOUTH-SCHOOL-2026": {
+      "schema": "program-conditions/v1",
+      "program_id": "YOUTH-SCHOOL-2026",
+      "basis_fingerprint": "086e9181ace3f475c7b2adb5ca8ff043a71968649d09621eea8b06946356cac3",
+      "bound_fields": {
+        "id": "YOUTH-SCHOOL-2026",
+        "title": "청년창업사관학교",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000118036",
+        "year": 2026,
+        "eligibility": "대표 만 39세 이하·창업 3년 이내 원칙",
+        "amount": "평균 7,000만원·최대 1억원 (2026)",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [
+        {
+          "id": "1413b6ab4e472993",
+          "category": "tenure",
+          "origin_field": "eligibility",
+          "excerpt": "창업 3년 이내",
+          "status": "candidate_unverified",
+          "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000118036"
+        },
+        {
+          "id": "1cf61af763d515c4",
+          "category": "representative_age",
+          "origin_field": "eligibility",
+          "excerpt": "대표 만 39세 이하",
+          "status": "candidate_unverified",
+          "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000118036"
+        },
+        {
+          "id": "0efab5c21e21ace5",
+          "category": "funding_amount",
+          "origin_field": "amount",
+          "excerpt": "평균 7,000만원·최대 1억원 (2026)",
+          "status": "candidate_unverified",
+          "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000118036"
+        }
+      ],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "DIDIMDOL-2026": {
+      "schema": "program-conditions/v1",
+      "program_id": "DIDIMDOL-2026",
+      "basis_fingerprint": "90fefe7d135fba242328bd5871e966e6a07b958d8ca1d6bf0a2418b0db481e70",
+      "bound_fields": {
+        "id": "DIDIMDOL-2026",
+        "title": "디딤돌 첫걸음 R&D",
+        "source": "https://www.iris.go.kr/",
+        "year": 2026,
+        "eligibility": "첫 R&D 수행 등 공고별 세부요건",
+        "amount": "최대 2억원·18개월 (2026 참고)",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [
+        {
+          "id": "32856b95c97ee46d",
+          "category": "funding_amount",
+          "origin_field": "amount",
+          "excerpt": "최대 2억원·18개월 (2026 참고)",
+          "status": "candidate_unverified",
+          "source": "https://www.iris.go.kr/"
+        },
+        {
+          "id": "c2b70d6884b72dd2",
+          "category": "cofunding",
+          "origin_field": "note",
+          "excerpt": "정부 R&D · 연구과제와 자부담 분리",
+          "status": "candidate_unverified",
+          "source": "https://www.iris.go.kr/"
+        }
+      ],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "TIPS-GENERAL-2026": {
+      "schema": "program-conditions/v1",
+      "program_id": "TIPS-GENERAL-2026",
+      "basis_fingerprint": "aaebfd13cac40b7709106f879c0b44224b9ab1db3d8150b55e9fc5d2c45dab53",
+      "bound_fields": {
+        "id": "TIPS-GENERAL-2026",
+        "title": "TIPS 일반형",
+        "source": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?bcIdx=1065031&cbIdx=86",
+        "year": 2026,
+        "eligibility": "운영사 선행투자·추천·정부 평가",
+        "amount": "정부 R&D 최대 8억원 (2026 참고)",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [
+        {
+          "id": "28fdfd058177787c",
+          "category": "funding_amount",
+          "origin_field": "amount",
+          "excerpt": "정부 R&D 최대 8억원 (2026 참고)",
+          "status": "candidate_unverified",
+          "source": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?bcIdx=1065031&cbIdx=86"
+        }
+      ],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "TIPS-DEEP-2026": {
+      "schema": "program-conditions/v1",
+      "program_id": "TIPS-DEEP-2026",
+      "basis_fingerprint": "c9aa5231abc2687e595160184b25f52e0746b7be2b60fc45148af0ae401853cb",
+      "bound_fields": {
+        "id": "TIPS-DEEP-2026",
+        "title": "TIPS 딥테크 후속",
+        "source": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?bcIdx=1065031&cbIdx=86",
+        "year": 2026,
+        "eligibility": "일반형 완료·후속투자 등 요건",
+        "amount": "정부 R&D 최대 15억원 (2026 참고)",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [
+        {
+          "id": "8acdd636f141339f",
+          "category": "funding_amount",
+          "origin_field": "amount",
+          "excerpt": "정부 R&D 최대 15억원 (2026 참고)",
+          "status": "candidate_unverified",
+          "source": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?bcIdx=1065031&cbIdx=86"
+        }
+      ],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "DIPS-CORE-2026": {
+      "schema": "program-conditions/v1",
+      "program_id": "DIPS-CORE-2026",
+      "basis_fingerprint": "e785d9dae4764637e141fc2ef413ead1b6c90ff02f02fbf065cfca49ba847a48",
+      "bound_fields": {
+        "id": "DIPS-CORE-2026",
+        "title": "초격차 Core DIPS",
+        "source": "https://mss.go.kr/site/smba/ex/bbs/View.do?bcIdx=1064347&cbIdx=86",
+        "year": 2026,
+        "eligibility": "해당 기술 분야·업력·평가요건",
+        "amount": "사업화 최대 6억원/3년 (2026 참고)",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [
+        {
+          "id": "86fae30bb7c6fc63",
+          "category": "funding_amount",
+          "origin_field": "amount",
+          "excerpt": "사업화 최대 6억원/3년 (2026 참고)",
+          "status": "candidate_unverified",
+          "source": "https://mss.go.kr/site/smba/ex/bbs/View.do?bcIdx=1064347&cbIdx=86"
+        }
+      ],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "NIPA-SAAS-2026": {
+      "schema": "program-conditions/v1",
+      "program_id": "NIPA-SAAS-2026",
+      "basis_fingerprint": "712212058ee84a89cd49bd360e524782281fa9699bb3a2d1c9fa6299b8071722",
+      "bound_fields": {
+        "id": "NIPA-SAAS-2026",
+        "title": "NIPA SaaS 개발·사업화 지원",
+        "source": "https://www.nipa.kr/home/bsnsAll/00/nttDetail?bbsNo=4&bsnsDtlsIemNo=891&nttNo=16597&tab=2",
+        "year": 2026,
+        "eligibility": "자체 AI·SaaS 기술, 시험·해외매출 조건 등",
+        "amount": "최대 4억8천만원 (2026 참고)",
+        "opens": null,
+        "deadline": "2026-04-22"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [
+        {
+          "id": "2bc4e83dc11ac607",
+          "category": "funding_amount",
+          "origin_field": "amount",
+          "excerpt": "최대 4억8천만원 (2026 참고)",
+          "status": "candidate_unverified",
+          "source": "https://www.nipa.kr/home/bsnsAll/00/nttDetail?bbsNo=4&bsnsDtlsIemNo=891&nttNo=16597&tab=2"
+        }
+      ],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "KOCCA-CONTENT-2026": {
+      "schema": "program-conditions/v1",
+      "program_id": "KOCCA-CONTENT-2026",
+      "basis_fingerprint": "a4fc331b6c7b56d28f03a5f65869e929b41dfe5b89336c9fe7c44b02ff1ef6b1",
+      "bound_fields": {
+        "id": "KOCCA-CONTENT-2026",
+        "title": "KOCCA AI 콘텐츠 제작지원",
+        "source": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?indRow=216&menuNo=200104&rcrtSn=209440&viewTp=3",
+        "year": 2026,
+        "eligibility": "제작현장 실증·콘텐츠 산출물",
+        "amount": "진입형 최대 2억원 (2026 참고)",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [
+        {
+          "id": "c68a9cf1949f9fa1",
+          "category": "funding_amount",
+          "origin_field": "amount",
+          "excerpt": "진입형 최대 2억원 (2026 참고)",
+          "status": "candidate_unverified",
+          "source": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?indRow=216&menuNo=200104&rcrtSn=209440&viewTp=3"
+        },
+        {
+          "id": "b5791514a3399893",
+          "category": "cofunding",
+          "origin_field": "note",
+          "excerpt": "선도형·협력형은 별도 자격·자부담, 2027 미확정",
+          "status": "candidate_unverified",
+          "source": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?indRow=216&menuNo=200104&rcrtSn=209440&viewTp=3"
+        }
+      ],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "DATA-VOUCHER-2026": {
+      "schema": "program-conditions/v1",
+      "program_id": "DATA-VOUCHER-2026",
+      "basis_fingerprint": "97e748bcf036a7a79a98803e9fbb6284b8bd64e99523761c18a84d399018b24a",
+      "bound_fields": {
+        "id": "DATA-VOUCHER-2026",
+        "title": "데이터바우처",
+        "source": "https://www.kdata.or.kr/",
+        "year": 2026,
+        "eligibility": "데이터 구매·수집·가공 등 필요한 수요기업",
+        "amount": "일반 최대 4,500만원 (2026 참고)",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "SME-LOAN-2026": {
+      "schema": "program-conditions/v1",
+      "program_id": "SME-LOAN-2026",
+      "basis_fingerprint": "8ed851420f579a752faa150fb6ac9691f2a9f678ab61d695fc736d71bdae3a76",
+      "bound_fields": {
+        "id": "SME-LOAN-2026",
+        "title": "중진공 창업기반지원·청년전용창업자금",
+        "source": "https://www.kosmes.or.kr/nsh/SH/SBI/SHSBI004M0.do",
+        "year": 2026,
+        "eligibility": "업력·연령·신용·상환재원·지역별 예산",
+        "amount": "융자·상환 필요 (사업별 한도 다름)",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000127446": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000127446",
+      "basis_fingerprint": "b6c6e93e1d08e0ac852d7999d7cdb2d0b577ba8b080c7faad284eecac76f88f4",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000127446",
+        "title": "[경남] 창원시 2026년 3차 AI 빅데이터 기반 의료바이오 첨단기기 연구제조센터 구축사업 의료기기 부품ㆍ모듈 국산화 및 기술개발 지원사업 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127446",
+        "year": 2026,
+        "eligibility": "중소기업",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": "2026-10-23",
+        "deadline": "2026-11-20"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [
+        {
+          "id": "adb762a56ce63866",
+          "category": "cofunding",
+          "origin_field": "note",
+          "excerpt": "수혜기업 여부·지원금액·중복제한은 공고 원문 확인 필요",
+          "status": "candidate_unverified",
+          "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127446"
+        }
+      ],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000127394": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000127394",
+      "basis_fingerprint": "399acdba0b15f615a0b10cd87d22cefda10a46fe1edd82ded778e5f3776f010a",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000127394",
+        "title": "[경북] 대구한의대학교 글로컬대학(특성화지방대학) K-MEDI AI Innovation 창업사관학교 예비창업자 모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127394",
+        "year": 2026,
+        "eligibility": "창업벤처",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": "2026-10-21",
+        "deadline": "2026-10-28"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [
+        {
+          "id": "adb762a56ce63866",
+          "category": "cofunding",
+          "origin_field": "note",
+          "excerpt": "수혜기업 여부·지원금액·중복제한은 공고 원문 확인 필요",
+          "status": "candidate_unverified",
+          "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127394"
+        }
+      ],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000127373": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000127373",
+      "basis_fingerprint": "c5d322ea936b16983c10b8330ce05587b0dc23079958f771b8d362e499eca14f",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000127373",
+        "title": "2026년 시설농업 AI로봇 실증기반 구축사업 기술지원(기술지도) 수혜기업 모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127373",
+        "year": 2026,
+        "eligibility": "중소기업",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [
+        {
+          "id": "adb762a56ce63866",
+          "category": "cofunding",
+          "origin_field": "note",
+          "excerpt": "수혜기업 여부·지원금액·중복제한은 공고 원문 확인 필요",
+          "status": "candidate_unverified",
+          "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127373"
+        }
+      ],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000127372": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000127372",
+      "basis_fingerprint": "6b20c9670cb2993e0f5a7c92bf0506b1424acdaef2530480bba3c0ad2090cbe0",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000127372",
+        "title": "2026년 호남권 AX랩 지능형농업 데이터 활용 경진대회 공고(AI융합 지능형 농업 생태계 구축 사업)",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127372",
+        "year": 2026,
+        "eligibility": "중소기업",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": "2026-10-19",
+        "deadline": "2026-11-18"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [
+        {
+          "id": "adb762a56ce63866",
+          "category": "cofunding",
+          "origin_field": "note",
+          "excerpt": "수혜기업 여부·지원금액·중복제한은 공고 원문 확인 필요",
+          "status": "candidate_unverified",
+          "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127372"
+        }
+      ],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000127332": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000127332",
+      "basis_fingerprint": "df4a1d7fcc731f830acacf0b83d8e09d417dca265497286109164cfde3747fd9",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000127332",
+        "title": "2026년ㆍ2027년 Physical AI 기반 의료로봇 기술통합센터 구축 참여기업 모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127332",
+        "year": 2026,
+        "eligibility": "Physical AI 의료로봇 국내외 인허가·시험분석·안전성 관련 기술지원이 필요한 기업",
+        "amount": "의료로봇 인허가·전기안전·전자파안전 등 비현금 기술지원(지원액 확인 필요)",
+        "opens": "2026-10-19",
+        "deadline": "2026-10-30"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000127330": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000127330",
+      "basis_fingerprint": "7bc157f712ee4149d58ce4bd15d1e77c2de99be41f572368b980142bfb125fb3",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000127330",
+        "title": "[경북] 2027년 지역 자율형 디지털 혁신프로젝트 신규과제 컨소시엄 모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127330",
+        "year": 2027,
+        "eligibility": "경북 소재 디지털 기술 개발·실증 기업(사업자등록증상 본사 기준). 경북 시·군 디지털 수요처와 공급기업 중심 컨소시엄 구성 필요",
+        "amount": "2027~2029년 디지털 신기술 개발·현장실증 과제 지원. 보조금·민간부담·선정규모의 확정 세부액은 첨부 공고문 확인 필요",
+        "opens": "2026-10-21",
+        "deadline": "2026-11-05"
+      },
+      "coverage": "partial",
+      "metadata_state": "current",
+      "reviewed_at": "2026-10-29T11:13:46+09:00",
+      "sources": {
+        "summary": {
+          "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127330",
+          "locator": "기업마당 공식 상세 공고 · 사업개요 · 신청대상 요약",
+          "excerpt": "사업자등록증상 경상북도 소재의 디지털 기술 개발 및 실증ㆍ구현이 가능한 기업(본사 기준)",
+          "checked_at": "2026-10-29T11:13:46+09:00",
+          "level": "official_summary_reviewed"
+        }
+      },
+      "clauses": [
+        {
+          "id": "business",
+          "label": "사업체의 신청 여부",
+          "status": "reviewed",
+          "field": "entity",
+          "op": "in",
+          "evidence_id": "summary",
+          "values": [
+            "sole_proprietor",
+            "corporation"
+          ]
+        },
+        {
+          "id": "hq",
+          "label": "사업자등록증상 본사가 경북 소재",
+          "status": "reviewed",
+          "field": "headquarters_region",
+          "op": "eq",
+          "evidence_id": "summary",
+          "value": "경북"
+        },
+        {
+          "id": "digital",
+          "label": "디지털 기술 개발·실증 역량",
+          "status": "reviewed",
+          "field": "digital_capability",
+          "op": "eq",
+          "evidence_id": "summary",
+          "value": true
+        }
+      ],
+      "candidate_facts": [
+        {
+          "id": "13619f2259b4dba9",
+          "category": "location",
+          "origin_field": "eligibility",
+          "excerpt": "경북 소재 디지털 기술 개발·실증 기업(사업자등록증상 본사 기준)",
+          "status": "candidate_unverified",
+          "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127330"
+        },
+        {
+          "id": "066611380e836a8d",
+          "category": "cofunding",
+          "origin_field": "amount",
+          "excerpt": "보조금·민간부담·선정규모의 확정 세부액은 첨부 공고문 확인 필요",
+          "status": "candidate_unverified",
+          "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127330"
+        },
+        {
+          "id": "a817b641099b4682",
+          "category": "cofunding",
+          "origin_field": "note",
+          "excerpt": "기업마당 공식 상세페이지 확인, 신청시각과 자부담은 첨부 원문 확인 필요",
+          "status": "candidate_unverified",
+          "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127330"
+        }
+      ],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [
+        "c4412154cfc6130dc90ca3d0"
+      ],
+      "open_questions": [
+        "컨소시엄 구성·경북 시군 수요처·역할 요건은 첨부 확인이 필요합니다.",
+        "자부담·중복지원·제출서류·정확한 마감시각은 미검증입니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000127316": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000127316",
+      "basis_fingerprint": "7d1de2380dbf887d05e09aa787555230e95277725b006e8736f96f2c7cdb4f55",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000127316",
+        "title": "[강원] 2026년 지역 주도형 AI 대전환 사업 강원 지역주도 AI 대전환 수요기업 모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127316",
+        "year": 2026,
+        "eligibility": "중소기업",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": "2026-10-16",
+        "deadline": "2026-10-28"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [
+        {
+          "id": "adb762a56ce63866",
+          "category": "cofunding",
+          "origin_field": "note",
+          "excerpt": "수혜기업 여부·지원금액·중복제한은 공고 원문 확인 필요",
+          "status": "candidate_unverified",
+          "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127316"
+        }
+      ],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000127277": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000127277",
+      "basis_fingerprint": "2a3c5145710f49016244b959246014bcaaa70bd0569f6190849b0ef7590a4117",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000127277",
+        "title": "일본진출 K-스타트업 AI 역직구 온라인 한국관 특별전 모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127277",
+        "year": 2026,
+        "eligibility": "중소기업",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": "2026-10-16",
+        "deadline": "2026-10-31"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [
+        {
+          "id": "adb762a56ce63866",
+          "category": "cofunding",
+          "origin_field": "note",
+          "excerpt": "수혜기업 여부·지원금액·중복제한은 공고 원문 확인 필요",
+          "status": "candidate_unverified",
+          "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127277"
+        }
+      ],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000127246": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000127246",
+      "basis_fingerprint": "e4448738b1f44f394318fd573448f138a466637ec5c14c86431b085110cbfe00",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000127246",
+        "title": "2026년 투자기업 발굴 플랫폼 빅웨이브 IR사업 3회차 초격차 분야 IR 참여기업 모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127246",
+        "year": 2026,
+        "eligibility": "공고일 기준 업력 7년 이내 초격차 10대 분야 법인 스타트업. 빅데이터·AI 분야 포함",
+        "amount": "IR 발표자료·투자자 1:1 미팅·TIPS 연계 검토 등 비현금 투자유치 지원",
+        "opens": "2026-10-13",
+        "deadline": "2026-10-29"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [
+        {
+          "id": "84942d193768ce1f",
+          "category": "tenure",
+          "origin_field": "eligibility",
+          "excerpt": "업력 7년 이내",
+          "status": "candidate_unverified",
+          "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127246"
+        }
+      ],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000127227": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000127227",
+      "basis_fingerprint": "e346de752a2042ec1d13f7cb47148d0a6518e406b739b6310916a45565e29a4a",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000127227",
+        "title": "[경기] 성남시 2026년 피지컬 AI 자율실험 기반구축 지원사업 수혜기업 모집 통합 공고(산업혁신기반구축사업 혼합현실(Mixed Reality 기반 피지컬AI 자율실험 기반구축)",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127227",
+        "year": 2026,
+        "eligibility": "중소기업",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [
+        {
+          "id": "adb762a56ce63866",
+          "category": "cofunding",
+          "origin_field": "note",
+          "excerpt": "수혜기업 여부·지원금액·중복제한은 공고 원문 확인 필요",
+          "status": "candidate_unverified",
+          "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127227"
+        }
+      ],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000127225": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000127225",
+      "basis_fingerprint": "77dc2ec088cf32b4d2c768163e4eecf7219ae74542a5eaacf3112bde3b4f3229",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000127225",
+        "title": "[충남] 2026년 AI 팩토리 사업 성과확산을 위한 지역 DX 수혜기업 지원 사업 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127225",
+        "year": 2026,
+        "eligibility": "충남 소재 중소기업 중 충남TP 스마트공장 구축지원사업을 수행 완료했거나 수행 중인 기업",
+        "amount": "컨설팅·인증·시험검증·마케팅 기업당 250만원(2개사) 또는 시제품 제작 기업당 최대 600만원(3개사); 분야별 별도 규모",
+        "opens": "2026-11-02",
+        "deadline": "2026-11-06"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [
+        {
+          "id": "1296d2aef443eceb",
+          "category": "location",
+          "origin_field": "eligibility",
+          "excerpt": "충남 소재 중소기업 중 충남TP 스마트공장 구축지원사업을 수행 완료했거나 수행 중인 기업",
+          "status": "candidate_unverified",
+          "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127225"
+        }
+      ],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000127207": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000127207",
+      "basis_fingerprint": "06ef0249f27bc9a68bf95bd6be6b1adf6250f0b215482891a69328a713143c5a",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000127207",
+        "title": "[경남] 2026년 제조AI 데이터 활용지원 사업 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127207",
+        "year": 2026,
+        "eligibility": "경남 도내 제조 중소·중견기업(창원·진주·통영·사천·김해·거제·양산·의령·함안), AI 스마트공장 도입 전 제조데이터 활용 필요",
+        "amount": "제조AI 데이터 수집·활용 체계 구축 지원(구체 지원액 확인 필요)",
+        "opens": "2026-10-07",
+        "deadline": "2026-11-04"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000127197": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000127197",
+      "basis_fingerprint": "a24908a9e7a091ff98c5215f320a48654b021c3c2e56477b59b9a28a3eac91ab",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000127197",
+        "title": "2026년 지역거점 AX 혁신 기술개발 사업 신규지원 대상과제 공고 (공정ㆍ응용 솔루션 AX R&D, 응용 제품 AX R&D)",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127197",
+        "year": 2026,
+        "eligibility": "기업·대학·연구기관 등 R&D 수행기관. 주관 신청기업은 접수마감일 현재 법인사업자이면서 기업부설연구소 보유 필요",
+        "amount": "바이오·헬스케어 및 완전자율로봇 등 특정 AX R&D 연구개발비. 과제별 금액·기관부담 RFP 확인 필요",
+        "opens": "2026-10-29",
+        "deadline": "2026-11-12"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000127175": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000127175",
+      "basis_fingerprint": "faa7bb26200f9f1fc905394bf48a389dcef49edf99770760e80adc1592a7e3cd",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000127175",
+        "title": "[전남광주] 2026년 창업도시 조성 프로젝트 지역문제 해결(공공분야) AI 헬스케어 수혜기업 모집 연장 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127175",
+        "year": 2026,
+        "eligibility": "광주 지역 소재 AI 헬스케어 분야 업력 7년 이내 스타트업, 헬스케어 제품·서비스 고도화 필요",
+        "amount": "실증 연계·즉시 실증·1:1 컨설팅 등 프로그램 지원. 직접 현금지원액 확인되지 않음",
+        "opens": "2026-10-02",
+        "deadline": "2026-10-30"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [
+        {
+          "id": "84942d193768ce1f",
+          "category": "tenure",
+          "origin_field": "eligibility",
+          "excerpt": "업력 7년 이내",
+          "status": "candidate_unverified",
+          "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127175"
+        },
+        {
+          "id": "4f042f110f69da29",
+          "category": "location",
+          "origin_field": "eligibility",
+          "excerpt": "광주 지역 소재 AI 헬스케어 분야 업력 7년 이내 스타트업, 헬스케어 제품·서비스 고도화 필요",
+          "status": "candidate_unverified",
+          "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127175"
+        }
+      ],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000127148": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000127148",
+      "basis_fingerprint": "f01cc2afa4bcab28b4d95af598181a0ec9aba914283ca9b1b343db63e760e15d",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000127148",
+        "title": "2026년 중동 AIㆍICT 온라인 상담회 참여기업 모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127148",
+        "year": 2026,
+        "eligibility": "중소기업",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": "2026-10-08",
+        "deadline": "2026-10-30"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [
+        {
+          "id": "adb762a56ce63866",
+          "category": "cofunding",
+          "origin_field": "note",
+          "excerpt": "수혜기업 여부·지원금액·중복제한은 공고 원문 확인 필요",
+          "status": "candidate_unverified",
+          "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127148"
+        }
+      ],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000127422": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000127422",
+      "basis_fingerprint": "34528fbdf9c4a8ea291fa237e76011ace2b1eb474f7e3e1af2914a484a799a41",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000127422",
+        "title": "2026년 3차 기계장비산업기술개발사업 신규지원 대상과제 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127422",
+        "year": 2026,
+        "eligibility": "기업·대학·연구기관 등. 주관기업은 법인사업자(마감일 기준) 및 기업부설연구소(선정평가 전) 보유",
+        "amount": "제조기반생산시스템·제조장비실증 분야 R&D 과제비, 세부과제·지원한도 RFP 확인 필요",
+        "opens": "2026-10-29",
+        "deadline": "2026-11-20"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000127132": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000127132",
+      "basis_fingerprint": "841c6cd783609bd7c59fd5bad3edbdfea11cddf50cf203bb4cd03c491840cdb3",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000127132",
+        "title": "[서울] MWC2027-4YFN 서울기업관 서울소재 참가기업 모집",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127132",
+        "year": 2026,
+        "eligibility": "서울 소재 중소기업, AI 등 4YFN 전시 분야 적합·출품 가능한 개발 완료 제품/서비스/기술 보유; 동일 행사 타 공공지원 중복 불가",
+        "amount": "2027 행사 B2B 공동관 홍보·현지 투자자 매칭 등 비현금 지원",
+        "opens": "2026-10-12",
+        "deadline": "2026-10-29"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [
+        {
+          "id": "ae7b55e3ae89bbae",
+          "category": "location",
+          "origin_field": "eligibility",
+          "excerpt": "서울 소재 중소기업, AI 등 4YFN 전시 분야 적합·출품 가능한 개발 완료 제품/서비스/기술 보유; 동일",
+          "status": "candidate_unverified",
+          "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127132"
+        },
+        {
+          "id": "c730ebd37a2d1ed4",
+          "category": "cofunding",
+          "origin_field": "eligibility",
+          "excerpt": "출품 가능한 개발 완료 제품/서비스/기술 보유; 동일 행사 타 공공지원 중복 불가",
+          "status": "candidate_unverified",
+          "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127132"
+        }
+      ],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000127511": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000127511",
+      "basis_fingerprint": "f825bfef4e9e110cb409794293404c8de5c1727244d15a072ad1dfd84c989316",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000127511",
+        "title": "2026년 글로벌 진출 스마트 휴머니제이션 사업 상시 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127511",
+        "year": 2026,
+        "eligibility": "AI 기반 기술혁신을 활용해 첨단 바이오소재·디지털헬스 제품을 개발·고도화하려는 기업",
+        "amount": "AI 성능시험·인허가·안전성·신뢰성 평가·해외인증 및 제품 고도화 지원(지원 금액 확인 필요)",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [
+        {
+          "id": "6df4b0736cf00301",
+          "category": "location",
+          "origin_field": "eligibility",
+          "excerpt": "AI 기반 기술혁신을 활용해 첨단 바이오소재·디지털헬스 제품을 개발·고도화하려는 기업",
+          "status": "candidate_unverified",
+          "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127511"
+        }
+      ],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000127523": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000127523",
+      "basis_fingerprint": "854f20edc18107460da7c7cc49768e1b6a262ee643b2450b35d7e20f510f4190",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000127523",
+        "title": "2026년 대구 지역거점 AX 혁신 기술개발 사업 신규지원 대상과제 공고(표준모델 AX R&D)",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127523",
+        "year": 2026,
+        "eligibility": "중소기업",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": "2026-10-26",
+        "deadline": "2026-11-09"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [
+        {
+          "id": "bcf7ab13d39e58fb",
+          "category": "cofunding",
+          "origin_field": "note",
+          "excerpt": "실제 신청대상·지원금·마감시각·중복수혜는 공고 원문 확인 전까지 미확정",
+          "status": "candidate_unverified",
+          "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127523"
+        }
+      ],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000127506": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000127506",
+      "basis_fingerprint": "cae4eddc0f2a235685326dbcfd5bf26b18c07dae12821534b9eec3ca29e4b6c9",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000127506",
+        "title": "2026년 연구개발특구진흥재단 X 알테오젠 바이오 딥테크 오픈이노베이션 참여기업ㆍ연구기관 모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127506",
+        "year": 2026,
+        "eligibility": "중소기업",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": "2026-10-26",
+        "deadline": "2026-11-16"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [
+        {
+          "id": "bcf7ab13d39e58fb",
+          "category": "cofunding",
+          "origin_field": "note",
+          "excerpt": "실제 신청대상·지원금·마감시각·중복수혜는 공고 원문 확인 전까지 미확정",
+          "status": "candidate_unverified",
+          "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127506"
+        }
+      ],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000127529": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000127529",
+      "basis_fingerprint": "b68fcb8dc8fa14b0c89212346ccef69b2e89a7182db8a40cc9b06c152d7b8d9a",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000127529",
+        "title": "[대구] 2026년 창업도시 조성 프로젝트 참가기업 모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127529",
+        "year": 2026,
+        "eligibility": "창업벤처",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": "2026-10-27",
+        "deadline": "2026-11-09"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000127502": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000127502",
+      "basis_fingerprint": "0b105dc64815d34c83dc1586d829e00f377a80b4fdaf47bada261d1f8df5c6f1",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000127502",
+        "title": "[울산] 2026년 창업시리즈N 전문가 멘토링 프로그램 참여기업 모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127502",
+        "year": 2026,
+        "eligibility": "창업벤처",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000127498": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000127498",
+      "basis_fingerprint": "01bd35b038d96b16fee91fef479665bce1edae8a5717fd7cb7504772c7e2433a",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000127498",
+        "title": "[경기] 안성시 2026년 도시재생 창업지원사업 참여자 추가모집 공고(성남ㆍ옥천지구 도시재생활성화)",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127498",
+        "year": 2026,
+        "eligibility": "창업벤처",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": "2026-10-23",
+        "deadline": "2026-11-13"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000127467": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000127467",
+      "basis_fingerprint": "fcdb1b89c041ab0ee86e579808764e2415ae3840899d891270f506278b0f3fd3",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000127467",
+        "title": "[충남] 청양군 청년창업공간 누구나가게 본점 창업도전자 모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127467",
+        "year": 2026,
+        "eligibility": "창업벤처",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": "2026-10-21",
+        "deadline": "2026-11-06"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000127466": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000127466",
+      "basis_fingerprint": "c5af22ff05aa4bbe3ca9c49da75475381f6620b903be1c35c2497350add98521",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000127466",
+        "title": "2026년 서천 해양 블루바이오 신소재 기반 예비창업자 지원 프로그램 상시 모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127466",
+        "year": 2026,
+        "eligibility": "창업벤처",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000127454": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000127454",
+      "basis_fingerprint": "3d0e14f318c4d92fa3744f4a4b1c267ef8f34f8ce45c33add24a4885aa350c0c",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000127454",
+        "title": "[충남] 2026년 충남창업마루나비 인플루언서 마케팅 지원사업 모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127454",
+        "year": 2026,
+        "eligibility": "창업벤처",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": "2026-10-26",
+        "deadline": "2026-11-01"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000127435": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000127435",
+      "basis_fingerprint": "3436c2652098b5218d5dbaa3bd868ae4011b556ae6b636db24b88fc1fe6da5ee",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000127435",
+        "title": "2026년 창업도시 조성 프로젝트 창업도시 모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127435",
+        "year": 2026,
+        "eligibility": "중소기업",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": "2026-10-23",
+        "deadline": "2026-11-30"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000127411": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000127411",
+      "basis_fingerprint": "35e7e1c7e47ec82e6ec21cc7215885c6342348618009e7f518446c53fa300d0e",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000127411",
+        "title": "2026년 강원연구개발특구육성(R&D)사업 강원 특구 배치 프로그램 1기 창업기업 모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127411",
+        "year": 2026,
+        "eligibility": "창업벤처",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": "2026-10-21",
+        "deadline": "2026-11-11"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000127377": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000127377",
+      "basis_fingerprint": "a414bae62710a3577c211ede785c48bcf938fb79bafcb6341753c111f699ed83",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000127377",
+        "title": "[부산] 해운대구 청년 창업자 임차료 지원사업 참여자 추가 모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127377",
+        "year": 2026,
+        "eligibility": "창업벤처",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": "2026-10-26",
+        "deadline": "2026-11-01"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000127290": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000127290",
+      "basis_fingerprint": "d51d4be545ab3b541254c81a22d85453f0da1e0ab4cbfecbf4489d49ac64a9f1",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000127290",
+        "title": "[경북] 청도군 2026년 청년농업인 R&D 기술창업 통합관리 지원사업 신청 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127290",
+        "year": 2026,
+        "eligibility": "창업벤처",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": "2026-10-16",
+        "deadline": "2026-11-03"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000127266": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000127266",
+      "basis_fingerprint": "5a9b8cedcad4c638355350d57f34309c202b10aa30b0e0635f449e2dfc093b48",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000127266",
+        "title": "2026년 서초창업스테이션 프리 오픈 이노베이션 참여 기업 모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127266",
+        "year": 2026,
+        "eligibility": "창업벤처",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": "2026-10-14",
+        "deadline": "2026-11-05"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000127238": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000127238",
+      "basis_fingerprint": "d9ab08020fdc4ed6a8ac3b93979f151c31c70a807cde98bedb91bc78c8b82b37",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000127238",
+        "title": "[대전] 2026년 창업도시 프로젝트 대학형ㆍ통합형 창업실행 프로그램 참여기업 모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127238",
+        "year": 2026,
+        "eligibility": "창업벤처",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000127162": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000127162",
+      "basis_fingerprint": "06d74d483102d0a094292611eac94d07ff9a376d3d836f4921bbd9f54bf3412b",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000127162",
+        "title": "[전북] 군산시 2026년 창업플랫폼 예비창업자 모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127162",
+        "year": 2026,
+        "eligibility": "창업벤처",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": "2026-10-12",
+        "deadline": "2026-10-30"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000127158": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000127158",
+      "basis_fingerprint": "6331b4608cece7f2645b18bc1f468c04298b979812b31dc3298675a5ef109a08",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000127158",
+        "title": "[경북] 칠곡군 2026년 청년농업인 R&D 기술창업 통합관리 지원 사업 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127158",
+        "year": 2026,
+        "eligibility": "창업벤처",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": "2026-10-19",
+        "deadline": "2026-10-30"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000127126": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000127126",
+      "basis_fingerprint": "613cf7563ad1f2a90c48739708508d32d748cb54ac8469f917662f0574b3fdbc",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000127126",
+        "title": "[대구] 남구 2026년 남구다운 청년 창업 지원사업 통합 수정 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127126",
+        "year": 2026,
+        "eligibility": "창업벤처",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": "2026-10-02",
+        "deadline": "2026-11-12"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000127108": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000127108",
+      "basis_fingerprint": "3f4896402d4a3ae3b16335478987dce947d00b2a9be931db500a20a964dd9295",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000127108",
+        "title": "[울산] 2026년 지역 창업ㆍ벤처기업 지원사업 모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127108",
+        "year": 2026,
+        "eligibility": "창업벤처",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000127098": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000127098",
+      "basis_fingerprint": "b073e8ff65d047f49279259f6957dd86fe1d8f201f03f18678d3db4e9bd1765a",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000127098",
+        "title": "세상을 바꿀 딥테크 출연(연) 기술사업화 유망기업 투자 대상 공개 모집 공고(KST 기술사업화 종합전문회사 프로그램)",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127098",
+        "year": 2026,
+        "eligibility": "창업벤처",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": "2026-10-19",
+        "deadline": "2026-10-29"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000127096": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000127096",
+      "basis_fingerprint": "5bff387101a21ccbeadbc5ef27968d8fececd25c7cf99fa78d0aac7f00e414f0",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000127096",
+        "title": "2027년 초격차 스타트업 프로젝트 정부 첫 실증ㆍ구매 주관기관 모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127096",
+        "year": 2027,
+        "eligibility": "중소기업",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": "2026-10-08",
+        "deadline": "2026-10-29"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000127003": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000127003",
+      "basis_fingerprint": "41067598f6906e84755c30c9af4a3ce90d865c254ee3dab27a4842f185021f2a",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000127003",
+        "title": "2026년 전남광주 제3기 지역자원 연계 청년창업 지원사업 모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127003",
+        "year": 2026,
+        "eligibility": "창업벤처",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": "2026-09-30",
+        "deadline": "2026-10-30"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000126988": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000126988",
+      "basis_fingerprint": "e5dca8852cf25b729ef75c23e41b34bff45f4d7b475d422869ff80c2bbdef4e3",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000126988",
+        "title": "[세종] 2026년 하반기 세종창업키움센터 전문가컨설팅 프로그램 모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126988",
+        "year": 2026,
+        "eligibility": "창업벤처",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": "2026-10-02",
+        "deadline": "2026-10-30"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000126978": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000126978",
+      "basis_fingerprint": "4629e35349809f0193e7d1051d28931dc595539447a816a24f57f684fe1c14d1",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000126978",
+        "title": "[충북] 2026년 4분기 청년 소상공인 창업응원금 지원 참여자 모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126978",
+        "year": 2026,
+        "eligibility": "소상공인",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": "2026-10-01",
+        "deadline": "2026-12-18"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000126963": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000126963",
+      "basis_fingerprint": "1f734f65b535da74b30355370d295f4dc9f0d14d1b81abc71a8a841b8353ccd1",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000126963",
+        "title": "의료기기ㆍ바이오 부품ㆍ모듈 인증시험 기술지원 참여기업 모집 수정 공고(AIㆍ빅데이터 기반 의료ㆍ바이오 첨단기기 연구제조센터 구축)",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126963",
+        "year": 2026,
+        "eligibility": "중소기업",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000126943": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000126943",
+      "basis_fingerprint": "206dc8f767db9b5422ef2038664704b8d41f2446ef1303d88821ac8bfef443ab",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000126943",
+        "title": "[경기] 평택시 청년창업 특례보증 및 이차보전 지원 수정 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126943",
+        "year": 2026,
+        "eligibility": "창업벤처",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000126910": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000126910",
+      "basis_fingerprint": "910749dcd53cd3c45a63b6aeeb00a44366b5bf43f267eb85b17a1e0e2fca0dd4",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000126910",
+        "title": "AI기반 슬립테크 국제협력 실증 확산 지원사업 기업지원 공고(국제공인시험 지원)",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126910",
+        "year": 2026,
+        "eligibility": "중소기업",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": "2026-09-29",
+        "deadline": "2026-12-31"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000126878": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000126878",
+      "basis_fingerprint": "c85679a95d83119b104afc664db24b2550d7bae4919582a750167dc08a2e2240",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000126878",
+        "title": "AI기반 Age-Tech 산업 중심의 디지털의료제품 지원 바이오데이터 및 알고리즘 실증 기술서비스 상시모집 공고(산업혁신기반구축ㆍ2차년도)",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126878",
+        "year": 2026,
+        "eligibility": "중소기업",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000126877": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000126877",
+      "basis_fingerprint": "57c085f345cd711e75a09db7cf1b96e6a43836cbf0505ef0ad478f4153118f1d",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000126877",
+        "title": "[경남] 창원시 2026년 창원지능형의료기기지원센터 활성화 지원사업 수정 공고(AI 빅데이터 기반 의료바이오 첨단기기 연구제조센터 구축사업)",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126877",
+        "year": 2026,
+        "eligibility": "중소기업",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000126833": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000126833",
+      "basis_fingerprint": "c5fd601383f6414bb435530a185ed61d2cc5e547ec2dbb48b07183471eea45fd",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000126833",
+        "title": "2026년 AI 기반 바이오 소재 융복합 제품의 정보분석 및 특허 창출 지원 사업 수혜기업 모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126833",
+        "year": 2026,
+        "eligibility": "중소기업",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": "2026-09-22",
+        "deadline": "2026-11-30"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000126812": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000126812",
+      "basis_fingerprint": "3e1bdb4a879a588d41b293ed42f1ed4ae820fefe3981db08b8ed9da976eaf475",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000126812",
+        "title": "2026년 딥테크 챌린지 프로젝트 기술도전형 제2차 기술수요조사 시행계획 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126812",
+        "year": 2026,
+        "eligibility": "중소기업",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": "2026-09-28",
+        "deadline": "2026-11-13"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000126776": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000126776",
+      "basis_fingerprint": "82a15159a7e4bb238e2cc07a519f02797af4c9a2a0d4ab452c504382a1fb8ccf",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000126776",
+        "title": "[전북] 인공지능 분야 기술지도 희망기업 모집 상시 공고(AI융합 지능형 농업 생태계 구축 사업)",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126776",
+        "year": 2026,
+        "eligibility": "중소기업",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000126774": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000126774",
+      "basis_fingerprint": "66c9e3a54d19dc569756b4354e8b578ccffad25584fc38e3eb10f32bde7c901a",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000126774",
+        "title": "[경기] 파주시 2026년 파주청년창업지원센터 청년창업 멘토링 지원 참여기업ㆍ팀 모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126774",
+        "year": 2026,
+        "eligibility": "창업벤처",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000126739": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000126739",
+      "basis_fingerprint": "88b2affc66edc5d74b3719958c13e15a22e6a67d167321e3685598d659fddd3f",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000126739",
+        "title": "[경북] 2026년 상인ㆍ소상공인 AI코칭 지원사업 참여자 모집 변경 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126739",
+        "year": 2026,
+        "eligibility": "소상공인",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000126692": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000126692",
+      "basis_fingerprint": "bb81fe5ea846c14e7845cb2bfc14c1c6a1c2f28ae96f3d2af651fc2a7741e4fb",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000126692",
+        "title": "[경북] 2026년 청년창업제품 온라인 기획전 판로지원 참가기업 추가모집 공고(청년창업제품 판로개척 지원사업)",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126692",
+        "year": 2026,
+        "eligibility": "창업벤처",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000126667": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000126667",
+      "basis_fingerprint": "f773cf681a52254b391bdf3950424b4a71950433899b236c36e31c22456c212e",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000126667",
+        "title": "2026년 헬스케어 제품 멀티모달형 AI 플랫폼 기반 구축 사업(IR 투자유치 역량강화) 기업 모집 공고(바이오산업 개방형 상태계 조성 촉진 사업)",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126667",
+        "year": 2026,
+        "eligibility": "중소기업",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000126552": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000126552",
+      "basis_fingerprint": "c1b8a236eba502d290739ca4e29c8c45acbff4c9ca82dce4d8dcb48b78e7c799",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000126552",
+        "title": "2026년 산업혁신기반구축사업 제조 특화 온디바이스 AI 기반 자율제조 실증 기반 구축사업 기업지원 프로그램(애로기술 지원) 수혜기업 상시모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126552",
+        "year": 2026,
+        "eligibility": "중소기업",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000126492": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000126492",
+      "basis_fingerprint": "337bac04a9c9930e2b97ea994778125913273dd7e76fddf66c7b653a67b5e539",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000126492",
+        "title": "[서울] 서대문구 2026년 청년창업기업 및 사회연대경제기업 수시 전문상담 경영컨설팅 신청 기업 모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126492",
+        "year": 2026,
+        "eligibility": "창업벤처",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000126349": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000126349",
+      "basis_fingerprint": "91ab373d826a92c3efe4c9c5469316ee5512167868c93cdeae8b83cfe078338c",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000126349",
+        "title": "[충남] 당진시 2026년 청년 취ㆍ창업 지원사업 디자인 개선 지원 사업 참여 기업 모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126349",
+        "year": 2026,
+        "eligibility": "창업벤처",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000126209": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000126209",
+      "basis_fingerprint": "ad5743f8e437a5ec963d6e5eacfb8b54567deb799f3963e3d0bf1b116b9305a9",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000126209",
+        "title": "[부산] 2차 글로벌시장 대응 AI기반 공조부품 성능평가 인프라 고도화사업 지원사업 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126209",
+        "year": 2026,
+        "eligibility": "중소기업",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000126109": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000126109",
+      "basis_fingerprint": "95d42863192e24fd797b2bf9962925616d08ecf208064483cb3541f652a51de5",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000126109",
+        "title": "[전북] 2026년 AI융합 지능형 농업 생태계 구축 사업 인공지능 기술고도화 지원사업 상시모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126109",
+        "year": 2026,
+        "eligibility": "중소기업",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000126048": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000126048",
+      "basis_fingerprint": "218cedbb641c083461e2f4528d769ba1a29a6565b9cab63d1577cc099ab2a8c2",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000126048",
+        "title": "[전남광주] 2026년 하반기 중점산업 창업 중소기업 육성 및 주력산업 위기극복 및 수출ㆍ기술 경쟁력 강화 금융지원 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126048",
+        "year": 2026,
+        "eligibility": "중소기업",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000125978": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000125978",
+      "basis_fingerprint": "55525def3099127c1ce75d0c3c8027fa08aceecf6565e59eaab6fa7a398904c0",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000125978",
+        "title": "중소제조 특화 Multi AI Agent 개발(R&D) 점프업 Track 시행계획 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125978",
+        "year": 2026,
+        "eligibility": "중소기업",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": "2026-10-01",
+        "deadline": "2026-10-30"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000125974": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000125974",
+      "basis_fingerprint": "a28304ace340774a7cc0518b7b4a7f041762f657e51588b1c8cd03df33f68f63",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000125974",
+        "title": "[경남] 진주시 2026년 발달장애인 가족창업 컨설팅 지원 모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125974",
+        "year": 2026,
+        "eligibility": "장애인기업",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000125928": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000125928",
+      "basis_fingerprint": "3d38904f5a726ba296b13d5c7dbbad25aec58563f8d516f157f000c0d427dfed",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000125928",
+        "title": "[경남] 창원시 2026년 강소특구 이노테크 기업육성 AI-CNC 기반 제품 실증 및 성능 검증 지원 사업 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125928",
+        "year": 2026,
+        "eligibility": "중소기업",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000125888": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000125888",
+      "basis_fingerprint": "08c6752de2f5cedec2a00d45677c7fccff2f9196b48d5834ca2cc86a0c7de7f8",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000125888",
+        "title": "[전남광주] 2026년 AI융합 지능형 농업 생태계 구축 인공지능 기술 고도화(신뢰성평가) 지원사업 추가 모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125888",
+        "year": 2026,
+        "eligibility": "중소기업",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000125847": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000125847",
+      "basis_fingerprint": "34c2b0de35e438903ec513aef47b7e69a581b28514822fd73c737fbe8f41eac1",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000125847",
+        "title": "[전북] 2026년 식품기업 창업프로그램 지원사업 스마트 푸드테크 LAB 현장애로 해결 자문 프로그램 참여기업 모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125847",
+        "year": 2026,
+        "eligibility": "중소기업",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000125775": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000125775",
+      "basis_fingerprint": "ad499a9445663c3d9094bea37029180ee5371eb0a744730495782ec33da81bb9",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000125775",
+        "title": "[전북] 2026년 3차 인공지능 전환 도입 컨설팅 지원사업 수시 모집 공고(AX실증산단 구축사업)",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125775",
+        "year": 2026,
+        "eligibility": "중소기업",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000125770": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000125770",
+      "basis_fingerprint": "8729174f6ebf401e7362207dad4d4918787a26bd49847f2686a5c69ea9597d5c",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000125770",
+        "title": "[경남] 함양군 2026년 3차 소규모 창업자 초기 창업자금 지원 사업 모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125770",
+        "year": 2026,
+        "eligibility": "창업벤처",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000125707": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000125707",
+      "basis_fingerprint": "4644a623637849ebb233a4eed8e146a4fe89b2e6aa5aed8a446c4bdfae7736f6",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000125707",
+        "title": "[충남ㆍ충북ㆍ대전ㆍ세종] 2026년 중소기업 AI훈련확산센터 참여기업 모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125707",
+        "year": 2026,
+        "eligibility": "중소기업",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000125634": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000125634",
+      "basis_fingerprint": "cbd291358bb460c2fe3ed66b22bc7c8ce020292142bc2a43a9bd1da3cc53c5fe",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000125634",
+        "title": "[강원] 2026년 지역 여성 창업기업 초기물품 지원사업 참여기업 모집 정정 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125634",
+        "year": 2026,
+        "eligibility": "여성기업",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000125560": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000125560",
+      "basis_fingerprint": "d3b7407329b606f85987c0621a66f70736000dd2936f335af3b5154be069b50b",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000125560",
+        "title": "[서울] 서초구 2026년 소상공인 대상 AI 홍보 컨텐츠 제작지원 신청자 모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125560",
+        "year": 2026,
+        "eligibility": "중소기업",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000125523": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000125523",
+      "basis_fingerprint": "bb67299ffd34bef6394ec89922d462bc7e9cf106cf7dccdce9b5d8df0ab5e31e",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000125523",
+        "title": "[경기] 시흥시 2026년 하반기 시흥창업센터 메이커스페이스 참여 모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125523",
+        "year": 2026,
+        "eligibility": "중소기업",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000124926": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000124926",
+      "basis_fingerprint": "ce4e2b5b0931be06dd4b6fd4de9960a1bedb69326d20df609306558ccc2ecbea",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000124926",
+        "title": "2026년 AI 기반 조명산업의 자원순환 및 서비스화 실증 기반구축 사업 기업지원사업 통합 상시 모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124926",
+        "year": 2026,
+        "eligibility": "중소기업",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000124915": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000124915",
+      "basis_fingerprint": "215cfa1c6c1bb6e523b3af4967a84977ad875913d5bc491f76f974d16b6246a5",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000124915",
+        "title": "[대전] 2026년 하반기 중소기업 창업 및 경쟁력강화사업자금 지원 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124915",
+        "year": 2026,
+        "eligibility": "중소기업",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": "2026-07-27",
+        "deadline": "2026-12-31"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000124841": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000124841",
+      "basis_fingerprint": "79eed562bf0db40a1b958a8994e311da0d7913d526b1d6407613941b494839c8",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000124841",
+        "title": "2026년 DXㆍAX 컨설팅 지원사업 모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124841",
+        "year": 2026,
+        "eligibility": "중소기업",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000124779": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000124779",
+      "basis_fingerprint": "9f30a4f28bee9ae49faeb590f7d11430cadc25fa360fe9bc5734653a2e08f6a5",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000124779",
+        "title": "혁신기술 제조창업 기업지원 수혜기업 추가모집 공고(혁신기술 제조창업 공유공장 구축사업)",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124779",
+        "year": 2026,
+        "eligibility": "중소기업",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000124471": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000124471",
+      "basis_fingerprint": "1fff544c73acd902b8b36056a40d4f4511e3162e7305d3bbdc49c0e1a9b46e0b",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000124471",
+        "title": "[경기] 2026년 생애 최초 경영안정화 교육지원 모집 공고(경기도 중장년 최초 창업 지원)",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124471",
+        "year": 2026,
+        "eligibility": "창업벤처",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000124433": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000124433",
+      "basis_fingerprint": "df9cf3d3e74e6ad6e2a4c5632e4c99246cb176593952b4e9404a807642ad2a77",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000124433",
+        "title": "[전남광주] 2026년 3차 인공지능 기술 고도화 지원사업 상시 모집 공고(AI융합 지능형 농업 생태계 구축)",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124433",
+        "year": 2026,
+        "eligibility": "중소기업",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000124232": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000124232",
+      "basis_fingerprint": "19465e2794ea10fabd516feb2fcafcc21c5b2a495cb2e1a53a9a4cbece27eff7",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000124232",
+        "title": "2026년 투ㆍ융자 연계 기술개발사업 지원계획 수정 공고(스케일업 팁스ㆍ글로벌 팁스ㆍ딥테크 챌린지 프로젝트)",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124232",
+        "year": 2026,
+        "eligibility": "중소기업",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000124130": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000124130",
+      "basis_fingerprint": "55fb7290fe55d853e346f9e8da339a6f62acc8151eab12ed91cea72c18ab7ccd",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000124130",
+        "title": "[전남광주] 여수시 2026년 4차 여수국가산업단지 AX 수혜기업 모집 재공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124130",
+        "year": 2026,
+        "eligibility": "중소기업",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000123764": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000123764",
+      "basis_fingerprint": "eb5861f08ac05909b8c7fe1e71279f89c7071ebb8d9f83b0376fcc02196c997a",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000123764",
+        "title": "AI융합 의료기기 신뢰성 강화 및 성능 평가ㆍ실증 사업 수혜기업 모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123764",
+        "year": 2026,
+        "eligibility": "중소기업",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000123753": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000123753",
+      "basis_fingerprint": "804458b8c7280867b504b87ddbaf51128e85bebb1908bd7e4682aae58d675304",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000123753",
+        "title": "[경기] 안산시 2026년 특화역량 BI 육성지원사업 ICTㆍSW 창업 컨설팅 지원 참여기업 모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123753",
+        "year": 2026,
+        "eligibility": "창업벤처",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": "2026-06-29",
+        "deadline": "2026-12-31"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000123662": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000123662",
+      "basis_fingerprint": "607a25b5852230152b6e334e816ffa14cf1de614a54ad11a2a5b17caef6b7b58",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000123662",
+        "title": "[전북] 2026년 게임기업 컨설팅 지원사업 신청 게임기업(예비창업자) 모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123662",
+        "year": 2026,
+        "eligibility": "중소기업",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000123596": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000123596",
+      "basis_fingerprint": "0d70ee9e5221825d1711f71ccf8d6c142ada7ccf840ea70d12aae63223fd6fa1",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000123596",
+        "title": "[서울ㆍ경기ㆍ인천ㆍ강원] 2026년 중소기업 AI활용 도입을 위한 AI훈련 참여기업 모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123596",
+        "year": 2026,
+        "eligibility": "중소기업",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000123536": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000123536",
+      "basis_fingerprint": "c88be7daa68f2d9ffc9dfd2ec0176a1838b908eeb77d8bfbffd8f3de55cec58e",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000123536",
+        "title": "[대전ㆍ세종ㆍ충북ㆍ충남] 2026년 충청권 지역특화산업 취ㆍ창업 CDP지원 프로그램 참여기업 모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123536",
+        "year": 2026,
+        "eligibility": "중소기업",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000123291": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000123291",
+      "basis_fingerprint": "e6faeb1bf9d7baa466ac9f982fac8cca490619cfdb35ff0e22019f540bc7a695",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000123291",
+        "title": "[전북] 군산시 2026년 2차 AX얼라이언스 산ㆍ학ㆍ연 종합프로그램 지원 수혜기업 모집 공고(군산국가산업단지 스마트그린 AX실증산단 구축사업)",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123291",
+        "year": 2026,
+        "eligibility": "중소기업",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000123277": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000123277",
+      "basis_fingerprint": "6069a7d4b60911e3f5a149d39f8d57f2c7db7416e0961d153a7cab37ec0081c1",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000123277",
+        "title": "[대전ㆍ충청] 2026년 중소기업 AI훈련확산 지원사업 참여기업 모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123277",
+        "year": 2026,
+        "eligibility": "중소기업",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": "2026-02-09",
+        "deadline": "2026-10-31"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000123108": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000123108",
+      "basis_fingerprint": "1d8668678ac78fa3701aeab975203aa08a9f8a9f0a6db4a1fff2daa236954183",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000123108",
+        "title": "[서울ㆍ인천ㆍ경기ㆍ강원] 2026년 중소기업 AI훈련확산센터 참여기업 모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123108",
+        "year": 2026,
+        "eligibility": "중소기업",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000123091": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000123091",
+      "basis_fingerprint": "23a79ae37e27a64911d68732ccfa849079e58f98fdf4282c719a5632733be51d",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000123091",
+        "title": "[제주] 2026년 해양수산 창업투자 지원센터사업 수혜기업 모집 재공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123091",
+        "year": 2026,
+        "eligibility": "창업벤처",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000122863": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000122863",
+      "basis_fingerprint": "e407a0671c35dd1a9876a72aa612a95c091276e3e1b8735f4fcdc70df939be23",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000122863",
+        "title": "[경북] 2026년 제조업AI융합기반조성사업 경북AX랩 활용기업 모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000122863",
+        "year": 2026,
+        "eligibility": "창업벤처",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": "2026-06-04",
+        "deadline": "2026-12-31"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000122609": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000122609",
+      "basis_fingerprint": "23becc2f651a7bfa1217af5d06d876bd065d84c5a2345c61812123b2174e780d",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000122609",
+        "title": "2026년 경북AI데이터센터 테스트베드 실증지원 공고(데이터센터 테스트베드 조성 지원)",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000122609",
+        "year": 2026,
+        "eligibility": "중소기업",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000122551": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000122551",
+      "basis_fingerprint": "0077be6f70c3f9fdbde492689c852f65d876414cbfda1a600e8c1b3f9072936e",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000122551",
+        "title": "[울산] 2026년 AI무역지원센터 활용 해외 홍보 지원사업 모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000122551",
+        "year": 2026,
+        "eligibility": "중소기업",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000122332": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000122332",
+      "basis_fingerprint": "08cea10d4a33e44e71214291a25b11e367cbacf9c18d64bf374854d585159d4e",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000122332",
+        "title": "[대구ㆍ경북] 경제자유구역기술 창업기업 맞춤형 멘토링 지원 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000122332",
+        "year": 2026,
+        "eligibility": "창업벤처",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000122229": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000122229",
+      "basis_fingerprint": "8651dd13736d31e268521de1670f100ce25c48d515e54ccea3e9433af2a824ec",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000122229",
+        "title": "2026년 창업BuS in 세종 수요투자 라운드 참여기업 상시 모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000122229",
+        "year": 2026,
+        "eligibility": "창업벤처",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000121832": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000121832",
+      "basis_fingerprint": "c6d493a7353a24a132fcda35d6dce14cd9ec84c81618a0b437bd11207909628c",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000121832",
+        "title": "[강원] 2026년 청년창업자금 무이자 대출지원 사업시행 변경 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000121832",
+        "year": 2026,
+        "eligibility": "창업벤처",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000121634": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000121634",
+      "basis_fingerprint": "369c1e4c04f9c994e4e0decb78456c051f36873b2c69263c737d97dc0dbc50e6",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000121634",
+        "title": "[경기] 용인시 2026년 창업 멘토링(1:1) 희망기업 모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000121634",
+        "year": 2026,
+        "eligibility": "창업벤처",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000121243": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000121243",
+      "basis_fingerprint": "46bdf5d34ff29b94d890d4f0c7f33cfba2bc8675b12f87bbf75d7f64b56d452f",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000121243",
+        "title": "[울산] 2026년 중소기업 AI인프라 육성자금 지원계획 변경 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000121243",
+        "year": 2026,
+        "eligibility": "중소기업",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000121226": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000121226",
+      "basis_fingerprint": "26c4aacf8528e8d9cfaa0b15faa73244d482f58ed0c8dfd0999a4fb5c65654e5",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000121226",
+        "title": "2026년 상생형 AX선도모델 주관기관(대기업 등) 모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000121226",
+        "year": 2026,
+        "eligibility": "중소기업",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000121148": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000121148",
+      "basis_fingerprint": "8d23d0d238518b3bc068f831d7cd0361e003c22e81f225b3bbfe169a32779a75",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000121148",
+        "title": "[울산] 창업의 꿈 울산이 이루어 드림 모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000121148",
+        "year": 2026,
+        "eligibility": "소상공인",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000120946": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000120946",
+      "basis_fingerprint": "7d9964ee4ea28fc2a10890ae9a9084a169eb33837a3425fb3f23a7d1eee7538b",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000120946",
+        "title": "2026년 전남 창업BuS 프로그램 창업기업 모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120946",
+        "year": 2026,
+        "eligibility": "창업벤처",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000120871": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000120871",
+      "basis_fingerprint": "f07bc8ec34db61f165ce057b741f030a51eb3b109e9194b8102f108904dc81bf",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000120871",
+        "title": "[경북] 2026년 초거대 AI 기술 컨설팅 신규 대상기업 모집 공고(초거대 AI 클라우드 팜 실증 및 확산 환경 조성사업)",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120871",
+        "year": 2026,
+        "eligibility": "중소기업",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000120509": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000120509",
+      "basis_fingerprint": "ab73aa2f69f8253b998a8509e6e28c888155c731eb9a69a19b180c9564938af8",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000120509",
+        "title": "[충남] 2026년 혁신기업 기술창업 활성화 지원사업 모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120509",
+        "year": 2026,
+        "eligibility": "창업벤처",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000120418": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000120418",
+      "basis_fingerprint": "72ec993d36c01e8646dd1374a6b963238d04a5b9393ba5e430a1b45576028aaa",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000120418",
+        "title": "[경남] 김해시 2026년 창업기업 마케팅 역량강화 지원사업 디자인 멘토링 및 어워드 출품료 수혜기업 모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120418",
+        "year": 2026,
+        "eligibility": "창업벤처",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000120406": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000120406",
+      "basis_fingerprint": "4391744435d7304c065661ca3aa93d03aac8d6bdbe82e8c257481a7a226e24db",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000120406",
+        "title": "2026년 TIPS 연계 민간투자 성과확산 인센티브 지원사업 모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120406",
+        "year": 2026,
+        "eligibility": "중소기업",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000120234": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000120234",
+      "basis_fingerprint": "338df0eb296824eaca73b9837b63a137c857b923ed5f16b1331871ecf9cc0778",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000120234",
+        "title": "[광주] 2026년 청년창업특례보증 지원계획 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120234",
+        "year": 2026,
+        "eligibility": "중소기업",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000119999": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000119999",
+      "basis_fingerprint": "48e856fa2cf42926cf8b753702c93108d59066bf9c58af751726314a9c86d525",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000119999",
+        "title": "2026년 인천창조경제혁신센터 창업-BuS 프로그램 참여기업 모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000119999",
+        "year": 2026,
+        "eligibility": "창업벤처",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000119817": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000119817",
+      "basis_fingerprint": "950cf6aed83436370bd1de72bce28c645f0e1ef2be2b0991632411f4b533f49d",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000119817",
+        "title": "2026년 광주 창업BuS 프로그램 창업기업 모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000119817",
+        "year": 2026,
+        "eligibility": "창업벤처",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000119754": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000119754",
+      "basis_fingerprint": "809489762680a759de29940de5840d693e43c4a39358d76dc41816af31e4e68c",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000119754",
+        "title": "2026년 팁스(TIPS) 창업기업 지원계획 수정 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000119754",
+        "year": 2026,
+        "eligibility": "중소기업",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000119373": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000119373",
+      "basis_fingerprint": "bc98bdb9eaef8a592f2eeac0d259dfaa0b2583a74e6f84a88317d3f10df012ec",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000119373",
+        "title": "[인천] 2026년 신개념 세대융합 청년창업 지원 멘티 상시모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000119373",
+        "year": 2026,
+        "eligibility": "창업벤처",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000119235": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000119235",
+      "basis_fingerprint": "f7d46590ff127c0277d247eeb89a2afeb91363a9407cdf6390c5036353167631",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000119235",
+        "title": "[부산] 2026년 AI실증지원센터 고성능 컴퓨터(HPC) 이용 지원사업 모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000119235",
+        "year": 2026,
+        "eligibility": "중소기업",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": "2026-03-06",
+        "deadline": "2026-12-31"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000119170": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000119170",
+      "basis_fingerprint": "bcfa0637989a93c50daa36c480cd1a1197218b1fd33b9b0ccd4dc53b20d59556",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000119170",
+        "title": "2026년 강원창조경제혁신센터 창업-BuS 프로그램 강원브릿지 화요IR 참여기업 모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000119170",
+        "year": 2026,
+        "eligibility": "창업벤처",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000119051": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000119051",
+      "basis_fingerprint": "88ce9fadcb810b14b2b462b92ff3a0579eb528ec80c01f9d7310ea85d8619418",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000119051",
+        "title": "2026년 Startup:D 창업 BuS 참가자 사전 모집 공고(대전창조경제혁신센터)",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000119051",
+        "year": 2026,
+        "eligibility": "창업벤처",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000119050": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000119050",
+      "basis_fingerprint": "5988928e8b5ac2b01ce37e389f665d8960d0c9573c7167ddc22b4fbbe8106081",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000119050",
+        "title": "[경남] 진주시 우주항공청 이주직원 가족 소상공인 창업 지원사업 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000119050",
+        "year": 2026,
+        "eligibility": "소상공인",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": "2026-02-27",
+        "deadline": "2026-10-30"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000118943": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000118943",
+      "basis_fingerprint": "ec5d6446299e1a9bbfd8cc1efdd0d68fab7cc4c258c3c932a26fa2dab0eea216",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000118943",
+        "title": "[경기] 2026년 기술이전 창업지원사업 필요기술 발굴지원 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000118943",
+        "year": 2026,
+        "eligibility": "창업벤처",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": "2026-02-13",
+        "deadline": "2026-12-31"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000118917": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000118917",
+      "basis_fingerprint": "33b7c070abede94e30dee5e2364be74c69011db80c9f4e9edc2a229e905f0a03",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000118917",
+        "title": "[경남] 진주시 2026년 창업기업 신용보증수수료 지원사업 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000118917",
+        "year": 2026,
+        "eligibility": "창업벤처",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000118879": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000118879",
+      "basis_fingerprint": "4fa67633f9b0c996f14de438fd6006fb0f9abb454735014936f60d41da770db5",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000118879",
+        "title": "[인천] 2026년 청년 창업가 육성 및 지원을 위한 청년창업 특례보증 지원사업 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000118879",
+        "year": 2026,
+        "eligibility": "소상공인",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000118729": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000118729",
+      "basis_fingerprint": "93e44a1f8a0430eace1893c144f60d5edec8717f1498c33315e1278c10bfd824",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000118729",
+        "title": "2026년 창업-BuS at 경북 참여기업 모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000118729",
+        "year": 2026,
+        "eligibility": "창업벤처",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000118665": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000118665",
+      "basis_fingerprint": "b04a5fb261d781f867dbf5ea3cc049bd7e7d105dbef6f471b741f9ec13aac5d6",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000118665",
+        "title": "2026년 울산 IP(지식재산) 디딤돌 프로그램 지원사업 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000118665",
+        "year": 2026,
+        "eligibility": "창업벤처",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000118617": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000118617",
+      "basis_fingerprint": "f2387d1ae2abff82dc1120fb8025252d4082a4b0caf5a1f8f34d3cad4f9f0f6c",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000118617",
+        "title": "[충북] 지능형첨단부품산업의 디지털전환 거점 구축 사업 오픈랩 AI 개발플랫폼 활용 지원 수혜기업 모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000118617",
+        "year": 2026,
+        "eligibility": "중소기업",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000118445": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000118445",
+      "basis_fingerprint": "96aa4eb8d7f24bfc23456d70ebe7b559f1472b802b06196450dcf6ebf92cdab3",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000118445",
+        "title": "[경남] 2026년 창업기업 신규고용인력 보조금 지원계획 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000118445",
+        "year": 2026,
+        "eligibility": "창업벤처",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000118350": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000118350",
+      "basis_fingerprint": "b24d5895a1184cf05b7b032b91d826c3dc1fd7cb09e94abd8f3b0654fd6e3549",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000118350",
+        "title": "2026년 장애인 창업 컨설팅지원 대상자 모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000118350",
+        "year": 2026,
+        "eligibility": "장애인기업",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000118229": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000118229",
+      "basis_fingerprint": "7adde1a8bb25f59eb3c13bcd2f25f0c22b417eab465db6e2c41508786e72db78",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000118229",
+        "title": "[경기] 성남시 2026년 창업기업 상시 멘토링 참여자(멘티) 모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000118229",
+        "year": 2026,
+        "eligibility": "창업벤처",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000118122": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000118122",
+      "basis_fingerprint": "cccb21f42ef6c3f3dd3ce4dbf7a00e28d6d21da83f226335d2881dd9622b3a1c",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000118122",
+        "title": "[울산] 2026년 이전ㆍ창업기업(기술강소기업) 특별보조금 지원사업 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000118122",
+        "year": 2026,
+        "eligibility": "중소기업",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000117984": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000117984",
+      "basis_fingerprint": "960ca67c3d5fad2d25c8e0180ddc1c0293684815f44f62dbdcaef527933386cf",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000117984",
+        "title": "2026년 제주창조경제혁신센터 창업-BuS 프로그램(W-JOIN) 참여기업 모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000117984",
+        "year": 2026,
+        "eligibility": "창업벤처",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000117603": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000117603",
+      "basis_fingerprint": "1f5d1a8ccf7b3f2bbd394392339cdb1da56d6ce7d73bb8340c3a5bc1e8bd3315",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000117603",
+        "title": "[강원] 원주시 2026년 창업기업자금 동행지원 계획 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000117603",
+        "year": 2026,
+        "eligibility": "창업벤처",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000117583": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000117583",
+      "basis_fingerprint": "5710975baac83409201c01f9339e215ea29c0d37f0bf3394ab89fe45ef78fd80",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000117583",
+        "title": "[강원] 춘천시 2026년 창업지원자금(중소기업동행지원) 지원계획 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000117583",
+        "year": 2026,
+        "eligibility": "중소기업",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000117371": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000117371",
+      "basis_fingerprint": "c178a550daddbb89ddab762ebed61ef6938f2c1e5ca0fdc5f194073a5ce65529",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000117371",
+        "title": "[광주] 인공지능 유치기업 보조금 지원사업 모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000117371",
+        "year": 2026,
+        "eligibility": "중소기업",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000117365": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000117365",
+      "basis_fingerprint": "1b3ce786746c7f4c4951d93b5b4b2e267c51eec9d61d4d987a2c7b1353431d9f",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000117365",
+        "title": "[전남] 강진군 2026년 소상공인 창업 임대료 지원사업 모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000117365",
+        "year": 2026,
+        "eligibility": "소상공인",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": "2026-01-07",
+        "deadline": "2026-12-18"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000117277": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000117277",
+      "basis_fingerprint": "fccd71d135ebda46a02da04503710c45327cd29e7e52d5e465e27fca5693e009",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000117277",
+        "title": "[경남] 하동군 2026년 소상공인 생애 첫 창업 지원사업 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000117277",
+        "year": 2026,
+        "eligibility": "창업벤처",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000117162": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000117162",
+      "basis_fingerprint": "65a882b8b47e4362aecbcd5b8c0f8f36873ba69c996af53a20a451dc22064273",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000117162",
+        "title": "[경북] 2026년 창업 및 경쟁력강화 사업자금 지원 계획 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000117162",
+        "year": 2026,
+        "eligibility": "중소기업",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000116904": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000116904",
+      "basis_fingerprint": "a4c5b2035286e0337fd13bf4ff3117b15171cd720181a1ae35d68f6e3764e877",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000116904",
+        "title": "2026년 중앙부처 및 지자체 창업지원사업 통합 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000116904",
+        "year": 2026,
+        "eligibility": "창업벤처",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    }
+  }
+}

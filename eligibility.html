@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#0b1220">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'">
+<meta name="referrer" content="no-referrer"><meta name="robots" content="noindex">
+<title>내 기업 조건 검토 | AI FUNDING RADAR 2027</title>
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="assets/style.css"><link rel="stylesheet" href="assets/eligibility.css">
+<script src="assets/radar-core.js" defer></script><script src="assets/eligibility-core.js" defer></script><script src="assets/eligibility-ui.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#companyFields">회사 조건 입력으로 이동</a>
+<main class="eligibility-shell">
+<header class="eligibility-header"><a href="./" class="btn btn-secondary">← 공개 현황판</a><span class="eyebrow">P0.3 · EVIDENCE-BASED PRE-SCREENING</span></header>
+<section class="eligibility-intro"><span class="eyebrow">PRIVATE INPUT · LOCAL CALCULATION</span><h1>우리 회사가 <em>조건에 맞는가?</em></h1><p>지원 가능성을 추정하는 점수 대신, 확인된 필수조건·부족한 정보·공식 근거를 나란히 보여드립니다.</p></section>
+<div class="privacy-notice" role="note"><strong>입력은 현재 화면의 메모리에서만 처리합니다.</strong><p>서버 전송·자동 저장·기기 간 동기화를 하지 않습니다. 새로고침하면 입력이 사라집니다. 실명·연락처·사업자번호·계좌는 입력하지 않습니다. 이 기능은 로그인된 비공개 관리자 시스템이 아닙니다.</p></div>
+<div id="loadStatus" class="status-strip" role="status">공개 공고와 판정 근거를 읽고 있습니다.</div>
+<div class="eligibility-layout">
+<section class="input-panel" aria-labelledby="companyTitle">
+<div class="section-title"><div><span class="eyebrow">01 · COMPANY CONDITIONS</span><h2 id="companyTitle">회사 조건</h2><p>모르는 항목은 ‘미입력’으로 두십시오.</p></div></div>
+<form id="companyFields" autocomplete="off">
+<label for="entity">사업자 상태<select id="entity"><option value="">미입력</option><option value="not_established">미설립·예비창업</option><option value="sole_proprietor">개인사업자</option><option value="corporation">법인사업자</option></select></label>
+<label for="founded_on">창업일<input id="founded_on" type="date"><small>사업 승계·법인전환 등 창업 인정은 별도 확인이 필요합니다.</small></label>
+<label for="is_sme">중소기업 해당 여부<select id="is_sme"><option value="">미입력·확인 필요</option><option value="true">해당</option><option value="false">비해당</option></select></label>
+<label for="headquarters_region">사업자등록증상 본사 소재지<select id="headquarters_region"><option value="">미입력</option><option>서울</option><option>부산</option><option>대구</option><option>인천</option><option>광주</option><option>대전</option><option>울산</option><option>세종</option><option>경기</option><option>강원</option><option>충북</option><option>충남</option><option>전북</option><option>전남</option><option>경북</option><option>경남</option><option>제주</option></select></label>
+<label for="innovation">혁신기술·아이디어 보유<select id="innovation"><option value="">미입력·확인 필요</option><option value="true">보유</option><option value="false">미보유</option></select></label>
+<label for="digital_capability">디지털 기술 개발·실증 역량<select id="digital_capability"><option value="">미입력·확인 필요</option><option value="true">보유</option><option value="false">미보유</option></select></label>
+<div class="form-actions"><button id="clearInput" class="btn btn-secondary" type="button">입력·결과 모두 지우기</button></div>
+</form>
+</section>
+<section class="result-panel" aria-labelledby="assessmentTitle">
+<div class="section-title"><div><span class="eyebrow">02 · CHECK THE EVIDENCE</span><h2 id="assessmentTitle">공고별 사전 검토</h2><p>현재 모집연도와 회사 업력을 계산하는 기준일은 다를 수 있습니다.</p></div></div>
+<label class="program-label" for="programChoice">검토할 지원사업<select id="programChoice" disabled><option value="">공고를 불러오는 중</option></select></label>
+<div class="form-actions"><button id="evaluateBtn" class="btn btn-primary" type="button" disabled>선택 공고 검토</button><button id="compareBtn" class="btn btn-secondary" type="button" disabled>전체 공고 비교</button><button id="reloadData" class="btn btn-secondary" type="button">공개 근거 새로 읽기</button></div>
+<div id="result" aria-live="polite"><div class="assessment-empty"><b>선정 확률이나 지원액을 추정하지 않습니다.</b><p>공고를 선택하고 검토하면 필수조건별 근거와 결과를 확인할 수 있습니다. 누락된 규칙·입력·기준일을 임의로 채우지 않습니다.</p></div></div>
+<button id="exportReport" class="btn btn-secondary report-download" type="button" hidden>현재 입력·검토 결과를 내 기기에 저장 (JSON)</button>
+<p class="export-warning" id="exportWarning" hidden>저장 파일에는 직접 입력한 회사 조건이 포함됩니다. 공개 저장소에 업로드하지 마십시오.</p>
+</section>
+</div>
+<section id="comparisonPanel" class="comparison-panel" hidden><div class="section-title"><div><span class="eyebrow">03 · COMPARE WITHOUT GUESSING</span><h2>공고 비교 결과</h2><p id="comparisonSummary"></p></div></div><div id="comparisonResults"></div></section>
+<section class="scope-panel"><h2>판정 범위와 제한</h2><p><b>정보 부족</b>: 입력·근거·기준일이 없거나 오래되었습니다. <b>조건부 검토</b>: 등록된 조건은 충족하지만 첨부·예외·추가요건이 남아 있습니다. <b>필수조건 불충족</b>: 확인된 필수조건과 입력이 맞지 않습니다.</p><p><b>등록된 조건 충족</b>은 모든 조건·첨부·예외 검토가 완료된 규칙에서만 허용됩니다. 현재 최초 적용 3개 공고는 공식 요약의 일부 조건만 검토했으므로 모두 ‘부분 검토’ 범위입니다.</p><p>요약 규칙은 검토 후 14일이 지나거나 공고가 달라지면 판정을 보류합니다. 과거연도 참고사업·운영기관 공모·예산안은 기업 신청 적격 판정에서 제외합니다. 기관의 최종 자격 심사, 지원금 조합·중복수혜, 자동 신청은 제공하지 않습니다.</p></section>
+<footer>AI FUNDING RADAR 2027 <span>기기 내 계산 · 개인 입력의 서버 저장 없음 · P0.3</span></footer>
+</main>
+</body></html>

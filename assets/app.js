@@ -49,7 +49,7 @@
     $("openCount").textContent=state.items.filter(p=>p.mode==="beneficiary"&&["open","open_date"].includes(C.deadline(p).code)).length+"개";
     $("yearCount").textContent=state.items.filter(p=>C.years(p).includes(2027)&&p.mode==="beneficiary").length+"개";
     $("refCount").textContent=state.items.filter(p=>p.mode==="reference").length+"개";
-    $("footerDate").textContent="P0.2 · 데이터 변경일 "+day(state.meta.generated_at);
+    $("footerDate").textContent="P0.3 · 데이터 변경일 "+day(state.meta.generated_at);
     if($("qualitySummary"))$("qualitySummary").textContent="자격 미검증 후보 "+state.items.filter(p=>p.mode==="discovery").length+"개 · 오늘 마감시각 미확인 "+state.items.filter(p=>C.deadline(p).code==="today_unknown").length+"개 · API 차이 검토 "+state.reviews.items.filter(r=>r.status==="pending").length+"건. 수혜기업 모집 분류는 귀사 적격 판정이 아닙니다.";
   }
   function renderMonitor() {

@@ -30,9 +30,15 @@ jobs:
         run: python -m unittest discover -s scripts -p test_radar_v2.py -v
       - name: Deadline and presentation regressions
         run: node --test scripts/test_frontend.cjs
+      - name: Condition registry and evidence safety regressions
+        run: python -m unittest discover -s scripts -p test_conditions.py -v
+      - name: Local eligibility and privacy regressions
+        run: node --test scripts/test_eligibility.cjs scripts/test_eligibility_ui.cjs
       - name: Script syntax and public schema
         run: |
           node --check assets/app.js
+          node --check assets/eligibility-core.js
+          node --check assets/eligibility-ui.js
           python -m compileall -q scripts
           python scripts/build_public.py
   update-and-publish:
@@ -62,17 +68,27 @@ jobs:
         env:
           BIZINFO_API_KEY: ${{ secrets.BIZINFO_API_KEY }}
         run: python scripts/refresh_v2.py
-      - name: Validate before any public commit
-        run: python scripts/validate.py
+      - name: Build condition catalog and validate before any public commit
+        run: |
+          python scripts/condition_catalog.py
+          python scripts/validate.py
       - name: Commit allowlisted public records only
         run: |
           if [[ -n "$(git status --porcelain -- data)" ]]; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add data/programs.json data/monitor.json data/evidence.json data/change_reviews.json
+            git add data/programs.json data/monitor.json data/evidence.json data/change_reviews.json data/conditions.json
             git commit -m "chore: record public discovery and evidence review"
             git fetch origin main
             git rebase origin/main
+            # Another editorial writer may have advanced program metadata during collection.
+            # Rebuild and commit the derived catalog after rebase, before pushing/deploying.
+            python scripts/condition_catalog.py
+            python scripts/validate.py
+            if ! git diff --quiet -- data/conditions.json; then
+              git add data/conditions.json
+              git commit -m "chore: align condition catalog with rebased public records"
+            fi
             git push origin HEAD:main
           fi
       - name: Build only public artifacts

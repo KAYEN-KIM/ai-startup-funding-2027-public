@@ -51,3 +51,10 @@ test('P011 transient HTTP503 remains failed until rechecked',()=>{assert.match(A
 test('P011 successful fetch has no lingering error text',()=>{assert.equal(A.failureLabel({last_error:null,http_status:403}),'');});
 test('P011 malicious http status does not render raw text',()=>{assert.doesNotMatch(A.failureLabel({last_error:'download_failed',http_status:'<img src=x>'}),/<img/);});
 test('P011 network failure is distinct from HTTP error',()=>{assert.match(A.failureLabel({last_error:'download_failed',failure_kind:'network_error'}),/연결·시간초과/);});
+
+const RC=require('../assets/radar-core.js');
+test('P011 public browser never links stored temporary signatures',()=>assert.equal(RC.sourceURL('https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=F&fileSn=0&downloadToken=volatile'),null));
+test('P011 stable file identity opens official notice to obtain latest attachment',()=>assert.equal(RC.attachmentURL('https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=F&fileSn=0',source),source));
+test('P011 stable image identity opens official notice',()=>assert.equal(RC.attachmentURL('https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=F&fileSn=0',source),source));
+test('P011 unapproved notice is never used as replacement link',()=>assert.equal(RC.attachmentURL('https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=F&fileSn=0','https://evil.test'),null));
+test('P011 other official original links remain direct',()=>assert.equal(RC.attachmentURL('https://www.mss.go.kr/file.hwpx',source),'https://www.mss.go.kr/file.hwpx'));

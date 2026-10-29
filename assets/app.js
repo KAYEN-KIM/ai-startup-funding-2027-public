@@ -19,7 +19,7 @@
       '<details class="evidence-details"><summary>근거·첨부·변경 검토'+(reviewCount?' · 검토 대기 '+reviewCount+'건':"")+'</summary><p>'+esc(evStatus)+'</p><p>최종 원문 열람 성공: '+esc(fmt(ev?.last_success_at))+' / 최근 시도: '+esc(fmt(ev?.last_attempt_at))+'</p>'+
       (ev?.body_sha256?'<p>본문 해시: <code>'+esc(ev.body_sha256.slice(0,16))+'…</code> · 내용 변경 감지용이며 적격성 보증이 아닙니다.</p>':"")+
       (p.application_period_raw?'<p>API 신청기간 원문: '+esc(p.application_period_raw)+'</p>':"")+
-      '<p>첨부 '+attachments.length+'건: '+(attachments.length?attachments.slice(0,10).map(a=>link(a.url,a.name||"첨부파일")).join(" · "):"발견된 링크 없음")+'</p><p>첨부는 링크만 수집했습니다. 본문과 제출서류 요건은 아직 검토하지 않았습니다.</p></details></article>';
+      '<p>첨부 '+attachments.length+'건: '+(attachments.length?attachments.slice(0,10).map(a=>link(C.attachmentURL(a.url,p.source),(a.name||"첨부파일")+" · 공고/원본")).join(" · "):"발견된 링크 없음")+'</p><p>첨부는 링크만 수집했습니다. 본문과 제출서류 요건은 아직 검토하지 않았습니다.</p></details></article>';
   }
   function renderList() {
     const q=$("searchInput").value.trim().toLowerCase(), y=$("yearSelect").value, t=$("typeSelect").value, sort=$("sortSelect").value;

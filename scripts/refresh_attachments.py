@@ -16,6 +16,7 @@ from urllib.parse import urlparse
 from urllib.request import Request,build_opener,HTTPRedirectHandler
 from urllib.error import HTTPError,URLError
 from attachment_core import VERSION,MAX_FILE,ExtractError,sha,approved_url,validate_public,ERRORS
+from public_urls import stable_attachment_url,scrub_transport_urls
 ROOT=Path(__file__).resolve().parents[1]
 KST=dt.timezone(dt.timedelta(hours=9))
 
@@ -25,7 +26,7 @@ def write(path,value):
     tmp=path.with_suffix('.tmp');tmp.write_text(json.dumps(value,ensure_ascii=False,indent=2)+'\n',encoding='utf-8');tmp.replace(path)
 
 def require_public_destination(url):
-    if not approved_url(url):raise ExtractError('source_not_linked')
+    if not approved_url(stable_attachment_url(url)):raise ExtractError('source_not_linked')
     records=socket.getaddrinfo(urlparse(url).hostname,443,type=socket.SOCK_STREAM)
     if not records or any(not ipaddress.ip_address(x[4][0]).is_global for x in records):raise ExtractError('source_not_linked')
 
@@ -61,26 +62,31 @@ def isolated_parse(raw):
         if not value.get('ok'):raise ExtractError(value.get('error') if value.get('error') in ERRORS else 'malformed_document')
         return value['extraction']
 
-def discover_notice(p):
+def discover_notice(p,transport_links=False):
     from refresh_v2 import fetch,inspect_page
     raw,typ,final,charset=fetch(p['source'])
     if typ not in ('text/html','application/xhtml+xml'):raise ExtractError('source_unavailable')
-    return inspect_page(raw,final,p['title'],charset)['attachments']
+    return inspect_page(raw,final,p['title'],charset,transport_links=transport_links)['attachments']
 
-def doc_id(pid,url):return sha((pid+'\n'+url).encode())[:24]
+def doc_id(pid,url):return sha((pid+'\n'+stable_attachment_url(url)).encode())[:24]
 
 def update_manifest(state,p,links,at):
+    links=scrub_transport_urls(links)
     old=state['programs'].get(p['id'],{})
+    aliases={}
+    for key in list(old.get('document_ids',[]))+list(state['records']):
+        r=state['records'].get(key,{})
+        if r.get('program_id')==p['id']:aliases.setdefault(stable_attachment_url(r.get('url')),key)
     urls=sorted({x['url'] for x in links if approved_url(x.get('url'))})[:10]
     digest=sha('\n'.join(urls).encode())
     changed=bool(old.get('manifest_sha256') and old['manifest_sha256']!=digest)
     rec=dict(old,notice_source=p['source'],last_notice_attempt_at=at,last_notice_success_at=at,
              notice_status='links_available' if urls else 'no_attachment_links',manifest_sha256=digest,
-             document_ids=[doc_id(p['id'],url) for url in urls],review_required=bool(old.get('review_required') or changed),last_error=None)
+             document_ids=[aliases.get(url,doc_id(p['id'],url)) for url in urls],review_required=bool(old.get('review_required') or changed),last_error=None)
     if changed:rec['previous_manifest_sha256']=old['manifest_sha256']
     state['programs'][p['id']]=rec
     for url in urls:
-        key=doc_id(p['id'],url)
+        key=aliases.get(url,doc_id(p['id'],url))
         if key not in state['records']:
             state['records'][key]={'id':key,'program_id':p['id'],'notice_source':p['source'],'url':url,
                 'name':next((x.get('name','첨부파일') for x in links if x['url']==url),'첨부파일')[:160],
@@ -111,8 +117,15 @@ def update_document(old,at,fetcher=download,parser=isolated_parse):
     result['history']=result['history'][:8]
     return result
 
+def linked_download(p,stable_url,links,fetcher=download):
+    # Follow a currently public link to the SAME stable file, not an invented token.
+    if not approved_url(stable_url):raise ExtractError('source_not_linked')
+    target=next((x.get('url') for x in links if stable_attachment_url(x.get('url'))==stable_url),None)
+    if not target or not approved_url(stable_attachment_url(target)):raise ExtractError('source_not_linked')
+    return fetcher(target)
+
 def collect(programs,state,at,priority=(),notice_limit=3,file_limit=4,discover=discover_notice,fetcher=download,parser=isolated_parse):
-    state=copy.deepcopy(state)
+    state=scrub_transport_urls(state)
     plist={p['id']:p for p in programs['items']}
     eligible=[p for p in plist.values() if p['mode'] in ('beneficiary','discovery') and approved_url(p['source'])]
     eligible.sort(key=lambda p:(state['programs'].get(p['id'],{}).get('last_notice_attempt_at',''),p['id'] not in priority,p['id']))
@@ -132,8 +145,15 @@ def collect(programs,state,at,priority=(),notice_limit=3,file_limit=4,discover=d
     queue=[state['records'][i] for i in active if i in state['records']]
     queue.sort(key=lambda r:(r.get('last_attempt_at') or '',r['program_id'] not in priority,r['id']))
     succeeded=partial=blocked=failed=changed=0
+    transport_cache={}
     for old in queue[:file_limit]:
-        new=update_document(old,at,fetcher,parser);state['records'][old['id']]=new
+        effective_fetch=fetcher
+        if fetcher is download:
+            def effective_fetch(url,old=old):
+                pid=old['program_id']
+                if pid not in transport_cache:transport_cache[pid]=discover_notice(plist[pid],transport_links=True)
+                return linked_download(plist[pid],url,transport_cache[pid],fetcher)
+        new=update_document(old,at,effective_fetch,parser);state['records'][old['id']]=new
         status=new['status'];succeeded+=int(status=='text_extracted');partial+=int(status in ('partial_text','no_text'))
         blocked+=int(status in ('protected_document','unsupported_format','size_limit','unsafe_archive','unsafe_xml'))
         failed+=int(status not in ('text_extracted','partial_text','no_text','protected_document','unsupported_format','size_limit','unsafe_archive','unsafe_xml'))

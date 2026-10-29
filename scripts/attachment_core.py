@@ -208,7 +208,7 @@ def approved_url(url):
  if not isinstance(url,str) or len(url)>2500 or any(ord(c)<32 for c in url):return False
  try:
   u=urlparse(url);host=(u.hostname or '').lower()
-  return u.scheme=='https' and u.port in (None,443) and not u.username and not u.password and any(host==h or host.endswith('.'+h) for h in OFFICIAL_HOSTS) and not any(k.casefold() in {'crtfckey','servicekey','api_key','token','access_token','password','secret'} for k,v in parse_qsl(u.query))
+  return u.scheme=='https' and u.port in (None,443) and not u.username and not u.password and any(host==h or host.endswith('.'+h) for h in OFFICIAL_HOSTS) and not any(k.casefold() in {'crtfckey','servicekey','api_key','token','access_token','password','secret','downloadtoken'} for k,v in parse_qsl(u.query))
  except ValueError:return False
 
 def validate_transport_fields(value):

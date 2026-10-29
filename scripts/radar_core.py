@@ -8,11 +8,12 @@ import json
 import re
 from urllib.parse import urlparse, parse_qsl
 from xml.etree import ElementTree as ET
+from public_urls import stable_attachment_url
 
 VERSION = "0.2.0"
 KST = dt.timezone(dt.timedelta(hours=9))
 OFFICIAL_HOSTS = ("bizinfo.go.kr", "mss.go.kr", "k-startup.go.kr", "nipa.kr", "kocca.kr", "iris.go.kr", "kosmes.or.kr", "kdata.or.kr", "culture.go.kr", "korea.kr", "work24.go.kr", "nts.go.kr", "rnd.or.kr", "koita.or.kr", "seoul.rnbd.kr")
-SECRET_KEYS = {"crtfcKey", "serviceKey", "api_key", "token", "access_token", "password", "secret"}
+SECRET_KEYS = {"crtfcKey", "serviceKey", "api_key", "token", "access_token", "password", "secret", "downloadToken"}
 AI = re.compile(r"인공지능|(?<![a-z])ai(?![a-z])|(?<![a-z])ax(?![a-z])|초격차|딥테크|saas|데이터바우처|gpu|llm|머신러닝|생성형|디지털\s*혁신", re.I)
 STARTUP = re.compile(r"예비창업|초기창업|창업도약|창업패키지|창업사관|청년창업|창업중심대학|디딤돌|(?<![a-z])tips(?![a-z])|(?<![a-z])dips(?![a-z])|jump.?up|ibk.*창공|창업.*(?:지원|모집|투자|사업)", re.I)
 OPERATOR = re.compile(r"(?:주관|운영|전담)\s*기관.*(?:모집|선정)|창업도시\s*모집")
@@ -113,7 +114,7 @@ def record_from_fields(f, today):
     source = raw_url if official_url(raw_url) else "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=" + ident
     attachments = []
     for path_key, name_key in (("flpthNm", "fileNm"), ("printFlpthNm", "printFileNm")):
-        url = f.get(path_key, "").strip()
+        url = stable_attachment_url(f.get(path_key, "").strip())
         if official_url(url) and url not in [a["url"] for a in attachments]:
             attachments.append({"url": url, "name": clean(f.get(name_key), 160), "status": "link_only_not_read"})
     return {"id": "BIZINFO-" + ident, "title": title,

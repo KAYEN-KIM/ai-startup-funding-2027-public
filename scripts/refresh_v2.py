@@ -13,6 +13,7 @@ from urllib.parse import urlencode, urljoin, urlparse
 from urllib.request import Request, build_opener, HTTPRedirectHandler
 from urllib.error import HTTPError
 from radar_core import VERSION, KST, official_url, collect_pages, merge, clean
+from public_urls import stable_attachment_url
 
 ROOT = Path(__file__).resolve().parents[1]
 API = "https://www.bizinfo.go.kr/uss/rss/bizinfoApi.do"
@@ -99,7 +100,7 @@ class PageText(HTMLParser):
                 self.current_link[1].append(text)
 
 
-def inspect_page(raw, url, expected_title, charset="utf-8"):
+def inspect_page(raw, url, expected_title, charset="utf-8", transport_links=False):
     parser = PageText()
     parser.feed(raw.decode(charset, errors="replace"))
     text = clean(" ".join(parser.text), 600000)
@@ -111,10 +112,11 @@ def inspect_page(raw, url, expected_title, charset="utf-8"):
         raise ValueError("notice_identity_not_confirmed")
     attachments = []
     for href, label in parser.links:
-        target = urljoin(url, href)
+        transport_target = urljoin(url, href)
+        target = stable_attachment_url(transport_target)
         if official_url(target) and re.search(r"\.pdf|\.hwp|\.hwpx|getImageFile|FileDown|download|첨부|다운로드", href + " " + label, re.I):
             if target not in [a["url"] for a in attachments]:
-                attachments.append({"url": target, "name": clean(label, 160) or "첨부 링크", "status": "link_only_not_read"})
+                attachments.append({"url": transport_target if transport_links else target, "name": clean(label, 160) or "첨부 링크", "status": "link_only_not_read"})
     # No page body or personal contact details are copied into the public repository.
     return {"body_sha256": hashlib.sha256(text.encode()).hexdigest(), "characters": len(text),
             "page_title": clean(" ".join(parser.title), 160), "attachments": attachments[:10],

@@ -38,17 +38,25 @@ Four partial topics are connected for each original: support may be paid in inst
 
 ## Attachment transport diagnosis
 
-The previously failed Ulsan IP Didimdol attachment `6b5a25ea10cb785d4ff3d991` was rechecked and returned HTTP 403. No authentication or access restriction was bypassed, no claim of successful extraction was made, and prior history was retained.
+Initial direct-link rechecks of the Ulsan IP Didimdol attachment `6b5a25ea10cb785d4ff3d991` and an Incheon youth-startup guarantee attachment returned HTTP 403. During the end-to-end run, public Bizinfo links were observed to carry temporary download signatures, which also caused false metadata churn. The final implementation resolves the same stable file identifier against the link currently published on its verified official notice page, uses that link only in request memory, and never synthesizes credentials or changes access controls. At 2026-10-30 00:21 KST, both previously failed attachments were successfully extracted as HWP, retaining their prior failure history. Other inaccessible documents are not assumed repaired.
 
-Attachment records may now contain only bounded HTTP status, a failure-kind enum and a retryability advisory boolean. Response bodies, cookies, exception text and arbitrary headers are not persisted. An HTTP 401/403 is never marked retryable. The collector does not add hidden automatic retries: its existing bounded rotation is unchanged. A subsequent successful extraction clears the current failure diagnostic but retains history. Legacy records and history without optional diagnostic fields remain valid.
+Attachment records may now contain only bounded HTTP status, a failure-kind enum and a retryability advisory boolean. Response bodies, cookies, exception text and arbitrary headers are not persisted. An HTTP 401/403 is never marked retryable. The collector does not add hidden repeated download attempts: its existing bounded document rotation is unchanged. A per-run cache resolves currently public attachment links by notice; a missing or different file identity fails closed. A subsequent successful extraction clears the current failure diagnostic but retains history. Legacy records and history without optional diagnostic fields remain valid.
+
+## Stable public attachment identity
+
+The public API and HTML collectors now store stable official file identifiers without Bizinfo's temporary `downloadToken`. File number and file identity remain intact. Canonical URLs are matched against links currently published by the same official notice before a download. Only two observed Bizinfo file/image endpoints receive this treatment; arbitrary secret query parameters and nonofficial destinations stay blocked.
+
+Current public JSON was normalized without changing existing attachment record IDs or deleting histories. Manifest identity was recomputed for canonical links without clearing existing review-required flags. Existing rule configuration and reviewed original source hashes were not changed. Public browsers open the official notice for a fresh attachment link instead of embedding a temporary signature. Such transport signatures are not applicant account credentials; no user API key was exposed or read.
+
+The first full run reported 115 modified records; comparison showed those differences were `verified_at` and temporary attachment URLs, not 115 confirmed substantive notice amendments. The new canonicalization prevents signature rotation alone from changing attachment identity. The public notice text, eligibility and grant amounts are still separate verification concerns.
 
 ## Test / deployment contract
 
-Local regression at 2026-10-30 00:02 KST: Python 243, Node 675, legacy 4: **922 passed** (99 more than the 823-test P0.10 baseline). Build and `git diff --check` also passed. These are software tests, not 922 verified legal rules.
+Final local regression at 2026-10-30 00:21 KST: Python 267, Node 680, legacy 4: **951 passed** (128 more than the 823-test P0.10 baseline). Build and `git diff --check` also passed. These are software tests, not 951 verified legal rules.
 
 The local test environment is isolated under ignored `.venv/` with the repository's existing pinned `pypdf==6.15.0` and `olefile==0.47`. The initial default-interpreter run failed because those parsers were absent and an old exact script-count assertion had not yet included the new module; both were corrected before acceptance. No production-source validation gate was removed.
 
-New suites: `scripts/test_portfolio_execution.cjs`, `scripts/test_execution_contract.py`, `scripts/test_attachment_transport.py`, plus expanded existing portfolio and attachment UI tests. They cover chronology, missing data, future-year limits, no mutation/double counting, manual-path source gates, untrusted fields, explicit exports, privacy, and transport failure retention.
+New suites: `scripts/test_portfolio_execution.cjs`, `scripts/test_execution_contract.py`, `scripts/test_attachment_transport.py`, `scripts/test_public_urls.py`, plus expanded existing portfolio and attachment UI tests. They cover chronology, missing data, future-year limits, no mutation/double counting, manual-path source gates, untrusted fields, explicit exports, privacy, and transport failure retention.
 
 GitHub verification runs the new suites before publication. The existing workflow still publishes an honest failure record and then fails when a collector reports failure. Code deployment success is not evidence that all attachments were retrieved. Real-browser visual acceptance was not performed in this release; VM/DOM interactions and public-file checks are distinct.
 

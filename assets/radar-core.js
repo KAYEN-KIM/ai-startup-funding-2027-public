@@ -8,9 +8,15 @@
       const u = new URL(value);
       if(u.protocol !== "https:" || u.username || u.password || (u.port && u.port !== "443")) return null;
       if(!HOSTS.some(h=>u.hostname === h || u.hostname.endsWith("."+h))) return null;
-      if([...u.searchParams.keys()].some(k=>/^(crtfckey|servicekey|api_key|token|access_token|password|secret)$/i.test(k))) return null;
+      if([...u.searchParams.keys()].some(k=>/^(crtfckey|servicekey|api_key|token|access_token|password|secret|downloadtoken)$/i.test(k))) return null;
       return u.href;
     } catch { return null; }
+  }
+  function attachmentURL(file,notice) {
+    const safe=sourceURL(file);if(!safe)return null;
+    const u=new URL(safe);
+    if((u.hostname==='bizinfo.go.kr'||u.hostname.endsWith('.bizinfo.go.kr'))&&/^\/cmm\/fms\/(fileDown|getImageFile)\.do$/i.test(u.pathname))return sourceURL(notice);
+    return safe;
   }
   const esc = v=>String(v??"").replace(/[&<>"']/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   function validDate(value) {
@@ -57,7 +63,7 @@
   function years(p) {
     return Array.isArray(p.years) && p.years.length ? p.years : [p.year];
   }
-  const api={VERSION:"0.2.0",sourceURL,esc,validDate,kstDay,deadline,verification,stale,csvCell,years};
+  const api={VERSION:"0.2.0",sourceURL,attachmentURL,esc,validDate,kstDay,deadline,verification,stale,csvCell,years};
   if(typeof module!=="undefined" && module.exports) module.exports=api;
   else root.RadarCore=api;
 })(typeof globalThis!=="undefined"?globalThis:this);

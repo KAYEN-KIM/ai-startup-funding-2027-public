@@ -21,3 +21,6 @@
 #pfResult h3{margin-top:1.6rem}#pfMessage{font-size:.85rem;color:#b7cce2}
 #pfResult table td{white-space:nowrap}
 @media(max-width:600px){.pf-card{padding:.8rem}.pf-budget-grid{grid-template-columns:1fr}.pf-line button{width:100%}.pf-line label{flex-basis:45%}.pf-verdict{padding:1rem}.pf-allocation{padding:.7rem}}
+
+/* P0.10 direction coverage: never styled as an approval score. */
+.pf-pair{border:1px solid var(--line);border-radius:12px;padding:18px;margin:16px 0}.pf-pair h4{margin:0 0 8px;font-size:16px}.pf-directions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.pf-hash{display:block;overflow-wrap:anywhere;font-family:monospace;font-size:10px}.pf-bilateral{margin:28px 0}@media(max-width:650px){.pf-directions{grid-template-columns:1fr}.pf-pair{padding:12px}}

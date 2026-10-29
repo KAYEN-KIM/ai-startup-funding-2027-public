@@ -54,8 +54,9 @@ jobs:
           python -m unittest discover -s scripts -p test_cashflow_contract.py -v
       - name: Portfolio cost allocation and privacy regressions
         run: |
-          node --test scripts/test_portfolio.cjs scripts/test_portfolio_ui.cjs scripts/test_portfolio_evidence.cjs
+          node --test scripts/test_portfolio.cjs scripts/test_portfolio_ui.cjs scripts/test_portfolio_evidence.cjs scripts/test_portfolio_bilateral.cjs
           python -m unittest discover -s scripts -p test_portfolio_evidence_contract.py -v
+          python -m unittest discover -s scripts -p test_portfolio_bilateral_contract.py -v
           python -m unittest discover -s scripts -p test_portfolio_contract.py -v
       - name: Script syntax and public schema
         run: |
@@ -70,6 +71,7 @@ jobs:
           node --check assets/cashflow-ui.js
           node --check assets/portfolio-core.js
           node --check assets/portfolio-evidence.js
+          node --check assets/portfolio-bilateral.js
           node --check assets/portfolio-ui.js
           python -m compileall -q scripts
           python scripts/build_public.py

@@ -1,19 +1,19 @@
 {
   "schema": "public-funding-attachments/v1",
   "version": "0.4.0",
-  "generated_at": "2026-10-29T17:57:59+09:00",
+  "generated_at": "2026-10-29T19:31:48+09:00",
   "run": {
-    "at": "2026-10-29T17:57:59+09:00",
+    "at": "2026-10-29T19:31:48+09:00",
     "notice_success": 3,
     "notice_failed": 0,
     "attempted": 4,
-    "text_extracted": 2,
+    "text_extracted": 4,
     "partial_or_no_text": 0,
-    "blocked_or_unsupported": 2,
+    "blocked_or_unsupported": 0,
     "failed": 0,
     "changed": 0,
     "manifest_changed": 0,
-    "queued_total": 33,
+    "queued_total": 38,
     "scope": "회차당 원문 최대 3건·첨부 최대 4건. 본문 추출은 자격 검증이 아니며 전체 기관 수집을 뜻하지 않습니다."
   },
   "records": {
@@ -2467,12 +2467,185 @@
       "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000117583",
       "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000741150&fileSn=0",
       "name": "다운로드",
-      "status": "queued",
-      "last_attempt_at": null,
-      "last_success_at": null,
+      "status": "text_extracted",
+      "last_attempt_at": "2026-10-29T19:31:48+09:00",
+      "last_success_at": "2026-10-29T19:31:48+09:00",
       "last_error": null,
       "review_required": false,
-      "history": []
+      "history": [
+        {
+          "at": "2026-10-29T19:31:48+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "c0e55b09c730653d04686d4bc6e9b86b69607d0182ac230e3aa700490e6dbd33"
+        }
+      ],
+      "observed_sha256": "c0e55b09c730653d04686d4bc6e9b86b69607d0182ac230e3aa700490e6dbd33",
+      "sha256": "c0e55b09c730653d04686d4bc6e9b86b69607d0182ac230e3aa700490e6dbd33",
+      "extraction": {
+        "format": "hwp",
+        "parser": "olefile/0.47+hwp-body/0.4.0",
+        "sha256": "c0e55b09c730653d04686d4bc6e9b86b69607d0182ac230e3aa700490e6dbd33",
+        "bytes": 136704,
+        "status": "text_extracted",
+        "text_characters": 2403,
+        "units": 103,
+        "text_sha256": "ba6437325d8b9713ec865c990232292b7bb5a9e989d62a3a0b37672c7a3a0a6c",
+        "pages": null,
+        "sections": 1,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "f23cf9f8177756211c0c",
+            "category": "eligibility",
+            "excerpt": "2026년도 춘천시 창업지원자금(중소기업동행지원)",
+            "locator": "BodyText/Section0 / record 14 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "4909ec86f463deb2511b",
+            "category": "eligibility",
+            "excerpt": "2026년도 춘천시 창업지원자금(중소기업동행지원) 지원계획을",
+            "locator": "BodyText/Section0 / record 26 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "c58ab6978a5e5b2e56b0",
+            "category": "amount",
+            "excerpt": "※ 지원 규모 내 지원: 사업비 소진 시 지원 종료",
+            "locator": "BodyText/Section0 / record 59 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "0e24391d7bdef970621a",
+            "category": "amount",
+            "excerpt": "‧ 자금지원: 기업당 최대 10억원",
+            "locator": "BodyText/Section0 / record 72 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "03de5c184bfedb7baa7f",
+            "category": "eligibility",
+            "excerpt": "2. 지원대상",
+            "locator": "BodyText/Section0 / record 128 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "94253f9de7f8384bbfa2",
+            "category": "eligibility",
+            "excerpt": " 신청일 현재 춘천시에 소재한 중소기업(창업 7년 이내)",
+            "locator": "BodyText/Section0 / record 132 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "05eba3543b5c690e7356",
+            "category": "eligibility",
+            "excerpt": "※ 본사, 주사무소 또는 사업장, 공장 춘천시 소재 기업",
+            "locator": "BodyText/Section0 / record 140 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "f23163e3b58059ad4f16",
+            "category": "exclusion",
+            "excerpt": "3. 지원제외 대상",
+            "locator": "BodyText/Section0 / record 151 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "7c72a14dee180d7597d7",
+            "category": "exclusion",
+            "excerpt": "③ 춘천시 지역경제촉진 등에 관한 조례 시행규칙 제7조의 융자 추천 제외 대상",
+            "locator": "BodyText/Section0 / record 163 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "7df308018d4bc8d86816",
+            "category": "exclusion",
+            "excerpt": "⑤ 신청 당시 휴‧폐업 중인 업체",
+            "locator": "BodyText/Section0 / record 175 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "ba227cd4eb765bd0d10d",
+            "category": "exclusion",
+            "excerpt": "⑥ 세금(국세 또는 지방세)을 체납 중인 업체",
+            "locator": "BodyText/Section0 / record 179 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "ccdaf7443e9e46e4577a",
+            "category": "deadline",
+            "excerpt": "4. 신청기간: 2026. 1. 12. ~ 자금 소진 시",
+            "locator": "BodyText/Section0 / record 214 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "15a74f2734dbb2eb031d",
+            "category": "documents",
+            "excerpt": "7. 구비서류",
+            "locator": "BodyText/Section0 / record 357 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "6ddfbb2b45c4d923f7ec",
+            "category": "documents",
+            "excerpt": " 융자금 사용 완료 시 완료보고서【서식 5】 및 증빙자료 제출:",
+            "locator": "BodyText/Section0 / record 430 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "beb68528e5996f857e51",
+            "category": "documents",
+            "excerpt": "※지출증빙자료: 융자금 계좌거래내역, 세금계산서, 급여대장, 영수증 등",
+            "locator": "BodyText/Section0 / record 438 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "4c3afcf0970b40d589c1",
+            "category": "exclusion",
+            "excerpt": " 휴‧폐업 및 타 시군구 이전기업 지원 중지",
+            "locator": "BodyText/Section0 / record 450 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "구역·레코드 위치는 실제 인쇄 쪽번호가 아닙니다.",
+          "표·그림·각주 의미와 문서의 모든 제외조건은 미검토"
+        ]
+      }
     },
     "3a624bb29e87f609780172f7": {
       "id": "3a624bb29e87f609780172f7",
@@ -3221,6 +3394,401 @@
       "last_error": null,
       "review_required": false,
       "history": []
+    },
+    "670cdfa1fbae61bd73346df7": {
+      "id": "670cdfa1fbae61bd73346df7",
+      "program_id": "BIZINFO-PBLN_000000000118350",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000118350",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000743395&fileSn=0",
+      "name": "다운로드",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-10-29T19:31:48+09:00",
+      "last_success_at": "2026-10-29T19:31:48+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-10-29T19:31:48+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "ec63ea24090367e0c142d99b99c115b0ebb519c83c9d7e4ebb4ee7b37f8089d4"
+        }
+      ],
+      "observed_sha256": "ec63ea24090367e0c142d99b99c115b0ebb519c83c9d7e4ebb4ee7b37f8089d4",
+      "sha256": "ec63ea24090367e0c142d99b99c115b0ebb519c83c9d7e4ebb4ee7b37f8089d4",
+      "extraction": {
+        "format": "hwp",
+        "parser": "olefile/0.47+hwp-body/0.4.0",
+        "sha256": "ec63ea24090367e0c142d99b99c115b0ebb519c83c9d7e4ebb4ee7b37f8089d4",
+        "bytes": 624640,
+        "status": "text_extracted",
+        "text_characters": 3675,
+        "units": 148,
+        "text_sha256": "894ddeadd94fafeb64aff89de5db94e5f63df29d3f9135f315d4b52912be756b",
+        "pages": null,
+        "sections": 1,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "782ec14dc6557757eed4",
+            "category": "eligibility",
+            "excerpt": "2026년「장애인 창업 컨설팅」지원 대상자 모집공고",
+            "locator": "BodyText/Section0 / record 2 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "997648718878ab454dd5",
+            "category": "eligibility",
+            "excerpt": "□ 모집대상 : 장애인 예비창업자, 재기창업자, 3년 미만 초기창업자",
+            "locator": "BodyText/Section0 / record 109 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "243462362c54bc8636b1",
+            "category": "documents",
+            "excerpt": "* 온라인(창업-NET)을 통해 선착순으로 접수하나, 향후 필수 제출서류 미비 시 탈락할 수 있음",
+            "locator": "BodyText/Section0 / record 169 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "e95ce378d3a124ea3e29",
+            "category": "eligibility",
+            "excerpt": "신청자격",
+            "locator": "BodyText/Section0 / record 195 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "8c1fb83c1a18f9a5594d",
+            "category": "eligibility",
+            "excerpt": "□ 지원대상",
+            "locator": "BodyText/Section0 / record 203 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "059f9657bae79b754f43",
+            "category": "eligibility",
+            "excerpt": "◦ (초기창업자) 「중소기업창업지원법」제2조제10호에 따른 사업을 개시한 날부터 3년이 지나지 아니한 창업기업 대표자",
+            "locator": "BodyText/Section0 / record 246 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "a2eeffd237526cfd3ca6",
+            "category": "exclusion",
+            "excerpt": "< 지원 제외 대상 >",
+            "locator": "BodyText/Section0 / record 284 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "7cf0bbe357ef79ae47cb",
+            "category": "exclusion",
+            "excerpt": "◦ 정책자금 지원 제외 업종으로 창업하려는 자(사금융, 사치 향락업종, 도박업 등)",
+            "locator": "BodyText/Section0 / record 315 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "50d338bebab3deb17e90",
+            "category": "exclusion",
+            "excerpt": "* 소상공인시장진흥공단 정책자금 지원 제외 업종 준용",
+            "locator": "BodyText/Section0 / record 319 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "e1cd6b5b760e5af801b7",
+            "category": "deadline",
+            "excerpt": "□ 신청기간 : `26. 2. 9.(월) ~ 예산 소진 시까지, 선착순 마감",
+            "locator": "BodyText/Section0 / record 349 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "7694ac98853ba81ffce0",
+            "category": "documents",
+            "excerpt": "□ 제출서류 : 컨설팅 시작 전까지 필수 제출",
+            "locator": "BodyText/Section0 / record 371 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "구역·레코드 위치는 실제 인쇄 쪽번호가 아닙니다.",
+          "표·그림·각주 의미와 문서의 모든 제외조건은 미검토"
+        ]
+      }
+    },
+    "36c4475f42d7f79dd04d19f1": {
+      "id": "36c4475f42d7f79dd04d19f1",
+      "program_id": "BIZINFO-PBLN_000000000118350",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000118350",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000743396&fileSn=0",
+      "name": "다운로드",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-10-29T19:31:48+09:00",
+      "last_success_at": "2026-10-29T19:31:48+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-10-29T19:31:48+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "3bb9d7098ac77ba7695a69f701432c404bd4a3138a0214b9f4d082999c05d602"
+        }
+      ],
+      "observed_sha256": "3bb9d7098ac77ba7695a69f701432c404bd4a3138a0214b9f4d082999c05d602",
+      "sha256": "3bb9d7098ac77ba7695a69f701432c404bd4a3138a0214b9f4d082999c05d602",
+      "extraction": {
+        "format": "pdf",
+        "parser": "pypdf/6.15.0",
+        "sha256": "3bb9d7098ac77ba7695a69f701432c404bd4a3138a0214b9f4d082999c05d602",
+        "bytes": 384169,
+        "status": "text_extracted",
+        "text_characters": 3742,
+        "units": 26,
+        "text_sha256": "f4d0a55d53445cc32352cb1ee9cd3933a671cbf22a3c365fc6a9e63bede0c5e1",
+        "pages": 6,
+        "sections": null,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "70e574c21f1c0ac801e3",
+            "category": "eligibility",
+            "excerpt": "2026년「장애인 창업 컨설팅」지원 대상자 모집공고 장애인의 창업단계별 차별화된 내용의 1:1 심층 상담을 통하여 성공적 창업을 지원하고자 아래와 같이 2026년 장애인 창업 컨설팅 대상자를 모집하오니, 많은 관심과 참여 바랍니다. 2026년 2월 9일중소벤처기업부 장관(재)장애인기업종합지원센터 이사장※ 본 모집공고는 장애인 창업 컨설팅 지원을 받는 대상자 모집공고입니다.※ 장애인 창업 컨설팅은 온라인(창업-",
+            "locator": "PDF p.1 / text-line 3",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "71aa0d9ee0ca61439810",
+            "category": "documents",
+            "excerpt": "2. 9.(월) ~ 예산 소진 시까지, 선착순 마감 * 온라인(창업-NET)을 통해 선착순으로 접수하나, 향후 필수 제출서류 미비 시 탈락할 수 있음 ** 창업-NET URL : http://start.debc.or.kr/main.do",
+            "locator": "PDF p.1 / text-line 3",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "79044fa187e7716f2393",
+            "category": "eligibility",
+            "excerpt": "2 신청자격□ 지원대상 ◦ (장애인) 「장애인복지법」 제32조에 따른 장애인등록증을 발급받은 자 또는 「국가유공자 등 예우 및 지원에 관한 법률」제6조의 4에 따른 상이등급 중 어느 하나에 해당하는 판정을 받은 자 ◦ (예비창업자) 모집 공고일 기준 창업을 준비하는 자로서, 사업자 등록하지 않은 자 또는 모집공고일 전일(26년 2월 8일) 까지 폐업한 자 ◦ (재기창업자) 기존 사업을 폐업하거나 양도하고, 새",
+            "locator": "PDF p.2 / text-line 3",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "677361a251c0ca0bc2ec",
+            "category": "exclusion",
+            "excerpt": "(개인사업자) 사업자등록증 상 ‘개업연월일’ 기준 / (법인사업자) 법인등기사항전부증명서의 ‘회사성립연월일’ 기준< 지원 제외 대상 > ◦ 비영리사업(비영리 개인사업자와 법인사업자) * 「상법」에 의한 회사로서 「소득세법」 제168조 또는 「부가가치세법」 제5조의 규정의 적용을 받지 않는 사업(비영리사회적기업, 어린이집, 장기요양센터 등) ◦ 정책자금 지원 제외 업종으로 창업하려는 자(사금융, 사치 향락업종,",
+            "locator": "PDF p.2 / text-line 3",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "9bef9208707abb284c2a",
+            "category": "eligibility",
+            "excerpt": "1부컨설팅 수료 시까지 제출 * 장애인 증명서의 경우, 복지카드 사본 제출은 미인정 ** 외부기관 발급서류는 컨설팅 지원 대상자 모집공고 게시일 이후 발급서류 제출 요망 □ 신청자 유의사항 ◦ 컨설팅 수료 전까지 온라인 창업교육 시스템(창업-NET) 강의(기초, 역량강화, 창업자 재기, 협동조합 등 택1) 수강 후 수료증 제출 필수 ◦ 제출된 자료는 반환하지 않으며, 신청서류 구비에 따른 일체의 비용은 신청자",
+            "locator": "PDF p.3 / text-line 3",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "f395e9d85aec2d0de82c",
+            "category": "documents",
+            "excerpt": "s://start.debc.or.kr/main.do) * 공고문 후면의 [붙임 1- 컨설팅 신청 절차 안내] 참고□ 제출서류 : 컨설팅 시작 전까지 필수 제출번 호제 출 서 류수 량비 고1서약서1부컨설팅 시작 전 제공2장 애 인증 명서 또 는 국 가유 공자 확 인원 원본1부관할 행정복지센터 / 보훈처3사업자등록증명원1부3년 미만 초기창업자 해당 시4온라인교육 수료증1부컨설팅 수료 시까지 제출 * 장애인 증명서",
+            "locator": "PDF p.3 / text-line 3",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "7df0f89c28d97b7d86d3",
+            "category": "deadline",
+            "excerpt": "3 신청·접수□ 신청기간 : `26. 2. 9.(월) ~ 예산 소진 시까지, 선착순 마감□ 신청방법 : 온라인 접수(창업-NET, https://start.debc.or.kr/main.do) * 공고문 후면의 [붙임 1- 컨설팅 신청 절차 안내] 참고□ 제출서류 : 컨설팅 시작 전까지 필수 제출번 호제 출 서 류수 량비 고1서약서1부컨설팅 시작 전 제공2장 애 인증 명서 또 는 국 가유 공자 확 인원 원본1부",
+            "locator": "PDF p.3 / text-line 3",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "표 열 순서·이미지·주석의 의미는 검토하지 않았습니다.",
+          "OCR 미수행"
+        ]
+      }
+    },
+    "ddc7426ea2e98ea92c9c353f": {
+      "id": "ddc7426ea2e98ea92c9c353f",
+      "program_id": "BIZINFO-PBLN_000000000118445",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000118445",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000743695&fileSn=0",
+      "name": "다운로드",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
+    },
+    "92426faf6d549614eda4c50a": {
+      "id": "92426faf6d549614eda4c50a",
+      "program_id": "BIZINFO-PBLN_000000000118617",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000118617",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000744009&fileSn=0",
+      "name": "다운로드",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-10-29T19:31:48+09:00",
+      "last_success_at": "2026-10-29T19:31:48+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-10-29T19:31:48+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "438a5530f3bf601aa67fa9c1f84fc72189ec841d2858505193aef454f3be24f7"
+        }
+      ],
+      "observed_sha256": "438a5530f3bf601aa67fa9c1f84fc72189ec841d2858505193aef454f3be24f7",
+      "sha256": "438a5530f3bf601aa67fa9c1f84fc72189ec841d2858505193aef454f3be24f7",
+      "extraction": {
+        "format": "pdf",
+        "parser": "pypdf/6.15.0",
+        "sha256": "438a5530f3bf601aa67fa9c1f84fc72189ec841d2858505193aef454f3be24f7",
+        "bytes": 1830733,
+        "status": "text_extracted",
+        "text_characters": 9459,
+        "units": 29,
+        "text_sha256": "8ba7d99c1cd3303c56b3d8ef9a7f551a6b72396dc22584f31f0f981c031c9a91",
+        "pages": 13,
+        "sections": null,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "b287769b96d9c83477f6",
+            "category": "amount",
+            "excerpt": "부 지원 내용q 인공지능(AI) 연구개발을 위한 GPU 서버 및 데이터 라벨링 환경 지원① GPU 개발환경 지원q (지원규모) 클러스터 내 기업 1개사 당 5개월 무상 지원(40G 기준)종료 후 별도 심사를 거쳐 최대 5개월 이내 사용기간 연장 가능(단위:원, VAT 별도)GPU 타입1일1주1개월비고NVIDIA DGX A100 40G48,000240,000960,000클러스터 내 기업무상 지원NVIDIA DG",
+            "locator": "PDF p.1 / text-line 1",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "304d8569cd049aaab4f0",
+            "category": "amount",
+            "excerpt": "e200GB3.25TB3.25TB* 서버 스펙은 기관 내부 사정에 따라 변경될 수 있음② 데이터 라벨링 환경지원q (지원규모) GPU 개발환경 지원과 동시 지원q (지원규격) 이미지, 텍스트 데이터의 수동 및 오토라벨링 지원",
+            "locator": "PDF p.2 / text-line 1",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "3dd96e054d762f041d00",
+            "category": "eligibility",
+            "excerpt": "선정 결과는 신청기업에 개별 통보됨q 신청기업 또는 신청기업의 대표자가 국가연구개발사업 참여 제한에 해당하는 경우에 지원 대상에서 제외됨q 전년도 수혜기업은 2026년과 전년도 과제가 겹치지 않게 신청하여야 하며, 중복 과제 판단 시 지원 대상에서 제외됨",
+            "locator": "PDF p.3 / text-line 1",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "64af459e6bc3044dff04",
+            "category": "exclusion",
+            "excerpt": "청기업에 개별 통보됨q 신청기업 또는 신청기업의 대표자가 국가연구개발사업 참여 제한에 해당하는 경우에 지원 대상에서 제외됨q 전년도 수혜기업은 2026년과 전년도 과제가 겹치지 않게 신청하여야 하며, 중복 과제 판단 시 지원 대상에서 제외됨",
+            "locator": "PDF p.3 / text-line 1",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "4a320f7e85a247003dee",
+            "category": "documents",
+            "excerpt": " 이메일 참고) 및 원본 서류 제출 m 제 출 처: 충북 진천군 덕산읍 여안로 12, 1층 충북테크노파크 오픈랩No 제출서류비고1 수혜기업 지원신청서-2 AI 개발플랫폼 활용 지원 신청서-3 AI 개발플랫폼 사용계획서-4 기업정보 수집·이용·제공 동의서-5 개인(신용)정보 수집·이용·제공 동의서-6 사업자 등록증-q (지원 프로그램 관련 문의)지원 프로그램명담당자전화번호이메일AI 개발플랫폼 활용 지원스마트제조",
+            "locator": "PDF p.3 / text-line 1",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "580442690746d9e5daee",
+            "category": "deadline",
+            "excerpt": "4지원 방법q (신청기간) 2026. 2. 13. ~ 12. 15. (상시 모집, 선착순 모집)q (신청방법) E-mail 온라인 접수(담당자 이메일 참고) 및 원본 서류 제출 m 제 출 처: 충북 진천군 덕산읍 여안로 12, 1층 충북테크노파크 오픈랩No 제출서류비고1 수혜기업 지원신청서-2 AI 개발플랫폼 활용 지원 신청서-3 AI 개발플랫폼 사용계획서-4 기업정보 수집·이용·제공 동의서-5 개인(신용)정",
+            "locator": "PDF p.3 / text-line 1",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "8e651369b94d3a2707f9",
+            "category": "documents",
+            "excerpt": "을 지지 않으며, 제공된 자원을 회수할 수 있음q 과제 종료 후, 성과 측정을 위한 매출액 확인서와 고용 창출 관련 증빙자료를 결과보고서와 함께 제출하여야 함q 본 지원 사업의 과제 결과물은 「충북 지능형첨단부품산업의 디지털전환 거점 구축 사업」의 지원을 통해 개발되었음을 명시해야 함q 공고 내용은 기관 사정에 의해 변경될 수 있음 사업 신청, 용역, 구매, 공사 등과 관련하여 소속 임직원이 금품, 향응을 요",
+            "locator": "PDF p.4 / text-line 1",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "854ff23efa469df13323",
+            "category": "eligibility",
+            "excerpt": "소산업규제자유특구**,충북태양광산업특구**(0.06)⑧에너지산업융복합단지(1)충북에너지산업융복합단지** (1.77)⑨소재․부품․장비특화단지(1)이차전지소재부품장비특화단지** (0.15)⑩지식산업센터(3)세중테크노밸리**,청주미래누리터**,충북과학기술혁신원** (0.02)⑪기타(10)충북에너지산학융합지구외1개지구**,뿌리산업특화단지**,충북대학교외6개대학0.15합계 16.43",
+            "locator": "PDF p.6 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "1e592d65a80d91a8ad57",
+            "category": "eligibility",
+            "excerpt": "충북연구개발특구완료오창과학산업단지산업용지전체에너지산업융복합단지청주시충북에너지산업융복합단지완료오창과학산업단지산업용지전체소재부품장비특화단지청주시충북이차전지소재부품장비특화단지완료오창과학산업단지/오창제2산업단지/오창테크노폴리스일반산업단지산업용지전체",
+            "locator": "PDF p.8 / text-line 3",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "표 열 순서·이미지·주석의 의미는 검토하지 않았습니다.",
+          "OCR 미수행"
+        ]
+      }
+    },
+    "d90e38abd915f389d5fabba1": {
+      "id": "d90e38abd915f389d5fabba1",
+      "program_id": "BIZINFO-PBLN_000000000118617",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000118617",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000744010&fileSn=0",
+      "name": "다운로드",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
     }
   },
   "programs": {
@@ -3418,6 +3986,44 @@
         "394f832744461cbfd912e755",
         "4fd11480caf9ba864cd9487e",
         "9655a30b387bb0b7713b81a8"
+      ],
+      "review_required": false,
+      "last_error": null
+    },
+    "BIZINFO-PBLN_000000000118350": {
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000118350",
+      "last_notice_attempt_at": "2026-10-29T19:31:48+09:00",
+      "last_notice_success_at": "2026-10-29T19:31:48+09:00",
+      "notice_status": "links_available",
+      "manifest_sha256": "09697f6a61ba8a3cf926e3a8f15ef6693fcfbbb45cb959c9cdb73ae3506aebe6",
+      "document_ids": [
+        "670cdfa1fbae61bd73346df7",
+        "36c4475f42d7f79dd04d19f1"
+      ],
+      "review_required": false,
+      "last_error": null
+    },
+    "BIZINFO-PBLN_000000000118445": {
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000118445",
+      "last_notice_attempt_at": "2026-10-29T19:31:48+09:00",
+      "last_notice_success_at": "2026-10-29T19:31:48+09:00",
+      "notice_status": "links_available",
+      "manifest_sha256": "99fd0f9988c76a86c3ccee4fa4663b74cb3926d4315110f61d9c6f18475e7cfd",
+      "document_ids": [
+        "ddc7426ea2e98ea92c9c353f"
+      ],
+      "review_required": false,
+      "last_error": null
+    },
+    "BIZINFO-PBLN_000000000118617": {
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000118617",
+      "last_notice_attempt_at": "2026-10-29T19:31:48+09:00",
+      "last_notice_success_at": "2026-10-29T19:31:48+09:00",
+      "notice_status": "links_available",
+      "manifest_sha256": "9bf9f2eb01738e8c151566d580d501cd9c57eba3573096330ac285d67cfc50ff",
+      "document_ids": [
+        "92426faf6d549614eda4c50a",
+        "d90e38abd915f389d5fabba1"
       ],
       "review_required": false,
       "last_error": null

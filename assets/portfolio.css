@@ -1,0 +1,23 @@
+/* P0.8 local review workspace; inherited public radar design tokens. */
+.pf-card{min-width:0;margin:1.1rem 0 1.8rem;padding:1.25rem;border:1px solid #344966;border-radius:14px;background:#101d32}
+.pf-card legend{padding:0 .65rem;font-size:1.1rem;font-weight:750;color:#a6e9d6}
+.pf-card h3{font-size:1rem;margin:1.3rem 0 .6rem}
+.pf-card input,.pf-card select{width:100%;min-width:0}
+.pf-card input:disabled,.pf-card select:disabled{opacity:.55}
+.pf-card input[type=checkbox]{width:auto}
+.pf-line{display:flex;align-items:flex-end;flex-wrap:wrap;gap:.8rem;margin:.8rem 0}
+.pf-line label{flex:1 1 170px;display:grid;gap:.45rem;color:#c8d8ec;font-size:.86rem}
+.pf-line input{padding:.7rem;border:1px solid #354966;border-radius:8px;background:#0b182a;color:#eef4fb;min-height:43px}
+.pf-line button{margin-bottom:1px}
+.pf-allocation{padding:1rem;margin:1rem 0;background:#172a40;border-radius:10px}
+.pf-allocation b{display:block;margin-bottom:.7rem}
+.pf-verdict{padding:1.3rem;border:1px solid #6b5737;border-radius:12px;background:#2d2b27;margin-bottom:1.2rem}
+.pf-verdict h3{margin:0 0 .5rem}.pf-verdict p{margin:.5rem 0;line-height:1.8}
+.pf-blocked{border-color:#865361;background:#302435}
+.pf-budget-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(235px,1fr));gap:1rem;margin:1rem 0 1.7rem}
+.pf-mini{padding:1.1rem;border:1px solid #344966;border-radius:12px;background:#142139;min-width:0;overflow-wrap:anywhere}
+.pf-mini b{font-size:.95rem;color:#dcf2ef}.pf-mini p{font-size:.9rem;line-height:1.9;color:#c3d1e3}.pf-mini strong{font-size:1.25rem;color:#e5f5ef}.pf-mini small{color:#e9cf9c}
+#pfResult li{margin:.65rem 0;line-height:1.8;overflow-wrap:anywhere}
+#pfResult h3{margin-top:1.6rem}#pfMessage{font-size:.85rem;color:#b7cce2}
+#pfResult table td{white-space:nowrap}
+@media(max-width:600px){.pf-card{padding:.8rem}.pf-budget-grid{grid-template-columns:1fr}.pf-line button{width:100%}.pf-line label{flex-basis:45%}.pf-verdict{padding:1rem}.pf-allocation{padding:.7rem}}

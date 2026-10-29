@@ -140,3 +140,28 @@ Tests: python -m unittest discover -s scripts -p test_startup.py -v; node --test
 투자·차입·원금·이자는 별도이며 대안 3개를 독립적으로 비교합니다. 2027 확정액·병행 허용·선정 확률을 계산하지 않습니다.
 입력은 페이지 메모리에만 남고 명시적 저장 때만 비공개 JSON을 로컬로 내보냅니다.
 분석 방법·원문 변경 보류·한계는 `docs/P07_CASHFLOW.md`를 확인하십시오.
+
+
+## P0.8 — 사업 조합·비용 배분 검토
+
+Open `portfolio.html` from the public dashboard or the P0.7 cashflow screen.
+One company may examine up to 3 hypothetical projects and 60 unique cost rows.
+Known 2026 startup budgets reuse P0.6/P0.7 source gates; manual project budgets
+are explicitly user assumptions. No new 2027 eligibility or combination permission
+is inferred. Known startup alternatives are not aggregated, even with disjoint dates.
+
+The ledger flags duplicate cost identifiers, allocation exceeding the actual cost,
+missing recognition assumptions, dates outside stated performance periods and
+project budget mismatches. Overlap alone is not a legal violation; non-overlap
+is not legal clearance. The engine never emits an approved/optimal portfolio.
+
+For arithmetically consistent plans only, a clearly hypothetical combined cashflow
+counts corporate operating cost and each unique expense once, and maintains
+per-project restricted grant balances. Same economic costs under different IDs,
+actual cost recognition, salary participation caps, taxes and settlement are not
+automatically verified. Explicit questions are provided for agency review.
+
+All input stays in page memory. No automatic persistence or input transport.
+Only explicit buttons export a private JSON report or an agency-question TXT.
+Changing inputs or stale reviewed sources revokes the previous result/export.
+See `docs/P08_PORTFOLIO.md` for the exact scope and regression commands.

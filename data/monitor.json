@@ -1,12 +1,20 @@
 {
   "schema": "public-funding-monitor/v1",
-  "status": "ok_no_change",
-  "last_attempt_at": "2026-10-30T01:15:05+09:00",
-  "last_success_at": "2026-10-30T01:15:05+09:00",
-  "changed_count": 0,
-  "checked_count": 1461,
-  "message": "기업마당 1461건 / 8페이지 · 추가 0 · 수정 0 · 변경 검토 0 · 수집범위 API 제공범위 완료 · 원문 HTML 6성공/0실패 (첨부·적격성 미검증)",
+  "status": "ok_changed",
+  "last_attempt_at": "2026-10-30T08:05:26.876+09:00",
+  "last_success_at": "2026-10-30T08:05:26.876+09:00",
+  "changed_count": 3,
+  "checked_count": 6,
+  "message": "공식 상세·접수처 6건 대조(기업마당·스타트업플러스·KOCCA). 2027 Dream Play 수혜기업 1건 신규, Multi AI Agent R&D·대구 AI로봇 PoC 2건 공식 공고 검증 후 수혜기업으로 전환. 첨부 PDF/HWP 조건 미검증; 기업마당 API 전수조회 결과와 별도.",
   "events": [
+    {
+      "at": "2026-10-30T08:05:26.876+09:00",
+      "status": "ok_changed",
+      "changed": 3,
+      "checked": 6,
+      "message": "공식 상세·접수처 6건 대조(기업마당·스타트업플러스·KOCCA). 2027 Dream Play 수혜기업 1건 신규, Multi AI Agent R&D·대구 AI로봇 PoC 2건 공식 공고 검증 후 수혜기업으로 전환. 첨부 PDF/HWP 조건 미검증; 기업마당 API 전수조회 결과와 별도.",
+      "source": "manual_official_detail_and_application"
+    },
     {
       "at": "2026-10-30T01:15:05+09:00",
       "status": "ok_no_change",
@@ -173,6 +181,16 @@
       "changed_count": 0,
       "last_partial_success_at": "2026-10-30T01:15:05+09:00",
       "last_success_at": "2026-10-30T01:15:05+09:00"
+    },
+    "manual_official_20261030": {
+      "status": "ok_changed",
+      "last_attempt_at": "2026-10-30T08:05:26.876+09:00",
+      "last_success_at": "2026-10-30T08:05:26.876+09:00",
+      "checked_count": 6,
+      "changed_count": 3,
+      "scope": "기업마당 개별 공고 3건(Multi AI Agent·대구 AI로봇·AX R&D) 및 AI 헬스케어 1건, SBA 접수처 Dream Play 1건, KOCCA 채용지원 안내 1건. API 1461건 전수수집과 별개.",
+      "programs_commit": "ca1a7f0bd2e82bf93f4d84b5d568d5e29187a8ca",
+      "notes": "사업비·현금지원·민간투자 구분; 첨부 상세 조항 미검증"
     }
   },
   "engine_version": "0.2.0"

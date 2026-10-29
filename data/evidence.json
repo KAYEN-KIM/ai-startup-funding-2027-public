@@ -1416,9 +1416,158 @@
       "last_success_at": "2026-10-29T20:04:39+09:00",
       "last_error": null,
       "review_required": false
+    },
+    "BIZINFO-PBLN_000000000127373": {
+      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127373",
+      "last_attempt_at": "2026-10-29T22:53:14+09:00",
+      "body_sha256": "09fdbcfc8813fff87201479d784bfb601653f549847455e802e19aafb9bc99e6",
+      "characters": 2280,
+      "page_title": "기업마당>정책정보>지원사업 공고 기업마당 기업마당 > 정책정보 > 지원사업 공고",
+      "attachments": [
+        {
+          "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000777249&fileSn=0&downloadToken=eyJhbGciOiJIUzI1NiJ9.eyJwdXJwb3NlIjoiZmlsZV9kb3dubG9hZCIsImlhdCI6MTc5MzI4MjA1OCwiYXRjaEZpbGVJZCI6IkZJTEVfMDAwMDAwMDAwNzc3MjQ5IiwiZmlsZVNuIjoiMCJ9.J4IGTJCzrJWiz7lkdnyrbN82aHeaezBLw4hrYC5b6gc",
+          "name": "다운로드",
+          "status": "link_only_not_read"
+        }
+      ],
+      "level": "html_retrieved_not_eligibility_verified",
+      "status": "html_available",
+      "last_success_at": "2026-10-29T22:53:14+09:00",
+      "last_error": null,
+      "review_required": false
+    },
+    "BIZINFO-PBLN_000000000127227": {
+      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127227",
+      "last_attempt_at": "2026-10-29T22:53:14+09:00",
+      "body_sha256": "7b4d8beb59a67e9653f27d08dfa73f2332b8fca69bcdd1508328cb7fbcf3cf6a",
+      "characters": 2726,
+      "page_title": "기업마당>정책정보>지원사업 공고 기업마당 기업마당 > 정책정보 > 지원사업 공고",
+      "attachments": [
+        {
+          "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000776691&fileSn=0&downloadToken=eyJhbGciOiJIUzI1NiJ9.eyJwdXJwb3NlIjoiZmlsZV9kb3dubG9hZCIsImlhdCI6MTc5MzI4MjA2MCwiYXRjaEZpbGVJZCI6IkZJTEVfMDAwMDAwMDAwNzc2NjkxIiwiZmlsZVNuIjoiMCJ9.poCjhmY6B4fz-aLTuAt59YBcPwcljiuXOxvmKXeLfKA",
+          "name": "다운로드",
+          "status": "link_only_not_read"
+        },
+        {
+          "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000776680&fileSn=0&downloadToken=eyJhbGciOiJIUzI1NiJ9.eyJwdXJwb3NlIjoiZmlsZV9kb3dubG9hZCIsImlhdCI6MTc5MzI4MjA2MCwiYXRjaEZpbGVJZCI6IkZJTEVfMDAwMDAwMDAwNzc2NjgwIiwiZmlsZVNuIjoiMCJ9.bCxqg-p1y_FuvNFq1bxJQBXagukFy0keGTNouxYQYFY",
+          "name": "다운로드",
+          "status": "link_only_not_read"
+        }
+      ],
+      "level": "html_retrieved_not_eligibility_verified",
+      "status": "html_available",
+      "last_success_at": "2026-10-29T22:53:14+09:00",
+      "last_error": null,
+      "review_required": false
+    },
+    "BIZINFO-PBLN_000000000127511": {
+      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127511",
+      "last_attempt_at": "2026-10-29T22:53:14+09:00",
+      "body_sha256": "3266e9799acb9e4abaa66d873cf3ecd9f8a73db55ce257c9ee45bc62a67cf4d4",
+      "characters": 2515,
+      "page_title": "기업마당>정책정보>지원사업 공고 기업마당 기업마당 > 정책정보 > 지원사업 공고",
+      "attachments": [
+        {
+          "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000777943&fileSn=1&downloadToken=eyJhbGciOiJIUzI1NiJ9.eyJwdXJwb3NlIjoiZmlsZV9kb3dubG9hZCIsImlhdCI6MTc5MzI4MjA2MiwiYXRjaEZpbGVJZCI6IkZJTEVfMDAwMDAwMDAwNzc3OTQzIiwiZmlsZVNuIjoiMSJ9.txeOZyR0TsBeLyu0Z9VGUe5N5i_bPtsmMZ1v6vR3VVA",
+          "name": "다운로드",
+          "status": "link_only_not_read"
+        },
+        {
+          "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000777942&fileSn=2&downloadToken=eyJhbGciOiJIUzI1NiJ9.eyJwdXJwb3NlIjoiZmlsZV9kb3dubG9hZCIsImlhdCI6MTc5MzI4MjA2MiwiYXRjaEZpbGVJZCI6IkZJTEVfMDAwMDAwMDAwNzc3OTQyIiwiZmlsZVNuIjoiMiJ9.fv7Mxq8hvv4eC3R3c--P3tymrROMjkPjEa1EXgjv2u4",
+          "name": "다운로드",
+          "status": "link_only_not_read"
+        }
+      ],
+      "level": "html_retrieved_not_eligibility_verified",
+      "status": "html_available",
+      "last_success_at": "2026-10-29T22:53:14+09:00",
+      "last_error": null,
+      "review_required": false
+    },
+    "BIZINFO-PBLN_000000000127502": {
+      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127502",
+      "last_attempt_at": "2026-10-29T22:53:14+09:00",
+      "body_sha256": "0b2170bd1ccce6c46cc309a6bc791d348ce1016138b23a375bb1edce03f32c2a",
+      "characters": 2184,
+      "page_title": "기업마당>정책정보>지원사업 공고 기업마당 기업마당 > 정책정보 > 지원사업 공고",
+      "attachments": [
+        {
+          "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000777917&fileSn=1&downloadToken=eyJhbGciOiJIUzI1NiJ9.eyJwdXJwb3NlIjoiZmlsZV9kb3dubG9hZCIsImlhdCI6MTc5MzI4MjA2NCwiYXRjaEZpbGVJZCI6IkZJTEVfMDAwMDAwMDAwNzc3OTE3IiwiZmlsZVNuIjoiMSJ9.BOpnvi-2yWnmcAgHko_slVTMrAzl0TFjgIsqiYUFC1Q",
+          "name": "다운로드",
+          "status": "link_only_not_read"
+        },
+        {
+          "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000777916&fileSn=1&downloadToken=eyJhbGciOiJIUzI1NiJ9.eyJwdXJwb3NlIjoiZmlsZV9kb3dubG9hZCIsImlhdCI6MTc5MzI4MjA2NCwiYXRjaEZpbGVJZCI6IkZJTEVfMDAwMDAwMDAwNzc3OTE2IiwiZmlsZVNuIjoiMSJ9.B5RS2bjTGM_jLFS-ZCs21eZ4rmxbry1QUe7dS2HTnaE",
+          "name": "다운로드",
+          "status": "link_only_not_read"
+        }
+      ],
+      "level": "html_retrieved_not_eligibility_verified",
+      "status": "html_available",
+      "last_success_at": "2026-10-29T22:53:14+09:00",
+      "last_error": null,
+      "review_required": false
+    },
+    "BIZINFO-PBLN_000000000127466": {
+      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127466",
+      "last_attempt_at": "2026-10-29T22:53:14+09:00",
+      "body_sha256": "c3a04da3129c368f7b1c0cdfb94abdb0dc24f6091a61ee449669f4a653308deb",
+      "characters": 1832,
+      "page_title": "기업마당>정책정보>지원사업 공고 기업마당 기업마당 > 정책정보 > 지원사업 공고",
+      "attachments": [
+        {
+          "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000777743&fileSn=0&downloadToken=eyJhbGciOiJIUzI1NiJ9.eyJwdXJwb3NlIjoiZmlsZV9kb3dubG9hZCIsImlhdCI6MTc5MzI4MjA2NiwiYXRjaEZpbGVJZCI6IkZJTEVfMDAwMDAwMDAwNzc3NzQzIiwiZmlsZVNuIjoiMCJ9.WDuvEl-9H9cjtxoUZsK9unsm8zz6d7KZMI7X_G3s_B4",
+          "name": "다운로드",
+          "status": "link_only_not_read"
+        },
+        {
+          "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000777743&fileSn=1&downloadToken=eyJhbGciOiJIUzI1NiJ9.eyJwdXJwb3NlIjoiZmlsZV9kb3dubG9hZCIsImlhdCI6MTc5MzI4MjA2NiwiYXRjaEZpbGVJZCI6IkZJTEVfMDAwMDAwMDAwNzc3NzQzIiwiZmlsZVNuIjoiMSJ9.QpJwwWwc-thtUkF9pRfIMvVfic6t7pD-Je9suTK89UU",
+          "name": "다운로드",
+          "status": "link_only_not_read"
+        },
+        {
+          "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000777742&fileSn=0&downloadToken=eyJhbGciOiJIUzI1NiJ9.eyJwdXJwb3NlIjoiZmlsZV9kb3dubG9hZCIsImlhdCI6MTc5MzI4MjA2NiwiYXRjaEZpbGVJZCI6IkZJTEVfMDAwMDAwMDAwNzc3NzQyIiwiZmlsZVNuIjoiMCJ9.ZV4eCO8Z23Nbe5W2VAEvPTtUSKa58umIDj8ItXd_KM4",
+          "name": "다운로드",
+          "status": "link_only_not_read"
+        }
+      ],
+      "level": "html_retrieved_not_eligibility_verified",
+      "status": "html_available",
+      "last_success_at": "2026-10-29T22:53:14+09:00",
+      "last_error": null,
+      "review_required": false
+    },
+    "BIZINFO-PBLN_000000000127238": {
+      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127238",
+      "last_attempt_at": "2026-10-29T22:53:14+09:00",
+      "body_sha256": "e25c9a35de85763d6da588418986719a76bf1da9d60d3b81d62700429f3a3f7b",
+      "characters": 2072,
+      "page_title": "기업마당>정책정보>지원사업 공고 기업마당 기업마당 > 정책정보 > 지원사업 공고",
+      "attachments": [
+        {
+          "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000776715&fileSn=0&downloadToken=eyJhbGciOiJIUzI1NiJ9.eyJwdXJwb3NlIjoiZmlsZV9kb3dubG9hZCIsImlhdCI6MTc5MzI4MjA2OSwiYXRjaEZpbGVJZCI6IkZJTEVfMDAwMDAwMDAwNzc2NzE1IiwiZmlsZVNuIjoiMCJ9.QNK4y8He1DR0VnIGS-WD3oT1cFOt3Bl6rEq7odKz6p4",
+          "name": "다운로드",
+          "status": "link_only_not_read"
+        },
+        {
+          "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000776715&fileSn=1&downloadToken=eyJhbGciOiJIUzI1NiJ9.eyJwdXJwb3NlIjoiZmlsZV9kb3dubG9hZCIsImlhdCI6MTc5MzI4MjA2OSwiYXRjaEZpbGVJZCI6IkZJTEVfMDAwMDAwMDAwNzc2NzE1IiwiZmlsZVNuIjoiMSJ9.g-Yo9sv_wBZsZT70denR-kK7moQa_vzoiEKIhiPvQFw",
+          "name": "다운로드",
+          "status": "link_only_not_read"
+        },
+        {
+          "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000776714&fileSn=0&downloadToken=eyJhbGciOiJIUzI1NiJ9.eyJwdXJwb3NlIjoiZmlsZV9kb3dubG9hZCIsImlhdCI6MTc5MzI4MjA2OSwiYXRjaEZpbGVJZCI6IkZJTEVfMDAwMDAwMDAwNzc2NzE0IiwiZmlsZVNuIjoiMCJ9.irs3unlnt3t3etmVeslCPfAe-QgloL3JPNt_3SeZHIE",
+          "name": "다운로드",
+          "status": "link_only_not_read"
+        }
+      ],
+      "level": "html_retrieved_not_eligibility_verified",
+      "status": "html_available",
+      "last_success_at": "2026-10-29T22:53:14+09:00",
+      "last_error": null,
+      "review_required": false
     }
   },
-  "generated_at": "2026-10-29T20:04:39+09:00",
+  "generated_at": "2026-10-29T22:53:14+09:00",
   "run": {
     "attempted": 6,
     "success": 6,

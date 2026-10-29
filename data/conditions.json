@@ -1,8 +1,8 @@
 {
   "schema": "public-funding-conditions/v1",
   "version": "0.3.0",
-  "generated_at": "2026-10-29T16:00:36+09:00",
-  "input_fingerprint": "49485c245b21afa9224245fa5a2cc7e36ed274bf8f84c2bb09da49246fa9e80e",
+  "generated_at": "2026-10-29T22:53:14+09:00",
+  "input_fingerprint": "57927b29a4ca7c8e56e24d8e2036a06f5833d876006502dff5aa515fe54390c6",
   "disclaimer": "요약에서 확인한 조건만 판정합니다. 자동 추출은 미검증 후보이며 기관의 최종 심사를 대체하지 않습니다.",
   "records": {
     "IBK-2027-1": {

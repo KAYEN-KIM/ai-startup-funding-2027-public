@@ -17,7 +17,9 @@ class PortfolioContracts(unittest.TestCase):
             self.assertIn('href="portfolio.html"',(R/p).read_text(encoding='utf-8'),p)
     def test_all_scripts_are_local_files(self):
         h=(R/'portfolio.html').read_text(encoding='utf-8');refs=re.findall(r'<script[^>]+src="([^"]+)"',h)
-        self.assertEqual(len(refs),8)
+        self.assertEqual(len(refs),9)
+        self.assertIn('assets/portfolio-execution.js',refs)
+        self.assertEqual(len(refs),len(set(refs)))
         for p in refs:self.assertTrue(p.startswith('assets/') and (R/p).is_file())
     def test_csp_blocks_form_submission_and_external_script(self):
         h=(R/'portfolio.html').read_text(encoding='utf-8')

@@ -3797,17 +3797,27 @@
       "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000744168&fileSn=0",
       "name": "다운로드",
       "status": "download_failed",
-      "last_attempt_at": "2026-10-29T22:54:30+09:00",
+      "last_attempt_at": "2026-10-30T00:04:17+09:00",
       "last_success_at": null,
       "last_error": "download_failed",
       "review_required": false,
       "history": [
         {
+          "at": "2026-10-30T00:04:17+09:00",
+          "status": "download_failed",
+          "observed_sha256": null,
+          "http_status": 403,
+          "failure_kind": "http_error"
+        },
+        {
           "at": "2026-10-29T22:54:30+09:00",
           "status": "download_failed",
           "observed_sha256": null
         }
-      ]
+      ],
+      "http_status": 403,
+      "failure_kind": "http_error",
+      "retryable": false
     },
     "fd207e68205a3c1c77f12421": {
       "id": "fd207e68205a3c1c77f12421",

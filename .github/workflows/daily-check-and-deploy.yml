@@ -58,6 +58,11 @@ jobs:
           python -m unittest discover -s scripts -p test_portfolio_evidence_contract.py -v
           python -m unittest discover -s scripts -p test_portfolio_bilateral_contract.py -v
           python -m unittest discover -s scripts -p test_portfolio_contract.py -v
+      - name: Execution readiness and transport diagnostic regressions
+        run: |
+          node --test scripts/test_portfolio_execution.cjs
+          python -m unittest discover -s scripts -p test_execution_contract.py -v
+          python -m unittest discover -s scripts -p test_attachment_transport.py -v
       - name: Script syntax and public schema
         run: |
           node --check assets/app.js
@@ -69,6 +74,7 @@ jobs:
           node --check assets/startup-ui.js
           node --check assets/cashflow-core.js
           node --check assets/cashflow-ui.js
+          node --check assets/portfolio-execution.js
           node --check assets/portfolio-core.js
           node --check assets/portfolio-evidence.js
           node --check assets/portfolio-bilateral.js

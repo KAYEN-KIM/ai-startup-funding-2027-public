@@ -211,11 +211,20 @@ def approved_url(url):
   return u.scheme=='https' and u.port in (None,443) and not u.username and not u.password and any(host==h or host.endswith('.'+h) for h in OFFICIAL_HOSTS) and not any(k.casefold() in {'crtfckey','servicekey','api_key','token','access_token','password','secret'} for k,v in parse_qsl(u.query))
  except ValueError:return False
 
+def validate_transport_fields(value):
+ status=value.get('http_status');kind=value.get('failure_kind')
+ if status is not None and (type(status) is not int or not 400<=status<=599):raise ValueError('http_status')
+ if kind not in {None,'http_error','network_error','document_or_policy','unclassified'}:raise ValueError('failure_kind')
+ if status is not None and kind!='http_error':raise ValueError('failure_kind_mismatch')
+ if 'retryable' in value and type(value['retryable']) is not bool:raise ValueError('retryable')
+ if status in (401,403) and value.get('retryable'):raise ValueError('access_denial_retry')
+ return True
+
 def validate_public(data):
  if data.get('schema')!='public-funding-attachments/v1':raise ValueError('attachments_schema')
  if set(data)-{'schema','version','generated_at','run','records','programs'}:raise ValueError('unexpected_root_field')
  if not isinstance(data['records'],dict) or not isinstance(data['programs'],dict):raise ValueError('records')
- record_keys={'id','program_id','notice_source','url','name','status','last_attempt_at','last_success_at','last_error','observed_sha256','sha256','previous_sha256','review_required','content_changed_at','extraction','history'}
+ record_keys={'id','program_id','notice_source','url','name','status','last_attempt_at','last_success_at','last_error','observed_sha256','sha256','previous_sha256','review_required','content_changed_at','extraction','history','http_status','failure_kind','retryable'}
  extract_keys={'format','parser','sha256','bytes','status','text_characters','units','text_sha256','pages','sections','empty_pages','candidate_facts','coverage','attachments_reviewed','limitations'}
  program_keys={'notice_source','last_notice_attempt_at','last_notice_success_at','notice_status','manifest_sha256','document_ids','review_required','last_error','previous_manifest_sha256'}
  run_keys={'at','notice_success','notice_failed','attempted','text_extracted','partial_or_no_text','blocked_or_unsupported','failed','changed','manifest_changed','queued_total','scope'}
@@ -228,9 +237,11 @@ def validate_public(data):
   if not approved_url(r.get('url')) or not approved_url(r.get('notice_source')):raise ValueError('unapproved_url')
   if len(r.get('history',[]))>8:raise ValueError('history_limit')
   for event in r.get('history',[]):
-   if set(event)!={'at','status','observed_sha256'}:raise ValueError('history_fields')
+   if not {'at','status','observed_sha256'}<=set(event) or set(event)-{'at','status','observed_sha256','http_status','failure_kind'}:raise ValueError('history_fields')
+   validate_transport_fields(event)
   for field in ('sha256','observed_sha256','previous_sha256'):
    if r.get(field) and not re.fullmatch(r'[a-f0-9]{64}',r[field]):raise ValueError('hash_format')
+  validate_transport_fields(r)
   ex=r.get('extraction')
   if not ex:continue
   if set(ex)!=extract_keys or ex['attachments_reviewed'] is not False:raise ValueError('extraction_fields')

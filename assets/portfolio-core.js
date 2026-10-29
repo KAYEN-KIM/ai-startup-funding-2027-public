@@ -8,7 +8,8 @@ const F=node?require('./cashflow-core.js'):root.CashflowCore;
 const P=node?require('./planning-core.js'):root.PlanningCore;
 const E=node?require('./portfolio-evidence.js'):root.PortfolioEvidence;
 const B=node?require('./portfolio-bilateral.js'):root.PortfolioBilateral;
-const VERSION='0.10.0';
+const X=node?require('./portfolio-execution.js'):root.PortfolioExecution;
+const VERSION='0.11.0';
 const DISCLAIMER='조합의 동시신청·선정·수행 허용은 미확정입니다. 비용 배분 검사는 공식 비용 인정이나 선정액 검증이 아니며, 합산 현금은 모든 사업의 선정·병행을 가정한 계획 모형입니다.';
 const CATEGORIES=['personnel','cloud','outsourcing','equipment','travel','other'];
 const max=(a,b)=>a>b?a:b,min=(a,b)=>a<b?a:b;
@@ -39,7 +40,7 @@ function review(input,ctx={}){
   if(!Array.isArray(input.costs)||input.costs.length<1||input.costs.length>60)throw new Error('비용 명세는 1~60행입니다.');
   const company=parseCompany(input.company),issues=[],projects=[],ids=new Set(),sourceHolds=[];
   for(const x of input.projects){
-   exact(x,['id','route_id','scenario_id','category','start_date','end_date','support_won','inkind_won','own_cash_won','region_confirmed','receipts','notice_code','award_year','selection_status'],'사업');
+   exact(x,['id','route_id','scenario_id','category','start_date','end_date','support_won','inkind_won','own_cash_won','region_confirmed','receipts','notice_code','award_year','selection_status','execution'],'사업');
    const id=ident(x.id,'사업 ID');if(ids.has(id))throw new Error('사업 ID가 중복되었습니다.');ids.add(id);
    const period=interval(x.start_date,x.end_date);let grant,cash,own,inkind,source=null,label,sourceKind;
    if(x.route_id==='manual'){
@@ -108,6 +109,9 @@ function review(input,ctx={}){
   if(bilateral.holds.length)return response('source_hold',bilateral.holds,{bilateral,can_export:false,can_simulate:false});
   issues.push(...evidence.issues);
   issues.push(...bilateral.issues);
+  const execution=X.audit(input,ctx,projects.map(p=>({id:p.id,own_cash_assumption_won:String(p.own),inkind_assumption_won:String(p.inkind)})));
+  if(execution.holds.length)return response('source_hold',execution.holds,{execution,can_export:false,can_simulate:false});
+  issues.push(...execution.issues);
   const canSimulate=!issues.some(i=>i.severity==='conflict'||i.severity==='hold');
   const actual=costs.reduce((n,c)=>n+c.amount,0n),assign=costs.reduce((n,c)=>n+c.assigned,0n);
   const budgets=projects.map(p=>({id:p.id,route_id:p.route_id,scenario_id:p.scenario_id,label:p.label,source_kind:p.sourceKind,source:p.source,start_date:p.period[0],end_date:p.period[1],support_assumption_won:String(p.grant),own_cash_assumption_won:String(p.own),inkind_assumption_won:String(p.inkind),project_cash_won:String(p.cash),allocated_cash_won:String(allocated.get(p.id))}));
@@ -119,12 +123,13 @@ function review(input,ctx={}){
    ...pairs.map(p=>p.a+' / '+p.b+': 두 공고의 상호 중복수혜 조항과 적용 예외를 원문 조항 번호로 확인해 주십시오.'),
    ...evidence.checks.map(c=>c.from+' → '+c.to+': 2026 참고 '+c.source.locator+'의 제한이 실제 신청 사업연도·진행단계에 적용됩니까? 역방향 제한·예외도 확인해 주십시오.'),
    ...bilateral.pairs.flatMap(p=>p.questions),
+   ...execution.questions,
    ...evidence.cost_checks.map(c=>c.key+': '+c.checklist.join('; ')+' — 내부 준비 제안이며 필수서류 목록 확정이 아닙니다. 해당 사업의 인정·증빙 기준을 확인해 주십시오.'),
    ...projects.filter(p=>p.sourceKind==='user_assumption').map(p=>p.id+': 직접 입력한 금액·사업유형·자부담의 공식 공고 및 근거를 확인해 주십시오.')
   ];
   return response(canSimulate?'review_required':'blocked',canSimulate?['비용 배분 산식에는 충돌이 없으나 조합의 적격성·병행 허용은 미확정입니다. 가정 현금흐름만 제공합니다.']:['비용 배분·자료 또는 대안 합산에 미해결 문제가 있어 합산 현금흐름을 계산하지 않았습니다.'],{
    review_year:input.review_year,phase:input.phase,can_export:true,can_simulate:canSimulate,budgets,pairs,issues,ledger,evidence,
-   bilateral,cost_totals:{unique_cash_cost_won:String(actual),allocated_cash_won:String(assign),company_only_cash_won:assign<=actual?String(actual-assign):null},questions,
+   bilateral,execution,cost_totals:{unique_cash_cost_won:String(actual),allocated_cash_won:String(assign),company_only_cash_won:assign<=actual?String(actual-assign):null},questions,
    scenarios:canSimulate?['no_grant','planned','delayed'].map(k=>simulate(company,projects,costs,k)):null
   });
  }catch(e){return response('invalid',[e.message],{can_export:false,can_simulate:false});}

@@ -14,6 +14,7 @@ import sys
 import tempfile
 from urllib.parse import urlparse
 from urllib.request import Request,build_opener,HTTPRedirectHandler
+from urllib.error import HTTPError,URLError
 from attachment_core import VERSION,MAX_FILE,ExtractError,sha,approved_url,validate_public,ERRORS
 ROOT=Path(__file__).resolve().parents[1]
 KST=dt.timezone(dt.timedelta(hours=9))
@@ -97,11 +98,16 @@ def update_document(old,at,fetcher=download,parser=isolated_parse):
             result['previous_sha256']=old['sha256'];result['content_changed_at']=at;result['review_required']=True
         ex=parser(raw)
         if ex.get('sha256')!=observed:raise ExtractError('malformed_document')
-        result.update(status=ex['status'],last_success_at=at,last_error=None,sha256=observed,extraction=ex)
+        result.update(status=ex['status'],last_success_at=at,last_error=None,sha256=observed,extraction=ex,http_status=None,failure_kind=None,retryable=False)
     except Exception as exc:
         code=str(exc) if isinstance(exc,ExtractError) and str(exc) in ERRORS else 'download_failed'
-        result.update(status=code,last_error=code)
-    result.setdefault('history',[]).insert(0,{'at':at,'status':result['status'],'observed_sha256':result.get('observed_sha256')})
+        # Persist only bounded codes; never response bodies, cookies, exception URLs or credentials.
+        http_status=exc.code if isinstance(exc,HTTPError) and 400<=exc.code<=599 else None
+        kind='http_error' if http_status else 'network_error' if isinstance(exc,(URLError,TimeoutError,ConnectionError)) else 'document_or_policy' if isinstance(exc,ExtractError) else 'unclassified'
+        retryable=(http_status in {408,429,500,502,503,504}) if http_status else kind=='network_error'
+        result.update(status=code,last_error=code,http_status=http_status,failure_kind=kind,retryable=retryable)
+        if isinstance(exc,HTTPError):exc.close()
+    result.setdefault('history',[]).insert(0,{'at':at,'status':result['status'],'observed_sha256':result.get('observed_sha256'),'http_status':result.get('http_status'),'failure_kind':result.get('failure_kind')})
     result['history']=result['history'][:8]
     return result
 

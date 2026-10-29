@@ -42,3 +42,12 @@ test('attachment error filter separates successful rows',async()=>{const b=await
 test('attachment initial load failure explicitly blocks display',async()=>{const b=await bootAttachment({fail:true});assert.match(b.elements.attachmentAudit.textContent,/조회 실패/);assert.equal(b.elements.attachmentCount.textContent,'');assert.equal(b.elements.reloadAttachments.disabled,false);});
 test('failed reload cannot revive stale records by changing a filter',async()=>{const b=await bootAttachment();b.control.fail=true;await b.click();b.search();assert.doesNotMatch(b.elements.attachmentList.innerHTML,/Public AI fixture/);assert.match(b.elements.attachmentAudit.textContent,/조회 실패/);assert.equal(b.elements.attachmentCount.textContent,'');});
 test('actual attachment UI escapes hostile source titles',async()=>{const b=await bootAttachment({title:'<img src=x onerror=alert(1)>'});assert.doesNotMatch(b.elements.attachmentList.innerHTML,/<img/);assert.match(b.elements.attachmentList.innerHTML,/&lt;img/);});
+
+// P0.11 only bounded status codes are rendered, never response bodies.
+test('P011 HTTP403 shown as access denial without bypass advice',()=>{const r={...row,status:'download_failed',last_error:'download_failed',http_status:403,failure_kind:'http_error',retryable:false};const h=A.card(r,'test',manifest);assert.match(h,/HTTP 403/);assert.match(h,/접근 제한을 우회하지 않습니다/);assert.match(h,/이전 성공 기록 보존/);});
+test('P011 401 shows authentication access denial',()=>{assert.match(A.failureLabel({last_error:'download_failed',http_status:401}),/HTTP 401.*인증/);});
+test('P011 404 reports missing file rather than no changes',()=>{assert.match(A.failureLabel({last_error:'download_failed',http_status:404}),/파일 없음/);});
+test('P011 transient HTTP503 remains failed until rechecked',()=>{assert.match(A.failureLabel({last_error:'download_failed',http_status:503,retryable:true}),/성공으로 처리하지 않습니다/);});
+test('P011 successful fetch has no lingering error text',()=>{assert.equal(A.failureLabel({last_error:null,http_status:403}),'');});
+test('P011 malicious http status does not render raw text',()=>{assert.doesNotMatch(A.failureLabel({last_error:'download_failed',http_status:'<img src=x>'}),/<img/);});
+test('P011 network failure is distinct from HTTP error',()=>{assert.match(A.failureLabel({last_error:'download_failed',failure_kind:'network_error'}),/연결·시간초과/);});

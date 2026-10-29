@@ -131,3 +131,12 @@ Regional selection is explicit, special-region cash-or-in-kind is distinct from 
 A daily bounded check verifies the three reviewed original-file hashes, preserving last success on failure and holding changed/stale sources. This is not complete amendment discovery. Registry: config/startup_reference.json; audit: data/startup_sources.json; derived output: data/startup_routes.json. All existing program entries and earlier registries are preserved by this feature.
 
 Tests: python -m unittest discover -s scripts -p test_startup.py -v; node --test scripts/test_startup.cjs scripts/test_startup_ui.cjs. Both generated catalogs and the startup reference catalog are rebuilt after updates/rebase before publication.
+
+
+## P0.7 월별 현금흐름·독립 대안 비교
+
+`cashflow.html`은 P0.6의 2026 참고조건에 월별 사용자 가정을 연결합니다.
+지원금 없음(동일 지출), 가정 일정, 지급 지연을 비교하고 제한된 지원금 잔액은 운영현금에서 분리합니다.
+투자·차입·원금·이자는 별도이며 대안 3개를 독립적으로 비교합니다. 2027 확정액·병행 허용·선정 확률을 계산하지 않습니다.
+입력은 페이지 메모리에만 남고 명시적 저장 때만 비공개 JSON을 로컬로 내보냅니다.
+분석 방법·원문 변경 보류·한계는 `docs/P07_CASHFLOW.md`를 확인하십시오.

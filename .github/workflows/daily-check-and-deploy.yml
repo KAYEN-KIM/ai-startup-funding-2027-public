@@ -48,6 +48,10 @@ jobs:
         run: |
           python -m unittest discover -s scripts -p test_startup.py -v
           node --test scripts/test_startup.cjs scripts/test_startup_ui.cjs
+      - name: Source-bound cash timing and privacy regressions
+        run: |
+          node --test scripts/test_cashflow.cjs scripts/test_cashflow_ui.cjs
+          python -m unittest discover -s scripts -p test_cashflow_contract.py -v
       - name: Script syntax and public schema
         run: |
           node --check assets/app.js
@@ -57,6 +61,8 @@ jobs:
           node --check assets/planning-ui.js
           node --check assets/startup-core.js
           node --check assets/startup-ui.js
+          node --check assets/cashflow-core.js
+          node --check assets/cashflow-ui.js
           python -m compileall -q scripts
           python scripts/build_public.py
   update-and-publish:

@@ -1,8 +1,8 @@
 {
   "schema": "public-funding-conditions/v1",
   "version": "0.3.0",
-  "generated_at": "2026-10-30T08:04:58.482+09:00",
-  "input_fingerprint": "80145519cad42f2efe05ab0d428189f57a03f7218381eb8c82eb52f5b139faec",
+  "generated_at": "2026-10-30T08:08:47.219+09:00",
+  "input_fingerprint": "66c8a702369c25f455d842f5d2c65f3d1d9b7f2ba06073235199b12adcd6d36b",
   "disclaimer": "요약에서 확인한 조건만 판정합니다. 자동 추출은 미검증 후보이며 기관의 최종 심사를 대체하지 않습니다.",
   "records": {
     "IBK-2027-1": {
@@ -358,14 +358,14 @@
     "BIZINFO-PBLN_000000000127514": {
       "schema": "program-conditions/v1",
       "program_id": "BIZINFO-PBLN_000000000127514",
-      "basis_fingerprint": "70d52dca9571e14c70f328dd827e0187c35f0ecfb76230d4221c8f9a60680774",
+      "basis_fingerprint": "82705869d47e14fa65429458a222f215ab7aa6902e7ba8c3b62e1bc893364b8a",
       "bound_fields": {
         "id": "BIZINFO-PBLN_000000000127514",
         "title": "[서울] 2027년 Dream Play(LGD 스타트업 육성프로그램 9기) 모집 공고",
         "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127514",
         "year": 2027,
-        "eligibility": "디스플레이 혁신기술 또는 디스플레이 산업 인프라 활용 신사업 기술을 보유한 스타트업. AI·빅데이터 분야의 구체적 적용범위와 상세 결격요건은 원공고 첨부 확인 필요.",
-        "amount": "PoC 지원금·실증/육성 프로그램: 지원 상한·지급 조건은 첨부 공고문 확인 필요 (투자·TIPS 연계는 별도)",
+        "eligibility": "공식 접수처 대상 표기는 예비창업자·스타트업. 디스플레이 혁신기술, AI·빅데이터 설계/공정/불량검사 또는 디스플레이 산업 인프라 활용 AI 스마트팩토리 등. 세부 업력·법인·결격은 첨부 원공고 확인 필요.",
+        "amount": "PoC 협업 과제 지원금 기업당 최대 5,000만원 (서울경제진흥원 공식 접수처 공고 본문 확인; 지분투자·TIPS 추천과 별개, 지급·자부담 상세는 첨부 확인 필요)",
         "opens": "2026-10-22",
         "deadline": "2026-11-13T16:00:00+09:00"
       },
@@ -374,7 +374,16 @@
       "reviewed_at": null,
       "sources": {},
       "clauses": [],
-      "candidate_facts": [],
+      "candidate_facts": [
+        {
+          "id": "e323d82175b57964",
+          "category": "cofunding",
+          "origin_field": "amount",
+          "excerpt": "원 공식 접수처 공고 본문 확인; 지분투자·TIPS 추천과 별개, 지급·자부담 상세는 첨부 확인 필요)",
+          "status": "candidate_unverified",
+          "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127514"
+        }
+      ],
       "attachments_reviewed": false,
       "exceptions_reviewed": false,
       "reviewed_difference_ids": [],
@@ -2766,16 +2775,16 @@
     "BIZINFO-PBLN_000000000125978": {
       "schema": "program-conditions/v1",
       "program_id": "BIZINFO-PBLN_000000000125978",
-      "basis_fingerprint": "3aa74770c64f69eee4268114d9215cd89c617bee6bde6766240c47b17cf11fc7",
+      "basis_fingerprint": "05eb257fd9333f9f961ad3cf993cf529a73452195bcaa93571cd5c3928b7b1ce",
       "bound_fields": {
         "id": "BIZINFO-PBLN_000000000125978",
         "title": "중소제조 특화 Multi AI Agent 개발(R&D) 점프업 Track 시행계획 공고",
         "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125978",
         "year": 2026,
-        "eligibility": "공급 중소기업(스마트제조·AI Agent 기술 역량)과 제조 수요기업의 컨소시엄 필수. 공급기업은 주관연구개발기관; 세부 조건 첨부 공고 확인 필요.",
+        "eligibility": "AI 기술 공급 중소기업+제조 수요기업 컨소시엄 필수. 기존 스마트제조혁신기술개발사업(첨단제조·유연생산) 완료판정(60점 이상) 과제의 연구개발기관 참여 등 IRIS 공고 제2026-533호 요건 확인 필요.",
         "amount": "연구개발 과제당 최대 39억원·24개월 이내 (R&D 사업비, 일반 창업현금지원금 아님)",
         "opens": "2026-10-01",
-        "deadline": "2026-10-30"
+        "deadline": "2026-10-30T18:00:00+09:00"
       },
       "coverage": "unreviewed",
       "metadata_state": "current",
@@ -2792,10 +2801,10 @@
           "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125978"
         },
         {
-          "id": "e1341cde6c28ed30",
+          "id": "bf23ed7d91e68c92",
           "category": "funding_amount",
           "origin_field": "note",
-          "excerpt": "-01~10-30, 제조 수요·공급 컨소시엄, 과제당 최대 39억원(24개월)을 확인",
+          "excerpt": "과제당 최대 39억원·24개월의 R&D 사업비이며 일반 창업 현금지원금 아님",
           "status": "candidate_unverified",
           "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125978"
         }

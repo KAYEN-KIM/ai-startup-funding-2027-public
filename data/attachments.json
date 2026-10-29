@@ -1,19 +1,19 @@
 {
   "schema": "public-funding-attachments/v1",
   "version": "0.4.0",
-  "generated_at": "2026-10-30T00:21:20+09:00",
+  "generated_at": "2026-10-30T00:25:54+09:00",
   "run": {
-    "at": "2026-10-30T00:07:25+09:00",
+    "at": "2026-10-30T00:25:54+09:00",
     "notice_success": 3,
     "notice_failed": 0,
     "attempted": 4,
-    "text_extracted": 2,
+    "text_extracted": 4,
     "partial_or_no_text": 0,
-    "blocked_or_unsupported": 1,
-    "failed": 1,
+    "blocked_or_unsupported": 0,
+    "failed": 0,
     "changed": 0,
     "manifest_changed": 0,
-    "queued_total": 56,
+    "queued_total": 61,
     "scope": "회차당 원문 최대 3건·첨부 최대 4건. 본문 추출은 자격 검증이 아니며 전체 기관 수집을 뜻하지 않습니다."
   },
   "records": {
@@ -3388,12 +3388,82 @@
       "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000118229",
       "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000742948&fileSn=2",
       "name": "다운로드",
-      "status": "queued",
-      "last_attempt_at": null,
-      "last_success_at": null,
+      "status": "text_extracted",
+      "last_attempt_at": "2026-10-30T00:25:54+09:00",
+      "last_success_at": "2026-10-30T00:25:54+09:00",
       "last_error": null,
       "review_required": false,
-      "history": []
+      "history": [
+        {
+          "at": "2026-10-30T00:25:54+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "253378bed79dbd27e795584f534c5f11eaa4a5245ce2a30bb21ad5f637629f48",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "253378bed79dbd27e795584f534c5f11eaa4a5245ce2a30bb21ad5f637629f48",
+      "sha256": "253378bed79dbd27e795584f534c5f11eaa4a5245ce2a30bb21ad5f637629f48",
+      "extraction": {
+        "format": "hwp",
+        "parser": "olefile/0.47+hwp-body/0.4.0",
+        "sha256": "253378bed79dbd27e795584f534c5f11eaa4a5245ce2a30bb21ad5f637629f48",
+        "bytes": 99328,
+        "status": "text_extracted",
+        "text_characters": 1026,
+        "units": 89,
+        "text_sha256": "1f69fccc3fea2f89674ad2ef8088f0761d8329d39aa5273d7c1a2c65e1201d64",
+        "pages": null,
+        "sections": 1,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "2b38b82c2f6b70c05d82",
+            "category": "eligibility",
+            "excerpt": "2026년 창업기업 ｢상시 멘토링｣ 신청서",
+            "locator": "BodyText/Section0 / record 28 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "830ed7242ee79db6d6f6",
+            "category": "eligibility",
+            "excerpt": "창업기업",
+            "locator": "BodyText/Section0 / record 93 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "9b941c45bd2a735ed98f",
+            "category": "eligibility",
+            "excerpt": "본인은 상기와 같이 2026년 창업기업 ｢상시 멘토링｣ 신청서를 제출합니다.",
+            "locator": "BodyText/Section0 / record 483 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "4d96515ff7a58991e2f4",
+            "category": "eligibility",
+            "excerpt": "사업자등록증 (창업기업 해당)",
+            "locator": "BodyText/Section0 / record 515 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "구역·레코드 위치는 실제 인쇄 쪽번호가 아닙니다.",
+          "표·그림·각주 의미와 문서의 모든 제외조건은 미검토"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
     },
     "670cdfa1fbae61bd73346df7": {
       "id": "670cdfa1fbae61bd73346df7",
@@ -3976,12 +4046,45 @@
       "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000118665",
       "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000744169&fileSn=1",
       "name": "다운로드",
-      "status": "queued",
-      "last_attempt_at": null,
-      "last_success_at": null,
+      "status": "text_extracted",
+      "last_attempt_at": "2026-10-30T00:25:54+09:00",
+      "last_success_at": "2026-10-30T00:25:54+09:00",
       "last_error": null,
       "review_required": false,
-      "history": []
+      "history": [
+        {
+          "at": "2026-10-30T00:25:54+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "a5fe9bcc6790af3a219e17c86099792d873a10d8c78d240010a6b684686488d8",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "a5fe9bcc6790af3a219e17c86099792d873a10d8c78d240010a6b684686488d8",
+      "sha256": "a5fe9bcc6790af3a219e17c86099792d873a10d8c78d240010a6b684686488d8",
+      "extraction": {
+        "format": "hwp",
+        "parser": "olefile/0.47+hwp-body/0.4.0",
+        "sha256": "a5fe9bcc6790af3a219e17c86099792d873a10d8c78d240010a6b684686488d8",
+        "bytes": 114688,
+        "status": "text_extracted",
+        "text_characters": 1165,
+        "units": 51,
+        "text_sha256": "dee1ca4db9697c62a9f227329f66efd6d63f9ea440ec58c601c2363d7b4010f4",
+        "pages": null,
+        "sections": 1,
+        "empty_pages": 0,
+        "candidate_facts": [],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "구역·레코드 위치는 실제 인쇄 쪽번호가 아닙니다.",
+          "표·그림·각주 의미와 문서의 모든 제외조건은 미검토"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
     },
     "2e727ea66107caf302e471f4": {
       "id": "2e727ea66107caf302e471f4",
@@ -5199,6 +5302,382 @@
       "last_error": null,
       "review_required": false,
       "history": []
+    },
+    "e1c124c8d9445e0b8524613c": {
+      "id": "e1c124c8d9445e0b8524613c",
+      "program_id": "BIZINFO-PBLN_000000000119373",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000119373",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000746387&fileSn=0",
+      "name": "다운로드",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
+    },
+    "edd04fc6a0db0daefaaf4ffb": {
+      "id": "edd04fc6a0db0daefaaf4ffb",
+      "program_id": "BIZINFO-PBLN_000000000119754",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000119754",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000747732&fileSn=1",
+      "name": "다운로드",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
+    },
+    "047a2bc9491e51749617ea53": {
+      "id": "047a2bc9491e51749617ea53",
+      "program_id": "BIZINFO-PBLN_000000000119754",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000119754",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000747733&fileSn=0",
+      "name": "다운로드",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-10-30T00:25:54+09:00",
+      "last_success_at": "2026-10-30T00:25:54+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-10-30T00:25:54+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "d1b15cd7e98efc504df62f33802bda79791cfee1b7f70f2bb7cd5802940a3c1d",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "d1b15cd7e98efc504df62f33802bda79791cfee1b7f70f2bb7cd5802940a3c1d",
+      "sha256": "d1b15cd7e98efc504df62f33802bda79791cfee1b7f70f2bb7cd5802940a3c1d",
+      "extraction": {
+        "format": "pdf",
+        "parser": "pypdf/6.15.0",
+        "sha256": "d1b15cd7e98efc504df62f33802bda79791cfee1b7f70f2bb7cd5802940a3c1d",
+        "bytes": 871477,
+        "status": "text_extracted",
+        "text_characters": 15765,
+        "units": 63,
+        "text_sha256": "ed456aaaab68997d60ae09a75d18cf4bd8dcad82cc77abc04797c43ca9352b4b",
+        "pages": 21,
+        "sections": null,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "5febb83b5e2eefc541b1",
+            "category": "eligibility",
+            "excerpt": "중소벤처기업부공고제2026– 188호2026년 팁스(TIPS) 창업기업 지원계획 수정 공고2026년팁스(TIPS)창업기업지원계획을다음과같이수정공고하오니,프로그램에참여를희망하는창업기업과운영사는참고하시기바랍니다.2026년3월19일중소벤처기업부장관※ 본 공고는 ｢2026년 팁스(TIPS) 창업기업 지원계획 공고｣(공고 제 2026-40호, 2026년 1월 26일)를 다음과 같이 수정한 공고입니다.▸ [딥테크트랙",
+            "locator": "PDF p.1 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "67bcc8a76d8fd96baecb",
+            "category": "amount",
+            "excerpt": "있는 창업기획자, 초기전문VC, 벤처·중소기업 및 대·중견기업 등□팁스세부사업별현황팁스(TIPS) 세부사업명지원 대상지원규모지원기간지원한도기업부담신청접수R&D일반트랙팁스 운영사로부터 투자 및 추천을 받은 (예비)창업기업총 1,624억원(신규) 24개월최대 8억원총 연구비의 25% 이상1·2·3분기딥테크트랙팁스 일반트랙 최종평가 결과 ‘완료’ 판정을 받은 ‘12대 신산업분야’ 창업기업36개월최대15억원비R&D연",
+            "locator": "PDF p.1 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "0f23525b664aa7358c24",
+            "category": "amount",
+            "excerpt": "5년 ‘26년접수시기R&D• 수시 접수• 1·2·3분기 각 1회 접수 (총 3회)비R&D • 1분기 접수 (총 1회)지원규모R&D(일반)• 2년 5억원• 2년 8억원R&D(글 로 벌)• 12억원• 신규 과제 없음 * 타 사업(글로벌팁스 R&D)과 통합평가방법R&D(딥 테 크)• 기술성·사업성 별도 총 2회 대면평가 • 기술성, 사업성 통합 1회 대면평가비R&D• 대면평가• 서류평가",
+            "locator": "PDF p.2 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "bf4e42358a3306c96232",
+            "category": "eligibility",
+            "excerpt": "신청 자격",
+            "locator": "PDF p.2 / text-line 3",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "299ba84a484bb1fae0c3",
+            "category": "eligibility",
+            "excerpt": "R&D(일반)• 창업 7년 이내 기업• 팁스 운영사로부터 1억원 이상 투자유치• 창업 7년 이내 기업 (신산업 분야기업은 10년 이내까지 인정)• 팁스 운영사로부터 2억원 이상 투자유치(비수도권 기업은 1억원 이상 투자유치)",
+            "locator": "PDF p.2 / text-line 4",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "ad40933b32c55ca76980",
+            "category": "eligibility",
+            "excerpt": "• 가점 합산 최대 5점까지 인정• 비수도권 본사 소재 기업 최대 3점 * 비수도권 기업은 최대 3점의 가점을 부여하며, 전체 선정물량의 50% 초과시에는 2점의 가점 부여• ESG 분야 영위 기업 최대 2점 * ESG 가점 신청 기업은 전체 선정 물량의 10% 달성시까지 가점 부여• 퇴직연금제도 도입 기업 1점",
+            "locator": "PDF p.2 / text-line 11",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "e637235d45b21d952fa6",
+            "category": "eligibility",
+            "excerpt": ".jointips.or.kr) 또는 개별 안내 등을 통해 통지 예정 (1) 팁스R&D 일반트랙□사업개요ㅇ 팁스운영사가창업기업을선별하여2억원이상(비수도권소재기업1억원이상)투자후추천하면,정부평가를거쳐R&D자금최대8억원매칭지원팁스 운영사란? ◇ 투자 재원을 보유하고 창업기업 선별, 투자, 보육 등 지원역량을 갖추고 있는 창업기획자, 초기전문 벤처캐피탈, 벤처·중소기업 및 대·중견기업 등으로, - 유망한 창업기업을 ",
+            "locator": "PDF p.3 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "8a6a0fc7a3082bb1ed3d",
+            "category": "amount",
+            "excerpt": "반트랙□사업개요ㅇ 팁스운영사가창업기업을선별하여2억원이상(비수도권소재기업1억원이상)투자후추천하면,정부평가를거쳐R&D자금최대8억원매칭지원팁스 운영사란? ◇ 투자 재원을 보유하고 창업기업 선별, 투자, 보육 등 지원역량을 갖추고 있는 창업기획자, 초기전문 벤처캐피탈, 벤처·중소기업 및 대·중견기업 등으로, - 유망한 창업기업을 발굴ㆍ선별하여 투자와 보육, 멘토링하는 기관‧기업 ◇ 팁스 운영사의 투자 및 추천을 통하",
+            "locator": "PDF p.3 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "aeba5a43e9f1d7f244f9",
+            "category": "cofunding",
+            "excerpt": " 일반트랙 창업기업 지원 내용 >사업기간팁스 운영사투자금(인정금액 기준) 총 연구개발비(A+B)정부지원연구개발비(A)기관부담연구개발비(B)현금현물최대 2년2억원 이상(비수도권 기업은1억원 이상*) 최대 8억원해당 금액해당 금액총 연구개발비의75% 이내총 연구개발비의 25% 이상(현금은 기관부담연구개발비의 10% 이상) ※ 운영사는 피투자기업(창업기업)의 지분확보 및 운영사 지분율 30% 이하를 조건으로 2억원",
+            "locator": "PDF p.4 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "1677b14803ed8cd72bb3",
+            "category": "amount",
+            "excerpt": "2026년 팁스 R&D 일반트랙 창업기업 지원 내용 >사업기간팁스 운영사투자금(인정금액 기준) 총 연구개발비(A+B)정부지원연구개발비(A)기관부담연구개발비(B)현금현물최대 2년2억원 이상(비수도권 기업은1억원 이상*) 최대 8억원해당 금액해당 금액총 연구개발비의75% 이내총 연구개발비의 25% 이상(현금은 기관부담연구개발비의 10% 이상) ※ 운영사는 피투자기업(창업기업)의 지분확보 및 운영사 지분율 30% ",
+            "locator": "PDF p.4 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "fbb7aba619ceee2dd082",
+            "category": "deadline",
+            "excerpt": " ◇ (기본요건) 팁스 운영사(컨소시엄)가 추천기업을 대상으로 2억원 이상 투자< 투자 유형별 투자금 인정 기준(추천마감일 기준 3년 이내) >",
+            "locator": "PDF p.4 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "b405022fe3df9b9c3775",
+            "category": "amount",
+            "excerpt": "단, 팁스 총괄 운영지침의 ‘창업기업 투자·보육 운영방안’ 준수 필요 ** 팁스 선정 이후 투자계약이 취소되는 경우 정부지원연구개발비 지급 불가(중단) 및 선정취소ㅇ (기타지원)운영사가보육·멘토링,글로벌진출등을종합지원-창업기업은지정보육공간에입주해야하며,보육·멘토링등운영사별기업성장프로그램을지원받을수있음",
+            "locator": "PDF p.4 / text-line 4",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "af8dee226cc18d9e4c55",
+            "category": "exclusion",
+            "excerpt": "안 사업 아이템과 연관된 직전 연도 매출액이 사업화 성공조건(10억원) 이상인 경우, 평가 대상에서 제외될 수 있음□지원제외사항①팁스R&D사업*에선정되어지원받은창업기업(재참여불가) * 일반트랙, 딥테크트랙, 글로벌트랙, 스케일업 팁스②｢",
+            "locator": "PDF p.5 / text-line 4",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "4787720679fd1b5e6a45",
+            "category": "deadline",
+            "excerpt": "에 따른 신산업 창업 분야 창업기업의 경우 창업 후 10년 이내 기업까지 신청 가능 ** '업력'은 해당 평가 월의 접수마감일 기준 산정 및 '법인'은 법인등기부등본 상의 '법인설립등기일', '개인사업자'는 부가가치세법 제8조 제7항에 따른 '사업자등록증'에 기재된 ‘개업일’을 기준으로 함 *** 창업 여부 및 업력 산정 기준은 [붙임2] 참조 ※ 창업기업 확인을 위해 ‘창업기업 확인서’ 요청 시 제출 필요팁",
+            "locator": "PDF p.5 / text-line 4",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "d7186fab5fdcfc830d95",
+            "category": "exclusion",
+            "excerpt": "시행령제4조에따른창업에서제외되는업종([붙임2]참조)③중소기업기술개발사업또는국가연구개발사업에‘참여제한’또는‘지원제외’중인경우",
+            "locator": "PDF p.5 / text-line 6",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "518286132bb607434e6d",
+            "category": "exclusion",
+            "excerpt": " 연관된 직전 연도 수출액이 50만불 이상인 경우 3) 접수마감일 기준 누적 투자유치금액이 50억원 이상인 경우 ※ 신청 제외 세부사항은 [붙임3] 및 ｢팁스 총괄 운영지침｣ 참조□선정절차ㅇ 창업기업선정은예산소진시조기마감될수있으며,일부절차의경우사업운영현황및시기에따라일부조정될수있음< 2026년 팁스R&D 일반트랙 신청 및 선정 절차 >① 창업기업 추천(1.2~1.5배수) ▶② 신청‧접수▶③ 사전검토(투자계약, ",
+            "locator": "PDF p.6 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "9a9762f889527c13ab42",
+            "category": "deadline",
+            "excerpt": " 연도 매출액이 10억원 이상인 경우 2) 제안 사업 아이템과 연관된 직전 연도 수출액이 50만불 이상인 경우 3) 접수마감일 기준 누적 투자유치금액이 50억원 이상인 경우 ※ 신청 제외 세부사항은 [붙임3] 및 ｢팁스 총괄 운영지침｣ 참조□선정절차ㅇ 창업기업선정은예산소진시조기마감될수있으며,일부절차의경우사업운영현황및시기에따라일부조정될수있음< 2026년 팁스R&D 일반트랙 신청 및 선정 절차 >① 창업기업 추천",
+            "locator": "PDF p.6 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "96fd891d3801af704f0a",
+            "category": "deadline",
+            "excerpt": "-추천된창업기업은연구개발계획서등관련서류를범부처통합연구지원시스템(IRIS)에등록(접수마감일기한내미등록시평가대상에서제외)< 과제 신청 전 필수 확인 사항>◇ 범부처통합연구지원시스템(www.iris.go.kr)을 통하여 온라인으로 연구개발과제 신청 - 이용매뉴얼 : ‘알림·소식’ → ‘자료실’ → ‘IRIS 사용 매뉴얼’ 참조③사전검토(전문/업무지원기관)-창업기업의기본신청자격(지분,의무사항,채무불이행,과제의차별성등",
+            "locator": "PDF p.7 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "167d4784f897895d3d36",
+            "category": "cofunding",
+            "excerpt": "예산규모등을고려하여최종선정여부와함께기간,지원금액을결정-창업기업-전문기관간협약체결후,정부지원연구개발비(최대8억원)지급및기관부담연구개발비납부⑥사업수행(운영사/창업기업)-지정보육공간(운영사BI,팁스타운,창조경제혁신센터)등에입주하여운영사의멘토·보육지원을받으며연구개발및사업화를수행-연차종료시전문기관또는업무지원기관은운영사-창업기업이제출한연차보고서검토 * 전문/업무지원기관이 필요하다고 인정되는 경우 상시 사업수행 결과물 및",
+            "locator": "PDF p.8 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "7f607559a2fb5ea24223",
+            "category": "cofunding",
+            "excerpt": "D 딥테크트랙 창업기업 지원 내용 >사업기간투자유치 요건(인정금액 기준) 총 연구개발비(A+B)정부지원연구개발비(A)기관부담연구개발비(B)현금현물최대 3년후속투자5억원 이상최대 15억원해당금액해당금액총 연구개발비의75% 이내총 연구개발비의 25% 이상(현금은 기관부담연구개발비의 10% 이상)ㅇ (자금지원)팁스(일반트랙)를수행하여’완료‘판정을받은창업기업을대상으로후속R&D를통해3년간최대15억원을매칭지원ㅇ (기타지",
+            "locator": "PDF p.10 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "a29a32514ea40d31696a",
+            "category": "deadline",
+            "excerpt": "업창업 지원법｣ 제25조에 따른 사업을 개시한 날로부터 10년이 지나지 않은 중소기업 * ’업력‘은 해당 평가 월의 접수마감일 기준 산정 및 ’법인‘은 법인등기부등본 상의 ‘법인설립등기일’을 기준으로 함 ** 창업 여부 및 업력 산정 기준은 [붙임2] 참고 ※ 창업기업 확인을 위해 ‘창업기업 확인서’ 요청 시 제출 필요 ③ 퇴직연금 제도를 도입한 창업기업 * 창업기업 소속 직원에 대한 퇴직연금 가입 여부를 확",
+            "locator": "PDF p.10 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "20ec83fdd7af4322b234",
+            "category": "exclusion",
+            "excerpt": "□지원제외사항①일반트랙을제외한팁스R&D*에선정되어지원받은창업기업(재참여불가) * 딥테크트랙, 글로벌트랙, 스케일업 팁스②｢",
+            "locator": "PDF p.11 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "96316752a8595d6c7995",
+            "category": "exclusion",
+            "excerpt": "시행령제4조에따른창업에서제외되는업종([붙임2]참조)③중소기업기술개발사업또는국가연구개발사업에‘참여제한’또는‘지원제외’중인경우④고용노동부가공개하는체불사업주명단에해당하는경우⑤기타중소벤처기업부장관이참여제한의사유가있다고인정하는자(기업)□선정절차ㅇ 창업기업선정은예산소진시조기마감될수있으며,일부절차의경우사업운영현황및시기에따라일부조정될수있음< 2026년 팁스R&D 딥테크트랙 신청 및 선정 절차 >① 창업기업 추천▶② 신청‧접",
+            "locator": "PDF p.11 / text-line 4",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "eb5752d3c3aa2be5ec8a",
+            "category": "cofunding",
+            "excerpt": "산규모등을고려하여최종선정여부와함께기간,지원금액을결정-창업기업-전문기관간협약체결후,정부지원연구개발비(최대15억원)지급및기관부담연구개발비납부⑦사업수행(운영사/창업기업)-지정보육공간(운영사BI,팁스타운,창조경제혁신센터)등에입주하여운영사의멘토·보육지원을받으며연구개발및사업화를수행-연차종료시전문기관은운영사-창업기업이제출한연차보고서검토 * 전문기관이 필요하다고 인정되는 경우 상시 사업수행 결과물 및 연구개발비 사용 실태를",
+            "locator": "PDF p.13 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "표 열 순서·이미지·주석의 의미는 검토하지 않았습니다.",
+          "OCR 미수행"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
+    },
+    "e77b6dd7795a73631e98dfc8": {
+      "id": "e77b6dd7795a73631e98dfc8",
+      "program_id": "BIZINFO-PBLN_000000000119817",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000119817",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000747960&fileSn=1",
+      "name": "다운로드",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
+    },
+    "0e519d91f207c902c5cc8a06": {
+      "id": "0e519d91f207c902c5cc8a06",
+      "program_id": "BIZINFO-PBLN_000000000119817",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000119817",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000747961&fileSn=1",
+      "name": "다운로드",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-10-30T00:25:54+09:00",
+      "last_success_at": "2026-10-30T00:25:54+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-10-30T00:25:54+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "71fdb1443d89469d8317d9f2158e8d25c253804e7c3ee1289ffee081c694cf6b",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "71fdb1443d89469d8317d9f2158e8d25c253804e7c3ee1289ffee081c694cf6b",
+      "sha256": "71fdb1443d89469d8317d9f2158e8d25c253804e7c3ee1289ffee081c694cf6b",
+      "extraction": {
+        "format": "hwp",
+        "parser": "olefile/0.47+hwp-body/0.4.0",
+        "sha256": "71fdb1443d89469d8317d9f2158e8d25c253804e7c3ee1289ffee081c694cf6b",
+        "bytes": 73216,
+        "status": "text_extracted",
+        "text_characters": 1718,
+        "units": 87,
+        "text_sha256": "e296901ae89df199dfc6aaf0c2dbae30e78d4546d6f9a4ba36a5b162c43ddc01",
+        "pages": null,
+        "sections": 1,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "871b126810c9ded0941b",
+            "category": "eligibility",
+            "excerpt": "창업기업명",
+            "locator": "BodyText/Section0 / record 107 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "391f5241708714363538",
+            "category": "eligibility",
+            "excerpt": "주소(소재지)",
+            "locator": "BodyText/Section0 / record 231 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "845a2f50e0d3493a1740",
+            "category": "documents",
+            "excerpt": "구비서류",
+            "locator": "BodyText/Section0 / record 468 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "구역·레코드 위치는 실제 인쇄 쪽번호가 아닙니다.",
+          "표·그림·각주 의미와 문서의 모든 제외조건은 미검토"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
     }
   },
   "programs": {
@@ -5551,6 +6030,44 @@
       "document_ids": [
         "e2e807effa6c6f8578536f6a",
         "b676a7e30fb45e7501a32cf1"
+      ],
+      "review_required": false,
+      "last_error": null
+    },
+    "BIZINFO-PBLN_000000000119373": {
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000119373",
+      "last_notice_attempt_at": "2026-10-30T00:25:54+09:00",
+      "last_notice_success_at": "2026-10-30T00:25:54+09:00",
+      "notice_status": "links_available",
+      "manifest_sha256": "b16810bb670aadd9eaa44cc4c16211bbec1fd343352832a102c75c3a2fd39d19",
+      "document_ids": [
+        "e1c124c8d9445e0b8524613c"
+      ],
+      "review_required": false,
+      "last_error": null
+    },
+    "BIZINFO-PBLN_000000000119754": {
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000119754",
+      "last_notice_attempt_at": "2026-10-30T00:25:54+09:00",
+      "last_notice_success_at": "2026-10-30T00:25:54+09:00",
+      "notice_status": "links_available",
+      "manifest_sha256": "548c42bb7ae897abc7606268471d12ec1c378e4dfb22c851519cbd7917dccc73",
+      "document_ids": [
+        "edd04fc6a0db0daefaaf4ffb",
+        "047a2bc9491e51749617ea53"
+      ],
+      "review_required": false,
+      "last_error": null
+    },
+    "BIZINFO-PBLN_000000000119817": {
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000119817",
+      "last_notice_attempt_at": "2026-10-30T00:25:54+09:00",
+      "last_notice_success_at": "2026-10-30T00:25:54+09:00",
+      "notice_status": "links_available",
+      "manifest_sha256": "4863a3a4095f6ed70537c9d84513b2fb312dc6b2669d420be5f42e755ada5d44",
+      "document_ids": [
+        "e77b6dd7795a73631e98dfc8",
+        "0e519d91f207c902c5cc8a06"
       ],
       "review_required": false,
       "last_error": null

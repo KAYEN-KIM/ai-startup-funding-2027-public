@@ -1,8 +1,8 @@
 {
   "schema": "public-funding-conditions/v1",
   "version": "0.3.0",
-  "generated_at": "2026-10-30T08:08:47.219+09:00",
-  "input_fingerprint": "66c8a702369c25f455d842f5d2c65f3d1d9b7f2ba06073235199b12adcd6d36b",
+  "generated_at": "2026-10-30T19:54:39+09:00",
+  "input_fingerprint": "d44cbfff7bf9ab4d06ad61b51fa0a174bcd66b8f9adf06d931e95195927350cc",
   "disclaimer": "요약에서 확인한 조건만 판정합니다. 자동 추출은 미검증 후보이며 기관의 최종 심사를 대체하지 않습니다.",
   "records": {
     "IBK-2027-1": {
@@ -4744,6 +4744,60 @@
         "amount": "지원금액 · 공고 원문 확인 필요",
         "opens": "2026-10-28",
         "deadline": "2026-12-11"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000127587": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000127587",
+      "basis_fingerprint": "8157ac9ad5e0380e440efbe0159fd212b845620a1f6284f8e326e1fb5df56647",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000127587",
+        "title": "[충남] 2026년 AI 팩토리 사업 연계 지역 제조기업 디지털 전환 확산 지원사업 모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127587",
+        "year": 2026,
+        "eligibility": "중소기업",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": "2026-10-21",
+        "deadline": "2026-11-04"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000127576": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000127576",
+      "basis_fingerprint": "6d549210fdb41f02b621ad8c2760c63c616dab9b2d0de6752e8283d5e57fe6ce",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000127576",
+        "title": "[전남광주] 산업 디지털전환 협업지원센터 현장 밀착형 AX 컨설팅 및 마스터플랜 수립 지원사업 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127576",
+        "year": 2026,
+        "eligibility": "중소기업",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": "2026-10-29",
+        "deadline": "2026-11-04"
       },
       "coverage": "unreviewed",
       "metadata_state": "current",

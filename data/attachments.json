@@ -1,19 +1,19 @@
 {
   "schema": "public-funding-attachments/v1",
   "version": "0.4.0",
-  "generated_at": "2026-10-30T13:59:46+09:00",
+  "generated_at": "2026-10-30T19:55:52+09:00",
   "run": {
-    "at": "2026-10-30T13:59:46+09:00",
+    "at": "2026-10-30T19:55:52+09:00",
     "notice_success": 3,
     "notice_failed": 0,
     "attempted": 4,
-    "text_extracted": 1,
-    "partial_or_no_text": 1,
-    "blocked_or_unsupported": 2,
+    "text_extracted": 3,
+    "partial_or_no_text": 0,
+    "blocked_or_unsupported": 1,
     "failed": 0,
     "changed": 0,
     "manifest_changed": 0,
-    "queued_total": 91,
+    "queued_total": 97,
     "scope": "회차당 원문 최대 3건·첨부 최대 4건. 본문 추출은 자격 검증이 아니며 전체 기관 수집을 뜻하지 않습니다."
   },
   "records": {
@@ -6294,12 +6294,136 @@
       "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120418",
       "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000750022&fileSn=0",
       "name": "다운로드",
-      "status": "queued",
-      "last_attempt_at": null,
-      "last_success_at": null,
+      "status": "text_extracted",
+      "last_attempt_at": "2026-10-30T19:55:52+09:00",
+      "last_success_at": "2026-10-30T19:55:52+09:00",
       "last_error": null,
       "review_required": false,
-      "history": []
+      "history": [
+        {
+          "at": "2026-10-30T19:55:52+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "4bc88604ea5077b9400c862176ac8a83efd16ead46f06a951d826c6998c86b20",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "4bc88604ea5077b9400c862176ac8a83efd16ead46f06a951d826c6998c86b20",
+      "sha256": "4bc88604ea5077b9400c862176ac8a83efd16ead46f06a951d826c6998c86b20",
+      "extraction": {
+        "format": "hwp",
+        "parser": "olefile/0.47+hwp-body/0.4.0",
+        "sha256": "4bc88604ea5077b9400c862176ac8a83efd16ead46f06a951d826c6998c86b20",
+        "bytes": 150016,
+        "status": "text_extracted",
+        "text_characters": 1033,
+        "units": 32,
+        "text_sha256": "c44d44d0775e58038725c47e68b6f37ccd9b6b0d2a3ffd978292ac027c2c8656",
+        "pages": null,
+        "sections": 1,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "b3ee3e656805153c98ea",
+            "category": "eligibility",
+            "excerpt": "2026년 창업기업 마케팅 역량강화 지원사업",
+            "locator": "BodyText/Section0 / record 23 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "8c3451ce85876d1e3885",
+            "category": "eligibility",
+            "excerpt": "김해시 관내 창업기업의 디자인 개선을 위한 전문가 멘토링 제공과 디자인어워드 출품을 지원하여 창업기업의 디자인 경쟁력 강화를 지원하고자 합니다. 디자인 혁신을 통해 성장하고자 하는 기업의 많은 참여를 바랍니다.",
+            "locator": "BodyText/Section0 / record 34 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "fb7bea0b9bd61f13b037",
+            "category": "eligibility",
+            "excerpt": "◦ 사업목적 : 관내 창업기업 디자인 멘토링과 디자인어워드 출품비용을 지원하여",
+            "locator": "BodyText/Section0 / record 53 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "9c496451af397dfccb98",
+            "category": "deadline",
+            "excerpt": "◦ 공고기간 : 2026. 3. 27.(금) ~ 예산 소진 시까지",
+            "locator": "BodyText/Section0 / record 61 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "e14db9a6efc9379965b7",
+            "category": "eligibility",
+            "excerpt": "◦ 지원대상 : 관내 창업 7년 이내 기업(단순 유통, 판매업 제외)",
+            "locator": "BodyText/Section0 / record 65 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "9ea3a761be473d6c67cf",
+            "category": "eligibility",
+            "excerpt": "1. 2025년도 창업기업 마케팅 역량강화 지원사업 [디자인 개발] 분야 수혜기업",
+            "locator": "BodyText/Section0 / record 101 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "cbe9af89cc1febb5a23b",
+            "category": "deadline",
+            "excerpt": "□ 신청기간 및 방법",
+            "locator": "BodyText/Section0 / record 113 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "a187c148175cb8873e12",
+            "category": "deadline",
+            "excerpt": "◦ 신청기간 : 2026. 3. 27.(금) ~ 예산소진시까지",
+            "locator": "BodyText/Section0 / record 117 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "ce17b8ed6ec04e5ca1e4",
+            "category": "documents",
+            "excerpt": "◦ 제출서류",
+            "locator": "BodyText/Section0 / record 134 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "3909bddd7a402d80a254",
+            "category": "documents",
+            "excerpt": "- [출품료] 출품 및 입금증빙서류(신용카드영수증, 입금내역, 세금계산서 등)",
+            "locator": "BodyText/Section0 / record 142 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "구역·레코드 위치는 실제 인쇄 쪽번호가 아닙니다.",
+          "표·그림·각주 의미와 문서의 모든 제외조건은 미검토"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
     },
     "55f10d0bfa5dcc290095bb66": {
       "id": "55f10d0bfa5dcc290095bb66",
@@ -7587,6 +7711,272 @@
       "http_status": null,
       "failure_kind": null,
       "retryable": false
+    },
+    "1fdaeed338fe921f3ea73820": {
+      "id": "1fdaeed338fe921f3ea73820",
+      "program_id": "BIZINFO-PBLN_000000000122332",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000122332",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000756746&fileSn=0",
+      "name": "다운로드",
+      "status": "unsupported_format",
+      "last_attempt_at": "2026-10-30T19:55:52+09:00",
+      "last_success_at": null,
+      "last_error": "unsupported_format",
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-10-30T19:55:52+09:00",
+          "status": "unsupported_format",
+          "observed_sha256": "a6987073477cc261cd7d3bc3d8f9a2bce284c2ce9befdd2e2734536cce873701",
+          "http_status": null,
+          "failure_kind": "document_or_policy"
+        }
+      ],
+      "observed_sha256": "a6987073477cc261cd7d3bc3d8f9a2bce284c2ce9befdd2e2734536cce873701",
+      "http_status": null,
+      "failure_kind": "document_or_policy",
+      "retryable": false
+    },
+    "dce4a33a590f87f1a93a1ef9": {
+      "id": "dce4a33a590f87f1a93a1ef9",
+      "program_id": "BIZINFO-PBLN_000000000122332",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000122332",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000756747&fileSn=0",
+      "name": "다운로드",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
+    },
+    "c0f51e56c9c2d08218a2fae2": {
+      "id": "c0f51e56c9c2d08218a2fae2",
+      "program_id": "BIZINFO-PBLN_000000000122551",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000122551",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000757466&fileSn=0",
+      "name": "다운로드",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
+    },
+    "684603de8bedcfc6f08741a6": {
+      "id": "684603de8bedcfc6f08741a6",
+      "program_id": "BIZINFO-PBLN_000000000122551",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000122551",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000757467&fileSn=0",
+      "name": "다운로드",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-10-30T19:55:52+09:00",
+      "last_success_at": "2026-10-30T19:55:52+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-10-30T19:55:52+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "18a6c19dc61de225d3aa6dea76ca10d53acf2770bbd771344db56c84129bad0c",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "18a6c19dc61de225d3aa6dea76ca10d53acf2770bbd771344db56c84129bad0c",
+      "sha256": "18a6c19dc61de225d3aa6dea76ca10d53acf2770bbd771344db56c84129bad0c",
+      "extraction": {
+        "format": "hwp",
+        "parser": "olefile/0.47+hwp-body/0.4.0",
+        "sha256": "18a6c19dc61de225d3aa6dea76ca10d53acf2770bbd771344db56c84129bad0c",
+        "bytes": 124416,
+        "status": "text_extracted",
+        "text_characters": 3462,
+        "units": 171,
+        "text_sha256": "3587d2b7fa34b65cc6c42429b08a74e6e0ac70173e7917ba8069bdd8f08cd4a0",
+        "pages": null,
+        "sections": 1,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "963d6b79fb8d7be1485d",
+            "category": "amount",
+            "excerpt": "[서식5] 참가기업 만족도 조사 --- 지원금 수령 후 1개월 이내 제출",
+            "locator": "BodyText/Section0 / record 72 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "8c42a7c389a05635b6f1",
+            "category": "amount",
+            "excerpt": "지원금 신청금액",
+            "locator": "BodyText/Section0 / record 276 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "1e0b2d07193659114d13",
+            "category": "amount",
+            "excerpt": "지원금 수령 계좌",
+            "locator": "BodyText/Section0 / record 337 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "1bd53cb4d464201e8bf4",
+            "category": "documents",
+            "excerpt": "제출서류",
+            "locator": "BodyText/Section0 / record 381 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "6c19fbf786c0495af655",
+            "category": "overlap",
+            "excerpt": "당사는 상기 사업에 참가함에 있어 정부, 타 지자체, 수출유관기관 등으로부터 동 사업과 관련하여 중복 지원 신청을 하지 않았음을 서약한다.",
+            "locator": "BodyText/Section0 / record 459 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "90b9796c5e2bca2e93d1",
+            "category": "eligibility",
+            "excerpt": "유 없이 불참 등으로 사업에 지장을 초래할 경우 향후 울산광역시, KOTRA울산지원본부가 시행하는 각종 통상지원시책 지원 대상 선정에서 어떠한 불이익과 처분도 감수한다.",
+            "locator": "BodyText/Section0 / record 474 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "cf75ac120d9012787f96",
+            "category": "overlap",
+            "excerpt": " 효율적인 사업 진행을 위하여 사전에 국가보조금으로 사업비가 집행되는 사업으로 지원신청서 허위 기재, 사업 선정 후 중복지원 수혜, 정당한 사유 없이 불참 등으로 사업에 지장을 초래할 경우 향후 울산광역시, KOTRA울산지원본부가 시행하는 각종 통상지원시책 지원 대상 선정에서 어떠한 불이익과 처분도 감수한다.",
+            "locator": "BodyText/Section0 / record 474 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "62f3a2fac055038f51fc",
+            "category": "eligibility",
+            "excerpt": "󰊱 중소기업기본법 제20조의2에 따른 기업 소재지, 업종, 매출액, 납입자본금, 자산총액, 부채총액, 영업이익, 당기순이익, 개업일·휴업일·폐업일, 전자계산서 발급액, 전자지급 거래액, 일반연구ˑ인력개발비, 현금영수증 결제금액, 신용카드 결제금액, 신고한 수출 물품의 품명, 품목 번호, 총 신고가격, 목적지, 신고일",
+            "locator": "BodyText/Section0 / record 753 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "19527342fca5ba7ebc40",
+            "category": "amount",
+            "excerpt": "--- 지원금 수령 후 1개월 이내 제출",
+            "locator": "BodyText/Section0 / record 882 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "구역·레코드 위치는 실제 인쇄 쪽번호가 아닙니다.",
+          "표·그림·각주 의미와 문서의 모든 제외조건은 미검토"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
+    },
+    "698085e351744a088f8cffe2": {
+      "id": "698085e351744a088f8cffe2",
+      "program_id": "BIZINFO-PBLN_000000000122609",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000122609",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000757663&fileSn=1",
+      "name": "다운로드",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-10-30T19:55:52+09:00",
+      "last_success_at": "2026-10-30T19:55:52+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-10-30T19:55:52+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "420ca47dc29f985a9aa98a6708cad29e199b5c103845429cc26fc69c3ec5fea4",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "420ca47dc29f985a9aa98a6708cad29e199b5c103845429cc26fc69c3ec5fea4",
+      "sha256": "420ca47dc29f985a9aa98a6708cad29e199b5c103845429cc26fc69c3ec5fea4",
+      "extraction": {
+        "format": "pdf",
+        "parser": "pypdf/6.15.0",
+        "sha256": "420ca47dc29f985a9aa98a6708cad29e199b5c103845429cc26fc69c3ec5fea4",
+        "bytes": 690986,
+        "status": "text_extracted",
+        "text_characters": 3735,
+        "units": 52,
+        "text_sha256": "01e633ec79fdefe704de47f30fd6fb648be50bc50b47e91dbc6940c628830951",
+        "pages": 7,
+        "sections": null,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "ad5e27da6dfeafd0e2c5",
+            "category": "eligibility",
+            "excerpt": " 강화 ❍ 실증확인서 발급 및 성과확산 지원을 통한 AI·데이터센터 산업 생태계 활성화 촉진Ⅱ 추진 개요구분 지원개요지원대상전국 IT·SW 및 데이터센터 관련 기업지원내용테스트베드 장비 및 테스트공간 지원(컴퓨팅, 운영, 전력공급, 공조 스페이스 등)모집기간상시모집실증기간검토 완료된 기업 대상, 일정 협의 후 진행",
+            "locator": "PDF p.1 / text-line 1",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "176ddb449deb741f0587",
+            "category": "documents",
+            "excerpt": "서 대비 타당성 확인▼실증 확인서 발급실증 확인서 발급(오프라인)※ 서면 검토를 통해 미지원 될 수 있음Ⅴ 접수 및 제출서류 ❍ 접수기간 : 상시모집 ❍ 접수방법 : 우편 및 이메일 접수 - (오프라인) 경북 포항시 남구 지곡로 394 포항테크노파크 5벤처동 5층 경북AI혁신본부 데이터산업팀 - (온라인) [연락처 생략] ❍ 문 의 처 : [연락처 생략] / [연락처 생략].",
+            "locator": "PDF p.7 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": true,
+            "context_warning": true
+          },
+          {
+            "id": "bb26608ac7f29e8d9e47",
+            "category": "deadline",
+            "excerpt": "성 확인▼실증 확인서 발급실증 확인서 발급(오프라인)※ 서면 검토를 통해 미지원 될 수 있음Ⅴ 접수 및 제출서류 ❍ 접수기간 : 상시모집 ❍ 접수방법 : 우편 및 이메일 접수 - (오프라인) 경북 포항시 남구 지곡로 394 포항테크노파크 5벤처동 5층 경북AI혁신본부 데이터산업팀 - (온라인) [연락처 생략] ❍ 문 의 처 : [연락처 생략] / [연락처 생략] ❍ 제출",
+            "locator": "PDF p.7 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": true,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "표 열 순서·이미지·주석의 의미는 검토하지 않았습니다.",
+          "OCR 미수행"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
+    },
+    "a469ee5378bf48286f727e84": {
+      "id": "a469ee5378bf48286f727e84",
+      "program_id": "BIZINFO-PBLN_000000000122609",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000122609",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000757664&fileSn=0",
+      "name": "다운로드",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
     }
   },
   "programs": {
@@ -8139,6 +8529,45 @@
       "manifest_sha256": "609f22b114ca7184f7e45b4439b3b44ecaa7e37837aa7503d376ee8acf1f0b16",
       "document_ids": [
         "24fe3c6b1fa31040a5764b37"
+      ],
+      "review_required": false,
+      "last_error": null
+    },
+    "BIZINFO-PBLN_000000000122332": {
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000122332",
+      "last_notice_attempt_at": "2026-10-30T19:55:52+09:00",
+      "last_notice_success_at": "2026-10-30T19:55:52+09:00",
+      "notice_status": "links_available",
+      "manifest_sha256": "2e1e064362769765295ad8f5805ba5b1c70b784fdabfc769003e4e08ec6151d5",
+      "document_ids": [
+        "1fdaeed338fe921f3ea73820",
+        "dce4a33a590f87f1a93a1ef9"
+      ],
+      "review_required": false,
+      "last_error": null
+    },
+    "BIZINFO-PBLN_000000000122551": {
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000122551",
+      "last_notice_attempt_at": "2026-10-30T19:55:52+09:00",
+      "last_notice_success_at": "2026-10-30T19:55:52+09:00",
+      "notice_status": "links_available",
+      "manifest_sha256": "c58bcf6a734e30eb0dfb1c515589b72e6abf7272b0f68181c356a3763f16c1d2",
+      "document_ids": [
+        "c0f51e56c9c2d08218a2fae2",
+        "684603de8bedcfc6f08741a6"
+      ],
+      "review_required": false,
+      "last_error": null
+    },
+    "BIZINFO-PBLN_000000000122609": {
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000122609",
+      "last_notice_attempt_at": "2026-10-30T19:55:52+09:00",
+      "last_notice_success_at": "2026-10-30T19:55:52+09:00",
+      "notice_status": "links_available",
+      "manifest_sha256": "e6ae4b08db4625b22e6236e75f4e0970c885b2dbc06f45d4984a4a2b6cc9baa0",
+      "document_ids": [
+        "698085e351744a088f8cffe2",
+        "a469ee5378bf48286f727e84"
       ],
       "review_required": false,
       "last_error": null

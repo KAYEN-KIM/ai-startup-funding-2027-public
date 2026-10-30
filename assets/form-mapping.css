@@ -1,0 +1,16 @@
+/* P0.20 form outline adapter; no remote fonts or assets */
+.form-map-metadata {display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:15px 0}
+.form-map-metadata .full {grid-column:1/-1}
+.form-map-metadata label,.mapping-row label {display:flex;flex-direction:column;gap:7px;font-size:12px;color:#b9cada}
+.form-map-metadata input,.mapping-row select,#outlineInput {background:#101c2f;border:1px solid #405371;border-radius:8px;color:#f0f6ff;padding:10px;font:inherit;max-width:100%}
+.form-map-metadata input:focus,#outlineInput:focus,.mapping-row select:focus {outline:2px solid #9bedd8;outline-offset:2px}
+#outlineInput {width:100%;min-height:145px;resize:vertical;line-height:1.75;font-size:13px}
+.form-map-actions {display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:13px}
+.form-map-rows {display:grid;gap:12px;margin-top:20px}
+.mapping-row {display:grid;grid-template-columns:minmax(0,2.4fr) minmax(0,1.2fr) minmax(0,1fr);gap:13px;border:1px solid #30415d;background:#142237;border-radius:12px;padding:15px}
+.mapping-row b {font-size:13px;display:block;overflow-wrap:anywhere}
+.mapping-row small {display:block;color:#9eb4c8;margin-top:7px;line-height:1.6}
+.mapping-row select {font-size:12px;width:100%}
+.form-map-preview {white-space:pre-wrap;overflow-wrap:anywhere;max-height:500px;overflow-y:auto;background:#101a2e;border:1px solid #30415d;color:#d9e9f6;border-radius:11px;padding:16px;font-family:"Malgun Gothic","Apple SD Gothic Neo",ui-monospace,monospace;font-size:12px;line-height:1.8}
+@media(max-width:840px){.mapping-row{grid-template-columns:1fr 1fr}.mapping-row>div:first-child{grid-column:1/-1}}
+@media(max-width:540px){.form-map-metadata,.mapping-row{grid-template-columns:1fr}.form-map-metadata .full,.mapping-row>div:first-child{grid-column:auto}}

@@ -1,12 +1,19 @@
 {
   "schema": "public-funding-monitor/v1",
   "status": "ok_changed",
-  "last_attempt_at": "2026-10-30T08:05:26.876+09:00",
-  "last_success_at": "2026-10-30T08:05:26.876+09:00",
-  "changed_count": 3,
-  "checked_count": 6,
-  "message": "공식 상세·접수처 6건 대조(기업마당·스타트업플러스·KOCCA). 2027 Dream Play 수혜기업 1건 신규, Multi AI Agent R&D·대구 AI로봇 PoC 2건 공식 공고 검증 후 수혜기업으로 전환. 첨부 PDF/HWP 조건 미검증; 기업마당 API 전수조회 결과와 별도.",
+  "last_attempt_at": "2026-10-30T09:23:38+09:00",
+  "last_success_at": "2026-10-30T09:23:38+09:00",
+  "changed_count": 2,
+  "checked_count": 1461,
+  "message": "기업마당 1461건 / 8페이지 · 추가 0 · 수정 0 · 변경 검토 2 · 수집범위 API 제공범위 완료 · 원문 HTML 6성공/0실패 (첨부·적격성 미검증)",
   "events": [
+    {
+      "at": "2026-10-30T09:23:38+09:00",
+      "status": "ok_changed",
+      "changed": 2,
+      "message": "기업마당 1461건 / 8페이지 · 추가 0 · 수정 0 · 변경 검토 2 · 수집범위 API 제공범위 완료 · 원문 HTML 6성공/0실패 (첨부·적격성 미검증)",
+      "source": "bizinfo_api_and_html"
+    },
     {
       "at": "2026-10-30T08:05:26.876+09:00",
       "status": "ok_changed",
@@ -157,16 +164,16 @@
     },
     "html_evidence": {
       "status": "ok",
-      "last_attempt_at": "2026-10-30T01:15:05+09:00",
+      "last_attempt_at": "2026-10-30T09:23:38+09:00",
       "attempted": 6,
       "success": 6,
       "failed": 0,
       "content_changed": 0,
-      "eligible_records": 141,
+      "eligible_records": 142,
       "scope": "최대 6개 원문 HTML 순환 열람; 첨부 본문·자격 자동 검증 아님"
     },
     "bizinfo_api": {
-      "last_attempt_at": "2026-10-30T01:15:05+09:00",
+      "last_attempt_at": "2026-10-30T09:23:38+09:00",
       "pages": 8,
       "checked_count": 1461,
       "reported_total": 1461,
@@ -176,11 +183,11 @@
       "scope": "기업마당 API 제공 범위; 정부 전체 공고를 뜻하지 않음",
       "added": 0,
       "modified": 0,
-      "suggested": 0,
-      "status": "ok_no_change",
-      "changed_count": 0,
-      "last_partial_success_at": "2026-10-30T01:15:05+09:00",
-      "last_success_at": "2026-10-30T01:15:05+09:00"
+      "suggested": 2,
+      "status": "ok_changed",
+      "changed_count": 2,
+      "last_partial_success_at": "2026-10-30T09:23:38+09:00",
+      "last_success_at": "2026-10-30T09:23:38+09:00"
     },
     "manual_official_20261030": {
       "status": "ok_changed",

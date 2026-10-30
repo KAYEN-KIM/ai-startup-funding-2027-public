@@ -1,19 +1,19 @@
 {
   "schema": "public-funding-attachments/v1",
   "version": "0.4.0",
-  "generated_at": "2026-10-30T01:16:08+09:00",
+  "generated_at": "2026-10-30T09:24:55+09:00",
   "run": {
-    "at": "2026-10-30T01:16:08+09:00",
+    "at": "2026-10-30T09:24:55+09:00",
     "notice_success": 3,
     "notice_failed": 0,
     "attempted": 4,
-    "text_extracted": 4,
+    "text_extracted": 1,
     "partial_or_no_text": 0,
     "blocked_or_unsupported": 0,
-    "failed": 0,
+    "failed": 3,
     "changed": 0,
     "manifest_changed": 0,
-    "queued_total": 69,
+    "queued_total": 78,
     "scope": "회차당 원문 최대 3건·첨부 최대 4건. 본문 추출은 자격 검증이 아니며 전체 기관 수집을 뜻하지 않습니다."
   },
   "records": {
@@ -6287,6 +6287,307 @@
       "last_error": null,
       "review_required": false,
       "history": []
+    },
+    "7d97a95a50f95da3d6ded963": {
+      "id": "7d97a95a50f95da3d6ded963",
+      "program_id": "BIZINFO-PBLN_000000000120418",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120418",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000750022&fileSn=0",
+      "name": "다운로드",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
+    },
+    "55f10d0bfa5dcc290095bb66": {
+      "id": "55f10d0bfa5dcc290095bb66",
+      "program_id": "BIZINFO-PBLN_000000000120418",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120418",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000750023&fileSn=0",
+      "name": "다운로드",
+      "status": "download_failed",
+      "last_attempt_at": "2026-10-30T09:24:55+09:00",
+      "last_success_at": null,
+      "last_error": "download_failed",
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-10-30T09:24:55+09:00",
+          "status": "download_failed",
+          "observed_sha256": null,
+          "http_status": null,
+          "failure_kind": "network_error"
+        }
+      ],
+      "http_status": null,
+      "failure_kind": "network_error",
+      "retryable": true
+    },
+    "aa8e055fef6551190308c8d3": {
+      "id": "aa8e055fef6551190308c8d3",
+      "program_id": "BIZINFO-PBLN_000000000120509",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120509",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000750283&fileSn=0",
+      "name": "다운로드",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
+    },
+    "d1ad00958982cd97817efe06": {
+      "id": "d1ad00958982cd97817efe06",
+      "program_id": "BIZINFO-PBLN_000000000120509",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120509",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000750284&fileSn=0",
+      "name": "다운로드",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
+    },
+    "cb4582d22669ab380f3c9256": {
+      "id": "cb4582d22669ab380f3c9256",
+      "program_id": "BIZINFO-PBLN_000000000120509",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120509",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000750284&fileSn=1",
+      "name": "다운로드",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
+    },
+    "2e47997639666650966b8328": {
+      "id": "2e47997639666650966b8328",
+      "program_id": "BIZINFO-PBLN_000000000120509",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120509",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000750284&fileSn=2",
+      "name": "다운로드",
+      "status": "download_failed",
+      "last_attempt_at": "2026-10-30T09:24:55+09:00",
+      "last_success_at": null,
+      "last_error": "download_failed",
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-10-30T09:24:55+09:00",
+          "status": "download_failed",
+          "observed_sha256": null,
+          "http_status": null,
+          "failure_kind": "network_error"
+        }
+      ],
+      "http_status": null,
+      "failure_kind": "network_error",
+      "retryable": true
+    },
+    "16fcdd203e9db6842148c069": {
+      "id": "16fcdd203e9db6842148c069",
+      "program_id": "BIZINFO-PBLN_000000000120871",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120871",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000751508&fileSn=0",
+      "name": "다운로드",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-10-30T09:24:55+09:00",
+      "last_success_at": "2026-10-30T09:24:55+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-10-30T09:24:55+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "a18fd253b9a1a9242d3e93f912c66e8c9a34558f156d1fb65b49aea37a0d41f0",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "a18fd253b9a1a9242d3e93f912c66e8c9a34558f156d1fb65b49aea37a0d41f0",
+      "sha256": "a18fd253b9a1a9242d3e93f912c66e8c9a34558f156d1fb65b49aea37a0d41f0",
+      "extraction": {
+        "format": "hwp",
+        "parser": "olefile/0.47+hwp-body/0.4.0",
+        "sha256": "a18fd253b9a1a9242d3e93f912c66e8c9a34558f156d1fb65b49aea37a0d41f0",
+        "bytes": 114688,
+        "status": "text_extracted",
+        "text_characters": 4279,
+        "units": 230,
+        "text_sha256": "8433cc3fcebb43544696bb8e3c39de02f485c1afcb7abd7bb15838c1d731ea41",
+        "pages": null,
+        "sections": 1,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "c7a3903c596e6d9abab9",
+            "category": "eligibility",
+            "excerpt": "ㅇ 지원대상: 초거대 AI 기술 도입 및 활용을 희망하는 기업 및 관련 기관",
+            "locator": "BodyText/Section0 / record 292 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "8eee5363399dae1f9da6",
+            "category": "eligibility",
+            "excerpt": "ㅇ 신청자격: 경상북도 소재 기업 및 기관(본사, 연구소, 공장, 지사)",
+            "locator": "BodyText/Section0 / record 311 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "47c96b5ea7434254718f",
+            "category": "eligibility",
+            "excerpt": "※ 단, 대구광역시 소재 기업의 경우 본 사업 종료 후 '사용의향서'를 제출하는 조건으로 신청 가능",
+            "locator": "BodyText/Section0 / record 315 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "bcb9a309a95443c09587",
+            "category": "amount",
+            "excerpt": "ㅇ 지원규모: 50개 기업(기관) 내외",
+            "locator": "BodyText/Section0 / record 322 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "c60f70d796e5838e2628",
+            "category": "amount",
+            "excerpt": "ㅇ 모집기간: 공고일로부터 예산 및 지원규모 소진 시까지 상시 모집",
+            "locator": "BodyText/Section0 / record 333 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "ed863a8359fd0455945f",
+            "category": "eligibility",
+            "excerpt": "ㅇ 제출서류, 신청자격 등에 대한 서면평가 실시",
+            "locator": "BodyText/Section0 / record 906 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "9fc27a70ad309a8610c8",
+            "category": "documents",
+            "excerpt": "ㅇ 제출서류, 신청자격 등에 대한 서면평가 실시",
+            "locator": "BodyText/Section0 / record 906 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "fbbc07cf5ea9494ae371",
+            "category": "deadline",
+            "excerpt": "접수기간 : 상시 모집",
+            "locator": "BodyText/Section0 / record 1074 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "04326838ba9c31ee604e",
+            "category": "documents",
+            "excerpt": "ㅇ 신청서(양식)교부: 신청서 양식, 제출서류 등은 경북IT융합산업기술원 홈페이지(www.gitc.or.kr)에서 다운로드",
+            "locator": "BodyText/Section0 / record 1091 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "e79c6846c8e62ee703b6",
+            "category": "documents",
+            "excerpt": "※ 제출서류는 직인 날인 후 스캔하여 PDF 형식으로 제출",
+            "locator": "BodyText/Section0 / record 1099 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "e1598f3ad2091faa10ea",
+            "category": "documents",
+            "excerpt": "제출서류",
+            "locator": "BodyText/Section0 / record 1110 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "f13360652b103e4684bf",
+            "category": "exclusion",
+            "excerpt": "지원제외 검토 및 선정 취소",
+            "locator": "BodyText/Section0 / record 1205 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "a1a83818b6f2d5260cf7",
+            "category": "documents",
+            "excerpt": "ㅇ 제출서류가 허위, 중복인 경우 지원취소 할 수 있음",
+            "locator": "BodyText/Section0 / record 1248 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "구역·레코드 위치는 실제 인쇄 쪽번호가 아닙니다.",
+          "표·그림·각주 의미와 문서의 모든 제외조건은 미검토"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
+    },
+    "f970eccf89dbcfcbbf1599cf": {
+      "id": "f970eccf89dbcfcbbf1599cf",
+      "program_id": "BIZINFO-PBLN_000000000120871",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120871",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000751509&fileSn=0",
+      "name": "다운로드",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
+    },
+    "15067451ae5eb827e83a14b4": {
+      "id": "15067451ae5eb827e83a14b4",
+      "program_id": "BIZINFO-PBLN_000000000120871",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120871",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000751509&fileSn=1",
+      "name": "다운로드",
+      "status": "download_failed",
+      "last_attempt_at": "2026-10-30T09:24:55+09:00",
+      "last_success_at": null,
+      "last_error": "download_failed",
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-10-30T09:24:55+09:00",
+          "status": "download_failed",
+          "observed_sha256": null,
+          "http_status": null,
+          "failure_kind": "network_error"
+        }
+      ],
+      "http_status": null,
+      "failure_kind": "network_error",
+      "retryable": true
     }
   },
   "programs": {
@@ -6718,6 +7019,48 @@
         "61522f66f453956569c2cbc6",
         "5a48430971071b3f947dadd1",
         "d1da01269852e239e0517f66"
+      ],
+      "review_required": false,
+      "last_error": null
+    },
+    "BIZINFO-PBLN_000000000120418": {
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120418",
+      "last_notice_attempt_at": "2026-10-30T09:24:55+09:00",
+      "last_notice_success_at": "2026-10-30T09:24:55+09:00",
+      "notice_status": "links_available",
+      "manifest_sha256": "e4afc4cf604c5290ee6917d654e3418cd76b01b2bf32caab265dd4923eb8b549",
+      "document_ids": [
+        "7d97a95a50f95da3d6ded963",
+        "55f10d0bfa5dcc290095bb66"
+      ],
+      "review_required": false,
+      "last_error": null
+    },
+    "BIZINFO-PBLN_000000000120509": {
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120509",
+      "last_notice_attempt_at": "2026-10-30T09:24:55+09:00",
+      "last_notice_success_at": "2026-10-30T09:24:55+09:00",
+      "notice_status": "links_available",
+      "manifest_sha256": "e2cd7c51baec66feab5a6aeb14ef7a70fe25d60dfd19820157035cf324a6f8f4",
+      "document_ids": [
+        "aa8e055fef6551190308c8d3",
+        "d1ad00958982cd97817efe06",
+        "cb4582d22669ab380f3c9256",
+        "2e47997639666650966b8328"
+      ],
+      "review_required": false,
+      "last_error": null
+    },
+    "BIZINFO-PBLN_000000000120871": {
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120871",
+      "last_notice_attempt_at": "2026-10-30T09:24:55+09:00",
+      "last_notice_success_at": "2026-10-30T09:24:55+09:00",
+      "notice_status": "links_available",
+      "manifest_sha256": "829f1bd0c68e70fc48ea6550c5f82b0f2db12826bd34b10e41ff5e11b902375d",
+      "document_ids": [
+        "16fcdd203e9db6842148c069",
+        "f970eccf89dbcfcbbf1599cf",
+        "15067451ae5eb827e83a14b4"
       ],
       "review_required": false,
       "last_error": null

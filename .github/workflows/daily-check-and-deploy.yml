@@ -99,6 +99,10 @@ jobs:
         run: |
           node --test scripts/test_application_agency.cjs scripts/test_application_agency_ui.cjs
           node --check assets/application-agency.js
+      - name: Local-only preflight and legacy restore regressions
+        run: |
+          node --test scripts/test_preflight.cjs
+          node --check assets/preflight.js
       - name: Script syntax and public schema
         run: |
           node --check assets/app.js

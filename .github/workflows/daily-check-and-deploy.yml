@@ -103,6 +103,10 @@ jobs:
         run: |
           node --test scripts/test_preflight.cjs
           node --check assets/preflight.js
+      - name: Form outline correspondence and privacy regressions
+        run: |
+          node --test scripts/test_form_mapping.cjs
+          node --check assets/form-mapping.js
       - name: Script syntax and public schema
         run: |
           node --check assets/app.js

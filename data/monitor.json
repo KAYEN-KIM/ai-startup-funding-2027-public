@@ -1,12 +1,19 @@
 {
   "schema": "public-funding-monitor/v1",
   "status": "ok_no_change",
-  "last_attempt_at": "2026-10-30T11:23:02+09:00",
-  "last_success_at": "2026-10-30T11:23:02+09:00",
+  "last_attempt_at": "2026-10-30T13:58:46+09:00",
+  "last_success_at": "2026-10-30T13:58:46+09:00",
   "changed_count": 0,
   "checked_count": 1460,
   "message": "기업마당 1460건 / 8페이지 · 추가 0 · 수정 0 · 변경 검토 0 · 수집범위 API 제공범위 완료 · 원문 HTML 6성공/0실패 (첨부·적격성 미검증)",
   "events": [
+    {
+      "at": "2026-10-30T13:58:46+09:00",
+      "status": "ok_no_change",
+      "changed": 0,
+      "message": "기업마당 1460건 / 8페이지 · 추가 0 · 수정 0 · 변경 검토 0 · 수집범위 API 제공범위 완료 · 원문 HTML 6성공/0실패 (첨부·적격성 미검증)",
+      "source": "bizinfo_api_and_html"
+    },
     {
       "at": "2026-10-30T11:23:02+09:00",
       "status": "ok_no_change",
@@ -171,7 +178,7 @@
     },
     "html_evidence": {
       "status": "ok",
-      "last_attempt_at": "2026-10-30T11:23:02+09:00",
+      "last_attempt_at": "2026-10-30T13:58:46+09:00",
       "attempted": 6,
       "success": 6,
       "failed": 0,
@@ -180,7 +187,7 @@
       "scope": "최대 6개 원문 HTML 순환 열람; 첨부 본문·자격 자동 검증 아님"
     },
     "bizinfo_api": {
-      "last_attempt_at": "2026-10-30T11:23:02+09:00",
+      "last_attempt_at": "2026-10-30T13:58:46+09:00",
       "pages": 8,
       "checked_count": 1460,
       "reported_total": 1460,
@@ -193,8 +200,8 @@
       "suggested": 0,
       "status": "ok_no_change",
       "changed_count": 0,
-      "last_partial_success_at": "2026-10-30T11:23:02+09:00",
-      "last_success_at": "2026-10-30T11:23:02+09:00"
+      "last_partial_success_at": "2026-10-30T13:58:46+09:00",
+      "last_success_at": "2026-10-30T13:58:46+09:00"
     },
     "manual_official_20261030": {
       "status": "ok_changed",

@@ -1,7 +1,7 @@
 {
   "schema": "public-funding-bot-briefing/v1",
   "engine_version": "0.15.0",
-  "generated_at": "2026-10-30T13:58:00+09:00",
+  "generated_at": "2026-10-30T14:00:26+09:00",
   "generation": "deterministic_no_model",
   "report_model_calls": 0,
   "ai_transport": "manual_cli_only",
@@ -9,11 +9,11 @@
   "automatic_submission": false,
   "input_fingerprints": {
     "data/programs.json": "fe3d6eb1d3c6d8f51c448185be028a5654467866cd1b1cda7eb62b43203a8c5e",
-    "data/monitor.json": "c1794c4279545cce20edeca6120f67601db824ecba99bb9a12a454f70cca79bb",
-    "data/evidence.json": "2ff67950aa128bc907ad654b649f9678a205a3d3b65717e8a5253168dbd44fb2",
-    "data/change_reviews.json": "6c5d0eb8bd0b090e5097dff5c01bea1aa71b0da1dff376ab06c500bff473304f",
-    "data/attachments.json": "556fe05afea13174ef31b431eee71d7013c2d8ccd0e5b65fc672c410d7f851b5",
-    "data/startup_sources.json": "9fc8a0f95d0eaf16ebb2fb9cb1230e12a6e1ea6e3012cdc43edc02d400b5d932",
+    "data/monitor.json": "2bc461ed1ffe94663ce76c518b7c1aaaadae4d130b9b8a2e672286fe042cd5a0",
+    "data/evidence.json": "bb52b4133384105275453fd0f90fabdb77177eff68224910cf7ef0624627425c",
+    "data/change_reviews.json": "4129b99271ab33d8c0d432380a9f1ce543b7d20c1754013f829845695b7b4bc7",
+    "data/attachments.json": "fa8aeabcc5e0c87bd7e2a6a2038e62adb978a6f1657fb1776cd3591965ef56cf",
+    "data/startup_sources.json": "11d52b721a7d51604d8bce7b234f322649fa7f4cc45737d7edd626668b7e5559",
     "config/automation_policy.json": "167611159390f47d645f4f831e909f79bf41cfb5173e618f607e351dfe309140"
   },
   "run_status": "partial_or_stale",
@@ -24,10 +24,10 @@
       "id": "api",
       "name": "기업마당 API",
       "status": "ok_scoped",
-      "last_attempt_at": "2026-10-30T11:23:02+09:00",
-      "last_success_at": "2026-10-30T11:23:02+09:00",
+      "last_attempt_at": "2026-10-30T13:58:46+09:00",
+      "last_success_at": "2026-10-30T13:58:46+09:00",
       "freshness": "recent",
-      "workflow_outcome": "skipped",
+      "workflow_outcome": "success",
       "checked": 1460,
       "failed": 0,
       "detail": {
@@ -48,10 +48,10 @@
       "id": "html",
       "name": "공식 원문 HTML 순환",
       "status": "ok_scoped",
-      "last_attempt_at": "2026-10-30T11:23:02+09:00",
+      "last_attempt_at": "2026-10-30T13:58:46+09:00",
       "last_success_at": null,
       "freshness": "recent",
-      "workflow_outcome": "skipped",
+      "workflow_outcome": "success",
       "checked": 6,
       "failed": 0,
       "detail": {
@@ -72,10 +72,10 @@
       "id": "attachments",
       "name": "첨부파일 순환",
       "status": "partial",
-      "last_attempt_at": "2026-10-30T11:24:05+09:00",
+      "last_attempt_at": "2026-10-30T13:59:46+09:00",
       "last_success_at": null,
       "freshness": "recent",
-      "workflow_outcome": "skipped",
+      "workflow_outcome": "success",
       "checked": 4,
       "failed": 0,
       "detail": {
@@ -85,9 +85,9 @@
         "modified": 0,
         "suggested": 0,
         "success": 0,
-        "text_extracted": 3,
+        "text_extracted": 1,
         "partial_or_no_text": 1,
-        "blocked_or_unsupported": 0,
+        "blocked_or_unsupported": 2,
         "matched": 0,
         "changed": 0
       }
@@ -96,10 +96,10 @@
       "id": "startup",
       "name": "검토된 과거 원본",
       "status": "ok_scoped",
-      "last_attempt_at": "2026-10-30T11:24:29+09:00",
+      "last_attempt_at": "2026-10-30T14:00:15+09:00",
       "last_success_at": null,
       "freshness": "recent",
-      "workflow_outcome": "skipped",
+      "workflow_outcome": "success",
       "checked": 3,
       "failed": 0,
       "detail": {
@@ -121,8 +121,8 @@
     "pending_differences": 19,
     "attachment_failures": 3,
     "notice_failures": 0,
-    "attachment_limits": 7,
-    "queued_attachments": 30,
+    "attachment_limits": 10,
+    "queued_attachments": 33,
     "changed_evidence": 0,
     "unverified_programs": 116,
     "unverified_2027": 0,
@@ -131,11 +131,11 @@
   "counts": {
     "registered": 156,
     "upcoming_deadlines": 20,
-    "queue_total": 29,
-    "queue_shown": 29,
+    "queue_total": 32,
+    "queue_shown": 32,
     "queue_by_action": {
       "retry_bot": 3,
-      "review_original": 26
+      "review_original": 29
     }
   },
   "deadlines": [
@@ -729,11 +729,47 @@
       "reason": "형식·크기·본문 추출 한계: partial_text — 원본 직접 확인 필요",
       "reference_id": "26a0ac0f474c77702a568d49",
       "observed_at": "2026-10-30T11:24:05+09:00"
+    },
+    {
+      "id": "0ac9c2357b025e366839b5de",
+      "category": "attachment_limit",
+      "priority": "P2",
+      "program_id": "BIZINFO-PBLN_000000000121634",
+      "title": "[경기] 용인시 2026년 창업 멘토링(1:1) 희망기업 모집 공고",
+      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000121634",
+      "action": "review_original",
+      "reason": "형식·크기·본문 추출 한계: unsupported_format — 원본 직접 확인 필요",
+      "reference_id": "47629bf528f079c598a30c10",
+      "observed_at": "2026-10-30T13:59:46+09:00"
+    },
+    {
+      "id": "91dbcda19d5bd43322a8aa6d",
+      "category": "attachment_limit",
+      "priority": "P2",
+      "program_id": "BIZINFO-PBLN_000000000121832",
+      "title": "[강원] 2026년 청년창업자금 무이자 대출지원 사업시행 변경 공고",
+      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000121832",
+      "action": "review_original",
+      "reason": "형식·크기·본문 추출 한계: unsupported_format — 원본 직접 확인 필요",
+      "reference_id": "19c8abe95eec1b63edec95ec",
+      "observed_at": "2026-10-30T13:59:46+09:00"
+    },
+    {
+      "id": "34acf7952bf25d0683db69d9",
+      "category": "attachment_limit",
+      "priority": "P2",
+      "program_id": "BIZINFO-PBLN_000000000122229",
+      "title": "2026년 창업BuS in 세종 수요투자 라운드 참여기업 상시 모집 공고",
+      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000122229",
+      "action": "review_original",
+      "reason": "형식·크기·본문 추출 한계: no_text — 원본 직접 확인 필요",
+      "reference_id": "24fe3c6b1fa31040a5764b37",
+      "observed_at": "2026-10-30T13:59:46+09:00"
     }
   ],
   "queue_truncated": false,
   "scope": "기업마당 API, 기존 공식 원문·첨부 순환 수집 및 검토 원본 재확인. 전체 기관 독립 수집이나 자동 적격성 검증이 아님.",
   "notice": "이 보고서는 공개 저장자료의 규칙 기반 집계입니다. 후보·마감·우선순위는 신청 적격성, 선정 확률 또는 지원금 확정이 아닙니다. 자료 변경은 정책 변경 확정이 아니며 원문 대조가 필요합니다.",
   "ai_handoff": "공개 근거 검토요청 파일만 생성 가능. AI CLI 자동 실행·API 호출·결과 자동 반영 없음.",
-  "report_id": "b46a1e3f3ce5ffebd4463f56"
+  "report_id": "3313d3ef8424356c6dffedb3"
 }

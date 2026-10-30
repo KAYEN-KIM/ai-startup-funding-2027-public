@@ -1,17 +1,17 @@
 # AI 창업 지원 — AI 없이 생성한 봇 보고서
 
-보고서 생성: 2026\-10\-30T13:58:00\+09:00
+보고서 생성: 2026\-10\-30T14:00:26\+09:00
 이번 범위의 수집 상태: **부분 확인·재확인 필요**
 미해결 항목은 이번 실행 성공과 별도로 유지됩니다. 모델 호출: 0회(보고서 생성 경로).
 
 ## 수집 경로별 상태
-- 기업마당 API: ok\_scoped / 최근 시도 2026\-10\-30T11:23:02\+09:00
-- 공식 원문 HTML 순환: ok\_scoped / 최근 시도 2026\-10\-30T11:23:02\+09:00
-- 첨부파일 순환: partial / 최근 시도 2026\-10\-30T11:24:05\+09:00
-- 검토된 과거 원본: ok\_scoped / 최근 시도 2026\-10\-30T11:24:29\+09:00
+- 기업마당 API: ok\_scoped / 최근 시도 2026\-10\-30T13:58:46\+09:00
+- 공식 원문 HTML 순환: ok\_scoped / 최근 시도 2026\-10\-30T13:58:46\+09:00
+- 첨부파일 순환: partial / 최근 시도 2026\-10\-30T13:59:46\+09:00
+- 검토된 과거 원본: ok\_scoped / 최근 시도 2026\-10\-30T14:00:15\+09:00
 
 ## 누적 미해결
-pending\_differences: 19 / attachment\_failures: 3 / notice\_failures: 0 / attachment\_limits: 7 / queued\_attachments: 30 / changed\_evidence: 0 / unverified\_programs: 116 / unverified\_2027: 0 / unknown\_dates: 82
+pending\_differences: 19 / attachment\_failures: 3 / notice\_failures: 0 / attachment\_limits: 10 / queued\_attachments: 33 / changed\_evidence: 0 / unverified\_programs: 116 / unverified\_2027: 0 / unknown\_dates: 82
 
 ## 다음 7일 내 기재 마감 — 개인 자격 미판정
 - 2026\-10\-30 · \[경남\] 진주시 우주항공청 이주직원 가족 소상공인 창업 지원사업 공고 · today\_time\_unknown · discovery
@@ -65,6 +65,9 @@ pending\_differences: 19 / attachment\_failures: 3 / notice\_failures: 0 / attac
 - P2 · 2026년 창업\-BuS at 경북 참여기업 모집 공고: 형식·크기·본문 추출 한계: unsupported\_format — 원본 직접 확인 필요
 - P2 · 2026년 Startup:D 창업 BuS 참가자 사전 모집 공고\(대전창조경제혁신센터\): 형식·크기·본문 추출 한계: unsupported\_format — 원본 직접 확인 필요
 - P2 · \[울산\] 2026년 중소기업 AI인프라 육성자금 지원계획 변경 공고: 형식·크기·본문 추출 한계: partial\_text — 원본 직접 확인 필요
+- P2 · \[경기\] 용인시 2026년 창업 멘토링\(1:1\) 희망기업 모집 공고: 형식·크기·본문 추출 한계: unsupported\_format — 원본 직접 확인 필요
+- P2 · \[강원\] 2026년 청년창업자금 무이자 대출지원 사업시행 변경 공고: 형식·크기·본문 추출 한계: unsupported\_format — 원본 직접 확인 필요
+- P2 · 2026년 창업BuS in 세종 수요투자 라운드 참여기업 상시 모집 공고: 형식·크기·본문 추출 한계: no\_text — 원본 직접 확인 필요
 
 기업마당 API, 기존 공식 원문·첨부 순환 수집 및 검토 원본 재확인\. 전체 기관 독립 수집이나 자동 적격성 검증이 아님\.
 

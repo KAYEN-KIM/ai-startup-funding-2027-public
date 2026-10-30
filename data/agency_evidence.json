@@ -1,0 +1,1005 @@
+{
+  "schema": "public-funding-agency-evidence/v1",
+  "version": "0.17.0",
+  "generated_at": "2026-10-30T20:57:46+09:00",
+  "model_calls": 0,
+  "automatic_approval": false,
+  "scope": "기관 직접 목록의 원문 최대 3건·첨부 최대 4건 순환 확인. 본문 추출은 조건 후보이며 신청자격·금액·중복지원·문서 완전성 검증이 아닙니다. 기존 공고와 검토 규칙은 수정하지 않습니다.",
+  "notices": {
+    "MSS-1071785": {
+      "id": "MSS-1071785",
+      "agency_id": "mss",
+      "source": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1071785",
+      "title": "2027년 도약(Jump-Up) 프로그램 참여기업 모집 공고",
+      "listing_fingerprint": "e4cdfd512f5098ae2167e3fa251d720044abdc9d89e36f97336d502086a8ad1f",
+      "listing_seen_at": "2026-10-30T19:55:45+09:00",
+      "last_attempt_at": "2026-10-30T20:57:46+09:00",
+      "last_success_at": "2026-10-30T20:57:46+09:00",
+      "status": "html_available",
+      "last_error": null,
+      "review_required": false,
+      "body_sha256": "f24eab2ad59d502b3f1b3da0054e84eddc6358b5704d74d1aa2f05bf2ebd3e87",
+      "manifest_sha256": "e91eba66141ad96379eb59588d0aab1dfbaf0ba78d4f7cbf379620590cbf895d",
+      "documents": [
+        {
+          "id": "ada590c08bf27294efcf5ff7",
+          "name": "5ec2eccf-5588-4d6d-9633-e9dd7bbf1358.hwpx",
+          "public_url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1071785&cbIdx=310&streFileNm=5ec2eccf-5588-4d6d-9633-e9dd7bbf1358.hwpx",
+          "locator": "공고 첨부파일 목록 / 5ec2eccf-5588-4d6d-9633-e9dd7bbf1358.hwpx"
+        },
+        {
+          "id": "e3a19efaa655e9917005d494",
+          "name": "616ad874-cee9-458c-8b63-873d955be3cc.pdf",
+          "public_url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1071785&cbIdx=310&streFileNm=616ad874-cee9-458c-8b63-873d955be3cc.pdf",
+          "locator": "공고 첨부파일 목록 / 616ad874-cee9-458c-8b63-873d955be3cc.pdf"
+        }
+      ],
+      "history": [
+        {
+          "at": "2026-10-30T20:57:46+09:00",
+          "status": "html_available",
+          "body_sha256": "f24eab2ad59d502b3f1b3da0054e84eddc6358b5704d74d1aa2f05bf2ebd3e87",
+          "manifest_sha256": "e91eba66141ad96379eb59588d0aab1dfbaf0ba78d4f7cbf379620590cbf895d",
+          "error": null
+        }
+      ],
+      "unhandled_links": 0
+    },
+    "NIPA-16976": {
+      "id": "NIPA-16976",
+      "agency_id": "nipa",
+      "source": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16976&tab=2",
+      "title": "2026년「첨단 GPU 활용 지원 사업」 베타서비스 참여자 모집 공모 안내 (산학연 지원)",
+      "listing_fingerprint": "f55f49abdb3cab590de49908d72fcab987f9897dd0cf3657fd45540e3114ec5d",
+      "listing_seen_at": "2026-10-30T19:55:45+09:00",
+      "last_attempt_at": "2026-10-30T20:57:46+09:00",
+      "last_success_at": "2026-10-30T20:57:46+09:00",
+      "status": "html_available",
+      "last_error": null,
+      "review_required": false,
+      "body_sha256": "c379a8310c207d562b362743a2ff162a979f02cacff76aaac7118cbfdde6337e",
+      "manifest_sha256": "b2f079769d7cac2dd7ad0950a15b0ed7e3542bccf1838b47e9bd8d4f7edbe854",
+      "documents": [
+        {
+          "id": "ba8db363101bbe8ba39be2b5",
+          "name": "2026년 「첨단 GPU 활용 지원 사업」 베타서비스 참여자 모집 공고문.hwpx",
+          "public_url": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16976&tab=2",
+          "locator": "공고 첨부파일 목록 / 2026년 「첨단 GPU 활용 지원 사업」 베타서비스 참여자 모집 공고문.hwpx"
+        }
+      ],
+      "history": [
+        {
+          "at": "2026-10-30T20:57:46+09:00",
+          "status": "html_available",
+          "body_sha256": "c379a8310c207d562b362743a2ff162a979f02cacff76aaac7118cbfdde6337e",
+          "manifest_sha256": "b2f079769d7cac2dd7ad0950a15b0ed7e3542bccf1838b47e9bd8d4f7edbe854",
+          "error": null
+        }
+      ],
+      "unhandled_links": 0
+    },
+    "MSS-1071646": {
+      "id": "MSS-1071646",
+      "agency_id": "mss",
+      "source": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1071646",
+      "title": "「2026년 스마트제조혁신 유공」 포상 후보자 모집 추가 공고",
+      "listing_fingerprint": "66427605d60ba5142e2035b08198c603858def3a8d80b5436337c66b12d9dd0b",
+      "listing_seen_at": "2026-10-30T19:55:45+09:00",
+      "last_attempt_at": "2026-10-30T20:57:46+09:00",
+      "last_success_at": "2026-10-30T20:57:46+09:00",
+      "status": "html_available",
+      "last_error": null,
+      "review_required": false,
+      "body_sha256": "9c6792dc87875cca4c169f2b3240b29755330c003f7ff9bfe030aa5dd21f2821",
+      "manifest_sha256": "e18299fdfba89c2dafa495d6bc78962acf08c4ee2961d80f5fbe3e7bb6455ec0",
+      "documents": [
+        {
+          "id": "17d9eed0651520abd57bc531",
+          "name": "2ee810a5-6230-4d39-8285-e0f2542b221f.pdf",
+          "public_url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1071646&cbIdx=310&streFileNm=2ee810a5-6230-4d39-8285-e0f2542b221f.pdf",
+          "locator": "공고 첨부파일 목록 / 2ee810a5-6230-4d39-8285-e0f2542b221f.pdf"
+        },
+        {
+          "id": "4fc5e259b07debc0b7d3b942",
+          "name": "272801bf-0749-4e48-aca7-ab6a8e09ef85.hwpx",
+          "public_url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1071646&cbIdx=310&streFileNm=272801bf-0749-4e48-aca7-ab6a8e09ef85.hwpx",
+          "locator": "공고 첨부파일 목록 / 272801bf-0749-4e48-aca7-ab6a8e09ef85.hwpx"
+        }
+      ],
+      "history": [
+        {
+          "at": "2026-10-30T20:57:46+09:00",
+          "status": "html_available",
+          "body_sha256": "9c6792dc87875cca4c169f2b3240b29755330c003f7ff9bfe030aa5dd21f2821",
+          "manifest_sha256": "e18299fdfba89c2dafa495d6bc78962acf08c4ee2961d80f5fbe3e7bb6455ec0",
+          "error": null
+        }
+      ],
+      "unhandled_links": 0
+    }
+  },
+  "documents": {
+    "ada590c08bf27294efcf5ff7": {
+      "id": "ada590c08bf27294efcf5ff7",
+      "program_id": "MSS-1071785",
+      "notice_source": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1071785",
+      "url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1071785&cbIdx=310&streFileNm=5ec2eccf-5588-4d6d-9633-e9dd7bbf1358.hwpx",
+      "name": "5ec2eccf-5588-4d6d-9633-e9dd7bbf1358.hwpx",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-10-30T20:57:46+09:00",
+      "last_success_at": "2026-10-30T20:57:46+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-10-30T20:57:46+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "d9de1beeab1c69978bddb788d9e4189ab6f0a9b41d33be9ec7e948ec69402044",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "d9de1beeab1c69978bddb788d9e4189ab6f0a9b41d33be9ec7e948ec69402044",
+      "sha256": "d9de1beeab1c69978bddb788d9e4189ab6f0a9b41d33be9ec7e948ec69402044",
+      "extraction": {
+        "format": "hwpx",
+        "parser": "hwp-body/0.4.0",
+        "sha256": "d9de1beeab1c69978bddb788d9e4189ab6f0a9b41d33be9ec7e948ec69402044",
+        "bytes": 172142,
+        "status": "text_extracted",
+        "text_characters": 19082,
+        "units": 839,
+        "text_sha256": "4431d2dc2268c8ae5656c92fa5e7286c123a76778b2a580b3bdf30a7577c2d70",
+        "pages": null,
+        "sections": 1,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "621095f2a61246d15608",
+            "category": "amount",
+            "excerpt": "※ 지원규모·내용 등은 ’27년 예산(안) 심의 결과에 따라 변동 가능",
+            "locator": "Contents/section0.xml / paragraph 23",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "d90b5326adf3178a52d8",
+            "category": "amount",
+            "excerpt": " 사업화를 위한 바우처를 성장 단계별 연간 최대 2.0~7.5억원 발급",
+            "locator": "Contents/section0.xml / paragraph 33",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "c1826ecc6cf70bd4580b",
+            "category": "eligibility",
+            "excerpt": "□ (신청자격) ｢중소기업기본법｣ 제2조에 따라 공고일 기준 업력 7년 이상의 중소기업 중 세부 프로그램별 신청요건을 충족하는 기업",
+            "locator": "Contents/section0.xml / paragraph 43",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "ba212b5bda2bc8a819d0",
+            "category": "eligibility",
+            "excerpt": "※ 「중소기업창업지원법」 제2조에 따른 창업자에 해당하지 않는 업력 7년 미만의 중소기업 및 점프업100의 마일스톤트랙 추천기업은 신청대상에 포함",
+            "locator": "Contents/section0.xml / paragraph 45",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "0eed24940c5358b54f29",
+            "category": "exclusion",
+            "excerpt": "□ (제외대상) 아래 지원제외 대상에 해당하는 기업",
+            "locator": "Contents/section0.xml / paragraph 47",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "ead913980fc8239bc00c",
+            "category": "exclusion",
+            "excerpt": "제외 대상",
+            "locator": "Contents/section0.xml / paragraph 51",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "27130d48070601d8b538",
+            "category": "exclusion",
+            "excerpt": " 신청일 기준 휴·폐업 중인 자(기업)",
+            "locator": "Contents/section0.xml / paragraph 60",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "6691281a2965f0567ceb",
+            "category": "exclusion",
+            "excerpt": " 국세 또는 지방세를 체납 중인 자(기업)",
+            "locator": "Contents/section0.xml / paragraph 62",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "4660022b53c83ee0981b",
+            "category": "exclusion",
+            "excerpt": "①국세징수법 제105조제1항에 따라 강제징수의 유예를 받은 자 또는 지방세징수법 제105조제1항에 따라 체납처분의 유예를 받은 자(기업)",
+            "locator": "Contents/section0.xml / paragraph 65",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "c126818bfcd099ba4ca4",
+            "category": "amount",
+            "excerpt": " 대표자 또는 기업이 보조금법 위반 등으로 정부 지원 사업에 참여제한 중인 경우",
+            "locator": "Contents/section0.xml / paragraph 70",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "d6e9082f7ccbf09800bd",
+            "category": "deadline",
+            "excerpt": "□ (신청기간) 2026.10.15.(목)~2026.11.13.(금) 17:00까지",
+            "locator": "Contents/section0.xml / paragraph 77",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "5e90af77c84af864a517",
+            "category": "deadline",
+            "excerpt": "◦ 접수기간 내 제출 완료한(온라인 제출) 업체만 인정하며, 신청서를 제출하지 못한 경우 추가 접수 불가",
+            "locator": "Contents/section0.xml / paragraph 79",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "8de032c562212562a04f",
+            "category": "deadline",
+            "excerpt": "* 신청 마감일 접속자 폭주로 접속 오류 등 사태가 발생하더라도, 온라인상 “제출완료” 처리가 완료된 업체만 인정하오니 가급적 마감일을 피해서 신청 권장",
+            "locator": "Contents/section0.xml / paragraph 81",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "7a9c593c4df350ab8cc8",
+            "category": "deadline",
+            "excerpt": "② 신청 마감일에는 문의 및 접속이 원활하지 않을 수 있으므로, 마감일 2~3일 이전에 신청서 제출완료 진행을 권장",
+            "locator": "Contents/section0.xml / paragraph 96",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "f4f35c29524f016c9aac",
+            "category": "documents",
+            "excerpt": "□ (제출서류) 신청기간 내 온라인 제출",
+            "locator": "Contents/section0.xml / paragraph 102",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "7550945757bbeb99d903",
+            "category": "deadline",
+            "excerpt": "□ (제출서류) 신청기간 내 온라인 제출",
+            "locator": "Contents/section0.xml / paragraph 102",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "7b2f8844d430ea7b2112",
+            "category": "documents",
+            "excerpt": "◦ 제출서류 관련 유의사항",
+            "locator": "Contents/section0.xml / paragraph 143",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "0a3e8e65102b6e3bd9f3",
+            "category": "documents",
+            "excerpt": "- ⑦~⑧ (해당시) 공동대표 제출서류 : 공동대표인 경우 개인(신용)정보 수집·이용·제공조회 및 고객정보 활용 동의서, 윤리준수 약속 작성·날인하여 별도 제출(첨부 업로드)",
+            "locator": "Contents/section0.xml / paragraph 153",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "1b1b548483c892538e2d",
+            "category": "eligibility",
+            "excerpt": "◦ 법인등기부등본 상의 본사 소재지 기준으로 신청·접수 가능",
+            "locator": "Contents/section0.xml / paragraph 165",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "b56cf29ea994bbf57a04",
+            "category": "documents",
+            "excerpt": "◦ ‘제출서류’ 발급기준은 p.4 제출서류 관련 유의사항에 따르며 유효기간 만료, 발급기준 미준수, 미제출 등의 경우 평가대상 제외 등 불이익이 있을 수 있음",
+            "locator": "Contents/section0.xml / paragraph 183",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "dc75d3b09c634a36bf43",
+            "category": "documents",
+            "excerpt": "◦ 필수 제출 서류는 보완을 요구하지 않으며, 신청기간 내 미제출시 평가대상에서 제외",
+            "locator": "Contents/section0.xml / paragraph 185",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "40709a98459b15e5b289",
+            "category": "cofunding",
+            "excerpt": "◦ 타 정부·공공기관·지자체 등의 지원사업 자부담금은 바우처로 납부 불가, 일부 항목이라도 타 사업과 중복되는 경우 지원 불가",
+            "locator": "Contents/section0.xml / paragraph 187",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "91ad93ecb55325bc82c8",
+            "category": "amount",
+            "excerpt": " 위한 스케일업에 필요한 사항을 정부가 지원하는 사업으로, 다른 용도의 사업비 사용 또는 거짓신청, 부정한 방법으로 정부지원금을 지원받은 경우 「형법」, 「보조금 관리에 관한 법률」, 「공공재정 부정청구 금지 및 부정이익 환수 등에 관한 법률」 등에 따라 형사처벌 또는 정부지원금 전액 환수 및 사업 참여제한 등의 대상이 될 수 있음",
+            "locator": "Contents/section0.xml / paragraph 191",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "3dd9c183b240f36836af",
+            "category": "eligibility",
+            "excerpt": "◦ 신청자격 요건에 미충족 되거나, 신청서 내용의 허위 기재 및 신청 관련 증빙서류 누락 등이 확인될 경우, 평가대상 제외 등 불이익이 있을 수 있음",
+            "locator": "Contents/section0.xml / paragraph 197",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "구역·문단 위치는 실제 인쇄 쪽번호가 아닙니다.",
+          "표 셀 관계·그림·각주 의미는 미검토"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
+    },
+    "e3a19efaa655e9917005d494": {
+      "id": "e3a19efaa655e9917005d494",
+      "program_id": "MSS-1071785",
+      "notice_source": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1071785",
+      "url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1071785&cbIdx=310&streFileNm=616ad874-cee9-458c-8b63-873d955be3cc.pdf",
+      "name": "616ad874-cee9-458c-8b63-873d955be3cc.pdf",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-10-30T20:57:46+09:00",
+      "last_success_at": "2026-10-30T20:57:46+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-10-30T20:57:46+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "f9eaf14d758270ed99147a6243fe7c51936506d1be71ac03f3a4051bfd1b8b96",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "f9eaf14d758270ed99147a6243fe7c51936506d1be71ac03f3a4051bfd1b8b96",
+      "sha256": "f9eaf14d758270ed99147a6243fe7c51936506d1be71ac03f3a4051bfd1b8b96",
+      "extraction": {
+        "format": "pdf",
+        "parser": "pypdf/6.15.0",
+        "sha256": "f9eaf14d758270ed99147a6243fe7c51936506d1be71ac03f3a4051bfd1b8b96",
+        "bytes": 862731,
+        "status": "text_extracted",
+        "text_characters": 17578,
+        "units": 66,
+        "text_sha256": "1dd3bcad122882b044258f57584e56d0e44153c82954b65f66a4831c8ed89b03",
+        "pages": 23,
+        "sections": null,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "4439b787d1b6235149cb",
+            "category": "amount",
+            "excerpt": "0개사이내 * 세부 프로그램별 : (점프업100)100개사, (점프업500)100개사, (점프업1000)20개사 ※ 지원규모·내용 등은 ’27년 예산(안) 심의 결과에 따라 변동 가능□(지원내용)디렉팅,오픈바우처,네트워킹,정책연계등4가지수단을활용하여기업의성장단계별맞춤형지원구분지원 주요내용디렉팅ü 글로벌 컨설팅社, 연구기관 등을 통해 성장전략 수립부터 기술문제 해결, 경영자문 등 도약을 위한 전 과정을 밀착지원",
+            "locator": "PDF p.1 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "faf3cfa6b5667d749e52",
+            "category": "eligibility",
+            "excerpt": "2. 공통사항□(신청자격) ｢",
+            "locator": "PDF p.2 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "fc9df086162747afe57b",
+            "category": "eligibility",
+            "excerpt": "제2조에따라공고일기준업력7년이상의중소기업중세부프로그램별신청요건을충족하는기업 ※ 「중소기업창업지원법」 제2조에 따른 창업자에 해당하지 않는 업력 7년 미만의 중소기업 및 점프업100의 마일스톤트랙 추천기업은 신청대상에 포함□(제외대상)아래지원제외대상에해당하는기업구분 제외 대상① ü 도약프로그램 지원사업을 수행 중인 기업② ü 초격차 스타트업 1000+(초격차 스타트업 육성, 딥테크 팁스) 지원사업을 수행 중인 ",
+            "locator": "PDF p.2 / text-line 4",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "84c2d9027bd26cfeadc9",
+            "category": "exclusion",
+            "excerpt": " 따른 창업자에 해당하지 않는 업력 7년 미만의 중소기업 및 점프업100의 마일스톤트랙 추천기업은 신청대상에 포함□(제외대상)아래지원제외대상에해당하는기업구분 제외 대상① ü 도약프로그램 지원사업을 수행 중인 기업② ü 초격차 스타트업 1000+(초격차 스타트업 육성, 딥테크 팁스) 지원사업을 수행 중인 기업 * 다년도 지원사업의 경우 ‘26년이 협약기간 마지막 연차인 경우 신청 가능③ ü 월드클래스300 플러",
+            "locator": "PDF p.2 / text-line 4",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "7e8e3960f76e0b153777",
+            "category": "exclusion",
+            "excerpt": "⑤ ü 국세 또는 지방세를 체납 중인 자(기업)< 예외 대상 >①국세징수법 제105조제1항에 따라 강제징수의 유예를 받은 자 또는 지방세징수법 제105조제1항에 따라 체납처분의 유예를 받은 자(기업)②국세·지방세 등의 특수채무 변제 후 증빙이 가능한 자(기업)⑥ ü 한국신용정보원의 일반신용정보관리규약에 따른 신용정보 중 신청인의 채무불이행으로 인하여 현재 금융거래가 제한된 자(기업)⑦ ü 대표자 또는 기업이 ",
+            "locator": "PDF p.2 / text-line 5",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "31c1b8d064195738baa4",
+            "category": "amount",
+            "excerpt": " 중 신청인의 채무불이행으로 인하여 현재 금융거래가 제한된 자(기업)⑦ ü 대표자 또는 기업이 보조금법 위반 등으로 정부 지원 사업에 참여제한 중인 경우⑧ ü 근로기준법에 따라, 고용노동부가 공개하는 임금 체불사업주 명단에 포함된 자(기업)⑨ ü 사행산업 등 국민 정서상 지원이 부적절한 업종을 영위 또는 진출예정인 자(기업)⑩ ü 그 밖에 사회적 물의를 일으켜 지원이 적합하지 않다고 인정되는 자(기업)",
+            "locator": "PDF p.2 / text-line 5",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "99efe90ebce646890d09",
+            "category": "documents",
+            "excerpt": "시스템’에서 신청서 입력 후 ‘최종제출’ 버튼을 클릭해야 “제출완료” 처리되며, 마감시간 경과 이후에는 수정 불가□(제출서류)신청기간내온라인제출연번서류명내용①도약(Jump-Up) 프로그램 참여 신청서도약프로그램 통합정보관리시스템 온라인 작성②개인(신용) 및 기업(신용)정보 수집·이용·제공조회 및 고객정보 활용 동의서③도약(Jump-Up) 프로그램 윤리준수 약속④도약(Jump-Up) 프로그램 사업계획서도약프로그",
+            "locator": "PDF p.3 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "9c555f3746b36a569076",
+            "category": "deadline",
+            "excerpt": "□(신청기간)2026.10.15.(목)~2026.11.13.(금)17:00까지◦접수기간내제출완료한(온라인제출)업체만인정하며,신청서를제출하지못한경우추가접수불가 * 신청 마감일 접속자 폭주로 접속 오류 등 사태가 발생하더라도, 온라인상 “제출완료” 처리가 완료된 업체만 인정하오니 가급적 마감일을 피해서 신청 권장 ** 고성장 혁신형 지정기업은 별도 선정기간(붙임5 참고)을 감안, ‘26.12.21(월) 추천(신청",
+            "locator": "PDF p.3 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "7d6ae532c25e5306d817",
+            "category": "documents",
+            "excerpt": "◦제출서류관련유의사항-①~③신청서,정보제공동의,윤리준수약속:도약프로그램통합정보관리시스템의온라인신청시스템활용-④사업계획서:도약프로그램통합정보관리시스템온라인제출-⑤법인등기부등본:인터넷등기소(iros.go.kr)에서발급하여도약프로그램통합정보관리시스템온라인제출-⑥중소기업확인서:중소기업현황정보시스템(sminfo.mss.go.kr)에서발급하여제출,공고일기준유효기간내서류만인정-⑦~⑧(해당시)공동대표제출서류:공동대표인경우개",
+            "locator": "PDF p.4 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "139ed399457214751269",
+            "category": "eligibility",
+            "excerpt": "사항◦기업의최근3년매출실적및성장단계프로그램별운영목적등을고려하여3개프로그램중1개프로그램만신청·접수가능◦법인등기부등본상의본사소재지기준으로신청·접수가능◦신청·접수마감일에는문의및접속이원활하지않을수있으므로,마감일최소2~3일이전에도약프로그램통합정보관리시스템(www.jumpup.or.kr)가입및사업신청을미리진행하는것을권장◦‘최종제출’버튼을클릭해야‘제출완료’처리되므로유의◦’최종제출’이후에도‘신청마감전’까지는내용수정이가능하나",
+            "locator": "PDF p.5 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "e8c3dbcce9afd7b18db1",
+            "category": "deadline",
+            "excerpt": "로그램별운영목적등을고려하여3개프로그램중1개프로그램만신청·접수가능◦법인등기부등본상의본사소재지기준으로신청·접수가능◦신청·접수마감일에는문의및접속이원활하지않을수있으므로,마감일최소2~3일이전에도약프로그램통합정보관리시스템(www.jumpup.or.kr)가입및사업신청을미리진행하는것을권장◦‘최종제출’버튼을클릭해야‘제출완료’처리되므로유의◦’최종제출’이후에도‘신청마감전’까지는내용수정이가능하나,수정이후‘최종제출’버튼을클릭해야변경",
+            "locator": "PDF p.5 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "b7660fe3bff0fd3f0689",
+            "category": "eligibility",
+            "excerpt": "이라도타사업과중복되는경우지원불가◦사업비를부정사용할경우부정사용금액을포함하여반환금액의최대5배수준의제재부가금이부과될수있음◦본사업은중견기업성장을위한스케일업에필요한사항을정부가지원하는사업으로,다른용도의사업비사용또는거짓신청,부정한방법으로정부지원금을지원받은경우「형법」,「보조금관리에관한법률」,「공공재정부정청구금지및부정이익환수등에관한법률」등에따라형사처벌또는정부지원금전액환수및사업참여제한등의대상이될수있음◦고의,거짓등의방법으로부정수",
+            "locator": "PDF p.6 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "798869efb24427668325",
+            "category": "cofunding",
+            "excerpt": "등불이익이있을수있음◦필수제출서류는보완을요구하지않으며,신청기간내미제출시평가대상에서제외◦타정부·공공기관·지자체등의지원사업자부담금은바우처로납부불가,일부항목이라도타사업과중복되는경우지원불가◦사업비를부정사용할경우부정사용금액을포함하여반환금액의최대5배수준의제재부가금이부과될수있음◦본사업은중견기업성장을위한스케일업에필요한사항을정부가지원하는사업으로,다른용도의사업비사용또는거짓신청,부정한방법으로정부지원금을지원받은경우「형법」,「보조금관",
+            "locator": "PDF p.6 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "755d3e2a577692e63ddc",
+            "category": "amount",
+            "excerpt": "될수있음◦본사업은중견기업성장을위한스케일업에필요한사항을정부가지원하는사업으로,다른용도의사업비사용또는거짓신청,부정한방법으로정부지원금을지원받은경우「형법」,「보조금관리에관한법률」,「공공재정부정청구금지및부정이익환수등에관한법률」등에따라형사처벌또는정부지원금전액환수및사업참여제한등의대상이될수있음◦고의,거짓등의방법으로부정수급을행한사실이있다고판단되는경우“국고보조금통합관리지침”제32조5항에따라,당사자는고발될수있음□평가 관련 유의사항",
+            "locator": "PDF p.6 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "66633b170ea19c4bd6a4",
+            "category": "documents",
+            "excerpt": "◦‘제출서류’발급기준은p.4제출서류관련유의사항에따르며유효기간만료,발급기준미준수,미제출등의경우평가대상제외등불이익이있을수있음◦필수제출서류는보완을요구하지않으며,신청기간내미제출시평가대상에서제외◦타정부·공공기관·지자체등의지원사업자부담금은바우처로납부불가,일부항목이라도타사업과중복되는경우지원불가◦사업비를부정사용할경우부정사용금액을포함하여반환금액의최대5배수준의제재부가금이부과될수있음◦본사업은중견기업성장을위한스케일업에필요한사항을정",
+            "locator": "PDF p.6 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "907a5907146442b0676d",
+            "category": "deadline",
+            "excerpt": "유의사항에따르며유효기간만료,발급기준미준수,미제출등의경우평가대상제외등불이익이있을수있음◦필수제출서류는보완을요구하지않으며,신청기간내미제출시평가대상에서제외◦타정부·공공기관·지자체등의지원사업자부담금은바우처로납부불가,일부항목이라도타사업과중복되는경우지원불가◦사업비를부정사용할경우부정사용금액을포함하여반환금액의최대5배수준의제재부가금이부과될수있음◦본사업은중견기업성장을위한스케일업에필요한사항을정부가지원하는사업으로,다른용도의사업비사용",
+            "locator": "PDF p.6 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "e28e02176ee9524e2b2f",
+            "category": "eligibility",
+            "excerpt": "있음◦도약(Jump-Up)프로그램은패키지지원사업으로,참여기업이개별지원사업을불성실하게수행하는경우중도탈락조치될수있음◦기업본사소재지및연차별사업참여성과등에따라오픈바우처발급규모를차등하여지급할수있음◦최종선정자는협약종료연도다음해부터5년간이력관리등에필요한제반요청사항에성실히응하여야함",
+            "locator": "PDF p.7 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "7a51d7023d48833709c8",
+            "category": "amount",
+            "excerpt": "의사항◦동사업에선정된자가공고문및관련규정에위배되거나,사업계획서내용의허위기재또는누락이확인된경우,선정취소,정부사업참여제한,정부지원금환수등의조치를받을수있음 * 필요시 사업비 집행의 적정성 등의 확인을 위하여 현장점검을 실시할 수 있음◦도약(Jump-Up)프로그램은패키지지원사업으로,참여기업이개별지원사업을불성실하게수행하는경우중도탈락조치될수있음◦기업본사소재지및연차별사업참여성과등에따라오픈바우처발급규모를차등하여지급할수있음◦최",
+            "locator": "PDF p.7 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "c355c28ee9962992906e",
+            "category": "amount",
+            "excerpt": " 3년 미만의 창업지원 사업 참여기업을 대상으로, 창업지원 사업 운영기관의 추천을 통해 별도 선발(10개사 내) □(지원규모)100개사이내□(지원기간)선정후최대3년□(지원내용)지속성장기반마련에필요한경영체질개선디렉팅,오픈바우처,네트워킹,정책연계등패키지지원➊ (디렉팅) ①전담디렉터+②경영서포터+③기술서포터를기업별로1:1매칭하여성장에필요한경영시스템구축,기술문제해결등지원",
+            "locator": "PDF p.8 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "c5b588d993ee4d231139",
+            "category": "cofunding",
+            "excerpt": "문 등• 도메인 세부내용 조율 등• 현장 기술문제 진단·해결• 기술개발 방향 설정 등비용• 오픈바우처로 집행(20% 자부담) • 정부지원 100% • 오픈바우처로 집행(20% 자부담)◦전담디렉터:디렉팅프로그램자문및이행·진도관리,도메인컨설팅별세부내용조율등기업의컨설팅수용성및이행력제고 * 지원기간 : 연간 40MD 이내 자문을 제공(자문 활동비 관련 참여기업 자부담 없음)",
+            "locator": "PDF p.8 / text-line 5",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "b6894dd71a8453c68372",
+            "category": "cofunding",
+            "excerpt": "임차료등),경비(식비·사무용품비등),인건비,컨설팅결과와무관한자산취득비등◦대응자금:오픈바우처총사업비의20%이상(현금또는현물)< 총 사업비 구성 기준 >정부지원금참여기업 부담금현 금 현 물총 사업비의 80% 이하총 사업비의 10% 이상총 사업비의 10% 이하 ※ 현물인정범위 : 참여인력의 전년도 연말정산기준 월평균 급여액 x 참여기간 x 참여율➌(네트워킹)탐색형네트워킹프로그램운영을통한초기접점구축◦성장딜네트워킹:교",
+            "locator": "PDF p.9 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "165532898eedb6af0d99",
+            "category": "exclusion",
+            "excerpt": "1-2. 평가방법□(요건검토)신청서및제출서류등을확인하여신청자격등검토 * 중소기업 여부, 휴폐업·체납 여부, 신용정보, 보조금법 위반, 부적절 업종 등□(Step1 평가)서면평가+경영체질진단및현장평가◦(서면평가)AI를활용한기업의성장성예측*및분야별전문가의사업계획성,잠재역량,정책목적성등종합적으로평가(절대평가) * 주요내용 : 기업재무, 산업분석 데이터, 시기별 거시지표 등 활용하여 성장성 예측◦(현장평가) 중소기업",
+            "locator": "PDF p.10 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "eda732beb7761aa5215f",
+            "category": "documents",
+            "excerpt": "1-2. 평가방법□(요건검토)신청서및제출서류등을확인하여신청자격등검토 * 중소기업 여부, 휴폐업·체납 여부, 신용정보, 보조금법 위반, 부적절 업종 등□(Step1 평가)서면평가+경영체질진단및현장평가◦(서면평가)AI를활용한기업의성장성예측*및분야별전문가의사업계획성,잠재역량,정책목적성등종합적으로평가(절대평가) * 주요내용 : 기업재무, 산업분석 데이터, 시기별 거시지표 등 활용하여 성장성 예측◦(현장평가) 중소기업",
+            "locator": "PDF p.10 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "90255d81b557a8bc4b90",
+            "category": "cofunding",
+            "excerpt": "실행과제 조율, 경영자문• 네트워크 지원 등• 기술로드맵 수립• 기술난제 솔루션 제시비용• 오픈바우처로 집행(30% 자부담) • 정부지원 100% • 오픈바우처로 집행(30% 자부담)◦전담디렉터:신사업·신시장진출방향,전략및이행과제수립관련조율·자문,스케일업디렉팅추진관련점검및자문 * 지원기간 : 연간 40MD 이내 자문을 제공(자문 활동비 관련 참여기업 자부담 없음)◦전략서포터:글로벌컨설팅社의역량을활용하여신사업·",
+            "locator": "PDF p.11 / text-line 5",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "표 열 순서·이미지·주석의 의미는 검토하지 않았습니다.",
+          "OCR 미수행"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
+    },
+    "ba8db363101bbe8ba39be2b5": {
+      "id": "ba8db363101bbe8ba39be2b5",
+      "program_id": "NIPA-16976",
+      "notice_source": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16976&tab=2",
+      "url": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16976&tab=2",
+      "name": "2026년 「첨단 GPU 활용 지원 사업」 베타서비스 참여자 모집 공고문.hwpx",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
+    },
+    "17d9eed0651520abd57bc531": {
+      "id": "17d9eed0651520abd57bc531",
+      "program_id": "MSS-1071646",
+      "notice_source": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1071646",
+      "url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1071646&cbIdx=310&streFileNm=2ee810a5-6230-4d39-8285-e0f2542b221f.pdf",
+      "name": "2ee810a5-6230-4d39-8285-e0f2542b221f.pdf",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-10-30T20:57:46+09:00",
+      "last_success_at": "2026-10-30T20:57:46+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-10-30T20:57:46+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "9179d78cd0e77993359f16530186122176d435bf96935c0a8632c252021952e4",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "9179d78cd0e77993359f16530186122176d435bf96935c0a8632c252021952e4",
+      "sha256": "9179d78cd0e77993359f16530186122176d435bf96935c0a8632c252021952e4",
+      "extraction": {
+        "format": "pdf",
+        "parser": "pypdf/6.15.0",
+        "sha256": "9179d78cd0e77993359f16530186122176d435bf96935c0a8632c252021952e4",
+        "bytes": 935894,
+        "status": "text_extracted",
+        "text_characters": 5065,
+        "units": 236,
+        "text_sha256": "092e8d3658bf2197fee17c3fa939a4a9f2e5ef29a416864174b99764bb975688",
+        "pages": 12,
+        "sections": null,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "15e852416d3d9a08bc0b",
+            "category": "eligibility",
+            "excerpt": "부문 신청 자격 문의 접수처·",
+            "locator": "PDF p.1 / text-line 11",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "d42b486dfe0b229b16bb",
+            "category": "eligibility",
+            "excerpt": "부문별 신청 자격 및 접수처 < >",
+            "locator": "PDF p.1 / text-line 20",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "8c75e4ddb9b1b2bb9894",
+            "category": "exclusion",
+            "excerpt": "후보자 제외 대상자 < >",
+            "locator": "PDF p.2 / text-line 1",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "bb8ff38977e0a611a2a9",
+            "category": "exclusion",
+            "excerpt": "▪추천일 당시 국세기본법 관세법 또는 지방세징수법 에 따른 체납 중에 있는 자 또는 단체, ｢ ｣ ｢ ｣ ｢ ｣",
+            "locator": "PDF p.2 / text-line 11",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "ac8769af6abfe2e83210",
+            "category": "eligibility",
+            "excerpt": "부문별 신청자격 및 접수처 표 참조* 「 」",
+            "locator": "PDF p.2 / text-line 17",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "3b7f4ae1caf60129afbb",
+            "category": "documents",
+            "excerpt": "구분 제출 서류 비고",
+            "locator": "PDF p.2 / text-line 18",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "945763f67afe78327efb",
+            "category": "documents",
+            "excerpt": "⑧ 공적내용에 대한 기타 증빙자료",
+            "locator": "PDF p.2 / text-line 30",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "c70e2a1e068fe7690fd5",
+            "category": "documents",
+            "excerpt": "포상 신청 제출서류< >",
+            "locator": "PDF p.2 / text-line 31",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "377c8108a88dbfa3e247",
+            "category": "exclusion",
+            "excerpt": "심사평가▶ 후보추천▶ 공개검증▶ 결격조회▶ 공적심사",
+            "locator": "PDF p.3 / text-line 4",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "4378f9890b0831ad8a7d",
+            "category": "exclusion",
+            "excerpt": "결격사유 범죄경력 산업재해 불공정행위 임금체불 세금 체납 등* : , , , ,",
+            "locator": "PDF p.3 / text-line 13",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "6b0d49b5083152d867eb",
+            "category": "documents",
+            "excerpt": "붙임1 제출 서류 서식",
+            "locator": "PDF p.4 / text-line 1",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "2ece797d042fa18549dd",
+            "category": "overlap",
+            "excerpt": "당해 연도 타 포상 중복 지원 여부",
+            "locator": "PDF p.10 / text-line 18",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "표 열 순서·이미지·주석의 의미는 검토하지 않았습니다.",
+          "OCR 미수행"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
+    },
+    "4fc5e259b07debc0b7d3b942": {
+      "id": "4fc5e259b07debc0b7d3b942",
+      "program_id": "MSS-1071646",
+      "notice_source": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1071646",
+      "url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1071646&cbIdx=310&streFileNm=272801bf-0749-4e48-aca7-ab6a8e09ef85.hwpx",
+      "name": "272801bf-0749-4e48-aca7-ab6a8e09ef85.hwpx",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-10-30T20:57:46+09:00",
+      "last_success_at": "2026-10-30T20:57:46+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-10-30T20:57:46+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "716c2e4b73054b91735a94524517e402b4ad25b0a512eb73b88c3656e36651aa",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "716c2e4b73054b91735a94524517e402b4ad25b0a512eb73b88c3656e36651aa",
+      "sha256": "716c2e4b73054b91735a94524517e402b4ad25b0a512eb73b88c3656e36651aa",
+      "extraction": {
+        "format": "hwpx",
+        "parser": "hwp-body/0.4.0",
+        "sha256": "716c2e4b73054b91735a94524517e402b4ad25b0a512eb73b88c3656e36651aa",
+        "bytes": 92179,
+        "status": "text_extracted",
+        "text_characters": 5909,
+        "units": 396,
+        "text_sha256": "dadcd899ef8d38bc465ca10defb6ffd0902ec17efc9d5707bc0065c4e8073f21",
+        "pages": null,
+        "sections": 1,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "ecf7bae14e9c42aeb357",
+            "category": "eligibility",
+            "excerpt": "< 부문별 신청 자격 및 접수처 >",
+            "locator": "Contents/section0.xml / paragraph 34",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "d46f23fc04e61f6190cc",
+            "category": "eligibility",
+            "excerpt": "신청 자격",
+            "locator": "Contents/section0.xml / paragraph 36",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "f956266ef2731eda715a",
+            "category": "exclusion",
+            "excerpt": "< 후보자 제외 대상자 >",
+            "locator": "Contents/section0.xml / paragraph 47",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "11b3204bae84102a5558",
+            "category": "exclusion",
+            "excerpt": "▪ 추천일 당시｢국세기본법｣, ｢관세법｣ 또는 ｢지방세징수법｣에 따른 체납 중에 있는 자 또는 단체",
+            "locator": "Contents/section0.xml / paragraph 59",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "f2a6bb96c8f8bfed09a9",
+            "category": "deadline",
+            "excerpt": "◦ (신청 기간) 2026. 10. 8(목) ∼ 10. 16(금), 18:00까지",
+            "locator": "Contents/section0.xml / paragraph 65",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "a3ed0012c813e79aeef7",
+            "category": "eligibility",
+            "excerpt": "* 「부문별 신청자격 및 접수처」표 참조",
+            "locator": "Contents/section0.xml / paragraph 67",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "3f3a7c76340b14e424e8",
+            "category": "documents",
+            "excerpt": "< 포상 신청 제출서류>",
+            "locator": "Contents/section0.xml / paragraph 69",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "610a6bd1d4f2ea81963f",
+            "category": "documents",
+            "excerpt": "제출 서류",
+            "locator": "Contents/section0.xml / paragraph 71",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "f59ea9a31a55d8288302",
+            "category": "documents",
+            "excerpt": "공적내용에 대한 기타 증빙자료",
+            "locator": "Contents/section0.xml / paragraph 95",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "cbc5dd29a6d5ea308e4d",
+            "category": "exclusion",
+            "excerpt": "결격조회",
+            "locator": "Contents/section0.xml / paragraph 123",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "e6ab8bd9f273fd1137b3",
+            "category": "exclusion",
+            "excerpt": "◦ 후보자를 대상으로 결격사유 조회, 사전 공개 및 의견수렴 등 공개검증 실시",
+            "locator": "Contents/section0.xml / paragraph 143",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "db56aa948e8b32d2593d",
+            "category": "exclusion",
+            "excerpt": "* 결격사유 : 범죄경력, 산업재해, 불공정행위, 임금체불, 세금 체납 등",
+            "locator": "Contents/section0.xml / paragraph 144",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "470e4ce8ae3d27e4522e",
+            "category": "documents",
+            "excerpt": "제출 서류 서식",
+            "locator": "Contents/section0.xml / paragraph 152",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "1fbc414cc570620e2b13",
+            "category": "overlap",
+            "excerpt": "○ 당해 연도 타 포상 중복 지원 여부",
+            "locator": "Contents/section0.xml / paragraph 423",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "구역·문단 위치는 실제 인쇄 쪽번호가 아닙니다.",
+          "표 셀 관계·그림·각주 의미는 미검토"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
+    }
+  },
+  "run": {
+    "at": "2026-10-30T20:57:46+09:00",
+    "status": "ok_scoped",
+    "notices_attempted": 3,
+    "notices_success": 3,
+    "notices_failed": 0,
+    "files_attempted": 4,
+    "text_extracted": 4,
+    "partial_or_no_text": 0,
+    "blocked": 0,
+    "failed": 0,
+    "changed": 0,
+    "sources_skipped": [],
+    "eligible_candidates": 20
+  }
+}

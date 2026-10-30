@@ -14,6 +14,7 @@
   <script src="assets/app.js" defer></script>
   <script src="assets/bot-report.js" defer></script>
   <script src="assets/agency-report.js" defer></script>
+  <script src="assets/agency-evidence.js" defer></script>
   <link rel="stylesheet" href="assets/bot-report.css">
   <link rel="alternate" type="application/rss+xml" title="AI 창업 규칙 기반 봇 보고" href="data/bot_feed.xml">
 </head>
@@ -108,6 +109,15 @@
         <div class="audit-box"><b>공개판 운영 정책</b><p>수혜기업 공고, 운영기관 모집, 예산안을 분리합니다. 직접 확인되지 않은 신청자격·금액은 추정하지 않습니다. 원본 비공개 현황판의 개인정보, 회사정보, 서류와 자금계획은 공개판으로 복제하지 않습니다.</p><p>자동수집 원천: <a href="https://www.bizinfo.go.kr/apiDetail.do?id=bizinfoApi" target="_blank" rel="noopener noreferrer">기업마당 지원사업정보 공식 API ↗</a>. 정기 자동수집은 공식 API 키 등록 후 동작하며, 공고 상세의 자격·금액은 원문으로 재검증해야 합니다.</p></div>
       </section>
       <section class="section" id="evidenceAudit"><div class="section-title"><div><span class="eyebrow">EVIDENCE & REVIEW</span><h2>원문 확인과 변경 검토</h2><p>수집 성공·원문 열람·첨부 검증·신청 적격성은 서로 다른 단계입니다.</p></div></div><div id="sourceAudit"></div><details class="audit-box"><summary>API 차이 검토 대기</summary><div id="reviewList"></div></details></section>
+      <section class="section" id="agencyEvidence" aria-labelledby="agencyEvidenceTitle">
+        <div class="section-title"><div><span class="eyebrow">SOURCE-BOUND EVIDENCE · NO MODEL CALLS</span><h2 id="agencyEvidenceTitle">기관 후보 원문·첨부 근거</h2><p>목록에서 발견한 공고를 원문과 연결합니다. 첨부 본문 추출은 신청자격 판정이 아닙니다.</p></div></div>
+        <div class="bot-filters">
+          <label for="agencyEvidenceFilter">기관 <select id="agencyEvidenceFilter"><option value="all">전체 확인기관</option><option value="mss">중소벤처기업부</option><option value="nipa">NIPA</option></select></label>
+          <label for="agencyEvidenceQuery">원문 기록 검색 <input id="agencyEvidenceQuery" type="search" autocomplete="off" placeholder="공고명 또는 기관 공고 ID"></label>
+        </div>
+        <div id="agencyEvidenceBody" aria-live="polite"><p>공개 원문·첨부 기록을 읽는 중입니다.</p></div>
+        <div class="bot-links"><a class="btn btn-secondary" href="data/agency_evidence_report.md" download>기관 근거 보고서 저장</a><a class="btn btn-secondary" href="data/agency_evidence.json">공개 근거 JSON</a></div>
+      </section>
       <footer>AI FUNDING RADAR 2027 <span>공개 자료 안내 서비스 · 최종 신청 조건은 각 공고 원문을 우선합니다.</span><span id="footerDate"></span></footer>
     </main>
   </div>

@@ -90,6 +90,11 @@ jobs:
           python -m unittest discover -s scripts -p test_agencies.py -v
           node --test scripts/test_agency_report.cjs
           node --check assets/agency-report.js
+      - name: Agency candidate evidence and no-promotion regressions
+        run: |
+          python -m unittest discover -s scripts -p test_agency_evidence.py -v
+          node --test scripts/test_agency_evidence_ui.cjs
+          node --check assets/agency-evidence.js
       - name: Script syntax and public schema
         run: |
           node --check assets/app.js
@@ -150,6 +155,11 @@ jobs:
         if: github.event_name != 'push'
         continue-on-error: true
         run: python scripts/refresh_agencies.py
+      - name: Read agency candidate originals and linked attachments without AI
+        id: agency_evidence
+        if: github.event_name != 'push'
+        continue-on-error: true
+        run: python scripts/refresh_agency_evidence.py
       - name: Read linked official attachment bodies
         id: attachments
         if: github.event_name != 'push'
@@ -180,7 +190,7 @@ jobs:
           if [[ -n "$(git status --porcelain -- data)" ]]; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add data/programs.json data/monitor.json data/evidence.json data/change_reviews.json data/conditions.json data/attachments.json data/funding_rules.json data/startup_routes.json data/startup_sources.json data/bot_briefing.json data/bot_briefing.md data/bot_feed.xml data/agency_discovery.json data/agency_report.md
+            git add data/programs.json data/monitor.json data/evidence.json data/change_reviews.json data/conditions.json data/attachments.json data/funding_rules.json data/startup_routes.json data/startup_sources.json data/bot_briefing.json data/bot_briefing.md data/bot_feed.xml data/agency_discovery.json data/agency_report.md data/agency_evidence.json data/agency_evidence_report.md
             git commit -m "chore: record public discovery and evidence review"
             git fetch origin main
             git rebase origin/main
@@ -226,8 +236,16 @@ jobs:
           else
             echo 'Official agency report missing; not a successful no-change observation.' >> "$GITHUB_STEP_SUMMARY"
           fi
+      - name: Publish agency candidate evidence summary
+        if: always()
+        run: |
+          if [[ -f data/agency_evidence_report.md ]]; then
+            cat data/agency_evidence_report.md >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo 'Agency evidence unavailable; not a successful no-change check.' >> "$GITHUB_STEP_SUMMARY"
+          fi
       - name: Surface collector failure after publishing honest status
-        if: steps.refresh.outcome == 'failure' || steps.attachments.outcome == 'failure' || steps.startup_sources.outcome == 'failure' || steps.agencies.outcome == 'failure'
+        if: steps.refresh.outcome == 'failure' || steps.attachments.outcome == 'failure' || steps.startup_sources.outcome == 'failure' || steps.agencies.outcome == 'failure' || steps.agency_evidence.outcome == 'failure'
         run: |
           echo '::error::Collection incomplete/failed. Previous records preserved; see public source audit.'
           exit 1

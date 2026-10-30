@@ -35,7 +35,7 @@ test('recommendations are only candidates, never applied to choices',()=>{
 });
 test('packet includes only selected facts/plans and preserves source limitations',()=>{
  const r=F.build({fields,choices,application:fixture().items[0],form});
- assert.match(r.text,/사용자 붙여넣은 목차/);
+ assert.match(r.text,/사용자가 붙여넣은 목차/);
  assert.match(r.text,/<인터뷰> 2명/);
  assert.match(r.text,/향후 실증 10건/);
  assert.match(r.text,/사업비 산정/);

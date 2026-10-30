@@ -1,7 +1,7 @@
 {
   "schema": "public-funding-bot-briefing/v1",
   "engine_version": "0.15.0",
-  "generated_at": "2026-10-30T21:15:51+09:00",
+  "generated_at": "2026-10-31T00:35:20+09:00",
   "generation": "deterministic_no_model",
   "report_model_calls": 0,
   "ai_transport": "manual_cli_only",
@@ -27,7 +27,7 @@
       "last_attempt_at": "2026-10-30T21:13:03+09:00",
       "last_success_at": "2026-10-30T21:13:03+09:00",
       "freshness": "recent",
-      "workflow_outcome": "success",
+      "workflow_outcome": "skipped",
       "checked": 1491,
       "failed": 0,
       "detail": {
@@ -51,7 +51,7 @@
       "last_attempt_at": "2026-10-30T21:13:03+09:00",
       "last_success_at": null,
       "freshness": "recent",
-      "workflow_outcome": "success",
+      "workflow_outcome": "skipped",
       "checked": 6,
       "failed": 0,
       "detail": {
@@ -75,7 +75,7 @@
       "last_attempt_at": "2026-10-30T21:14:54+09:00",
       "last_success_at": null,
       "freshness": "recent",
-      "workflow_outcome": "success",
+      "workflow_outcome": "skipped",
       "checked": 4,
       "failed": 0,
       "detail": {
@@ -99,7 +99,7 @@
       "last_attempt_at": "2026-10-30T21:15:36+09:00",
       "last_success_at": null,
       "freshness": "recent",
-      "workflow_outcome": "success",
+      "workflow_outcome": "skipped",
       "checked": 3,
       "failed": 0,
       "detail": {
@@ -130,7 +130,7 @@
   },
   "counts": {
     "registered": 158,
-    "upcoming_deadlines": 21,
+    "upcoming_deadlines": 12,
     "queue_total": 33,
     "queue_shown": 33,
     "queue_by_action": {
@@ -140,122 +140,14 @@
   },
   "deadlines": [
     {
-      "program_id": "BIZINFO-PBLN_000000000119050",
-      "title": "[경남] 진주시 우주항공청 이주직원 가족 소상공인 창업 지원사업 공고",
-      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000119050",
-      "mode": "discovery",
-      "deadline": "2026-10-30",
-      "status": "today_time_unknown",
-      "date": "2026-10-30",
-      "days": 0,
-      "precision": "date_only",
-      "qualification": "개별 신청자격 미판정"
-    },
-    {
-      "program_id": "BIZINFO-PBLN_000000000126988",
-      "title": "[세종] 2026년 하반기 세종창업키움센터 전문가컨설팅 프로그램 모집 공고",
-      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126988",
-      "mode": "discovery",
-      "deadline": "2026-10-30",
-      "status": "today_time_unknown",
-      "date": "2026-10-30",
-      "days": 0,
-      "precision": "date_only",
-      "qualification": "개별 신청자격 미판정"
-    },
-    {
-      "program_id": "BIZINFO-PBLN_000000000127003",
-      "title": "2026년 전남광주 제3기 지역자원 연계 청년창업 지원사업 모집 공고",
-      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127003",
-      "mode": "discovery",
-      "deadline": "2026-10-30",
-      "status": "today_time_unknown",
-      "date": "2026-10-30",
-      "days": 0,
-      "precision": "date_only",
-      "qualification": "개별 신청자격 미판정"
-    },
-    {
-      "program_id": "BIZINFO-PBLN_000000000127148",
-      "title": "2026년 중동 AIㆍICT 온라인 상담회 참여기업 모집 공고",
-      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127148",
-      "mode": "discovery",
-      "deadline": "2026-10-30",
-      "status": "today_time_unknown",
-      "date": "2026-10-30",
-      "days": 0,
-      "precision": "date_only",
-      "qualification": "개별 신청자격 미판정"
-    },
-    {
-      "program_id": "BIZINFO-PBLN_000000000127158",
-      "title": "[경북] 칠곡군 2026년 청년농업인 R&D 기술창업 통합관리 지원 사업 공고",
-      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127158",
-      "mode": "discovery",
-      "deadline": "2026-10-30",
-      "status": "today_time_unknown",
-      "date": "2026-10-30",
-      "days": 0,
-      "precision": "date_only",
-      "qualification": "개별 신청자격 미판정"
-    },
-    {
-      "program_id": "BIZINFO-PBLN_000000000127162",
-      "title": "[전북] 군산시 2026년 창업플랫폼 예비창업자 모집 공고",
-      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127162",
-      "mode": "discovery",
-      "deadline": "2026-10-30",
-      "status": "today_time_unknown",
-      "date": "2026-10-30",
-      "days": 0,
-      "precision": "date_only",
-      "qualification": "개별 신청자격 미판정"
-    },
-    {
-      "program_id": "BIZINFO-PBLN_000000000127175",
-      "title": "[전남광주] 2026년 창업도시 조성 프로젝트 지역문제 해결(공공분야) AI 헬스케어 수혜기업 모집 연장 공고",
-      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127175",
-      "mode": "beneficiary",
-      "deadline": "2026-10-30",
-      "status": "today_time_unknown",
-      "date": "2026-10-30",
-      "days": 0,
-      "precision": "date_only",
-      "qualification": "개별 신청자격 미판정"
-    },
-    {
-      "program_id": "BIZINFO-PBLN_000000000127332",
-      "title": "2026년ㆍ2027년 Physical AI 기반 의료로봇 기술통합센터 구축 참여기업 모집 공고",
-      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127332",
-      "mode": "beneficiary",
-      "deadline": "2026-10-30",
-      "status": "today_time_unknown",
-      "date": "2026-10-30",
-      "days": 0,
-      "precision": "date_only",
-      "qualification": "개별 신청자격 미판정"
-    },
-    {
-      "program_id": "STEEL-AX-2026",
-      "title": "철강·금속 AX 실증센터 기업지원 기초단계",
-      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127469",
-      "mode": "beneficiary",
-      "deadline": "2026-10-30",
-      "status": "today_time_unknown",
-      "date": "2026-10-30",
-      "days": 0,
-      "precision": "date_only",
-      "qualification": "개별 신청자격 미판정"
-    },
-    {
       "program_id": "BIZINFO-PBLN_000000000123277",
       "title": "[대전ㆍ충청] 2026년 중소기업 AI훈련확산 지원사업 참여기업 모집 공고",
       "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123277",
       "mode": "discovery",
       "deadline": "2026-10-31",
-      "status": "upcoming",
+      "status": "today_time_unknown",
       "date": "2026-10-31",
-      "days": 1,
+      "days": 0,
       "precision": "date_only",
       "qualification": "개별 신청자격 미판정"
     },
@@ -265,9 +157,9 @@
       "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127277",
       "mode": "discovery",
       "deadline": "2026-10-31",
-      "status": "upcoming",
+      "status": "today_time_unknown",
       "date": "2026-10-31",
-      "days": 1,
+      "days": 0,
       "precision": "date_only",
       "qualification": "개별 신청자격 미판정"
     },
@@ -279,7 +171,7 @@
       "deadline": "2026-11-01",
       "status": "upcoming",
       "date": "2026-11-01",
-      "days": 2,
+      "days": 1,
       "precision": "date_only",
       "qualification": "개별 신청자격 미판정"
     },
@@ -291,7 +183,7 @@
       "deadline": "2026-11-01",
       "status": "upcoming",
       "date": "2026-11-01",
-      "days": 2,
+      "days": 1,
       "precision": "date_only",
       "qualification": "개별 신청자격 미판정"
     },
@@ -303,7 +195,7 @@
       "deadline": "2026-11-03",
       "status": "upcoming",
       "date": "2026-11-03",
-      "days": 4,
+      "days": 3,
       "precision": "date_only",
       "qualification": "개별 신청자격 미판정"
     },
@@ -315,7 +207,7 @@
       "deadline": "2026-11-04",
       "status": "upcoming",
       "date": "2026-11-04",
-      "days": 5,
+      "days": 4,
       "precision": "date_only",
       "qualification": "개별 신청자격 미판정"
     },
@@ -327,7 +219,7 @@
       "deadline": "2026-11-04",
       "status": "upcoming",
       "date": "2026-11-04",
-      "days": 5,
+      "days": 4,
       "precision": "date_only",
       "qualification": "개별 신청자격 미판정"
     },
@@ -339,7 +231,7 @@
       "deadline": "2026-11-04",
       "status": "upcoming",
       "date": "2026-11-04",
-      "days": 5,
+      "days": 4,
       "precision": "date_only",
       "qualification": "개별 신청자격 미판정"
     },
@@ -351,7 +243,7 @@
       "deadline": "2026-11-05",
       "status": "upcoming",
       "date": "2026-11-05",
-      "days": 6,
+      "days": 5,
       "precision": "date_only",
       "qualification": "개별 신청자격 미판정"
     },
@@ -363,7 +255,7 @@
       "deadline": "2026-11-05",
       "status": "upcoming",
       "date": "2026-11-05",
-      "days": 6,
+      "days": 5,
       "precision": "date_only",
       "qualification": "개별 신청자격 미판정"
     },
@@ -375,7 +267,7 @@
       "deadline": "2026-11-06",
       "status": "not_started",
       "date": "2026-11-06",
-      "days": 7,
+      "days": 6,
       "precision": "date_only",
       "qualification": "개별 신청자격 미판정"
     },
@@ -387,7 +279,7 @@
       "deadline": "2026-11-06",
       "status": "upcoming",
       "date": "2026-11-06",
-      "days": 7,
+      "days": 6,
       "precision": "date_only",
       "qualification": "개별 신청자격 미판정"
     }
@@ -795,5 +687,5 @@
   "scope": "기업마당 API, 기존 공식 원문·첨부 순환 수집 및 검토 원본 재확인. 전체 기관 독립 수집이나 자동 적격성 검증이 아님.",
   "notice": "이 보고서는 공개 저장자료의 규칙 기반 집계입니다. 후보·마감·우선순위는 신청 적격성, 선정 확률 또는 지원금 확정이 아닙니다. 자료 변경은 정책 변경 확정이 아니며 원문 대조가 필요합니다.",
   "ai_handoff": "공개 근거 검토요청 파일만 생성 가능. AI CLI 자동 실행·API 호출·결과 자동 반영 없음.",
-  "report_id": "48a98c44b80113fe800b4838"
+  "report_id": "b63201f14d78374d08da6f6d"
 }

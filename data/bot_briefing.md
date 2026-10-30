@@ -1,6 +1,6 @@
 # AI 창업 지원 — AI 없이 생성한 봇 보고서
 
-보고서 생성: 2026\-10\-30T21:15:51\+09:00
+보고서 생성: 2026\-10\-31T00:35:20\+09:00
 이번 범위의 수집 상태: **해당 회차 범위 확인**
 미해결 항목은 이번 실행 성공과 별도로 유지됩니다. 모델 호출: 0회(보고서 생성 경로).
 
@@ -14,17 +14,8 @@
 pending\_differences: 19 / attachment\_failures: 3 / notice\_failures: 0 / attachment\_limits: 11 / queued\_attachments: 40 / changed\_evidence: 0 / unverified\_programs: 118 / unverified\_2027: 0 / unknown\_dates: 82
 
 ## 다음 7일 내 기재 마감 — 개인 자격 미판정
-- 2026\-10\-30 · \[경남\] 진주시 우주항공청 이주직원 가족 소상공인 창업 지원사업 공고 · today\_time\_unknown · discovery
-- 2026\-10\-30 · \[세종\] 2026년 하반기 세종창업키움센터 전문가컨설팅 프로그램 모집 공고 · today\_time\_unknown · discovery
-- 2026\-10\-30 · 2026년 전남광주 제3기 지역자원 연계 청년창업 지원사업 모집 공고 · today\_time\_unknown · discovery
-- 2026\-10\-30 · 2026년 중동 AIㆍICT 온라인 상담회 참여기업 모집 공고 · today\_time\_unknown · discovery
-- 2026\-10\-30 · \[경북\] 칠곡군 2026년 청년농업인 R&amp;D 기술창업 통합관리 지원 사업 공고 · today\_time\_unknown · discovery
-- 2026\-10\-30 · \[전북\] 군산시 2026년 창업플랫폼 예비창업자 모집 공고 · today\_time\_unknown · discovery
-- 2026\-10\-30 · \[전남광주\] 2026년 창업도시 조성 프로젝트 지역문제 해결\(공공분야\) AI 헬스케어 수혜기업 모집 연장 공고 · today\_time\_unknown · beneficiary
-- 2026\-10\-30 · 2026년ㆍ2027년 Physical AI 기반 의료로봇 기술통합센터 구축 참여기업 모집 공고 · today\_time\_unknown · beneficiary
-- 2026\-10\-30 · 철강·금속 AX 실증센터 기업지원 기초단계 · today\_time\_unknown · beneficiary
-- 2026\-10\-31 · \[대전ㆍ충청\] 2026년 중소기업 AI훈련확산 지원사업 참여기업 모집 공고 · upcoming · discovery
-- 2026\-10\-31 · 일본진출 K\-스타트업 AI 역직구 온라인 한국관 특별전 모집 공고 · upcoming · discovery
+- 2026\-10\-31 · \[대전ㆍ충청\] 2026년 중소기업 AI훈련확산 지원사업 참여기업 모집 공고 · today\_time\_unknown · discovery
+- 2026\-10\-31 · 일본진출 K\-스타트업 AI 역직구 온라인 한국관 특별전 모집 공고 · today\_time\_unknown · discovery
 - 2026\-11\-01 · \[부산\] 해운대구 청년 창업자 임차료 지원사업 참여자 추가 모집 공고 · upcoming · discovery
 - 2026\-11\-01 · \[충남\] 2026년 충남창업마루나비 인플루언서 마케팅 지원사업 모집 공고 · upcoming · discovery
 - 2026\-11\-03 · \[경북\] 청도군 2026년 청년농업인 R&amp;D 기술창업 통합관리 지원사업 신청 공고 · upcoming · discovery

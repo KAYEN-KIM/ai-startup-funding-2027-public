@@ -207,3 +207,15 @@ The preparation file format is now `private-funding-applications/v3`. Explicit v
 
 See `RELEASE_P014.md` for limits and boundaries. New regression command:
 `node --test scripts/test_application_plan.cjs scripts/test_application_plan_ui.cjs`.
+
+
+## P0.15 — AI 없이 도는 일일 보고·검토 대기 봇
+
+공개 현황판의 `매일 봇 보고`에서 경로별 이번 실행 결과, 누적 첨부 실패,
+변경 검토, 기재 마감을 확인합니다. `scripts/bot_briefing.py`가 기존 공개 자료만
+정해진 규칙으로 집계하며 모델·외부 AI API·자동 CLI 호출은 없습니다.
+필요한 해석 작업은 `scripts/prepare_cli_review.py`로 공개 근거 요청 파일만
+생성하여 수동 CLI로 인계합니다. 자동 승인·개인정보 업로드·신청 실행은 하지 않습니다.
+보고서·RSS·GitHub 작업 요약은 ChatGPT 메시지나 자동 휴대전화 푸시가 아닙니다.
+전체 기관 탐색·새 원문 자격 검증은 자동 대체 완료로 주장하지 않습니다.
+범위·검증·운영 경계: `docs/P015_BOT_FIRST.md`.

@@ -1,0 +1,14 @@
+#botReport .bot-banner{padding:18px 20px;border:1px solid #375c60;border-radius:13px;background:#142b32}
+#botReport .bot-warning{border-color:#716344;background:#302c24}
+#botReport .bot-banner p{margin:7px 0 0;font-size:12px;color:#c2d0de}
+#botReport .bot-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:13px}
+#botReport .bot-lane{display:flex;flex-direction:column;gap:7px;padding:16px;background:#152238;border:1px solid #33465d;border-radius:12px}
+#botReport .bot-lane span{font-size:13px;color:#b9e8db}
+#botReport .bot-lane small{color:#9fb4cc;overflow-wrap:anywhere}
+#botReport .bot-list{list-style:none;padding:0;margin:14px 0 0}
+#botReport .bot-list li{padding:13px 0;border-top:1px solid #304059;overflow-wrap:anywhere}
+#botReport .bot-list p{margin:5px 0;font-size:12px}
+#botReport .bot-list a{margin-left:8px;color:#a4e9d6}
+#botReport>p{font-size:12px;color:#a8bbcf;line-height:1.8}
+#botReport .bot-links{display:flex;gap:10px;flex-wrap:wrap;margin:14px 0}
+@media(max-width:600px){#botReport .bot-grid{grid-template-columns:1fr}#botReport .bot-list .tag{display:inline-block;margin-top:5px}}

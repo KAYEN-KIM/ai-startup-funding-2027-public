@@ -1,0 +1,14 @@
+{
+  "schema": "funding-automation-policy/v1",
+  "mode": "deterministic_bot_first",
+  "scheduled_ai_calls": false,
+  "ai_api_calls": false,
+  "optional_ai_transport": "manual_cli_only",
+  "automatic_rule_approval": false,
+  "automatic_application_submission": false,
+  "private_application_inputs_in_public_report": false,
+  "freshness_hours": 30,
+  "deadline_window_days": 7,
+  "queue_limit": 120,
+  "scope": "기업마당 API, 기존 공식 원문·첨부 순환 수집 및 검토 원본 재확인. 전체 기관 독립 수집이나 자동 적격성 검증이 아님."
+}

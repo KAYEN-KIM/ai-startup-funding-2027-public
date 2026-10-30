@@ -6,7 +6,7 @@ from pathlib import Path
 from radar_core import official_url
 from condition_catalog import build_catalog, validate_registry
 ROOT=Path(__file__).resolve().parents[1]
-FILES={'programs.json','monitor.json','evidence.json','change_reviews.json','conditions.json','attachments.json','funding_rules.json','startup_routes.json','startup_sources.json'}
+FILES={'programs.json','monitor.json','evidence.json','change_reviews.json','conditions.json','attachments.json','funding_rules.json','startup_routes.json','startup_sources.json','bot_briefing.json'}
 PROGRAM_FIELDS={'id','title','year','years','year_basis','kind','mode','relevance','opens','deadline','deadline_precision','application_period_raw','source','verified_at','amount','eligibility','note','priority','source_level','agency','attachments'}
 PRIVATE={'company_profile','applicant_profile','applicant_memo','resident_number','taxpayer_id','bank_account','access_token','secret_key','password','api_key','crtfcKey','serviceKey','budget_private','application_documents'}
 MODES={'beneficiary','discovery','reference','operator','budget'}
@@ -75,6 +75,9 @@ def main():
     scan(startup)
     require('startup_routes.json' in loaded and 'startup_sources.json' in loaded,'Startup reference catalog missing')
     require(loaded['startup_routes.json']==build_startup(p,startup,loaded['startup_sources.json']),'Startup reference catalog is stale or altered')
+    if 'bot_briefing.json' in loaded:
+        from bot_briefing import validate_outputs
+        validate_outputs(ROOT)
     print('Public schema validation OK:',len(items),'records;',len(found),'allowlisted JSON files')
 
 if __name__=='__main__':main()

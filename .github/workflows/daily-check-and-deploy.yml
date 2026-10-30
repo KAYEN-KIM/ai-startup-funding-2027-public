@@ -79,6 +79,12 @@ jobs:
           node --test scripts/test_application_plan.cjs scripts/test_application_plan_ui.cjs
           node --check assets/application-plan.js
           node --check assets/application-plan-view.js
+      - name: Deterministic bot briefing and CLI packet regressions
+        run: |
+          python -m unittest discover -s scripts -p test_bot_briefing.py -v
+          python -m unittest discover -s scripts -p test_bot_contract.py -v
+          node --test scripts/test_bot_report.cjs
+          node --check assets/bot-report.js
       - name: Script syntax and public schema
         run: |
           node --check assets/app.js
@@ -137,17 +143,26 @@ jobs:
         continue-on-error: true
         run: python scripts/refresh_startup_sources.py
       - name: Build condition catalog and validate before any public commit
+        env:
+          BOT_API_OUTCOME: ${{ steps.refresh.outcome }}
+          BOT_ATTACHMENTS_OUTCOME: ${{ steps.attachments.outcome }}
+          BOT_STARTUP_OUTCOME: ${{ steps.startup_sources.outcome }}
         run: |
           python scripts/condition_catalog.py
           python scripts/funding_catalog.py
           python scripts/startup_catalog.py
+          python scripts/bot_briefing.py
           python scripts/validate.py
       - name: Commit allowlisted public records only
+        env:
+          BOT_API_OUTCOME: ${{ steps.refresh.outcome }}
+          BOT_ATTACHMENTS_OUTCOME: ${{ steps.attachments.outcome }}
+          BOT_STARTUP_OUTCOME: ${{ steps.startup_sources.outcome }}
         run: |
           if [[ -n "$(git status --porcelain -- data)" ]]; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add data/programs.json data/monitor.json data/evidence.json data/change_reviews.json data/conditions.json data/attachments.json data/funding_rules.json data/startup_routes.json data/startup_sources.json
+            git add data/programs.json data/monitor.json data/evidence.json data/change_reviews.json data/conditions.json data/attachments.json data/funding_rules.json data/startup_routes.json data/startup_sources.json data/bot_briefing.json data/bot_briefing.md data/bot_feed.xml
             git commit -m "chore: record public discovery and evidence review"
             git fetch origin main
             git rebase origin/main
@@ -156,14 +171,19 @@ jobs:
             python scripts/condition_catalog.py
             python scripts/funding_catalog.py
             python scripts/startup_catalog.py
+            python scripts/bot_briefing.py
             python scripts/validate.py
-            if ! git diff --quiet -- data/conditions.json data/funding_rules.json data/startup_routes.json; then
-              git add data/conditions.json data/funding_rules.json data/startup_routes.json
+            if ! git diff --quiet -- data/conditions.json data/funding_rules.json data/startup_routes.json data/bot_briefing.json data/bot_briefing.md data/bot_feed.xml; then
+              git add data/conditions.json data/funding_rules.json data/startup_routes.json data/bot_briefing.json data/bot_briefing.md data/bot_feed.xml
               git commit -m "chore: align condition catalog with rebased public records"
             fi
             git push origin HEAD:main
           fi
       - name: Build only public artifacts
+        env:
+          BOT_API_OUTCOME: ${{ steps.refresh.outcome }}
+          BOT_ATTACHMENTS_OUTCOME: ${{ steps.attachments.outcome }}
+          BOT_STARTUP_OUTCOME: ${{ steps.startup_sources.outcome }}
         run: python scripts/build_public.py
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
@@ -172,6 +192,14 @@ jobs:
       - name: Deploy public website
         id: deployment
         uses: actions/deploy-pages@v4
+      - name: Publish deterministic bot job summary
+        if: always()
+        run: |
+          if [[ -f data/bot_briefing.md ]]; then
+            cat data/bot_briefing.md >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo 'Bot report generation failed; this is not a successful no-change check.' >> "$GITHUB_STEP_SUMMARY"
+          fi
       - name: Surface collector failure after publishing honest status
         if: steps.refresh.outcome == 'failure' || steps.attachments.outcome == 'failure' || steps.startup_sources.outcome == 'failure'
         run: |

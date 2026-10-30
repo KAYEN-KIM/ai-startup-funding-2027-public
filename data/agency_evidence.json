@@ -1,7 +1,7 @@
 {
   "schema": "public-funding-agency-evidence/v1",
   "version": "0.17.0",
-  "generated_at": "2026-10-30T20:57:46+09:00",
+  "generated_at": "2026-10-30T21:14:28+09:00",
   "model_calls": 0,
   "automatic_approval": false,
   "scope": "기관 직접 목록의 원문 최대 3건·첨부 최대 4건 순환 확인. 본문 추출은 조건 후보이며 신청자격·금액·중복지원·문서 완전성 검증이 아닙니다. 기존 공고와 검토 규칙은 수정하지 않습니다.",
@@ -112,6 +112,147 @@
           "status": "html_available",
           "body_sha256": "9c6792dc87875cca4c169f2b3240b29755330c003f7ff9bfe030aa5dd21f2821",
           "manifest_sha256": "e18299fdfba89c2dafa495d6bc78962acf08c4ee2961d80f5fbe3e7bb6455ec0",
+          "error": null
+        }
+      ],
+      "unhandled_links": 0
+    },
+    "MSS-1071419": {
+      "id": "MSS-1071419",
+      "agency_id": "mss",
+      "source": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1071419",
+      "title": "2026년도 딥테크 챌린지 프로젝트(DCP 기술도전형) 제2차 기술수요조사 시행계획 공고",
+      "listing_fingerprint": "325a1edee298b77ab9fc2c41753f23a1b77f583f5ec859333655b89375c71d70",
+      "listing_seen_at": "2026-10-30T21:14:20+09:00",
+      "last_attempt_at": "2026-10-30T21:14:28+09:00",
+      "last_success_at": "2026-10-30T21:14:28+09:00",
+      "status": "html_available",
+      "last_error": null,
+      "review_required": false,
+      "body_sha256": "245dfcc086afd0dcddb568489652f66b9862c845767ae4e05d27915d64d76dae",
+      "manifest_sha256": "7298e0bf728dbaae4a4c54fb87e95acd598522c893ba4a986f7a6c67bbe4931e",
+      "documents": [
+        {
+          "id": "2f7ff452c4d55ac38622e767",
+          "name": "61e34b02-e27d-41e7-b15b-ed27b246a1bc.pdf",
+          "public_url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1071419&cbIdx=310&streFileNm=61e34b02-e27d-41e7-b15b-ed27b246a1bc.pdf",
+          "locator": "공고 첨부파일 목록 / 61e34b02-e27d-41e7-b15b-ed27b246a1bc.pdf"
+        },
+        {
+          "id": "6af331ca9885192d57fcd556",
+          "name": "08451d32-ecd3-40fe-ba6b-287cc730ebf7.pdf",
+          "public_url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1071419&cbIdx=310&streFileNm=08451d32-ecd3-40fe-ba6b-287cc730ebf7.pdf",
+          "locator": "공고 첨부파일 목록 / 08451d32-ecd3-40fe-ba6b-287cc730ebf7.pdf"
+        },
+        {
+          "id": "7ec22f84e31e5bc2cb8e00d0",
+          "name": "b03e6c8f-d9fc-4b9d-9839-2833282b9805.hwpx",
+          "public_url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1071419&cbIdx=310&streFileNm=b03e6c8f-d9fc-4b9d-9839-2833282b9805.hwpx",
+          "locator": "공고 첨부파일 목록 / b03e6c8f-d9fc-4b9d-9839-2833282b9805.hwpx"
+        },
+        {
+          "id": "9ff78e1fc435417dfeea47eb",
+          "name": "353c9131-5b70-46c2-b15e-abccd0bce54d.hwpx",
+          "public_url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1071419&cbIdx=310&streFileNm=353c9131-5b70-46c2-b15e-abccd0bce54d.hwpx",
+          "locator": "공고 첨부파일 목록 / 353c9131-5b70-46c2-b15e-abccd0bce54d.hwpx"
+        },
+        {
+          "id": "c421f0feb0c368a6478253ec",
+          "name": "bca46ee8-2ef8-47f2-b741-602228843e78.hwpx",
+          "public_url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1071419&cbIdx=310&streFileNm=bca46ee8-2ef8-47f2-b741-602228843e78.hwpx",
+          "locator": "공고 첨부파일 목록 / bca46ee8-2ef8-47f2-b741-602228843e78.hwpx"
+        },
+        {
+          "id": "e703e7c83ceb9e87ed8947f4",
+          "name": "0f56cb7b-d353-4ffd-846a-c06f7cc4cb2b.pdf",
+          "public_url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1071419&cbIdx=310&streFileNm=0f56cb7b-d353-4ffd-846a-c06f7cc4cb2b.pdf",
+          "locator": "공고 첨부파일 목록 / 0f56cb7b-d353-4ffd-846a-c06f7cc4cb2b.pdf"
+        }
+      ],
+      "history": [
+        {
+          "at": "2026-10-30T21:14:28+09:00",
+          "status": "html_available",
+          "body_sha256": "245dfcc086afd0dcddb568489652f66b9862c845767ae4e05d27915d64d76dae",
+          "manifest_sha256": "7298e0bf728dbaae4a4c54fb87e95acd598522c893ba4a986f7a6c67bbe4931e",
+          "error": null
+        }
+      ],
+      "unhandled_links": 0
+    },
+    "NIPA-16953": {
+      "id": "NIPA-16953",
+      "agency_id": "nipa",
+      "source": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16953&tab=2",
+      "title": "2026년도 한-베트남 AI 디지털 포럼 전시 및 비즈니스 매칭 부스 참가기업 모집",
+      "listing_fingerprint": "104080d5fd3416c80c905e7dbf77f793cc9c7545fd623a40fd1a90f118c910db",
+      "listing_seen_at": "2026-10-30T21:14:20+09:00",
+      "last_attempt_at": "2026-10-30T21:14:28+09:00",
+      "last_success_at": "2026-10-30T21:14:28+09:00",
+      "status": "html_available",
+      "last_error": null,
+      "review_required": false,
+      "body_sha256": "2e808d6febea1b44a48ccfe6eee12d2df80add65f4427b3ac38d6c4d1b7ed81f",
+      "manifest_sha256": "02cd36ebf465d728be836978a6617471951a332568d8e62ffc80193ac16eb420",
+      "documents": [
+        {
+          "id": "0ce2fe8f49a1fb8d48930af5",
+          "name": "붙임2. [참가신청서] 2026년도 한-베트남 AI·디지털 포럼 참가기업 모집.hwp",
+          "public_url": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16953&tab=2",
+          "locator": "공고 첨부파일 목록 / 붙임2. [참가신청서] 2026년도 한-베트남 AI·디지털 포럼 참가기업 모집.hwp"
+        },
+        {
+          "id": "740f8ee7237fdd49438abe1c",
+          "name": "붙임1. [공고문] 2026년도 한-베트남 AI·디지털 포럼 참가기업 모집.hwp",
+          "public_url": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16953&tab=2",
+          "locator": "공고 첨부파일 목록 / 붙임1. [공고문] 2026년도 한-베트남 AI·디지털 포럼 참가기업 모집.hwp"
+        }
+      ],
+      "history": [
+        {
+          "at": "2026-10-30T21:14:28+09:00",
+          "status": "html_available",
+          "body_sha256": "2e808d6febea1b44a48ccfe6eee12d2df80add65f4427b3ac38d6c4d1b7ed81f",
+          "manifest_sha256": "02cd36ebf465d728be836978a6617471951a332568d8e62ffc80193ac16eb420",
+          "error": null
+        }
+      ],
+      "unhandled_links": 0
+    },
+    "MSS-1072138": {
+      "id": "MSS-1072138",
+      "agency_id": "mss",
+      "source": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1072138",
+      "title": "2027년 스마트 제조혁신 지원사업 통합공고",
+      "listing_fingerprint": "f8c278616014df06dbe1e9c7e58409a32c7c7a3fbb4f58f32d62ba64cc24e174",
+      "listing_seen_at": "2026-10-30T21:14:20+09:00",
+      "last_attempt_at": "2026-10-30T21:14:28+09:00",
+      "last_success_at": "2026-10-30T21:14:28+09:00",
+      "status": "html_available",
+      "last_error": null,
+      "review_required": false,
+      "body_sha256": "6ce268054f0abbee3d86ca3f30b1985bc474fa5466f4b8b68ed6ef1e10cc8d04",
+      "manifest_sha256": "ee088bb5fee43bc8b654c1b83dc7b33c094cd1e85b3a3033f915e95cea306780",
+      "documents": [
+        {
+          "id": "29b7d3de16f487e19941864f",
+          "name": "008b1236-66ba-463e-a181-e5bc0912a772.pdf",
+          "public_url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1072138&cbIdx=310&streFileNm=008b1236-66ba-463e-a181-e5bc0912a772.pdf",
+          "locator": "공고 첨부파일 목록 / 008b1236-66ba-463e-a181-e5bc0912a772.pdf"
+        },
+        {
+          "id": "654f9cde0b6f1fe061691e81",
+          "name": "46e8dc89-e5ca-4a96-ba26-987c862bba08.hwpx",
+          "public_url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1072138&cbIdx=310&streFileNm=46e8dc89-e5ca-4a96-ba26-987c862bba08.hwpx",
+          "locator": "공고 첨부파일 목록 / 46e8dc89-e5ca-4a96-ba26-987c862bba08.hwpx"
+        }
+      ],
+      "history": [
+        {
+          "at": "2026-10-30T21:14:28+09:00",
+          "status": "html_available",
+          "body_sha256": "6ce268054f0abbee3d86ca3f30b1985bc474fa5466f4b8b68ed6ef1e10cc8d04",
+          "manifest_sha256": "ee088bb5fee43bc8b654c1b83dc7b33c094cd1e85b3a3033f915e95cea306780",
           "error": null
         }
       ],
@@ -985,10 +1126,447 @@
       "http_status": null,
       "failure_kind": null,
       "retryable": false
+    },
+    "2f7ff452c4d55ac38622e767": {
+      "id": "2f7ff452c4d55ac38622e767",
+      "program_id": "MSS-1071419",
+      "notice_source": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1071419",
+      "url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1071419&cbIdx=310&streFileNm=61e34b02-e27d-41e7-b15b-ed27b246a1bc.pdf",
+      "name": "61e34b02-e27d-41e7-b15b-ed27b246a1bc.pdf",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-10-30T21:14:28+09:00",
+      "last_success_at": "2026-10-30T21:14:28+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-10-30T21:14:28+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "3a46a193a62acf561835e1104a91c11cd4a8aafee3a652e3d074640c5312ddeb",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "3a46a193a62acf561835e1104a91c11cd4a8aafee3a652e3d074640c5312ddeb",
+      "sha256": "3a46a193a62acf561835e1104a91c11cd4a8aafee3a652e3d074640c5312ddeb",
+      "extraction": {
+        "format": "pdf",
+        "parser": "pypdf/6.15.0",
+        "sha256": "3a46a193a62acf561835e1104a91c11cd4a8aafee3a652e3d074640c5312ddeb",
+        "bytes": 249175,
+        "status": "text_extracted",
+        "text_characters": 2436,
+        "units": 13,
+        "text_sha256": "01d3741a97d52b055d33dc08d508390e565b5cd286e870cb531af0779b5c27ad",
+        "pages": 5,
+        "sections": null,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "39f3e6899dbb8cee1bf7",
+            "category": "eligibility",
+            "excerpt": "데이터센터·모델□ SMR·핵융합□ 재생에너지·수소·전력망□ 첨단바이오□ 우주·항공·방산□ 양자·보안·네트워크□ 첨단 소재·자원최종 개발 목표◦ 국내 참여기관(해당 시 작성)◦ 기업, 대학, 출연연 등 참여(예정)기관명국외 참여기관(해당 시 작성)◦ 기업, 대학, 출연연 등 참여(예정)기관명 총 기술개발 기간총 소요 금액(억원)민간 선투자, R&D출연금 등을 전부 포함한 금액 기준(기술수요조사 공고 內 지원내용",
+            "locator": "PDF p.2 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "8572386459e80cec7878",
+            "category": "amount",
+            "excerpt": "◦ (기술개발 필요성) - - ◦ (혁신성 및 도전성) - - ◦ - - * 민간투자 및 정부지원 필요성, 해결하고자 하는 문제 등 제시(기업성장, 생태계 강화, 글로벌 경쟁력 강화 등)",
+            "locator": "PDF p.3 / text-line 4",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "표 열 순서·이미지·주석의 의미는 검토하지 않았습니다.",
+          "OCR 미수행"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
+    },
+    "6af331ca9885192d57fcd556": {
+      "id": "6af331ca9885192d57fcd556",
+      "program_id": "MSS-1071419",
+      "notice_source": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1071419",
+      "url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1071419&cbIdx=310&streFileNm=08451d32-ecd3-40fe-ba6b-287cc730ebf7.pdf",
+      "name": "08451d32-ecd3-40fe-ba6b-287cc730ebf7.pdf",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-10-30T21:14:28+09:00",
+      "last_success_at": "2026-10-30T21:14:28+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-10-30T21:14:28+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "2105110c8f92968f20144de8e78aba1a22de072f484a922fba8285932e56cf40",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "2105110c8f92968f20144de8e78aba1a22de072f484a922fba8285932e56cf40",
+      "sha256": "2105110c8f92968f20144de8e78aba1a22de072f484a922fba8285932e56cf40",
+      "extraction": {
+        "format": "pdf",
+        "parser": "pypdf/6.15.0",
+        "sha256": "2105110c8f92968f20144de8e78aba1a22de072f484a922fba8285932e56cf40",
+        "bytes": 358509,
+        "status": "text_extracted",
+        "text_characters": 49500,
+        "units": 311,
+        "text_sha256": "c1228a8f50d0994057a7098774ad3450aed3ec6070c2fdabcdb04bdcad7a1f18",
+        "pages": 41,
+        "sections": null,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "b39deb9bc2c39739e7ca",
+            "category": "eligibility",
+            "excerpt": "광화학NC0702. 무기광화학NC0703. 생물광화학NC0704. 고분자광화학NC0705. 물리광화학NC0706. 광소재화학NC0707. 태양에너지화학NC0708. 전기광화학NC0799. 달리 분류되지 않는 광화학",
+            "locator": "PDF p.4 / text-line 3",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "6b736a6daf3100aa1df0",
+            "category": "eligibility",
+            "excerpt": "2. 무기초분자화학NC0303. 유기금속화학NC0304. 생무기화학NC0305. 고체무기화학/결정학NC0306. 무기소재화학NC0307. 촉매화학NC0308. 무기의약화학NC0399. 달리 분류되지 않는 무기화학NC08전기화학NC0801. 물리전기화학NC0802. 분석전기화학NC0803. 분자전기화학NC0804. 에너지 변환/저장 전기화학NC0805. 부식/표면 처리NC0806. 산업전기화학/전기화학공정NC0",
+            "locator": "PDF p.4 / text-line 4",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "f9f1b7c4d8016a45570f",
+            "category": "eligibility",
+            "excerpt": "ND10해양생명ND1001. 해양생물자원ND1002. 해양생물자원 유전현상규명ND1003. 신소재가공ND1004. 해양생물공정ND1099. 달리 분류되지 않는 해양생명",
+            "locator": "PDF p.5 / text-line 6",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "dd8cbfc604e02ec39fab",
+            "category": "eligibility",
+            "excerpt": "LA07융합바이오LA0701. 바이오칩LA0702. 바이오센서LA0703. 나노바이오소재LA0704. 바이오이미징LA0705. 시스템생물학LA0706. 생물정보학LA0799. 달리 분류되지 않는 융합바이오",
+            "locator": "PDF p.7 / text-line 5",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "5f46dd5ca294d62f922b",
+            "category": "eligibility",
+            "excerpt": "포생리학LA0405. 전기생리학LA0499. 달리 분류되지 않는 면역학/생리학LA09산업바이오LA0901. 바이오화학소재LA0905. 바이오화장품LA0906. 바이오식품LA0907. 바이오환경LA0908. 바이오농축산LA0909. 바이오공정LA0910. 바이오기기LA0999. 달리 분류되지 않는 산업바이오LA05분류/생태/환경생물학",
+            "locator": "PDF p.7 / text-line 6",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "표 열 순서·이미지·주석의 의미는 검토하지 않았습니다.",
+          "OCR 미수행"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
+    },
+    "7ec22f84e31e5bc2cb8e00d0": {
+      "id": "7ec22f84e31e5bc2cb8e00d0",
+      "program_id": "MSS-1071419",
+      "notice_source": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1071419",
+      "url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1071419&cbIdx=310&streFileNm=b03e6c8f-d9fc-4b9d-9839-2833282b9805.hwpx",
+      "name": "b03e6c8f-d9fc-4b9d-9839-2833282b9805.hwpx",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-10-30T21:14:28+09:00",
+      "last_success_at": "2026-10-30T21:14:28+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-10-30T21:14:28+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "0c271c8d138feeefd6d69a215f3ac18651c0855d83bd8c5cde7cf6134c1d5d1f",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "0c271c8d138feeefd6d69a215f3ac18651c0855d83bd8c5cde7cf6134c1d5d1f",
+      "sha256": "0c271c8d138feeefd6d69a215f3ac18651c0855d83bd8c5cde7cf6134c1d5d1f",
+      "extraction": {
+        "format": "hwpx",
+        "parser": "hwp-body/0.4.0",
+        "sha256": "0c271c8d138feeefd6d69a215f3ac18651c0855d83bd8c5cde7cf6134c1d5d1f",
+        "bytes": 75817,
+        "status": "text_extracted",
+        "text_characters": 3737,
+        "units": 107,
+        "text_sha256": "c7556f77261fe0ee993d51f53e7c2e03cbf499ed754fef8b29a4a396b6728902",
+        "pages": null,
+        "sections": 1,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "2f9523868a1ddb1f58f4",
+            "category": "eligibility",
+            "excerpt": "□ 지원 대상 : 중소벤처기업 주관(대학·출연연·전문연 등 컨소시엄 참여 필수)",
+            "locator": "Contents/section0.xml / paragraph 27",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "6ef463907813fe9d036f",
+            "category": "amount",
+            "excerpt": "** ①국공립연구기관, ②「특정연구기관육성법」에 따른 특정연구기관, ③「정부출연연구기관 등의 설립·운영 및 육성에 관한 법률」에 따른 정부출연연구기관, ④「과학기술분야 정부출연연구기관 등의 설립·운영 및 육성에 관한 법률」 제8조제1항에 따른 과학기술분야 정부출연연구기관, ⑤「지방자치단체출연 연구원의 설립 및 운영에 관한 법률」 제2조에 따른 지방자치단체출연 연구원, ⑥「산업기술혁신촉진법」 제42조에 따른 전",
+            "locator": "Contents/section0.xml / paragraph 69",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "4093e414728bf02db0cd",
+            "category": "eligibility",
+            "excerpt": "모델, ④SMR·핵융합, ⑤재생에너지·수소·전력망, ⑥첨단바이오, ⑦우주·항공·방산, ⑧양자·보안·네트워크, ⑨첨단 소재·자원",
+            "locator": "Contents/section0.xml / paragraph 73",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "69e0639a70daf366f224",
+            "category": "amount",
+            "excerpt": "□ (지원내용) 프로젝트당 90억원 내외(민간 先투자 20억원 이상, 출연방식 R&D 최대 50억원 이내) + 지분투자(모태펀드)*",
+            "locator": "Contents/section0.xml / paragraph 77",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "cb94c3729b1418b3d7d6",
+            "category": "documents",
+            "excerpt": "◦ (제출서류) 제안자가 홈페이지*에서 제출 서식(붙임1)을 다운로드 받아 작성하고 홈페이지에 제안내용을 온라인 입력 후 제출서류를 첨부하여 등록",
+            "locator": "Contents/section0.xml / paragraph 118",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "924970fcc9e185722776",
+            "category": "amount",
+            "excerpt": "◦ 지원 규모는 과제별 지원 한도 내에서 결정되며, 과제 제안 시 기간·규모를 제안하여야 함",
+            "locator": "Contents/section0.xml / paragraph 141",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "d73b48087f62d894c4cb",
+            "category": "deadline",
+            "excerpt": "- 접수기간 이후에 수요조사 제안서를 제출한 경우",
+            "locator": "Contents/section0.xml / paragraph 147",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "구역·문단 위치는 실제 인쇄 쪽번호가 아닙니다.",
+          "표 셀 관계·그림·각주 의미는 미검토"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
+    },
+    "9ff78e1fc435417dfeea47eb": {
+      "id": "9ff78e1fc435417dfeea47eb",
+      "program_id": "MSS-1071419",
+      "notice_source": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1071419",
+      "url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1071419&cbIdx=310&streFileNm=353c9131-5b70-46c2-b15e-abccd0bce54d.hwpx",
+      "name": "353c9131-5b70-46c2-b15e-abccd0bce54d.hwpx",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-10-30T21:14:28+09:00",
+      "last_success_at": "2026-10-30T21:14:28+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-10-30T21:14:28+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "c2ef38bab5e110a172a29c77a06afcee083a70c2de40694af6d0403ac2fc9f3d",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "c2ef38bab5e110a172a29c77a06afcee083a70c2de40694af6d0403ac2fc9f3d",
+      "sha256": "c2ef38bab5e110a172a29c77a06afcee083a70c2de40694af6d0403ac2fc9f3d",
+      "extraction": {
+        "format": "hwpx",
+        "parser": "hwp-body/0.4.0",
+        "sha256": "c2ef38bab5e110a172a29c77a06afcee083a70c2de40694af6d0403ac2fc9f3d",
+        "bytes": 156919,
+        "status": "text_extracted",
+        "text_characters": 49455,
+        "units": 3804,
+        "text_sha256": "37663ee6e673512511614011ee21b11f0883ec51c43f02f9b59737a3bdd44727",
+        "pages": null,
+        "sections": 1,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "1c4734bbd0c10b44e030",
+            "category": "eligibility",
+            "excerpt": "NC0706. 광소재화학",
+            "locator": "Contents/section0.xml / paragraph 291",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "9cc05331c4cd9ab6e0dc",
+            "category": "eligibility",
+            "excerpt": "NC0306. 무기소재화학",
+            "locator": "Contents/section0.xml / paragraph 302",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "600341e264939081e65a",
+            "category": "eligibility",
+            "excerpt": "ND1003. 신소재가공",
+            "locator": "Contents/section0.xml / paragraph 471",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "dea645b8f50217ea8aa1",
+            "category": "eligibility",
+            "excerpt": "LA0703. 나노바이오소재",
+            "locator": "Contents/section0.xml / paragraph 580",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "806399b581de50fe402b",
+            "category": "eligibility",
+            "excerpt": "LA0901. 바이오화학소재",
+            "locator": "Contents/section0.xml / paragraph 619",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "구역·문단 위치는 실제 인쇄 쪽번호가 아닙니다.",
+          "표 셀 관계·그림·각주 의미는 미검토"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
+    },
+    "c421f0feb0c368a6478253ec": {
+      "id": "c421f0feb0c368a6478253ec",
+      "program_id": "MSS-1071419",
+      "notice_source": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1071419",
+      "url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1071419&cbIdx=310&streFileNm=bca46ee8-2ef8-47f2-b741-602228843e78.hwpx",
+      "name": "bca46ee8-2ef8-47f2-b741-602228843e78.hwpx",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
+    },
+    "e703e7c83ceb9e87ed8947f4": {
+      "id": "e703e7c83ceb9e87ed8947f4",
+      "program_id": "MSS-1071419",
+      "notice_source": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1071419",
+      "url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1071419&cbIdx=310&streFileNm=0f56cb7b-d353-4ffd-846a-c06f7cc4cb2b.pdf",
+      "name": "0f56cb7b-d353-4ffd-846a-c06f7cc4cb2b.pdf",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
+    },
+    "0ce2fe8f49a1fb8d48930af5": {
+      "id": "0ce2fe8f49a1fb8d48930af5",
+      "program_id": "NIPA-16953",
+      "notice_source": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16953&tab=2",
+      "url": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16953&tab=2",
+      "name": "붙임2. [참가신청서] 2026년도 한-베트남 AI·디지털 포럼 참가기업 모집.hwp",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
+    },
+    "740f8ee7237fdd49438abe1c": {
+      "id": "740f8ee7237fdd49438abe1c",
+      "program_id": "NIPA-16953",
+      "notice_source": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16953&tab=2",
+      "url": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16953&tab=2",
+      "name": "붙임1. [공고문] 2026년도 한-베트남 AI·디지털 포럼 참가기업 모집.hwp",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
+    },
+    "29b7d3de16f487e19941864f": {
+      "id": "29b7d3de16f487e19941864f",
+      "program_id": "MSS-1072138",
+      "notice_source": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1072138",
+      "url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1072138&cbIdx=310&streFileNm=008b1236-66ba-463e-a181-e5bc0912a772.pdf",
+      "name": "008b1236-66ba-463e-a181-e5bc0912a772.pdf",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
+    },
+    "654f9cde0b6f1fe061691e81": {
+      "id": "654f9cde0b6f1fe061691e81",
+      "program_id": "MSS-1072138",
+      "notice_source": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1072138",
+      "url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1072138&cbIdx=310&streFileNm=46e8dc89-e5ca-4a96-ba26-987c862bba08.hwpx",
+      "name": "46e8dc89-e5ca-4a96-ba26-987c862bba08.hwpx",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
     }
   },
   "run": {
-    "at": "2026-10-30T20:57:46+09:00",
+    "at": "2026-10-30T21:14:28+09:00",
     "status": "ok_scoped",
     "notices_attempted": 3,
     "notices_success": 3,

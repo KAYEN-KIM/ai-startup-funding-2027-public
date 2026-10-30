@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; connect-src 'none'; img-src 'self' data:; object-src 'none'; base-uri 'none'; form-action 'none'">
+<title>공식 양식 항목 대응 작업대 | AI FUNDING RADAR 2027</title>
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/style.css">
+<link rel="stylesheet" href="assets/applications.css">
+<link rel="stylesheet" href="assets/form-mapping.css">
+<script src="assets/applications-core.js" defer></script>
+<script src="assets/application-dossier.js" defer></script>
+<script src="assets/application-plan.js" defer></script>
+<script src="assets/form-mapping.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#mappingMain">양식 항목 매핑으로 이동</a>
+<main class="application-shell" id="mappingMain">
+<header class="application-header">
+ <div><a href="applications.html" class="eyebrow">← 신청 준비 보드</a><h1>공식 양식 항목 대응 작업대</h1>
+ <p>공고별 작성 양식의 <strong>목차만 수동으로 옮겨 적어</strong>, 기존 사업계획서 8개 항목과 연결하고 작성용 패킷을 만듭니다.</p></div>
+ <span class="private-badge">P0.20 · AI 호출 0 · 브라우저 내부 처리</span>
+</header>
+<nav class="application-nav" aria-label="연관 도구"><a href="applications.html">신청 준비 보드</a><a href="preflight.html">제출 전 로컬 점검</a><a href="index.html">공고 현황판</a></nav>
+<section class="privacy-notice">
+ <b>공식 양식 자동 판독·기입·제출 도구가 아닙니다.</b>
+ <p>공식 공고 원문에서 확인한 항목 제목을 직접 입력합니다. 자동 추천은 제목 키워드만 비교하는 참고 자료이며, 직접 선택하기 전까지 대응은 미설정입니다. 이 화면은 서버에 자료를 전송하지 않고 저장하지 않습니다. 실명·연락처·계좌·신청서 원본을 입력하지 마십시오.</p>
+</section>
+<p id="formStatus" class="source-status" role="status" aria-live="polite">준비파일을 선택한 뒤 공식 양식의 목차를 한 줄씩 입력하십시오.</p>
+<section class="picker">
+ <h2>1. 기존 준비파일에서 사업계획서 불러오기</h2>
+ <p>v1·v2·v3 저장파일을 지원합니다. v1·v2는 비어 있는 8개 초안 항목으로 변환됩니다. 파일은 현재 브라우저에서만 읽습니다.</p>
+ <div class="picker-controls"><label class="btn btn-secondary file-label" for="prepFile">비공개 JSON 선택<input id="prepFile" type="file" accept=".json,application/json"></label><label class="grow">대상 공고<select id="projectSelect" aria-label="준비파일의 대상 공고"></select></label></div>
+</section>
+<section class="picker">
+ <h2>2. 실제 공고의 양식 출처와 목차 입력</h2>
+ <p>제목 목록만 붙여넣으십시오. 본문·개인정보는 필요하지 않습니다. 최대 40줄·12,000자입니다.</p>
+ <div class="form-map-metadata">
+ <label>양식명 (직접 입력)<input id="formTitle" maxlength="180" placeholder="예: 2027년 ○○ 사업계획서 양식"></label>
+ <label>버전·수정일 (직접 입력)<input id="formEdition" maxlength="180" placeholder="예: 공고 첨부 2, 수정일 2027-02-01"></label>
+ <label class="full">공식 원문 URL (직접 입력, 온라인 검증 안 함)<input id="formSource" type="url" maxlength="512" placeholder="https://www.k-startup.go.kr/..."></label>
+ </div>
+ <label for="outlineInput">양식 항목 제목 (한 줄에 하나)</label>
+ <textarea id="outlineInput" rows="8" maxlength="12000" placeholder="1. 문제인식&#10;2. 창업아이템의 실현가능성&#10;3. 성장전략&#10;4. 팀 구성&#10;5. 사업비 집행 계획"></textarea>
+ <div class="form-map-actions"><button id="parseOutline" type="button" class="btn btn-primary">목차 분석·참고 후보 표시</button></div>
+</section>
+<section class="picker">
+ <h2>3. 양식 항목별 수동 대응</h2>
+ <p id="mappingSummary">목차를 입력한 뒤 분석 버튼을 누르십시오.</p>
+ <div id="mappedRows" class="form-map-rows"></div>
+</section>
+<section class="picker">
+ <h2>4. 제출용이 아닌 작업 패킷 확인</h2>
+ <p>관찰·실적, 향후 계획, 원본 근거 코드 등을 선택한 양식 항목 순서로 출력합니다. 실제 공식 양식의 표·글자수·첨부·서명 요구는 검증하지 않습니다.</p>
+ <div class="form-map-actions"><button id="previewPacket" class="btn btn-primary" type="button">수동 대응 결과 미리보기</button><button id="exportPacket" class="btn btn-secondary" type="button" disabled>작업 TXT 저장</button></div>
+ <pre id="packetPreview" class="form-map-preview" aria-live="polite">아직 작성 패킷을 생성하지 않았습니다.</pre>
+</section>
+<footer>AI FUNDING RADAR · P0.20 <span>사용자 제공 목차 + 기존 자체기록 → 제출 전 검토용 초안 · 실제 신청은 공식 접수처에서 별도 수행</span></footer>
+</main>
+</body>
+</html>

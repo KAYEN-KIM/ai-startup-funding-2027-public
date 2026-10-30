@@ -95,6 +95,10 @@ jobs:
           python -m unittest discover -s scripts -p test_agency_evidence.py -v
           node --test scripts/test_agency_evidence_ui.cjs
           node --check assets/agency-evidence.js
+      - name: Agency preparation bridge and private restore regressions
+        run: |
+          node --test scripts/test_application_agency.cjs scripts/test_application_agency_ui.cjs
+          node --check assets/application-agency.js
       - name: Script syntax and public schema
         run: |
           node --check assets/app.js

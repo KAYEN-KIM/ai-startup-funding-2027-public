@@ -118,7 +118,7 @@
     if(!p)issues.push('현재 공고가 없어 원문 재확인이 필요합니다. 저장 작업은 보존됩니다.');
     else if(differences.length)issues.push('저장 이후 공고 표시 정보가 달라졌습니다. 변경값을 대조하십시오.');
     if(!freshness(monitor,now))issues.push('수집 상태가 최신 성공으로 확인되지 않았습니다. 공식 마감 일정 내보내기를 보류합니다.');
-    if(p?.mode==='discovery')issues.push('API 발견 후보입니다. 실제 신청자격·첨부를 검토하지 않았습니다.');
+    if(p?.mode==='discovery')issues.push('자동 수집 발견 후보입니다. 실제 신청자격·첨부를 검토하지 않았습니다.');
     if(p?.mode==='reference')issues.push('이전 연도 조건은 다음 연도의 확정 자격·금액·일정이 아닙니다.');
     if(a.internal_due&&p?.deadline&&dateValue(p.deadline)&&a.internal_due>(day(p.deadline)?p.deadline:kstDay(new Date(p.deadline))))issues.push('내부 목표일이 기재 마감일 뒤입니다.');
     return {differences,reception:r,issues,open:open.length,done:a.tasks.filter(t=>t.status==='done').length,notApplicable:a.tasks.filter(t=>t.status==='not_applicable').length,overdue:overdue.length,next,

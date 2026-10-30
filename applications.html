@@ -6,8 +6,8 @@
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; connect-src 'self'; img-src 'self' data:; object-src 'none'; base-uri 'none'; form-action 'none'">
 <title>신청 준비 보드 | AI FUNDING RADAR 2027</title>
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="assets/style.css"><link rel="stylesheet" href="assets/applications.css">
-<script src="assets/radar-core.js" defer></script><script src="assets/applications-core.js" defer></script><script src="assets/application-dossier.js" defer></script><script src="assets/application-dossier-view.js" defer></script><script src="assets/application-plan.js" defer></script><script src="assets/application-plan-view.js" defer></script><script src="assets/applications-ui.js" defer></script>
+<link rel="stylesheet" href="assets/style.css"><link rel="stylesheet" href="assets/applications.css"><link rel="stylesheet" href="assets/application-agency.css">
+<script src="assets/radar-core.js" defer></script><script src="assets/applications-core.js" defer></script><script src="assets/application-dossier.js" defer></script><script src="assets/application-dossier-view.js" defer></script><script src="assets/application-plan.js" defer></script><script src="assets/application-plan-view.js" defer></script><script src="assets/agency-report.js" defer></script><script src="assets/agency-evidence.js" defer></script><script src="assets/application-agency.js" defer></script><script src="assets/applications-ui.js" defer></script>
 </head>
 <body><a class="skip-link" href="#board">준비 보드로 이동</a>
 <div class="application-shell">
@@ -24,9 +24,10 @@
 <div id="importPreview" class="import-preview" hidden><b id="importSummary"></b><p>검증된 파일의 입력만 가져옵니다. P0.12(v1)·P0.13(v2) 파일은 작업·자료 연결을 보존하고 빈 초안 항목을 추가합니다. 새 v3 파일은 이전 화면에서 열 수 없습니다. 저장된 상태는 자체기록이며 공고의 적격성·제출·선정을 증명하지 않습니다. 현재 보드를 대체하므로 필요한 입력을 먼저 저장하십시오.</p><button id="applyImport" type="button" class="btn btn-primary">확인 후 현재 보드 대체</button><button id="cancelImport" type="button" class="btn btn-secondary">취소</button></div>
 <p id="message" class="message" role="status" aria-live="polite"></p>
 <p id="sourceStatus" class="source-status" role="status">공개 공고를 읽고 있습니다.</p>
+<section class="agency-prep-intro" aria-labelledby="agencyPrepTitle"><h2 id="agencyPrepTitle">기관에서 발견한 후보도 준비하기</h2><p>중기부·NIPA 후보를 이 화면에서만 연결합니다. 원문·첨부 확인 수준은 그대로 유지되며 검증 공고로 등록하거나 자격을 승인하지 않습니다. 운영기관·입찰·정책·공모전·결과 발표는 제외하고, 사업연도가 불명확한 후보는 연결을 보류합니다.</p><button id="loadAgency" type="button" class="btn btn-secondary">기관 후보·근거 불러오기</button><p id="agencyStatus" role="status" aria-live="polite">버튼을 누르면 공개 목록과 근거 JSON 두 개만 읽습니다. 준비 입력은 보내지 않습니다.</p></section>
 <section class="picker" aria-labelledby="pickerTitle"><h2 id="pickerTitle">1. 준비할 공고 담기</h2><p>최대 12개. 운영기관 모집·예산안은 제외합니다. 이전 연도 참고 경로는 미래 준비용이며 실제 신청 공고가 아닙니다.</p><div class="picker-controls"><label>공고명 검색<input id="noticeSearch" type="search" maxlength="160" placeholder="예: 초기창업, IBK, AI"></label><label class="grow">공고 선택<select id="noticeSelect" aria-label="준비할 공고"></select></label><button id="addNotice" class="btn btn-primary" type="button" disabled>준비 보드에 담기</button></div></section>
 <section aria-labelledby="summaryTitle"><h2 id="summaryTitle">2. 오늘의 준비 현황</h2><div id="summary" class="prep-summary"></div><p class="boundary">완료 건수는 내부 작업 진척입니다. 공식 필수서류 완비·신청 적격성·선정 확률이 아닙니다. 제출·선정 상태도 사용자가 입력한 기록입니다.</p></section>
 <section id="board" aria-label="공고별 준비 보드"><p class="empty">준비할 공고를 담거나 이전 준비 파일을 불러오십시오.</p></section>
 <section class="calendar-note"><h2>일정 파일의 범위</h2><p>직접 입력한 작업일과 내부 목표일은 종일 일정으로 저장합니다. 기재 마감은 현재 공고 목록과 저장 정보가 일치하고 수집 상태가 최신 성공인 경우만 포함합니다. 후보·이전 연도 참고·변경·경과 마감은 공식 마감 일정에서 제외합니다. 날짜만 확인된 마감은 <b>‘시각 미확인’ 종일 일정</b>이며 자정 마감으로 바꾸지 않습니다.</p><p>이 파일은 자동 갱신·알림 서비스가 아닙니다. 공고가 바뀌면 다시 확인해야 합니다. 캘린더 서비스로 가져오면 그 서비스에 내용이 저장될 수 있습니다. 중복 가져오기 처리도 사용하는 캘린더에 따라 다릅니다.</p></section>
-<footer>AI FUNDING RADAR · P0.14 <span>공고 탐색 → 조건·비용 검토 → 신청 준비 · 실제 제출은 공식 접수처에서 직접 수행</span></footer>
+<footer>AI FUNDING RADAR · P0.18 <span>공고 탐색 → 조건·비용 검토 → 신청 준비 · 실제 제출은 공식 접수처에서 직접 수행</span></footer>
 </div></body></html>

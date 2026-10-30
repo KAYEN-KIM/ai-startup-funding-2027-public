@@ -1,8 +1,24 @@
 /* All applicant edits remain in memory; file I/O is explicit and local. */
 (function(){
   'use strict';
-  const C=globalThis.FundingApplicationPlan.attach(globalThis.FundingApplicationDossier.attach(globalThis.FundingApplications)),W=globalThis.FundingPlanView,V=globalThis.FundingDossierView,R=globalThis.RadarCore,$=id=>document.getElementById(id),esc=R.esc;
+  const C=globalThis.FundingApplicationPlan.attach(globalThis.FundingApplicationDossier.attach(globalThis.FundingApplications)),W=globalThis.FundingPlanView,V=globalThis.FundingDossierView,R=globalThis.RadarCore,$=id=>document.getElementById(id),esc=R.esc,A=globalThis.FundingApplicationAgency;
   let state=C.empty(),catalog={items:[]},monitor=null,dirty=false,pending=null,importToken=0,loadToken=0,linkedNoticeApplied=false;
+  let baseCatalog={items:[]},agencyData=null,agencyView=null,agencyReadFailed=false,agencyToken=0;
+  const PUBLIC_FILES=['data/programs.json','data/monitor.json','data/agency_discovery.json','data/agency_evidence.json'];
+  async function readPublic(path){if(!PUBLIC_FILES.includes(path))throw Error('허용되지 않은 공개 자료');const r=await fetch(path+'?v='+Date.now(),{cache:'no-store',credentials:'omit'});if(!r.ok)throw Error('공개 자료 HTTP 오류');return r.json();}
+  function rebuildCatalog(){catalog=baseCatalog;if(A&&agencyData){agencyView=A.combine(baseCatalog,agencyData.listing,agencyData.evidence);catalog=agencyView.catalog;}}
+  async function loadAgency(linked){
+    if(!A)return;const token=++agencyToken;const button=$('loadAgency');if(button)button.disabled=true;
+    try{
+      const [listing,evidence]=await Promise.all(['data/agency_discovery.json','data/agency_evidence.json'].map(readPublic));
+      if(token!==agencyToken)return;const next=A.combine(baseCatalog,listing,evidence);
+      agencyData={listing,evidence};agencyView=next;catalog=next.catalog;agencyReadFailed=false;render();
+      const s=next.stats;$('agencyStatus').textContent='기관 목록 '+s.listed+'건 · 별도 준비 후보 '+s.projected+'건 · 기존 등록으로 연결 '+s.reused+'건 · 연도 보류 '+s.year_held+'건 · 대상 외 '+s.excluded+'건. 등록·승인·신청은 하지 않습니다.';
+      const wanted=linked||new URLSearchParams(globalThis.location?.hash?.slice(1)||'').get('agency');
+      if(wanted){const match=next.links[wanted];if(match?.id&&current(match.id)){$('noticeSelect').value=match.id;$('addNotice').disabled=state.items.length>=C.LIMITS.applications;say(match.reason);}else say(match?.reason||'현재 목록에서 해당 기관 공고를 찾지 못했습니다. 원문에서 확인하십시오.',true);}
+    }catch(e){if(token!==agencyToken)return;agencyReadFailed=true;$('agencyStatus').textContent='기관 후보·근거 자료 조회 실패. 이전에 읽은 목록과 준비 입력은 보존합니다. 최신 성공으로 간주하지 마십시오.';say('기관 후보 연결을 확인하지 못했습니다. '+String(e.message||e),true);render();}
+    finally{if(token===agencyToken&&button)button.disabled=false;}
+  }
   const titles={title:'공고명',year:'사업연도',mode:'공고 구분',source_level:'확인 수준',opens:'접수 시작',deadline:'기재 마감',amount:'지원규모 표시',eligibility:'신청대상 요약'};
   function say(s,error=false){$('message').textContent=s;$('message').className='message'+(error?' error':'');}
   function cancelPending(){pending=null;importToken++;$('importPreview').hidden=true;$('importFile').value='';}
@@ -12,7 +28,7 @@
   function renderPicker(){
     const keep=$('noticeSelect').value,q=$('noticeSearch').value.trim().toLocaleLowerCase('ko-KR');
     const items=catalog.items.filter(p=>!['operator','budget'].includes(p.mode)&&(!q||String(p.title).toLocaleLowerCase('ko-KR').includes(q)));
-    $('noticeSelect').innerHTML='<option value="">공고를 선택하십시오</option>'+items.map(p=>'<option value="'+esc(p.id)+'">['+esc(p.year)+' · '+esc(p.mode==='reference'?'이전 참고':p.mode==='discovery'?'발견 후보':'수혜 모집 분류')+'] '+esc(p.title)+'</option>').join('');
+    $('noticeSelect').innerHTML='<option value="">공고를 선택하십시오</option>'+items.map(p=>'<option value="'+esc(p.id)+'">['+esc(p.year)+' · '+esc(p.id.startsWith('AGENCY-')?'기관 직접후보':p.mode==='reference'?'이전 참고':p.mode==='discovery'?'발견 후보':'수혜 모집 분류')+'] '+esc(p.title)+'</option>').join('');
     if(items.some(p=>p.id===keep))$('noticeSelect').value=keep;
     $('addNotice').disabled=!$('noticeSelect').value||state.items.length>=C.LIMITS.applications;
   }
@@ -24,7 +40,7 @@
     if(row.overdue)warnings.push('<p>내부 목표일이 지난 미완료 작업 '+row.overdue+'개가 있습니다.</p>');
     let diffs='';
     if(p&&row.differences.length){const next=C.snapshot(p);diffs='<details><summary>저장 당시와 현재 표시 정보 비교 ('+row.differences.length+')</summary><table class="change-table"><thead><tr><th>항목</th><th>저장 당시</th><th>현재 공개값</th></tr></thead><tbody>'+row.differences.map(k=>'<tr><th>'+esc(titles[k]||k)+'</th><td>'+esc(a.reference[k]??'없음')+'</td><td>'+esc(next[k]??'없음')+'</td></tr>').join('')+'</tbody></table><button class="btn btn-secondary" type="button" data-act="sync" data-app="'+aid+'">변경 확인 후 현재 표시값으로 기준 갱신</button><p class="boundary">표시값 기준만 갱신합니다. 원문·자격·첨부를 검증했다는 뜻은 아닙니다.</p></details>';}
-    return '<article class="application-card" data-program="'+aid+'"><div class="card-heading"><div><div class="source-badges"><span>'+esc(ref.year)+'년</span><span>'+esc(row.reception.text)+'</span></div><h3>'+esc(ref.title)+'</h3>'+(url?'<a href="'+esc(url)+'" target="_blank" rel="noopener noreferrer">공식 공고 확인 ↗</a>':'<span class="boundary">공식 링크는 현재 공개 목록에서 확인할 수 없습니다.</span>')+'</div><button class="btn btn-secondary" type="button" data-act="remove" data-app="'+aid+'" aria-label="'+esc(ref.title)+' 보드에서 삭제">보드에서 삭제</button></div><div class="stage-fields"><label>내부 진행 상태 · 자체기록<select data-field="stage" data-app="'+aid+'">'+options(C.STAGES,a.stage)+'</select></label><label>이 공고의 내부 준비 목표일<input type="date" min="2000-01-01" max="2099-12-31" data-field="internal_due" data-app="'+aid+'" value="'+esc(a.internal_due||'')+'"></label></div><p class="readiness-label">작업 '+a.tasks.length+'개 중 '+row.done+'개 준비 완료 · '+row.notApplicable+'개 해당 없음(자체판단)</p>'+(warnings.length?'<div class="alert-list">'+warnings.join('')+'</div>':'')+diffs+'<p class="task-context">다음 준비: '+esc(row.next?row.next.title+(row.next.due_date?' / '+row.next.due_date:' / 목표일 미입력'):'남은 작업이 없습니다. 공식 제출요건은 별도 확인하십시오.')+'</p><div class="tasks">'+a.tasks.map(t=>taskHTML(t,a)).join('')+'</div><div class="new-task"><input type="text" maxlength="180" id="task-'+aid+'" aria-label="추가할 내부 작업" placeholder="내부 작업 추가 · 민감정보 입력 금지"><button class="btn btn-secondary" type="button" data-act="add_task" data-app="'+aid+'"'+(a.tasks.length>=C.LIMITS.tasks?' disabled':'')+'>작업 추가</button></div>'+V.panel(a,row.dossier_check,C,esc)+W.panel(a,row.plan_check,C,esc)+'</article>';
+    return '<article class="application-card" data-program="'+aid+'"><div class="card-heading"><div><div class="source-badges"><span>'+esc(ref.year)+'년</span><span>'+esc(row.reception.text)+'</span></div><h3>'+esc(ref.title)+'</h3>'+(url?'<a href="'+esc(url)+'" target="_blank" rel="noopener noreferrer">공식 공고 확인 ↗</a>':'<span class="boundary">공식 링크는 현재 공개 목록에서 확인할 수 없습니다.</span>')+'</div><button class="btn btn-secondary" type="button" data-act="remove" data-app="'+aid+'" aria-label="'+esc(ref.title)+' 보드에서 삭제">보드에서 삭제</button></div><div class="stage-fields"><label>내부 진행 상태 · 자체기록<select data-field="stage" data-app="'+aid+'">'+options(C.STAGES,a.stage)+'</select></label><label>이 공고의 내부 준비 목표일<input type="date" min="2000-01-01" max="2099-12-31" data-field="internal_due" data-app="'+aid+'" value="'+esc(a.internal_due||'')+'"></label></div><p class="readiness-label">작업 '+a.tasks.length+'개 중 '+row.done+'개 준비 완료 · '+row.notApplicable+'개 해당 없음(자체판단)</p>'+(warnings.length?'<div class="alert-list">'+warnings.join('')+'</div>':'')+diffs+(A?A.panel(a.program_id,agencyView,new Date(),agencyReadFailed):'')+'<p class="task-context">다음 준비: '+esc(row.next?row.next.title+(row.next.due_date?' / '+row.next.due_date:' / 목표일 미입력'):'남은 작업이 없습니다. 공식 제출요건은 별도 확인하십시오.')+'</p><div class="tasks">'+a.tasks.map(t=>taskHTML(t,a)).join('')+'</div><div class="new-task"><input type="text" maxlength="180" id="task-'+aid+'" aria-label="추가할 내부 작업" placeholder="내부 작업 추가 · 민감정보 입력 금지"><button class="btn btn-secondary" type="button" data-act="add_task" data-app="'+aid+'"'+(a.tasks.length>=C.LIMITS.tasks?' disabled':'')+'>작업 추가</button></div>'+V.panel(a,row.dossier_check,C,esc)+W.panel(a,row.plan_check,C,esc)+'</article>';
   }
   function render(){
     const opened=new Set(Array.from(document.querySelectorAll?.('details[data-panel][open]')||[]).map(x=>x.dataset.panel));
@@ -37,20 +53,21 @@
   async function load(){
     const token=++loadToken;$('reloadPublic').disabled=true;
     try{
-      const [p,m]=await Promise.all(['data/programs.json','data/monitor.json'].map(async path=>{const r=await fetch(path+'?v='+Date.now(),{cache:'no-store',credentials:'omit'});if(!r.ok)throw new Error('공개 자료 HTTP 오류');return r.json();}));
+      const [p,m]=await Promise.all(['data/programs.json','data/monitor.json'].map(readPublic));
       if(token!==loadToken)return;
       if(p.schema!=='public-funding-radar/v1'||!Array.isArray(p.items)||p.items.length>10000||m.schema!=='public-funding-monitor/v1')throw new Error('공개 자료 형식 오류');
       const ids=new Set();for(const v of p.items){if(typeof v.id!=='string'||!/^[A-Za-z0-9][A-Za-z0-9_.:-]{0,159}$/.test(v.id)||ids.has(v.id))throw new Error('공고 식별자 오류');ids.add(v.id);C.snapshot(v);}
-      catalog=p;monitor=m;
+      baseCatalog=p;monitor=m;rebuildCatalog();
       $('sourceStatus').textContent='공개 공고 '+p.items.length+'개 · 마지막 수집 성공 '+(m.sources?.bizinfo_api?.last_success_at||m.last_success_at||'없음')+' · '+(C.freshness(m)?'목록 수집 최신 성공 (원문 전체 검증과 다름)':'수집 실패·부분 확인 또는 오래된 상태: 기재 마감 일정 내보내기 보류');
     }catch(e){if(token!==loadToken)return;monitor=null;$('sourceStatus').textContent='공개 자료 확인 실패. 현재 입력과 마지막으로 읽은 목록은 보존합니다. 기재 마감은 원문에서 다시 확인하십시오.';say('공개 자료를 읽지 못했습니다. '+String(e.message||e),true);}
-    finally{if(token===loadToken){$('reloadPublic').disabled=false;render();if(!linkedNoticeApplied&&catalog.items.length){const linked=new URLSearchParams(globalThis.location?.hash?.slice(1)||'').get('notice');if(linked&&current(linked)&&!['operator','budget'].includes(current(linked).mode)){$('noticeSelect').value=linked;$('addNotice').disabled=false;}linkedNoticeApplied=true;}}}
+    finally{if(token===loadToken){$('reloadPublic').disabled=false;render();if(!linkedNoticeApplied&&catalog.items.length){const linked=new URLSearchParams(globalThis.location?.hash?.slice(1)||'').get('notice');if(linked&&current(linked)&&!['operator','budget'].includes(current(linked).mode)){$('noticeSelect').value=linked;$('addNotice').disabled=false;}linkedNoticeApplied=true;const agencyLinked=new URLSearchParams(globalThis.location?.hash?.slice(1)||'').get('agency');if(A&&agencyLinked)loadAgency(agencyLinked);}else if(A&&agencyData)loadAgency();}}
   }
   function download(content,mime,filename){const url=URL.createObjectURL(new Blob([content],{type:mime}));const a=document.createElement('a');a.href=url;a.download=filename;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),500);}
   $('noticeSearch').addEventListener('input',renderPicker);
   $('noticeSelect').addEventListener('change',()=>{$('addNotice').disabled=!$('noticeSelect').value||state.items.length>=C.LIMITS.applications;});
   $('addNotice').addEventListener('click',()=>{try{const p=current($('noticeSelect').value);if(!p)throw new Error('공고를 선택하십시오.');touch(C.add(state,p));say('준비 보드에 추가했습니다. 실제 신청이나 적격 판정은 하지 않았습니다.');}catch(e){say(e.message,true);}});
   $('reloadPublic').addEventListener('click',load);
+  if(A&&$('loadAgency'))$('loadAgency').addEventListener('click',()=>loadAgency());
   // Update model on every input without replacing the focused textarea/IME selection.
   function planInput(t){
     if(!t.dataset?.field?.startsWith('plan:'))return false;
@@ -83,7 +100,7 @@
       if(act.startsWith('plan_')){
         const section=b.dataset.section,kind=act.endsWith('_doc')?'evidence_ids':'requirement_ids';
         if(act==='plan_preview'||act==='plan_export'){
-          const out=C.draft(n,app,catalog,monitor);
+          const out=C.draft(n,app,catalog,monitor);if(A)out.text+=A.report(app,agencyView,new Date(),agencyReadFailed);
           if(act==='plan_preview'){const pre=$('draft-output-'+app);pre.textContent=out.text;pre.hidden=false;say('현재 입력으로 작업 초안을 조립했습니다. AI 생성·공식 양식 변환·내용 검증은 하지 않았습니다.');}
           else {download(out.text,'text/plain;charset=utf-8','AI_Funding_Private_Draft_'+app+'_'+C.kstDay()+'.txt');say('현재 문안·가정·참조·확인사항을 담은 비공개 초안 다운로드를 요청했습니다. 준비파일 저장은 별도로 하십시오.');}
           return;
@@ -102,7 +119,7 @@
         else if(act==='dossier_remove_document'){if(!confirm('자료 참조와 요구사항·초안의 연결을 삭제합니까? 실제 파일은 삭제하지 않습니다.'))return;n=C.removeDocument(n,app,eid);}
         else if(act==='dossier_remove_requirement'){if(!confirm('이 요구사항 기록과 초안의 연결을 삭제합니까? 공식 제출요건이 사라지는 것은 아닙니다.'))return;n=C.removeRequirement(n,app,rid);}
         else if(act==='dossier_review'){if(!confirm('현재 요구사항·조건을 공고와 직접 대조했다고 기록합니까? 자체기록이며 공식 검증이나 제출 승인이 아닙니다.'))return;n=C.review(n,app,current(app));}
-        else if(act==='dossier_export'){const report=C.preflight(n,app,catalog,monitor);download(report.text,'text/plain;charset=utf-8','AI_Funding_Private_Preflight_'+app+'_'+C.kstDay()+'.txt');say('현재 입력과 공개값으로 내부 점검표 다운로드를 요청했습니다. 실제 제출·문서 업로드는 하지 않았습니다.');return;}
+        else if(act==='dossier_export'){const report=C.preflight(n,app,catalog,monitor);if(A)report.text+=A.report(app,agencyView,new Date(),agencyReadFailed);download(report.text,'text/plain;charset=utf-8','AI_Funding_Private_Preflight_'+app+'_'+C.kstDay()+'.txt');say('현재 입력과 공개값으로 내부 점검표 다운로드를 요청했습니다. 실제 제출·문서 업로드는 하지 않았습니다.');return;}
         else return;touch(n);say('문서 준비 참조목록을 변경했습니다. JSON 준비 파일을 저장하면 다음에 이어갈 수 있습니다.');return;
       }
       if(act==='remove'){if(!confirm('이 공고의 현재 준비 입력을 보드에서 삭제합니까? 저장한 파일은 변경되지 않습니다.'))return;n.items=n.items.filter(x=>x.program_id!==app);}
@@ -121,7 +138,7 @@
     try{if(file.size>C.LIMITS.bytes)throw new Error('준비 파일은 512 KiB 이하여야 합니다.');const raw=await file.text();if(token!==importToken)return;const parsed=C.parseFile(raw);pending=parsed;$('importSummary').textContent='불러오기 검증 완료: 공고 '+parsed.items.length+'개 · 저장시각 '+parsed.saved_at;$('importPreview').hidden=false;say('파일을 읽었습니다. 확인 버튼을 누르기 전에는 현재 보드를 바꾸지 않습니다.');}
     catch(e){if(token===importToken){pending=null;say('파일 불러오기 거부: '+String(e.message||e),true);}}
   });
-  $('applyImport').addEventListener('click',()=>{if(!pending)return;state=C.validate(pending);dirty=false;cancelPending();render();say('파일의 입력을 현재 메모리에 불러왔습니다. 공고 변경과 확인 수준은 최신 목록에 다시 대조합니다.');});
+  $('applyImport').addEventListener('click',()=>{if(!pending)return;state=C.validate(pending);dirty=false;cancelPending();render();say('파일의 입력을 현재 메모리에 불러왔습니다. 공고 변경과 확인 수준은 최신 목록에 다시 대조합니다.');if(A&&state.items.some(a=>a.program_id.startsWith(A.PREFIX)))loadAgency();});
   $('cancelImport').addEventListener('click',()=>{cancelPending();say('불러오기를 취소했습니다. 기존 입력은 보존됩니다.');});
   globalThis.addEventListener('beforeunload',e=>{if(dirty){e.preventDefault();e.returnValue='';}});
   render();load();

@@ -55,6 +55,7 @@ function view(data,listing,filters={},now=new Date()){
   if(n.last_error)html+='<p>최근 원문 실패: '+esc(n.last_error)+'</p>';
   if(n.unhandled_links)html+='<p>미지원·차단된 첨부 링크 '+esc(n.unhandled_links)+'건. 모든 첨부를 읽은 것이 아닙니다.</p>';
   html+=link(n.source,n.source,'기관 원문 열기 ↗');
+  if(matched?.kind==='candidate'&&link(n.source,n.source,''))html+=' <a href="applications.html#agency='+encodeURIComponent(n.id)+'">검토 후보로 준비하기</a>';
   html+='<details><summary>첨부 '+n.documents.length+'건의 근거·조건 후보</summary>';
   if(!n.documents.length)html+='<p>현재 허용된 파일 링크 없음. 첨부가 실제로 없거나 모든 제출요건이 확인됐다는 뜻은 아닙니다.</p>';
   for(const ref of n.documents){

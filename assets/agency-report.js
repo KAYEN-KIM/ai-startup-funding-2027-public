@@ -68,7 +68,7 @@
         (old?'<p>현재 출처 재확인 실패·지연 가능: 이전 관측값을 보존 중입니다.</p>':'')+
         (notSeen?'<p>이번 제한된 목록에서 재관측되지 않음. 삭제·종료로 단정하지 않습니다.</p>':'')+
         (r.review_required?'<p><strong>목록 값 변경·원문 재검토 필요</strong></p>':'')+matches+probable+
-        (difference||history?'<details><summary>이전 값·기존 공고와의 차이</summary><ul>'+difference+history+'</ul></details>':'')+sourceLink(r.source)+' <a href="#agencyEvidence">원문·첨부 처리 기록 보기</a></li>';
+        (difference||history?'<details><summary>이전 값·기존 공고와의 차이</summary><ul>'+difference+history+'</ul></details>':'')+sourceLink(r.source)+(r.kind==='candidate'&&sourceLink(r.source)?' <a href="applications.html#agency='+encodeURIComponent(r.id)+'">검토 후보로 준비하기</a>':'')+' <a href="#agencyEvidence">원문·첨부 처리 기록 보기</a></li>';
     }).join('');
     const deferred=d.deferred.map(x=>'<li><b>'+esc(x.name)+'</b> — '+esc(x.reason)+'</li>').join('');
     return '<div class="bot-banner bot-warning"><b>공식기관 직접 목록 · 독립 검토 후보</b><p>정기 AI 호출 0회. 기존 지원사업 숫자와 합산하지 않습니다. 운영기관·용역·정책은 창업 지원금이 아닙니다.</p><p>'+esc(d.scope)+'</p></div>'+

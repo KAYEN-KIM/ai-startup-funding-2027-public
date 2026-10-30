@@ -219,3 +219,17 @@ See `RELEASE_P014.md` for limits and boundaries. New regression command:
 보고서·RSS·GitHub 작업 요약은 ChatGPT 메시지나 자동 휴대전화 푸시가 아닙니다.
 전체 기관 탐색·새 원문 자격 검증은 자동 대체 완료로 주장하지 않습니다.
 범위·검증·운영 경계: `docs/P015_BOT_FIRST.md`.
+
+
+## P0.16 — 공식기관 직접 수집 봇
+
+기존 현황판 홈의 `#agencyReport`에서 중기부 사업공고 RSS와 NIPA 최근 3페이지의
+독립 관측을 확인합니다. 정기 AI 호출·새 인증키 없이 동작하며, 기존 공고·검증 조건을
+덮어쓰거나 후보를 신청 가능으로 자동 승인하지 않습니다. 운영기관·입찰·정책·공모전은
+별도 분류합니다. 출처 실패·반복 페이지·형식 변경은 이전 관측을 보존하고 실패로 남깁니다.
+정확한 URL 일치와 제목 일치는 대조 단서일 뿐 자동 병합·지원금 합산의 근거가 아닙니다.
+
+KOCCA의 확인된 목록은 robots 정책에 따라 수집하지 않으며, K-Startup 독립 수집도
+아직 미연결입니다. 기존 기업마당 수집과 혼동하지 않도록 화면에 표시합니다.
+`data/agency_discovery.json`·`data/agency_report.md`는 공개 목록 관측만 포함합니다.
+범위·보안·실패 처리·시험은 `docs/P016_AGENCY_BOTS.md`를 참조하십시오.

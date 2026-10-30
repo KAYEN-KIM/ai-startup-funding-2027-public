@@ -6,7 +6,7 @@ from pathlib import Path
 from radar_core import official_url
 from condition_catalog import build_catalog, validate_registry
 ROOT=Path(__file__).resolve().parents[1]
-FILES={'programs.json','monitor.json','evidence.json','change_reviews.json','conditions.json','attachments.json','funding_rules.json','startup_routes.json','startup_sources.json','bot_briefing.json'}
+FILES={'programs.json','monitor.json','evidence.json','change_reviews.json','conditions.json','attachments.json','funding_rules.json','startup_routes.json','startup_sources.json','bot_briefing.json','agency_discovery.json'}
 PROGRAM_FIELDS={'id','title','year','years','year_basis','kind','mode','relevance','opens','deadline','deadline_precision','application_period_raw','source','verified_at','amount','eligibility','note','priority','source_level','agency','attachments'}
 PRIVATE={'company_profile','applicant_profile','applicant_memo','resident_number','taxpayer_id','bank_account','access_token','secret_key','password','api_key','crtfcKey','serviceKey','budget_private','application_documents'}
 MODES={'beneficiary','discovery','reference','operator','budget'}
@@ -78,6 +78,9 @@ def main():
     if 'bot_briefing.json' in loaded:
         from bot_briefing import validate_outputs
         validate_outputs(ROOT)
+    from refresh_agencies import validate_outputs as validate_agencies
+    require('agency_discovery.json' in loaded,'Agency discovery catalog missing')
+    validate_agencies(ROOT)
     print('Public schema validation OK:',len(items),'records;',len(found),'allowlisted JSON files')
 
 if __name__=='__main__':main()

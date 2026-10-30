@@ -13,6 +13,7 @@
   <script src="assets/radar-core.js" defer></script>
   <script src="assets/app.js" defer></script>
   <script src="assets/bot-report.js" defer></script>
+  <script src="assets/agency-report.js" defer></script>
   <link rel="stylesheet" href="assets/bot-report.css">
   <link rel="alternate" type="application/rss+xml" title="AI 창업 규칙 기반 봇 보고" href="data/bot_feed.xml">
 </head>
@@ -25,6 +26,7 @@
       <nav aria-label="주요 메뉴">
         <a class="nav-item active" href="#overview"><span class="nav-icon">◫</span> 오늘의 현황</a>
         <a class="nav-item" href="#botReport">매일 봇 보고 · AI 호출 없음</a>
+        <a class="nav-item" href="#agencyReport">공식기관 직접 수집</a>
         <a class="nav-item" href="#programs"><span class="nav-icon">▤</span> 지원사업 검색</a>
         <a class="nav-item" href="eligibility.html"><span class="nav-icon">✓</span> 내 기업 조건 검토</a>
         <a class="nav-item" href="#strategy"><span class="nav-icon">◇</span> 확보 전략</a>
@@ -67,6 +69,16 @@
         <div id="botReportBody" aria-live="polite"><p>공개 봇 보고서를 읽는 중입니다.</p></div>
         <div class="bot-links"><a class="btn btn-secondary" href="data/bot_briefing.md" download>보고서 저장</a><a class="btn btn-secondary" href="data/bot_feed.xml">RSS 보고 피드</a><a class="btn btn-secondary" href="data/bot_briefing.json">공개 집계 JSON</a></div>
         <p>RSS는 구독한 리더가 조회할 때 갱신됩니다. 이 화면은 ChatGPT 메시지·휴대전화 푸시를 전송하지 않습니다. 필요한 원문 검토만 수동 CLI로 인계하며 AI를 자동 실행하지 않습니다.</p>
+      </section>
+      <section class="section" id="agencyReport" aria-labelledby="agencyReportTitle">
+        <div class="section-title"><div><span class="eyebrow">OFFICIAL SOURCE BOTS · NO MODEL CALLS</span><h2 id="agencyReportTitle">공식기관 직접 수집·독립 후보</h2><p>중기부 RSS와 NIPA 목록을 직접 확인합니다. 기존 검증 공고·금액·조건은 자동으로 덮어쓰지 않습니다.</p></div></div>
+        <div class="filter-extra">
+          <label for="agencySourceFilter">기관 <select id="agencySourceFilter"><option value="all">전체 수집기관</option><option value="mss">중소벤처기업부</option><option value="nipa">NIPA</option></select></label>
+          <label for="agencyKindFilter">목록 분류 <select id="agencyKindFilter"><option value="all">전체 분류</option><option value="candidate">발견 후보·자격 미검증</option><option value="operator">운영·주관기관</option><option value="procurement">용역·입찰</option><option value="policy">통합계획·정책</option><option value="competition">공모전·경진대회</option><option value="result">평가·선정 결과</option></select></label>
+          <label for="agencyQuery">제목 검색 <input id="agencyQuery" type="search" autocomplete="off" placeholder="기관 목록의 공고명 검색"></label>
+        </div>
+        <div id="agencyReportBody" aria-live="polite"><p>기관별 공개 관측자료를 읽는 중입니다.</p></div>
+        <div class="bot-links"><a class="btn btn-secondary" href="data/agency_report.md" download>기관 수집 보고서 저장</a><a class="btn btn-secondary" href="data/agency_discovery.json">기관별 공개 근거 JSON</a></div>
       </section>
       <section class="section" id="programs">
         <div class="section-title"><div><span class="eyebrow">DISCOVER & VERIFY</span><h2>지원사업 찾기</h2><p>검색 결과는 공개된 근거를 기준으로 하며 실제 적격성은 원문에서 확인해야 합니다.</p></div><button id="csvBtn" class="btn btn-secondary" type="button">↓ 목록 CSV</button></div>

@@ -1,6 +1,6 @@
 # AI 창업 지원 — AI 없이 생성한 봇 보고서
 
-보고서 생성: 2026\-10\-30T14:00:26\+09:00
+보고서 생성: 2026\-10\-30T19:37:30\+09:00
 이번 범위의 수집 상태: **부분 확인·재확인 필요**
 미해결 항목은 이번 실행 성공과 별도로 유지됩니다. 모델 호출: 0회(보고서 생성 경로).
 
@@ -23,7 +23,6 @@ pending\_differences: 19 / attachment\_failures: 3 / notice\_failures: 0 / attac
 - 2026\-10\-30 · \[전남광주\] 2026년 창업도시 조성 프로젝트 지역문제 해결\(공공분야\) AI 헬스케어 수혜기업 모집 연장 공고 · today\_time\_unknown · beneficiary
 - 2026\-10\-30 · 2026년ㆍ2027년 Physical AI 기반 의료로봇 기술통합센터 구축 참여기업 모집 공고 · today\_time\_unknown · beneficiary
 - 2026\-10\-30 · 철강·금속 AX 실증센터 기업지원 기초단계 · today\_time\_unknown · beneficiary
-- 2026\-10\-30T18:00:00\+09:00 · 중소제조 특화 Multi AI Agent 개발\(R&amp;D\) 점프업 Track 시행계획 공고 · due\_today · beneficiary
 - 2026\-10\-31 · \[대전ㆍ충청\] 2026년 중소기업 AI훈련확산 지원사업 참여기업 모집 공고 · upcoming · discovery
 - 2026\-10\-31 · 일본진출 K\-스타트업 AI 역직구 온라인 한국관 특별전 모집 공고 · upcoming · discovery
 - 2026\-11\-01 · \[부산\] 해운대구 청년 창업자 임차료 지원사업 참여자 추가 모집 공고 · upcoming · discovery

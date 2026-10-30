@@ -219,4 +219,14 @@ class StateTests(unittest.TestCase):
         for forbidden in ['os.environ','subprocess','openai','anthropic','api_key','BIZINFO_API_KEY','application_documents']:
             with self.subTest(forbidden=forbidden):self.assertNotIn(forbidden,source)
 
+class WorkflowSyncTests(unittest.TestCase):
+    def test_waiting_run_syncs_data_only_and_rejects_changed_code(self):
+        workflow=(Path(__file__).resolve().parents[1]/'.github/workflows/daily-check-and-deploy.yml').read_text(encoding='utf-8')
+        section=workflow.split('name: Synchronize data-only baseline before collection',1)[1].split('      - uses:',1)[0]
+        self.assertIn("git diff --quiet HEAD origin/main -- . ':!data/**'",section)
+        self.assertIn('exit 1',section)
+        self.assertIn('git merge --ff-only origin/main',section)
+        self.assertNotIn('--force',section)
+        self.assertLess(workflow.index('name: Synchronize data-only baseline before collection'),workflow.index('name: Refresh public evidence'))
+
 if __name__=='__main__':unittest.main()

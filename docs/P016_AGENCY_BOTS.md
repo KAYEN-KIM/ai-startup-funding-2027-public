@@ -90,3 +90,14 @@ Not implemented: every agency, full history/backfill, attachment extraction for
 these separately retained candidates, automatic discovery-to-reviewed promotion,
 complete exceptions/eligibility, push notifications, new AI review automation, or
 private multi-user persistence. VM/DOM tests are not real-browser visual acceptance.
+
+## Queue-baseline correction found during the real cloud run
+
+The first full P0.16 run collected every enabled source successfully, but could
+not commit because an earlier serialized push run had already advanced derived
+report files. A queued event can retain an older checkout SHA. Before collecting,
+the publisher now fetches main, rejects any change outside public data (which
+would need a new code-verification run), and fast-forwards a data-only baseline.
+No force push or automatic conflict resolution is used. Concurrent source changes
+still stop safely rather than deploying unverified code. The pre-collection order
+and source-change guard are covered by an additional regression.

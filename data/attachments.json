@@ -1,19 +1,19 @@
 {
   "schema": "public-funding-attachments/v1",
   "version": "0.4.0",
-  "generated_at": "2026-10-30T09:24:55+09:00",
+  "generated_at": "2026-10-30T11:24:05+09:00",
   "run": {
-    "at": "2026-10-30T09:24:55+09:00",
+    "at": "2026-10-30T11:24:05+09:00",
     "notice_success": 3,
     "notice_failed": 0,
     "attempted": 4,
-    "text_extracted": 1,
-    "partial_or_no_text": 0,
+    "text_extracted": 3,
+    "partial_or_no_text": 1,
     "blocked_or_unsupported": 0,
-    "failed": 3,
+    "failed": 0,
     "changed": 0,
     "manifest_changed": 0,
-    "queued_total": 78,
+    "queued_total": 84,
     "scope": "회차당 원문 최대 3건·첨부 최대 4건. 본문 추출은 자격 검증이 아니며 전체 기관 수집을 뜻하지 않습니다."
   },
   "records": {
@@ -6588,6 +6588,706 @@
       "http_status": null,
       "failure_kind": "network_error",
       "retryable": true
+    },
+    "1ced7d213f8a6da8b7f217ae": {
+      "id": "1ced7d213f8a6da8b7f217ae",
+      "program_id": "BIZINFO-PBLN_000000000120946",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120946",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000751745&fileSn=1",
+      "name": "다운로드",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-10-30T11:24:05+09:00",
+      "last_success_at": "2026-10-30T11:24:05+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-10-30T11:24:05+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "0c4a816756102f227d63f0c14cd97e3e0b6bbb67f1a21e025d057560946306f9",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "0c4a816756102f227d63f0c14cd97e3e0b6bbb67f1a21e025d057560946306f9",
+      "sha256": "0c4a816756102f227d63f0c14cd97e3e0b6bbb67f1a21e025d057560946306f9",
+      "extraction": {
+        "format": "hwp",
+        "parser": "olefile/0.47+hwp-body/0.4.0",
+        "sha256": "0c4a816756102f227d63f0c14cd97e3e0b6bbb67f1a21e025d057560946306f9",
+        "bytes": 172032,
+        "status": "text_extracted",
+        "text_characters": 995,
+        "units": 55,
+        "text_sha256": "61b64427c906003cf0268dd2efc8a8256edc6627ae6bc0c023f0ad704ed74a30",
+        "pages": null,
+        "sections": 1,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "f72132830b72f7ac4e43",
+            "category": "eligibility",
+            "excerpt": "2026년 전남 창업 BuS 참여기업 모집공고",
+            "locator": "BodyText/Section0 / record 55 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "326a0352b77cc0426d79",
+            "category": "eligibility",
+            "excerpt": "우리 센터에서 운영 중인 2026년 전남 창업 BuS 참여기업을 아래와 같이 모집합니다.",
+            "locator": "BodyText/Section0 / record 86 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "955ff4628c7a8bc3aaf0",
+            "category": "eligibility",
+            "excerpt": "□ 지원대상",
+            "locator": "BodyText/Section0 / record 125 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "64d3e545a615569417f5",
+            "category": "eligibility",
+            "excerpt": "□ 신청자격",
+            "locator": "BodyText/Section0 / record 136 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "c708406279d57b44ba97",
+            "category": "eligibility",
+            "excerpt": "- 예비창업자(팀) 또는 7년 이내 창업기업",
+            "locator": "BodyText/Section0 / record 140 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "2f92f3a881c935c94078",
+            "category": "amount",
+            "excerpt": "정부지원사업 수행 증빙자료(협약서 등)",
+            "locator": "BodyText/Section0 / record 308 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "ba2a9344ed08229b710a",
+            "category": "documents",
+            "excerpt": "정부지원사업 수행 증빙자료(협약서 등)",
+            "locator": "BodyText/Section0 / record 308 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "구역·레코드 위치는 실제 인쇄 쪽번호가 아닙니다.",
+          "표·그림·각주 의미와 문서의 모든 제외조건은 미검토"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
+    },
+    "59c46a9ec46dfbd31de0d4d1": {
+      "id": "59c46a9ec46dfbd31de0d4d1",
+      "program_id": "BIZINFO-PBLN_000000000120946",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120946",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000751746&fileSn=1",
+      "name": "다운로드",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-10-30T11:24:05+09:00",
+      "last_success_at": "2026-10-30T11:24:05+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-10-30T11:24:05+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "0335f36ba4158b9ec855aa2a2351599db6fe863bd76352c282b3d943abc8853e",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "0335f36ba4158b9ec855aa2a2351599db6fe863bd76352c282b3d943abc8853e",
+      "sha256": "0335f36ba4158b9ec855aa2a2351599db6fe863bd76352c282b3d943abc8853e",
+      "extraction": {
+        "format": "hwp",
+        "parser": "olefile/0.47+hwp-body/0.4.0",
+        "sha256": "0335f36ba4158b9ec855aa2a2351599db6fe863bd76352c282b3d943abc8853e",
+        "bytes": 130048,
+        "status": "text_extracted",
+        "text_characters": 2574,
+        "units": 177,
+        "text_sha256": "a75d3b0265e9ace39877107203de897e70054ba0f5d5c671e73eed485839d43e",
+        "pages": null,
+        "sections": 1,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "169628bee0c405c39bbb",
+            "category": "documents",
+            "excerpt": "증빙자료 제출 확인서(공통)",
+            "locator": "BodyText/Section0 / record 16 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "1524c1d3ae130c88fd6b",
+            "category": "documents",
+            "excerpt": "※ 평가를 위한 증빙자료, 대표자 · 회사 관련 서류 및 기타 증빙서류 목록을 꼭 확인하고, 첨부 여부에 체크하여 증빙자료 제출 확인서 뒤에 해당 증빙자료를 구글폼에 첨부할 것",
+            "locator": "BodyText/Section0 / record 30 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "69a7d3dce81dec720a1d",
+            "category": "eligibility",
+            "excerpt": "벤처기업 확인서, 창업기업 확인서, 중소기업 확인서",
+            "locator": "BodyText/Section0 / record 195 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "ee18fc2532fac1eaf747",
+            "category": "amount",
+            "excerpt": "정부지원사업 수행 증빙자료(협약서 등)",
+            "locator": "BodyText/Section0 / record 207 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "28487ade9d3c468eb286",
+            "category": "documents",
+            "excerpt": "정부지원사업 수행 증빙자료(협약서 등)",
+            "locator": "BodyText/Section0 / record 207 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "5e46bdf4ebd264d8ca7b",
+            "category": "eligibility",
+            "excerpt": "소재지(주소)",
+            "locator": "BodyText/Section0 / record 419 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "ef1739d730e2681188c4",
+            "category": "eligibility",
+            "excerpt": "□ 본사",
+            "locator": "BodyText/Section0 / record 424 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "90fc6c70b06067a38587",
+            "category": "eligibility",
+            "excerpt": "사업장소재지",
+            "locator": "BodyText/Section0 / record 442 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "3e1c881e122b10662677",
+            "category": "eligibility",
+            "excerpt": "(시기: 0000. 00월/ 지역: 전남 여수 /형태: 본사, 지사, 기업부설연구소 )",
+            "locator": "BodyText/Section0 / record 457 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "fb394c71428644f60a1c",
+            "category": "amount",
+            "excerpt": "지원금액(백만원)",
+            "locator": "BodyText/Section0 / record 685 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "구역·레코드 위치는 실제 인쇄 쪽번호가 아닙니다.",
+          "표·그림·각주 의미와 문서의 모든 제외조건은 미검토"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
+    },
+    "5a34da99a131137e0c2e0cdb": {
+      "id": "5a34da99a131137e0c2e0cdb",
+      "program_id": "BIZINFO-PBLN_000000000121148",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000121148",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000752421&fileSn=0",
+      "name": "다운로드",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-10-30T11:24:05+09:00",
+      "last_success_at": "2026-10-30T11:24:05+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-10-30T11:24:05+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "7d69170cf384bef133b421a4f97036e08820d5acf7c5073ff2601bc23f62764e",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "7d69170cf384bef133b421a4f97036e08820d5acf7c5073ff2601bc23f62764e",
+      "sha256": "7d69170cf384bef133b421a4f97036e08820d5acf7c5073ff2601bc23f62764e",
+      "extraction": {
+        "format": "pdf",
+        "parser": "pypdf/6.15.0",
+        "sha256": "7d69170cf384bef133b421a4f97036e08820d5acf7c5073ff2601bc23f62764e",
+        "bytes": 302800,
+        "status": "text_extracted",
+        "text_characters": 5864,
+        "units": 20,
+        "text_sha256": "15d7c89afe707efdd9bbd628c0b5d30b67cc3b024d5756f2d0de95038840a4db",
+        "pages": 7,
+        "sections": null,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "3ff04a9f8094c3c64497",
+            "category": "eligibility",
+            "excerpt": "업 명 : 창업의 꿈 울산이 이루어 드림나. 사업기간 : 2026. 3. ~ 12. (예산 소신 시까지 선착순)다. 지원대상 : 아래의 요건을 모두 충족하는 울산 소재 소상공인 신청 가능하며, 예산 소진 시까지 선착순 지급 ① ｢소상공인기본법｣ 제2조에 따른 소상공인 * 공 동 사 업 자 의 경 우 대 표 1인 에 게 만 지 급 / 미 지 급 공 동 대 표 자 전 체 동 의 필 요 (위 임 장 및 신 분 증 ",
+            "locator": "PDF p.1 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "edbe96da9e461c9239e9",
+            "category": "overlap",
+            "excerpt": " (위 임 장 및 신 분 증 사 본 제 출) ** 1인 다수 사업장 운영시 1개 사업장 지원 / 동일 소재지 사업장 중복지원 불가 ② 임대차 계약을 체결(가족, 배우자 간 임대차 계약 제외)한 사업장 소재지가 울산인 업체(사업자등록증명원상) ③ 1년 이상 사업 운영 중인 업체(2024. 7. 1. 이전 개업한 소상공인) ※ ‘24.7.1. 이전 개업한 울산 소재 기업(사업자등록증상 개업연월일 기준) ④ 202",
+            "locator": "PDF p.1 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "18e11bd52f679a5a63e5",
+            "category": "eligibility",
+            "excerpt": "자 - 허위, 기타 부정한 방법으로 신청한 업체 - 당초 사업 신청 시 제출한 내용과 다른 사업을 영위하는 경우 - 지원대상 확정 후 휴·폐업 또는 사업장 주소지를 타 지역으로 이전하는 경우 - 지원제외 대상업종(붙임 참고)2 지원내용가. 지원범위 : 2026. 1. 1. 이후 발생한 임차료 소급 적용나. 지원금액 : 업체당 임대료 최대 30만원(월 최대 10만원, 3개월분 1회 지급) ※ 기납부한 임대료 3",
+            "locator": "PDF p.2 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "eafeb010e3420a41cbea",
+            "category": "exclusion",
+            "excerpt": "《제외대상》 - 사업자의 가족(배우자 포함)의 점포에 입점 계약한 경우 ※ 추후 임대인과 가족관계가 확인될 경우 지원금액 회수 및 향후 소상공인 지원사업 배제 - 대기업 및 대기업 운영 프랜차이즈 직영점 - 사업자등록을 하지 않은 무신고·무등록·무허가 사업자 / 사업자등록증 미소유 - 신청일 기준 휴·폐업 중인 업체 - 국세·지방세 체납 중인 업체 - 비영리 기업, 비영리 단체, 비영리 법인, 법인격이 없는 ",
+            "locator": "PDF p.2 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "e25ef7ab0f8970c6ef7d",
+            "category": "amount",
+            "excerpt": "《제외대상》 - 사업자의 가족(배우자 포함)의 점포에 입점 계약한 경우 ※ 추후 임대인과 가족관계가 확인될 경우 지원금액 회수 및 향후 소상공인 지원사업 배제 - 대기업 및 대기업 운영 프랜차이즈 직영점 - 사업자등록을 하지 않은 무신고·무등록·무허가 사업자 / 사업자등록증 미소유 - 신청일 기준 휴·폐업 중인 업체 - 국세·지방세 체납 중인 업체 - 비영리 기업, 비영리 단체, 비영리 법인, 법인격이 없는 ",
+            "locator": "PDF p.2 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "4add1c143eac056c5a26",
+            "category": "amount",
+            "excerpt": "신청서\u0000내용\u0000입력-증빙서류\u0000첨부-신청내역\u0000및\u0000증빙서류\u0000검토-필요시\u0000보완요청(신청서\u0000접수\u0000후\u0000요건검토)-지급여부\u0000결정-지원금\u0000지급(신청일\u0000기준\u0000익월말까지)",
+            "locator": "PDF p.2 / text-line 5",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "a27333257d6f70e68241",
+            "category": "documents",
+            "excerpt": "\u0000\u0000급(소상공인24)-소상공인24\u0000회원가입-본인인증\u0000및\u0000마이데이터\u0000정보이용\u0000동의-사업자등록번호\u0000및\u0000신청서\u0000내용\u0000입력-증빙서류\u0000첨부-신청내역\u0000및\u0000증빙서류\u0000검토-필요시\u0000보완요청(신청서\u0000접수\u0000후\u0000요건검토)-지급여부\u0000결정-지원금\u0000지급(신청일\u0000기준\u0000익월말까지)",
+            "locator": "PDF p.2 / text-line 5",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "e3e99020347471bda939",
+            "category": "documents",
+            "excerpt": "공공 마이데이터 활용 동의 필수(간편인증, 공동인증서 인증) ※ 공공 마이데이터 동의 필수이며, ‘미동의’시 아래의 필수서류 개별 발급하여 업로드 필요다. 제출서류 ※ 제출 서류는 유효기간 이내구분번호신청서류제출방법발급처비 고",
+            "locator": "PDF p.3 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "b0f6e6d66f86c3641633",
+            "category": "deadline",
+            "excerpt": "3 신청방법가. 신청기간 : 2026.4.20. ~ 2026.11.30. ※ 선착순 지원이며, 예산소진 시 조기 마감나. 신청방법 : 소상공인24(www.sbiz24.kr) 온라인 신청(오프라인 신청 불가) - 소상공인24(www.sbiz24.kr) 접속 후 ‘지원사업 조회 및 신청’→ ‘지방정부 공고조회 및 신청’→ 검색창에 ‘창업의 꿈 울산이 이루어 드림’검색 - 소상공인24 홈페이지 본인인증(휴대폰 인증",
+            "locator": "PDF p.3 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "d1ef6f352c3be9944242",
+            "category": "documents",
+            "excerpt": " 동의 시)소상공인24시스템자동 서류제출- (공공 마이 데이터 미동의시)해당 서류 개별 발급후 필수 등록②- 매출액 증빙서류(2024~2025년, 2개년) (부가가치세 과세표준증명원 또는 면세사업자 수입금액증명원) ※ 국세청 홈텍스 발급③- 국세·지방세 완납증명서 ※ 국세청 홈텍스 및 위텍스 발급④- 임대료 이체한 본인 통장사본- 임대료 은행이체 확인증(은행 날인) ※ 현금 지급 인정 불가 ※ 거래내역 조회 ",
+            "locator": "PDF p.3 / text-line 4",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "a25c8fed9f07c6815799",
+            "category": "eligibility",
+            "excerpt": "본인/은행개별은행 사이트⑤- 임대차 계약서 사본 (신청인과 계약자, 사업자등록증과 계약서소재지 동일) 본인⑥- 임차사업장 등기부등본 원본 또는 건축물대장 원본 대법원 인터넷 등기소, 정부24(인터넷 발급)iros.go.kr 또는 plus.gov.kr⑦- 가족관계증명서(상세발급본) ※ 가족 점포 입주 여부 확인용 ※ 공동대표일 경우 대표 모두 발급대법원 가족관계 등록시스템, 동 행정복지센터(인터넷발급)efami",
+            "locator": "PDF p.3 / text-line 5",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "9dd97b5bdb40e2bacb05",
+            "category": "amount",
+            "excerpt": " 대표 모두 발급대법원 가족관계 등록시스템, 동 행정복지센터(인터넷발급)efamily.scourt.go.kr선택⑧-<지원금 입금용> 사업주 또는 사업장 명의 통장사본 1부 ※ 임대료 이체 통장사본과 동일한 경우 미첨부본인⑨- 위임장 ※ 공동대표 사업장일 경우 필수 작성 본인서식 1보완 요청 시⑩- 중소기업(소상공인) 확인서- 소 상 공 인 요 건 확 인 불 가 시 개 별 요 청 예 정- 발 급 처 ‧ 온 라 ",
+            "locator": "PDF p.3 / text-line 5",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "c0d55b0b00fc09e336f0",
+            "category": "exclusion",
+            "excerpt": "하여 실제 사업장 운영 여부, 부정 수급 여부 등 점검5유의사항가. 신청서 작성내용 부정확 및 신청기준 부적합 시, 지원 제외 및 지원금 지급이 제한될 수 있으며, 공고문 내용 미숙지, 적격통보 수신 번호 미기재로 발생하는 불이익은 대표자 본인에게 있음나. 제출된 서류 이외 요건 확인을 위한 추가서류를 요청할 수 있으며, 신청자는 특별한 사정이 없는 한 요청에 응해야 함다. 접수된 서류는 일절 반환하지 않음라",
+            "locator": "PDF p.4 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "84c9b8aa36cd6a79f3bb",
+            "category": "amount",
+            "excerpt": "장 운영 여부, 부정 수급 여부 등 점검5유의사항가. 신청서 작성내용 부정확 및 신청기준 부적합 시, 지원 제외 및 지원금 지급이 제한될 수 있으며, 공고문 내용 미숙지, 적격통보 수신 번호 미기재로 발생하는 불이익은 대표자 본인에게 있음나. 제출된 서류 이외 요건 확인을 위한 추가서류를 요청할 수 있으며, 신청자는 특별한 사정이 없는 한 요청에 응해야 함다. 접수된 서류는 일절 반환하지 않음라. 환수 - 「",
+            "locator": "PDF p.4 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "dbe9aa09d8c37eeee853",
+            "category": "documents",
+            "excerpt": " 않음라. 환수 - 「공공재정 부정 청구 금지 및 부정이익 환수에 관한 법률」 및 「지방보조금법」에 따라 신청서 및 증빙서류가 허위로 판명된 경우, 지원금 전액 환수 - 부정청구 등이 있는 경우 부정이익과 이자 모두 환수 및 제재부가금 부과(부정이익 가액의 최대 5배)\u0000*\u0000보조금\u0000관리에\u0000관한\u0000법률\u0000\u0000제40조(벌칙)\u0000다음\u0000각\u0000호의\u0000어느\u0000하나에\u0000해당하는\u0000자는\u000010년\u0000이하의\u0000징역\u0000또는\u00001억원\u0000이하의\u0000벌금에\u0000처한다.",
+            "locator": "PDF p.4 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "da59a909194092fe0206",
+            "category": "exclusion",
+            "excerpt": "붙임 1 지원제외 대상 업종(소상공인 정책자금 지원제외 업종 준용)표준산업분류업 종33409 중도박기계 및 사행성, 불건전 오락기구 제조업46102 중담배 중개업46209 중잎담배 도매업46333담배 도매업* 담배대용물(전자담배 등) 포함46463 중도박기계 및 사행성, 불건전 오락기구 도매업47640 중도박기계 및 사행성, 불건전 오락기구 소매업47811 중약국, 한약국47859 중성인용품 판매점47911,",
+            "locator": "PDF p.5 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "표 열 순서·이미지·주석의 의미는 검토하지 않았습니다.",
+          "OCR 미수행"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
+    },
+    "fbc702967a56cce7637cfc6c": {
+      "id": "fbc702967a56cce7637cfc6c",
+      "program_id": "BIZINFO-PBLN_000000000121148",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000121148",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000752422&fileSn=0",
+      "name": "다운로드",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
+    },
+    "26a0ac0f474c77702a568d49": {
+      "id": "26a0ac0f474c77702a568d49",
+      "program_id": "BIZINFO-PBLN_000000000121243",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000121243",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000752800&fileSn=0",
+      "name": "다운로드",
+      "status": "partial_text",
+      "last_attempt_at": "2026-10-30T11:24:05+09:00",
+      "last_success_at": "2026-10-30T11:24:05+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-10-30T11:24:05+09:00",
+          "status": "partial_text",
+          "observed_sha256": "e5aff028d9b7f15477a1717694e419b09638d3731f99b2f2c0ad15011f2e2f7a",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "e5aff028d9b7f15477a1717694e419b09638d3731f99b2f2c0ad15011f2e2f7a",
+      "sha256": "e5aff028d9b7f15477a1717694e419b09638d3731f99b2f2c0ad15011f2e2f7a",
+      "extraction": {
+        "format": "pdf",
+        "parser": "pypdf/6.15.0",
+        "sha256": "e5aff028d9b7f15477a1717694e419b09638d3731f99b2f2c0ad15011f2e2f7a",
+        "bytes": 774259,
+        "status": "partial_text",
+        "text_characters": 12223,
+        "units": 60,
+        "text_sha256": "c219232f8d40a7b20129aa512c9bcc6b144485102d39a57656763eff66964ee7",
+        "pages": 20,
+        "sections": null,
+        "empty_pages": 1,
+        "candidate_facts": [
+          {
+            "id": "039023b1e1e18aa071d8",
+            "category": "eligibility",
+            "excerpt": "설자금의 75%이내) * 정책자금 : 온랜딩, 한국은행(C1, C2 등), 중소벤처기업진흥공단 자금 등3. 지원개요○지원대상 :관내 사업장을 두었거나 둘 예정인 중소기업*으로자금사용처가 관내인 경우 * 「중소기업기본법」제2조에 따른 중소기업",
+            "locator": "PDF p.1 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "d2e21f812f25898d5bef",
+            "category": "exclusion",
+            "excerpt": "정에 의거 「2026년중소기업 AI인프라 육성자금 지원계획 변경 공고」를다음과 같이 공고합니다.※ 변경사항 : 5쪽 지원 제외대상 중 “신청일 현재 매출액을 확인할 수 없는 업체” 삭제2026.4.16.울 산 광 역 시 장1. 융자규모 : 200억 원(은행협조 융자)2. 자금의 용도구분자금용도세부내용AI인프라자금시설자금◦사업장 건축 및 매입, 신규설비 구축 등의 생산 및 개발을 위한 시설투자에 소요되는 자금 ",
+            "locator": "PDF p.1 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "70ed0eb5f7e2f38d0ea4",
+            "category": "eligibility",
+            "excerpt": "○지원대상 업종 ▸ 제조업(분류번호 C) : 한국산업표준분류표에 의한 제조업 ※ 제조업의 경우 【참고 2】 각목의 1에 해당하는 경우▸ 제조업관련서비스업, 지식기반산업, 지식서비스업▸ 도‧소매업(분류번호 G 45~47), 단 4633, 4722 중 주류, 담배 도‧소매업은 제외▸ 음식․숙박업(분류번호 I 55~56), 단 주점업(5621)은 제외※ 도‧소매업, 음식업, 숙박업: 상시 종원업수 5인 이상 업체제",
+            "locator": "PDF p.2 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "2cbeda4887bde950eb92",
+            "category": "exclusion",
+            "excerpt": "업체 -허위 또는 기타 부정한 방법으로 융자지원결정 또는 대출을 받은 업체 -지원 자금을 용도 외에 사용한 업체 ※ 지원 제외대상▸ 자금사용계획이 용도 외인 업체▸ 업종 전업률이 30% 미만인 업체▸ ‘금융기관여신운용규정’ 상의 계열기업군에 속하는 업체▸ 대기업자가 발행주식 총수 또는 출자총액의 50%이상을 소유하고 있는 업체▸ 신청일 현재, 휴·폐업 중인 업체 및 국세·지방세 체납업체▸ 신청일 현재 시 경영",
+            "locator": "PDF p.5 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "636e510f9682708bbde5",
+            "category": "amount",
+            "excerpt": "⑤융자신청 (울산경제일자리진흥원) ⑥추천서교부 ⑦대 출 ⑧사후관리중소기업 융자 필요서류 제출(온라인) 지원가능여부 및지원금액 결정협약은행 대출 실행자금사용 용도 점검,만족도 조사 등 * 보증기관(신용보증기금) 평가 후 이차보전 융자 추천** (보증비율) 90% 적용, (보증료율) 중소기업의 신용도에 따라 年 0.5% ~ 3.0% 범위○지원결정 취소대상 -지원결정 후 폐업,관외이전,최종 부도 처리된 업체 -허위",
+            "locator": "PDF p.5 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "c738a71dd645ad870be0",
+            "category": "documents",
+            "excerpt": "bpi.or.kr>(선착순 접수 아님) ※ 반드시 【신청서 작성요령, p.18】을 참고하여 작성해 주시기 바랍니다!○구비서류구분구비서류비 고",
+            "locator": "PDF p.6 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "fae26482d95cd7e53c8f",
+            "category": "deadline",
+            "excerpt": "담 :전국 영업점(☎1588-6565)②울산경제일자리진흥원 신청서 접수 ※ 사전상담 및 확인서 발급 이후 접수 가능-신청기간 :2026.4.17.(금)~자금소진 시까지-신청방법 :온라인접수 <https:/ / hext.ubpi.or.kr>(선착순 접수 아님) ※ 반드시 【신청서 작성요령, p.18】을 참고하여 작성해 주시기 바랍니다!○구비서류구분구비서류비 고",
+            "locator": "PDF p.6 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "3b0752aa575f621febbf",
+            "category": "documents",
+            "excerpt": "www.smes.go.kr) 발급사업자등록증명 사본 1부신용보증기금 선정기업 추천서 1부추천대상 업체 평가항목 증빙서류 - 최근 2개년도 표준재무제표 1부 - 원천징수이행상황 신고서(최근3개월 기준) 사본 1부 - 최근 1년간 부가가치세과세표준증명원 사본 1부 - 최근 1년간 부가가치세신고서 사본 1부 - 직수출실적 확인 및 증명발급서(해당업체에 한함) 사본 1부 - 국세･지방세 납세증명서 1부 - 지방",
+            "locator": "PDF p.6 / text-line 4",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "5f36beb9c755580e56a8",
+            "category": "eligibility",
+            "excerpt": " 후 울산경제일자리진흥원에 제출하여야 함○대출은행과 약정을 체결한 사업장이 휴업‧폐업 또는 울산지역 이외로 이전 및 소재할 경우 자금지원이 중단됨○육성자금 실행 후 타은행으로 변경(대환)불가함○본 공고 이외의 사항은 울산광역시 중소기업육성기금 조례 및 규칙에 의함☞ 문의 및 상담○신용보증기금(https://www.kodit.co.kr):☎ 1588-6565○울산경제일자리진흥원(http://www.ubpi.or",
+            "locator": "PDF p.8 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "87e57d5e6c88e8aa02d6",
+            "category": "deadline",
+            "excerpt": "7. 기타사항○기업체 임직원 외 업무대행 금지(융자신청 및 추천서 수령)○융자추천 결정:신청마감일로부터 15일 이내 ※ 시설자금은 평가항목【참고 3】에 의한 50점 이상 업체를 “적합업체”로 선정○대출 상담·취급기관(13개 협약 금융기관) BNK경남은행, KB국민은행, IBK기업은행, NH농협은행, iM뱅크, BNK부산은행, 신한은행, KEB하나은행, KDB산업은행, 우리은행, 한국수출입은행, 새마을금고중앙회",
+            "locator": "PDF p.8 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "c249d7cc6188361979a0",
+            "category": "eligibility",
+            "excerpt": "중단될 수 있습니다.(자필 작성)2.휴업 또는 폐업의 경우 휴･폐업일 이전까지 이차보전금 지급3.자금대출 후 사업장 소재지변경,대표자변경,상호변경,휴･폐업 등 변동사항이있을 시 반드시 신고(변동사항 발생 후 14일 이내)※ 공장 신․증․개축비,부동산(공장,부지)매입비,기계장치구입비,유가증권 구입등의 시설투자비용으로는 사용할 수 없습니다.□ 대출 취급 확인은 행 명(지 점 명) /보증기관명(지점명) 직 책:연락",
+            "locator": "PDF p.9 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "729741d2419936210731",
+            "category": "exclusion",
+            "excerpt": "또는 자금 사후관리에불응하는 경우에는 이차보전금이회수또는 중단될 수 있습니다.(자필 작성)2.휴업 또는 폐업의 경우 휴･폐업일 이전까지 이차보전금 지급3.자금대출 후 사업장 소재지변경,대표자변경,상호변경,휴･폐업 등 변동사항이있을 시 반드시 신고(변동사항 발생 후 14일 이내)※ 공장 신․증․개축비,부동산(공장,부지)매입비,기계장치구입비,유가증권 구입등의 시설투자비용으로는 사용할 수 없습니다.□ 대출 취급 확",
+            "locator": "PDF p.9 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "553c17874537264cd458",
+            "category": "amount",
+            "excerpt": "지 않은 범위 이내에서 대출 취급할 수 있음을 확인합니다.위 내용을 확인 하였으며,위반사항 발생 시 지원중단 및 기 지원금 환수절차에 동의 합니다.(자필 작성) 신청인 ※기존자금대환의경우반드시금융기관으로부터금융거래확인서를발급받아오시길바랍니다.",
+            "locator": "PDF p.9 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "bf2068d261e25e4c9525",
+            "category": "documents",
+            "excerpt": "이내 대출금 사용내역 통보(울산경제일자리진흥원 FAX:700-7139)◦ 대출금 입금통장사본,계좌이체 내역,기타관련 증빙서류 첨부 ◦ 울산광역시 중소기업 육성자금 조례 등 관련법규에저촉될 경우,또는 자금 사후관리에불응하는 경우에는 이차보전금이회수또는 중단될 수 있습니다.(자필 작성)2.휴업 또는 폐업의 경우 휴･폐업일 이전까지 이차보전금 지급3.자금대출 후 사업장 소재지변경,대표자변경,상호변경,휴･폐업 등 변",
+            "locator": "PDF p.9 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "25540846e89a2dcbd76a",
+            "category": "eligibility",
+            "excerpt": "업 체 명 대 표 자전 화 번 호대표자 주민번호-사업자등록번호대표자 전화번호본 점 소 재 지사업장소재지신 청 금 액백만원상시근로자수명 (일용제외)담 보 종 류부동산( ) , 시설( ) , 신용 ( ) , 예금( ) , 기타( )자 금 용 도(○ 표 시)설비 구입 / 사업장 건축 /사업장 매입 / 사업장 임차상 환 기 간5년(2년 거치, 3년 분할상환)",
+            "locator": "PDF p.10 / text-line 4",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "627884df14e81e75140d",
+            "category": "exclusion",
+            "excerpt": " 확인함지점장 (인)승인일부터 6개월(2개월 연장 가능) 이내 대출 미완료시 지원중단 등 주의사항 설명함 공고문 상 지원 제외대상 업체가 아님을 확인함",
+            "locator": "PDF p.10 / text-line 6",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "b589bd5131b20bdf5629",
+            "category": "cofunding",
+            "excerpt": "3 울산광역시 중소기업 시설자금 사용계획서1.소요자금 및 조달계획(단위 : 백만 원)구 분총 소요자금신청자금기타자금(자부담 등)계설비 구입사업장 건축사업장 매입사업장 임차2.시설별 사업계획 □ 설비 구입 ※ 미해당 시 삭제 가능 (단위 : 백만 원)연번품 명규 격(모델명)수량단가소요금액구입처계 ※ 구비서류 : 1. 매매계약서 사본 1부2. 견적서 1부 □ 사업장 건축(공장, 공장 외 사업장, 기숙사) ※ 미해",
+            "locator": "PDF p.12 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "a9253af5be5d0bc100ab",
+            "category": "documents",
+            "excerpt": "업계획 □ 설비 구입 ※ 미해당 시 삭제 가능 (단위 : 백만 원)연번품 명규 격(모델명)수량단가소요금액구입처계 ※ 구비서류 : 1. 매매계약서 사본 1부2. 견적서 1부 □ 사업장 건축(공장, 공장 외 사업장, 기숙사) ※ 미해당 시 삭제 가능건 축 의 종 류신축( ) 증축( ) 개축( )건 축 물 의 용 도위 치건 축 면 적(㎡) 연 면 적(㎡)건 축 허 가(신 고)일 준 공 예 정 일시 공 업 체계 약 ",
+            "locator": "PDF p.12 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "c18e55935d9029d00efb",
+            "category": "documents",
+            "excerpt": "적 또는 수량매매 가격비 고 (용도지역, 상황, 형태 등)건 물합 계매매(낙찰)금 액백만 원신 청 금 액백만 원 ※ 구비서류 : 매매계약서 사본[경매·공매 낙찰서류(물건정보 포함)] 1부 □ 사업장 임차(공장, 공장 외 사업장, 기숙사) ※ 미해당 시 삭제 가능소 재 지 면 적 ㎡임 대 인(연 락 처) (☎ - - )토지용도구 분 □ 전용 공업지 역 □ 일반 공업지 역 □ 준공업지역 □ 상 업 지 역 □ 주 ",
+            "locator": "PDF p.13 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "9254b73e1281d5f62dc2",
+            "category": "exclusion",
+            "excerpt": "참고 1정책자금 융자제외 대상 업종 및 예외□ 융자제외 대상 업종",
+            "locator": "PDF p.14 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "36c4d6e79cbfc3211a6c",
+            "category": "cofunding",
+            "excerpt": "평가항목평 가 기 준 배 점5. 설비투자 자부담률 (자부담/시설비)(10점)60% 이상 1040% 이상 60% 미만 820% 이상 40% 미만 620% 미만 46. 사업장입지 및 등록(5점)산업ㆍ농공단지5개별입지 공장등록37. 사업영위 기간(5점)7년 이상 55년 이상 7년 미만 45년 미만 38. 감점(-5점)당해연도 경영안정자금(시, 구･군 포함) 지원여부(△5)총 점 100",
+            "locator": "PDF p.17 / text-line 3",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "표 열 순서·이미지·주석의 의미는 검토하지 않았습니다.",
+          "OCR 미수행"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
+    },
+    "fb0c29e7e557759dcc5dfde5": {
+      "id": "fb0c29e7e557759dcc5dfde5",
+      "program_id": "BIZINFO-PBLN_000000000121243",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000121243",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000752801&fileSn=0",
+      "name": "다운로드",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
     }
   },
   "programs": {
@@ -7061,6 +7761,45 @@
         "16fcdd203e9db6842148c069",
         "f970eccf89dbcfcbbf1599cf",
         "15067451ae5eb827e83a14b4"
+      ],
+      "review_required": false,
+      "last_error": null
+    },
+    "BIZINFO-PBLN_000000000120946": {
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120946",
+      "last_notice_attempt_at": "2026-10-30T11:24:05+09:00",
+      "last_notice_success_at": "2026-10-30T11:24:05+09:00",
+      "notice_status": "links_available",
+      "manifest_sha256": "81be4011a9d6c4ce1efd940edf9e922a3bea0eb79a1ff6b441ddc3cecb222406",
+      "document_ids": [
+        "1ced7d213f8a6da8b7f217ae",
+        "59c46a9ec46dfbd31de0d4d1"
+      ],
+      "review_required": false,
+      "last_error": null
+    },
+    "BIZINFO-PBLN_000000000121148": {
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000121148",
+      "last_notice_attempt_at": "2026-10-30T11:24:05+09:00",
+      "last_notice_success_at": "2026-10-30T11:24:05+09:00",
+      "notice_status": "links_available",
+      "manifest_sha256": "91fcb80e62e5cd88dafbd02e3e456a2e3d3519f52331fe56c63ae7a692189743",
+      "document_ids": [
+        "5a34da99a131137e0c2e0cdb",
+        "fbc702967a56cce7637cfc6c"
+      ],
+      "review_required": false,
+      "last_error": null
+    },
+    "BIZINFO-PBLN_000000000121243": {
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000121243",
+      "last_notice_attempt_at": "2026-10-30T11:24:05+09:00",
+      "last_notice_success_at": "2026-10-30T11:24:05+09:00",
+      "notice_status": "links_available",
+      "manifest_sha256": "9afb111c9490863f60407b7f2b8ff75962e217e36093e983f671773492a576d6",
+      "document_ids": [
+        "26a0ac0f474c77702a568d49",
+        "fb0c29e7e557759dcc5dfde5"
       ],
       "review_required": false,
       "last_error": null

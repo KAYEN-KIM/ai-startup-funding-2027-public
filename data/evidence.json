@@ -2171,9 +2171,148 @@
       "last_success_at": "2026-10-30T09:23:38+09:00",
       "last_error": null,
       "review_required": false
+    },
+    "BIZINFO-PBLN_000000000125634": {
+      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125634",
+      "last_attempt_at": "2026-10-30T11:23:02+09:00",
+      "body_sha256": "97c1bd8ff30367fd12997e2ceed3ab4a7d4cc3257a54f85bef421c4bc8b0bf7e",
+      "characters": 1813,
+      "page_title": "기업마당>정책정보>지원사업 공고 기업마당 기업마당 > 정책정보 > 지원사업 공고",
+      "attachments": [
+        {
+          "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000769955&fileSn=2",
+          "name": "다운로드",
+          "status": "link_only_not_read"
+        },
+        {
+          "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000769954&fileSn=2",
+          "name": "다운로드",
+          "status": "link_only_not_read"
+        }
+      ],
+      "level": "html_retrieved_not_eligibility_verified",
+      "status": "html_available",
+      "last_success_at": "2026-10-30T11:23:02+09:00",
+      "last_error": null,
+      "review_required": false
+    },
+    "BIZINFO-PBLN_000000000125560": {
+      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125560",
+      "last_attempt_at": "2026-10-30T11:23:02+09:00",
+      "body_sha256": "a467897927b951697297b533f7e9b5ae007b0a1519dc7a9f12e1a239feee78e8",
+      "characters": 1402,
+      "page_title": "기업마당>정책정보>지원사업 공고 기업마당 기업마당 > 정책정보 > 지원사업 공고",
+      "attachments": [
+        {
+          "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000769652&fileSn=0",
+          "name": "다운로드",
+          "status": "link_only_not_read"
+        },
+        {
+          "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000769651&fileSn=0",
+          "name": "다운로드",
+          "status": "link_only_not_read"
+        }
+      ],
+      "level": "html_retrieved_not_eligibility_verified",
+      "status": "html_available",
+      "last_success_at": "2026-10-30T11:23:02+09:00",
+      "last_error": null,
+      "review_required": false
+    },
+    "BIZINFO-PBLN_000000000125523": {
+      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125523",
+      "last_attempt_at": "2026-10-30T11:23:02+09:00",
+      "body_sha256": "f842c88cd34524b39338629e39670d388b2f52a530a2f7e70ae8d3f6fd2c473f",
+      "characters": 1904,
+      "page_title": "기업마당>정책정보>지원사업 공고 기업마당 기업마당 > 정책정보 > 지원사업 공고",
+      "attachments": [
+        {
+          "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000769478&fileSn=0",
+          "name": "다운로드",
+          "status": "link_only_not_read"
+        },
+        {
+          "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000769477&fileSn=0",
+          "name": "다운로드",
+          "status": "link_only_not_read"
+        }
+      ],
+      "level": "html_retrieved_not_eligibility_verified",
+      "status": "html_available",
+      "last_success_at": "2026-10-30T11:23:02+09:00",
+      "last_error": null,
+      "review_required": false
+    },
+    "BIZINFO-PBLN_000000000124926": {
+      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124926",
+      "last_attempt_at": "2026-10-30T11:23:02+09:00",
+      "body_sha256": "2b442b45d17b8900bc8a741d808590241c71c6a9bf2d1b369fd2242d9c789e2f",
+      "characters": 2416,
+      "page_title": "기업마당>정책정보>지원사업 공고 기업마당 기업마당 > 정책정보 > 지원사업 공고",
+      "attachments": [
+        {
+          "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000766908&fileSn=0",
+          "name": "다운로드",
+          "status": "link_only_not_read"
+        },
+        {
+          "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000766907&fileSn=0",
+          "name": "다운로드",
+          "status": "link_only_not_read"
+        }
+      ],
+      "level": "html_retrieved_not_eligibility_verified",
+      "status": "html_available",
+      "last_success_at": "2026-10-30T11:23:02+09:00",
+      "last_error": null,
+      "review_required": false
+    },
+    "BIZINFO-PBLN_000000000124841": {
+      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124841",
+      "last_attempt_at": "2026-10-30T11:23:02+09:00",
+      "body_sha256": "53d0f319c5e9235c4b9d5085edddefda02a420fc6b69a0f0b0ed6d5c90cc1498",
+      "characters": 2120,
+      "page_title": "기업마당>정책정보>지원사업 공고 기업마당 기업마당 > 정책정보 > 지원사업 공고",
+      "attachments": [
+        {
+          "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000766579&fileSn=0",
+          "name": "다운로드",
+          "status": "link_only_not_read"
+        }
+      ],
+      "level": "html_retrieved_not_eligibility_verified",
+      "status": "html_available",
+      "last_success_at": "2026-10-30T11:23:02+09:00",
+      "last_error": null,
+      "review_required": false
+    },
+    "BIZINFO-PBLN_000000000124779": {
+      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124779",
+      "last_attempt_at": "2026-10-30T11:23:02+09:00",
+      "body_sha256": "e020fcee324c3e7646c45ef0fc03dd653214400533b3d04f439b594c4e8d8219",
+      "characters": 2478,
+      "page_title": "기업마당>정책정보>지원사업 공고 기업마당 기업마당 > 정책정보 > 지원사업 공고",
+      "attachments": [
+        {
+          "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000766312&fileSn=1",
+          "name": "다운로드",
+          "status": "link_only_not_read"
+        },
+        {
+          "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000766311&fileSn=1",
+          "name": "다운로드",
+          "status": "link_only_not_read"
+        }
+      ],
+      "level": "html_retrieved_not_eligibility_verified",
+      "status": "html_available",
+      "last_success_at": "2026-10-30T11:23:02+09:00",
+      "last_error": null,
+      "review_required": false
     }
   },
-  "generated_at": "2026-10-30T09:23:38+09:00",
+  "generated_at": "2026-10-30T11:23:02+09:00",
   "run": {
     "attempted": 6,
     "success": 6,

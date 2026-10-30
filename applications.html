@@ -7,11 +7,11 @@
 <title>신청 준비 보드 | AI FUNDING RADAR 2027</title>
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="assets/style.css"><link rel="stylesheet" href="assets/applications.css">
-<script src="assets/radar-core.js" defer></script><script src="assets/applications-core.js" defer></script><script src="assets/applications-ui.js" defer></script>
+<script src="assets/radar-core.js" defer></script><script src="assets/applications-core.js" defer></script><script src="assets/application-dossier.js" defer></script><script src="assets/application-dossier-view.js" defer></script><script src="assets/applications-ui.js" defer></script>
 </head>
 <body><a class="skip-link" href="#board">준비 보드로 이동</a>
 <div class="application-shell">
-<header class="application-header"><div><a href="index.html" class="eyebrow">← AI FUNDING RADAR 2027</a><h1>신청 준비 보드</h1><p>공고를 찾은 다음, 무엇을 언제까지 준비할지 정리합니다.</p></div><span class="private-badge">현재 브라우저 메모리에서만 처리</span></header>
+<header class="application-header"><div><a href="index.html" class="eyebrow">← AI FUNDING RADAR 2027</a><h1>신청 준비 보드</h1><p>공고를 찾은 다음, 무엇을 언제까지 준비하고, 어떤 요구에 어떤 자료를 붙일지 정리합니다.</p></div><span class="private-badge">현재 브라우저 메모리에서만 처리</span></header>
 <nav class="application-nav" aria-label="검토 도구"><a href="eligibility.html">기업 조건 검토</a><a href="attachments.html">첨부 원문</a><a href="startup.html">예비·초기 준비</a><a href="portfolio.html">사업 조합·비용 배분</a></nav>
 <section class="privacy-notice" aria-label="저장 및 정보 처리 안내"><b>자동 저장·서버 전송·실제 신청은 하지 않습니다.</b><p>새로고침하면 입력이 사라집니다. 계속 작업하려면 <strong>준비 파일 저장</strong> 후 다음 접속에서 직접 불러오십시오. 이 파일은 암호화되지 않은 비공개 JSON입니다. 실명·사업자번호·계좌·서류 원본·민감한 내용은 입력하지 마십시오. GitHub 공개 저장소에 올리지 마십시오.</p></section>
 <section class="toolbar" aria-label="보드 관리">
@@ -21,12 +21,12 @@
 <button id="reloadPublic" class="btn btn-secondary" type="button">공개 공고 다시 읽기</button>
 <button id="clearBoard" class="btn btn-secondary" type="button">전체 입력 비우기</button>
 </section>
-<div id="importPreview" class="import-preview" hidden><b id="importSummary"></b><p>검증된 파일의 입력만 가져옵니다. 저장된 상태는 자체기록이며 공고의 적격성·제출·선정을 증명하지 않습니다. 현재 보드를 대체하므로 필요한 입력을 먼저 저장하십시오.</p><button id="applyImport" type="button" class="btn btn-primary">확인 후 현재 보드 대체</button><button id="cancelImport" type="button" class="btn btn-secondary">취소</button></div>
+<div id="importPreview" class="import-preview" hidden><b id="importSummary"></b><p>검증된 파일의 입력만 가져옵니다. P0.12(v1) 파일은 기존 작업을 보존하고 빈 문서 목록을 추가합니다. 새 v2 파일은 이전 화면에서 열 수 없습니다. 저장된 상태는 자체기록이며 공고의 적격성·제출·선정을 증명하지 않습니다. 현재 보드를 대체하므로 필요한 입력을 먼저 저장하십시오.</p><button id="applyImport" type="button" class="btn btn-primary">확인 후 현재 보드 대체</button><button id="cancelImport" type="button" class="btn btn-secondary">취소</button></div>
 <p id="message" class="message" role="status" aria-live="polite"></p>
 <p id="sourceStatus" class="source-status" role="status">공개 공고를 읽고 있습니다.</p>
 <section class="picker" aria-labelledby="pickerTitle"><h2 id="pickerTitle">1. 준비할 공고 담기</h2><p>최대 12개. 운영기관 모집·예산안은 제외합니다. 이전 연도 참고 경로는 미래 준비용이며 실제 신청 공고가 아닙니다.</p><div class="picker-controls"><label>공고명 검색<input id="noticeSearch" type="search" maxlength="160" placeholder="예: 초기창업, IBK, AI"></label><label class="grow">공고 선택<select id="noticeSelect" aria-label="준비할 공고"></select></label><button id="addNotice" class="btn btn-primary" type="button" disabled>준비 보드에 담기</button></div></section>
 <section aria-labelledby="summaryTitle"><h2 id="summaryTitle">2. 오늘의 준비 현황</h2><div id="summary" class="prep-summary"></div><p class="boundary">완료 건수는 내부 작업 진척입니다. 공식 필수서류 완비·신청 적격성·선정 확률이 아닙니다. 제출·선정 상태도 사용자가 입력한 기록입니다.</p></section>
 <section id="board" aria-label="공고별 준비 보드"><p class="empty">준비할 공고를 담거나 이전 준비 파일을 불러오십시오.</p></section>
 <section class="calendar-note"><h2>일정 파일의 범위</h2><p>직접 입력한 작업일과 내부 목표일은 종일 일정으로 저장합니다. 기재 마감은 현재 공고 목록과 저장 정보가 일치하고 수집 상태가 최신 성공인 경우만 포함합니다. 후보·이전 연도 참고·변경·경과 마감은 공식 마감 일정에서 제외합니다. 날짜만 확인된 마감은 <b>‘시각 미확인’ 종일 일정</b>이며 자정 마감으로 바꾸지 않습니다.</p><p>이 파일은 자동 갱신·알림 서비스가 아닙니다. 공고가 바뀌면 다시 확인해야 합니다. 캘린더 서비스로 가져오면 그 서비스에 내용이 저장될 수 있습니다. 중복 가져오기 처리도 사용하는 캘린더에 따라 다릅니다.</p></section>
-<footer>AI FUNDING RADAR · P0.12 <span>공고 탐색 → 조건·비용 검토 → 신청 준비 · 실제 제출은 공식 접수처에서 직접 수행</span></footer>
+<footer>AI FUNDING RADAR · P0.13 <span>공고 탐색 → 조건·비용 검토 → 신청 준비 · 실제 제출은 공식 접수처에서 직접 수행</span></footer>
 </div></body></html>

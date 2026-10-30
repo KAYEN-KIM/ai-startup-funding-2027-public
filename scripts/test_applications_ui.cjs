@@ -1,6 +1,6 @@
 'use strict';
 const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm'),path=require('node:path');
-const C=require('../assets/applications-core.js');
+const C=require('../assets/application-dossier.js').attach(require('../assets/applications-core.js'));
 const NOW=new Date('2026-10-30T01:00:00Z');
 const P={id:'P1',title:'AI <검토> 공고',year:2027,mode:'beneficiary',opens:'2026-10-20',deadline:'2026-11-13T14:00:00+09:00',source:'https://www.bizinfo.go.kr/a',amount:'한도 미정',eligibility:'원문 확인'};
 const M={schema:'public-funding-monitor/v1',status:'ok_changed',last_success_at:'2026-10-30T00:40:00Z'};
@@ -26,6 +26,8 @@ function setup({failure=false,hash=''}={}){
   };
   ctx.globalThis=ctx;vm.createContext(ctx);
   vm.runInContext(fs.readFileSync(path.join(__dirname,'../assets/applications-core.js'),'utf8'),ctx);
+  vm.runInContext(fs.readFileSync(path.join(__dirname,'../assets/application-dossier.js'),'utf8'),ctx);
+  vm.runInContext(fs.readFileSync(path.join(__dirname,'../assets/application-dossier-view.js'),'utf8'),ctx);
   vm.runInContext(fs.readFileSync(path.join(__dirname,'../assets/applications-ui.js'),'utf8'),ctx);
   const ready=async()=>{for(let i=0;i<8;i++)await Promise.resolve();};
   const add=async()=>{await ready();get('noticeSelect').value='P1';await get('noticeSelect').emit('change');await get('addNotice').emit('click');};
@@ -45,7 +47,7 @@ test('changed deadline shows old and current values until explicit acknowledge',
 test('valid file import has preview and requires explicit replacement',async()=>{const h=setup();await h.ready();const s=C.add(C.empty(NOW),P,NOW);s.items[0].stage='preparing';await h.importRaw(C.serialize(s,NOW));assert.equal(h.get('importPreview').hidden,false);assert.ok(!h.get('board').innerHTML.includes('application-card'));await h.get('applyImport').emit('click');assert.ok(h.get('board').innerHTML.includes('application-card'));assert.equal(h.requests.length,2);});
 test('cancel import keeps prior state',async()=>{const h=setup();await h.add();await h.importRaw(C.serialize(C.empty(NOW),NOW));await h.get('cancelImport').emit('click');assert.ok(h.get('board').innerHTML.includes('application-card'));});
 test('invalid file cannot replace good state',async()=>{const h=setup();await h.add();await h.importRaw('{"schema":"wrong"}');assert.equal(h.get('importPreview').hidden,true);await h.get('applyImport').emit('click');assert.ok(h.get('board').innerHTML.includes('application-card'));});
-test('file byte limit checked before reading content',async()=>{const h=setup();await h.ready();let reads=0;h.get('importFile').files=[{size:C.LIMITS.bytes+1,text:async()=>{reads++;return '{}';}}];await h.get('importFile').emit('change');assert.equal(reads,0);assert.ok(h.get('message').textContent.includes('256'));});
+test('file byte limit checked before reading content',async()=>{const h=setup();await h.ready();let reads=0;h.get('importFile').files=[{size:C.LIMITS.bytes+1,text:async()=>{reads++;return '{}';}}];await h.get('importFile').emit('change');assert.equal(reads,0);assert.ok(h.get('message').textContent.includes('512'));});
 test('import with unknown public ID retains records with missing-source warning',async()=>{const h=setup();await h.ready();const s=C.add(C.empty(NOW),{...P,id:'old'},NOW);await h.importRaw(C.serialize(s,NOW));await h.get('applyImport').emit('click');assert.ok(h.get('board').innerHTML.includes('목록에서 찾을 수 없음'));assert.equal((h.get('board').innerHTML.match(/class="task-row"/g)||[]).length,6);});
 test('custom HTML remains escaped in card, calendar and export contain no script execution',async()=>{const h=setup();await h.add();h.get('task-P1').value='<img src=x onerror=alert(1)>';await h.action('add_task');assert.ok(h.get('board').innerHTML.includes('&lt;img'));assert.ok(!h.get('board').innerHTML.includes('<img'));assert.equal(h.requests.length,2);});
 test('removal requires confirmation and affects only current state',async()=>{const h=setup();await h.add();h.ctx.confirm=()=>false;await h.action('remove');assert.ok(h.get('board').innerHTML.includes('application-card'));h.ctx.confirm=()=>true;await h.action('remove');assert.ok(h.get('board').innerHTML.includes('empty'));});

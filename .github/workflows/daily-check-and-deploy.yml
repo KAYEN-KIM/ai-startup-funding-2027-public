@@ -69,6 +69,11 @@ jobs:
           node --test scripts/test_applications.cjs scripts/test_applications_ui.cjs
           node --check assets/applications-core.js
           node --check assets/applications-ui.js
+      - name: Requirement evidence ledger and v1 migration regressions
+        run: |
+          node --test scripts/test_application_dossier.cjs scripts/test_application_dossier_ui.cjs
+          node --check assets/application-dossier.js
+          node --check assets/application-dossier-view.js
       - name: Script syntax and public schema
         run: |
           node --check assets/app.js

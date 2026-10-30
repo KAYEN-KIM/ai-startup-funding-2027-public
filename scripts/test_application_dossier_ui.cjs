@@ -1,6 +1,6 @@
 'use strict';
 const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm'),path=require('node:path');
-const B=require('../assets/applications-core.js'),C=require('../assets/application-dossier.js').attach(B);
+const B=require('../assets/applications-core.js'),C=require('../assets/application-plan.js').attach(require('../assets/application-dossier.js').attach(B));
 const NOW=new Date('2026-10-30T01:00:00Z');
 const P={id:'P1',title:'AI <공고>',year:2027,mode:'beneficiary',opens:'2026-10-20',deadline:'2026-11-13T14:00:00+09:00',source:'https://www.bizinfo.go.kr/a',amount:'원문 확인',eligibility:'미확정'};
 const M={schema:'public-funding-monitor/v1',status:'ok_no_change',last_success_at:'2026-10-30T00:40:00Z'};
@@ -13,7 +13,7 @@ function setup(){
  class Clock extends Date{constructor(...args){super(...(args.length?args:[NOW]));}static now(){return +NOW;}}
  const ctx={console,Date:Clock,TextEncoder,URLSearchParams,location:{hash:''},Blob,URL:{createObjectURL:b=>{blobs.push(b);return 'blob:test';},revokeObjectURL(){}},setTimeout:f=>f(),confirm:()=>true,addEventListener:(n,fn)=>{handlers[n]=fn;},RadarCore:{esc,sourceURL:v=>/^https:\/\/www\.bizinfo\.go\.kr\//.test(v)?v:null},document:{getElementById:get,querySelectorAll:q=>q.includes('[open]')?panels.filter(p=>p.open):panels,body:{appendChild(){}},createElement:tag=>new El(tag)},fetch:async(url,opts)=>{requests.push({url,opts});return {ok:!failure,json:async()=>url.includes('programs.json')?cat:mon};}};
  ctx.globalThis=ctx;vm.createContext(ctx);
- for(const f of ['applications-core.js','application-dossier.js','application-dossier-view.js','applications-ui.js'])vm.runInContext(fs.readFileSync(path.join(__dirname,'../assets/'+f),'utf8'),ctx);
+ for(const f of ['applications-core.js','application-dossier.js','application-dossier-view.js','application-plan.js','application-plan-view.js','applications-ui.js'])vm.runInContext(fs.readFileSync(path.join(__dirname,'../assets/'+f),'utf8'),ctx);
  const ready=async()=>{for(let i=0;i<10;i++)await Promise.resolve();};
  const add=async()=>{await ready();get('noticeSelect').value='P1';await get('addNotice').emit('click');};
  const action=async(act,extra={})=>{const b=new El('b');b.dataset={act,app:'P1',...extra};await get('board').emit('click',b);};
@@ -48,5 +48,5 @@ test('changed official display metadata invalidates dossier even after general s
 test('failed reload preserves dossier while reporting stale source',async()=>{const h=await filled();h.setFailure(true);await h.get('reloadPublic').emit('click');assert.match(h.get('board').innerHTML,/데모 초안/);assert.match(h.get('board').innerHTML,/최신 성공으로 확인되지/);});
 test('expanded ledger panel remains open through rerender',async()=>{const h=await filled(),el={dataset:{panel:'dossier-P1'},open:true};h.panels.push(el);await h.change('dossier_document:file_label','v2',{doc:'D1'});assert.equal(el.open,true);});
 test('private calendar still omits evidence labels',async()=>{const h=await filled();await h.get('calendarExport').emit('click');const text=await h.blobs.at(-1).text();assert.match(text,/BEGIN:VCALENDAR/);assert.doesNotMatch(text,/데모 초안|붙임2/);});
-test('only preparation JSON file input exists; no raw document upload or form submission',()=>{const html=fs.readFileSync(path.join(__dirname,'../applications.html'),'utf8');assert.equal((html.match(/type="file"/g)||[]).length,1);assert.match(html,/accept="\.json,application\/json"/);assert.match(html,/form-action 'none'/);assert.match(html,/P0\.13/);assert.doesNotMatch(html,/<form|type="submit"/);});
+test('only preparation JSON file input exists; no raw document upload or form submission',()=>{const html=fs.readFileSync(path.join(__dirname,'../applications.html'),'utf8');assert.equal((html.match(/type="file"/g)||[]).length,1);assert.match(html,/accept="\.json,application\/json"/);assert.match(html,/form-action 'none'/);assert.match(html,/P0\.14/);assert.doesNotMatch(html,/<form|type="submit"/);});
 test('UI contract stays memory-only and has one public-only fetch call site',()=>{const src=fs.readFileSync(path.join(__dirname,'../assets/applications-ui.js'),'utf8');assert.doesNotMatch(src,/localStorage|sessionStorage|indexedDB|sendBeacon|XMLHttpRequest|WebSocket|FormData|\beval\s*\(|new Function/);assert.equal((src.match(/fetch\(/g)||[]).length,1);});

@@ -74,6 +74,11 @@ jobs:
           node --test scripts/test_application_dossier.cjs scripts/test_application_dossier_ui.cjs
           node --check assets/application-dossier.js
           node --check assets/application-dossier-view.js
+      - name: Evidence-linked business draft and migration regressions
+        run: |
+          node --test scripts/test_application_plan.cjs scripts/test_application_plan_ui.cjs
+          node --check assets/application-plan.js
+          node --check assets/application-plan-view.js
       - name: Script syntax and public schema
         run: |
           node --check assets/app.js

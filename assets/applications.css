@@ -13,3 +13,18 @@
 .dossier-links{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}.dossier-chip{display:inline-flex;gap:9px;align-items:center;background:#213a45;border:1px solid #436b6d;padding:7px 10px;border-radius:8px;font-size:12px}
 .dossier-chip button{font-size:11px;min-height:30px;padding:5px 8px}.dossier-row-status{font-size:12px;color:var(--gold);line-height:1.8;margin:9px 0 0}.dossier-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:15px}
 @media(max-width:640px){.dossier-fields{grid-template-columns:1fr}.dossier-wide{grid-column:auto}.dossier-add{flex-wrap:wrap}.dossier-add label{flex-basis:100%}.dossier-content{padding:0 12px 16px}.dossier-document,.dossier-requirement{padding:12px}.dossier-actions .btn{width:100%;white-space:normal}}
+
+/* P0.14 private business-plan drafting workbench */
+.draft-panel{margin-top:18px;border:1px solid #39516f;border-radius:12px;background:#102039}
+.draft-panel>summary,.draft-section>summary{padding:15px;cursor:pointer;font-weight:700}
+.draft-panel summary span{font-size:12px;font-weight:400;color:#b5c9dc;margin-left:8px}
+.draft-section{border-top:1px solid #344961;margin-top:12px;padding:0 10px 14px}
+.draft-fields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin:12px 0}
+.draft-fields label{display:flex;flex-direction:column;gap:7px;font-size:13px;color:#cfdeee}
+.draft-fields input,.draft-fields textarea{width:100%;min-height:42px;background:#0a1729;color:#f1f6fc;border:1px solid #41607e;border-radius:8px;padding:10px;font:inherit;line-height:1.7}
+.draft-fields textarea{min-height:165px;resize:vertical;font-size:14px}
+.draft-fields small{color:#9cb3cb;line-height:1.7}
+.draft-links{padding:12px 0;border-top:1px dashed #344961}
+.draft-preview{white-space:pre-wrap;overflow-wrap:anywhere;max-height:70vh;overflow:auto;background:#0a1729;color:#dfeaf7;border:1px solid #41607e;border-radius:10px;padding:18px;line-height:1.8;font-family:inherit;font-size:14px}
+.draft-panel .alert-list{white-space:pre-line}
+@media(max-width:650px){.draft-fields{grid-template-columns:1fr}.draft-panel summary span{display:block;margin:5px 0 0}}

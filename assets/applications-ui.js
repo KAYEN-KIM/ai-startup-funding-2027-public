@@ -1,7 +1,7 @@
 /* All applicant edits remain in memory; file I/O is explicit and local. */
 (function(){
   'use strict';
-  const C=globalThis.FundingApplicationDossier.attach(globalThis.FundingApplications),V=globalThis.FundingDossierView,R=globalThis.RadarCore,$=id=>document.getElementById(id),esc=R.esc;
+  const C=globalThis.FundingApplicationPlan.attach(globalThis.FundingApplicationDossier.attach(globalThis.FundingApplications)),W=globalThis.FundingPlanView,V=globalThis.FundingDossierView,R=globalThis.RadarCore,$=id=>document.getElementById(id),esc=R.esc;
   let state=C.empty(),catalog={items:[]},monitor=null,dirty=false,pending=null,importToken=0,loadToken=0,linkedNoticeApplied=false;
   const titles={title:'공고명',year:'사업연도',mode:'공고 구분',source_level:'확인 수준',opens:'접수 시작',deadline:'기재 마감',amount:'지원규모 표시',eligibility:'신청대상 요약'};
   function say(s,error=false){$('message').textContent=s;$('message').className='message'+(error?' error':'');}
@@ -24,7 +24,7 @@
     if(row.overdue)warnings.push('<p>내부 목표일이 지난 미완료 작업 '+row.overdue+'개가 있습니다.</p>');
     let diffs='';
     if(p&&row.differences.length){const next=C.snapshot(p);diffs='<details><summary>저장 당시와 현재 표시 정보 비교 ('+row.differences.length+')</summary><table class="change-table"><thead><tr><th>항목</th><th>저장 당시</th><th>현재 공개값</th></tr></thead><tbody>'+row.differences.map(k=>'<tr><th>'+esc(titles[k]||k)+'</th><td>'+esc(a.reference[k]??'없음')+'</td><td>'+esc(next[k]??'없음')+'</td></tr>').join('')+'</tbody></table><button class="btn btn-secondary" type="button" data-act="sync" data-app="'+aid+'">변경 확인 후 현재 표시값으로 기준 갱신</button><p class="boundary">표시값 기준만 갱신합니다. 원문·자격·첨부를 검증했다는 뜻은 아닙니다.</p></details>';}
-    return '<article class="application-card" data-program="'+aid+'"><div class="card-heading"><div><div class="source-badges"><span>'+esc(ref.year)+'년</span><span>'+esc(row.reception.text)+'</span></div><h3>'+esc(ref.title)+'</h3>'+(url?'<a href="'+esc(url)+'" target="_blank" rel="noopener noreferrer">공식 공고 확인 ↗</a>':'<span class="boundary">공식 링크는 현재 공개 목록에서 확인할 수 없습니다.</span>')+'</div><button class="btn btn-secondary" type="button" data-act="remove" data-app="'+aid+'" aria-label="'+esc(ref.title)+' 보드에서 삭제">보드에서 삭제</button></div><div class="stage-fields"><label>내부 진행 상태 · 자체기록<select data-field="stage" data-app="'+aid+'">'+options(C.STAGES,a.stage)+'</select></label><label>이 공고의 내부 준비 목표일<input type="date" min="2000-01-01" max="2099-12-31" data-field="internal_due" data-app="'+aid+'" value="'+esc(a.internal_due||'')+'"></label></div><p class="readiness-label">작업 '+a.tasks.length+'개 중 '+row.done+'개 준비 완료 · '+row.notApplicable+'개 해당 없음(자체판단)</p>'+(warnings.length?'<div class="alert-list">'+warnings.join('')+'</div>':'')+diffs+'<p class="task-context">다음 준비: '+esc(row.next?row.next.title+(row.next.due_date?' / '+row.next.due_date:' / 목표일 미입력'):'남은 작업이 없습니다. 공식 제출요건은 별도 확인하십시오.')+'</p><div class="tasks">'+a.tasks.map(t=>taskHTML(t,a)).join('')+'</div><div class="new-task"><input type="text" maxlength="180" id="task-'+aid+'" aria-label="추가할 내부 작업" placeholder="내부 작업 추가 · 민감정보 입력 금지"><button class="btn btn-secondary" type="button" data-act="add_task" data-app="'+aid+'"'+(a.tasks.length>=C.LIMITS.tasks?' disabled':'')+'>작업 추가</button></div>'+V.panel(a,row.dossier_check,C,esc)+'</article>';
+    return '<article class="application-card" data-program="'+aid+'"><div class="card-heading"><div><div class="source-badges"><span>'+esc(ref.year)+'년</span><span>'+esc(row.reception.text)+'</span></div><h3>'+esc(ref.title)+'</h3>'+(url?'<a href="'+esc(url)+'" target="_blank" rel="noopener noreferrer">공식 공고 확인 ↗</a>':'<span class="boundary">공식 링크는 현재 공개 목록에서 확인할 수 없습니다.</span>')+'</div><button class="btn btn-secondary" type="button" data-act="remove" data-app="'+aid+'" aria-label="'+esc(ref.title)+' 보드에서 삭제">보드에서 삭제</button></div><div class="stage-fields"><label>내부 진행 상태 · 자체기록<select data-field="stage" data-app="'+aid+'">'+options(C.STAGES,a.stage)+'</select></label><label>이 공고의 내부 준비 목표일<input type="date" min="2000-01-01" max="2099-12-31" data-field="internal_due" data-app="'+aid+'" value="'+esc(a.internal_due||'')+'"></label></div><p class="readiness-label">작업 '+a.tasks.length+'개 중 '+row.done+'개 준비 완료 · '+row.notApplicable+'개 해당 없음(자체판단)</p>'+(warnings.length?'<div class="alert-list">'+warnings.join('')+'</div>':'')+diffs+'<p class="task-context">다음 준비: '+esc(row.next?row.next.title+(row.next.due_date?' / '+row.next.due_date:' / 목표일 미입력'):'남은 작업이 없습니다. 공식 제출요건은 별도 확인하십시오.')+'</p><div class="tasks">'+a.tasks.map(t=>taskHTML(t,a)).join('')+'</div><div class="new-task"><input type="text" maxlength="180" id="task-'+aid+'" aria-label="추가할 내부 작업" placeholder="내부 작업 추가 · 민감정보 입력 금지"><button class="btn btn-secondary" type="button" data-act="add_task" data-app="'+aid+'"'+(a.tasks.length>=C.LIMITS.tasks?' disabled':'')+'>작업 추가</button></div>'+V.panel(a,row.dossier_check,C,esc)+W.panel(a,row.plan_check,C,esc)+'</article>';
   }
   function render(){
     const opened=new Set(Array.from(document.querySelectorAll?.('details[data-panel][open]')||[]).map(x=>x.dataset.panel));
@@ -51,8 +51,26 @@
   $('noticeSelect').addEventListener('change',()=>{$('addNotice').disabled=!$('noticeSelect').value||state.items.length>=C.LIMITS.applications;});
   $('addNotice').addEventListener('click',()=>{try{const p=current($('noticeSelect').value);if(!p)throw new Error('공고를 선택하십시오.');touch(C.add(state,p));say('준비 보드에 추가했습니다. 실제 신청이나 적격 판정은 하지 않았습니다.');}catch(e){say(e.message,true);}});
   $('reloadPublic').addEventListener('click',load);
+  // Update model on every input without replacing the focused textarea/IME selection.
+  function planInput(t){
+    if(!t.dataset?.field?.startsWith('plan:'))return false;
+    const id=t.dataset.app,section=t.dataset.section||null,field=t.dataset.field.slice(5);
+    const old=state.items.find(a=>a.program_id===id)?.plan;
+    try{
+      let value=t.value;
+      if(field==='char_limit'){if(value!==''&&!/^[1-9]\d{0,4}$/.test(value))throw new Error('글자수 가정은 1~20,000 정수로 입력하십시오.');value=value===''?null:Number(value);}
+      state=C.editPlan(state,id,section,field,value);dirty=true;cancelPending();
+      const a=state.items.find(a=>a.program_id===id),check=C.inspectPlan(a,current(id),monitor);
+      const preview=$('draft-output-'+id);if(preview){preview.textContent='문안이 변경되었습니다. 현재 초안 미리보기를 다시 누르십시오.';preview.hidden=true;}
+      const count=$('plan-written-'+id);if(count)count.textContent='문안 작성 '+check.written+' / 8 · 공식 양식 아님';
+      const warnings=$('plan-status-'+id);if(warnings)warnings.textContent=check.warnings.join('\n');
+      if(section){const row=check.rows.find(x=>x.id===section),status=$('plan-check-'+id+'-'+section),tag=$('plan-section-state-'+id+'-'+section);if(tag)tag.textContent=row.written?'문안 작성됨':'미입력';if(status)status.textContent='본문 '+row.characters+'자 · '+(row.issues.join(' / ')||'입력 범위에서만 점검 항목 미발견');}
+    }catch(e){const row=section?old?.sections.find(x=>x.id===section):old;t.value=row?.[field]??'';say('초안 입력을 반영하지 않았습니다. '+e.message,true);}
+    return true;
+  }
+  $('board').addEventListener('input',e=>{planInput(e.target);});
   $('board').addEventListener('change',e=>{
-    const t=e.target,id=t.dataset?.app,field=t.dataset?.field;if(!id||!field)return;
+    const t=e.target,id=t.dataset?.app,field=t.dataset?.field;if(!id||!field)return;if(planInput(t))return;
     try{if(field.startsWith('dossier_')){const [group,key]=field.split(':');let updated;if(group==='dossier_document')updated=C.editDocument(state,id,t.dataset.doc,key,['issued_on','valid_until'].includes(key)?t.value||null:t.value);else if(group==='dossier_requirement')updated=C.editRequirement(state,id,t.dataset.req,key,t.value);else return;touch(updated);say('문서 준비 기록을 바꿨습니다. 공고 대조는 다시 기록하십시오.');return;}const n=C.validate(state),a=n.items.find(x=>x.program_id===id);if(!a)throw new Error('준비 공고 없음');
       if(field==='stage')a.stage=t.value;else if(field==='internal_due')a.internal_due=t.value||null;
       else{const task=a.tasks.find(x=>x.id===t.dataset.task);if(!task)throw new Error('작업 없음');if(field==='task_status')task.status=t.value;else if(field==='task_due')task.due_date=t.value||null;else return;}
@@ -62,14 +80,27 @@
   $('board').addEventListener('click',e=>{
     const b=e.target.closest?.('button[data-act]');if(!b)return;const {act,app,task}=b.dataset;
     try{let n=C.validate(state),a=n.items.find(x=>x.program_id===app);if(!a)throw new Error('준비 공고 없음');
+      if(act.startsWith('plan_')){
+        const section=b.dataset.section,kind=act.endsWith('_doc')?'evidence_ids':'requirement_ids';
+        if(act==='plan_preview'||act==='plan_export'){
+          const out=C.draft(n,app,catalog,monitor);
+          if(act==='plan_preview'){const pre=$('draft-output-'+app);pre.textContent=out.text;pre.hidden=false;say('현재 입력으로 작업 초안을 조립했습니다. AI 생성·공식 양식 변환·내용 검증은 하지 않았습니다.');}
+          else {download(out.text,'text/plain;charset=utf-8','AI_Funding_Private_Draft_'+app+'_'+C.kstDay()+'.txt');say('현재 문안·가정·참조·확인사항을 담은 비공개 초안 다운로드를 요청했습니다. 준비파일 저장은 별도로 하십시오.');}
+          return;
+        }
+        if(act==='plan_link_doc'||act==='plan_link_req')n=C.linkPlan(n,app,section,kind,$('plan-'+(kind==='evidence_ids'?'doc':'req')+'-'+app+'-'+section).value);
+        else if(act==='plan_unlink_doc'||act==='plan_unlink_req')n=C.linkPlan(n,app,section,kind,b.dataset.code,true);
+        else return;
+        touch(n);say('문안과 자료·요구사항 연결을 바꿨습니다. 실제 내용 검증이나 문서 업로드는 하지 않았습니다.');return;
+      }
       if(act.startsWith('dossier_')){
         const rid=b.dataset.req,eid=b.dataset.doc;
         if(act==='dossier_add_document')n=C.addDocument(n,app,$('document-'+app).value);
         else if(act==='dossier_add_requirement')n=C.addRequirement(n,app,$('requirement-'+app).value);
         else if(act==='dossier_link')n=C.link(n,app,rid,$('link-'+app+'-'+rid).value);
         else if(act==='dossier_unlink')n=C.unlink(n,app,rid,eid);
-        else if(act==='dossier_remove_document'){if(!confirm('자료 참조와 연결을 삭제합니까? 실제 파일은 삭제하지 않습니다.'))return;n=C.removeDocument(n,app,eid);}
-        else if(act==='dossier_remove_requirement'){if(!confirm('이 요구사항 기록을 삭제합니까? 공식 제출요건이 사라지는 것은 아닙니다.'))return;n=C.removeRequirement(n,app,rid);}
+        else if(act==='dossier_remove_document'){if(!confirm('자료 참조와 요구사항·초안의 연결을 삭제합니까? 실제 파일은 삭제하지 않습니다.'))return;n=C.removeDocument(n,app,eid);}
+        else if(act==='dossier_remove_requirement'){if(!confirm('이 요구사항 기록과 초안의 연결을 삭제합니까? 공식 제출요건이 사라지는 것은 아닙니다.'))return;n=C.removeRequirement(n,app,rid);}
         else if(act==='dossier_review'){if(!confirm('현재 요구사항·조건을 공고와 직접 대조했다고 기록합니까? 자체기록이며 공식 검증이나 제출 승인이 아닙니다.'))return;n=C.review(n,app,current(app));}
         else if(act==='dossier_export'){const report=C.preflight(n,app,catalog,monitor);download(report.text,'text/plain;charset=utf-8','AI_Funding_Private_Preflight_'+app+'_'+C.kstDay()+'.txt');say('현재 입력과 공개값으로 내부 점검표 다운로드를 요청했습니다. 실제 제출·문서 업로드는 하지 않았습니다.');return;}
         else return;touch(n);say('문서 준비 참조목록을 변경했습니다. JSON 준비 파일을 저장하면 다음에 이어갈 수 있습니다.');return;

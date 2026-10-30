@@ -1,6 +1,6 @@
 'use strict';
 const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm'),path=require('node:path');
-const C=require('../assets/application-dossier.js').attach(require('../assets/applications-core.js'));
+const C=require('../assets/application-plan.js').attach(require('../assets/application-dossier.js').attach(require('../assets/applications-core.js')));
 const NOW=new Date('2026-10-30T01:00:00Z');
 const P={id:'P1',title:'AI <검토> 공고',year:2027,mode:'beneficiary',opens:'2026-10-20',deadline:'2026-11-13T14:00:00+09:00',source:'https://www.bizinfo.go.kr/a',amount:'한도 미정',eligibility:'원문 확인'};
 const M={schema:'public-funding-monitor/v1',status:'ok_changed',last_success_at:'2026-10-30T00:40:00Z'};
@@ -28,6 +28,7 @@ function setup({failure=false,hash=''}={}){
   vm.runInContext(fs.readFileSync(path.join(__dirname,'../assets/applications-core.js'),'utf8'),ctx);
   vm.runInContext(fs.readFileSync(path.join(__dirname,'../assets/application-dossier.js'),'utf8'),ctx);
   vm.runInContext(fs.readFileSync(path.join(__dirname,'../assets/application-dossier-view.js'),'utf8'),ctx);
+  for(const f of ['application-plan.js','application-plan-view.js'])vm.runInContext(fs.readFileSync(path.join(__dirname,'../assets/'+f),'utf8'),ctx);
   vm.runInContext(fs.readFileSync(path.join(__dirname,'../assets/applications-ui.js'),'utf8'),ctx);
   const ready=async()=>{for(let i=0;i<8;i++)await Promise.resolve();};
   const add=async()=>{await ready();get('noticeSelect').value='P1';await get('noticeSelect').emit('change');await get('addNotice').emit('click');};

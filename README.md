@@ -198,3 +198,12 @@ P0.11 수집 보완: 기업마당 임시 다운로드 값은 저장하지 않고
 P0.12 `private-funding-applications/v1` 파일을 미리보기·확인 후 복원하며, 기존 작업·날짜·상태를 보존하고 빈 문서 준비 영역만 추가합니다. 새 저장 형식은 v2, UTF-8 최대 512 KiB입니다. 새 파일은 이전 v1 화면에서 읽을 수 없습니다. 공고 기준값 확인과 문서 자체 대조 기록은 별도로 관리하며, 입력 변경·공고 표시 변경·오래된 수집 상태는 재확인으로 남깁니다. 입력은 페이지 메모리에만 존재하고 같은 공개 JSON 2개 외의 요청은 없습니다. 공식 제출요구 자동 추출, 원본 증빙 검증, 공동관리·자동 제출은 포함하지 않습니다.
 
 범위와 제한은 `docs/P013_REQUIREMENTS_EVIDENCE.md`, 새 시험은 `node --test scripts/test_application_dossier.cjs scripts/test_application_dossier_ui.cjs`를 참조하십시오.
+
+## P0.14: evidence-linked business-plan drafting
+
+The existing **신청 준비 보드** (`applications.html`) now includes **사업계획서 초안 작업대**. Write eight internal sections, separate self-reported observations from future plans, map actual form headings manually, and link the existing requirement/document reference IDs. Missing prose, missing evidence links, draft/expired references and user-entered length assumptions remain visible. Preview and explicit TXT export always assemble current inputs; they do not generate unsupported claims or call an AI model.
+
+The preparation file format is now `private-funding-applications/v3`. Explicit v1/v2 imports preserve previous tasks and ledgers and add blank plan sections. The 512 KiB limit and memory-only/no-auto-save privacy model remain. Save the preparation JSON before refreshing. Raw evidence documents are not uploaded/read. New v3 files require the new page; old parsers reject them instead of losing prose. TXT output is an internal working draft, not a verified official form or a submitted application.
+
+See `RELEASE_P014.md` for limits and boundaries. New regression command:
+`node --test scripts/test_application_plan.cjs scripts/test_application_plan_ui.cjs`.

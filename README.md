@@ -249,3 +249,11 @@ NIPA의 임시 다운로드 매개변수는 저장하지 않습니다. 기존 �
 ## P0.18 — 기관 후보의 신청 준비 연결
 
 `applications.html`의 명시적 기관 후보 불러오기와 홈의 준비 링크를 추가했습니다. 중기부·NIPA의 단일 명시 사업연도 후보를 메모리에서만 연결하며, 운영기관·입찰·정책·공모전·결과는 제외합니다. 공식 공고 식별자가 정확히 같은 등록은 재사용하지만 제목만으로 합치지 않습니다. 원문·첨부 SHA 변화는 기존 준비파일의 대조에 연결하고, 작업·문안·v1/v2/v3 호환성은 보존합니다. 새로운 후보는 자격 미검증 discovery이며 공식 마감 일정으로 내보내지 않습니다. AI 호출·자동 저장·입력 전송·실제 신청은 없습니다. 상세 범위와 검증 명령은 `docs/P018_AGENCY_PREPARATION.md`를 참조하십시오.
+
+## P0.21 — Offline form outline candidates
+
+Run scripts/form_outline_cli.py on a user-downloaded PDF/HWPX/HWP file.
+The CLI writes a private, unverified headings JSON outside the public repo.
+Open form-mapping.html, select the JSON, compare against the original, and
+manually select headings before mapping draft sections. No AI or data upload.
+See docs/P021_FORM_OUTLINE.md for commands, source bounds and limitations.

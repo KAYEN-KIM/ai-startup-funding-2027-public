@@ -14,3 +14,13 @@
 .form-map-preview {white-space:pre-wrap;overflow-wrap:anywhere;max-height:500px;overflow-y:auto;background:#101a2e;border:1px solid #30415d;color:#d9e9f6;border-radius:11px;padding:16px;font-family:"Malgun Gothic","Apple SD Gothic Neo",ui-monospace,monospace;font-size:12px;line-height:1.8}
 @media(max-width:840px){.mapping-row{grid-template-columns:1fr 1fr}.mapping-row>div:first-child{grid-column:1/-1}}
 @media(max-width:540px){.form-map-metadata,.mapping-row{grid-template-columns:1fr}.form-map-metadata .full,.mapping-row>div:first-child{grid-column:auto}}
+
+/* P0.21: selected unreviewed local heading candidates. */
+.outline-candidates{display:grid;gap:8px;margin-top:13px;max-height:360px;overflow-y:auto}
+.outline-candidate{display:flex;align-items:start;gap:12px;border:1px solid #30415d;border-radius:9px;padding:11px;background:#142237;cursor:pointer}
+.outline-candidate input{margin-top:3px;flex-shrink:0;accent-color:#9bedd8}
+.outline-candidate b{display:block;font-size:12px;overflow-wrap:anywhere}
+.outline-candidate small{display:block;color:#9eb4c8;font-size:11px;margin-top:4px;overflow-wrap:anywhere}
+.outline-copy-ack{display:flex;gap:10px;align-items:start;margin-top:17px;color:#cfdaed;font-size:12px;line-height:1.7}
+.outline-copy-ack input{margin-top:3px;accent-color:#9bedd8;flex-shrink:0}
+#outlineCandidateStatus{font-size:12px;color:#b1c5d9;overflow-wrap:anywhere}

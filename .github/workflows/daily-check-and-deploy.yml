@@ -107,6 +107,12 @@ jobs:
         run: |
           node --test scripts/test_form_mapping.cjs
           node --check assets/form-mapping.js
+      - name: P0.21 offline form outline parser and UI safety
+        run: |
+          python -m unittest discover -s scripts -p test_form_outline.py -v
+          node --test scripts/test_form_outline_import.cjs
+          node --check assets/form-outline-import.js
+          node --check assets/form-mapping.js
       - name: Script syntax and public schema
         run: |
           node --check assets/app.js

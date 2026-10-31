@@ -89,6 +89,22 @@ let state={applications:[],current:null,fields:[],choices:[],generated:null};
 const runtime=root.FundingApplicationPlan?.attach?.(root.FundingApplicationDossier?.attach?.(root.FundingApplications));
 if(!runtime){$("formStatus").textContent="기존 준비파일 검증 모듈을 불러오지 못했습니다.";return;}
 function invalidate(){state.generated=null;$("exportPacket").disabled=true;$("packetPreview").textContent="변경된 설정을 검토하려면 '미리보기'를 다시 누르십시오.";}
+root.FundingFormMappingUI=Object.freeze({
+ importOutline(lines){
+  if(!Array.isArray(lines)||lines.length<1||lines.length>MAX_HEADINGS||
+     lines.some(x=>typeof x!=="string"||x.length>140))fail("목차 후보 배열 오류");
+  const joined=lines.join("\n");
+  // Validate before modifying the current draft or user choices.
+  headings(joined);
+  $("outlineInput").value=joined;
+  state.fields=[];state.choices=[];
+  $("mappedRows").innerHTML="";
+  $("mappingSummary").textContent="후보를 목차 입력창에 복사했습니다. 이제 '목차 분석' 후 직접 대응을 선택하십시오.";
+  invalidate();
+  $("formStatus").textContent="공식 양식의 확정 목차가 아닌, 사용자가 선택한 미검증 후보를 입력창에 복사했습니다.";
+  return lines.length;
+ }
+});
 function render(){
  const choices=state.choices;
  const list=$("mappedRows");

@@ -1,7 +1,7 @@
 {
   "schema": "public-funding-bot-briefing/v1",
   "engine_version": "0.15.0",
-  "generated_at": "2026-10-31T11:00:48+09:00",
+  "generated_at": "2026-10-31T22:08:46+09:00",
   "generation": "deterministic_no_model",
   "report_model_calls": 0,
   "ai_transport": "manual_cli_only",
@@ -27,7 +27,7 @@
       "last_attempt_at": "2026-10-31T10:58:09+09:00",
       "last_success_at": "2026-10-31T10:58:09+09:00",
       "freshness": "recent",
-      "workflow_outcome": "success",
+      "workflow_outcome": "skipped",
       "checked": 1381,
       "failed": 0,
       "detail": {
@@ -51,7 +51,7 @@
       "last_attempt_at": "2026-10-31T10:58:09+09:00",
       "last_success_at": null,
       "freshness": "recent",
-      "workflow_outcome": "success",
+      "workflow_outcome": "skipped",
       "checked": 6,
       "failed": 0,
       "detail": {
@@ -75,7 +75,7 @@
       "last_attempt_at": "2026-10-31T11:00:06+09:00",
       "last_success_at": null,
       "freshness": "recent",
-      "workflow_outcome": "success",
+      "workflow_outcome": "skipped",
       "checked": 4,
       "failed": 0,
       "detail": {
@@ -99,7 +99,7 @@
       "last_attempt_at": "2026-10-31T11:00:34+09:00",
       "last_success_at": null,
       "freshness": "recent",
-      "workflow_outcome": "success",
+      "workflow_outcome": "skipped",
       "checked": 3,
       "failed": 0,
       "detail": {
@@ -687,5 +687,5 @@
   "scope": "기업마당 API, 기존 공식 원문·첨부 순환 수집 및 검토 원본 재확인. 전체 기관 독립 수집이나 자동 적격성 검증이 아님.",
   "notice": "이 보고서는 공개 저장자료의 규칙 기반 집계입니다. 후보·마감·우선순위는 신청 적격성, 선정 확률 또는 지원금 확정이 아닙니다. 자료 변경은 정책 변경 확정이 아니며 원문 대조가 필요합니다.",
   "ai_handoff": "공개 근거 검토요청 파일만 생성 가능. AI CLI 자동 실행·API 호출·결과 자동 반영 없음.",
-  "report_id": "1dbff3100c7122d6a7c509d3"
+  "report_id": "ee89641354f7ca79db75e8a8"
 }

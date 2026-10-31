@@ -1,17 +1,17 @@
 # AI 창업 지원 — AI 없이 생성한 봇 보고서
 
-보고서 생성: 2026\-10\-31T03:56:14\+09:00
+보고서 생성: 2026\-10\-31T11:00:48\+09:00
 이번 범위의 수집 상태: **해당 회차 범위 확인**
 미해결 항목은 이번 실행 성공과 별도로 유지됩니다. 모델 호출: 0회(보고서 생성 경로).
 
 ## 수집 경로별 상태
-- 기업마당 API: ok\_scoped / 최근 시도 2026\-10\-30T21:13:03\+09:00
-- 공식 원문 HTML 순환: ok\_scoped / 최근 시도 2026\-10\-30T21:13:03\+09:00
-- 첨부파일 순환: ok\_scoped / 최근 시도 2026\-10\-30T21:14:54\+09:00
-- 검토된 과거 원본: ok\_scoped / 최근 시도 2026\-10\-30T21:15:36\+09:00
+- 기업마당 API: ok\_scoped / 최근 시도 2026\-10\-31T10:58:09\+09:00
+- 공식 원문 HTML 순환: ok\_scoped / 최근 시도 2026\-10\-31T10:58:09\+09:00
+- 첨부파일 순환: ok\_scoped / 최근 시도 2026\-10\-31T11:00:06\+09:00
+- 검토된 과거 원본: ok\_scoped / 최근 시도 2026\-10\-31T11:00:34\+09:00
 
 ## 누적 미해결
-pending\_differences: 19 / attachment\_failures: 3 / notice\_failures: 0 / attachment\_limits: 11 / queued\_attachments: 40 / changed\_evidence: 0 / unverified\_programs: 118 / unverified\_2027: 0 / unknown\_dates: 82
+pending\_differences: 19 / attachment\_failures: 3 / notice\_failures: 0 / attachment\_limits: 11 / queued\_attachments: 45 / changed\_evidence: 0 / unverified\_programs: 118 / unverified\_2027: 0 / unknown\_dates: 82
 
 ## 다음 7일 내 기재 마감 — 개인 자격 미판정
 - 2026\-10\-31 · \[대전ㆍ충청\] 2026년 중소기업 AI훈련확산 지원사업 참여기업 모집 공고 · today\_time\_unknown · discovery

@@ -7,8 +7,8 @@
       "expected_sha256": "e34bdaf1618c03d37e48c4aa0836f9e03aa7b3d8b3f2b9c8a14af098a163341f",
       "observed_sha256": "e34bdaf1618c03d37e48c4aa0836f9e03aa7b3d8b3f2b9c8a14af098a163341f",
       "status": "matched",
-      "last_attempt_at": "2026-10-30T21:15:36+09:00",
-      "last_success_at": "2026-10-30T21:15:36+09:00",
+      "last_attempt_at": "2026-10-31T11:00:34+09:00",
+      "last_success_at": "2026-10-31T11:00:34+09:00",
       "review_required": false,
       "error": null
     },
@@ -18,8 +18,8 @@
       "expected_sha256": "6bdb1a0a28bc4903361b8525c0e8988e7bfdd45d4f014cc55b4e49cbe409e658",
       "observed_sha256": "6bdb1a0a28bc4903361b8525c0e8988e7bfdd45d4f014cc55b4e49cbe409e658",
       "status": "matched",
-      "last_attempt_at": "2026-10-30T21:15:36+09:00",
-      "last_success_at": "2026-10-30T21:15:36+09:00",
+      "last_attempt_at": "2026-10-31T11:00:34+09:00",
+      "last_success_at": "2026-10-31T11:00:34+09:00",
       "review_required": false,
       "error": null
     },
@@ -29,14 +29,14 @@
       "expected_sha256": "d705d10cd5a4be4c304a28dafd9cd054739b95781b89d196617cf96adb38304b",
       "observed_sha256": "d705d10cd5a4be4c304a28dafd9cd054739b95781b89d196617cf96adb38304b",
       "status": "matched",
-      "last_attempt_at": "2026-10-30T21:15:36+09:00",
-      "last_success_at": "2026-10-30T21:15:36+09:00",
+      "last_attempt_at": "2026-10-31T11:00:34+09:00",
+      "last_success_at": "2026-10-31T11:00:34+09:00",
       "review_required": false,
       "error": null
     }
   },
   "run": {
-    "at": "2026-10-30T21:15:36+09:00",
+    "at": "2026-10-31T11:00:34+09:00",
     "scope": "검토된 2026 원본 3개 URL의 파일 지문 재확인입니다. 새로운 수정공고·2027 공고 전체 탐색이 아닙니다.",
     "matched": 3,
     "changed": 0,

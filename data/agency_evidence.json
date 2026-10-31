@@ -1,7 +1,7 @@
 {
   "schema": "public-funding-agency-evidence/v1",
   "version": "0.17.0",
-  "generated_at": "2026-10-30T21:14:28+09:00",
+  "generated_at": "2026-10-31T10:59:31+09:00",
   "model_calls": 0,
   "automatic_approval": false,
   "scope": "기관 직접 목록의 원문 최대 3건·첨부 최대 4건 순환 확인. 본문 추출은 조건 후보이며 신청자격·금액·중복지원·문서 완전성 검증이 아닙니다. 기존 공고와 검토 규칙은 수정하지 않습니다.",
@@ -253,6 +253,165 @@
           "status": "html_available",
           "body_sha256": "6ce268054f0abbee3d86ca3f30b1985bc474fa5466f4b8b68ed6ef1e10cc8d04",
           "manifest_sha256": "ee088bb5fee43bc8b654c1b83dc7b33c094cd1e85b3a3033f915e95cea306780",
+          "error": null
+        }
+      ],
+      "unhandled_links": 0
+    },
+    "MSS-1072172": {
+      "id": "MSS-1072172",
+      "agency_id": "mss",
+      "source": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1072172",
+      "title": "2027년도 초기창업·창업도약 패키지 사업 신규 주관기관 모집 공고",
+      "listing_fingerprint": "839b08d2c2662479ecc73450e79c356d9d2cc4082e50a89080f2e2643f866eaf",
+      "listing_seen_at": "2026-10-31T10:59:23+09:00",
+      "last_attempt_at": "2026-10-31T10:59:31+09:00",
+      "last_success_at": "2026-10-31T10:59:31+09:00",
+      "status": "html_available",
+      "last_error": null,
+      "review_required": false,
+      "body_sha256": "86167596803f649745cf1f3dff49a34f05c362798dd6104fc161133f4a42785f",
+      "manifest_sha256": "dda5de4d5413b1c489ac9e4f67493ff7d97958deb224af95b7ca08743f8e6149",
+      "documents": [
+        {
+          "id": "43d668bf1985b81e2112ea5f",
+          "name": "42ff2b8f-7f88-4e8d-a7f0-3153545de5b3.hwpx",
+          "public_url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1072172&cbIdx=310&streFileNm=42ff2b8f-7f88-4e8d-a7f0-3153545de5b3.hwpx",
+          "locator": "공고 첨부파일 목록 / 42ff2b8f-7f88-4e8d-a7f0-3153545de5b3.hwpx"
+        },
+        {
+          "id": "905a5e905cd1333ce5163c06",
+          "name": "8b2f3a0a-a6c7-45c6-98c8-3af47abe027e.pdf",
+          "public_url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1072172&cbIdx=310&streFileNm=8b2f3a0a-a6c7-45c6-98c8-3af47abe027e.pdf",
+          "locator": "공고 첨부파일 목록 / 8b2f3a0a-a6c7-45c6-98c8-3af47abe027e.pdf"
+        }
+      ],
+      "history": [
+        {
+          "at": "2026-10-31T10:59:31+09:00",
+          "status": "html_available",
+          "body_sha256": "86167596803f649745cf1f3dff49a34f05c362798dd6104fc161133f4a42785f",
+          "manifest_sha256": "dda5de4d5413b1c489ac9e4f67493ff7d97958deb224af95b7ca08743f8e6149",
+          "error": null
+        }
+      ],
+      "unhandled_links": 0
+    },
+    "NIPA-16921": {
+      "id": "NIPA-16921",
+      "agency_id": "nipa",
+      "source": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16921&tab=2",
+      "title": "2026년 아태 AI 특화지구(AHAP) 조성 사업 공고",
+      "listing_fingerprint": "524902cf6ed3cb2590887f29eaa4f919a171309f209950cb00b81b3ea75a2a78",
+      "listing_seen_at": "2026-10-31T10:59:23+09:00",
+      "last_attempt_at": "2026-10-31T10:59:31+09:00",
+      "last_success_at": "2026-10-31T10:59:31+09:00",
+      "status": "html_available",
+      "last_error": null,
+      "review_required": false,
+      "body_sha256": "27a99e1b609bd99b8c37739c104f733f54879c8162992e6f3e02e0d2d817ad24",
+      "manifest_sha256": "cec62da44562f3b6e4c6ee29171082219314503588e8c261f9d771ea8bc2106f",
+      "documents": [
+        {
+          "id": "0385fbd4e74f2262963a308a",
+          "name": "4. [양식] 아태 AI 특화지구(AHAP) 조성 사업수행계획서(수행기관용).hwp",
+          "public_url": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16921&tab=2",
+          "locator": "공고 첨부파일 목록 / 4. [양식] 아태 AI 특화지구(AHAP) 조성 사업수행계획서(수행기관용).hwp"
+        },
+        {
+          "id": "2763821fc59c026035c579c9",
+          "name": "3. [공모안내서] 아태 AI 특화지구(AHAP) 조성.hwp",
+          "public_url": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16921&tab=2",
+          "locator": "공고 첨부파일 목록 / 3. [공모안내서] 아태 AI 특화지구(AHAP) 조성.hwp"
+        },
+        {
+          "id": "2efaed96b99ea19e57097086",
+          "name": "매뉴얼_사업관리(회원가입)_v3.1.pdf",
+          "public_url": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16921&tab=2",
+          "locator": "공고 첨부파일 목록 / 매뉴얼_사업관리(회원가입)_v3.1.pdf"
+        },
+        {
+          "id": "74fc03cc9cd9a33e08eae12b",
+          "name": "2. [공고문] 2026년 아태 AI 특화지구(AHAP) 조성 사업.hwp",
+          "public_url": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16921&tab=2",
+          "locator": "공고 첨부파일 목록 / 2. [공고문] 2026년 아태 AI 특화지구(AHAP) 조성 사업.hwp"
+        },
+        {
+          "id": "c9475cf1e8d1060b7a1befa0",
+          "name": "매뉴얼_사업관리(접수_일반사용자)_v3.1.pdf",
+          "public_url": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16921&tab=2",
+          "locator": "공고 첨부파일 목록 / 매뉴얼_사업관리(접수_일반사용자)_v3.1.pdf"
+        }
+      ],
+      "history": [
+        {
+          "at": "2026-10-31T10:59:31+09:00",
+          "status": "html_available",
+          "body_sha256": "27a99e1b609bd99b8c37739c104f733f54879c8162992e6f3e02e0d2d817ad24",
+          "manifest_sha256": "cec62da44562f3b6e4c6ee29171082219314503588e8c261f9d771ea8bc2106f",
+          "error": null
+        }
+      ],
+      "unhandled_links": 1
+    },
+    "MSS-1071948": {
+      "id": "MSS-1071948",
+      "agency_id": "mss",
+      "source": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1071948",
+      "title": "창업도시 조성 프로젝트 창업도시 모집 공고",
+      "listing_fingerprint": "a4e466407ce7c88123e8acf8ccb5f4fe6ca6bb9d0929aba5f12b435f0d95a159",
+      "listing_seen_at": "2026-10-31T10:59:23+09:00",
+      "last_attempt_at": "2026-10-31T10:59:31+09:00",
+      "last_success_at": "2026-10-31T10:59:31+09:00",
+      "status": "html_available",
+      "last_error": null,
+      "review_required": false,
+      "body_sha256": "05a18a9a3d038d2de12e4d50003ca76f834b692dc4dd7f70067a284fa218a95f",
+      "manifest_sha256": "d55e550d46b58c60280aab0d768978fea69488bb6b0229334311bd9a999aa121",
+      "documents": [
+        {
+          "id": "10cb2b28e8f23cfaedee4f20",
+          "name": "dc212520-5fa4-4315-971c-3622fbacd8ec.hwpx",
+          "public_url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1071948&cbIdx=310&streFileNm=dc212520-5fa4-4315-971c-3622fbacd8ec.hwpx",
+          "locator": "공고 첨부파일 목록 / dc212520-5fa4-4315-971c-3622fbacd8ec.hwpx"
+        },
+        {
+          "id": "13b60452918ee9277f175c7a",
+          "name": "0a2ca2e5-317e-4f7d-a335-d47cb576711c.pdf",
+          "public_url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1071948&cbIdx=310&streFileNm=0a2ca2e5-317e-4f7d-a335-d47cb576711c.pdf",
+          "locator": "공고 첨부파일 목록 / 0a2ca2e5-317e-4f7d-a335-d47cb576711c.pdf"
+        },
+        {
+          "id": "1f8c53daf1414fd1baa48d10",
+          "name": "0f5e47e4-42c4-499e-824e-8422a9a66858.hwpx",
+          "public_url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1071948&cbIdx=310&streFileNm=0f5e47e4-42c4-499e-824e-8422a9a66858.hwpx",
+          "locator": "공고 첨부파일 목록 / 0f5e47e4-42c4-499e-824e-8422a9a66858.hwpx"
+        },
+        {
+          "id": "86dd2338d082362e2d16e96b",
+          "name": "418736a4-9760-4fac-925e-7f1428584ec4.hwpx",
+          "public_url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1071948&cbIdx=310&streFileNm=418736a4-9760-4fac-925e-7f1428584ec4.hwpx",
+          "locator": "공고 첨부파일 목록 / 418736a4-9760-4fac-925e-7f1428584ec4.hwpx"
+        },
+        {
+          "id": "8d68c88b103f7791578cc163",
+          "name": "38703d8f-fff6-4c62-b854-d4c2cb4f5ebd.hwpx",
+          "public_url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1071948&cbIdx=310&streFileNm=38703d8f-fff6-4c62-b854-d4c2cb4f5ebd.hwpx",
+          "locator": "공고 첨부파일 목록 / 38703d8f-fff6-4c62-b854-d4c2cb4f5ebd.hwpx"
+        },
+        {
+          "id": "a75545d31060e6d2b70442d7",
+          "name": "a6473f87-7501-447b-abd0-01716868e0c3.hwpx",
+          "public_url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1071948&cbIdx=310&streFileNm=a6473f87-7501-447b-abd0-01716868e0c3.hwpx",
+          "locator": "공고 첨부파일 목록 / a6473f87-7501-447b-abd0-01716868e0c3.hwpx"
+        }
+      ],
+      "history": [
+        {
+          "at": "2026-10-31T10:59:31+09:00",
+          "status": "html_available",
+          "body_sha256": "05a18a9a3d038d2de12e4d50003ca76f834b692dc4dd7f70067a284fa218a95f",
+          "manifest_sha256": "d55e550d46b58c60280aab0d768978fea69488bb6b0229334311bd9a999aa121",
           "error": null
         }
       ],
@@ -1563,18 +1722,598 @@
       "last_error": null,
       "review_required": false,
       "history": []
+    },
+    "43d668bf1985b81e2112ea5f": {
+      "id": "43d668bf1985b81e2112ea5f",
+      "program_id": "MSS-1072172",
+      "notice_source": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1072172",
+      "url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1072172&cbIdx=310&streFileNm=42ff2b8f-7f88-4e8d-a7f0-3153545de5b3.hwpx",
+      "name": "42ff2b8f-7f88-4e8d-a7f0-3153545de5b3.hwpx",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
+    },
+    "905a5e905cd1333ce5163c06": {
+      "id": "905a5e905cd1333ce5163c06",
+      "program_id": "MSS-1072172",
+      "notice_source": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1072172",
+      "url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1072172&cbIdx=310&streFileNm=8b2f3a0a-a6c7-45c6-98c8-3af47abe027e.pdf",
+      "name": "8b2f3a0a-a6c7-45c6-98c8-3af47abe027e.pdf",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
+    },
+    "0385fbd4e74f2262963a308a": {
+      "id": "0385fbd4e74f2262963a308a",
+      "program_id": "NIPA-16921",
+      "notice_source": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16921&tab=2",
+      "url": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16921&tab=2",
+      "name": "4. [양식] 아태 AI 특화지구(AHAP) 조성 사업수행계획서(수행기관용).hwp",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
+    },
+    "2763821fc59c026035c579c9": {
+      "id": "2763821fc59c026035c579c9",
+      "program_id": "NIPA-16921",
+      "notice_source": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16921&tab=2",
+      "url": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16921&tab=2",
+      "name": "3. [공모안내서] 아태 AI 특화지구(AHAP) 조성.hwp",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
+    },
+    "2efaed96b99ea19e57097086": {
+      "id": "2efaed96b99ea19e57097086",
+      "program_id": "NIPA-16921",
+      "notice_source": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16921&tab=2",
+      "url": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16921&tab=2",
+      "name": "매뉴얼_사업관리(회원가입)_v3.1.pdf",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
+    },
+    "74fc03cc9cd9a33e08eae12b": {
+      "id": "74fc03cc9cd9a33e08eae12b",
+      "program_id": "NIPA-16921",
+      "notice_source": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16921&tab=2",
+      "url": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16921&tab=2",
+      "name": "2. [공고문] 2026년 아태 AI 특화지구(AHAP) 조성 사업.hwp",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
+    },
+    "c9475cf1e8d1060b7a1befa0": {
+      "id": "c9475cf1e8d1060b7a1befa0",
+      "program_id": "NIPA-16921",
+      "notice_source": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16921&tab=2",
+      "url": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16921&tab=2",
+      "name": "매뉴얼_사업관리(접수_일반사용자)_v3.1.pdf",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
+    },
+    "10cb2b28e8f23cfaedee4f20": {
+      "id": "10cb2b28e8f23cfaedee4f20",
+      "program_id": "MSS-1071948",
+      "notice_source": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1071948",
+      "url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1071948&cbIdx=310&streFileNm=dc212520-5fa4-4315-971c-3622fbacd8ec.hwpx",
+      "name": "dc212520-5fa4-4315-971c-3622fbacd8ec.hwpx",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-10-31T10:59:31+09:00",
+      "last_success_at": "2026-10-31T10:59:31+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-10-31T10:59:31+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "13eaecd0c03ee6cd6ddb50e88b4efd056014f33298af0fa45c2f46fbf7c42798",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "13eaecd0c03ee6cd6ddb50e88b4efd056014f33298af0fa45c2f46fbf7c42798",
+      "sha256": "13eaecd0c03ee6cd6ddb50e88b4efd056014f33298af0fa45c2f46fbf7c42798",
+      "extraction": {
+        "format": "hwpx",
+        "parser": "hwp-body/0.4.0",
+        "sha256": "13eaecd0c03ee6cd6ddb50e88b4efd056014f33298af0fa45c2f46fbf7c42798",
+        "bytes": 47473,
+        "status": "text_extracted",
+        "text_characters": 3012,
+        "units": 298,
+        "text_sha256": "3cc4565d3d288f12eea5793e2609548a9210a42174091f277a02763227d1bf19",
+        "pages": null,
+        "sections": 1,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "b1317304c8aa451ed6b5",
+            "category": "eligibility",
+            "excerpt": "1. 기본사항 0",
+            "locator": "Contents/section0.xml / paragraph 42",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "791232dc20040d879b91",
+            "category": "eligibility",
+            "excerpt": "기본사항",
+            "locator": "Contents/section0.xml / paragraph 62",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "구역·문단 위치는 실제 인쇄 쪽번호가 아닙니다.",
+          "표 셀 관계·그림·각주 의미는 미검토"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
+    },
+    "13b60452918ee9277f175c7a": {
+      "id": "13b60452918ee9277f175c7a",
+      "program_id": "MSS-1071948",
+      "notice_source": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1071948",
+      "url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1071948&cbIdx=310&streFileNm=0a2ca2e5-317e-4f7d-a335-d47cb576711c.pdf",
+      "name": "0a2ca2e5-317e-4f7d-a335-d47cb576711c.pdf",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-10-31T10:59:31+09:00",
+      "last_success_at": "2026-10-31T10:59:31+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-10-31T10:59:31+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "fb7e5fe3ba09371c0e1601bed2ce038b023a4c0334ce31b771a7032c7d548357",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "fb7e5fe3ba09371c0e1601bed2ce038b023a4c0334ce31b771a7032c7d548357",
+      "sha256": "fb7e5fe3ba09371c0e1601bed2ce038b023a4c0334ce31b771a7032c7d548357",
+      "extraction": {
+        "format": "pdf",
+        "parser": "pypdf/6.15.0",
+        "sha256": "fb7e5fe3ba09371c0e1601bed2ce038b023a4c0334ce31b771a7032c7d548357",
+        "bytes": 1081196,
+        "status": "text_extracted",
+        "text_characters": 20663,
+        "units": 52,
+        "text_sha256": "382212bef02f6003223a3bea48d6fc2a0bb9f2ba16138bcaa7af430555045de9",
+        "pages": 20,
+        "sections": null,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "73a6a4235d1bf64fb5cf",
+            "category": "eligibility",
+            "excerpt": " 보유 수준, 창업 생태계 규모·성숙도·잠재력 등을 기반으로 창업도시를 조성할 광역자치단체(시·도) 선정 * 선정된 창업도시에는 2028년까지 기본 지정기간을 부여하고, 별도 심의 후 2030년까지 추가 지정 ❷ (지원역량 공급) 중앙정부는 선정된 창업도시에 창업 생태계 강화를 목표로 한 지역별 창업도시 조성전략 수립·운영을 지원하기 위해, 창업지원 역량(사업·예산)을 집중 공급 ❸ (추진전략 수립) 지방정부",
+            "locator": "PDF p.1 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "9a4f78dc3423b97ae82d",
+            "category": "eligibility",
+            "excerpt": "역창업생태계구축가능지역을선별 * 5극 3특 중 수도권은 제외하여, 4극 3특 내 비수도권 지역을 대상으로 사업 추진◦신청대상:광역자치단체10곳◦신청요건구분 주요 내용 대표·협력도시개요·권역 기초자치단체 중 대표·협력도시와 대표도시 내 중심구역 지정요건·대표도시 1곳과 중심구역 1곳 확보(필요 시 협력도시 확보) 추진단 구성개요·창업도시 조성을 추진할 지역별 추진단 구성요건·최소 15개 이상(기본 5개 외 ",
+            "locator": "PDF p.2 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "6a23265d6305f9a2f1c7",
+            "category": "amount",
+            "excerpt": "별 추진단 구성요건·최소 15개 이상(기본 5개 외 10개 주요 과업항목별 1개 이상) 지방재원 확보개요·지역이전 지원금, 엔젤투자허브 운영비 및 과업 재원 확보·투입요건·총 6.4억원(지역이전 지원금 4억원, 엔젤투자허브 운영비 2.4억원) 전담조직 확보개요·운영기관(창조경제혁신센터) 내 전담조직 설치 및 전담인력 확보요건·운영기관 내 전담인력(참여율 100%) 7인 이상 확보◦선정규모:광역자치단체6곳신",
+            "locator": "PDF p.2 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "080fcda5af75fef0524e",
+            "category": "deadline",
+            "excerpt": "상의 사업을 연계공급하여, 직접지원과 연계지원으로 구분하여 지역에 대한 집중 지원 예정(지역별 최대지원 규모 상이)◦신청기간:’26년10월23일(금)~11월30일(월),15:00까지◦평가방법:2단계(서류평가→현장평가)의평가를통해각광역자치단체별창업도시조성역량과가능성을비교검증◦주요일정(안):모집공고(10월)→접수마감(11월)→서류·현장평가(12월)→선정확정(’27년1월)및전략발표회개최(’27년2월)",
+            "locator": "PDF p.2 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "b3635aa9887ac6aca2fa",
+            "category": "eligibility",
+            "excerpt": "점 브랜드, 6)디지털문화체험, 7)자연친화활동(단, 일반 소상공인은 지원 제외)□ (선정규모)광역자치단체10곳중6곳신청대상(가나다 순) 선정(안)·1)강원특별자치도, 2)경상남도, 3)경상북도, 4)부산광역시, 5)세종특별자치시,6)전남광주통합특별시*, 7)전북특별자치도, 8)제주특별자치도, 9)충청남도, 10)충청북도6곳 * ‘전남광주통합특별시’는 기존 광주광역시(1)북구, 2)동구, 3)서구, 4)남구,",
+            "locator": "PDF p.3 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "a86a3bf8643e8e982ca0",
+            "category": "exclusion",
+            "excerpt": "드, 3)지역기반제조, 4)지역특화관광, 5)거점 브랜드, 6)디지털문화체험, 7)자연친화활동(단, 일반 소상공인은 지원 제외)□ (선정규모)광역자치단체10곳중6곳신청대상(가나다 순) 선정(안)·1)강원특별자치도, 2)경상남도, 3)경상북도, 4)부산광역시, 5)세종특별자치시,6)전남광주통합특별시*, 7)전북특별자치도, 8)제주특별자치도, 9)충청남도, 10)충청북도6곳 * ‘전남광주통합특별시’는 기존 광주광",
+            "locator": "PDF p.3 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "3be6f339cc5e7ac065c1",
+            "category": "eligibility",
+            "excerpt": "권역내대표도시와협력도시를지정하여,광역창업거점조성을위한체계확보◦필수/대표도시:광역단위창업생태계조성을위해,권역내혁신주체(창업기업,투자사,수요처등)가집적될대표도시1곳지정 * 대표도시를 권역 내 창업도시로 간주( 충청북도 청주시, 강원특별자치도-춘천시 등) ** 연접한 ‘시 단위’를 묶어 대표도시 지정 허용(2개 시 이내, 연접한 경우에 한해 허용) -(중심구역)대표도시전역을창업도시로조성하되,창업지원기능이집중운영될",
+            "locator": "PDF p.4 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "98910a21d6eb40776872",
+            "category": "amount",
+            "excerpt": "별 추진단 구성요건·최소 15개 이상(기본 5개 외 10개 주요 과업항목별 1개 이상) 지방재원 확보개요·지역이전 지원금, 엔젤투자허브 운영비 및 과업 재원 확보·투입요건·총 6.4억원(지역이전 지원금 4억원, 엔젤투자허브 운영비 2.4억원) 전담조직 확보개요·운영기관 내 전담조직 설치 및 전담인력 확보요건·운영기관 내 전담인력(참여율 100%) 7인 이상 확보 (대표·협력도시)기초자치단체협력을통해,권역",
+            "locator": "PDF p.4 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "8db5c816ac371fa22a93",
+            "category": "eligibility",
+            "excerpt": " (추진단 구성)지역창업기업지원을위한혁신주체를추진단으로구성하여,지역특화창업성장관련전방위적지원연합체확보◦확보규모:기본5개기관,10개주요과업항목별1개이상으로,최소15개이상의추진단확보(광역자치단체*가총괄역할수행) * 지방정부(광역자치단체) 내에서 추진단장 1인을 지정 ** 주요 과업항목 중 추진단이 확보되지 않은 항목이 있을 경우 요건 불충족으로 간주< 창업도시별 추진단 구성 >구분참여주체주요 역할비고기본총괄지방",
+            "locator": "PDF p.5 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "e59b98fae1998e636924",
+            "category": "cofunding",
+            "excerpt": "없음)을확보< 창업도시 조성 과업 관련 지방재원 구분 >유형항목투입내용비고❶창업기업지원금(현금)·지역 이전 창업기업 자기부담사업비의 20% 지원의무❷엔젤투자허브·지역 엔젤투자허브의 연간 운영비(2.4억원) 지원❸과업수행1)프로그램 운영·운영기관 프로그램 운영예산 지원선택2)지역사업 연계·지역 창업지원사업의 전체 혹은 일부 연계3)주거공간 지원·지역 이전 창업기업 대상 주거공간 지원 ❶창업기업지원금:중앙정부(중",
+            "locator": "PDF p.6 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "bbcc26a7fa4778ade4d3",
+            "category": "amount",
+            "excerpt": " (지방재원 확보)지역이전창업기업지원금(의무)과창업도시조성과업수행(선택)을위한지방재원(광역·기초자치단체구분없음)을확보< 창업도시 조성 과업 관련 지방재원 구분 >유형항목투입내용비고❶창업기업지원금(현금)·지역 이전 창업기업 자기부담사업비의 20% 지원의무❷엔젤투자허브·지역 엔젤투자허브의 연간 운영비(2.4억원) 지원❸과업수행1)프로그램 운영·운영기관 프로그램 운영예산 지원선택2)지역사업 연계·지역 창업지원사업",
+            "locator": "PDF p.6 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "27368db851517a8900db",
+            "category": "amount",
+            "excerpt": ")선정된지방정부(광역자치단체)대상의지역창업패키지사업을공급하여창업기업사업화자금과프로그램운영비지원< 지방정부별 연간 직접지원 규모(안) >구분 지원 규모창업기업 사업화 자금110억원 내외(100~120억원)프로그램 운영비40억원 내외(30~50억원)합계 150억원 내외(130~170억원) * 위 직접지원 규모(안)은 예시로, 매년 예산 확정 후 도시별 사업내용 등에 따라 조정 예정 ❶창업기업:지방정부(광역자치단체",
+            "locator": "PDF p.10 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "cd06bc08cf6eea84b28e",
+            "category": "amount",
+            "excerpt": "업 현황(예시) >항목(타 부처) 사업개요기술개발TIPS 프로그램·TIPS 운영사가 先투자한 창업기업에 R&D 자금 최대 8억원 지원 ☞  TIPS 연계를 위한 Pre-TIPS 선정 시 창업도시 소재기업 우대사업화창업중심대학·지역 내, 대학발 창업기업에 창업사업화 자금 최대 1.5억원 지원 ☞  창업중심대학의 창업기업 선정 시, 창업도시 소재 기업 우대(가점 등)",
+            "locator": "PDF p.11 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "7db36ccfd2c44abce4d7",
+            "category": "documents",
+            "excerpt": "치단체별창업도시조성역량과가능성을비교검증< 창업도시 신규 선정평가 절차 >[1단계]서류평가▶[2단계]현장평가▶심의·확정제출서류 기반역량 비교 및 착안사항 발굴평가단의 각 지역 방문을 통한광역자치단체별 발표 및 현장 실사평가 과정·결과의심의 및 선정 확정 ❶서류평가:각광역자치단체의제출서류(사업계획서등)를기반으로,지역간역량을비교하고현장검증을위한착안사항을중점발굴 * 서류평가를 통해 평가단의 사업계획서 숙지 및 타 지",
+            "locator": "PDF p.13 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "a170b4baf9f282d193d5",
+            "category": "documents",
+            "excerpt": " 종료 후 별도 신청유예시간 없으며, 신청기간 내 ‘제출완료’(접수증 발급)되지 않은 경우, 신청대상에서 제외 □ (제출서류)1)사업신청서(온라인),2)공문(광역자치단체),3)지방정부추진전략(HWP),4)사업계획서(HWP),5)증빙자료(HWP),6)평가계획서(HWP)< 제출서류 현황 >구분제출 방법비고사업신청서별도 파일 제출 없음 온라인 입력공문지방정부(광역자치단체)의 사업신청 공문 첨부온라인 신청 절차 내온",
+            "locator": "PDF p.16 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "40ab8e492fcd891d5fe8",
+            "category": "deadline",
+            "excerpt": "6 신청 방법□ (신청기간)’26년10월23일(금)~11월30일(월),15:00까지 * 신청기간 종료 후 별도 신청유예시간 없으며, 신청기간 내 ‘제출완료’(접수증 발급)되지 않은 경우, 신청대상에서 제외 □ (제출서류)1)사업신청서(온라인),2)공문(광역자치단체),3)지방정부추진전략(HWP),4)사업계획서(HWP),5)증빙자료(HWP),6)평가계획서(HWP)< 제출서류 현황 >구분제출 방법비고사업신청서별도 ",
+            "locator": "PDF p.16 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "0cacd8c34d7acadaea32",
+            "category": "exclusion",
+            "excerpt": "사업에신청하는지방정부(광역자치단체)의사업신청공문으로제출하며,지방정부(광역자치단체)의공문이누락된경우접수취소및평가대상에서제외◦신청대상(광역자치단체,운영기관)에서공고문및규정등에위배되는행위를하거나,운영기관에서제출한사업계획서및증빙서류가지방정부(광역자치단체)의사전승인을득하지않은경우,평가대상제외및탈락처리되며,추후확인시에도선정·협약취소가능◦신청요건관련증빙을누락한경우,접수취소및평가대상에서제외되며,가점관련증빙을누락한경우가점대상",
+            "locator": "PDF p.17 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "e3384331182edcb611ea",
+            "category": "documents",
+            "excerpt": "취소및평가대상에서제외◦신청대상(광역자치단체,운영기관)에서공고문및규정등에위배되는행위를하거나,운영기관에서제출한사업계획서및증빙서류가지방정부(광역자치단체)의사전승인을득하지않은경우,평가대상제외및탈락처리되며,추후확인시에도선정·협약취소가능◦신청요건관련증빙을누락한경우,접수취소및평가대상에서제외되며,가점관련증빙을누락한경우가점대상에서제외◦신청요건및가점관련증빙서류에대해추가확인이필요한경우전문기관(창업진흥원)에서보완을요청할수있으며,보",
+            "locator": "PDF p.17 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "b9575431142c955c3450",
+            "category": "deadline",
+            "excerpt": "경우전문기관(창업진흥원)에서보완을요청할수있으며,보완에불응하거나기타문제사항이발생될경우접수취소및평가대상및가점대상에서제외◦신청기간종료후신청유예시간은없으며,신청기간내‘제출완료’(접수증발급)된지방정부(광역자치단체)를평가대상으로간주◦신청서류는‘제출완료’시에도신청기간종료시까지수정·변경가능하나,신청기간이종료된후에는변경불가",
+            "locator": "PDF p.17 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "b42e275eb0b4f6e602ed",
+            "category": "deadline",
+            "excerpt": " 조성 프로젝트 참여에 관심 있는 지방정부, 운영기관 및 추진단 대상 전국 통합 사업설명회 개최10월 28일▼지방정부접수 마감·창업도시 참여 희망 지방정부별 창업도시 조성을 위한 추진전략 및 사업계획서 접수 마감 11월 30일▼서류 검증·지방정부에서 제출한 추진전략, 사업계획서를 기반으로 서류를 통한 비교·검증(평가) 시행 12월▼현장 검증·창업도시 참여 희망 지방정부 전체에 대해 현장 검증을 시행하여, 현장",
+            "locator": "PDF p.20 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "표 열 순서·이미지·주석의 의미는 검토하지 않았습니다.",
+          "OCR 미수행"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
+    },
+    "1f8c53daf1414fd1baa48d10": {
+      "id": "1f8c53daf1414fd1baa48d10",
+      "program_id": "MSS-1071948",
+      "notice_source": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1071948",
+      "url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1071948&cbIdx=310&streFileNm=0f5e47e4-42c4-499e-824e-8422a9a66858.hwpx",
+      "name": "0f5e47e4-42c4-499e-824e-8422a9a66858.hwpx",
+      "status": "size_limit",
+      "last_attempt_at": "2026-10-31T10:59:31+09:00",
+      "last_success_at": null,
+      "last_error": "size_limit",
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-10-31T10:59:31+09:00",
+          "status": "size_limit",
+          "observed_sha256": "4544ee0e2a7a2e4073f62833e011abf8e39d534539295c9cc91e7506af549f66",
+          "http_status": null,
+          "failure_kind": "document_or_policy"
+        }
+      ],
+      "observed_sha256": "4544ee0e2a7a2e4073f62833e011abf8e39d534539295c9cc91e7506af549f66",
+      "http_status": null,
+      "failure_kind": "document_or_policy",
+      "retryable": false
+    },
+    "86dd2338d082362e2d16e96b": {
+      "id": "86dd2338d082362e2d16e96b",
+      "program_id": "MSS-1071948",
+      "notice_source": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1071948",
+      "url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1071948&cbIdx=310&streFileNm=418736a4-9760-4fac-925e-7f1428584ec4.hwpx",
+      "name": "418736a4-9760-4fac-925e-7f1428584ec4.hwpx",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-10-31T10:59:31+09:00",
+      "last_success_at": "2026-10-31T10:59:31+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-10-31T10:59:31+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "66ef273aeaf8c8a7d23c92bc32783e5fee70acc31634fb38ab9250b7b968d25f",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "66ef273aeaf8c8a7d23c92bc32783e5fee70acc31634fb38ab9250b7b968d25f",
+      "sha256": "66ef273aeaf8c8a7d23c92bc32783e5fee70acc31634fb38ab9250b7b968d25f",
+      "extraction": {
+        "format": "hwpx",
+        "parser": "hwp-body/0.4.0",
+        "sha256": "66ef273aeaf8c8a7d23c92bc32783e5fee70acc31634fb38ab9250b7b968d25f",
+        "bytes": 81324,
+        "status": "text_extracted",
+        "text_characters": 7736,
+        "units": 719,
+        "text_sha256": "2e7454f6fc664c658fb1c2d413e4e96ce1077da5f4d7a5317a7f0bae20190d9d",
+        "pages": null,
+        "sections": 1,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "3283129f8dbc2c596424",
+            "category": "eligibility",
+            "excerpt": "※ 필수 포함 : 1)지역별 창업기업 규모·비중(중점분야 포함), 2)지역 투자 현황(펀드 규모 등),3)기술/창업인재 육성 규모, 4)창업지원을 위한 주요 시설·인프라 현황",
+            "locator": "Contents/section0.xml / paragraph 160",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "f67ef9404d478ebb8446",
+            "category": "eligibility",
+            "excerpt": "- (OOO) 중점분야❶에 대한 창업기업 발굴·지원 방향 요약 기재",
+            "locator": "Contents/section0.xml / paragraph 194",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "9621719a5cc8ba0f7a5c",
+            "category": "eligibility",
+            "excerpt": "- (OOO) 중점분야❷에 대한 창업기업 발굴·지원 방향 요약 기재",
+            "locator": "Contents/section0.xml / paragraph 198",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "d4884fded5ffcdb120e1",
+            "category": "eligibility",
+            "excerpt": "- (OOO) 중점분야❸에 대한 창업기업 발굴·지원 방향 요약 기재",
+            "locator": "Contents/section0.xml / paragraph 202",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "f9ab2ce31c3a325bef64",
+            "category": "cofunding",
+            "excerpt": "◦ 연도별 대표·협력 지방정부별 현금·현물성 재원 투입 계획을 기재(대표도시도 협력 지방정부에 포함)",
+            "locator": "Contents/section0.xml / paragraph 650",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "fa984bef434845d19fd0",
+            "category": "eligibility",
+            "excerpt": "2)연간 창업기업 발굴(창업기업 Pool) 규모",
+            "locator": "Contents/section0.xml / paragraph 923",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "49c33f4f270e2707de30",
+            "category": "amount",
+            "excerpt": "4)프로그램 지원 규모",
+            "locator": "Contents/section0.xml / paragraph 931",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "78166b5f8715374e5b75",
+            "category": "amount",
+            "excerpt": "2)지역 전문가단 등 창업기업 컨설팅 지원 규모",
+            "locator": "Contents/section0.xml / paragraph 950",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "c960364a9dcd078e3e36",
+            "category": "amount",
+            "excerpt": "1)창업기업에 대한 투자지원 금액 규모(추진단)",
+            "locator": "Contents/section0.xml / paragraph 964",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "41f9519be3c77911db29",
+            "category": "amount",
+            "excerpt": "1)창업기업 대상 R&D 프로그램 지원 규모",
+            "locator": "Contents/section0.xml / paragraph 977",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "92a9945e8548fdc5b46c",
+            "category": "amount",
+            "excerpt": "2)창업기업 대상 R&D 자금 연계지원 규모",
+            "locator": "Contents/section0.xml / paragraph 981",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "구역·문단 위치는 실제 인쇄 쪽번호가 아닙니다.",
+          "표 셀 관계·그림·각주 의미는 미검토"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
+    },
+    "8d68c88b103f7791578cc163": {
+      "id": "8d68c88b103f7791578cc163",
+      "program_id": "MSS-1071948",
+      "notice_source": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1071948",
+      "url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1071948&cbIdx=310&streFileNm=38703d8f-fff6-4c62-b854-d4c2cb4f5ebd.hwpx",
+      "name": "38703d8f-fff6-4c62-b854-d4c2cb4f5ebd.hwpx",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
+    },
+    "a75545d31060e6d2b70442d7": {
+      "id": "a75545d31060e6d2b70442d7",
+      "program_id": "MSS-1071948",
+      "notice_source": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1071948",
+      "url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1071948&cbIdx=310&streFileNm=a6473f87-7501-447b-abd0-01716868e0c3.hwpx",
+      "name": "a6473f87-7501-447b-abd0-01716868e0c3.hwpx",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
     }
   },
   "run": {
-    "at": "2026-10-30T21:14:28+09:00",
-    "status": "ok_scoped",
+    "at": "2026-10-31T10:59:31+09:00",
+    "status": "partial",
     "notices_attempted": 3,
     "notices_success": 3,
     "notices_failed": 0,
     "files_attempted": 4,
-    "text_extracted": 4,
+    "text_extracted": 3,
     "partial_or_no_text": 0,
-    "blocked": 0,
+    "blocked": 1,
     "failed": 0,
     "changed": 0,
     "sources_skipped": [],

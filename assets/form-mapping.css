@@ -24,3 +24,11 @@
 .outline-copy-ack{display:flex;gap:10px;align-items:start;margin-top:17px;color:#cfdaed;font-size:12px;line-height:1.7}
 .outline-copy-ack input{margin-top:3px;accent-color:#9bedd8;flex-shrink:0}
 #outlineCandidateStatus{font-size:12px;color:#b1c5d9;overflow-wrap:anywhere}
+
+/* P0.22 source version comparison */
+.version-diff-rows{display:grid;gap:10px;max-height:450px;overflow-y:auto;margin:15px 0}
+.version-diff-rows ul{margin:0;padding-left:20px;color:#c6d9ec;font-size:12px;line-height:1.7}
+.version-diff-row{display:grid;gap:7px;padding:12px;border:1px solid #334861;background:#142237;border-radius:10px;overflow-wrap:anywhere}
+.version-diff-row b{font-size:12px}
+.version-diff-row small{font-size:11px;color:#acc2d9}
+#versionSummary{font-size:13px;color:#c9e7ef;line-height:1.75}

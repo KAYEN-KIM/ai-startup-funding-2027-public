@@ -15,6 +15,7 @@
 <script src="assets/application-plan.js" defer></script>
 <script src="assets/form-mapping.js" defer></script>
 <script src="assets/form-outline-import.js" defer></script>
+<script src="assets/form-version.js" defer></script>
 </head>
 <body>
 <a class="skip-link" href="#mappingMain">양식 항목 매핑으로 이동</a>
@@ -22,7 +23,7 @@
 <header class="application-header">
  <div><a href="applications.html" class="eyebrow">← 신청 준비 보드</a><h1>공식 양식 항목 대응 작업대</h1>
  <p>공고별 작성 양식의 <strong>목차만 수동으로 옮겨 적어</strong>, 기존 사업계획서 8개 항목과 연결하고 작성용 패킷을 만듭니다.</p></div>
- <span class="private-badge">P0.20 · AI 호출 0 · 브라우저 내부 처리</span>
+ <span class="private-badge">P0.22 · AI 호출 0 · 브라우저 내부 처리</span>
 </header>
 <nav class="application-nav" aria-label="연관 도구"><a href="applications.html">신청 준비 보드</a><a href="preflight.html">제출 전 로컬 점검</a><a href="index.html">공고 현황판</a></nav>
 <section class="privacy-notice">
@@ -46,6 +47,23 @@
  <label class="outline-copy-ack"><input id="approveCandidateCopy" type="checkbox"> 선택한 미검증 후보를 목차 입력창에 복사하고, 기존 수동 대응 연결이 초기화됨을 확인했습니다.</label>
  <div class="form-map-actions"><button id="applyOutlineCandidates" class="btn btn-secondary" type="button" disabled>선택한 제목을 입력창에 복사</button></div>
  </section>
+<section class="picker" aria-labelledby="formDiffTitle">
+ <h2 id="formDiffTitle">2B. 이전·현재 양식 파일의 목차 후보 변경 대조</h2>
+ <p>동일 공고의 이전·현재 양식에서 각각 추출한 <strong>로컬 후보 JSON</strong>을 읽어 파일 지문, 제목·순서·번호·위치 변화를 표시합니다.
+ 후보에서 누락됐다고 공식 요구사항이 실제 삭제된 것으로 확정하지 않습니다.</p>
+ <div class="picker-controls">
+ <label class="btn btn-secondary file-label" for="oldFormCandidate">이전 버전 후보 JSON<input id="oldFormCandidate" type="file" accept=".json,application/json"></label>
+ <label class="btn btn-secondary file-label" for="newFormCandidate">현재 버전 후보 JSON<input id="newFormCandidate" type="file" accept=".json,application/json"></label>
+ <button id="compareVersionFiles" type="button" class="btn btn-primary">변경 후보 대조</button>
+ </div>
+ <p id="versionStatus" class="source-status" role="status" aria-live="polite">두 파일 모두 현재 브라우저에서만 읽습니다. 비교 결과는 공식 기관의 수정 여부를 증명하지 않습니다.</p>
+ <p id="versionSummary" role="status">아직 비교하지 않았습니다.</p>
+ <div id="versionRows" class="version-diff-rows"></div>
+ <div class="form-map-actions"><button id="downloadVersionReport" class="btn btn-secondary" disabled type="button">비공개 변경 검토표 TXT 저장</button></div>
+ <label class="outline-copy-ack"><input id="versionAck" type="checkbox"> 최신 원문과 변경 여부를 직접 대조했으며, 후보 비교의 한계를 이해합니다. 비교 이후 목차를 다시 분석하고 수동 대응을 재검토했습니다.</label>
+ <div class="form-map-actions"><button id="completeVersionReview" class="btn btn-secondary" disabled type="button">수동 재대조 기록 · 초안 출력 보류 해제</button></div>
+ <p class="boundary">기존 준비 JSON과 문안은 변경하지 않습니다. 동일 SHA-256인데 목록이 충돌한다면 추출기를 확인해야 하며 공식 제출 가능으로 판정하지 않습니다.</p>
+</section>
 <section class="picker">
  <h2>2. 실제 공고의 양식 출처와 목차 입력</h2>
  <p>제목 목록만 붙여넣으십시오. 본문·개인정보는 필요하지 않습니다. 최대 40줄·12,000자입니다.</p>
@@ -69,7 +87,7 @@
  <div class="form-map-actions"><button id="previewPacket" class="btn btn-primary" type="button">수동 대응 결과 미리보기</button><button id="exportPacket" class="btn btn-secondary" type="button" disabled>작업 TXT 저장</button></div>
  <pre id="packetPreview" class="form-map-preview" aria-live="polite">아직 작성 패킷을 생성하지 않았습니다.</pre>
 </section>
-<footer>AI FUNDING RADAR · P0.20 <span>사용자 제공 목차 + 기존 자체기록 → 제출 전 검토용 초안 · 실제 신청은 공식 접수처에서 별도 수행</span></footer>
+<footer>AI FUNDING RADAR · P0.22 <span>사용자 제공 목차 + 기존 자체기록 → 제출 전 검토용 초안 · 실제 신청은 공식 접수처에서 별도 수행</span></footer>
 </main>
 </body>
 </html>

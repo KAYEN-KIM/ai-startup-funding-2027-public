@@ -113,6 +113,11 @@ jobs:
           node --test scripts/test_form_outline_import.cjs
           node --check assets/form-outline-import.js
           node --check assets/form-mapping.js
+      - name: P0.22 deterministic form version comparison and safe local review
+        run: |
+          node --test scripts/test_form_version.cjs
+          node --check assets/form-version.js
+          node --check assets/form-mapping.js
       - name: Script syntax and public schema
         run: |
           node --check assets/app.js

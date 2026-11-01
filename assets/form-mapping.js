@@ -85,11 +85,24 @@ if(typeof module!=="undefined"&&module.exports)module.exports=api;else root.Fund
 if(typeof document==="undefined")return;
 const $=id=>document.getElementById(id);
 const escape=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
-let state={applications:[],current:null,fields:[],choices:[],generated:null};
+let state={applications:[],current:null,fields:[],choices:[],generated:null,outlineCycle:0,sourceReviewPending:false,reviewHeldAt:-1};
 const runtime=root.FundingApplicationPlan?.attach?.(root.FundingApplicationDossier?.attach?.(root.FundingApplications));
 if(!runtime){$("formStatus").textContent="기존 준비파일 검증 모듈을 불러오지 못했습니다.";return;}
 function invalidate(){state.generated=null;$("exportPacket").disabled=true;$("packetPreview").textContent="변경된 설정을 검토하려면 '미리보기'를 다시 누르십시오.";}
 root.FundingFormMappingUI=Object.freeze({
+ requireSourceReview(reason){
+  state.sourceReviewPending=true;
+  state.reviewHeldAt=state.outlineCycle;
+  invalidate();
+  $("formStatus").textContent="양식 후보 비교 자료가 바뀌었습니다. 최신 원문·목차와 각 연결을 수동 재대조한 뒤 확인하십시오. "+String(reason||"");
+ },
+ completeSourceReview(){
+  if(!state.sourceReviewPending)return false;
+  if(state.outlineCycle<=state.reviewHeldAt||!state.fields.length)fail("비교 후 목차를 다시 분석하고 대응을 검토해야 합니다.");
+  state.sourceReviewPending=false;
+  invalidate();
+  return true;
+ },
  importOutline(lines){
   if(!Array.isArray(lines)||lines.length<1||lines.length>MAX_HEADINGS||
      lines.some(x=>typeof x!=="string"||x.length>140))fail("목차 후보 배열 오류");
@@ -132,7 +145,7 @@ $("prepFile").addEventListener("change",async e=>{
 $("projectSelect").addEventListener("change",e=>{state.current=state.applications[Number(e.target.value)]||null;invalidate();});
 $("outlineInput").addEventListener("input",()=>{state.fields=[];state.choices=[];$("mappedRows").innerHTML="";$("mappingSummary").textContent="목차를 다시 분석하십시오.";invalidate();});
 $("parseOutline").addEventListener("click",()=>{
- try{state.fields=headings($("outlineInput").value);state.choices=state.fields.map(()=>({section:"",scope:"both"}));invalidate();render();$("formStatus").textContent="목차를 해석했습니다. 추천을 확인하고 사용자가 항목을 연결하십시오.";}
+ try{state.fields=headings($("outlineInput").value);state.choices=state.fields.map(()=>({section:"",scope:"both"}));state.outlineCycle++;invalidate();render();$("formStatus").textContent="목차를 해석했습니다. 추천을 확인하고 사용자가 항목을 연결하십시오.";}
  catch(err){$("formStatus").textContent="목차 분석 오류: "+err.message;}
 });
 $("mappedRows").addEventListener("change",e=>{
@@ -145,6 +158,7 @@ $("mappedRows").addEventListener("change",e=>{
 });
 ["formTitle","formEdition","formSource"].forEach(id=>$(id).addEventListener("input",invalidate));
 function packet(){
+ if(state.sourceReviewPending)fail("양식 변경 대조 이후 목차·초안 대응 재검토 확인이 필요합니다.");
  if(!state.current)fail("준비파일과 대상 공고를 먼저 선택하십시오.");
  return build({fields:state.fields,choices:state.choices,application:state.current,form:{title:$("formTitle").value,edition:$("formEdition").value,source:$("formSource").value}});
 }

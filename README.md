@@ -257,3 +257,10 @@ The CLI writes a private, unverified headings JSON outside the public repo.
 Open form-mapping.html, select the JSON, compare against the original, and
 manually select headings before mapping draft sections. No AI or data upload.
 See docs/P021_FORM_OUTLINE.md for commands, source bounds and limitations.
+
+## P0.22 — Offline form version comparison and manual review gate
+
+The form-mapping page now compares two locally generated, unreviewed P0.21 heading-candidate JSON files.
+It shows SHA-256, additions, missing candidates, numbering/order/locator differences and duplicate ambiguity.
+Changing the compared documents holds existing draft export until the user re-parses the outline and explicitly records a manual recheck. Same-hash conflicting extraction manifests cannot be released by acknowledgement.
+This is not a source-authenticity check or eligibility/submission approval. No AI/network data upload or source rule promotion. See docs/P022_FORM_VERSION.md.

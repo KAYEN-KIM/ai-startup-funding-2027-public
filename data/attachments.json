@@ -1,19 +1,19 @@
 {
   "schema": "public-funding-attachments/v1",
   "version": "0.4.0",
-  "generated_at": "2026-10-31T11:00:06+09:00",
+  "generated_at": "2026-11-01T10:50:16+09:00",
   "run": {
-    "at": "2026-10-31T11:00:06+09:00",
+    "at": "2026-11-01T10:50:16+09:00",
     "notice_success": 3,
     "notice_failed": 0,
     "attempted": 4,
-    "text_extracted": 4,
-    "partial_or_no_text": 0,
+    "text_extracted": 3,
+    "partial_or_no_text": 1,
     "blocked_or_unsupported": 0,
     "failed": 0,
     "changed": 0,
     "manifest_changed": 0,
-    "queued_total": 115,
+    "queued_total": 120,
     "scope": "회차당 원문 최대 3건·첨부 최대 4건. 본문 추출은 자격 검증이 아니며 전체 기관 수집을 뜻하지 않습니다."
   },
   "records": {
@@ -8790,12 +8790,82 @@
       "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123291",
       "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000760335&fileSn=2",
       "name": "다운로드",
-      "status": "queued",
-      "last_attempt_at": null,
-      "last_success_at": null,
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-01T10:50:16+09:00",
+      "last_success_at": "2026-11-01T10:50:16+09:00",
       "last_error": null,
       "review_required": false,
-      "history": []
+      "history": [
+        {
+          "at": "2026-11-01T10:50:16+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "0a68e3aaf25536537df04855279ec1e05c25acbc842e949ce46660ac55e57852",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "0a68e3aaf25536537df04855279ec1e05c25acbc842e949ce46660ac55e57852",
+      "sha256": "0a68e3aaf25536537df04855279ec1e05c25acbc842e949ce46660ac55e57852",
+      "extraction": {
+        "format": "hwp",
+        "parser": "olefile/0.47+hwp-body/0.4.0",
+        "sha256": "0a68e3aaf25536537df04855279ec1e05c25acbc842e949ce46660ac55e57852",
+        "bytes": 77312,
+        "status": "text_extracted",
+        "text_characters": 858,
+        "units": 23,
+        "text_sha256": "b5a83d3362133533076b806a68500a197eb3600200ee7cd727042ab9df0a5d87",
+        "pages": null,
+        "sections": 1,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "6f1eb7ba1b1be2babbc5",
+            "category": "eligibility",
+            "excerpt": "신청자격 적정성 확인서",
+            "locator": "BodyText/Section0 / record 17 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "48373c09c1727b144d94",
+            "category": "deadline",
+            "excerpt": "▸신청기업 및 과제 대표자 등이 접수마감일 현재 각종 보고서 제출, 기술료 납부, 기술료 납부계획서 제출, 정산금 또는 환수금 납부 등의 의무사항을 불이행하고 있는지 여부",
+            "locator": "BodyText/Section0 / record 50 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "30214b594cb1892c978d",
+            "category": "deadline",
+            "excerpt": "▸신청기업, 신청기업의 대표, 과제 대표자 등이 접수 마감일 현재 국가연구개발사업에 참여제한 중인지 여부",
+            "locator": "BodyText/Section0 / record 76 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "bf8829ef4a7b97862059",
+            "category": "exclusion",
+            "excerpt": "▸세무당국에 의하여 국세, 지방세 등의 체납처분을 받은 경우",
+            "locator": "BodyText/Section0 / record 154 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "구역·레코드 위치는 실제 인쇄 쪽번호가 아닙니다.",
+          "표·그림·각주 의미와 문서의 모든 제외조건은 미검토"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
     },
     "e4089575d492b10c6eb258b2": {
       "id": "e4089575d492b10c6eb258b2",
@@ -8878,6 +8948,325 @@
       "last_error": null,
       "review_required": false,
       "history": []
+    },
+    "609f3ab6358b26d85f1b2a64": {
+      "id": "609f3ab6358b26d85f1b2a64",
+      "program_id": "BIZINFO-PBLN_000000000123596",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123596",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000761501&fileSn=0",
+      "name": "다운로드",
+      "status": "no_text",
+      "last_attempt_at": "2026-11-01T10:50:16+09:00",
+      "last_success_at": "2026-11-01T10:50:16+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-11-01T10:50:16+09:00",
+          "status": "no_text",
+          "observed_sha256": "d0f93b25166114c295e98a26632f64eb54626c19fc8c6b22d37466749ed09b2d",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "d0f93b25166114c295e98a26632f64eb54626c19fc8c6b22d37466749ed09b2d",
+      "sha256": "d0f93b25166114c295e98a26632f64eb54626c19fc8c6b22d37466749ed09b2d",
+      "extraction": {
+        "format": "pdf",
+        "parser": "pypdf/6.15.0",
+        "sha256": "d0f93b25166114c295e98a26632f64eb54626c19fc8c6b22d37466749ed09b2d",
+        "bytes": 890749,
+        "status": "no_text",
+        "text_characters": 0,
+        "units": 0,
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "pages": 1,
+        "sections": null,
+        "empty_pages": 1,
+        "candidate_facts": [],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "표 열 순서·이미지·주석의 의미는 검토하지 않았습니다.",
+          "OCR 미수행"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
+    },
+    "9dafd73a070056a164f18097": {
+      "id": "9dafd73a070056a164f18097",
+      "program_id": "BIZINFO-PBLN_000000000123662",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123662",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000761695&fileSn=0",
+      "name": "다운로드",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
+    },
+    "bca8b48844411be375f37c8c": {
+      "id": "bca8b48844411be375f37c8c",
+      "program_id": "BIZINFO-PBLN_000000000123662",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123662",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000761696&fileSn=0",
+      "name": "다운로드",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
+    },
+    "1e0e225dca8be3f52f73fdcc": {
+      "id": "1e0e225dca8be3f52f73fdcc",
+      "program_id": "BIZINFO-PBLN_000000000123753",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123753",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000762105&fileSn=0",
+      "name": "다운로드",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-01T10:50:16+09:00",
+      "last_success_at": "2026-11-01T10:50:16+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-11-01T10:50:16+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "7a1294f32ca26f6b12ef8fa6d7bbf9e8a04dcbbf6239adca117b723c12c01be2",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "7a1294f32ca26f6b12ef8fa6d7bbf9e8a04dcbbf6239adca117b723c12c01be2",
+      "sha256": "7a1294f32ca26f6b12ef8fa6d7bbf9e8a04dcbbf6239adca117b723c12c01be2",
+      "extraction": {
+        "format": "pdf",
+        "parser": "pypdf/6.15.0",
+        "sha256": "7a1294f32ca26f6b12ef8fa6d7bbf9e8a04dcbbf6239adca117b723c12c01be2",
+        "bytes": 96924,
+        "status": "text_extracted",
+        "text_characters": 2105,
+        "units": 5,
+        "text_sha256": "8195c1b19e59ba06f581f91985416b3a71f7e14d3c3eeb5f86a61fe073833b49",
+        "pages": 2,
+        "sections": null,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "b6fad57e36be68f53fee",
+            "category": "eligibility",
+            "excerpt": "[GTP공고 제2026-153호]2026 특화역량 BI 육성지원사업「ICT·SW 창업 컨설팅 지원」참여기업 모집 공고(재)경기테크노파크에서는 안산시 창업자와 창업보육센터 입주기업의 성공적인 창업을 지원하기 위하여 선배 창업자 및 각 분야 전문가와의 컨설팅을 지원하고자 하오니 많은 관심과 참여 바랍니다. 2026년 06월 29일(재)경기테크노파크 원장1. 사업개요 ㅇ 사 업 명: ICT·SW 창업 컨설팅 지원 ",
+            "locator": "PDF p.1 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "31b3a2aed0870ae30496",
+            "category": "amount",
+            "excerpt": "리티, 로봇, 친환경에너지, 모바일, 블록체인, AR, 3D프린팅, 디지털 플랫폼, Social Media 등) ㅇ 지원규모: 10개사 내외 / 기업당 250만원 이내 ㅇ 세부지원내용 항목지원규모멘토링 분야ICT·SW창업 컨설팅10개사-(중소기업) 창업 및 기업성장 노하우, 사업다각화 방안 등-(컨설팅기관) 비즈니스 모델과 아이템 발굴, 브랜드 기획, 창업사업기획 -(VC, 투자기관) 외부 투자유치 방안-(정",
+            "locator": "PDF p.1 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "c7567b4500a6ba843723",
+            "category": "eligibility",
+            "excerpt": "문컨설턴트매칭2개월 이내 맞춤형 컨설팅 추진컨설팅 보고서 검토 및 비용* 지급*컨설팅기관(전문가)에게 직접 지급3. 신청자격 ㅇ 안산시 ICT/SW 관련 창업기업* * 창업기업 : 사업개시일로부터 7년 이내 기업. 창업일은 개인사업자의 경우 사업개시일(사업자등록증상의 사업자등록일), 법인기업의 경우 법인등기부등본상 법인설립등기일 기준 ㅇ 우선선정 (1순위) : 경기TP 안산창업보육센터 입주기업(예정자) (2순",
+            "locator": "PDF p.1 / text-line 3",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "4aaf2aaff50da4b7fcdd",
+            "category": "exclusion",
+            "excerpt": "시 소재 BI 입주기업(BI별 추천) - 한양대학교 BI, 안산대학교 BI, 중진공 POST BI, 경기여성BI4. 제외대상 ㅇ 국세, 지방세 체납업체(신청접수 시 확인) ㅇ 중소기업창업지원법 시행령 제4조(창업에서 제외되는 업종)의 지원제외 업종에 해당하거나 신청제품의 내용이 사업목적에 적합하지 않은 경우 ㅇ 기타 주관기관이 참여제한의 사유가 있다고 인정하는 자(기업)5. 신청방법 및 제출서류 ㅇ 신청방법 ",
+            "locator": "PDF p.1 / text-line 3",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "60d4b68d25484d375538",
+            "category": "documents",
+            "excerpt": "용이 사업목적에 적합하지 않은 경우 ㅇ 기타 주관기관이 참여제한의 사유가 있다고 인정하는 자(기업)5. 신청방법 및 제출서류 ㅇ 신청방법 - 신청기간: 공고일 ~ 예산 소진 시까지 - 신청방법: 신청서류 이메일 제출([연락처 생략]) ㅇ 제출서류구분 목록공통서류① 컨설팅 신청서 및 사업계획서(신청양식) 각 1부.② 개인정보 수집 및 이용에 관한 동의서(신청양식) 1부.③ 국세 및 지방세 납세증명",
+            "locator": "PDF p.1 / text-line 3",
+            "status": "candidate_unverified",
+            "redacted": true,
+            "context_warning": true
+          },
+          {
+            "id": "e73e6f4f8054f573c949",
+            "category": "deadline",
+            "excerpt": "않은 경우 ㅇ 기타 주관기관이 참여제한의 사유가 있다고 인정하는 자(기업)5. 신청방법 및 제출서류 ㅇ 신청방법 - 신청기간: 공고일 ~ 예산 소진 시까지 - 신청방법: 신청서류 이메일 제출([연락처 생략]) ㅇ 제출서류구분 목록공통서류① 컨설팅 신청서 및 사업계획서(신청양식) 각 1부.② 개인정보 수집 및 이용에 관한 동의서(신청양식) 1부.③ 국세 및 지방세 납세증명서 각 1부.사업자별 제출",
+            "locator": "PDF p.1 / text-line 3",
+            "status": "candidate_unverified",
+            "redacted": true,
+            "context_warning": true
+          },
+          {
+            "id": "05086a00c46990b78a8c",
+            "category": "amount",
+            "excerpt": "기업은 이에 응할 의무가 있음 - 특별한 사유서 제출 없이 과제기간(선정일로부터 3개월 이내) 종료 후 2주일 이내 지원금 지급 서류 미제출 시 과제를 포기한 것으로 간주 - 참여기업의 과제 포기 시 잔여 사업기간 등의 여건을 고려하여 차순위 기업을 추가 선정 및 지원할 수 있음7. 기타사항 ㅇ 선정자의 의무 - 선정자는 지침 및 기준을 준수하여야 하며, 사업완수를 위해 최선의 노력을 다하여야 함 - 선정자는",
+            "locator": "PDF p.2 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "c0e67316d2c531f5a87a",
+            "category": "documents",
+            "excerpt": "6. 유의사항 ㅇ 제출시 유의사항 - 제출서류 미비, 기재 착오 등으로 인한 불이익은 신청자(기업)의 책임으로, 제출된 서류는 반환되지 않음 - 제출된 신청서류를 허위로 작성한 경우에는 모든 지원혜택이 취소 및 환수됨 - 신청 내용에 대한 확인을 위하여 추가자료를 요청할 수 있으며, 신청기업은 이에 응할 의무가 있음 - 특별한 사유서 제출 없이 과제기간(선정일로부터 3개월 이내) 종료 후 2주일 이내 지원금 ",
+            "locator": "PDF p.2 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "표 열 순서·이미지·주석의 의미는 검토하지 않았습니다.",
+          "OCR 미수행"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
+    },
+    "37ccea76bd0fa47741865a89": {
+      "id": "37ccea76bd0fa47741865a89",
+      "program_id": "BIZINFO-PBLN_000000000123753",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123753",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000762106&fileSn=0",
+      "name": "다운로드",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-01T10:50:16+09:00",
+      "last_success_at": "2026-11-01T10:50:16+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-11-01T10:50:16+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "e7ff70da9adc80c82c1c2af32abb54fc567d5511bc121a39153c6a397240c724",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "e7ff70da9adc80c82c1c2af32abb54fc567d5511bc121a39153c6a397240c724",
+      "sha256": "e7ff70da9adc80c82c1c2af32abb54fc567d5511bc121a39153c6a397240c724",
+      "extraction": {
+        "format": "hwp",
+        "parser": "olefile/0.47+hwp-body/0.4.0",
+        "sha256": "e7ff70da9adc80c82c1c2af32abb54fc567d5511bc121a39153c6a397240c724",
+        "bytes": 58880,
+        "status": "text_extracted",
+        "text_characters": 3748,
+        "units": 180,
+        "text_sha256": "52f79217dab1a374b0b20a312836d7eadb56d6d5daef22a5eeeb27080bb76f92",
+        "pages": null,
+        "sections": 1,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "460c0291f7a3d9397144",
+            "category": "documents",
+            "excerpt": "- 제출서류는 각 파일명을 아래 예시와 같이 변경하여 반드시 1개의 압축파일로 제출",
+            "locator": "BodyText/Section0 / record 62 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "5b99f54c73efc4de027a",
+            "category": "eligibility",
+            "excerpt": "- 압축파일은 파일명을 (창업멘토링_기업명)으로 변경하여 제출",
+            "locator": "BodyText/Section0 / record 66 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "a15c78bebf2be51ee012",
+            "category": "eligibility",
+            "excerpt": "사업장소재지(본사)",
+            "locator": "BodyText/Section0 / record 191 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "9e50f242626ed7d74c72",
+            "category": "amount",
+            "excerpt": "분야예시 : ① 선배기업 경영노하우, ② BM/아이템 발굴 및 기획, ③ VC/투자유치전략, ④ 정부지원사업 연계, ⑤ 마케팅전략, ⑥ 해외진출/무역, ⑦ 법률/세무/회계, ⑧ Post-BI 성장지원",
+            "locator": "BodyText/Section0 / record 496 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "85a0c9c74ae904d5645d",
+            "category": "amount",
+            "excerpt": "(예시) 정부지원자금 유치를 위한 사업계획서 작성법 및 세부 본문 스토리라인 컨설팅",
+            "locator": "BodyText/Section0 / record 544 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "c00468a568ef49dcc39d",
+            "category": "amount",
+            "excerpt": "□ 특정 정부지원사업 신청서 완성 □ 투자 유치용 사업 피치덱(IR) 완성",
+            "locator": "BodyText/Section0 / record 558 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "787d411c0472b6d72fa0",
+            "category": "eligibility",
+            "excerpt": "화번호, 전자우편주소, 개인전화번호 등), 기업식별정보(상호, 법인등록번호, 사업자등록번호, 본점․영업소․공장 등의 소재지, 설립연월일, 연락처, 주소, 전자우편주소, 전화번호 등), 기업 신용능력정보(기업현황, 대표자 및 경영진 현황, 과세 및 납세 정보, 매출현황, 영업이익, 수출액. 재무상황, 자본금 등), 국세 등 체납 정보, 정부 지원사업 참여 이력(참여기간, 지원금액, 지원내용, 사업화 성과 등),",
+            "locator": "BodyText/Section0 / record 856 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "e878b5347999c3555e4c",
+            "category": "exclusion",
+            "excerpt": "황, 대표자 및 경영진 현황, 과세 및 납세 정보, 매출현황, 영업이익, 수출액. 재무상황, 자본금 등), 국세 등 체납 정보, 정부 지원사업 참여 이력(참여기간, 지원금액, 지원내용, 사업화 성과 등), 기타 기업 제반 사항(주생산품, 업종, KSIC 분류코드 등)",
+            "locator": "BodyText/Section0 / record 856 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "1a2568e0e9daf0bb963a",
+            "category": "amount",
+            "excerpt": "및 경영진 현황, 과세 및 납세 정보, 매출현황, 영업이익, 수출액. 재무상황, 자본금 등), 국세 등 체납 정보, 정부 지원사업 참여 이력(참여기간, 지원금액, 지원내용, 사업화 성과 등), 기타 기업 제반 사항(주생산품, 업종, KSIC 분류코드 등)",
+            "locator": "BodyText/Section0 / record 856 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "구역·레코드 위치는 실제 인쇄 쪽번호가 아닙니다.",
+          "표·그림·각주 의미와 문서의 모든 제외조건은 미검토"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
     }
   },
   "programs": {
@@ -9553,6 +9942,44 @@
       "manifest_sha256": "6138d271088e48871681dc36c0cdca5484d75c0822a468f00d9752980562f390",
       "document_ids": [
         "b22c7a3fc146ce8f506a5187"
+      ],
+      "review_required": false,
+      "last_error": null
+    },
+    "BIZINFO-PBLN_000000000123596": {
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123596",
+      "last_notice_attempt_at": "2026-11-01T10:50:16+09:00",
+      "last_notice_success_at": "2026-11-01T10:50:16+09:00",
+      "notice_status": "links_available",
+      "manifest_sha256": "f639b246f17da3f249eff68daea72d923407fa0fe59cff0b42e0e5a517e86193",
+      "document_ids": [
+        "609f3ab6358b26d85f1b2a64"
+      ],
+      "review_required": false,
+      "last_error": null
+    },
+    "BIZINFO-PBLN_000000000123662": {
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123662",
+      "last_notice_attempt_at": "2026-11-01T10:50:16+09:00",
+      "last_notice_success_at": "2026-11-01T10:50:16+09:00",
+      "notice_status": "links_available",
+      "manifest_sha256": "b943eb318a858393d1a9e10020052a5bd2ac0bdd2532a3712836803618ebed81",
+      "document_ids": [
+        "9dafd73a070056a164f18097",
+        "bca8b48844411be375f37c8c"
+      ],
+      "review_required": false,
+      "last_error": null
+    },
+    "BIZINFO-PBLN_000000000123753": {
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123753",
+      "last_notice_attempt_at": "2026-11-01T10:50:16+09:00",
+      "last_notice_success_at": "2026-11-01T10:50:16+09:00",
+      "notice_status": "links_available",
+      "manifest_sha256": "4045bb3a20c50e9be782f83921ae195198bed84f94265bbdbacbddabc98e884e",
+      "document_ids": [
+        "1e0e225dca8be3f52f73fdcc",
+        "37ccea76bd0fa47741865a89"
       ],
       "review_required": false,
       "last_error": null

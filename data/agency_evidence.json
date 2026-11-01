@@ -1,7 +1,7 @@
 {
   "schema": "public-funding-agency-evidence/v1",
   "version": "0.17.0",
-  "generated_at": "2026-10-31T10:59:31+09:00",
+  "generated_at": "2026-11-01T10:49:52+09:00",
   "model_calls": 0,
   "automatic_approval": false,
   "scope": "기관 직접 목록의 원문 최대 3건·첨부 최대 4건 순환 확인. 본문 추출은 조건 후보이며 신청자격·금액·중복지원·문서 완전성 검증이 아닙니다. 기존 공고와 검토 규칙은 수정하지 않습니다.",
@@ -12,9 +12,9 @@
       "source": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1071785",
       "title": "2027년 도약(Jump-Up) 프로그램 참여기업 모집 공고",
       "listing_fingerprint": "e4cdfd512f5098ae2167e3fa251d720044abdc9d89e36f97336d502086a8ad1f",
-      "listing_seen_at": "2026-10-30T19:55:45+09:00",
-      "last_attempt_at": "2026-10-30T20:57:46+09:00",
-      "last_success_at": "2026-10-30T20:57:46+09:00",
+      "listing_seen_at": "2026-11-01T10:49:45+09:00",
+      "last_attempt_at": "2026-11-01T10:49:52+09:00",
+      "last_success_at": "2026-11-01T10:49:52+09:00",
       "status": "html_available",
       "last_error": null,
       "review_required": false,
@@ -35,6 +35,13 @@
         }
       ],
       "history": [
+        {
+          "at": "2026-11-01T10:49:52+09:00",
+          "status": "html_available",
+          "body_sha256": "f24eab2ad59d502b3f1b3da0054e84eddc6358b5704d74d1aa2f05bf2ebd3e87",
+          "manifest_sha256": "e91eba66141ad96379eb59588d0aab1dfbaf0ba78d4f7cbf379620590cbf895d",
+          "error": null
+        },
         {
           "at": "2026-10-30T20:57:46+09:00",
           "status": "html_available",
@@ -416,6 +423,90 @@
         }
       ],
       "unhandled_links": 0
+    },
+    "MSS-1071648": {
+      "id": "MSS-1071648",
+      "agency_id": "mss",
+      "source": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1071648",
+      "title": "2027년 초격차 스타트업 프로젝트 정부 첫 실증·구매 프로젝트 주관기관 모집공고",
+      "listing_fingerprint": "ce665a0eca5309e6a7a42def3dd752238810f12b8b3b6a6cc0fddfb5d1d6cf62",
+      "listing_seen_at": "2026-11-01T10:49:45+09:00",
+      "last_attempt_at": "2026-11-01T10:49:52+09:00",
+      "last_success_at": "2026-11-01T10:49:52+09:00",
+      "status": "html_available",
+      "last_error": null,
+      "review_required": false,
+      "body_sha256": "6aef637dcdcd0a8a3c1f05349962a539fe639a194c026db904721cb777b163bd",
+      "manifest_sha256": "f649f8b021066938b80be74330d833fd45ff664a5c076cfcf827cae0fba5c4a6",
+      "documents": [
+        {
+          "id": "49df283672f2caaae1957eeb",
+          "name": "ca0f024d-e028-40f2-aa7f-4c4feba19e82.hwpx",
+          "public_url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1071648&cbIdx=310&streFileNm=ca0f024d-e028-40f2-aa7f-4c4feba19e82.hwpx",
+          "locator": "공고 첨부파일 목록 / ca0f024d-e028-40f2-aa7f-4c4feba19e82.hwpx"
+        },
+        {
+          "id": "6f200cdb451a7309e0223101",
+          "name": "cf8334cc-60a1-48e6-8fd9-f7f9a738347f.pdf",
+          "public_url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1071648&cbIdx=310&streFileNm=cf8334cc-60a1-48e6-8fd9-f7f9a738347f.pdf",
+          "locator": "공고 첨부파일 목록 / cf8334cc-60a1-48e6-8fd9-f7f9a738347f.pdf"
+        }
+      ],
+      "history": [
+        {
+          "at": "2026-11-01T10:49:52+09:00",
+          "status": "html_available",
+          "body_sha256": "6aef637dcdcd0a8a3c1f05349962a539fe639a194c026db904721cb777b163bd",
+          "manifest_sha256": "f649f8b021066938b80be74330d833fd45ff664a5c076cfcf827cae0fba5c4a6",
+          "error": null
+        }
+      ],
+      "unhandled_links": 0
+    },
+    "NIPA-16897": {
+      "id": "NIPA-16897",
+      "agency_id": "nipa",
+      "source": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16897&tab=2",
+      "title": "2026년「디지털콘텐츠 융합기업 글로벌 마켓 참가사업」지원기업 모집 공고",
+      "listing_fingerprint": "812af1a964b773690bba272e33a366357fa8f989e70c8ecdbde4ef7c92601267",
+      "listing_seen_at": "2026-11-01T10:49:45+09:00",
+      "last_attempt_at": "2026-11-01T10:49:52+09:00",
+      "last_success_at": "2026-11-01T10:49:52+09:00",
+      "status": "html_available",
+      "last_error": null,
+      "review_required": false,
+      "body_sha256": "c9f5acab6382923aec39591ad55128a8c3f0d8b749b92ebc6e2d5e5cbaa625a3",
+      "manifest_sha256": "166087f770e5fcffa07d89dd7a5dc7c551eece11597696994f1a022e4968cff0",
+      "documents": [
+        {
+          "id": "4daebc79c1930230855953b8",
+          "name": "2_(공고안내문)_2026년_디지털콘텐츠_융합기업_글로벌_마켓_참가(XR_Fair_Tokyo_Autumn)_지원기업_모집.pdf",
+          "public_url": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16897&tab=2",
+          "locator": "공고 첨부파일 목록 / 2_(공고안내문)_2026년_디지털콘텐츠_융합기업_글로벌_마켓_참가(XR_Fair_Tokyo_Autumn)_지원기업_모집.pdf"
+        },
+        {
+          "id": "c85d5bbcfc2d055fa338fa16",
+          "name": "3_(참가신청서_및_제출서류_양식)_2026년_디지털콘텐츠_융합기업_글로벌_마켓_참가(XR_Fair_Tokyo_Autumn)_지원기업_모집.hwp",
+          "public_url": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16897&tab=2",
+          "locator": "공고 첨부파일 목록 / 3_(참가신청서_및_제출서류_양식)_2026년_디지털콘텐츠_융합기업_글로벌_마켓_참가(XR_Fair_Tokyo_Autumn)_지원기업_모집.hwp"
+        },
+        {
+          "id": "cc3d61719a35acdab3069d06",
+          "name": "1_(공고문)_2026년_디지털콘텐츠_융합기업_글로벌_마켓_참가(XR_Fair_Tokyo_Autumn)_지원기업_모집.pdf",
+          "public_url": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16897&tab=2",
+          "locator": "공고 첨부파일 목록 / 1_(공고문)_2026년_디지털콘텐츠_융합기업_글로벌_마켓_참가(XR_Fair_Tokyo_Autumn)_지원기업_모집.pdf"
+        }
+      ],
+      "history": [
+        {
+          "at": "2026-11-01T10:49:52+09:00",
+          "status": "html_available",
+          "body_sha256": "c9f5acab6382923aec39591ad55128a8c3f0d8b749b92ebc6e2d5e5cbaa625a3",
+          "manifest_sha256": "166087f770e5fcffa07d89dd7a5dc7c551eece11597696994f1a022e4968cff0",
+          "error": null
+        }
+      ],
+      "unhandled_links": 1
     }
   },
   "documents": {
@@ -2302,18 +2393,876 @@
       "last_error": null,
       "review_required": false,
       "history": []
+    },
+    "49df283672f2caaae1957eeb": {
+      "id": "49df283672f2caaae1957eeb",
+      "program_id": "MSS-1071648",
+      "notice_source": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1071648",
+      "url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1071648&cbIdx=310&streFileNm=ca0f024d-e028-40f2-aa7f-4c4feba19e82.hwpx",
+      "name": "ca0f024d-e028-40f2-aa7f-4c4feba19e82.hwpx",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-01T10:49:52+09:00",
+      "last_success_at": "2026-11-01T10:49:52+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-11-01T10:49:52+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "51e2ff04fae7f835398451bf31cf22a93ace0e859116effbcdd8cf70e51173b7",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "51e2ff04fae7f835398451bf31cf22a93ace0e859116effbcdd8cf70e51173b7",
+      "sha256": "51e2ff04fae7f835398451bf31cf22a93ace0e859116effbcdd8cf70e51173b7",
+      "extraction": {
+        "format": "hwpx",
+        "parser": "hwp-body/0.4.0",
+        "sha256": "51e2ff04fae7f835398451bf31cf22a93ace0e859116effbcdd8cf70e51173b7",
+        "bytes": 151566,
+        "status": "text_extracted",
+        "text_characters": 7874,
+        "units": 287,
+        "text_sha256": "47701cb6ac1b0656aee32468f4bc2dd7b347c966e4139bfe1bda76b0c99de748",
+        "pages": null,
+        "sections": 1,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "74e161e6a8b561c09619",
+            "category": "eligibility",
+            "excerpt": "※ 본 모집 공고는 창업기업을 지원할 주관기관을 모집하는 공고문이며,프로젝트에 참여할 창업기업 모집은 2027년 별도 공고 예정",
+            "locator": "Contents/section0.xml / paragraph 12",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "04e75b40c99cebce9e46",
+            "category": "eligibility",
+            "excerpt": "□ 사업목적 : 신산업 기술에 대한 도입 수요를 지닌 공공의 과제를 창업기업 실증 지원을 통해 해결하여 혁신제품 조달구매로 연계",
+            "locator": "Contents/section0.xml / paragraph 21",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "de30bb08bcfaa7051b37",
+            "category": "eligibility",
+            "excerpt": "□ 지원규모 : 창업기업 80개사 내외",
+            "locator": "Contents/section0.xml / paragraph 31",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "cf90c7b34cf715bfda2b",
+            "category": "amount",
+            "excerpt": "□ 지원규모 : 창업기업 80개사 내외",
+            "locator": "Contents/section0.xml / paragraph 31",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "05718497231b936ffff9",
+            "category": "eligibility",
+            "excerpt": "* 최종 지원 규모는 ’27년 창업기업 모집 이후 확정 예정",
+            "locator": "Contents/section0.xml / paragraph 33",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "fda6dfdb329be405af09",
+            "category": "amount",
+            "excerpt": "* 최종 지원 규모는 ’27년 창업기업 모집 이후 확정 예정",
+            "locator": "Contents/section0.xml / paragraph 33",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "62cf99ae427b90a1ac09",
+            "category": "eligibility",
+            "excerpt": "신청자격 및 제외대상",
+            "locator": "Contents/section0.xml / paragraph 37",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "5991d288e731048dc451",
+            "category": "exclusion",
+            "excerpt": "신청자격 및 제외대상",
+            "locator": "Contents/section0.xml / paragraph 37",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "1eb3ce89fcd55669d0ba",
+            "category": "deadline",
+            "excerpt": "* 『신용정보의이용및보호에관한법률』 제2조제4호의 업무를 영위하는 신용정보업자가 동 사업 공고일로부터 마감일 전까지 기간 내에 평가한 유효기간 내 회사채(또는 기업어음)에 대한 신용평가등급 또는 기업신용평가등급(위의 신용정보업자가 신용평가등급, 등급 평가일 및 등급 유효기간 등을 명시하여 작성한 신용평가등급확인서) 기준",
+            "locator": "Contents/section0.xml / paragraph 60",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "1b6e1cdffe72649b4ab6",
+            "category": "exclusion",
+            "excerpt": "□ 신청 제외대상",
+            "locator": "Contents/section0.xml / paragraph 62",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "b753b97f0e254ee13fd8",
+            "category": "exclusion",
+            "excerpt": "② 국세 또는 지방세 체납 중인 경우",
+            "locator": "Contents/section0.xml / paragraph 68",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "2b878fcb70b47dbbe2fa",
+            "category": "deadline",
+            "excerpt": "□ 접수 기간 : ’26.10.8.(목) ~ 10.29.(목), 15:00:00까지",
+            "locator": "Contents/section0.xml / paragraph 202",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "cd5a042383c52202a3d4",
+            "category": "documents",
+            "excerpt": "의) 후 신청서 작성 단계에 진입하여 과제번호를 부여받은 경우, 15:00:00까지 작성 항목 수정, 사업계획서 및 증빙서류 추가 업로드 등 가능",
+            "locator": "Contents/section0.xml / paragraph 212",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "9a15d2532e81ab771eed",
+            "category": "documents",
+            "excerpt": "□ 제출 서류",
+            "locator": "Contents/section0.xml / paragraph 222",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "c26975b7623a88b612a9",
+            "category": "documents",
+            "excerpt": "◦ 사업계획서, 증빙서류 등 온라인 제출(용량 100MB 제한)",
+            "locator": "Contents/section0.xml / paragraph 224",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "64cfbcc18c4293411341",
+            "category": "documents",
+            "excerpt": "* 우편 접수 불가, 제출 서류(사업계획서 등)는 공고문에 첨부된 양식 필히 활용",
+            "locator": "Contents/section0.xml / paragraph 226",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "32d3bd528085e365ddfe",
+            "category": "documents",
+            "excerpt": "< 제출 서류 >",
+            "locator": "Contents/section0.xml / paragraph 228",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "7d0bda3fedb32efb8e0b",
+            "category": "deadline",
+            "excerpt": "신청‧접수기간 내 평가된 확인서",
+            "locator": "Contents/section0.xml / paragraph 247",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "ae96f225aca4edc56b53",
+            "category": "amount",
+            "excerpt": "은 창업 활동에 필요한 사항을 정부가 지원하는 사업으로, 다른 용도의 사업비 사용 또는 거짓 신청, 부정한 방법으로 정부지원사업비를 지원받은 경우 「형법」, 「공공재정 부정청구 금지 및 부정이익 환수 등에 관한 법률」, 「보조금 관리에 관한 법률」, 「중소기업창업 지원사업 통합관리지침」 등에 따라 형사처벌 또는 정부지원사업비 전액 환수 및 창업사업화 지원사업 참여제한 등의 대상이 될 수 있습니다.",
+            "locator": "Contents/section0.xml / paragraph 394",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "ca0149f3ca9907ad61f7",
+            "category": "cofunding",
+            "excerpt": "3. 창업기업등의 정부지원사업비 및 자기부담사업비 집행계획 적정성 등 집행관리",
+            "locator": "Contents/section0.xml / paragraph 433",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "802236acac243179279b",
+            "category": "amount",
+            "excerpt": "3. 창업기업등의 정부지원사업비 및 자기부담사업비 집행계획 적정성 등 집행관리",
+            "locator": "Contents/section0.xml / paragraph 433",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "구역·문단 위치는 실제 인쇄 쪽번호가 아닙니다.",
+          "표 셀 관계·그림·각주 의미는 미검토"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
+    },
+    "6f200cdb451a7309e0223101": {
+      "id": "6f200cdb451a7309e0223101",
+      "program_id": "MSS-1071648",
+      "notice_source": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1071648",
+      "url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1071648&cbIdx=310&streFileNm=cf8334cc-60a1-48e6-8fd9-f7f9a738347f.pdf",
+      "name": "cf8334cc-60a1-48e6-8fd9-f7f9a738347f.pdf",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-01T10:49:52+09:00",
+      "last_success_at": "2026-11-01T10:49:52+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-11-01T10:49:52+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "e68a4a8be1a3cbe169d4ac39b92b5543bb23f7276a9db18fce32a92e908cec8d",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "e68a4a8be1a3cbe169d4ac39b92b5543bb23f7276a9db18fce32a92e908cec8d",
+      "sha256": "e68a4a8be1a3cbe169d4ac39b92b5543bb23f7276a9db18fce32a92e908cec8d",
+      "extraction": {
+        "format": "pdf",
+        "parser": "pypdf/6.15.0",
+        "sha256": "e68a4a8be1a3cbe169d4ac39b92b5543bb23f7276a9db18fce32a92e908cec8d",
+        "bytes": 655303,
+        "status": "text_extracted",
+        "text_characters": 7360,
+        "units": 22,
+        "text_sha256": "c3f172dfa118c27ed5b8aa262ac9628ca880d7dc923d5731387f47f08dee0025",
+        "pages": 10,
+        "sections": null,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "1dbec2e58514523b7e46",
+            "category": "eligibility",
+            "excerpt": "하는『정부첫실증·구매프로젝트』주관기관을다음과같이모집공고합니다. 2026년10월8일중소벤처기업부장관※ 본 모집 공고는 창업기업을 지원할 주관기관을 모집하는 공고문이며,프로젝트에 참여할 창업기업 모집은 2027년 별도 공고 예정1 모집 개요□ 사업목적 : 신산업기술에대한도입수요를지닌공공의과제를창업기업실증지원을통해해결하여혁신제품조달구매로연계□ 선정규모 : 1개기관□ 협약기간 : 2년(1+1년) * 기본협약 1년 차",
+            "locator": "PDF p.1 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "6ab6c03d0704601abe39",
+            "category": "amount",
+            "excerpt": "할 수 있음)□ 지원내용 : 전담조직운영(평가,사업비관리등),특화프로그램,공공연계실증(PoC)관리,인프라연계등지원□ 지원규모 : 창업기업80개사내외 * 최종 지원 규모는 ’27년 창업기업 모집 이후 확정 예정",
+            "locator": "PDF p.1 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "d25b1efd85d6c1a24aa4",
+            "category": "eligibility",
+            "excerpt": "2 신청자격 및 제외대상□ 신청 자격◦창업기업기술실증과국내외조달시장으로연결을통한실질적판로개척등조달역랑강화지원기능을보유한전문기관구분 신청 자격공공기관•『공공기관의운영에관한법률』 제4조(공공기관)에 해당하는 법인·단체 또는 기관•『지방공기업법』 제2조(적용범위)에 해당하는 법인·단체 또는 기관•『지방자치단체출자‧출연기관의운영에관한법률』 제2조(적용대상 등)에 해당하는 법인·단체 또는 기관민간기관(단체)",
+            "locator": "PDF p.2 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "67743ac3d6bb71e8ce15",
+            "category": "exclusion",
+            "excerpt": "2 신청자격 및 제외대상□ 신청 자격◦창업기업기술실증과국내외조달시장으로연결을통한실질적판로개척등조달역랑강화지원기능을보유한전문기관구분 신청 자격공공기관•『공공기관의운영에관한법률』 제4조(공공기관)에 해당하는 법인·단체 또는 기관•『지방공기업법』 제2조(적용범위)에 해당하는 법인·단체 또는 기관•『지방자치단체출자‧출연기관의운영에관한법률』 제2조(적용대상 등)에 해당하는 법인·단체 또는 기관민간기관(단체)",
+            "locator": "PDF p.2 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "74302644339643621233",
+            "category": "exclusion",
+            "excerpt": "급(위의 신용정보업자가 신용평가등급, 등급 평가일 및 등급 유효기간 등을 명시하여 작성한 신용평가등급확인서) 기준□ 신청 제외대상◦신청기관(또는대표자)이다음각호의어느하나에해당하는경우지원사업신청을제한① 금융기관 등으로부터 채무불이행으로 규제 중이거나 부도‧화의‧법정관리 등 정상적으로 금융거래가 곤란한 경우② 국세 또는 지방세 체납 중인 경우③ 창업진흥원으로부터 발생한 환수금 등의 반환이 종결되지 않은 경우④ 중",
+            "locator": "PDF p.2 / text-line 3",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "9cf4aa92cd8476f3d079",
+            "category": "deadline",
+            "excerpt": "이상이어야 함 * 『신용정보의이용및보호에관한법률』 제2조제4호의 업무를 영위하는 신용정보업자가 동 사업 공고일로부터 마감일 전까지 기간 내에 평가한 유효기간 내 회사채(또는 기업어음)에 대한 신용평가등급 또는 기업신용평가등급(위의 신용정보업자가 신용평가등급, 등급 평가일 및 등급 유효기간 등을 명시하여 작성한 신용평가등급확인서) 기준□ 신청 제외대상◦신청기관(또는대표자)이다음각호의어느하나에해당하는경우지원사업신",
+            "locator": "PDF p.2 / text-line 3",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "7b01079a2070d0506e7a",
+            "category": "eligibility",
+            "excerpt": "3 사업 개요□ 사 업 명 : 초격차스타트업프로젝트(DIPS)-정부첫실증·구매□ 사업예산 : 총10억원내외 ※창업기업실증·협업예산별도 * 예산은 창업기업 선정 규모, 운영 프로그램 등에 따라 변동될 수 있음□ 지원대상 : 업력10년이내기업□ 지원기간 : 최대2년(‘기술실증’1년+‘시장확장’1년) * 1차년도 사업 종료 시 사업수행 결과 평가를 통해 ‘우수’ 과제 2차년도 후속지원□ 지원사항 : 실증·협업자금(",
+            "locator": "PDF p.3 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "f04ab5a08aa3412a0783",
+            "category": "eligibility",
+            "excerpt": " 실증·사업화, 판로지원 프로그램 기획‧운영 경력 5년 이상팀원(4인↑)2인※ 아래 중 1개 이상 필수 창업유관기관 창업지원 경력 3년 이상 대·중견기업, 정부·공공기관 협업을 통한 중소기업, 창업기업판로지원 경력 3년 이상2인상기 자격 사항 해당 없음(경력 무관)겸직인력- - * 예시 : 전담인력 5인 = 총괄(전담) 1인+팀원 4인 또는 총괄(겸직) 1인+팀원 5인◦(전문가단)기술실증·판로지원전문가(초격차",
+            "locator": "PDF p.4 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "811b91a45d8620d3b375",
+            "category": "documents",
+            "excerpt": "의) 후 신청서 작성 단계에 진입하여 과제번호를 부여받은 경우, 15:00:00까지 작성 항목 수정, 사업계획서 및 증빙서류 추가 업로드 등 가능② 신청·접수 시스템 내 기관정보 등록을 위해 대표자 회원가입 선행 필수 * 단, 온라인 신청·접수는 실무자 로그인 ID로 진행③ 온라인 신청서 작성 이후 ‘제출완료’ 버튼을 클릭해야 최종 접수가 완료됨④ 온라인 신청만 가능, 접수된(15:00:00이후) 사업계획서 ",
+            "locator": "PDF p.6 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "ed5b0fa82bc17468617f",
+            "category": "deadline",
+            "excerpt": "6 신청·접수□ 접수 기간 :’26.10.8.(목)~10.29.(목),15:00:00까지◦신청·접수:K-Startup누리집(www.k-startup.go.kr)로그인→사업신청관리접속→온라인작성→제출※별첨신청매뉴얼참조< 유의 사항 >① 접수는 15:00:00 정각에 종료(신규 신청 불가). 다만, 15:00:00 전에 1단계(약관동의) 후 신청서 작성 단계에 진입하여 과제번호를 부여받은 경우, 15:00:00까",
+            "locator": "PDF p.6 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "a5f5ab653a4f5503cc15",
+            "category": "eligibility",
+            "excerpt": " 절차 : 서류(50%,2배수내외)+발표(50%)→최종선정◦(서류 평가) 신청기관이제출한사업계획서및증빙서류등을기반으로신청자격과지원역량등을평가 * 신청자격은 서류~발표평가 과정에서 지속 검토되며, 요건 부적합 시 탈락 처리 ** 단, 신청기관(요건검토 통과 기준)이 5개 이하일 경우 발표평가(100%) 점수로선정예정기관 결정◦(발표 평가) 신청기관의대표자(또는전담조직의장)직접발표및평가위원과의질의응답형태로평가 *",
+            "locator": "PDF p.7 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "d0f510a26d8eca8e7ae0",
+            "category": "documents",
+            "excerpt": "및 선정절차□ 평가 절차 : 서류(50%,2배수내외)+발표(50%)→최종선정◦(서류 평가) 신청기관이제출한사업계획서및증빙서류등을기반으로신청자격과지원역량등을평가 * 신청자격은 서류~발표평가 과정에서 지속 검토되며, 요건 부적합 시 탈락 처리 ** 단, 신청기관(요건검토 통과 기준)이 5개 이하일 경우 발표평가(100%) 점수로선정예정기관 결정◦(발표 평가) 신청기관의대표자(또는전담조직의장)직접발표및평가위원과의질",
+            "locator": "PDF p.7 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "f19977653250be2df6a9",
+            "category": "amount",
+            "excerpt": "은 창업 활동에 필요한 사항을 정부가 지원하는 사업으로, 다른 용도의 사업비 사용 또는 거짓 신청, 부정한 방법으로 정부지원사업비를 지원받은 경우 「형법」, 「공공재정 부정청구 금지 및 부정이익 환수 등에 관한 법률」, 「보조금 관리에 관한 법률」, 「중소기업창업 지원사업 통합관리지침」 등에 따라 형사처벌 또는 정부지원사업비 전액 환수 및 창업사업화 지원사업 참여제한 등의 대상이 될 수 있습니다.② 동 사업비",
+            "locator": "PDF p.8 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "a4e7dde49b25b15e0af4",
+            "category": "documents",
+            "excerpt": "조치□모든신청절차(서류업로드포함)는정해진기한(’26.10.29.(목),15:00)내완료되어야하며,사업신청시누락된정보·증빙서류등에대해서류·발표평가중추가제출혹은보완불가(제출서류기반평가) ※ 사업 신청 시, 발표자료 제출을 누락한 경우 사업계획서로 발표평가 진행□전담조직구성등신청요건중“예정(확보‧",
+            "locator": "PDF p.9 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "f5242e823dbccd03f452",
+            "category": "cofunding",
+            "excerpt": "평가, 교육, 멘토링 등 2. 창업기업등의 성과목표관리 등 원활한 창업활동 지원 3. 창업기업등의 정부지원사업비 및 자기부담사업비 집행계획 적정성 등 집행관리 4. 지원사업 수행에 필요한 (전문)인력, 시설, 행정 지원 5. (창업기업등) 사업비 정산 및 관리 6. 창업기업등 점검 및 최종평가 7. 창업기업등 선정, 사업운영위원회 및 평가 결과, 정산결과 등에 대한 승인 요청 8. 사업종료 후 5년간 창업기업",
+            "locator": "PDF p.10 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "d09f13f5054d612bf824",
+            "category": "amount",
+            "excerpt": ", 창업기업등 선정평가, 교육, 멘토링 등 2. 창업기업등의 성과목표관리 등 원활한 창업활동 지원 3. 창업기업등의 정부지원사업비 및 자기부담사업비 집행계획 적정성 등 집행관리 4. 지원사업 수행에 필요한 (전문)인력, 시설, 행정 지원 5. (창업기업등) 사업비 정산 및 관리 6. 창업기업등 점검 및 최종평가 7. 창업기업등 선정, 사업운영위원회 및 평가 결과, 정산결과 등에 대한 승인 요청 8. 사업종료 ",
+            "locator": "PDF p.10 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "표 열 순서·이미지·주석의 의미는 검토하지 않았습니다.",
+          "OCR 미수행"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
+    },
+    "4daebc79c1930230855953b8": {
+      "id": "4daebc79c1930230855953b8",
+      "program_id": "NIPA-16897",
+      "notice_source": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16897&tab=2",
+      "url": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16897&tab=2",
+      "name": "2_(공고안내문)_2026년_디지털콘텐츠_융합기업_글로벌_마켓_참가(XR_Fair_Tokyo_Autumn)_지원기업_모집.pdf",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-01T10:49:52+09:00",
+      "last_success_at": "2026-11-01T10:49:52+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-11-01T10:49:52+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "4129a57ddf32bb69cf0a6b6404a55c955800108151460024cfbedfc5930f91b0",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "4129a57ddf32bb69cf0a6b6404a55c955800108151460024cfbedfc5930f91b0",
+      "sha256": "4129a57ddf32bb69cf0a6b6404a55c955800108151460024cfbedfc5930f91b0",
+      "extraction": {
+        "format": "pdf",
+        "parser": "pypdf/6.15.0",
+        "sha256": "4129a57ddf32bb69cf0a6b6404a55c955800108151460024cfbedfc5930f91b0",
+        "bytes": 583042,
+        "status": "text_extracted",
+        "text_characters": 12944,
+        "units": 49,
+        "text_sha256": "b50bc6907f00da618799a364dd49ab5a7fb444c54bbf9e40875d6da4adfc66ce",
+        "pages": 15,
+        "sections": null,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "72f70169e37826af93f2",
+            "category": "eligibility",
+            "excerpt": "과 관련된 제반 업무 등□ 사업 추진일정공고′26. 8⁓9월▪ NIPA 홈페이지 공고 * 지원사업 개요, 지원조건, 지원대상, 지원내용 등 공고↓접수′26. 9월▪ 전산접수(NIPA 사업관리시스템) ↓적합·적격성 검토′26. 9월▪ 신청서류 검토↓선정평가′26. 9월▪ 선정평가 * 외부 전문가로 평가위원회 구성↓우선 순위자 결정·통보′26. 9월▪ 선정 결과 통보▪ 참여확약서 제출(지원기업 → 전담기관(NIP",
+            "locator": "PDF p.6 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "493125903861df90058f",
+            "category": "documents",
+            "excerpt": "므로 시간 엄수 요망(기한내 사전 제출 요청) ※ 해당 일시는 서류 제출 기준으로, 시간 내에 사업관리시스템상 관련 제출서류를 첨부하여 제출 완료된 경우에만 인정 □ 접수방법 :우리원 사업관리시스템(NXT)을 통한 전산접수 ※ 정보통신산업진흥원 홈페이지(www.nipa.kr) → 사업관리시스템(https://nxt.nipa.kr) → 총괄책임자 회원가입 및 로그인 → 절차에 따라 전산 접수 → 제출 완료 ※ ",
+            "locator": "PDF p.7 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "c5754b2848c24b5970e2",
+            "category": "deadline",
+            "excerpt": "5 신청 및 접수□ 신청기간 :2026년 8월 10일(월)~9월 8일(화),14:00까지 ※ 접수시간 초과 시 접수가 불가하므로 시간 엄수 요망(기한내 사전 제출 요청) ※ 해당 일시는 서류 제출 기준으로, 시간 내에 사업관리시스템상 관련 제출서류를 첨부하여 제출 완료된 경우에만 인정 □ 접수방법 :우리원 사업관리시스템(NXT)을 통한 전산접수 ※ 정보통신산업진흥원 홈페이지(www.nipa.kr) → 사업관리",
+            "locator": "PDF p.7 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "ce78d9f7eff54c0e37bc",
+            "category": "exclusion",
+            "excerpt": "□신청·평가 제외 대상○접수마감일 현재 기준 국가연구개발사업에 참여 제한 중인 대상자(기관‧",
+            "locator": "PDF p.8 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "4f811d634929b9760bfc",
+            "category": "deadline",
+            "excerpt": "□신청·평가 제외 대상○접수마감일 현재 기준 국가연구개발사업에 참여 제한 중인 대상자(기관‧",
+            "locator": "PDF p.8 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "b39190b78a83e36edb7c",
+            "category": "eligibility",
+            "excerpt": "kr) ※ 사업관리 > R&D정보검색 > 제재정보 에서 기관명이나 이름으로 검색 가능 ※ 기타 관련 규정, 중복성, 신청 자격 등에 적합하지 않을 경우 평가대상에서 제외 가능○접수마감일 현재 기준 조달청 부정당제재 적용을 받고 있는 기관(기업),대표자는 과제 신청이 불가함○사전 지원 제외 대상(접수 마감일 기준)",
+            "locator": "PDF p.8 / text-line 3",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "e9f0d8cb9ec4fec154ef",
+            "category": "exclusion",
+            "excerpt": " 제외 가능○접수마감일 현재 기준 조달청 부정당제재 적용을 받고 있는 기관(기업),대표자는 과제 신청이 불가함○사전 지원 제외 대상(접수 마감일 기준)",
+            "locator": "PDF p.8 / text-line 3",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "963fcc9f47b327061650",
+            "category": "deadline",
+            "excerpt": "명이나 이름으로 검색 가능 ※ 기타 관련 규정, 중복성, 신청 자격 등에 적합하지 않을 경우 평가대상에서 제외 가능○접수마감일 현재 기준 조달청 부정당제재 적용을 받고 있는 기관(기업),대표자는 과제 신청이 불가함○사전 지원 제외 대상(접수 마감일 기준)",
+            "locator": "PDF p.8 / text-line 3",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "5b1c2a42bdebc7806b96",
+            "category": "deadline",
+            "excerpt": " 숙지 ※ 마감시한 이후엔 접수 불가하며, 마감시한에 접수가 집중될 경우 접수가 원활하게 진행되지 않을 수 있으므로 접수마감 2~3일 전에 사업수행계획서 등 기본정보 입력 후 수정하여 접수완료 추천 ※ 전산 시스템 문의 : ☎ [연락처 생략], [연락처 생략]",
+            "locator": "PDF p.8 / text-line 4",
+            "status": "candidate_unverified",
+            "redacted": true,
+            "context_warning": true
+          },
+          {
+            "id": "22a78e866d1d1b09fa30",
+            "category": "exclusion",
+            "excerpt": "구분 사전지원제외",
+            "locator": "PDF p.8 / text-line 5",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "4a7ea96b949d1bbbca47",
+            "category": "eligibility",
+            "excerpt": " 세무당국에 의하여 국세, 지방세 등의 체납처분을 받은 경우(단, 회생인가 받은 기업, 중소기업진흥공단 등으로부터 재창업자금을 지원 받은 기업은 예외)3. 민사집행법에 기하여 채무불이행자명부에 등재되거나, 은행연합회 등 신용정보집중기관에 채무불이행자로 등록된 경우(단, 회생인가 받은 기업, 중소기업진흥공단 등으로부터 재창업자금을 지원 받은 기업 등 정부ㆍ공공기관으로부터 재기지원 필요성을 인정받은 기업은 예외)",
+            "locator": "PDF p.8 / text-line 7",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "5ef0beb5683742575c78",
+            "category": "exclusion",
+            "excerpt": "1. 기업의 부도2. 세무당국에 의하여 국세, 지방세 등의 체납처분을 받은 경우(단, 회생인가 받은 기업, 중소기업진흥공단 등으로부터 재창업자금을 지원 받은 기업은 예외)3. 민사집행법에 기하여 채무불이행자명부에 등재되거나, 은행연합회 등 신용정보집중기관에 채무불이행자로 등록된 경우(단, 회생인가 받은 기업, 중소기업진흥공단 등으로부터 재창업자금을 지원 받은 기업 등 정부ㆍ공공기관으로부터 재기지원 필요성을 인",
+            "locator": "PDF p.8 / text-line 7",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "7a95673d477f019fc3c1",
+            "category": "cofunding",
+            "excerpt": " 확정 이후라도 아래 사항 발생 시 과제 선정 취소 가능< 선정 및 협약 취소사유 >⦁ 사업수행기관(주관, 참여)이 자부담금 확보 등의 약속사항을 불이행한 경우⦁ 사업수행기관(주관, 참여)의 귀책사유로 협약추진이 지연되어 과제 종료기한 이내에 과제 완료가 곤란한 경우⦁ 타기관의 IPR(지식재산권)에 저촉되어 과제 수행이 불가능한 경우⦁ 사업여건 변동으로 사업수행이 불필요하거나 곤란한 경우⦁ 동일하거나 유사한 ",
+            "locator": "PDF p.9 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "ec9144982aec1b128102",
+            "category": "deadline",
+            "excerpt": ")이 타사업의 수행상 법률·규정 위반 또는 불이행 등에 따라 전담기관으로부터 사업참여제한 등 처분이 확정된 경우 ※ 접수마감일 이후 위 기준에 해당하게 된 때에는 해당 과제의 선정을 취소할 수 있으며, 필요한 경우 평가위원회 또는 심의위원회 등에서 제외 여부를 심의할 수 있음",
+            "locator": "PDF p.9 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "b22faba90c6a7ad56f23",
+            "category": "exclusion",
+            "excerpt": "구분 사전지원제외 (한국채택국제회계기준(K-IFRS)을 적용함에 따라 자본전액잠식이 발생한 경우에는 일반 기업회계기준(K-GAAP)을 적용하여 자본전액잠식 여부 판단 가능. 이 경우, 연구개발기관은 자본잠식 여부 판단을 위해 추가적인 회계기준에 따른 자료를 전문기관에 제출하여야 하며, 한국채택국제회계기준과 일반기업회계기준을 혼용할 수 없음) ※ 상기 자본전액잠식 계산시 한국벤처캐피탈협회 회원사 및 중소기업진흥",
+            "locator": "PDF p.9 / text-line 3",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "7d36d9561ff6b296daa9",
+            "category": "documents",
+            "excerpt": "6 제출 서류□ 제출서류 목록번호제출서류양식1 참가신청서 *‘선정평가 발표자료’ 미 제출시, ‘참가신청서’로 발표 가능표지서명 및 날인(양식 참고)2 선정평가 발표자료(PDF형식으로 제출) 자유양식3 디지털콘텐츠 융합 제품·서비스 소개자료 * 동영상 재생 필요시, 반드시 별도로 압축하여 제출 (발표평가 중 활용시 3분이내 소개 분량으로 준비) 자유양식4 사업수행기관(기관장)정보 수집·이용·제공 동의서양식 참고",
+            "locator": "PDF p.10 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "c6e1f83a5dfa0122aade",
+            "category": "documents",
+            "excerpt": " 연락망 구축시 연락처 정보 제출실적보고 o 마켓 참가 이후 14일이내 결과 보고 제출 o 해외 진출 성과 및 실적 증빙 자료 제출 ※ 국내외 매출액, 해외 수주, 현지 실증, 투자유치 등 글로벌 계약 건수, 해외 법인 설립, 해외담당 신규 인력 고용, 파트너십 계약, 해외 특허 등록 등만족도 조사 o 프로그램 만족도 조사 참여네트워킹·성과 공유회 o 네트워킹·간담회, 성과공유회 개최 시 발표 등 적극 참여 ",
+            "locator": "PDF p.11 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "65b707d12d940f912cb0",
+            "category": "documents",
+            "excerpt": "○(성과관리)사업의 성과관리를 위해 전담기관은 사업종료 후 5년간성과자료(실적 증빙자료 등)제출을 지원기업에게 요청할 수 있음 ○(기타보고)사업 수행기간 및 수행 완료 후 전담기관(NIPA)요청 시지원사업 진행현황 및 성과에 대해 성실히 보고 및 협조□지원기업 제재 ○정당한 사유 없이 사업 수행을 포기하거나 협약을 해약한 경우 ○사업수행 결과가 극히 불량하여 중단되거나 실패한 경우 ○지원기업의 폐업으로 사업이",
+            "locator": "PDF p.12 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "b3a43fe5b381e74f02ea",
+            "category": "documents",
+            "excerpt": ", 필요한 경우 평가위원회 또는 심의위원회 등에서 제외 여부를 심의할 수 있음 ○제출된 서류 일체는 반환되지 않으며,제출 서류의 내용이 사실과다를 경우 선정 취소될 수 있음",
+            "locator": "PDF p.12 / text-line 3",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "5a53ea4518fe73f1ba69",
+            "category": "eligibility",
+            "excerpt": "8 평가 절차 및 기준□ 선정절차○신청자격 등 적합성 검토 및 선정평가(평가위원회)를 통해 지원기업 선정",
+            "locator": "PDF p.13 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "2218fac0c9f3970e2a92",
+            "category": "eligibility",
+            "excerpt": "절차①적합성 검토②선정평가③협약체결방법제출 서류 및 신청 자격 검토⇨서면·발표평가⇨사업추진을 위한 협약체결내용지원 자격 등 검토를 통한 평가 대상 확정평가기준에 따라 우선 지원 대상기업 선정*주체NIPA평가위원회사업수행기관↔ 지원기업 * [공모개요-신청 시 유의사항]에 따라, 중복 선정된 경우 반드시 택일하여 참여확약서 제출 후 선정 확정 ※ 접수된 신청기업수에 따라 서면평가를 생략할 수 있음□적합성 검토 ○",
+            "locator": "PDF p.13 / text-line 3",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "표 열 순서·이미지·주석의 의미는 검토하지 않았습니다.",
+          "OCR 미수행"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
+    },
+    "c85d5bbcfc2d055fa338fa16": {
+      "id": "c85d5bbcfc2d055fa338fa16",
+      "program_id": "NIPA-16897",
+      "notice_source": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16897&tab=2",
+      "url": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16897&tab=2",
+      "name": "3_(참가신청서_및_제출서류_양식)_2026년_디지털콘텐츠_융합기업_글로벌_마켓_참가(XR_Fair_Tokyo_Autumn)_지원기업_모집.hwp",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-01T10:49:52+09:00",
+      "last_success_at": "2026-11-01T10:49:52+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-11-01T10:49:52+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "836aaecd0c833773afda2d6f4588763fc11a10af0c358895041d599421bbc44a",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "836aaecd0c833773afda2d6f4588763fc11a10af0c358895041d599421bbc44a",
+      "sha256": "836aaecd0c833773afda2d6f4588763fc11a10af0c358895041d599421bbc44a",
+      "extraction": {
+        "format": "hwp",
+        "parser": "olefile/0.47+hwp-body/0.4.0",
+        "sha256": "836aaecd0c833773afda2d6f4588763fc11a10af0c358895041d599421bbc44a",
+        "bytes": 201216,
+        "status": "text_extracted",
+        "text_characters": 9732,
+        "units": 697,
+        "text_sha256": "f79539c822c26e69cb08926846de7d4ce49ce52fe0c8f2f3d1e235147c50118f",
+        "pages": null,
+        "sections": 1,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "d391bf986366be888c34",
+            "category": "documents",
+            "excerpt": "참가신청서 및 제출서류 양식 (지원기업)",
+            "locator": "BodyText/Section0 / record 58 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "a8bac0bd16586b8d035a",
+            "category": "eligibility",
+            "excerpt": "회사주소(소재지)",
+            "locator": "BodyText/Section0 / record 360 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "ebfe5b7d2dfda39854e5",
+            "category": "eligibility",
+            "excerpt": "본사업",
+            "locator": "BodyText/Section0 / record 1747 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "8c2e1dc1c3373aca4c14",
+            "category": "amount",
+            "excerpt": "※ 상기 표의 ‘타사업’이라 함은 정부지원 사업에 한함",
+            "locator": "BodyText/Section0 / record 1912 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "3abb14b9318f5499fd4f",
+            "category": "documents",
+            "excerpt": "※ 보유중인 글로벌 마케팅 툴 자료는 신청 시 제출서류에 모두 제출 요망",
+            "locator": "BodyText/Section0 / record 2119 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "1fddf30e8da61478ebe5",
+            "category": "eligibility",
+            "excerpt": "신청자격 적정성 확인서",
+            "locator": "BodyText/Section0 / record 4938 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "cffa8fe8886960db3a10",
+            "category": "eligibility",
+            "excerpt": "□ 신청자격 여부",
+            "locator": "BodyText/Section0 / record 4987 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "ef81e935bcc64f7e08de",
+            "category": "eligibility",
+            "excerpt": "⦁ 현재 신청인은 사업 공고문 등에서 정한 신청자격 및 신청요건을 보유하고 있는가?",
+            "locator": "BodyText/Section0 / record 4991 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "199d87f9faa45681e01e",
+            "category": "amount",
+            "excerpt": "⦁ 국가연구개발사업 등 기수행·수행중인 정부지원과제와 중복되는가?",
+            "locator": "BodyText/Section0 / record 5025 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "6e5128b8214afe2bee0f",
+            "category": "exclusion",
+            "excerpt": "* 아래 사항 중 하나라도 해당시 사전지원제외되며, 예외사항 해당시에는 “해당”에 표기하고 관련 증빙 필수 제출",
+            "locator": "BodyText/Section0 / record 5093 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "aad46a818cc78a30d828",
+            "category": "exclusion",
+            "excerpt": "⦁ 세무당국에 의하여 국세, 지방세 등의 체납처분을 받았는가?",
+            "locator": "BodyText/Section0 / record 5119 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "e4f8b40557995ba812c0",
+            "category": "exclusion",
+            "excerpt": "✓ 참여제한, 채무불이행 정보 등 신용조회 및 기타 사전지원제외, 사후관리 대상 여부의 확인",
+            "locator": "BodyText/Section0 / record 5286 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "ee0c65f24f3661ed2523",
+            "category": "amount",
+            "excerpt": "※ 유의사항 : 상기 동의를 거부할 수 있습니다. 해당 수집 항목은 정부지원과제 수행에 반드시 필요한 사항으로 이에 대한 동의하지 않을 경우에는 정부지원과제 참여 등에 제한을 받을 수 있습니다.",
+            "locator": "BodyText/Section0 / record 5336 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "214bcf70b1a7f81c9983",
+            "category": "amount",
+            "excerpt": "- 목적 : 정부지원과제 참여제한 여부 확인 및 채무불이행 정보 등 신용조회, 국가 연구개발사업 등 정부지원과제 관련 타 전문기관의 동일업무 수행, 산업부 등 타 부처 사업 연계 등",
+            "locator": "BodyText/Section0 / record 5351 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "cb22d4a80fdffeafadcf",
+            "category": "amount",
+            "excerpt": "- 제공받는 자 : 과학기술정보통신부·국회 등 정부기관, 한국방송통신전파진흥원 등 정부지원과제 관리기관, 국가과학기술종합정보시스템(NTIS), 중소기업통합관리시스템 운영기관",
+            "locator": "BodyText/Section0 / record 5355 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "구역·레코드 위치는 실제 인쇄 쪽번호가 아닙니다.",
+          "표·그림·각주 의미와 문서의 모든 제외조건은 미검토"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
+    },
+    "cc3d61719a35acdab3069d06": {
+      "id": "cc3d61719a35acdab3069d06",
+      "program_id": "NIPA-16897",
+      "notice_source": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16897&tab=2",
+      "url": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16897&tab=2",
+      "name": "1_(공고문)_2026년_디지털콘텐츠_융합기업_글로벌_마켓_참가(XR_Fair_Tokyo_Autumn)_지원기업_모집.pdf",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
     }
   },
   "run": {
-    "at": "2026-10-31T10:59:31+09:00",
+    "at": "2026-11-01T10:49:52+09:00",
     "status": "partial",
     "notices_attempted": 3,
     "notices_success": 3,
     "notices_failed": 0,
     "files_attempted": 4,
-    "text_extracted": 3,
+    "text_extracted": 4,
     "partial_or_no_text": 0,
-    "blocked": 1,
+    "blocked": 0,
     "failed": 0,
     "changed": 0,
     "sources_skipped": [],

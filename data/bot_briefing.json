@@ -1,7 +1,7 @@
 {
   "schema": "public-funding-bot-briefing/v1",
   "engine_version": "0.15.0",
-  "generated_at": "2026-11-02T11:05:18+09:00",
+  "generated_at": "2026-11-02T13:05:34+09:00",
   "generation": "deterministic_no_model",
   "report_model_calls": 0,
   "ai_transport": "manual_cli_only",
@@ -27,7 +27,7 @@
       "last_attempt_at": "2026-11-02T11:02:59+09:00",
       "last_success_at": "2026-11-02T11:02:59+09:00",
       "freshness": "recent",
-      "workflow_outcome": "success",
+      "workflow_outcome": "skipped",
       "checked": 1293,
       "failed": 0,
       "detail": {
@@ -51,7 +51,7 @@
       "last_attempt_at": "2026-11-02T11:02:59+09:00",
       "last_success_at": null,
       "freshness": "recent",
-      "workflow_outcome": "success",
+      "workflow_outcome": "skipped",
       "checked": 6,
       "failed": 0,
       "detail": {
@@ -75,7 +75,7 @@
       "last_attempt_at": "2026-11-02T11:04:31+09:00",
       "last_success_at": null,
       "freshness": "recent",
-      "workflow_outcome": "success",
+      "workflow_outcome": "skipped",
       "checked": 4,
       "failed": 0,
       "detail": {
@@ -99,7 +99,7 @@
       "last_attempt_at": "2026-11-02T11:05:07+09:00",
       "last_success_at": null,
       "freshness": "recent",
-      "workflow_outcome": "success",
+      "workflow_outcome": "skipped",
       "checked": 3,
       "failed": 0,
       "detail": {
@@ -438,7 +438,7 @@
       "title": "[경남] 김해시 2026년 창업기업 마케팅 역량강화 지원사업 디자인 멘토링 및 어워드 출품료 수혜기업 모집 공고",
       "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120418",
       "action": "retry_bot",
-      "reason": "미해결 첨부 다운로드·처리 실패. 다음 제한된 순환 수집에서 재시도",
+      "reason": "전송 오류 재시도 후보. 현재 원문 링크·대기시간·회차 상한을 재확인한 뒤 수집",
       "reference_id": "55f10d0bfa5dcc290095bb66",
       "observed_at": "2026-10-30T09:24:55+09:00"
     },
@@ -450,7 +450,7 @@
       "title": "[충남] 2026년 혁신기업 기술창업 활성화 지원사업 모집 공고",
       "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120509",
       "action": "retry_bot",
-      "reason": "미해결 첨부 다운로드·처리 실패. 다음 제한된 순환 수집에서 재시도",
+      "reason": "전송 오류 재시도 후보. 현재 원문 링크·대기시간·회차 상한을 재확인한 뒤 수집",
       "reference_id": "2e47997639666650966b8328",
       "observed_at": "2026-10-30T09:24:55+09:00"
     },
@@ -462,7 +462,7 @@
       "title": "[경북] 2026년 초거대 AI 기술 컨설팅 신규 대상기업 모집 공고(초거대 AI 클라우드 팜 실증 및 확산 환경 조성사업)",
       "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120871",
       "action": "retry_bot",
-      "reason": "미해결 첨부 다운로드·처리 실패. 다음 제한된 순환 수집에서 재시도",
+      "reason": "전송 오류 재시도 후보. 현재 원문 링크·대기시간·회차 상한을 재확인한 뒤 수집",
       "reference_id": "15067451ae5eb827e83a14b4",
       "observed_at": "2026-10-30T09:24:55+09:00"
     },
@@ -675,5 +675,5 @@
   "scope": "기업마당 API, 기존 공식 원문·첨부 순환 수집 및 검토 원본 재확인. 전체 기관 독립 수집이나 자동 적격성 검증이 아님.",
   "notice": "이 보고서는 공개 저장자료의 규칙 기반 집계입니다. 후보·마감·우선순위는 신청 적격성, 선정 확률 또는 지원금 확정이 아닙니다. 자료 변경은 정책 변경 확정이 아니며 원문 대조가 필요합니다.",
   "ai_handoff": "공개 근거 검토요청 파일만 생성 가능. AI CLI 자동 실행·API 호출·결과 자동 반영 없음.",
-  "report_id": "6ea1f6e9a44c51598d9dc598"
+  "report_id": "d7bd63d635a7c783432717a9"
 }

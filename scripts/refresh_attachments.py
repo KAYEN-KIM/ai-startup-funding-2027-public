@@ -17,6 +17,7 @@ from urllib.request import Request,build_opener,HTTPRedirectHandler
 from urllib.error import HTTPError,URLError
 from attachment_core import VERSION,MAX_FILE,ExtractError,sha,approved_url,validate_public,ERRORS
 from public_urls import stable_attachment_url,scrub_transport_urls
+from attachment_recovery import plan as recovery_plan, at_time as recovery_at_time
 ROOT=Path(__file__).resolve().parents[1]
 KST=dt.timezone(dt.timedelta(hours=9))
 
@@ -142,11 +143,15 @@ def collect(programs,state,at,priority=(),notice_limit=3,file_limit=4,discover=d
         p=plist.get(pid)
         if p and manifest.get('notice_source')==p['source'] and manifest.get('notice_status')=='links_available':
             active.update(manifest.get('document_ids',[]))
-    queue=[state['records'][i] for i in active if i in state['records']]
-    queue.sort(key=lambda r:(r.get('last_attempt_at') or '',r['program_id'] not in priority,r['id']))
+    # Only active links with retry-permitted transport results are auto-retried.
+    # Do not repeatedly waste the bounded slots on nonretryable 403/format/size errors.
+    triage=recovery_plan(state,at,file_limit) if recovery_at_time(at) else {'selected':[],'counts':{}}
+    chosen=[state['records'][r['id']] for r in triage['selected']]
+    attempts_by_kind={k:sum(1 for r in triage['selected'] if r['decision']==k)
+                      for k in ('queued','retry_due','revisit')}
     succeeded=partial=blocked=failed=changed=0
     transport_cache={}
-    for old in queue[:file_limit]:
+    for old in chosen:
         effective_fetch=fetcher
         if fetcher is download:
             def effective_fetch(url,old=old):
@@ -159,10 +164,15 @@ def collect(programs,state,at,priority=(),notice_limit=3,file_limit=4,discover=d
         failed+=int(status not in ('text_extracted','partial_text','no_text','protected_document','unsupported_format','size_limit','unsafe_archive','unsafe_xml'))
         changed+=int(new.get('content_changed_at')==at)
     state['version']=VERSION;state['generated_at']=at
-    state['run']={'at':at,'notice_success':notice_ok,'notice_failed':notice_failed,'attempted':min(len(queue),file_limit),
+    state['run']={'at':at,'notice_success':notice_ok,'notice_failed':notice_failed,'attempted':len(chosen),
                   'text_extracted':succeeded,'partial_or_no_text':partial,'blocked_or_unsupported':blocked,'failed':failed,
-                  'changed':changed,'manifest_changed':manifest_changed,'queued_total':len(queue),
-                  'scope':'회차당 원문 최대 3건·첨부 최대 4건. 본문 추출은 자격 검증이 아니며 전체 기관 수집을 뜻하지 않습니다.'}
+                  'changed':changed,'manifest_changed':manifest_changed,'queued_total':len(active),
+                  'new_attempted':attempts_by_kind['queued'],
+                  'retry_attempted':attempts_by_kind['retry_due'],
+                  'revisit_attempted':attempts_by_kind['revisit'],
+                  'deferred_retry':triage['counts'].get('retry_wait',0),
+                  'manual_hold':triage['counts'].get('manual',0),
+                  'scope':'원문 3건·첨부 4건 상한. 신규/일시적 전송실패/오래된 성공 기록을 분리해 선정하며 403·포맷·보호·크기 제한은 자동 우회하지 않습니다. 적격성은 미검증.'}
     validate_public(state)
     return state
 

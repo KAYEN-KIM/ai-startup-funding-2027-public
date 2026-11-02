@@ -259,8 +259,16 @@ def build_report(inputs, now, outcomes=None):
             queued += 1
         elif status in FAIL or (isinstance(status, str) and status.endswith('_failed')):
             failed_records += 1
-            enqueue('attachment_failure', r.get('program_id'), aid, 'P1', 'retry_bot',
-                    '미해결 첨부 다운로드·처리 실패. 다음 제한된 순환 수집에서 재시도', r.get('last_attempt_at'))
+            # Only explicitly retryable transport failures belong to the automatic queue.
+            code=r.get('http_status')
+            kind=r.get('failure_kind')
+            retry_ok=(r.get('retryable') is True and
+                      (kind=='network_error' or kind=='http_error' and code in {408,429,500,502,503,504}))
+            action='retry_bot' if retry_ok else 'review_original'
+            reason=('전송 오류 재시도 후보. 현재 원문 링크·대기시간·회차 상한을 재확인한 뒤 수집' if retry_ok
+                    else '보호·형식·비재시도 오류 또는 원인 미기록: 자동 반복 금지, 원문 대조 필요')
+            enqueue('attachment_failure', r.get('program_id'), aid, 'P1', action,
+                    reason, r.get('last_attempt_at'))
         elif status in LIMIT:
             limited_records += 1
             enqueue('attachment_limit', r.get('program_id'), aid, 'P2', 'review_original',

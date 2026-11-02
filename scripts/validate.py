@@ -6,7 +6,7 @@ from pathlib import Path
 from radar_core import official_url
 from condition_catalog import build_catalog, validate_registry
 ROOT=Path(__file__).resolve().parents[1]
-FILES={'programs.json','monitor.json','evidence.json','change_reviews.json','conditions.json','attachments.json','funding_rules.json','startup_routes.json','startup_sources.json','bot_briefing.json','agency_discovery.json','agency_evidence.json'}
+FILES={'programs.json','monitor.json','evidence.json','change_reviews.json','conditions.json','attachment_recovery.json','attachments.json','funding_rules.json','startup_routes.json','startup_sources.json','bot_briefing.json','agency_discovery.json','agency_evidence.json'}
 PROGRAM_FIELDS={'id','title','year','years','year_basis','kind','mode','relevance','opens','deadline','deadline_precision','application_period_raw','source','verified_at','amount','eligibility','note','priority','source_level','agency','attachments'}
 PRIVATE={'company_profile','applicant_profile','applicant_memo','resident_number','taxpayer_id','bank_account','access_token','secret_key','password','api_key','crtfcKey','serviceKey','budget_private','application_documents'}
 MODES={'beneficiary','discovery','reference','operator','budget'}
@@ -65,6 +65,9 @@ def main():
     from attachment_core import validate_public
     require('attachments.json' in loaded,'Attachment catalog missing')
     validate_public(loaded['attachments.json'])
+    from attachment_recovery import validate_output as validate_recovery
+    require('attachment_recovery.json' in loaded,'Attachment recovery audit missing')
+    validate_recovery(ROOT)
     from funding_catalog import build_catalog as build_funding, validate_registry as validate_funding
     funding=json.loads((ROOT/'config/funding_rules.json').read_text(encoding='utf-8'))
     scan(funding);validate_funding(funding)

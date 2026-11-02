@@ -13,6 +13,7 @@
   <script src="assets/radar-core.js" defer></script>
   <script src="assets/app.js" defer></script>
   <script src="assets/bot-report.js" defer></script>
+  <script src="assets/attachment-recovery.js" defer></script>
   <script src="assets/agency-report.js" defer></script>
   <script src="assets/agency-evidence.js" defer></script>
   <link rel="stylesheet" href="assets/bot-report.css">
@@ -27,6 +28,7 @@
       <nav aria-label="주요 메뉴">
         <a class="nav-item active" href="#overview"><span class="nav-icon">◫</span> 오늘의 현황</a>
         <a class="nav-item" href="#botReport">매일 봇 보고 · AI 호출 없음</a>
+        <a class="nav-item" href="#attachmentRecovery">첨부 복구·재시도</a>
         <a class="nav-item" href="#agencyReport">공식기관 직접 수집</a>
         <a class="nav-item" href="#programs"><span class="nav-icon">▤</span> 지원사업 검색</a>
         <a class="nav-item" href="eligibility.html"><span class="nav-icon">✓</span> 내 기업 조건 검토</a>
@@ -71,7 +73,12 @@
         <div class="bot-links"><a class="btn btn-secondary" href="data/bot_briefing.md" download>보고서 저장</a><a class="btn btn-secondary" href="data/bot_feed.xml">RSS 보고 피드</a><a class="btn btn-secondary" href="data/bot_briefing.json">공개 집계 JSON</a></div>
         <p>RSS는 구독한 리더가 조회할 때 갱신됩니다. 이 화면은 ChatGPT 메시지·휴대전화 푸시를 전송하지 않습니다. 필요한 원문 검토만 수동 CLI로 인계하며 AI를 자동 실행하지 않습니다.</p>
       </section>
-      <section class="section" id="agencyReport" aria-labelledby="agencyReportTitle">
+      <section class="section" id="attachmentRecovery" aria-labelledby="attachmentRecoveryTitle">
+ <div class="section-title"><div><span class="eyebrow">BOUNDED RECOVERY BOT · NO AI</span><h2 id="attachmentRecoveryTitle">첨부파일 복구·재시도 운영</h2><p>신규 첨부, 재시도 가능한 네트워크 오류, 수동 검토 대상을 분리합니다. 자동 수집의 성공은 신청 적격성 검증이 아닙니다.</p></div></div>
+ <div id="attachmentRecoveryBody" aria-live="polite"><p>첨부 복구 현황을 읽는 중입니다.</p></div>
+ <div class="bot-links"><a class="btn btn-secondary" href="data/attachment_recovery.json">공개 복구 대기열 JSON</a></div>
+</section>
+<section class="section" id="agencyReport" aria-labelledby="agencyReportTitle">
         <div class="section-title"><div><span class="eyebrow">OFFICIAL SOURCE BOTS · NO MODEL CALLS</span><h2 id="agencyReportTitle">공식기관 직접 수집·독립 후보</h2><p>중기부 RSS와 NIPA 목록을 직접 확인합니다. 기존 검증 공고·금액·조건은 자동으로 덮어쓰지 않습니다.</p></div></div>
         <div class="filter-extra">
           <label for="agencySourceFilter">기관 <select id="agencySourceFilter"><option value="all">전체 수집기관</option><option value="mss">중소벤처기업부</option><option value="nipa">NIPA</option></select></label>

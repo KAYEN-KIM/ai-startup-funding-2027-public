@@ -118,6 +118,11 @@ jobs:
           node --test scripts/test_form_version.cjs
           node --check assets/form-version.js
           node --check assets/form-mapping.js
+      - name: P0.23 bounded attachment recovery, backoff and privacy regressions
+        run: |
+          python -m unittest discover -s scripts -p test_attachment_recovery.py -v
+          node --test scripts/test_attachment_recovery_ui.cjs
+          node --check assets/attachment-recovery.js
       - name: Script syntax and public schema
         run: |
           node --check assets/app.js
@@ -203,6 +208,7 @@ jobs:
           python scripts/funding_catalog.py
           python scripts/startup_catalog.py
           python scripts/bot_briefing.py
+          python scripts/attachment_recovery.py
           python scripts/validate.py
       - name: Commit allowlisted public records only
         env:
@@ -213,7 +219,7 @@ jobs:
           if [[ -n "$(git status --porcelain -- data)" ]]; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add data/programs.json data/monitor.json data/evidence.json data/change_reviews.json data/conditions.json data/attachments.json data/funding_rules.json data/startup_routes.json data/startup_sources.json data/bot_briefing.json data/bot_briefing.md data/bot_feed.xml data/agency_discovery.json data/agency_report.md data/agency_evidence.json data/agency_evidence_report.md
+            git add data/programs.json data/monitor.json data/evidence.json data/change_reviews.json data/conditions.json data/attachments.json data/funding_rules.json data/startup_routes.json data/startup_sources.json data/attachment_recovery.json data/bot_briefing.json data/bot_briefing.md data/bot_feed.xml data/agency_discovery.json data/agency_report.md data/agency_evidence.json data/agency_evidence_report.md
             git commit -m "chore: record public discovery and evidence review"
             git fetch origin main
             git rebase origin/main
@@ -223,9 +229,10 @@ jobs:
             python scripts/funding_catalog.py
             python scripts/startup_catalog.py
             python scripts/bot_briefing.py
+            python scripts/attachment_recovery.py
             python scripts/validate.py
-            if ! git diff --quiet -- data/conditions.json data/funding_rules.json data/startup_routes.json data/bot_briefing.json data/bot_briefing.md data/bot_feed.xml; then
-              git add data/conditions.json data/funding_rules.json data/startup_routes.json data/bot_briefing.json data/bot_briefing.md data/bot_feed.xml
+            if ! git diff --quiet -- data/conditions.json data/funding_rules.json data/startup_routes.json data/attachment_recovery.json data/bot_briefing.json data/bot_briefing.md data/bot_feed.xml; then
+              git add data/conditions.json data/funding_rules.json data/startup_routes.json data/attachment_recovery.json data/bot_briefing.json data/bot_briefing.md data/bot_feed.xml
               git commit -m "chore: align condition catalog with rebased public records"
             fi
             git push origin HEAD:main

@@ -9,7 +9,16 @@
 #botReport .bot-list li{padding:13px 0;border-top:1px solid #304059;overflow-wrap:anywhere}
 #botReport .bot-list p{margin:5px 0;font-size:12px}
 #botReport .bot-list a{margin-left:8px;color:#a4e9d6}
-#botReport>p{font-size:12px;color:#a8bbcf;line-height:1.8}
+#botReport>p,#attachmentRecovery>p{font-size:12px;color:#a8bbcf;line-height:1.8}
+#attachmentRecovery .bot-banner{padding:18px;border:1px solid #716344;border-radius:12px;background:#302c24}
+#attachmentRecovery .bot-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:13px}
+#attachmentRecovery .bot-lane{display:flex;flex-direction:column;gap:6px;padding:15px;border:1px solid #33465d;border-radius:12px;background:#152238}
+#attachmentRecovery .bot-lane span{color:#b9e8db}
+#attachmentRecovery .bot-lane small,#attachmentRecovery .bot-list{color:#a8bbcf;overflow-wrap:anywhere}
+#attachmentRecovery .bot-list{padding:0;list-style:none}
+#attachmentRecovery .bot-list li{padding:10px 0;border-bottom:1px solid #304059}
+#attachmentRecovery .bot-list small{font-size:11px;display:block}
+@media(max-width:600px){#attachmentRecovery .bot-grid{grid-template-columns:1fr}}
 #botReport .bot-links{display:flex;gap:10px;flex-wrap:wrap;margin:14px 0}
 @media(max-width:600px){#botReport .bot-grid{grid-template-columns:1fr}#botReport .bot-list .tag{display:inline-block;margin-top:5px}}
 

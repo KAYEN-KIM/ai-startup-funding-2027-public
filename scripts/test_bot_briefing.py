@@ -58,7 +58,15 @@ class BotBriefingTests(unittest.TestCase):
     def test_old_download_failure_kept_after_latest_success(self):
         self.d['attachments']['records']['x']={'program_id':'a','status':'download_failed','last_attempt_at':AT}
         r=self.build(); self.assertEqual(r['run_status'],'ok_scoped'); self.assertEqual(r['unresolved']['attachment_failures'],1)
-        self.assertEqual(next(x for x in r['queue'] if x['reference_id']=='x')['action'],'retry_bot')
+        self.assertEqual(next(x for x in r['queue'] if x['reference_id']=='x')['action'],'review_original')
+    def test_explicit_network_transport_failure_is_retry_candidate(self):
+        self.d['attachments']['records']['x']={'program_id':'a','status':'download_failed',
+             'last_attempt_at':AT,'retryable':True,'failure_kind':'network_error'}
+        self.assertEqual(next(x for x in self.build()['queue'] if x['reference_id']=='x')['action'],'retry_bot')
+    def test_http_403_denial_cannot_become_a_retry(self):
+        self.d['attachments']['records']['x']={'program_id':'a','status':'download_failed',
+             'last_attempt_at':AT,'retryable':True,'failure_kind':'http_error','http_status':403}
+        self.assertEqual(next(x for x in self.build()['queue'] if x['reference_id']=='x')['action'],'review_original')
     def test_current_failure_not_no_change(self):
         self.d['attachments']['run']['failed']=1; self.assertEqual(self.build()['run_status'],'failed')
     def test_crashed_step_overrides_old_success(self):

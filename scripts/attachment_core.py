@@ -227,7 +227,7 @@ def validate_public(data):
  record_keys={'id','program_id','notice_source','url','name','status','last_attempt_at','last_success_at','last_error','observed_sha256','sha256','previous_sha256','review_required','content_changed_at','extraction','history','http_status','failure_kind','retryable'}
  extract_keys={'format','parser','sha256','bytes','status','text_characters','units','text_sha256','pages','sections','empty_pages','candidate_facts','coverage','attachments_reviewed','limitations'}
  program_keys={'notice_source','last_notice_attempt_at','last_notice_success_at','notice_status','manifest_sha256','document_ids','review_required','last_error','previous_manifest_sha256'}
- run_keys={'at','notice_success','notice_failed','attempted','text_extracted','partial_or_no_text','blocked_or_unsupported','failed','changed','manifest_changed','queued_total','scope'}
+ run_keys={'at','notice_success','notice_failed','attempted','text_extracted','partial_or_no_text','blocked_or_unsupported','failed','changed','manifest_changed','queued_total','scope','new_attempted','retry_attempted','revisit_attempted','deferred_retry','manual_hold'}
  if set(data.get('run',{}))-run_keys:raise ValueError('run_fields')
  for p in data['programs'].values():
   if set(p)-program_keys or not approved_url(p.get('notice_source')):raise ValueError('manifest_fields')

@@ -264,3 +264,7 @@ The form-mapping page now compares two locally generated, unreviewed P0.21 headi
 It shows SHA-256, additions, missing candidates, numbering/order/locator differences and duplicate ambiguity.
 Changing the compared documents holds existing draft export until the user re-parses the outline and explicitly records a manual recheck. Same-hash conflicting extraction manifests cannot be released by acknowledgement.
 This is not a source-authenticity check or eligibility/submission approval. No AI/network data upload or source rule promotion. See docs/P022_FORM_VERSION.md.
+
+## P0.23 — Bounded official attachment retry bot (no AI)
+
+The daily collector now reserves one of four slots for explicitly retryable transport failures while prioritizing newly queued public attachments. Network/429/5xx retries have exponential cooldown; access denials, protected files, unsupported formats and size limits are never automatically bypassed. Existing evidence and failure history remain untouched unless a new observed attempt occurs. A read-only public recovery panel separates due, deferred and manual-review cases using data/attachment_recovery.json. See docs/P023_ATTACHMENT_RECOVERY.md. No applicant data or automatic submissions.

@@ -1,29 +1,29 @@
 # AI 창업 지원 — AI 없이 생성한 봇 보고서
 
-보고서 생성: 2026\-11\-01T11:24:08\+09:00
-이번 범위의 수집 상태: **부분 확인·재확인 필요**
+보고서 생성: 2026\-11\-02T11:05:18\+09:00
+이번 범위의 수집 상태: **해당 회차 범위 확인**
 미해결 항목은 이번 실행 성공과 별도로 유지됩니다. 모델 호출: 0회(보고서 생성 경로).
 
 ## 수집 경로별 상태
-- 기업마당 API: ok\_scoped / 최근 시도 2026\-11\-01T10:48:36\+09:00
-- 공식 원문 HTML 순환: ok\_scoped / 최근 시도 2026\-11\-01T10:48:36\+09:00
-- 첨부파일 순환: partial / 최근 시도 2026\-11\-01T10:50:16\+09:00
-- 검토된 과거 원본: ok\_scoped / 최근 시도 2026\-11\-01T10:50:41\+09:00
+- 기업마당 API: ok\_scoped / 최근 시도 2026\-11\-02T11:02:59\+09:00
+- 공식 원문 HTML 순환: ok\_scoped / 최근 시도 2026\-11\-02T11:02:59\+09:00
+- 첨부파일 순환: ok\_scoped / 최근 시도 2026\-11\-02T11:04:31\+09:00
+- 검토된 과거 원본: ok\_scoped / 최근 시도 2026\-11\-02T11:05:07\+09:00
 
 ## 누적 미해결
-pending\_differences: 19 / attachment\_failures: 3 / notice\_failures: 0 / attachment\_limits: 12 / queued\_attachments: 46 / changed\_evidence: 0 / unverified\_programs: 118 / unverified\_2027: 0 / unknown\_dates: 82
+pending\_differences: 19 / attachment\_failures: 3 / notice\_failures: 0 / attachment\_limits: 12 / queued\_attachments: 48 / changed\_evidence: 0 / unverified\_programs: 118 / unverified\_2027: 0 / unknown\_dates: 82
 
 ## 다음 7일 내 기재 마감 — 개인 자격 미판정
-- 2026\-11\-01 · \[부산\] 해운대구 청년 창업자 임차료 지원사업 참여자 추가 모집 공고 · today\_time\_unknown · discovery
-- 2026\-11\-01 · \[충남\] 2026년 충남창업마루나비 인플루언서 마케팅 지원사업 모집 공고 · today\_time\_unknown · discovery
 - 2026\-11\-03 · \[경북\] 청도군 2026년 청년농업인 R&amp;D 기술창업 통합관리 지원사업 신청 공고 · upcoming · discovery
 - 2026\-11\-04 · \[경남\] 2026년 제조AI 데이터 활용지원 사업 공고 · upcoming · beneficiary
 - 2026\-11\-04 · \[전남광주\] 산업 디지털전환 협업지원센터 현장 밀착형 AX 컨설팅 및 마스터플랜 수립 지원사업 공고 · upcoming · discovery
 - 2026\-11\-04 · \[충남\] 2026년 AI 팩토리 사업 연계 지역 제조기업 디지털 전환 확산 지원사업 모집 공고 · upcoming · discovery
 - 2026\-11\-05 · 2026년 서초창업스테이션 프리 오픈 이노베이션 참여 기업 모집 공고 · upcoming · discovery
 - 2026\-11\-05 · \[경북\] 2027년 지역 자율형 디지털 혁신프로젝트 신규과제 컨소시엄 모집 공고 · upcoming · beneficiary
-- 2026\-11\-06 · \[충남\] 2026년 AI 팩토리 사업 성과확산을 위한 지역 DX 수혜기업 지원 사업 공고 · not\_started · beneficiary
+- 2026\-11\-06 · \[충남\] 2026년 AI 팩토리 사업 성과확산을 위한 지역 DX 수혜기업 지원 사업 공고 · upcoming · beneficiary
 - 2026\-11\-06 · \[충남\] 청양군 청년창업공간 누구나가게 본점 창업도전자 모집 공고 · upcoming · discovery
+- 2026\-11\-09 · 2026년 대구 지역거점 AX 혁신 기술개발 사업 신규지원 대상과제 공고\(표준모델 AX R&amp;D\) · upcoming · discovery
+- 2026\-11\-09 · \[대구\] 2026년 창업도시 조성 프로젝트 참가기업 모집 공고 · upcoming · discovery
 
 ## 검토 대기 — 검토 순서이지 선정 점수가 아님
 - P0 · 아태 AI 특화지구 제조 AX 실증 수행기업 모집: 기존 값과 새 관측값 차이: eligibility — 자동 덮어쓰기·승인 없음

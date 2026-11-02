@@ -1,19 +1,19 @@
 {
   "schema": "public-funding-attachments/v1",
   "version": "0.4.0",
-  "generated_at": "2026-11-01T10:50:16+09:00",
+  "generated_at": "2026-11-02T11:04:31+09:00",
   "run": {
-    "at": "2026-11-01T10:50:16+09:00",
+    "at": "2026-11-02T11:04:31+09:00",
     "notice_success": 3,
     "notice_failed": 0,
     "attempted": 4,
-    "text_extracted": 3,
-    "partial_or_no_text": 1,
+    "text_extracted": 4,
+    "partial_or_no_text": 0,
     "blocked_or_unsupported": 0,
     "failed": 0,
     "changed": 0,
     "manifest_changed": 0,
-    "queued_total": 120,
+    "queued_total": 126,
     "scope": "회차당 원문 최대 3건·첨부 최대 4건. 본문 추출은 자격 검증이 아니며 전체 기관 수집을 뜻하지 않습니다."
   },
   "records": {
@@ -9267,6 +9267,643 @@
       "http_status": null,
       "failure_kind": null,
       "retryable": false
+    },
+    "f84332622433c62078f549ed": {
+      "id": "f84332622433c62078f549ed",
+      "program_id": "BIZINFO-PBLN_000000000123764",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123764",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000762138&fileSn=1",
+      "name": "다운로드",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
+    },
+    "51aa18fc1e39a63a29bc7646": {
+      "id": "51aa18fc1e39a63a29bc7646",
+      "program_id": "BIZINFO-PBLN_000000000123764",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123764",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000762139&fileSn=0",
+      "name": "다운로드",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-02T11:04:31+09:00",
+      "last_success_at": "2026-11-02T11:04:31+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-11-02T11:04:31+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "45621322de70e6467fd29a49dcb136eca679fc3b0ebf17303425eece773c0d2e",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "45621322de70e6467fd29a49dcb136eca679fc3b0ebf17303425eece773c0d2e",
+      "sha256": "45621322de70e6467fd29a49dcb136eca679fc3b0ebf17303425eece773c0d2e",
+      "extraction": {
+        "format": "hwpx",
+        "parser": "hwp-body/0.4.0",
+        "sha256": "45621322de70e6467fd29a49dcb136eca679fc3b0ebf17303425eece773c0d2e",
+        "bytes": 83893,
+        "status": "text_extracted",
+        "text_characters": 4365,
+        "units": 220,
+        "text_sha256": "1bcb569b2be3ada2bb203bba3dc3f807b87189d7fe874b8affd6c411d1f8d7e9",
+        "pages": null,
+        "sections": 2,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "8e2a3bc21077bdf3002e",
+            "category": "eligibility",
+            "excerpt": "소재지(본사)",
+            "locator": "Contents/section0.xml / paragraph 16",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "c665c3ae907ccee965a2",
+            "category": "amount",
+            "excerpt": "지원금",
+            "locator": "Contents/section0.xml / paragraph 57",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "d1281cfcd4d8530a0641",
+            "category": "cofunding",
+            "excerpt": "민간부담금",
+            "locator": "Contents/section0.xml / paragraph 58",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "eb44a7a12ce2550aba61",
+            "category": "overlap",
+            "excerpt": "□ 중복지원 금지 확약서 1부.",
+            "locator": "Contents/section0.xml / paragraph 78",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "ce2ca95d00f539d490f2",
+            "category": "amount",
+            "excerpt": "□ 중복지원 금지 확약서 1부.",
+            "locator": "Contents/section0.xml / paragraph 78",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "ac4173251d690b6af1a9",
+            "category": "overlap",
+            "excerpt": "[붙임 3] 중복지원 금지 확약서",
+            "locator": "Contents/section0.xml / paragraph 292",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "5839997a85508bec86f7",
+            "category": "amount",
+            "excerpt": "[붙임 3] 중복지원 금지 확약서",
+            "locator": "Contents/section0.xml / paragraph 292",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "2609f629dae4ac7891f2",
+            "category": "eligibility",
+            "excerpt": "본 과제가 지원대상으로 선정되는 경우에는 동일 또는 유사한 내용의 과제로 그 밖의 지원사업을 중복지원 받지 않겠으며, 만약 중복지원을 받는 경우 민・형사상의 책임을 질 것은 물론 사업비 지원 불가, 환수 등 사업 추진 상의 제반 사항에 대하여 적극 협조・승낙할 것을 확약함.",
+            "locator": "Contents/section0.xml / paragraph 296",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "074c60b0b5cd07635eb8",
+            "category": "overlap",
+            "excerpt": "본 과제가 지원대상으로 선정되는 경우에는 동일 또는 유사한 내용의 과제로 그 밖의 지원사업을 중복지원 받지 않겠으며, 만약 중복지원을 받는 경우 민・형사상의 책임을 질 것은 물론 사업비 지원 불가, 환수 등 사업 추진 상의 제반 사항에 대하여 적극 협조・승낙할 것을 확약함.",
+            "locator": "Contents/section0.xml / paragraph 296",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "7b2128e31e67d7e05348",
+            "category": "eligibility",
+            "excerpt": "기업으로서, 지원대상 기업으로 선정될 경우 다음 사항을 성실히 이행할 것을 확약합니다.",
+            "locator": "Contents/section0.xml / paragraph 328",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "3138d91425c612073736",
+            "category": "amount",
+            "excerpt": "당사는 선정 결과 통보 후 안내되는 기한 및 방법에 따라, 정부지원금의 20%에 해당하는 기업부담금을 현금으로 출자합니다.",
+            "locator": "Contents/section0.xml / paragraph 331",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "606ffec8899d8d402cf1",
+            "category": "amount",
+            "excerpt": "이를 이행하지 않을 경우, 협약 해지, 지원금 환수, 향후 사업 참여 제한 등 관련 규정에 따른 조치를 수용합니다.",
+            "locator": "Contents/section0.xml / paragraph 343",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "구역·문단 위치는 실제 인쇄 쪽번호가 아닙니다.",
+          "표 셀 관계·그림·각주 의미는 미검토"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
+    },
+    "1619a6fa1f6cfa1676479c67": {
+      "id": "1619a6fa1f6cfa1676479c67",
+      "program_id": "BIZINFO-PBLN_000000000124130",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124130",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000763601&fileSn=1",
+      "name": "다운로드",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-02T11:04:31+09:00",
+      "last_success_at": "2026-11-02T11:04:31+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-11-02T11:04:31+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "7f59d6a72c8d3de659e5760db465919223861cf74b836a01e67bd46ef6549910",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "7f59d6a72c8d3de659e5760db465919223861cf74b836a01e67bd46ef6549910",
+      "sha256": "7f59d6a72c8d3de659e5760db465919223861cf74b836a01e67bd46ef6549910",
+      "extraction": {
+        "format": "pdf",
+        "parser": "pypdf/6.15.0",
+        "sha256": "7f59d6a72c8d3de659e5760db465919223861cf74b836a01e67bd46ef6549910",
+        "bytes": 371051,
+        "status": "text_extracted",
+        "text_characters": 3102,
+        "units": 19,
+        "text_sha256": "d2f96ec9378ccd92cdac6689a57a706bca33d895c7355aee466e55e11e20f335",
+        "pages": 6,
+        "sections": null,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "369fa55a38c33d4d39a0",
+            "category": "eligibility",
+            "excerpt": "~2026.12.31 □지원예산 :프로그램별 지원방법 및 범위에 따라 상이※수혜기업으로 선정 후 담당 기관과 협의 □지원대상 :여수국가산업단지에 위치한 석유화학 관련 업종 1.AX를 진행하고자 하는 설비·시설·인력이 여수국가산업단지 내 위치하고 있을 것 2.업종 :석유화학 및 전후방업종1)1) 전후방 업종확인 : 석유화학기업(C19,C20)과 거래한 거래내역 증빙 부품제조, 유지보수, 가공 등의 기업",
+            "locator": "PDF p.1 / text-line 5",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "b4ae08af0962084473f0",
+            "category": "documents",
+            "excerpt": "기업 정보등록을 위해 회원가입시 필요하여 시스템에 등록하는 서류회원가입승인사업 신청신청 완료본인인증, 기초정보입력, 필수서류 제출⇒필수서류 확인 후 관리자 승인⇒신청서 및 접수서류 제출⇒신청 완료신청자관리자신청자 □사업신청 시 제출서류 구분제출서류서식 여부비고1지원신청서(붙임1)필수2상세기술서(붙임2)필수3대표 참여의사 확인 및 참여연구자 개인정보 이용 동의서(붙임3)필수4사업자등록증 또는 법인등기부등본기업 ",
+            "locator": "PDF p.3 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "de2a548ba46abf7b3828",
+            "category": "deadline",
+            "excerpt": "3 신청방법 및 접수안내□ 접수기간 : `2026. 7. 6 ~ `2026. 11. 30(모집 건수 소진시까지 상시접수)□ 접수방법 : 데이터플랫폼 온라인 접수(https://data.jntp.or.kr) ※우편·이메일접수는불가 - 데이터플랫폼 회원가입 승인절차가 2일정도 소요될 수 있으므로 미리 회원가입 요망 - 회원가입 시 사업자등록증, 최근 3년 재무제표, 4대보험 가입자명부 제출 * 위 자료 제출 요청",
+            "locator": "PDF p.3 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "5dad34881b1687db6701",
+            "category": "documents",
+            "excerpt": " 및 기준□평가방법 ∘ 요건검토 → 면담/현장조사(필수) → 선정평가 - (현장조사)기업 경영현황,수행역량,인력현황,제출서류와 현장 상황을 대조하여 사실관계 확인을 중심으로 실시,과제수행 역량및 점검사항 등을 종합판단하여 선정평가 시 평가위원회에 검토의견 제시 -(선정평가)발표(15분)→ 질의응답(10분)으로 진행□평가기준 - 선정평가 결과를 합산하여 평균 70점 이상인 기업을 최종 수혜기업으로 선정지표AI ",
+            "locator": "PDF p.4 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "bd627670b9e140256e69",
+            "category": "deadline",
+            "excerpt": "5 추진일정절 차 내 용 주 체①사업공고<사업 공고> 전남TP↓②신청접수(공고기간내) <온라인 신청 및 서류 제출> • 신청서 및 필요서류 제출수혜기업→ 전남TP↓③요건검토(공고기간내) <사전 서류 적합성 검토> 프로그램 담당기관↓④현장조사<서류 확인을 위한 기업면담조사 실시>프로그램 담당기관↓⑤선정평가<선정평가> • (대상) 요건검토 및 현장조사 통과 기업 • (발표) 연구책임자 발표평가(일정별도안내) • ",
+            "locator": "PDF p.5 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "a468902d54e2bdfcf252",
+            "category": "overlap",
+            "excerpt": "6 유의사항□지원제한 - 정부지원과제 중복지원 및 참여제한 대상 - 부도 또는 파산기업(예정포함) 및 지원기업 대표자가 신용불량인 경우 - 접수 마감일 기준 정부 과제의 각종 기술료 납부, 정산금 또는 환수금 납부 등의 의무사항을 불이행하고 있는 기업□ 지원취소 - 협약서 등 관련 문서에서 명시한 사항을 2회 이상 위반하거나, 시정요구에 응하지 않을 경우 - 제출된 서류가 허위 또는 거짓으로 판명되었을 경우 ",
+            "locator": "PDF p.6 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "6694924daeaefc10f8f6",
+            "category": "amount",
+            "excerpt": "6 유의사항□지원제한 - 정부지원과제 중복지원 및 참여제한 대상 - 부도 또는 파산기업(예정포함) 및 지원기업 대표자가 신용불량인 경우 - 접수 마감일 기준 정부 과제의 각종 기술료 납부, 정산금 또는 환수금 납부 등의 의무사항을 불이행하고 있는 기업□ 지원취소 - 협약서 등 관련 문서에서 명시한 사항을 2회 이상 위반하거나, 시정요구에 응하지 않을 경우 - 제출된 서류가 허위 또는 거짓으로 판명되었을 경우 ",
+            "locator": "PDF p.6 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "833c95ba8247829f9955",
+            "category": "deadline",
+            "excerpt": " 정부지원과제 중복지원 및 참여제한 대상 - 부도 또는 파산기업(예정포함) 및 지원기업 대표자가 신용불량인 경우 - 접수 마감일 기준 정부 과제의 각종 기술료 납부, 정산금 또는 환수금 납부 등의 의무사항을 불이행하고 있는 기업□ 지원취소 - 협약서 등 관련 문서에서 명시한 사항을 2회 이상 위반하거나, 시정요구에 응하지 않을 경우 - 제출된 서류가 허위 또는 거짓으로 판명되었을 경우 - 과업범위외의 사항으로",
+            "locator": "PDF p.6 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "표 열 순서·이미지·주석의 의미는 검토하지 않았습니다.",
+          "OCR 미수행"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
+    },
+    "1707fa590d5d996bfb054e31": {
+      "id": "1707fa590d5d996bfb054e31",
+      "program_id": "BIZINFO-PBLN_000000000124130",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124130",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000763602&fileSn=1",
+      "name": "다운로드",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-02T11:04:31+09:00",
+      "last_success_at": "2026-11-02T11:04:31+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-11-02T11:04:31+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "6ff941a363fc62b2a7f6c4f0d921c132ceca80d0dcf42c68c00fdcf973bdd791",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "6ff941a363fc62b2a7f6c4f0d921c132ceca80d0dcf42c68c00fdcf973bdd791",
+      "sha256": "6ff941a363fc62b2a7f6c4f0d921c132ceca80d0dcf42c68c00fdcf973bdd791",
+      "extraction": {
+        "format": "hwp",
+        "parser": "olefile/0.47+hwp-body/0.4.0",
+        "sha256": "6ff941a363fc62b2a7f6c4f0d921c132ceca80d0dcf42c68c00fdcf973bdd791",
+        "bytes": 72192,
+        "status": "text_extracted",
+        "text_characters": 2345,
+        "units": 189,
+        "text_sha256": "fccc25637fd4fb71efd273898641e21fc71191460b6d1c6f63a5c66415bd4bdd",
+        "pages": null,
+        "sections": 1,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "44a3e8d4473daab40b53",
+            "category": "amount",
+            "excerpt": "지원금액",
+            "locator": "BodyText/Section0 / record 562 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "fc6fb511d5cd0257eae8",
+            "category": "exclusion",
+            "excerpt": "①국가연구개발사업의 참여제한 기간중에 있는지를 비롯하여 채무불이행 정보 등 기업신용 조회, 기타 사전지원제외 대상 여부의 확인",
+            "locator": "BodyText/Section0 / record 1239 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "035c21696244f405f023",
+            "category": "eligibility",
+            "excerpt": "②지원대상 선정, 실적점검, 만족도조사, 성과활용관리",
+            "locator": "BodyText/Section0 / record 1243 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "구역·레코드 위치는 실제 인쇄 쪽번호가 아닙니다.",
+          "표·그림·각주 의미와 문서의 모든 제외조건은 미검토"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
+    },
+    "41486cef38488a10f5f9b63c": {
+      "id": "41486cef38488a10f5f9b63c",
+      "program_id": "BIZINFO-PBLN_000000000124232",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124232",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000763995&fileSn=1",
+      "name": "다운로드",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-02T11:04:31+09:00",
+      "last_success_at": "2026-11-02T11:04:31+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-11-02T11:04:31+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "7aacc38eb18d18d9c860b7ad049f0a8c17894515d7f9b5949a5b8c6cefdae984",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "7aacc38eb18d18d9c860b7ad049f0a8c17894515d7f9b5949a5b8c6cefdae984",
+      "sha256": "7aacc38eb18d18d9c860b7ad049f0a8c17894515d7f9b5949a5b8c6cefdae984",
+      "extraction": {
+        "format": "pdf",
+        "parser": "pypdf/6.15.0",
+        "sha256": "7aacc38eb18d18d9c860b7ad049f0a8c17894515d7f9b5949a5b8c6cefdae984",
+        "bytes": 3267653,
+        "status": "text_extracted",
+        "text_characters": 58774,
+        "units": 363,
+        "text_sha256": "73f8aeafe271269d2f0c96788fafea395d8c7a5e3049ba78ee0057b578dc41bf",
+        "pages": 60,
+        "sections": null,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "35cbe6514c83d69fa315",
+            "category": "amount",
+            "excerpt": "&D에 중소벤처가 과감히 도전할 수 있도록 임무 중심의 프로젝트를 출제,민간투자와 연계한 R&D지원□사업현황내역사업명지원규모지원기간지원한도신청·접수스케일업 팁스일반형200개 내외36개월20억원(1차) 5월, (2차) 7월특화형50개 내외36개월30억원(1차) 4월, (2차) 7월정책지정형50개 내외36개월30억원부처별 별도 공고 예정글로벌 팁스일반형90개 내외48개월50억원(1차) 5월, (2차) 7월특화형5",
+            "locator": "PDF p.1 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "a1947a2848d7ad2c271c",
+            "category": "amount",
+            "excerpt": "지원규모",
+            "locator": "PDF p.2 / text-line 3",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "04fbea42443c845fef5d",
+            "category": "eligibility",
+            "excerpt": "신청 자격",
+            "locator": "PDF p.2 / text-line 5",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "5b18b732f3718e16ba96",
+            "category": "overlap",
+            "excerpt": "• 스케일업 팁스 일반형과 글로벌형 동시수행 불가",
+            "locator": "PDF p.2 / text-line 9",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "77b80ae0f8f7bdfc482c",
+            "category": "eligibility",
+            "excerpt": "참여 불가)가점스케일업팁스• <신 설>• <신 설>• <신 설>• 중소기업기술개발지원사업 공통 가점 적용• 비수도권 소재 기업 최대 5점• ESG 분야 영위 기업 2점• 퇴직연금제도 도입 기업 1점• 중소기업기술개발지원사업 공통 가점 미적용글로벌팁스",
+            "locator": "PDF p.2 / text-line 10",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "a7cb4b6f6a02a5c7ebef",
+            "category": "overlap",
+            "excerpt": "지 활동 기반 보유 - (요건 2) 해외 VC 등으로부터 200만달러 이상 투자 유치• 스케일업 팁스와 글로벌 팁스 동시수행 가능(단, 글로벌 팁스 선정(협약체결) 이후 스케일업 팁스 참여 불가)가점스케일업팁스• <신 설>• <신 설>• <신 설>• 중소기업기술개발지원사업 공통 가점 적용• 비수도권 소재 기업 최대 5점• ESG 분야 영위 기업 2점• 퇴직연금제도 도입 기업 1점• 중소기업기술개발지원사업 공통",
+            "locator": "PDF p.2 / text-line 10",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "db19140b7182f613e772",
+            "category": "eligibility",
+            "excerpt": "자본력 등을 통해 先민간투자,後정부 매칭방식으로 지원하여 성장단계 유망 중소벤처기업의 기술혁신 및 스케일업을 촉진□ 지원대상◦스케일업 팁스 운영사(투자사)로부터 10억원 이상 투자*를 유치한 중소벤처기업 * (기간) 접수 마감일 기준 2년 이내의 투자유치만 인정(단위) 운영사(투자사)의 단독·단건의 투자유치만 인정(지역) 비수도권 소재 기업(본사 기준)의 경우 7억원 이상 투자유치 인정 ※ 운영사 컨소시엄 구",
+            "locator": "PDF p.3 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "1f486669f0c2f688ba93",
+            "category": "amount",
+            "excerpt": "진출 등 기업성장 지원 수행) 단, 기술개발 수행기관(주관/공동/위탁기관 등)은 과제 필요에 따라 자율 구성 가능□ 지원규모 : 300개 과제 내외(일반형 200개,특화형(정책지정형 포함)100개)□ 지원내용구분세부내용운영방식일반형(자율 경쟁)• 유망기업을 선별, 투자 후 대학, 연구소, 대·중견기업, 전략 컨설팅 기관 등 다양한 전문그룹과 함께 매칭하여 과제에 참여한 컨소시엄을 지원• 추천권 부여 없이 스케",
+            "locator": "PDF p.3 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "615effbc022d0ad16f73",
+            "category": "deadline",
+            "excerpt": "케일업을 촉진□ 지원대상◦스케일업 팁스 운영사(투자사)로부터 10억원 이상 투자*를 유치한 중소벤처기업 * (기간) 접수 마감일 기준 2년 이내의 투자유치만 인정(단위) 운영사(투자사)의 단독·단건의 투자유치만 인정(지역) 비수도권 소재 기업(본사 기준)의 경우 7억원 이상 투자유치 인정 ※ 운영사 컨소시엄 구성 필수(투자, 네트워크, 글로벌 진출 등 기업성장 지원 수행) 단, 기술개발 수행기관(주관/공동/위",
+            "locator": "PDF p.3 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "437c5146b4186cde84fe",
+            "category": "cofunding",
+            "excerpt": "형자유공모(부처 협업) * 선정평가 결과, 정부예산 상황 등에 따라 연구개발비 지원규모 및 개발기간 조정 가능 ** 기관부담연구개발비 : 기관(중소기업)은 총 연구개발비의 25% 이상을 부담하여야 하며, 기관부담연구개발비 중 10% 이상은 현금으로 부담□ 지원일정구분지원규모신청·접수선정평가협약체결일반형상반기(1회)100개 내외5월6~7월8월하반기(1회)100개 내외7월8~9월10월특화형상반기(1회)100개 내",
+            "locator": "PDF p.4 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "15ea49a05627f2616920",
+            "category": "amount",
+            "excerpt": "□ 지원분야◦국가전략기술 12대 분야,탄소중립 분야,6대 전략산업 12대 신산업 분야□ 지원조건 : 최대 3년,20~30억원 지원(연구개발비의 75%이내)구분개발기간 및 지원한도*정부지원연구개발비 비중**지원방식일반형최대 3년, 20억원75% 이내자유공모(자율 경쟁)특화형최대 3년, 30억원75% 이내자유공모(운영사 추천)정책지정형자유공모(부처 협업) * 선정평가 결과, 정부예산 상황 등에 따라 연구개발비 지",
+            "locator": "PDF p.4 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "cf64f1492507ec1195b8",
+            "category": "eligibility",
+            "excerpt": "을 통해先민간투자,後정부 매칭방식으로 지원하여 글로벌 진출 단계 유망기업에기술 고도화 및 글로벌 시장 진출 가속화□ 지원대상◦아래 2개 요건 중 1개 이상을 충족하는 중소벤처기업* * 국외 창업 법인을 모회사로 두고 국내 법인을 자회사로 하여 연구개발을 수행하는 경우, 중소기업 확인서 보유, 경영권 관계, 연구성과물 및 국내 경제 기여도 등 적격 검토를 통해 지원대상 검증 ※ 운영사 컨소시엄 구성 필수(투자,",
+            "locator": "PDF p.5 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "1c5ef645adc0103abcdb",
+            "category": "deadline",
+            "excerpt": "반형, 특화형,정책지정형 지역 구분 없이 해외 VC 등으로부터 200만 달러(단건) 이상 투자유치 인정 ※ (기간) 접수 마감일 기준 2년 이내의 투자유치만 인정 ※ (단위) 운영사(투자사)의 단독(누적*) 투자만 인정 * 단, 해당 투자 간 시점 차이가 6개월 이내인 투자 건만 누적으로 인정",
+            "locator": "PDF p.5 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "17ac3befb61ad312e7f2",
+            "category": "cofunding",
+            "excerpt": "형자유공모(부처 협업) * 선정평가 결과, 정부예산 상황 등에 따라 연구개발비 지원규모 및 개발기간 조정 가능 ** 기관부담연구개발비 : 기관(중소기업)은 총 연구개발비의 25% 이상을 부담하여야 하며, 기관부담연구개발비 중 10%이상은 현금으로 부담□ 지원일정구분지원규모신청·접수선정평가협약체결일반형상반기(1회)45개 내외5월6~7월8월하반기(1회)45개 내외7월8~9월10월특화형상반기(1회)10개 내외4월5",
+            "locator": "PDF p.6 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "603a1dfaa6281e94d5d6",
+            "category": "amount",
+            "excerpt": "□ 지원규모 : 100개 과제 내외(일반형 90개,특화형(정책지정형 포함)10개)□ 지원내용구분세부내용운영방식일반형• 유망기업을 선별, 투자 후 대학, 연구소, 대·중견기업, 전략 컨설팅 기관 등 다양한 전문그룹과 함께 매칭하여 과제에 참여한 컨소시엄을 지원• 추천권 부여 없이 스케일업 팁스 운영사(특화, 일반) 모두 참여 가능한 과제단위의 자율경쟁 방식으로 운영특화형• 특화 운영사의 전문 분야를 바탕으로 전",
+            "locator": "PDF p.6 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "9d003e5ecf76c71a1cd4",
+            "category": "eligibility",
+            "excerpt": " 중소벤처가 도전적·혁신적 R&D에 도전할 수 있도록 임무 중심의 프로젝트를 제시하고 민간투자와 연계한 R&D지원□ 지원대상◦신청 RFP의 최초 게시일 이후,투자기관으로부터 20억원 이상 투자(확약포함)받은 중소기업이 대학,연구기관*등과 컨소시엄을 구성하여 신청한 ‘프로젝트팀’ * 해외 선도기관과의 R&D 협력이 가능한 인프라를 보유한 대학·연구기관 등 참여 필수 ※ 대기업·중견기업은 연구개발기관 유형 중 ’",
+            "locator": "PDF p.7 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "468df9bccb06019ab3ba",
+            "category": "cofunding",
+            "excerpt": "내지정공모(자율 경쟁) * 선정평가 결과, 정부예산 상황 등에 따라 연구개발비 지원규모 및 개발기간 조정 가능 ** 기관부담연구개발비 : 기관(중소기업)은 총 연구개발비의 25% 이상을 부담하여야 하며, 기관부담연구개발비 중 10%이상은 현금으로 부담□ 지원일정구분지원규모선정평가협약체결2분기35개 내외7~8월 8월3분기 8~9월 9월4분기 10~12월 11~12월 ※ 전략기술 Bank에 RFP를 게시한 날로부",
+            "locator": "PDF p.8 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "bb4f3ba244b9ead1d555",
+            "category": "exclusion",
+            "excerpt": "년 이내 포스트팁스(Post-TIPS)에 선정되어 사업화 자금을 모두 지원받았거나, 지원받고 있는 기업(협약체결 후 제외대상으로 요건 제외 된 경우 제외)글로벌 진출최근 3년 이내 “K-GLOBAL STAR” 기업선발 절차를 거쳐 최종 선정된 기업 2점한국벤처투자Jump-up접수마감일 기준 “도약(Jump-up) 프로그램” 사업에 선정된 기업2점중소벤처기업진흥공단지역균형(최대 5점)본사(본점)가 비수도권(서울",
+            "locator": "PDF p.9 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "1368dce09d67cacd36e1",
+            "category": "deadline",
+            "excerpt": ", 주요 성과 달성, 높은 성장 가능성을 종합적으로 인정받아 ‘올해의 TIPS기업’으로 선정된 기업5점한국엔젤투자협회접수마감일 최근 3년 이내 팁스R&D(창업성장기술개발-TIPS과제) 수행 후 “우수”, “보통”판정 받은 기업 3점접수마감일 기준 최근 3년 이내 포스트팁스(Post-TIPS)에 선정되어 사업화 자금을 모두 지원받았거나, 지원받고 있는 기업(협약체결 후 제외대상으로 요건 제외 된 경우 제외)글로",
+            "locator": "PDF p.9 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "3849028c28e7ea10709a",
+            "category": "documents",
+            "excerpt": "관등록, 기관총괄담당자 신청(기관담당자 권한 부여), 기 관 대 표 자 등 록 등➡온라인 입력정보 작성 및 계획서, 제출서류 등 등록➡주관연구기관의 온라인 등록사항최종 확인・제출➡연구과제등록완료연구자신청기관연구책임자신청기관□ 선정절차[ ‘일반형’ : 스케일업 팁스 & 글로벌 팁스 ]< 일반형 선정절차 >컨소시엄 구성*è신청·접수è사전검토è선정평가è지원과제 확정중소벤처기업+일반운영사,대학, 연구소 등컨소시엄→ ",
+            "locator": "PDF p.10 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "5433a1de17bf249fd5bd",
+            "category": "deadline",
+            "excerpt": "증 및 소속기관 등록 완료 필요☞ 과제를 신청하고자 하는 연구개발기관의 모든 참여연구자는 국가연구자번호 발급 필수☞ 접수 마감일에는 전산 폭주로 인하여 접수가 지연되거나 장애가 발생할 수 있으므로 가급적 마감일 2∼3일 전에 온라인 신청 완료 요망☞ 차수 별 접수마감일의 18시(18:00:00)까지 접수 마감연구(책임)자가 NRI 가입, 연구자전환 동의 및 정보 등록․갱신(학력, 경력 등)➡IRIS 기관등록,",
+            "locator": "PDF p.10 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "f768f0a0562c8e775ee6",
+            "category": "exclusion",
+            "excerpt": "참여제한,의무사항 불이행,부채비율,중복성 등 제외 요건*에 해당될 경우 지원 대상에서 제외 * 선정(협약)된 이후, 지원 제외사항 등 결격사유가 확인된 경우, 선정평가의 진행 여부(협약체결 여부)와 관계없이 지원제외(협약 해약)로 처리④ 선정평가 : 사전검토를 통과한 과제에 대해 선정평가 진행 * 선정평가는 기술분야별 산·학·연 전문가로 평가단을 구성, 제출된 연구개발계획서 등을 토대로 종합적으로 평가⑤ 지원",
+            "locator": "PDF p.11 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "94bfdf6a670bdd4adbb2",
+            "category": "exclusion",
+            "excerpt": "참여제한,의무사항 불이행,부채비율,중복성 등 제외 요건*에 해당될 경우 지원 대상에서 제외 * 선정(협약)된 이후, 지원 제외사항 등 결격사유가 확인된 경우, 선정평가의 진행 여부(협약체결 여부)와 관계없이 지원제외(협약 해약)로 처리④ 선정평가 : 사전검토를 통과한 과제에 대해 선정평가(역량·심층평가)진행-(역량평가)연구개발계획서·기업성장전략서 기반 기술 혁신성,기술개발구체성,사업화 계획,글로벌 성장가능성 ",
+            "locator": "PDF p.12 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "484f3ac78ea039d3c6ba",
+            "category": "documents",
+            "excerpt": "6. 제출서류 ※정책지정형은 부처별 세부공고 참고☞ 연구개발계획서 본문 1 서류를 작성 후 문서파일 업로드하고, 연구개발계획서 요약서 및 본문2는 온라인 시스템 직접 입력 * 온라인 시스템에 직접 입력하는 서류는 온라인에서 자동 생성되는 파일임 □ 스케일업 팁스(일반형·특화형)연번서 식 명 제출서류필수해당시",
+            "locator": "PDF p.13 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "표 열 순서·이미지·주석의 의미는 검토하지 않았습니다.",
+          "OCR 미수행"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
+    },
+    "ecb6ce76cec4f35ae0e3f9d9": {
+      "id": "ecb6ce76cec4f35ae0e3f9d9",
+      "program_id": "BIZINFO-PBLN_000000000124232",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124232",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000763996&fileSn=1",
+      "name": "다운로드",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
     }
   },
   "programs": {
@@ -9980,6 +10617,45 @@
       "document_ids": [
         "1e0e225dca8be3f52f73fdcc",
         "37ccea76bd0fa47741865a89"
+      ],
+      "review_required": false,
+      "last_error": null
+    },
+    "BIZINFO-PBLN_000000000123764": {
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123764",
+      "last_notice_attempt_at": "2026-11-02T11:04:31+09:00",
+      "last_notice_success_at": "2026-11-02T11:04:31+09:00",
+      "notice_status": "links_available",
+      "manifest_sha256": "91cff2bdfe7c460c0e49dc0f644b7737ac4436f1ef11f6c15490f16f0753b6c0",
+      "document_ids": [
+        "f84332622433c62078f549ed",
+        "51aa18fc1e39a63a29bc7646"
+      ],
+      "review_required": false,
+      "last_error": null
+    },
+    "BIZINFO-PBLN_000000000124130": {
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124130",
+      "last_notice_attempt_at": "2026-11-02T11:04:31+09:00",
+      "last_notice_success_at": "2026-11-02T11:04:31+09:00",
+      "notice_status": "links_available",
+      "manifest_sha256": "55b430186b96431e27b06f7719af9fe36f61e08c2985441326c6fa418d9ec08c",
+      "document_ids": [
+        "1619a6fa1f6cfa1676479c67",
+        "1707fa590d5d996bfb054e31"
+      ],
+      "review_required": false,
+      "last_error": null
+    },
+    "BIZINFO-PBLN_000000000124232": {
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124232",
+      "last_notice_attempt_at": "2026-11-02T11:04:31+09:00",
+      "last_notice_success_at": "2026-11-02T11:04:31+09:00",
+      "notice_status": "links_available",
+      "manifest_sha256": "3bcd3a2e10a7add349ba5b5463348900c993582f4080dfb5dd9f74cde04a09e2",
+      "document_ids": [
+        "41486cef38488a10f5f9b63c",
+        "ecb6ce76cec4f35ae0e3f9d9"
       ],
       "review_required": false,
       "last_error": null

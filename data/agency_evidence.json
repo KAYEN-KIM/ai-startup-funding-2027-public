@@ -1,7 +1,7 @@
 {
   "schema": "public-funding-agency-evidence/v1",
   "version": "0.17.0",
-  "generated_at": "2026-11-01T10:49:52+09:00",
+  "generated_at": "2026-11-02T11:04:10+09:00",
   "model_calls": 0,
   "automatic_approval": false,
   "scope": "기관 직접 목록의 원문 최대 3건·첨부 최대 4건 순환 확인. 본문 추출은 조건 후보이며 신청자격·금액·중복지원·문서 완전성 검증이 아닙니다. 기존 공고와 검토 규칙은 수정하지 않습니다.",
@@ -91,9 +91,9 @@
       "source": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1071646",
       "title": "「2026년 스마트제조혁신 유공」 포상 후보자 모집 추가 공고",
       "listing_fingerprint": "66427605d60ba5142e2035b08198c603858def3a8d80b5436337c66b12d9dd0b",
-      "listing_seen_at": "2026-10-30T19:55:45+09:00",
-      "last_attempt_at": "2026-10-30T20:57:46+09:00",
-      "last_success_at": "2026-10-30T20:57:46+09:00",
+      "listing_seen_at": "2026-11-02T11:04:03+09:00",
+      "last_attempt_at": "2026-11-02T11:04:10+09:00",
+      "last_success_at": "2026-11-02T11:04:10+09:00",
       "status": "html_available",
       "last_error": null,
       "review_required": false,
@@ -115,6 +115,13 @@
       ],
       "history": [
         {
+          "at": "2026-11-02T11:04:10+09:00",
+          "status": "html_available",
+          "body_sha256": "9c6792dc87875cca4c169f2b3240b29755330c003f7ff9bfe030aa5dd21f2821",
+          "manifest_sha256": "e18299fdfba89c2dafa495d6bc78962acf08c4ee2961d80f5fbe3e7bb6455ec0",
+          "error": null
+        },
+        {
           "at": "2026-10-30T20:57:46+09:00",
           "status": "html_available",
           "body_sha256": "9c6792dc87875cca4c169f2b3240b29755330c003f7ff9bfe030aa5dd21f2821",
@@ -130,9 +137,9 @@
       "source": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1071419",
       "title": "2026년도 딥테크 챌린지 프로젝트(DCP 기술도전형) 제2차 기술수요조사 시행계획 공고",
       "listing_fingerprint": "325a1edee298b77ab9fc2c41753f23a1b77f583f5ec859333655b89375c71d70",
-      "listing_seen_at": "2026-10-30T21:14:20+09:00",
-      "last_attempt_at": "2026-10-30T21:14:28+09:00",
-      "last_success_at": "2026-10-30T21:14:28+09:00",
+      "listing_seen_at": "2026-11-02T11:04:03+09:00",
+      "last_attempt_at": "2026-11-02T11:04:10+09:00",
+      "last_success_at": "2026-11-02T11:04:10+09:00",
       "status": "html_available",
       "last_error": null,
       "review_required": false,
@@ -177,6 +184,13 @@
         }
       ],
       "history": [
+        {
+          "at": "2026-11-02T11:04:10+09:00",
+          "status": "html_available",
+          "body_sha256": "245dfcc086afd0dcddb568489652f66b9862c845767ae4e05d27915d64d76dae",
+          "manifest_sha256": "7298e0bf728dbaae4a4c54fb87e95acd598522c893ba4a986f7a6c67bbe4931e",
+          "error": null
+        },
         {
           "at": "2026-10-30T21:14:28+09:00",
           "status": "html_available",
@@ -507,6 +521,45 @@
         }
       ],
       "unhandled_links": 1
+    },
+    "NIPA-16878": {
+      "id": "NIPA-16878",
+      "agency_id": "nipa",
+      "source": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16878&tab=2",
+      "title": "2026년 일본 디지털 시장개척단 참가기업 모집 공고",
+      "listing_fingerprint": "af7db8aa68b4d33c0a7aeb31a29e1549c60dd4c6aef61603ec0970790be73d71",
+      "listing_seen_at": "2026-11-02T11:04:03+09:00",
+      "last_attempt_at": "2026-11-02T11:04:10+09:00",
+      "last_success_at": "2026-11-02T11:04:10+09:00",
+      "status": "html_available",
+      "last_error": null,
+      "review_required": false,
+      "body_sha256": "89cfb4df3a4d648a3cc0b7a33b346731c36aa971462ffb5a2c8c41a37b57b815",
+      "manifest_sha256": "00a309e392a5419ea20184d4f7e44d9975d3eb0e4df2684445546a49f2151159",
+      "documents": [
+        {
+          "id": "01dd37798fc09cfd80a80547",
+          "name": "[붙임2] (참가신청서 양식) 2026년 일본 디지털 시장개척단.hwp",
+          "public_url": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16878&tab=2",
+          "locator": "공고 첨부파일 목록 / [붙임2] (참가신청서 양식) 2026년 일본 디지털 시장개척단.hwp"
+        },
+        {
+          "id": "79d85ee922cd522dc3242dc6",
+          "name": "[붙임1] (모집공고문) 2026년 일본 디지털 시장개척단 참가기업 모집 안내.hwp",
+          "public_url": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16878&tab=2",
+          "locator": "공고 첨부파일 목록 / [붙임1] (모집공고문) 2026년 일본 디지털 시장개척단 참가기업 모집 안내.hwp"
+        }
+      ],
+      "history": [
+        {
+          "at": "2026-11-02T11:04:10+09:00",
+          "status": "html_available",
+          "body_sha256": "89cfb4df3a4d648a3cc0b7a33b346731c36aa971462ffb5a2c8c41a37b57b815",
+          "manifest_sha256": "00a309e392a5419ea20184d4f7e44d9975d3eb0e4df2684445546a49f2151159",
+          "error": null
+        }
+      ],
+      "unhandled_links": 0
     }
   },
   "documents": {
@@ -1742,12 +1795,64 @@
       "notice_source": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1071419",
       "url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1071419&cbIdx=310&streFileNm=bca46ee8-2ef8-47f2-b741-602228843e78.hwpx",
       "name": "bca46ee8-2ef8-47f2-b741-602228843e78.hwpx",
-      "status": "queued",
-      "last_attempt_at": null,
-      "last_success_at": null,
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-02T11:04:10+09:00",
+      "last_success_at": "2026-11-02T11:04:10+09:00",
       "last_error": null,
       "review_required": false,
-      "history": []
+      "history": [
+        {
+          "at": "2026-11-02T11:04:10+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "81b0346202fbbe8db81046be54a4a3f53b99b92d67d7dbb2c58fe167aefa8a4f",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "81b0346202fbbe8db81046be54a4a3f53b99b92d67d7dbb2c58fe167aefa8a4f",
+      "sha256": "81b0346202fbbe8db81046be54a4a3f53b99b92d67d7dbb2c58fe167aefa8a4f",
+      "extraction": {
+        "format": "hwpx",
+        "parser": "hwp-body/0.4.0",
+        "sha256": "81b0346202fbbe8db81046be54a4a3f53b99b92d67d7dbb2c58fe167aefa8a4f",
+        "bytes": 58007,
+        "status": "text_extracted",
+        "text_characters": 2511,
+        "units": 137,
+        "text_sha256": "68ce7178fd491c49a2d3ce7088072af2ab4f5676cc132cce56462f18f404d79c",
+        "pages": null,
+        "sections": 1,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "424b73cf48dd17ab1db8",
+            "category": "eligibility",
+            "excerpt": "□ 첨단 소재·자원",
+            "locator": "Contents/section0.xml / paragraph 52",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "688c81c06ca3a87e1010",
+            "category": "amount",
+            "excerpt": "* 민간투자 및 정부지원 필요성, 해결하고자 하는 문제 등 제시(기업성장, 생태계 강화, 글로벌 경쟁력 강화 등)",
+            "locator": "Contents/section0.xml / paragraph 103",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "구역·문단 위치는 실제 인쇄 쪽번호가 아닙니다.",
+          "표 셀 관계·그림·각주 의미는 미검토"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
     },
     "e703e7c83ceb9e87ed8947f4": {
       "id": "e703e7c83ceb9e87ed8947f4",
@@ -1755,12 +1860,100 @@
       "notice_source": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1071419",
       "url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1071419&cbIdx=310&streFileNm=0f56cb7b-d353-4ffd-846a-c06f7cc4cb2b.pdf",
       "name": "0f56cb7b-d353-4ffd-846a-c06f7cc4cb2b.pdf",
-      "status": "queued",
-      "last_attempt_at": null,
-      "last_success_at": null,
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-02T11:04:10+09:00",
+      "last_success_at": "2026-11-02T11:04:10+09:00",
       "last_error": null,
       "review_required": false,
-      "history": []
+      "history": [
+        {
+          "at": "2026-11-02T11:04:10+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "ba45b0392aeb46c7c7a3a5ce521a3d9266230c48073d942b23984853756891f0",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "ba45b0392aeb46c7c7a3a5ce521a3d9266230c48073d942b23984853756891f0",
+      "sha256": "ba45b0392aeb46c7c7a3a5ce521a3d9266230c48073d942b23984853756891f0",
+      "extraction": {
+        "format": "pdf",
+        "parser": "pypdf/6.15.0",
+        "sha256": "ba45b0392aeb46c7c7a3a5ce521a3d9266230c48073d942b23984853756891f0",
+        "bytes": 395049,
+        "status": "text_extracted",
+        "text_characters": 3348,
+        "units": 11,
+        "text_sha256": "a029f6e08f34ba61e98a7f7cef3d057e53901a335264cea3c18fea467f34c76a",
+        "pages": 5,
+        "sections": null,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "868daaadd3031e45e298",
+            "category": "eligibility",
+            "excerpt": "◦기술개발역량,의지를보유한중소벤처기업이혁신적R&D에과감히도전할수있도록중소벤처기업주도의임무(미션)중심R&D프로젝트추진□지원대상:중소벤처기업주관(대학·출연연·전문연등컨소시엄참여필수)□지원분야:3대메가+7대SEED프로젝트분야□추진절차기술수요조사공고➡테마기술발굴 및 검증➡지정공모 프로젝트 과제기획➡프로젝트 과제 출제(전략기술 Bank 게시)기술개발 수행 및 PM 전주기 관리프로젝트 확정역량·심층평가(기술성·사업",
+            "locator": "PDF p.1 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "54ccdd4a4a1a34b7c1f9",
+            "category": "eligibility",
+            "excerpt": "모델, ④SMR·핵융합, ⑤재생에너지·수소·전력망, ⑥첨단바이오, ⑦우주·항공·방산, ⑧양자·보안·네트워크, ⑨첨단 소재·자원□(조사항목)기술명,기술개발의배경·필요성,국내·외기술및시장동향,개발내용및최종개발목표,기대효과등□(지원내용)프로젝트당90억원내외(민간先투자20억원이상,출연방식R&D최대50억원이내)+지분투자(모태펀드)* * 지분투자(모태펀드)는 프로젝트 수행기업으로 선정된 중소벤처기업이 사전에 설정한 R&",
+            "locator": "PDF p.2 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "585f04b488cab5de7a7d",
+            "category": "amount",
+            "excerpt": ", 신기술투자조합, 창업기획자, 외국투자회사 ** ①국공립연구기관, ②「특정연구기관육성법」에 따른 특정연구기관, ③「정부출연연구기관 등의 설립·운영 및 육성에 관한 법률」에 따른 정부출연연구기관, ④「과학기술분야 정부출연연구기관 등의 설립·운영 및 육성에 관한 법률」 제8조제1항에 따른 과학기술분야 정부출연연구기관, ⑤「지방자치단체출연 연구원의 설립 및 운영에 관한 법률」 제2조에 따른 지방자치단체출연 연구원",
+            "locator": "PDF p.2 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "db5a2e31e8a84ab46384",
+            "category": "documents",
+            "excerpt": "후 검색 → 공고 선택 → 하단 “작성” 클릭 → 내용입력 후 신청서류(기술수요조사서 등) 첨부 → 저장 및 제출◦(제출서류)제안자가홈페이지*에서제출서식(붙임1)을다운로드받아작성하고홈페이지에제안내용을온라인입력후제출서류를첨부하여등록 * 범부처통합연구지원시스템(IRIS, iris.go.kr)",
+            "locator": "PDF p.3 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "c51996738b87924f4bbf",
+            "category": "amount",
+            "excerpt": "통합연구관리시스템’(https://www.iris.go.kr)에서 기 지원여부 및 중복성 등에 대한 사전 검토 가능◦지원규모는과제별지원한도내에서결정되며,과제제안시기간·규모를제안하여야함",
+            "locator": "PDF p.4 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "0b59d0512101ca9d8fca",
+            "category": "deadline",
+            "excerpt": "◦다음의경우는딥테크챌린지프로젝트의기획활용대상에서제외 -전산접수완료를하지않은경우 -접수기간이후에수요조사제안서를제출한경우 -홈페이지를통한접수및제출이아닌개별적방법으로제출하는경우 * 예시) 방문, 우편 또는 이메일을 통해 기술수요조사서를 제출하는 경우 등 -첨부파일(기술수요조사서)등관련자료를누락한경우,첨부된기술수요조사양식이외의양식으로기술수요조사서를제출하는경우 -정부R&D사업으로지원된기존과제와현저히유사하거나,타부처에중",
+            "locator": "PDF p.5 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "표 열 순서·이미지·주석의 의미는 검토하지 않았습니다.",
+          "OCR 미수행"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
     },
     "0ce2fe8f49a1fb8d48930af5": {
       "id": "0ce2fe8f49a1fb8d48930af5",
@@ -3251,11 +3444,150 @@
       "last_error": null,
       "review_required": false,
       "history": []
+    },
+    "01dd37798fc09cfd80a80547": {
+      "id": "01dd37798fc09cfd80a80547",
+      "program_id": "NIPA-16878",
+      "notice_source": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16878&tab=2",
+      "url": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16878&tab=2",
+      "name": "[붙임2] (참가신청서 양식) 2026년 일본 디지털 시장개척단.hwp",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-02T11:04:10+09:00",
+      "last_success_at": "2026-11-02T11:04:10+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-11-02T11:04:10+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "ee2b35a63ada3a6d01aa35368ff768d695c2d25778574cb6392cdbc189c40eba",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "ee2b35a63ada3a6d01aa35368ff768d695c2d25778574cb6392cdbc189c40eba",
+      "sha256": "ee2b35a63ada3a6d01aa35368ff768d695c2d25778574cb6392cdbc189c40eba",
+      "extraction": {
+        "format": "hwp",
+        "parser": "olefile/0.47+hwp-body/0.4.0",
+        "sha256": "ee2b35a63ada3a6d01aa35368ff768d695c2d25778574cb6392cdbc189c40eba",
+        "bytes": 135680,
+        "status": "text_extracted",
+        "text_characters": 2444,
+        "units": 134,
+        "text_sha256": "6ffc7a01ad5243773ee774ece8d45910965314c7aac08f5a67fef7b8f0a99edf",
+        "pages": null,
+        "sections": 1,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "bbd865311cbde86850cf",
+            "category": "eligibility",
+            "excerpt": "회사소재지",
+            "locator": "BodyText/Section0 / record 96 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "구역·레코드 위치는 실제 인쇄 쪽번호가 아닙니다.",
+          "표·그림·각주 의미와 문서의 모든 제외조건은 미검토"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
+    },
+    "79d85ee922cd522dc3242dc6": {
+      "id": "79d85ee922cd522dc3242dc6",
+      "program_id": "NIPA-16878",
+      "notice_source": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16878&tab=2",
+      "url": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16878&tab=2",
+      "name": "[붙임1] (모집공고문) 2026년 일본 디지털 시장개척단 참가기업 모집 안내.hwp",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-02T11:04:10+09:00",
+      "last_success_at": "2026-11-02T11:04:10+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-11-02T11:04:10+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "44c1e502f7118012d3050d9eda2156995e393167c9fd1ce0418a837eead98b0e",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "44c1e502f7118012d3050d9eda2156995e393167c9fd1ce0418a837eead98b0e",
+      "sha256": "44c1e502f7118012d3050d9eda2156995e393167c9fd1ce0418a837eead98b0e",
+      "extraction": {
+        "format": "hwp",
+        "parser": "olefile/0.47+hwp-body/0.4.0",
+        "sha256": "44c1e502f7118012d3050d9eda2156995e393167c9fd1ce0418a837eead98b0e",
+        "bytes": 427520,
+        "status": "text_extracted",
+        "text_characters": 1667,
+        "units": 82,
+        "text_sha256": "e26f9c40779b54f75a20979ed3176c8f40efa5fadae0a7c908deee488f6c5bd0",
+        "pages": null,
+        "sections": 1,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "23874463539feaa4574d",
+            "category": "deadline",
+            "excerpt": "서류접수 마감",
+            "locator": "BodyText/Section0 / record 291 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "7b8a50fcee3ae8217aa9",
+            "category": "amount",
+            "excerpt": "ㅇ (기타지원) 통역지원(현지어 또는 영어), 현지 교통지원(공식일정), 참가기업별 1인 출장비용(최대 200만원, 항공비 등) 지원",
+            "locator": "BodyText/Section0 / record 668 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "669f2a8c2d559793566c",
+            "category": "documents",
+            "excerpt": "ㅇ 제출서류 : 양식1) 참가신청서",
+            "locator": "BodyText/Section0 / record 879 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "cbb086b41b1b529a5711",
+            "category": "deadline",
+            "excerpt": "ㅇ 접수마감 : 2026.8.31.(월) 15시까지 담당자 메일로 접수",
+            "locator": "BodyText/Section0 / record 898 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "구역·레코드 위치는 실제 인쇄 쪽번호가 아닙니다.",
+          "표·그림·각주 의미와 문서의 모든 제외조건은 미검토"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
     }
   },
   "run": {
-    "at": "2026-11-01T10:49:52+09:00",
-    "status": "partial",
+    "at": "2026-11-02T11:04:10+09:00",
+    "status": "ok_scoped",
     "notices_attempted": 3,
     "notices_success": 3,
     "notices_failed": 0,

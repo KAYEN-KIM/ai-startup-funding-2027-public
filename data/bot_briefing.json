@@ -1,7 +1,7 @@
 {
   "schema": "public-funding-bot-briefing/v1",
   "engine_version": "0.15.0",
-  "generated_at": "2026-11-02T13:05:34+09:00",
+  "generated_at": "2026-11-02T13:08:44+09:00",
   "generation": "deterministic_no_model",
   "report_model_calls": 0,
   "ai_transport": "manual_cli_only",
@@ -9,14 +9,14 @@
   "automatic_submission": false,
   "input_fingerprints": {
     "data/programs.json": "03328121faf548fa237467ff0a8b8de8ba93f513381d3f3b2c7fc45d8de9c9a2",
-    "data/monitor.json": "239e8c0f1827874a20d9609f53f4be2c7cc7a196d6d40df40f495d2cf0461569",
-    "data/evidence.json": "e78187b37b4b3df09bdf9c07f0191f139f0c646332bf4d8399d5e4d57f84a19c",
-    "data/change_reviews.json": "32df9eb7e987653b05c710795a15a9010e78fc8702194753361e2e3235a0b563",
-    "data/attachments.json": "782b1b8d5ee41ac462fc15a93e76e097c1aaac1d40983f3238ca0d6a20114c61",
-    "data/startup_sources.json": "3c372d54411e4cf0c64a766d825c7b09245b40680128acd3584a4c6741f1d782",
+    "data/monitor.json": "6be1a90f828f56c4cb540343c748644553254be62b69d4185262fd7d064eb798",
+    "data/evidence.json": "d237663d193505b04e1bb4fc1b2cc77e74261ee314444801522429909df3b3e0",
+    "data/change_reviews.json": "718b217e0adb1ef0bc62898268bfad1803379b34c83d78ee734ecb8b66a0a66a",
+    "data/attachments.json": "3530d503df7472f8e85331ce2b9a3c3637b0efd299ee662f7a147edab1f2c1f0",
+    "data/startup_sources.json": "bfd0b837860ca8b655286d69fc64cedfaac7334e9816d8a7710b8b25bbd96e7c",
     "config/automation_policy.json": "167611159390f47d645f4f831e909f79bf41cfb5173e618f607e351dfe309140"
   },
-  "run_status": "ok_scoped",
+  "run_status": "partial_or_stale",
   "attention_required": true,
   "deadline_window_days": 7,
   "lanes": [
@@ -24,10 +24,10 @@
       "id": "api",
       "name": "기업마당 API",
       "status": "ok_scoped",
-      "last_attempt_at": "2026-11-02T11:02:59+09:00",
-      "last_success_at": "2026-11-02T11:02:59+09:00",
+      "last_attempt_at": "2026-11-02T13:06:39+09:00",
+      "last_success_at": "2026-11-02T13:06:39+09:00",
       "freshness": "recent",
-      "workflow_outcome": "skipped",
+      "workflow_outcome": "success",
       "checked": 1293,
       "failed": 0,
       "detail": {
@@ -48,10 +48,10 @@
       "id": "html",
       "name": "공식 원문 HTML 순환",
       "status": "ok_scoped",
-      "last_attempt_at": "2026-11-02T11:02:59+09:00",
+      "last_attempt_at": "2026-11-02T13:06:39+09:00",
       "last_success_at": null,
       "freshness": "recent",
-      "workflow_outcome": "skipped",
+      "workflow_outcome": "success",
       "checked": 6,
       "failed": 0,
       "detail": {
@@ -71,11 +71,11 @@
     {
       "id": "attachments",
       "name": "첨부파일 순환",
-      "status": "ok_scoped",
-      "last_attempt_at": "2026-11-02T11:04:31+09:00",
+      "status": "partial",
+      "last_attempt_at": "2026-11-02T13:08:12+09:00",
       "last_success_at": null,
       "freshness": "recent",
-      "workflow_outcome": "skipped",
+      "workflow_outcome": "success",
       "checked": 4,
       "failed": 0,
       "detail": {
@@ -85,9 +85,9 @@
         "modified": 0,
         "suggested": 0,
         "success": 0,
-        "text_extracted": 4,
+        "text_extracted": 3,
         "partial_or_no_text": 0,
-        "blocked_or_unsupported": 0,
+        "blocked_or_unsupported": 1,
         "matched": 0,
         "changed": 0
       }
@@ -96,10 +96,10 @@
       "id": "startup",
       "name": "검토된 과거 원본",
       "status": "ok_scoped",
-      "last_attempt_at": "2026-11-02T11:05:07+09:00",
+      "last_attempt_at": "2026-11-02T13:08:33+09:00",
       "last_success_at": null,
       "freshness": "recent",
-      "workflow_outcome": "skipped",
+      "workflow_outcome": "success",
       "checked": 3,
       "failed": 0,
       "detail": {
@@ -119,10 +119,10 @@
   ],
   "unresolved": {
     "pending_differences": 19,
-    "attachment_failures": 3,
+    "attachment_failures": 2,
     "notice_failures": 0,
-    "attachment_limits": 12,
-    "queued_attachments": 48,
+    "attachment_limits": 13,
+    "queued_attachments": 51,
     "changed_evidence": 0,
     "unverified_programs": 118,
     "unverified_2027": 0,
@@ -134,8 +134,8 @@
     "queue_total": 34,
     "queue_shown": 34,
     "queue_by_action": {
-      "retry_bot": 3,
-      "review_original": 31
+      "retry_bot": 2,
+      "review_original": 32
     }
   },
   "deadlines": [
@@ -455,18 +455,6 @@
       "observed_at": "2026-10-30T09:24:55+09:00"
     },
     {
-      "id": "e474b4ad9e0fcaa1ff8c38b0",
-      "category": "attachment_failure",
-      "priority": "P1",
-      "program_id": "BIZINFO-PBLN_000000000120871",
-      "title": "[경북] 2026년 초거대 AI 기술 컨설팅 신규 대상기업 모집 공고(초거대 AI 클라우드 팜 실증 및 확산 환경 조성사업)",
-      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120871",
-      "action": "retry_bot",
-      "reason": "전송 오류 재시도 후보. 현재 원문 링크·대기시간·회차 상한을 재확인한 뒤 수집",
-      "reference_id": "15067451ae5eb827e83a14b4",
-      "observed_at": "2026-10-30T09:24:55+09:00"
-    },
-    {
       "id": "b3fffd2585cffc079df2fd33",
       "category": "source_difference",
       "priority": "P1",
@@ -669,11 +657,23 @@
       "reason": "형식·크기·본문 추출 한계: no_text — 원본 직접 확인 필요",
       "reference_id": "609f3ab6358b26d85f1b2a64",
       "observed_at": "2026-11-01T10:50:16+09:00"
+    },
+    {
+      "id": "3ce50f0b3c9ce1162fa6542b",
+      "category": "attachment_limit",
+      "priority": "P2",
+      "program_id": "BIZINFO-PBLN_000000000124433",
+      "title": "[전남광주] 2026년 3차 인공지능 기술 고도화 지원사업 상시 모집 공고(AI융합 지능형 농업 생태계 구축)",
+      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124433",
+      "action": "review_original",
+      "reason": "형식·크기·본문 추출 한계: unsupported_format — 원본 직접 확인 필요",
+      "reference_id": "2b4c64fb388027153cc6c794",
+      "observed_at": "2026-11-02T13:08:12+09:00"
     }
   ],
   "queue_truncated": false,
   "scope": "기업마당 API, 기존 공식 원문·첨부 순환 수집 및 검토 원본 재확인. 전체 기관 독립 수집이나 자동 적격성 검증이 아님.",
   "notice": "이 보고서는 공개 저장자료의 규칙 기반 집계입니다. 후보·마감·우선순위는 신청 적격성, 선정 확률 또는 지원금 확정이 아닙니다. 자료 변경은 정책 변경 확정이 아니며 원문 대조가 필요합니다.",
   "ai_handoff": "공개 근거 검토요청 파일만 생성 가능. AI CLI 자동 실행·API 호출·결과 자동 반영 없음.",
-  "report_id": "d7bd63d635a7c783432717a9"
+  "report_id": "7957e73d4263a47e18c3d205"
 }

@@ -1,24 +1,24 @@
 {
   "schema": "public-funding-attachments/v1",
   "version": "0.4.0",
-  "generated_at": "2026-11-02T13:08:12+09:00",
+  "generated_at": "2026-11-03T12:51:27+09:00",
   "run": {
-    "at": "2026-11-02T13:08:12+09:00",
+    "at": "2026-11-03T12:51:27+09:00",
     "notice_success": 3,
     "notice_failed": 0,
     "attempted": 4,
-    "text_extracted": 3,
+    "text_extracted": 4,
     "partial_or_no_text": 0,
-    "blocked_or_unsupported": 1,
+    "blocked_or_unsupported": 0,
     "failed": 0,
     "changed": 0,
     "manifest_changed": 0,
-    "queued_total": 132,
+    "queued_total": 136,
     "new_attempted": 3,
     "retry_attempted": 1,
     "revisit_attempted": 0,
     "deferred_retry": 0,
-    "manual_hold": 12,
+    "manual_hold": 13,
     "scope": "원문 3건·첨부 4건 상한. 신규/일시적 전송실패/오래된 성공 기록을 분리해 선정하며 403·포맷·보호·크기 제한은 자동 우회하지 않습니다. 적격성은 미검증."
   },
   "records": {
@@ -6578,12 +6578,19 @@
       "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120509",
       "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000750284&fileSn=2",
       "name": "다운로드",
-      "status": "download_failed",
-      "last_attempt_at": "2026-10-30T09:24:55+09:00",
-      "last_success_at": null,
-      "last_error": "download_failed",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-03T12:51:27+09:00",
+      "last_success_at": "2026-11-03T12:51:27+09:00",
+      "last_error": null,
       "review_required": false,
       "history": [
+        {
+          "at": "2026-11-03T12:51:27+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "7aa2dd20ecbb26fb84a9941aad55ddd301bda3213a40d05d307b3430159e0c01",
+          "http_status": null,
+          "failure_kind": null
+        },
         {
           "at": "2026-10-30T09:24:55+09:00",
           "status": "download_failed",
@@ -6593,8 +6600,94 @@
         }
       ],
       "http_status": null,
-      "failure_kind": "network_error",
-      "retryable": true
+      "failure_kind": null,
+      "retryable": false,
+      "observed_sha256": "7aa2dd20ecbb26fb84a9941aad55ddd301bda3213a40d05d307b3430159e0c01",
+      "sha256": "7aa2dd20ecbb26fb84a9941aad55ddd301bda3213a40d05d307b3430159e0c01",
+      "extraction": {
+        "format": "hwp",
+        "parser": "olefile/0.47+hwp-body/0.4.0",
+        "sha256": "7aa2dd20ecbb26fb84a9941aad55ddd301bda3213a40d05d307b3430159e0c01",
+        "bytes": 45056,
+        "status": "text_extracted",
+        "text_characters": 3065,
+        "units": 201,
+        "text_sha256": "7c43d7e21a53d30d86428c885c6401c6bca546e1cc59b30aac06c241dc437bbd",
+        "pages": null,
+        "sections": 1,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "3c6dde18dbd0d9e687c7",
+            "category": "documents",
+            "excerpt": "참여기업 제출 서류 리스트",
+            "locator": "BodyText/Section0 / record 28 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "769681ae6554f8fce446",
+            "category": "eligibility",
+            "excerpt": "상기 사항은 사실과 틀림없으며, 만약 사실과 다를 경우 기술가치평가 지원 대상에서 제외될 수 있음을 동의합니다.",
+            "locator": "BodyText/Section0 / record 350 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "71ac1ea8e114aba59dd0",
+            "category": "cofunding",
+            "excerpt": "점을 구체적으로 작성) * 예시 - `26년 0분기 금융기관 제출 / `27년 0분기 투자유치(IR) 자료 활용 / 현물출자 협상 자료 활용 등",
+            "locator": "BodyText/Section0 / record 789 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "8b14e7637d523bd391e2",
+            "category": "documents",
+            "excerpt": "◦ 본 기업은 협약기간 내 기술가치평가를 완료하고, 평가 결과보고서 및 사업비 지급에 필요한 관련 증빙서류를 기한 내 성실히 제출할 것임.",
+            "locator": "BodyText/Section0 / record 1137 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "3df1ec18ce38e13db36a",
+            "category": "amount",
+            "excerpt": "◦ 본 기업은 기술가치평가 비용 중 지원금 외 초과 비용 및 부가가치세 등 기업 부담금을 성실히 부담할 것임.",
+            "locator": "BodyText/Section0 / record 1151 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "5fb7cb7cee4f7bde434c",
+            "category": "amount",
+            "excerpt": "◦ 본 기업이 제출한 신청서 및 관련 서류는 허위 사실이 없으며, 허위 또는 부정한 방법으로 사업에 참여하거나 지원금을 수령한 경우 지원금 환수 및 향후 사업 참여 제한 등 불이익 조치에 이의를 제기하지 않을 것임.",
+            "locator": "BodyText/Section0 / record 1158 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "89355f2ac20b1f7788ad",
+            "category": "eligibility",
+            "excerpt": "충남창조경제혁신센터는 2026년 「충남 혁신기업 기술창업 지원사업(기업가치평가 지원)」 사업 신청 및 선정 과정 등에 필요한 본인 확인 및 식별 절차와 의사소통, 정보전달, 사후관리 등에 이용하기 위해 아래와 같이 개인정보를 수집·이용하고자 합니다. 내용을 자세히 읽으신 후 동의 여부를 결정하여 주시기 바랍니다.",
+            "locator": "BodyText/Section0 / record 1218 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "구역·레코드 위치는 실제 인쇄 쪽번호가 아닙니다.",
+          "표·그림·각주 의미와 문서의 모든 제외조건은 미검토"
+        ]
+      }
     },
     "16fcdd203e9db6842148c069": {
       "id": "16fcdd203e9db6842148c069",
@@ -10207,12 +10300,226 @@
       "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124471",
       "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000764996&fileSn=1",
       "name": "다운로드",
-      "status": "queued",
-      "last_attempt_at": null,
-      "last_success_at": null,
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-03T12:51:27+09:00",
+      "last_success_at": "2026-11-03T12:51:27+09:00",
       "last_error": null,
       "review_required": false,
-      "history": []
+      "history": [
+        {
+          "at": "2026-11-03T12:51:27+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "44f1c4e728efc85913efb9f43ca82fa036174178a2584a48190d0410b28c51df",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "44f1c4e728efc85913efb9f43ca82fa036174178a2584a48190d0410b28c51df",
+      "sha256": "44f1c4e728efc85913efb9f43ca82fa036174178a2584a48190d0410b28c51df",
+      "extraction": {
+        "format": "pdf",
+        "parser": "pypdf/6.15.0",
+        "sha256": "44f1c4e728efc85913efb9f43ca82fa036174178a2584a48190d0410b28c51df",
+        "bytes": 353985,
+        "status": "text_extracted",
+        "text_characters": 8386,
+        "units": 29,
+        "text_sha256": "13402788dd6da641d3315fc7c86f6a853d301194aaf57474bc6e4829e1cc9b03",
+        "pages": 10,
+        "sections": null,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "2672db25f7be939ed2a1",
+            "category": "eligibility",
+            "excerpt": "GMR-2026-021호[경기도 중장년 최초 창업 지원]「2026년 생애 최초 경영안정화 교육지원」 모집공고경기도와 경기도시장상권진흥원에서는 실습중심 창업 교육·컨설팅·창업자금·이자비 지원 등을지원하는 [경기도 중장년 최초 창업 지원] 「2026년 생애 최초 경영안정화 교육지원」 사업 모집공고를 아래와 같이 진행하오니 만40세 이상 중장 년층 예 비창 업자의 많은 관심과 참여 바랍니다. 2026년 5월 22일",
+            "locator": "PDF p.1 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "2f686598a739f8652635",
+            "category": "amount",
+            "excerpt": " ③사실 증 명원 ④주 민 등록 초 본(연 동)지원내용①창업교육(4회) ②컨설팅(최대 5회) ③(창업자금)사업화지원(최대 1천만원) ④홍보마케팅 ⑤창업자금 이자비 지원(최대 1백만원)문의처☎1600-8001※서류 간소화 및 일부 자격요건 완화(’26. 6. 30.부터)",
+            "locator": "PDF p.1 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "24ddd48a60366df3ad27",
+            "category": "deadline",
+            "excerpt": "자의 많은 관심과 참여 바랍니다. 2026년 5월 22일 ~ (선착순 마감)경기도시장상권진흥원장1 모집개요구분세부내용접수기간2026. 5. 22.(금) ~ 모집 완료 시까지 (선착순 마감)신청방법(☞클릭)경기바로 간편접수지원자격w 공고일(’26.5.22.) 기준 경기도 거주, 도내 창업을 희망하는 만 40세 이상인 자w (예비창업자*)국세청(세무서) 사업자등록(법인·일반·간이 등) 등록 이력이 없는 자※예 외",
+            "locator": "PDF p.1 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "8a73fd5e90b6075c13e6",
+            "category": "eligibility",
+            "excerpt": "2 신청자격□ 공통조건 ○ 공 고 일(’26.5.22.) 기 준 경 기 도 거 주 하 며, 도 내 창 업 을 희 망 하 는 만 40세 이 상 중 장 년 인 자 ○ 국세청(세무서) 사업자등록(법인·일반·간이 등) 등록 이력이 없는 자(예비창업자)※사업자등록 이력 예외 허용 ① 사업자등록 이력이 있으나, 매출 발생 이력이 없는 자 ② 타 업종을 복수로 영위한 이력 없이 직원을 고용하지 않고 부동산임대업만을 영위한",
+            "locator": "PDF p.2 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "8547b69f38869f0ce4c5",
+            "category": "exclusion",
+            "excerpt": " 시 저 장] 해 두 시 면 ② 담 당 자 확 인 후 제 출 서 류 안 내 연 락 예 정□ 지원제한 ○ 국세·지방세 체납 중 또는 금융기관으로부터 여신거래가 불가능하거나 채무 불이행 규제 중인 자 ○ 도박, 유흥 등 불건전 업종 또는 금융, 부동산업 등 사업 취지에 맞지 않거나 「경기도 소상공인정책자금」 보증 제한 업종으로 창업하려는 자□ 선정제외·취소 ○ 기타 허위 또는 부정한 방법으로 신청한 자3 접수·선",
+            "locator": "PDF p.2 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "e040c18b3000b9985c80",
+            "category": "documents",
+            "excerpt": "2.(금) ~ 모집 완료 시까지 (선착순 마감)□ 신청방법: (☞클릭)경기바로 간편접수□ 신청서류: 4종 간편접수연번제출서류비고1사업신청서제1호 서식2 개인정보 동의서제2호 서식3사실증명원(사업자등록사실여부) 별도 서식4주민등록초본(동의 시 자동연동)마이데이터5(해당 시) 사업자등록 이력 예외 증빙서류①무매출 사업자 ②임대사업자 ③공고일 기준 최초 사업개시일 이전 사업자 ④비영리단체 대표별도 서식□ 신청문의:",
+            "locator": "PDF p.2 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "8adeea96552e9dff3a93",
+            "category": "deadline",
+            "excerpt": "한 업종으로 창업하려는 자□ 선정제외·취소 ○ 기타 허위 또는 부정한 방법으로 신청한 자3 접수·선정방법□ 공고 및 접수기간: 2026. 5. 22.(금) ~ 모집 완료 시까지 (선착순 마감)□ 신청방법: (☞클릭)경기바로 간편접수□ 신청서류: 4종 간편접수연번제출서류비고1사업신청서제1호 서식2 개인정보 동의서제2호 서식3사실증명원(사업자등록사실여부) 별도 서식4주민등록초본(동의 시 자동연동)마이데이터5(해당",
+            "locator": "PDF p.2 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "e6830113f9fe1c581ac2",
+            "category": "eligibility",
+            "excerpt": "4 지원내용□ 교육명: [경기도 중장년 최초 창업 지원] 2026년 생애 최초 경영안정화 교육지원□ 운영방법: 총 4회 (주 1회씩 총 4주, 하루 8시간), 경기 남·북부 권역별 대면 교육* *교육 장소는 추후 공지, 주중 2회, 주말 2회로 운영 예정, 교육 예정일 7월 중하순~8월 중□ 교육수료 ○ 수료기준: 교육 80% 이상 참여, 컨설팅 필수 2회 (그룹컨설팅 포함하나, 1:1 개별 맞춤형 최소 1회",
+            "locator": "PDF p.3 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "30391bdd9e9102e0e275",
+            "category": "amount",
+            "excerpt": "포함하나, 1:1 개별 맞춤형 최소 1회 필수)□ 수료특혜 ○ 「① 경쟁오디션」 지원 자격 부여 - 우수창업가 사업화지원금(1천만원) ○ 「② 홍보마케팅」 지원 자격 부여(’26. 10월까지 창업을 완료한 자 대상) ○ 「③ 보증」 창업자금보증(경기신용보증재단) 수혜자 대상 이자비 지원□ 교육과정",
+            "locator": "PDF p.3 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "7621b781b5810ee40ef3",
+            "category": "amount",
+            "excerpt": "인 IP 역량강화(1h)10:00~11:00입학식(1h) 세 무 및 법 률 기 초 실습( 1h )11:00~12:00정부 지원사업 활용법(1h)엑셀 손익계산서 실습(1h)공정거래법(1h)12:00~13:00점심식사(중식 제공 예정)13:00~14:00창업교육(1h)창업목적형 AI실습(2h)업종별 실습형 교육(5h)그룹컨설팅(2h)14:00~15:00사업계획서 작성법(2h)15:00~16:00창업목적형 PPT ",
+            "locator": "PDF p.3 / text-line 4",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "20960625e7bab58ccd54",
+            "category": "eligibility",
+            "excerpt": "□ 경쟁오디션: 서류 + PT발표 평가를 통한 우수창업가 발굴 과정 ○ 지원대상: 교육 수료자* 중 연내 도내 창업 희망자 ※ 수료기준: 교육 80% 이상 참여, 컨설팅 필수 2회 (그룹컨설팅 포함하나, 1:1 개별 맞춤형 최소 1회 필수) ○ 모집규모: 우수창업가 12명경쟁오디션 모집공고▶서류평가▶PT 발표평가(대면)▶우수창업가 발굴• 교육 중 공고 예정• 서류평가• PT 발표평가• 사 업 화 지 원 신 청",
+            "locator": "PDF p.4 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "ca0c722ef6a4d03b741d",
+            "category": "cofunding",
+            "excerpt": "수창업가 발굴 시 ~ 2026. 12. 31. ○ 지원금액: 1인당 최대 1천만원 이내 지원(공급가액 기준, VAT 자부담) ○ 지원항목항목세부 지원내용비고시설구축· 실내·외 인테리어, 주방설비, 간판 등 점포구성을 위한 공사비용· 내부 인테리어, 공조시설 및 냉난방시설, 기타 인프라 구성· 전시대, 진열대, 선반 등 사업운영과 직접적 관련성이 있는 자산물품총 지원금의 80% 이내아이템개발· 지식재산(IP),",
+            "locator": "PDF p.4 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "79a9af4cd89949e5e469",
+            "category": "amount",
+            "excerpt": "대상: 경쟁오디션을 통해 선발된 우수창업가 12명 ○ 지원기간: 우수창업가 발굴 시 ~ 2026. 12. 31. ○ 지원금액: 1인당 최대 1천만원 이내 지원(공급가액 기준, VAT 자부담) ○ 지원항목항목세부 지원내용비고시설구축· 실내·외 인테리어, 주방설비, 간판 등 점포구성을 위한 공사비용· 내부 인테리어, 공조시설 및 냉난방시설, 기타 인프라 구성· 전시대, 진열대, 선반 등 사업운영과 직접적 관련성이",
+            "locator": "PDF p.4 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "35b133f059a5b1a30ad9",
+            "category": "eligibility",
+            "excerpt": "□ 창업자금보증 이자비 ○ 지원대상: 교육 수료자이며 경기신보 창업자금보증 이용 중인 자 ○ 지원내용: 창업자금보증 이자비(1년, 최대 3%, 1백만원 한도 내 지원) ○ 지원기간: 이자비 지원자별 창업완료일 ~ 2026. 12. 31.* *이자비 지원의 경우, ’27. 11월까지 납부분 인정 ○ 지원규모: 20명(접수순) ○ 지원내용: 이 자 비 지 원 신 청 서 류 접 수 및 대 출 이 자 납 입 내 역 ",
+            "locator": "PDF p.5 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "0a2bf3d295fc320a2fdb",
+            "category": "exclusion",
+            "excerpt": " 및 안 전 관 리 기 본 법」 제3조(정 의) 제1항에서 명시하는 재난이나 경기침체·대량실업 등의 불가피한 사유를 제외하고 창업 기업의 대표자는 창업일로부터 1년 이상 기업을 유지하여야 함.□ 유의사항 ○ (제출서류) 사업신청을 통해 제출된 신청서류는 반환되지 않음. ○ (불법건축물) 사업화지원 시 불법건축물에 해당하는 항목 지원은 불가하며, 건물 주의 동 의 및 필요 한 인허 가 사항 등 을 사전절 차를 ",
+            "locator": "PDF p.5 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "c069534ea2a361807936",
+            "category": "amount",
+            "excerpt": " 이자비 ○ 지원대상: 교육 수료자이며 경기신보 창업자금보증 이용 중인 자 ○ 지원내용: 창업자금보증 이자비(1년, 최대 3%, 1백만원 한도 내 지원) ○ 지원기간: 이자비 지원자별 창업완료일 ~ 2026. 12. 31.* *이자비 지원의 경우, ’27. 11월까지 납부분 인정 ○ 지원규모: 20명(접수순) ○ 지원내용: 이 자 비 지 원 신 청 서 류 접 수 및 대 출 이 자 납 입 내 역 검 수 후 정 ",
+            "locator": "PDF p.5 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "17f9c9beee72cbc7b7c4",
+            "category": "documents",
+            "excerpt": " 등의 불가피한 사유를 제외하고 창업 기업의 대표자는 창업일로부터 1년 이상 기업을 유지하여야 함.□ 유의사항 ○ (제출서류) 사업신청을 통해 제출된 신청서류는 반환되지 않음. ○ (불법건축물) 사업화지원 시 불법건축물에 해당하는 항목 지원은 불가하며, 건물 주의 동 의 및 필요 한 인허 가 사항 등 을 사전절 차를 통 해 반드 시 이행 하여야 함. ○ (규정준수) 본 사업은 도내 만40세 이상 중장년 창업 ",
+            "locator": "PDF p.5 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "e5490a56bd2d74ba3664",
+            "category": "documents",
+            "excerpt": "(☞클릭)경기바로 간편접수[경기도 중장년 최초 창업 지원]「2026년 생애 최초 경영안정화 교육지원」【신청서류 제출서류 안내】연번제출서류비고1사업신청서제1호 서식2 개인정보 동의서제2호 서식3사실증명원(사업자등록사실여부) 별도 서식4주민등록초본(동의 시 자동연동)마이데이터5(해당 시) 사업자등록 이력 예외 증빙서류①무매출 사업자 ②임대사업자 ③공고일 기준 최초 사업개시일 이전 사업자 ④비영리단체 대표자 별도 ",
+            "locator": "PDF p.6 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "853d2feae286ce146af9",
+            "category": "documents",
+            "excerpt": "※5번 사업자등록 이력 예외 증빙서류 제출자 ① [무매출사업자] 사업자등록 이력이 있으나, 매출 발생 이력이 없는 자 ② [임대사업자] 타 업종을 복수로 영위한 이력 없이 직원을 고용하지 않고 부동산임대업만을 영위한 개인사업자 ③ [공고일 기준 최초 사업개시일 이전 사업자] 사업자등록증상 최초 사업개시일이 공고일(’26. 5. 22.) 기준 이후인 사업자 ④ [비영리단체 대표] 영리 목적 사업자등록 이력 없이",
+            "locator": "PDF p.6 / text-line 3",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "e9d9f549f19acbc2b7d0",
+            "category": "documents",
+            "excerpt": "시오. □ 개인정보 수집·이용 내역 수집‧이용 항목수집․이용 목적보유기간성명, 생년월일, 전화번호, 이메일, 주소, 제출서류 등생애 최초 경영안정화 교육지원 사업 운영 관리 등5년 ※ 위의 개인정보 수집‧이용에 대한 동의를 거부할 권리가 있습니다. 그러나 동의를 거부할 경우 본 사업에 제한을 받을 수 있습니다. ☞ 위와 같이 개인정보를 수집·이용하는데 동의하십니까? 동의미동의 □ 고유식별정보 수집·이용 내역 ",
+            "locator": "PDF p.8 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "표 열 순서·이미지·주석의 의미는 검토하지 않았습니다.",
+          "OCR 미수행"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
     },
     "f441a77186b5fa18316c1b81": {
       "id": "f441a77186b5fa18316c1b81",
@@ -10324,6 +10631,306 @@
       "program_id": "BIZINFO-PBLN_000000000124779",
       "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124779",
       "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000766312&fileSn=1",
+      "name": "다운로드",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-03T12:51:27+09:00",
+      "last_success_at": "2026-11-03T12:51:27+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-11-03T12:51:27+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "0b5bb801513c63ebe2f0131c2476afacce9f329f22f6cae1e3e48a2c026ae602",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "0b5bb801513c63ebe2f0131c2476afacce9f329f22f6cae1e3e48a2c026ae602",
+      "sha256": "0b5bb801513c63ebe2f0131c2476afacce9f329f22f6cae1e3e48a2c026ae602",
+      "extraction": {
+        "format": "hwp",
+        "parser": "olefile/0.47+hwp-body/0.4.0",
+        "sha256": "0b5bb801513c63ebe2f0131c2476afacce9f329f22f6cae1e3e48a2c026ae602",
+        "bytes": 55808,
+        "status": "text_extracted",
+        "text_characters": 517,
+        "units": 89,
+        "text_sha256": "ca8102357a1bfe7c679bbd3355f450146a82e0594d9cb30812842efa6e99c2b8",
+        "pages": null,
+        "sections": 1,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "ee33b58c34f53bf34a56",
+            "category": "eligibility",
+            "excerpt": "혁신기술 제조창업 공유공장 구축 기업지원 신청서",
+            "locator": "BodyText/Section0 / record 27 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "f58dceee5c89e9b7e115",
+            "category": "eligibility",
+            "excerpt": "본사",
+            "locator": "BodyText/Section0 / record 101 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "a7f76c75d0ed69829009",
+            "category": "amount",
+            "excerpt": "지원금액(천원)",
+            "locator": "BodyText/Section0 / record 396 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "d838bc8db9857d5c67b8",
+            "category": "eligibility",
+            "excerpt": "상기 내용과 같이 혁신기술 제조창업 공유공장 구축 기업지원을 신청합니다.",
+            "locator": "BodyText/Section0 / record 497 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "구역·레코드 위치는 실제 인쇄 쪽번호가 아닙니다.",
+          "표·그림·각주 의미와 문서의 모든 제외조건은 미검토"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
+    },
+    "aa0c2322e56efc9b65f4ed37": {
+      "id": "aa0c2322e56efc9b65f4ed37",
+      "program_id": "BIZINFO-PBLN_000000000124841",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124841",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000766579&fileSn=0",
+      "name": "다운로드",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
+    },
+    "bd6a8928699d0455e5b50053": {
+      "id": "bd6a8928699d0455e5b50053",
+      "program_id": "BIZINFO-PBLN_000000000124915",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124915",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000766873&fileSn=1",
+      "name": "다운로드",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
+    },
+    "069618bb42d1aedd2da79695": {
+      "id": "069618bb42d1aedd2da79695",
+      "program_id": "BIZINFO-PBLN_000000000124926",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124926",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000766907&fileSn=0",
+      "name": "다운로드",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-03T12:51:27+09:00",
+      "last_success_at": "2026-11-03T12:51:27+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-11-03T12:51:27+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "abcc0cf54426edcaf4f7554fcace28dd97f8a811b33576eaa9ba2829d31a3d93",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "abcc0cf54426edcaf4f7554fcace28dd97f8a811b33576eaa9ba2829d31a3d93",
+      "sha256": "abcc0cf54426edcaf4f7554fcace28dd97f8a811b33576eaa9ba2829d31a3d93",
+      "extraction": {
+        "format": "pdf",
+        "parser": "pypdf/6.15.0",
+        "sha256": "abcc0cf54426edcaf4f7554fcace28dd97f8a811b33576eaa9ba2829d31a3d93",
+        "bytes": 313692,
+        "status": "text_extracted",
+        "text_characters": 5049,
+        "units": 228,
+        "text_sha256": "03d8180ee16a79743f5145825411b02dedd94bb6c174dad6d1b8780e53115d2d",
+        "pages": 8,
+        "sections": null,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "b00c8908009e6d026801",
+            "category": "eligibility",
+            "excerpt": "ㅇ 지원대상",
+            "locator": "PDF p.1 / text-line 15",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "fd3f5a88d36e99240b0a",
+            "category": "eligibility",
+            "excerpt": "친환경 조명 소재 부품 모듈러 스마트조명 조명서비스화 및 관련 전기 전자 - · , LED· , ·",
+            "locator": "PDF p.1 / text-line 16",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "bb913ec1eeecef2e77d9",
+            "category": "eligibility",
+            "excerpt": "친환경 소재 적용 모듈러 교체 가능 구조 등 차세대 조명개발 * , LED( )",
+            "locator": "PDF p.2 / text-line 6",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "4816bfa18eb4098e7a4d",
+            "category": "eligibility",
+            "excerpt": "친환경 소재 적용성 검토 및 환경성 개선 기술지원 -",
+            "locator": "PDF p.2 / text-line 9",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "83f0eeffbc4af875da1d",
+            "category": "eligibility",
+            "excerpt": "소재 부품별 성분 분석 스크리닝 정밀분석 등 - · (XRF , GC-MS )",
+            "locator": "PDF p.2 / text-line 45",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "200c9403e6a81c792324",
+            "category": "documents",
+            "excerpt": "제출서류 및 신청방법´\u0015",
+            "locator": "PDF p.3 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "9d2e1c00c8be308eba91",
+            "category": "deadline",
+            "excerpt": "ㅇ 신청기간 : 년 월 일까지 상시접수 2026 10 30",
+            "locator": "PDF p.3 / text-line 3",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "d617e0e525554c8a8e38",
+            "category": "documents",
+            "excerpt": "ㅇ 제출서류",
+            "locator": "PDF p.3 / text-line 5",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "8942db66e459a43af1df",
+            "category": "documents",
+            "excerpt": "모집공고 - 신청서 및 제출서류 접수 -",
+            "locator": "PDF p.3 / text-line 21",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "99b1e0ae4c11740c7da7",
+            "category": "documents",
+            "excerpt": "제출서류 및 지원적정성 검토 -",
+            "locator": "PDF p.3 / text-line 22",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "6ff15f5c21e1f7359239",
+            "category": "exclusion",
+            "excerpt": "지원 제외 대상 기업´\u0017",
+            "locator": "PDF p.4 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "e3535d7f172fc1bb66d4",
+            "category": "deadline",
+            "excerpt": "ㅇ 접수기간 내 사업신청서 및 관련서류 미제출 제출양식 준수하지 않은 경우 ,",
+            "locator": "PDF p.4 / text-line 3",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "f781f02f16651b259109",
+            "category": "exclusion",
+            "excerpt": "국세 또는 지방세를 체납 중인 신청기관 또는 기업 -",
+            "locator": "PDF p.4 / text-line 7",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "99c2385bec17d1579cda",
+            "category": "documents",
+            "excerpt": "ㅇ 제출서류 등이 허위이거나 거짓인 경우",
+            "locator": "PDF p.4 / text-line 8",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "35a361e7af266dac75d5",
+            "category": "overlap",
+            "excerpt": "중복신청가능 ( )",
+            "locator": "PDF p.7 / text-line 8",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "8b3f14597c752fb768b0",
+            "category": "exclusion",
+            "excerpt": "기업신용 조회 기타 사전지원제외 대상 여부의 확인 ,",
+            "locator": "PDF p.8 / text-line 13",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "표 열 순서·이미지·주석의 의미는 검토하지 않았습니다.",
+          "OCR 미수행"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
+    },
+    "a30180faa26c14eba79db409": {
+      "id": "a30180faa26c14eba79db409",
+      "program_id": "BIZINFO-PBLN_000000000124926",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124926",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000766908&fileSn=0",
       "name": "다운로드",
       "status": "queued",
       "last_attempt_at": null,
@@ -11122,6 +11729,43 @@
       "document_ids": [
         "532a407ff47d72713daadb32",
         "8d75f4210f1d1b020c8b1030"
+      ],
+      "review_required": false,
+      "last_error": null
+    },
+    "BIZINFO-PBLN_000000000124841": {
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124841",
+      "last_notice_attempt_at": "2026-11-03T12:51:27+09:00",
+      "last_notice_success_at": "2026-11-03T12:51:27+09:00",
+      "notice_status": "links_available",
+      "manifest_sha256": "37623c6f2e4fcc3bc1839285f65097275a1cadb8428a802d55f808f8d20ec06d",
+      "document_ids": [
+        "aa0c2322e56efc9b65f4ed37"
+      ],
+      "review_required": false,
+      "last_error": null
+    },
+    "BIZINFO-PBLN_000000000124915": {
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124915",
+      "last_notice_attempt_at": "2026-11-03T12:51:27+09:00",
+      "last_notice_success_at": "2026-11-03T12:51:27+09:00",
+      "notice_status": "links_available",
+      "manifest_sha256": "49a789fec27f6a5c4f5e83401e75a391bd51a86143591d2a31fc05987b48d7e8",
+      "document_ids": [
+        "bd6a8928699d0455e5b50053"
+      ],
+      "review_required": false,
+      "last_error": null
+    },
+    "BIZINFO-PBLN_000000000124926": {
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124926",
+      "last_notice_attempt_at": "2026-11-03T12:51:27+09:00",
+      "last_notice_success_at": "2026-11-03T12:51:27+09:00",
+      "notice_status": "links_available",
+      "manifest_sha256": "34176ce5dbe686d21f58c72bedb1cf468128b712fa17d2bd65e05acd1290745b",
+      "document_ids": [
+        "069618bb42d1aedd2da79695",
+        "a30180faa26c14eba79db409"
       ],
       "review_required": false,
       "last_error": null

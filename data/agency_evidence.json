@@ -1,7 +1,7 @@
 {
   "schema": "public-funding-agency-evidence/v1",
   "version": "0.17.0",
-  "generated_at": "2026-11-02T13:07:44+09:00",
+  "generated_at": "2026-11-03T12:50:55+09:00",
   "model_calls": 0,
   "automatic_approval": false,
   "scope": "기관 직접 목록의 원문 최대 3건·첨부 최대 4건 순환 확인. 본문 추출은 조건 후보이며 신청자격·금액·중복지원·문서 완전성 검증이 아닙니다. 기존 공고와 검토 규칙은 수정하지 않습니다.",
@@ -395,9 +395,9 @@
       "source": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1071948",
       "title": "창업도시 조성 프로젝트 창업도시 모집 공고",
       "listing_fingerprint": "a4e466407ce7c88123e8acf8ccb5f4fe6ca6bb9d0929aba5f12b435f0d95a159",
-      "listing_seen_at": "2026-10-31T10:59:23+09:00",
-      "last_attempt_at": "2026-10-31T10:59:31+09:00",
-      "last_success_at": "2026-10-31T10:59:31+09:00",
+      "listing_seen_at": "2026-11-03T12:50:47+09:00",
+      "last_attempt_at": "2026-11-03T12:50:55+09:00",
+      "last_success_at": "2026-11-03T12:50:55+09:00",
       "status": "html_available",
       "last_error": null,
       "review_required": false,
@@ -442,6 +442,13 @@
         }
       ],
       "history": [
+        {
+          "at": "2026-11-03T12:50:55+09:00",
+          "status": "html_available",
+          "body_sha256": "05a18a9a3d038d2de12e4d50003ca76f834b692dc4dd7f70067a284fa218a95f",
+          "manifest_sha256": "d55e550d46b58c60280aab0d768978fea69488bb6b0229334311bd9a999aa121",
+          "error": null
+        },
         {
           "at": "2026-10-31T10:59:31+09:00",
           "status": "html_available",
@@ -625,6 +632,90 @@
         }
       ],
       "unhandled_links": 2
+    },
+    "MSS-1072214": {
+      "id": "MSS-1072214",
+      "agency_id": "mss",
+      "source": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1072214",
+      "title": "2027년도 초기창업·창업도약 패키지 사업신규 주관기관 모집 수정 공고",
+      "listing_fingerprint": "6430022c82a6e1cb9dba93b2b2634da7f808aac8daaf3b8b58d7a32dd65ef5c3",
+      "listing_seen_at": "2026-11-03T12:50:47+09:00",
+      "last_attempt_at": "2026-11-03T12:50:55+09:00",
+      "last_success_at": "2026-11-03T12:50:55+09:00",
+      "status": "html_available",
+      "last_error": null,
+      "review_required": false,
+      "body_sha256": "a1889f5b8abd7215bcd88190ed17548fad9d9d2b212ca46bf3e0a9d195fa79ff",
+      "manifest_sha256": "c4fdf98cb74944ebffaaa528845637c9920add917a18d356678b50c26d1afc32",
+      "documents": [
+        {
+          "id": "3397030e696b6dcfff1de3d8",
+          "name": "351acb8b-5bf0-4178-9e5a-3e9cde6c24f6.hwpx",
+          "public_url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1072214&cbIdx=310&streFileNm=351acb8b-5bf0-4178-9e5a-3e9cde6c24f6.hwpx",
+          "locator": "공고 첨부파일 목록 / 351acb8b-5bf0-4178-9e5a-3e9cde6c24f6.hwpx"
+        },
+        {
+          "id": "c3ef08967d75f9fdb3b13b8d",
+          "name": "0659212f-cb50-4bff-a950-7ad4c9c1356b.pdf",
+          "public_url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1072214&cbIdx=310&streFileNm=0659212f-cb50-4bff-a950-7ad4c9c1356b.pdf",
+          "locator": "공고 첨부파일 목록 / 0659212f-cb50-4bff-a950-7ad4c9c1356b.pdf"
+        }
+      ],
+      "history": [
+        {
+          "at": "2026-11-03T12:50:55+09:00",
+          "status": "html_available",
+          "body_sha256": "a1889f5b8abd7215bcd88190ed17548fad9d9d2b212ca46bf3e0a9d195fa79ff",
+          "manifest_sha256": "c4fdf98cb74944ebffaaa528845637c9920add917a18d356678b50c26d1afc32",
+          "error": null
+        }
+      ],
+      "unhandled_links": 0
+    },
+    "NIPA-16883": {
+      "id": "NIPA-16883",
+      "agency_id": "nipa",
+      "source": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16883&tab=2",
+      "title": "전 국민 AI 서비스 보편적 활용 지원 (모두의 AI) 사업 수정 공고",
+      "listing_fingerprint": "411457b5c95af997ab514a82b70f531e2285b45cf58370f247fb51259d374b5a",
+      "listing_seen_at": "2026-11-03T12:50:47+09:00",
+      "last_attempt_at": "2026-11-03T12:50:55+09:00",
+      "last_success_at": "2026-11-03T12:50:55+09:00",
+      "status": "html_available",
+      "last_error": null,
+      "review_required": false,
+      "body_sha256": "574c3df7ea3f1559c8628264c2d1391592737b019aaca81e7c2082919ec08649",
+      "manifest_sha256": "0fc0852acb93c7f87fe787fd175796d33c7eb963b7472cf72cfc7101c31afa13",
+      "documents": [
+        {
+          "id": "348311c7d97cf45e70bfeeb2",
+          "name": "[붙임5] 전 국민 AI 서비스 보편적 활용 지원(모두의 AI) 사업 FAQ.pdf",
+          "public_url": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16883&tab=2",
+          "locator": "공고 첨부파일 목록 / [붙임5] 전 국민 AI 서비스 보편적 활용 지원(모두의 AI) 사업 FAQ.pdf"
+        },
+        {
+          "id": "7abdc71950aeddb5527b1dd8",
+          "name": "[공고문] 전 국민 AI 서비스 보편적 활용 지원(모두의 AI) 사업 수정 공고문.pdf",
+          "public_url": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16883&tab=2",
+          "locator": "공고 첨부파일 목록 / [공고문] 전 국민 AI 서비스 보편적 활용 지원(모두의 AI) 사업 수정 공고문.pdf"
+        },
+        {
+          "id": "b4a385f4cc27ff6a2dddc598",
+          "name": "[붙임1] 전 국민 AI 서비스 보편적 활용 지원(모두의 AI) 사업 수정 공모안내서.pdf",
+          "public_url": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16883&tab=2",
+          "locator": "공고 첨부파일 목록 / [붙임1] 전 국민 AI 서비스 보편적 활용 지원(모두의 AI) 사업 수정 공모안내서.pdf"
+        }
+      ],
+      "history": [
+        {
+          "at": "2026-11-03T12:50:55+09:00",
+          "status": "html_available",
+          "body_sha256": "574c3df7ea3f1559c8628264c2d1391592737b019aaca81e7c2082919ec08649",
+          "manifest_sha256": "0fc0852acb93c7f87fe787fd175796d33c7eb963b7472cf72cfc7101c31afa13",
+          "error": null
+        }
+      ],
+      "unhandled_links": 3
     }
   },
   "documents": {
@@ -3515,12 +3606,262 @@
       "notice_source": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1071948",
       "url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1071948&cbIdx=310&streFileNm=38703d8f-fff6-4c62-b854-d4c2cb4f5ebd.hwpx",
       "name": "38703d8f-fff6-4c62-b854-d4c2cb4f5ebd.hwpx",
-      "status": "queued",
-      "last_attempt_at": null,
-      "last_success_at": null,
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-03T12:50:55+09:00",
+      "last_success_at": "2026-11-03T12:50:55+09:00",
       "last_error": null,
       "review_required": false,
-      "history": []
+      "history": [
+        {
+          "at": "2026-11-03T12:50:55+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "d5424b36bd7516591bdc33e07866ac0ff9622e4cc1404e26371c21f4c228a5d1",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "d5424b36bd7516591bdc33e07866ac0ff9622e4cc1404e26371c21f4c228a5d1",
+      "sha256": "d5424b36bd7516591bdc33e07866ac0ff9622e4cc1404e26371c21f4c228a5d1",
+      "extraction": {
+        "format": "hwpx",
+        "parser": "hwp-body/0.4.0",
+        "sha256": "d5424b36bd7516591bdc33e07866ac0ff9622e4cc1404e26371c21f4c228a5d1",
+        "bytes": 175707,
+        "status": "text_extracted",
+        "text_characters": 21762,
+        "units": 851,
+        "text_sha256": "dc446b55b3c1c1025847b385793011130d7c7e2e598b1ed0d5b60efab33c7fa7",
+        "pages": null,
+        "sections": 1,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "2fbb49387c4b5dacf92a",
+            "category": "eligibility",
+            "excerpt": "* 선정된 창업도시에는 2028년까지 기본 지정기간을 부여하고, 별도 심의 후 2030년까지 추가 지정",
+            "locator": "Contents/section0.xml / paragraph 30",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "ec44856f7b4ca7d3fdc5",
+            "category": "eligibility",
+            "excerpt": "❹ (지역 생태계 육성) 지방정부는 중앙·지방정부의 자원을 활용하여 창업도시 조성전략을 추진하여, 지역 소재·이전 창업기업 육성 및 지역 창업 생태계 강화 추진",
+            "locator": "Contents/section0.xml / paragraph 36",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "60f64d879d23b91e2412",
+            "category": "eligibility",
+            "excerpt": "◈ (지정현황) 과학기술원이 소재하여 기술인재가 지속 양성되는 4개 광역시 우선 지정(’26년 4월)",
+            "locator": "Contents/section0.xml / paragraph 38",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "06f8711b020f49ee29d0",
+            "category": "eligibility",
+            "excerpt": "◦ 신청대상 : 광역자치단체 10곳",
+            "locator": "Contents/section0.xml / paragraph 47",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "9e5f86ed730a4431afdf",
+            "category": "amount",
+            "excerpt": "·지역이전 지원금, 엔젤투자허브 운영비 및 과업 재원 확보·투입",
+            "locator": "Contents/section0.xml / paragraph 66",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "816b8a28811d6465f51d",
+            "category": "amount",
+            "excerpt": "·총 6.4억원(지역이전 지원금 4억원, 엔젤투자허브 운영비 2.4억원)",
+            "locator": "Contents/section0.xml / paragraph 68",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "560a48f62768cd7f134a",
+            "category": "eligibility",
+            "excerpt": "신청대상(가나다 순)",
+            "locator": "Contents/section0.xml / paragraph 78",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "f80bdd1e26a7cb732ad7",
+            "category": "amount",
+            "excerpt": "* 연간 150억원 규모로, 창업기업 지원금 110억원, 프로그램 운영비 40억원 내외",
+            "locator": "Contents/section0.xml / paragraph 86",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "a512561394c7d08d667e",
+            "category": "amount",
+            "excerpt": "정부의 10여개 이상의 사업을 연계공급하여, 직접지원과 연계지원으로 구분하여 지역에 대한 집중 지원 예정(지역별 최대지원 규모 상이)",
+            "locator": "Contents/section0.xml / paragraph 87",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "7a28038469d7565eeb36",
+            "category": "deadline",
+            "excerpt": "◦ 신청기간 : ’26년 10월 23일(금)~11월 30일(월), 15:00까지",
+            "locator": "Contents/section0.xml / paragraph 89",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "14abbffda7d3379d5e59",
+            "category": "deadline",
+            "excerpt": "◦ 주요일정(안) : 모집공고(10월)→접수마감(11월)→서류·현장평가(12월)→선정확정(’27년 1월) 및 전략발표회 개최(’27년 2월)",
+            "locator": "Contents/section0.xml / paragraph 93",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "b95e574ce02175300b00",
+            "category": "exclusion",
+            "excerpt": "드, 3)지역기반제조, 4)지역특화관광, 5)거점 브랜드, 6)디지털문화체험, 7)자연친화활동(단, 일반 소상공인은 지원 제외)",
+            "locator": "Contents/section0.xml / paragraph 135",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "0244a824d9b3dda353bd",
+            "category": "amount",
+            "excerpt": "󰊳 (지방재원 확보) 지역 이전 창업기업 지원금(의무)과 창업도시 조성 과업수행(선택)을 위한 지방재원(광역·기초자치단체 구분 없음)을 확보",
+            "locator": "Contents/section0.xml / paragraph 396",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "057bff73ded105556f73",
+            "category": "cofunding",
+            "excerpt": "·지역 이전 창업기업 자기부담사업비의 20% 지원",
+            "locator": "Contents/section0.xml / paragraph 406",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "b5f9130a137bf3214eb9",
+            "category": "cofunding",
+            "excerpt": "- (의무사항) 지역사업화 자금(정부지원사업비)을 지원 받는 지역이전 창업기업의 자기부담사업비 중 20%를 지방정부에서 현금 보조",
+            "locator": "Contents/section0.xml / paragraph 423",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "05c5771eaf8375c13141",
+            "category": "cofunding",
+            "excerpt": "* 지역 소재 창업기업의 자기부담사업비는 의무사항에서 제외(필요 시 지원 가능)",
+            "locator": "Contents/section0.xml / paragraph 425",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "c9819ef963a81b4b69f3",
+            "category": "cofunding",
+            "excerpt": "자기부담사업비",
+            "locator": "Contents/section0.xml / paragraph 432",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "edaa6ecc188dd4d9e300",
+            "category": "cofunding",
+            "excerpt": "현금+현물",
+            "locator": "Contents/section0.xml / paragraph 481",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "d06961cff09bc01ae287",
+            "category": "documents",
+            "excerpt": "제출서류 기반",
+            "locator": "Contents/section0.xml / paragraph 797",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "0b868f7a63b0ed71d870",
+            "category": "documents",
+            "excerpt": "❶ 서류평가 : 각 광역자치단체의 제출서류(사업계획서 등)를 기반으로, 지역 간 역량을 비교하고 현장검증을 위한 착안사항을 중점 발굴",
+            "locator": "Contents/section0.xml / paragraph 804",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "26d2b72469b8becea4ec",
+            "category": "deadline",
+            "excerpt": "□ (신청기간) ’26년 10월 23일(금)~11월 30일(월), 15:00까지",
+            "locator": "Contents/section0.xml / paragraph 1024",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "52c7df3c82fb827f1b5e",
+            "category": "deadline",
+            "excerpt": "* 신청기간 종료 후 별도 신청유예시간 없으며, 신청기간 내 ‘제출완료’(접수증 발급)되지 않은 경우, 신청대상에서 제외",
+            "locator": "Contents/section0.xml / paragraph 1026",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "09c290a3f7371969751a",
+            "category": "documents",
+            "excerpt": "□ (제출서류) 1)사업신청서(온라인), 2)공문(광역자치단체), 3)지방정부 추진전략(HWP), 4)사업계획서(HWP), 5)증빙자료(HWP), 6)평가계획서(HWP)",
+            "locator": "Contents/section0.xml / paragraph 1028",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "df3894b92e4df8defb21",
+            "category": "documents",
+            "excerpt": "< 제출서류 현황 >",
+            "locator": "Contents/section0.xml / paragraph 1030",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "구역·문단 위치는 실제 인쇄 쪽번호가 아닙니다.",
+          "표 셀 관계·그림·각주 의미는 미검토"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
     },
     "a75545d31060e6d2b70442d7": {
       "id": "a75545d31060e6d2b70442d7",
@@ -3528,12 +3869,127 @@
       "notice_source": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1071948",
       "url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1071948&cbIdx=310&streFileNm=a6473f87-7501-447b-abd0-01716868e0c3.hwpx",
       "name": "a6473f87-7501-447b-abd0-01716868e0c3.hwpx",
-      "status": "queued",
-      "last_attempt_at": null,
-      "last_success_at": null,
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-03T12:50:55+09:00",
+      "last_success_at": "2026-11-03T12:50:55+09:00",
       "last_error": null,
       "review_required": false,
-      "history": []
+      "history": [
+        {
+          "at": "2026-11-03T12:50:55+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "2dbb387772b4bd5b983f8aad964607f26124a046ea3f8cad7d80b3c1d6ea12b5",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "2dbb387772b4bd5b983f8aad964607f26124a046ea3f8cad7d80b3c1d6ea12b5",
+      "sha256": "2dbb387772b4bd5b983f8aad964607f26124a046ea3f8cad7d80b3c1d6ea12b5",
+      "extraction": {
+        "format": "hwpx",
+        "parser": "hwp-body/0.4.0",
+        "sha256": "2dbb387772b4bd5b983f8aad964607f26124a046ea3f8cad7d80b3c1d6ea12b5",
+        "bytes": 58072,
+        "status": "text_extracted",
+        "text_characters": 5241,
+        "units": 306,
+        "text_sha256": "5630f13824828b3f21e1db14cd52af36ba6c89bfa456b3cf40c69a4864219aee",
+        "pages": null,
+        "sections": 1,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "c4155760fe14b67d2d3b",
+            "category": "eligibility",
+            "excerpt": "7. 특화산업 중소기업 중 창업기업 비중 0",
+            "locator": "Contents/section0.xml / paragraph 56",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "148be0efb761cb04e0b4",
+            "category": "eligibility",
+            "excerpt": "7-1. 특화산업 중소기업 중 창업기업 생존율(3년 내) 0",
+            "locator": "Contents/section0.xml / paragraph 58",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "6130e1154ab5abff4e69",
+            "category": "amount",
+            "excerpt": "13. 지역 내 개방형 혁신(대·중견·공공) 지원 규모 0",
+            "locator": "Contents/section0.xml / paragraph 64",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "ddd7f7b4fa9281b2c0f8",
+            "category": "eligibility",
+            "excerpt": "⑦특화산업 중소기업 중 창업기업 비중",
+            "locator": "Contents/section0.xml / paragraph 172",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "4cc5338e87cdcc30ad9b",
+            "category": "eligibility",
+            "excerpt": "⑦-1특화산업 중소기업 중 창업기업 생존율(3년 내)",
+            "locator": "Contents/section0.xml / paragraph 174",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "3d0049b097d204a654ad",
+            "category": "amount",
+            "excerpt": "⑬지역 내 개방형 혁신(대·중견·공공) 지원 규모",
+            "locator": "Contents/section0.xml / paragraph 191",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "e771c4bea96427f3de1a",
+            "category": "eligibility",
+            "excerpt": "신청대상(가나다 순)",
+            "locator": "Contents/section0.xml / paragraph 239",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "16ff93557dd63f078336",
+            "category": "amount",
+            "excerpt": "⑬ 지역 내 개방형 혁신(대·중견·공공) 지원 규모",
+            "locator": "Contents/section0.xml / paragraph 345",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "e5dee1adffc3cb55de75",
+            "category": "amount",
+            "excerpt": "·최근 3년(’23년~’25년) 내 지방정부(운영기관)의 개방형 혁신 지원 규모 기재",
+            "locator": "Contents/section0.xml / paragraph 348",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "구역·문단 위치는 실제 인쇄 쪽번호가 아닙니다.",
+          "표 셀 관계·그림·각주 의미는 미검토"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
     },
     "49df283672f2caaae1957eeb": {
       "id": "49df283672f2caaae1957eeb",
@@ -4583,10 +5039,575 @@
       "last_error": null,
       "review_required": false,
       "history": []
+    },
+    "3397030e696b6dcfff1de3d8": {
+      "id": "3397030e696b6dcfff1de3d8",
+      "program_id": "MSS-1072214",
+      "notice_source": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1072214",
+      "url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1072214&cbIdx=310&streFileNm=351acb8b-5bf0-4178-9e5a-3e9cde6c24f6.hwpx",
+      "name": "351acb8b-5bf0-4178-9e5a-3e9cde6c24f6.hwpx",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-03T12:50:55+09:00",
+      "last_success_at": "2026-11-03T12:50:55+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-11-03T12:50:55+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "77c608fbbd7450e7c861af5634f760c4d5e7f2e3f96048ec50f95b841f3fb3c7",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "77c608fbbd7450e7c861af5634f760c4d5e7f2e3f96048ec50f95b841f3fb3c7",
+      "sha256": "77c608fbbd7450e7c861af5634f760c4d5e7f2e3f96048ec50f95b841f3fb3c7",
+      "extraction": {
+        "format": "hwpx",
+        "parser": "hwp-body/0.4.0",
+        "sha256": "77c608fbbd7450e7c861af5634f760c4d5e7f2e3f96048ec50f95b841f3fb3c7",
+        "bytes": 273242,
+        "status": "text_extracted",
+        "text_characters": 16468,
+        "units": 742,
+        "text_sha256": "f884c78e30e8e67e304f8a0931ece374880e1b369c6790b23c2531b211617985",
+        "pages": null,
+        "sections": 1,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "655ac33bec92e34bdca2",
+            "category": "eligibility",
+            "excerpt": "성장단계별(초기·도약기) 창업기업 발굴 및 육성을 위해 우수한 창업지원 역량을 갖춘 초기창업‧창업도약 패키지 사업의 주관기관을 다음과 같이 모집 공고합니다.",
+            "locator": "Contents/section0.xml / paragraph 6",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "e4020f5d6a2aba5d2775",
+            "category": "amount",
+            "excerpt": "·정부지원예산 변동에 따른 전담조직 및 인력구성, 대응자금 및 투자재원 변경이 가능토록 관련 문구 추가, 신청기간 변경",
+            "locator": "Contents/section0.xml / paragraph 15",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "66f05a698eb5dd88a6c9",
+            "category": "deadline",
+            "excerpt": "·정부지원예산 변동에 따른 전담조직 및 인력구성, 대응자금 및 투자재원 변경이 가능토록 관련 문구 추가, 신청기간 변경",
+            "locator": "Contents/section0.xml / paragraph 15",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "8fb2e28c518f0e50cd43",
+            "category": "deadline",
+            "excerpt": "신청기간",
+            "locator": "Contents/section0.xml / paragraph 21",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "a4230922f080f5b562e7",
+            "category": "deadline",
+            "excerpt": "□ 신청 기간 : ‘26.10.30.(금)~‘26.11.20.(금) 16:00까지",
+            "locator": "Contents/section0.xml / paragraph 22",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "9da8f1cfb549d8898925",
+            "category": "deadline",
+            "excerpt": "□ 신청 기간 : ‘26.10.30.(금)~‘26.11.23.(월) 16:00까지",
+            "locator": "Contents/section0.xml / paragraph 24",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "891455e04bb20f3a456a",
+            "category": "amount",
+            "excerpt": "※ 단, ’27년 주관기관 선정평가결과 등에 따른 정부지원예산 변동시, ‘전담조직 및 인력 구성, 대응자금 및 투자재원’ 변경 가능함",
+            "locator": "Contents/section0.xml / paragraph 31",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "1ea9063609bd69f78ac9",
+            "category": "eligibility",
+            "excerpt": "※ 본 모집공고는 창업기업을 지원할 주관기관을 모집하는 공고문이며,’27년 예산안 확정 결과에 따라 선정 규모‧유형‧지원예산은 변동될 수 있음",
+            "locator": "Contents/section0.xml / paragraph 34",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "317da15c1fd9ceffa84c",
+            "category": "eligibility",
+            "excerpt": "◦ (초기창업패키지) 창업 3년 이내 초기 창업기업의 시장안착을 위해 사업화자금, 실증 및 판로개척, 초기 투자유치 등을 지원",
+            "locator": "Contents/section0.xml / paragraph 50",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "c9f612c0548bf8a8a613",
+            "category": "eligibility",
+            "excerpt": "◦ (창업도약패키지) 창업 3년 초과 7년 이내 도약기 창업기업의 성장을 위해 사업화자금, 글로벌 진출 및 투자유치 등을 지원",
+            "locator": "Contents/section0.xml / paragraph 52",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "34816fc2f708bbca76c0",
+            "category": "amount",
+            "excerpt": "기업 당 지원한도",
+            "locator": "Contents/section0.xml / paragraph 64",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "5f61d11959a388049d20",
+            "category": "amount",
+            "excerpt": "최대 1억원",
+            "locator": "Contents/section0.xml / paragraph 73",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "0726109106f29bbdb6d8",
+            "category": "amount",
+            "excerpt": "최대 1.5억원",
+            "locator": "Contents/section0.xml / paragraph 91",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "23569755fc9303a44be2",
+            "category": "eligibility",
+            "excerpt": "□ 지원내용 : 창업기업 지원* 및 특화 프로그램 등 지원",
+            "locator": "Contents/section0.xml / paragraph 127",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "3471b7a5654e196a311b",
+            "category": "overlap",
+            "excerpt": "□ 유형별 중복 신청·수행",
+            "locator": "Contents/section0.xml / paragraph 135",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "d3ff7e8e151e305dbe72",
+            "category": "deadline",
+            "excerpt": "* 모집공고 게시일로부터 마감일 이내 평가 및 발급받은 확인서만 인정",
+            "locator": "Contents/section0.xml / paragraph 160",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "3a4ef79ab7f05c72517b",
+            "category": "exclusion",
+            "excerpt": "□ 신청 제외대상",
+            "locator": "Contents/section0.xml / paragraph 165",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "27eb57132c9cc25119e3",
+            "category": "exclusion",
+            "excerpt": " 환수 등에 관한 법률｣, ｢국고보조금 통합관리지침｣, ｢중소기업창업 지원사업 운영요령｣ 등 관계 법령·지침에 따른 결격사유 또는 참여 제한으로 제재 중인 경우",
+            "locator": "Contents/section0.xml / paragraph 169",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "b223485ceb97a8b21460",
+            "category": "exclusion",
+            "excerpt": "③ 국세 또는 지방세 체납 중인 경우",
+            "locator": "Contents/section0.xml / paragraph 172",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "efbff228a791ae5b5e82",
+            "category": "documents",
+            "excerpt": "□ 신청 방법 및 제출서류",
+            "locator": "Contents/section0.xml / paragraph 188",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "79a92f881005ea4d662b",
+            "category": "documents",
+            "excerpt": "④ 온라인 신청만 가능하며, 신청·접수 마감시각(16:00 이후) 이후에는 사업계획서 등 제출 서류의 수정·삭제 불가",
+            "locator": "Contents/section0.xml / paragraph 207",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "8b7ba5046791ebc1e57b",
+            "category": "documents",
+            "excerpt": "◦ (제출서류) ①제출 공문, ②사업계획서, ③‧④증빙서류 각 1부",
+            "locator": "Contents/section0.xml / paragraph 209",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "2cb27b1f3b860258a4a8",
+            "category": "documents",
+            "excerpt": "< 제출 서류 >",
+            "locator": "Contents/section0.xml / paragraph 211",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "459842e11e5b7f0d223a",
+            "category": "documents",
+            "excerpt": "제출 서류",
+            "locator": "Contents/section0.xml / paragraph 213",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "구역·문단 위치는 실제 인쇄 쪽번호가 아닙니다.",
+          "표 셀 관계·그림·각주 의미는 미검토"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
+    },
+    "c3ef08967d75f9fdb3b13b8d": {
+      "id": "c3ef08967d75f9fdb3b13b8d",
+      "program_id": "MSS-1072214",
+      "notice_source": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1072214",
+      "url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1072214&cbIdx=310&streFileNm=0659212f-cb50-4bff-a950-7ad4c9c1356b.pdf",
+      "name": "0659212f-cb50-4bff-a950-7ad4c9c1356b.pdf",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-03T12:50:55+09:00",
+      "last_success_at": "2026-11-03T12:50:55+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-11-03T12:50:55+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "25838db4d0189e1304a05bfa59b94b9cefac5f86f1b1b264788194abf8a37995",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "25838db4d0189e1304a05bfa59b94b9cefac5f86f1b1b264788194abf8a37995",
+      "sha256": "25838db4d0189e1304a05bfa59b94b9cefac5f86f1b1b264788194abf8a37995",
+      "extraction": {
+        "format": "pdf",
+        "parser": "pypdf/6.15.0",
+        "sha256": "25838db4d0189e1304a05bfa59b94b9cefac5f86f1b1b264788194abf8a37995",
+        "bytes": 668560,
+        "status": "text_extracted",
+        "text_characters": 16481,
+        "units": 88,
+        "text_sha256": "1df49af353c35f8ece2cee81535213cacfd4d777bc68f5230dae5d001b3a1f4b",
+        "pages": 23,
+        "sections": null,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "2934d7dbb70981d79407",
+            "category": "eligibility",
+            "excerpt": "공고 제2026-622호2027년도 초기창업·창업도약 패키지 사업 신규 주관기관 모집 수정공고성장단계별(초기·도약기)창업기업 발굴 및 육성을 위해 우수한 창업지원역량을 갖춘 초기창업‧",
+            "locator": "PDF p.1 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "744137a12f99fb492275",
+            "category": "amount",
+            "excerpt": "호, 2026년 10월 30일)를 다음과 같이 수정한 수정공고입니다.< [※ 중요] 모집공고 내 수정사항 >수정개요·정부지원예산 변동에 따른 전담조직 및 인력구성, 대응자금 및 투자재원 변경이 가능토록 관련 문구 추가, 신청기간 변경구분기존수정관련신청기간□ 신청 기간 : ‘26.10.30.(금)~‘26.11.20.(금) 16:00까지□ 신청 기간 : ‘26.10.30.(금)~‘26.11.23.(월) 16:00",
+            "locator": "PDF p.1 / text-line 3",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "5bb03c8645749a9c0b95",
+            "category": "deadline",
+            "excerpt": " >수정개요·정부지원예산 변동에 따른 전담조직 및 인력구성, 대응자금 및 투자재원 변경이 가능토록 관련 문구 추가, 신청기간 변경구분기존수정관련신청기간□ 신청 기간 : ‘26.10.30.(금)~‘26.11.20.(금) 16:00까지□ 신청 기간 : ‘26.10.30.(금)~‘26.11.23.(월) 16:00까지본문 4P",
+            "locator": "PDF p.1 / text-line 3",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "5727d6acb90fdf2ef021",
+            "category": "amount",
+            "excerpt": "일하게 조성되어야 하며, 미이행 시 제재 등 불이익이 있을 수 있음※ 단, ’27년 주관기관 선정평가결과 등에 따른 정부지원예산 변동시, ‘전담조직 및 인력 구성, 대응자금 및 투자재원’ 변경 가능함",
+            "locator": "PDF p.1 / text-line 5",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "17ea6905861900662141",
+            "category": "eligibility",
+            "excerpt": "※ 본 모집공고는 창업기업을 지원할 주관기관을 모집하는 공고문이며,’27년 예산안 확정 결과에 따라 선정 규모‧유형‧지원예산은 변동될 수 있음",
+            "locator": "PDF p.1 / text-line 7",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "4d5ba3b6b9fe3ee6e914",
+            "category": "eligibility",
+            "excerpt": "1공통사항1 모집 개요□ 사업명 : 초기창업･창업도약 패키지□ 사업목적◦(초기창업패키지)창업 3년 이내 초기 창업기업의 시장안착을 위해사업화자금,실증 및 판로개척,초기 투자유치 등을 지원◦(창업도약패키지)창업 3년 초과 7년 이내 도약기 창업기업의 성장을위해사업화자금,글로벌 진출 및 투자유치 등을 지원□ 모집규모(안) : 총 35개 기관(초기 21,도약 14)(단위 : 개, 개사, 억원)구분유형주관기관지원기업",
+            "locator": "PDF p.2 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "f401e0324ecd4136733f",
+            "category": "amount",
+            "excerpt": "총 35개 기관(초기 21,도약 14)(단위 : 개, 개사, 억원)구분유형주관기관지원기업기관 당기업 수(안)기업 당 지원한도모집단위",
+            "locator": "PDF p.2 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "324e0ce44bee4aaa1810",
+            "category": "amount",
+            "excerpt": "초기일반형일반1632020최대 1억원5개 권역여성14040최대 1억원전국사회연대경제14040마일스톤형312040최대 1.5억원전국소계2152025(평균)도약일반형(기본형 9, 전문형* 3)1230525최대 2억원5개 권역스케일업형23518최대 3.5억원전국소계1434024(평균)합계35860- * 단, 창업도약패키지 전문형은 전국 단위",
+            "locator": "PDF p.2 / text-line 3",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "89b5df73c03ebd91e0bd",
+            "category": "eligibility",
+            "excerpt": "□ 지원내용 : 창업기업 지원*및 특화 프로그램등 지원 * 모집·선정 지원, 협약·사업비 관리, 성과관리 및 사후관리□ 협약(지원) 기간 : 4년(기본2년 +연장 최대 2년) * 기본협약 2년 차에 별도 평가를 통해 협약 연장(1년 또는 2년) 여부 결정□ 유형별 중복 신청·수행◦초기창업패키지와 창업도약패키지는 모두 신청 가능하며,사업별 선정 시 모두 수행 가능 -(초기)일반형(일반,여성,사회연대경제 中택1)",
+            "locator": "PDF p.3 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "1ffef4a58812a22884c7",
+            "category": "overlap",
+            "excerpt": "본2년 +연장 최대 2년) * 기본협약 2년 차에 별도 평가를 통해 협약 연장(1년 또는 2년) 여부 결정□ 유형별 중복 신청·수행◦초기창업패키지와 창업도약패키지는 모두 신청 가능하며,사업별 선정 시 모두 수행 가능 -(초기)일반형(일반,여성,사회연대경제 中택1)과마일스톤형은모두 신청 가능하나,1개유형만 수행 가능 -(도약)일반형,스케일업형중 1개 유형만 수행 가능2 신청자격 및 신청요건□ 신청 자격◦창업기업",
+            "locator": "PDF p.3 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "52bc6190909566740fa3",
+            "category": "deadline",
+            "excerpt": " 사업비 관리‧집행 모두 신청기관에서 일괄 수행-(민간기관)기업신용등급*B이상**신청 가능 * 모집공고 게시일로부터 마감일 이내 평가 및 발급받은 확인서만 인정 ** 신용등급 B 이상 기준 : 기업의 신용등급이 기업신용평가등급(BB-), 회사채(BB-), 기업어음(B0) 이상인 경우",
+            "locator": "PDF p.3 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "3b04c4d49d1471e7e442",
+            "category": "exclusion",
+            "excerpt": " 처리)지정은행(신한은행)에서 사업비 계좌를 개설하고,창업사업통합정보관리시스템(PMS)을 통한 회계처리 가능 기관□ 신청 제외대상◦신청기관(또는 대표자)이 다음 각 호의 어느 하나에 해당하는 경우 지원사업 신청을 제한",
+            "locator": "PDF p.4 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "4f4c2e1a7d8ce3e698fd",
+            "category": "documents",
+            "excerpt": "3 신청 및 접수□ 신청 기간 :‘26.10.30.(금)~‘26.11.23.(월)16:00까지□ 신청 방법 및 제출서류◦(신청 방법)K-Startup누리집(www.k-startup.go.kr)로그인 →사업신청관리 접속 →온라인 작성 →제출 * 회원가입은 신청기관의 대표자 개인 명의 진행 ** 초기창업‧창업도약 패키지 사업에 대하여 별도로 신청‧접수 필요",
+            "locator": "PDF p.4 / text-line 3",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "5a49dc3f483bf6831c4a",
+            "category": "deadline",
+            "excerpt": "3 신청 및 접수□ 신청 기간 :‘26.10.30.(금)~‘26.11.23.(월)16:00까지□ 신청 방법 및 제출서류◦(신청 방법)K-Startup누리집(www.k-startup.go.kr)로그인 →사업신청관리 접속 →온라인 작성 →제출 * 회원가입은 신청기관의 대표자 개인 명의 진행 ** 초기창업‧창업도약 패키지 사업에 대하여 별도로 신청‧접수 필요",
+            "locator": "PDF p.4 / text-line 3",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "10d03cc6cdb8269d8b10",
+            "category": "eligibility",
+            "excerpt": "일(‘26.11.20)까지 채무변제 완료 후 증빙이 가능한 자, 회생인가를 받은 기업, 중소벤처기업진흥공단으로부터 재창업자금을 지원받은 기업 등 정부·공공기관으로부터 재기지원 필요성을 인정받은 기업은 신청 가능③ 국세 또는 지방세 체납 중인 경우④ 창업진흥원으로부터 발생한 환수금 등의 반환이 종결되지 않은 경우⑤ 창업진흥원이 지정한 은행 계좌(사업비 계좌) 개설 및 창업진흥원 사업비 집행 관리 시스템을 통한 ",
+            "locator": "PDF p.4 / text-line 4",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "d07596d747b63dcf6f67",
+            "category": "exclusion",
+            "excerpt": " 환수 등에 관한 법률｣, ｢국고보조금 통합관리지침｣, ｢중소기업창업 지원사업 운영요령｣ 등 관계 법령·지침에 따른 결격사유 또는 참여 제한으로 제재 중인 경우② 금융기관 등으로부터 채무불이행으로 규제 중이거나 부도‧화의‧법정관리 등 정상적으로 금융거래가 곤란한 경우 * 다만, 신청·접수 마감일(‘26.11.20)까지 채무변제 완료 후 증빙이 가능한 자, 회생인가를 받은 기업, 중소벤처기업진흥공단으로부터 재창",
+            "locator": "PDF p.4 / text-line 4",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "66707d7bafeab7d684ba",
+            "category": "deadline",
+            "excerpt": "관 등으로부터 채무불이행으로 규제 중이거나 부도‧화의‧법정관리 등 정상적으로 금융거래가 곤란한 경우 * 다만, 신청·접수 마감일(‘26.11.20)까지 채무변제 완료 후 증빙이 가능한 자, 회생인가를 받은 기업, 중소벤처기업진흥공단으로부터 재창업자금을 지원받은 기업 등 정부·공공기관으로부터 재기지원 필요성을 인정받은 기업은 신청 가능③ 국세 또는 지방세 체납 중인 경우④ 창업진흥원으로부터 발생한 환수금 등의 ",
+            "locator": "PDF p.4 / text-line 4",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "d0b7dd60c4595b9cc05f",
+            "category": "documents",
+            "excerpt": "클릭해야 최종 접수가 완료됨④ 온라인 신청만 가능하며, 신청·접수 마감시각(16:00 이후) 이후에는 사업계획서 등 제출 서류의 수정·삭제 불가◦(제출서류)①제출 공문,②사업계획서,③‧",
+            "locator": "PDF p.5 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "766ea3d440278af1ff99",
+            "category": "deadline",
+            "excerpt": "행 필수③ 온라인 신청서 작성 이후 ‘제출완료’ 버튼을 클릭해야 최종 접수가 완료됨④ 온라인 신청만 가능하며, 신청·접수 마감시각(16:00 이후) 이후에는 사업계획서 등 제출 서류의 수정·삭제 불가◦(제출서류)①제출 공문,②사업계획서,③‧",
+            "locator": "PDF p.5 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "3007f12b99cf4e720f31",
+            "category": "documents",
+            "excerpt": "④증빙서류 각 1부< 제출 서류 >제출 서류주요내용비고필수① 제출 공문기관 공문기관장 직인본(HWPX 또는 PDF)② 사업계획서-③ (증빙서류) 개인정보 이용동의서전담조직 전원의 개인정보 이용동의서해당시④ (증빙서류) 기업신용평가등급 확인서- 민간기관4 평가 및 선정□ 평가 절차 : 2단계 평가(서류평가→발표평가)◦(서류평가)사업계획서를 평가하여 선정 규모의 2배수(유형․권역별)내외를 고득점순으로 선발,발표평",
+            "locator": "PDF p.5 / text-line 3",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "bfb92258ad0fc02916c5",
+            "category": "amount",
+            "excerpt": "은 창업 활동에 필요한 사항을 정부가 지원하는 사업으로, 다른 용도의 사업비 사용 또는 거짓 신청, 부정한 방법으로 정부지원사업비를 지원받은 경우 「형법」, 「공공재정 부정청구 금지 및 부정이익 환수 등에 관한 법률」, 「보조금 관리에 관한 법률」, 「중소기업창업 지원사업 통합관리지침」 등에 따라 형사처벌 또는 정부지원 사업비 전액 환수 및 창업사업화 지원사업 참여제한 등의 대상이 될 수 있습니다.② 동 사업",
+            "locator": "PDF p.6 / text-line 5",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "cd644669902f3a3c9c50",
+            "category": "documents",
+            "excerpt": " 및 접수는 신청 기간(’26.11.20(금),16:00)내 필히 완료되어야 하며,마감 이후 추가 제출은 불가함 * 제출서류 등에 누락‧착오가 있더라도 신청마감일 이후 수정‧보완‧교체 등 일체 불가◦사업 운영기간 도중 중대한 협약위반 사항 또는 성과 부진 등의 사유 발생,주관기관 신청 자격에 위반되는 사항 발생 시 관련 규정에 의거,협약취소 등 조치◦신청기관은 타 기관을 협력기관으로 구성하여 사업에 참여할 수",
+            "locator": "PDF p.7 / text-line 10",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "4d46d254c930a752a700",
+            "category": "cofunding",
+            "excerpt": "◦(대응자금 및 투자재원)신청기관의 대응자금(자기부담사업비)및 투자재원은 자율적으로 조성※ ‘전담조직 및 인력 구성, 재원(대응자금 및 투자재원)’ 조성은 ’27년 계획한 규모에 따라 사업기간(2년+2년) 동안 동일하게 조성되어야 하며, 미이행 시 제재 등 불이익이 있을 수 있음□ 주관기관 의무 및 역할 창업기업 발굴·지원◦(창업기업 발굴·선정)우수 창업기업 발굴을 위한 온·오프라인 모집,창업기업 선정평가 ",
+            "locator": "PDF p.12 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "06e8f64bae99fa6ca91b",
+            "category": "documents",
+            "excerpt": "관기관 사업비 집행기준< 주관기관 사업비 비목 >(중소기업창업지원사업 통합관리지침 제14차 제28조)비목 비목 정의 증빙서류창업프로그램 운영비창업기업 등 지원을 위한 멘토링, 자문, 교육, 기술지원, IR, 협력기관 연계 프로그램, 규제애로 해소 지원, 지역협의회비 등내부결재, 세금계산서(신용카드 영수증), 프로그램 운영 사진, 서명록 등 주관기관 내부규정에 따른 증빙서류",
+            "locator": "PDF p.15 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "표 열 순서·이미지·주석의 의미는 검토하지 않았습니다.",
+          "OCR 미수행"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
+    },
+    "348311c7d97cf45e70bfeeb2": {
+      "id": "348311c7d97cf45e70bfeeb2",
+      "program_id": "NIPA-16883",
+      "notice_source": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16883&tab=2",
+      "url": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16883&tab=2",
+      "name": "[붙임5] 전 국민 AI 서비스 보편적 활용 지원(모두의 AI) 사업 FAQ.pdf",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
+    },
+    "7abdc71950aeddb5527b1dd8": {
+      "id": "7abdc71950aeddb5527b1dd8",
+      "program_id": "NIPA-16883",
+      "notice_source": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16883&tab=2",
+      "url": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16883&tab=2",
+      "name": "[공고문] 전 국민 AI 서비스 보편적 활용 지원(모두의 AI) 사업 수정 공고문.pdf",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
+    },
+    "b4a385f4cc27ff6a2dddc598": {
+      "id": "b4a385f4cc27ff6a2dddc598",
+      "program_id": "NIPA-16883",
+      "notice_source": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16883&tab=2",
+      "url": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16883&tab=2",
+      "name": "[붙임1] 전 국민 AI 서비스 보편적 활용 지원(모두의 AI) 사업 수정 공모안내서.pdf",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
     }
   },
   "run": {
-    "at": "2026-11-02T13:07:44+09:00",
+    "at": "2026-11-03T12:50:55+09:00",
     "status": "partial",
     "notices_attempted": 3,
     "notices_success": 3,

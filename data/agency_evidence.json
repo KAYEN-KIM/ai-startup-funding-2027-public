@@ -1,7 +1,7 @@
 {
   "schema": "public-funding-agency-evidence/v1",
   "version": "0.17.0",
-  "generated_at": "2026-11-03T12:50:55+09:00",
+  "generated_at": "2026-11-04T11:53:40+09:00",
   "model_calls": 0,
   "automatic_approval": false,
   "scope": "기관 직접 목록의 원문 최대 3건·첨부 최대 4건 순환 확인. 본문 추출은 조건 후보이며 신청자격·금액·중복지원·문서 완전성 검증이 아닙니다. 기존 공고와 검토 규칙은 수정하지 않습니다.",
@@ -12,9 +12,9 @@
       "source": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1071785",
       "title": "2027년 도약(Jump-Up) 프로그램 참여기업 모집 공고",
       "listing_fingerprint": "e4cdfd512f5098ae2167e3fa251d720044abdc9d89e36f97336d502086a8ad1f",
-      "listing_seen_at": "2026-11-01T10:49:45+09:00",
-      "last_attempt_at": "2026-11-01T10:49:52+09:00",
-      "last_success_at": "2026-11-01T10:49:52+09:00",
+      "listing_seen_at": "2026-11-04T11:53:32+09:00",
+      "last_attempt_at": "2026-11-04T11:53:40+09:00",
+      "last_success_at": "2026-11-04T11:53:40+09:00",
       "status": "html_available",
       "last_error": null,
       "review_required": false,
@@ -35,6 +35,13 @@
         }
       ],
       "history": [
+        {
+          "at": "2026-11-04T11:53:40+09:00",
+          "status": "html_available",
+          "body_sha256": "f24eab2ad59d502b3f1b3da0054e84eddc6358b5704d74d1aa2f05bf2ebd3e87",
+          "manifest_sha256": "e91eba66141ad96379eb59588d0aab1dfbaf0ba78d4f7cbf379620590cbf895d",
+          "error": null
+        },
         {
           "at": "2026-11-01T10:49:52+09:00",
           "status": "html_available",
@@ -716,6 +723,96 @@
         }
       ],
       "unhandled_links": 3
+    },
+    "MSS-1072252": {
+      "id": "MSS-1072252",
+      "agency_id": "mss",
+      "source": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1072252",
+      "title": "2026년 1인 창조기업 지원센터‧중장년 기술창업센터 신규 주관기관 모집 공고",
+      "listing_fingerprint": "4d60142e8e5e595209bdc8a0bec66fadfa460cf42960ee41f15b1bfae39b8e89",
+      "listing_seen_at": "2026-11-04T11:53:32+09:00",
+      "last_attempt_at": "2026-11-04T11:53:40+09:00",
+      "last_success_at": "2026-11-04T11:53:40+09:00",
+      "status": "html_available",
+      "last_error": null,
+      "review_required": false,
+      "body_sha256": "9a9d8a15ab90a68c5112ab8de179021efde75a8fff44bf1324bb061221d15045",
+      "manifest_sha256": "53b94d865a44ed7c805334ba632c40d01fcad412bd7f70c1a3065ce55a383537",
+      "documents": [
+        {
+          "id": "3612e25cc29dcb80c198df4c",
+          "name": "a9c066da-619f-42de-b401-d2691338e82a.pdf",
+          "public_url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1072252&cbIdx=310&streFileNm=a9c066da-619f-42de-b401-d2691338e82a.pdf",
+          "locator": "공고 첨부파일 목록 / a9c066da-619f-42de-b401-d2691338e82a.pdf"
+        },
+        {
+          "id": "eac79cd574c9d2e2e3d6c6d9",
+          "name": "25a03638-cecc-4b01-9fc3-4eb444a4d8fc.hwpx",
+          "public_url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1072252&cbIdx=310&streFileNm=25a03638-cecc-4b01-9fc3-4eb444a4d8fc.hwpx",
+          "locator": "공고 첨부파일 목록 / 25a03638-cecc-4b01-9fc3-4eb444a4d8fc.hwpx"
+        }
+      ],
+      "history": [
+        {
+          "at": "2026-11-04T11:53:40+09:00",
+          "status": "html_available",
+          "body_sha256": "9a9d8a15ab90a68c5112ab8de179021efde75a8fff44bf1324bb061221d15045",
+          "manifest_sha256": "53b94d865a44ed7c805334ba632c40d01fcad412bd7f70c1a3065ce55a383537",
+          "error": null
+        }
+      ],
+      "unhandled_links": 0
+    },
+    "NIPA-16866": {
+      "id": "NIPA-16866",
+      "agency_id": "nipa",
+      "source": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16866&tab=2",
+      "title": "특화 인공지능 파운데이션 모델 개발(사이버 보안 분야) 사업 공고",
+      "listing_fingerprint": "dfce59a9f7aa1746704eb09967ef39b0e363238c79abee84aa2c8812407b7bfd",
+      "listing_seen_at": "2026-11-04T11:53:32+09:00",
+      "last_attempt_at": "2026-11-04T11:53:40+09:00",
+      "last_success_at": "2026-11-04T11:53:40+09:00",
+      "status": "html_available",
+      "last_error": null,
+      "review_required": false,
+      "body_sha256": "4ea51de77350f0e175fe17c99b4af21abc6dccd70c7e8a64fa028a75bf86996f",
+      "manifest_sha256": "841c9f215503a3ff4db8e047b2b835d2a72d913ce94d6f7c6d772bd74b5efb03",
+      "documents": [
+        {
+          "id": "18dcb2bc2bcc6d93ffde70ea",
+          "name": "붙임_1._특화_인공지능_파운데이션_모델_개발(사이버보안_분야)_사업_공고문.hwp",
+          "public_url": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16866&tab=2",
+          "locator": "공고 첨부파일 목록 / 붙임_1._특화_인공지능_파운데이션_모델_개발(사이버보안_분야)_사업_공고문.hwp"
+        },
+        {
+          "id": "5f84109d11118840b6f5d33b",
+          "name": "붙임_4._제출서류_양식.hwp",
+          "public_url": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16866&tab=2",
+          "locator": "공고 첨부파일 목록 / 붙임_4._제출서류_양식.hwp"
+        },
+        {
+          "id": "88d657121fde016fb11b914b",
+          "name": "붙임_3._특화_인공지능_파운데이션_모델_개발(사이버_보안_분야)_사업계획서(양식).hwp",
+          "public_url": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16866&tab=2",
+          "locator": "공고 첨부파일 목록 / 붙임_3._특화_인공지능_파운데이션_모델_개발(사이버_보안_분야)_사업계획서(양식).hwp"
+        },
+        {
+          "id": "abbb6856d5b954c00bec09b8",
+          "name": "붙임_2._특화_인공지능_파운데이션_모델_개발(사이버보안_분야)_사업_공모_안내서.hwp",
+          "public_url": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16866&tab=2",
+          "locator": "공고 첨부파일 목록 / 붙임_2._특화_인공지능_파운데이션_모델_개발(사이버보안_분야)_사업_공모_안내서.hwp"
+        }
+      ],
+      "history": [
+        {
+          "at": "2026-11-04T11:53:40+09:00",
+          "status": "html_available",
+          "body_sha256": "4ea51de77350f0e175fe17c99b4af21abc6dccd70c7e8a64fa028a75bf86996f",
+          "manifest_sha256": "841c9f215503a3ff4db8e047b2b835d2a72d913ce94d6f7c6d772bd74b5efb03",
+          "error": null
+        }
+      ],
+      "unhandled_links": 2
     }
   },
   "documents": {
@@ -5604,10 +5701,917 @@
       "last_error": null,
       "review_required": false,
       "history": []
+    },
+    "3612e25cc29dcb80c198df4c": {
+      "id": "3612e25cc29dcb80c198df4c",
+      "program_id": "MSS-1072252",
+      "notice_source": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1072252",
+      "url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1072252&cbIdx=310&streFileNm=a9c066da-619f-42de-b401-d2691338e82a.pdf",
+      "name": "a9c066da-619f-42de-b401-d2691338e82a.pdf",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-04T11:53:40+09:00",
+      "last_success_at": "2026-11-04T11:53:40+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-11-04T11:53:40+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "48c62ae25537f43f7bef30203d3339b594a2d78473f7d63cbfbe07fe544b6f82",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "48c62ae25537f43f7bef30203d3339b594a2d78473f7d63cbfbe07fe544b6f82",
+      "sha256": "48c62ae25537f43f7bef30203d3339b594a2d78473f7d63cbfbe07fe544b6f82",
+      "extraction": {
+        "format": "pdf",
+        "parser": "pypdf/6.15.0",
+        "sha256": "48c62ae25537f43f7bef30203d3339b594a2d78473f7d63cbfbe07fe544b6f82",
+        "bytes": 562579,
+        "status": "text_extracted",
+        "text_characters": 7708,
+        "units": 39,
+        "text_sha256": "2fd2b21be15e0a29ea5c1858d97562290d1406909e20aba43774befad6d1490e",
+        "pages": 12,
+        "sections": null,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "6d4b4b49713c1e2fa163",
+            "category": "eligibility",
+            "excerpt": "623호2026년 1인 창조기업 지원센터‧중장년 기술창업센터 신규 주관기관 모집 공고역량있는1인창조기업과중장년(예비)창업기업지원을위해창업지원인프라와보육역량을갖추고성공적기술창업을선도할｢",
+            "locator": "PDF p.1 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "c0aec98eef885106fe80",
+            "category": "eligibility",
+            "excerpt": "관을다음과같이모집합니다. 2026년11월3일중소벤처기업부장관※ 동 모집공고는 (예비) 1인 창조기업과 중장년 (예비)창업기업을 지원할 주관기관을 모집하는 공고문이며, 입주기업 모집은 주관기관별로 진행됩니다.❶사업·모집 개요□ (사업목적) 1인창조기업및고경력‧",
+            "locator": "PDF p.1 / text-line 6",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "219e632dc220c5e83fcc",
+            "category": "eligibility",
+            "excerpt": "◦1인창조기업지원센터:3개센터이내 * 1인 창조기업 지원센터 미지정 지역인 세종특별자치시, 제주특별자치도, 충청북도 소재(사업자등록증 소재지 기준) 법인·단체만 신청 가능◦중장년기술창업센터:3개센터이내 * 중장년 기술창업센터 미지정 지역인 부산광역시, 대전광역시, 세종특별자치시 소재(사업자등록증 소재지 기준) 법인·단체만 신청 가능",
+            "locator": "PDF p.1 / text-line 7",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "9f2bbc996a8a48e1543f",
+            "category": "eligibility",
+            "excerpt": "고, 현금 10% 이상 대응 필수 *** 대응자금은 ’27년 4월 내 실입금 확인 예정(지자체 추경 등 사유 인정)❷신청 자격·요건□ (신청자격) 인력,시설,공간등의인프라를갖추고1인창조기업지원센터또는중장년기술창업센터운영을희망하는지방자치단체,대학,공공기관,비영리법인등 * 2개의 단체가 컨소시엄(주관-협력기관)을 구성하여 신청･운영 가능< 세부 신청유형 >신청구분단독컨소시엄신청형태1개 주관기관 단독 참여1개 주관",
+            "locator": "PDF p.2 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "e3473fae90697206b292",
+            "category": "cofunding",
+            "excerpt": "* ‘27년 사업운영방향에 따라 변경될 수 있음< 사업비 구성 >총 사업비정부지원금주관(협력)기관 대응자금*(현금, 현물)100%80%이내20%이상(현금** 10% 이상) * 지자체 등 외부기관으로부터 대응자금이 투입되는 경우, 대응자금 확약서(별도양식 없음)에 1인 창조기업 지원센터 또는 중장년 기술창업센터 사업 대응자금 투입을 목적으로 한다는 내용 명시 ** 센터 시설공간에 대한 임대료(보증금)를 제외하고",
+            "locator": "PDF p.2 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "4e468d24bff48b5d32e8",
+            "category": "amount",
+            "excerpt": "□ (지원내용) 1인창조기업지원센터,중장년기술창업센터운영·관리를위해소요되는창업프로그램운영비,사업화지원금,인건비등◦지원한도:총사업비의80%이내에서최대130백만원지원 * ‘27년 사업운영방향에 따라 변경될 수 있음< 사업비 구성 >총 사업비정부지원금주관(협력)기관 대응자금*(현금, 현물)100%80%이내20%이상(현금** 10% 이상) * 지자체 등 외부기관으로부터 대응자금이 투입되는 경우, 대응자금 확약서(별도",
+            "locator": "PDF p.2 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "03533e38b7115e83e3b4",
+            "category": "eligibility",
+            "excerpt": "주관(협력)기관 소속으로 대외적으로 센터를 대표하는 책임자로 상근 또는 비상근 근무총괄매니저1인 창조기업·중장년 기술창업기업 지원업무의 원활한 수행이 가능한 상근 근무자로 아래 자격요건을 갖춘 전담인력 * 별도의 상근 전담인력(행정매니저)을 두는 센터의 총괄매니저는 상근 겸직 가능",
+            "locator": "PDF p.3 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "dea8a12aa3685e3d0978",
+            "category": "amount",
+            "excerpt": "내용·기간□ (지원내용) 1인창조기업지원센터,중장년기술창업센터운영․관리및지원프로그램운영에소요되는운영비지원< 주관기관 정부지원금 구성 >비 목세목보조세목 세부내역직접비창업프로그램운영비입주(졸업)기업 교육 및 멘토링 등 창업프로그램 운영을 위해 소요되는 비용(일반수용비, 용역비, 임차료 등)선택형사업비입주(졸업)기업 사업화 및 판로개척 등을 지원하기 위한 선택형사업(용역, 전시회 컨퍼런스 참가비 및 지재권 취득,",
+            "locator": "PDF p.4 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "b50f9c86b10264145f73",
+            "category": "cofunding",
+            "excerpt": "위해 용역계약을 통해 대행시키는 비용복리후생비전담인력 4대 사회보험(의료보험, 산재보험, 고용보험, 국민연금)의 사업자부담금공공요금 및 제세사업 수행을 위한 통신, 우편요금 등여비국내여비사업 수행을 위한 사업담당자(겸직,전담) 국내여비국외여비사업 수행을 위한 전담인력 국외여비업무추진비사업 수행을 위한 회의 및 간담회비□ (지원기간) 주관기관지정기간은최대2년으로하되,매년운영성과를평가하여예산차등지원및연장여부결정 ",
+            "locator": "PDF p.4 / text-line 6",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "3d62e89c6e006691435c",
+            "category": "exclusion",
+            "excerpt": "보육센터신규사업자모집공고를통해2027년4월까지「중소기업창업지원법」제53조제1항에따른창업보육센터사업자로지정받아야함□ (제외대상) 주관기관및협력기관또는그대표자가다음각호의어느하나에해당되는경우선정제외",
+            "locator": "PDF p.5 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "5675d5225c1a1aa4c0e1",
+            "category": "exclusion",
+            "excerpt": "① 『국고보조금 통합관리지침』 제13조, 제4항 등 관계 법령·지침에 따른 결격사유에 해당할 경우② 채무불이행으로 규제 중이거나 부도, 화의, 법정관리 등 정상적으로 금융 거래가 곤란한 경우 * 단, 신청·접수 마감일(‘23.3.16.)까지 채무변제 완료 후 증빙이 가능한 자, 회생인가를 받은 기업, 중소벤처기업진흥공단으로부터 재창업자금을 지원받은 기업 등 정부·공공기관으로부터 재기지원 필요성을 인정받은 기업",
+            "locator": "PDF p.5 / text-line 4",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "aee9a7b85573fec256af",
+            "category": "deadline",
+            "excerpt": "할 경우② 채무불이행으로 규제 중이거나 부도, 화의, 법정관리 등 정상적으로 금융 거래가 곤란한 경우 * 단, 신청·접수 마감일(‘23.3.16.)까지 채무변제 완료 후 증빙이 가능한 자, 회생인가를 받은 기업, 중소벤처기업진흥공단으로부터 재창업자금을 지원받은 기업 등 정부·공공기관으로부터 재기지원 필요성을 인정받은 기업은 신청 가능③ 국세 또는 지방세 체납으로 규제 중인 경우④ 중소벤처기업부 창업지원사업에 ",
+            "locator": "PDF p.5 / text-line 4",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "59f6c675f3aa4ea03fc5",
+            "category": "deadline",
+            "excerpt": "❺접수방법□ (접수기간) 공고일～11.13(금),18:00까지□ (신청방법) 해당지역지방중소벤처기업청담당자이메일로신청 * 신청 후 유선으로 접수내역을 필히 확인 바랍니다.□ 문의처지방청연락처지방청연락처부산지방중소벤처기업청[연락처 생략]대전·[연락처 생략][연락처 생략]광주·전남지방중소벤처기업청[연락처 생략]충북지방중소벤처기",
+            "locator": "PDF p.7 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": true,
+            "context_warning": true
+          },
+          {
+            "id": "25fe0dbcb86ba857c380",
+            "category": "exclusion",
+            "excerpt": "요내용 1단계요건검토◾ 신청자격 충족여부 확인 - 제출서류를 바탕으로 대응자금, 지원시설, 전담인력 등 신청자격 및 신청 제외 여부 등을 검토2단계현장실태조사◾ 센터 현황 등 사업계획서 기재 내용 확인 - 평가 대상자의 센터입지(설치 예정지) 등을 방문하여 현장조사 실시 * 대내외 상황에 따라 서면으로 대체할 수 있음 3단계발표평가◾ 사업 추진의지 및 운영계획 적정성 여부를 종합적 확인 - 신청기관에 대하여 ",
+            "locator": "PDF p.8 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "1c4dcfa261d27335a97c",
+            "category": "documents",
+            "excerpt": "계획의적정성등사업역량을종합적으로평가< 평가단계별 주요내용 >구분 주요내용 1단계요건검토◾ 신청자격 충족여부 확인 - 제출서류를 바탕으로 대응자금, 지원시설, 전담인력 등 신청자격 및 신청 제외 여부 등을 검토2단계현장실태조사◾ 센터 현황 등 사업계획서 기재 내용 확인 - 평가 대상자의 센터입지(설치 예정지) 등을 방문하여 현장조사 실시 * 대내외 상황에 따라 서면으로 대체할 수 있음 3단계발표평가◾ 사업 추진",
+            "locator": "PDF p.8 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "9436de22d7af4cad24e6",
+            "category": "amount",
+            "excerpt": "❼유의사항◦사업참여신청서(사업계획서)허위기재또는누락한경우선정취소및정부사업참여제한,정부지원금환수등의조치를취할수있음◦공고문을정확히확인하지않아발생하는불이익및그에따른책임은신청기관에있음◦주관기관선정후사업수행에있어창업지원프로그램및인프라제공등이불성실한기관은선정취소및사업참여제한◦최종지원금액은조정가능하며,선정후사업수행과정에서참여조건미충족시협약이취소될수있음❽문의처◦정책문의:중소벤처기업부창업생태계과([연락처 생략],03h",
+            "locator": "PDF p.9 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": true,
+            "context_warning": true
+          },
+          {
+            "id": "a6aeff6212d141517abf",
+            "category": "cofunding",
+            "excerpt": " 월 일사업자등록번호법인등록번호주소대표자(남,여)전화번호FAXE-mail홈페이지http://총사업비(백만원)정부지원금기관부담금계소계주관기관참여기관",
+            "locator": "PDF p.10 / text-line 4",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "47388334b528a66ec6ca",
+            "category": "amount",
+            "excerpt": "일20 년 월 일사업자등록번호법인등록번호주소대표자(남,여)전화번호FAXE-mail홈페이지http://총사업비(백만원)정부지원금기관부담금계소계주관기관참여기관",
+            "locator": "PDF p.10 / text-line 4",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "1cea96850e82654fc94d",
+            "category": "documents",
+            "excerpt": "월일, 학력, 경력, 자격취득 현황 및 주요업무내용 등 작성 - 전문인력은 상근 여부를 추가 기재하고 자격 및 경력 증빙서류와 이력서를 별도제출",
+            "locator": "PDF p.11 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "표 열 순서·이미지·주석의 의미는 검토하지 않았습니다.",
+          "OCR 미수행"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
+    },
+    "eac79cd574c9d2e2e3d6c6d9": {
+      "id": "eac79cd574c9d2e2e3d6c6d9",
+      "program_id": "MSS-1072252",
+      "notice_source": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1072252",
+      "url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1072252&cbIdx=310&streFileNm=25a03638-cecc-4b01-9fc3-4eb444a4d8fc.hwpx",
+      "name": "25a03638-cecc-4b01-9fc3-4eb444a4d8fc.hwpx",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-04T11:53:40+09:00",
+      "last_success_at": "2026-11-04T11:53:40+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-11-04T11:53:40+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "577421ab05e7bdae7216cebf29f416cd58ef8e6bfe4bdd6b688b1aab4dfdb552",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "577421ab05e7bdae7216cebf29f416cd58ef8e6bfe4bdd6b688b1aab4dfdb552",
+      "sha256": "577421ab05e7bdae7216cebf29f416cd58ef8e6bfe4bdd6b688b1aab4dfdb552",
+      "extraction": {
+        "format": "hwpx",
+        "parser": "hwp-body/0.4.0",
+        "sha256": "577421ab05e7bdae7216cebf29f416cd58ef8e6bfe4bdd6b688b1aab4dfdb552",
+        "bytes": 105474,
+        "status": "text_extracted",
+        "text_characters": 8035,
+        "units": 355,
+        "text_sha256": "db933ae39b7c9f6f6385cf1e23bd23a11d650fcdfe09659e569c8f67b5adc91d",
+        "pages": null,
+        "sections": 1,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "135ea4905c1f00faec22",
+            "category": "eligibility",
+            "excerpt": "역량 있는 1인 창조기업과 중장년 (예비)창업기업 지원을 위해 창업지원 인프라와 보육역량을 갖추고 성공적 기술창업을 선도할 ｢1인 창조기업 지원센터｣와 ｢중장년 기술창업센터｣ 주관(협력)기관을 다음과 같이 모집합니다.",
+            "locator": "Contents/section0.xml / paragraph 5",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "32f6445e1cf7830b4792",
+            "category": "eligibility",
+            "excerpt": "※ 동 모집공고는 (예비) 1인 창조기업과 중장년 (예비)창업기업을 지원할 주관기관을 모집하는 공고문이며, 입주기업 모집은 주관기관별로 진행됩니다.",
+            "locator": "Contents/section0.xml / paragraph 11",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "05374891e75d8785aaaa",
+            "category": "eligibility",
+            "excerpt": "* 1인 창조기업 지원센터 미지정 지역인 세종특별자치시, 제주특별자치도, 충청북도 소재(사업자등록증 소재지 기준) 법인·단체만 신청 가능",
+            "locator": "Contents/section0.xml / paragraph 26",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "e34773b8fcd5cb0473af",
+            "category": "eligibility",
+            "excerpt": "* 중장년 기술창업센터 미지정 지역인 부산광역시, 대전광역시, 세종특별자치시 소재(사업자등록증 소재지 기준) 법인·단체만 신청 가능",
+            "locator": "Contents/section0.xml / paragraph 30",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "df498c33f1876c6004fb",
+            "category": "amount",
+            "excerpt": "□ (지원내용) 1인 창조기업 지원센터, 중장년 기술창업센터 운영·관리를 위해 소요되는 창업프로그램 운영비, 사업화 지원금, 인건비 등",
+            "locator": "Contents/section0.xml / paragraph 31",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "fb78cba545eb203ffb86",
+            "category": "amount",
+            "excerpt": "◦ 지원한도 : 총 사업비의 80% 이내에서 최대 130백만원 지원",
+            "locator": "Contents/section0.xml / paragraph 33",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "cd344e8571b8c48811e3",
+            "category": "amount",
+            "excerpt": "정부지원금",
+            "locator": "Contents/section0.xml / paragraph 40",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "df5e277b3c9f91006007",
+            "category": "cofunding",
+            "excerpt": "주관(협력)기관 대응자금*(현금, 현물)",
+            "locator": "Contents/section0.xml / paragraph 41",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "882e16cc5a3b9f9a79a0",
+            "category": "eligibility",
+            "excerpt": "신청 자격·요건",
+            "locator": "Contents/section0.xml / paragraph 53",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "19b316601ccc165149fc",
+            "category": "amount",
+            "excerpt": "< 주관기관 정부지원금 구성 >",
+            "locator": "Contents/section0.xml / paragraph 127",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "bf608a6862daebd43d80",
+            "category": "cofunding",
+            "excerpt": "전담인력 4대 사회보험(의료보험, 산재보험, 고용보험, 국민연금)의 사업자부담금",
+            "locator": "Contents/section0.xml / paragraph 164",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "07fcc1cef0bd6d9c8132",
+            "category": "exclusion",
+            "excerpt": "□ (제외대상) 주관기관 및 협력기관 또는 그 대표자가 다음 각 호의 어느 하나에 해당되는 경우 선정 제외",
+            "locator": "Contents/section0.xml / paragraph 180",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "22e18f1430d7c7947586",
+            "category": "exclusion",
+            "excerpt": "① 『국고보조금 통합관리지침』 제13조, 제4항 등 관계 법령·지침에 따른 결격사유에 해당할 경우",
+            "locator": "Contents/section0.xml / paragraph 183",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "f77351caae25caee9c60",
+            "category": "deadline",
+            "excerpt": "* 단, 신청·접수 마감일(‘23.3.16.)까지 채무변제 완료 후 증빙이 가능한 자, 회생인가를 받은 기업, 중소벤처기업진흥공단으로부터 재창업자금을 지원받은 기업 등 정부·공공기관으로부터 재기지원 필요성을 인정받은 기업은 신청 가능",
+            "locator": "Contents/section0.xml / paragraph 185",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "170c5ce29fc2e8f888ad",
+            "category": "exclusion",
+            "excerpt": "③ 국세 또는 지방세 체납으로 규제 중인 경우",
+            "locator": "Contents/section0.xml / paragraph 186",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "5ba7ad6b2cd9a14c30b8",
+            "category": "deadline",
+            "excerpt": "□ (접수기간) 공고일 ～ 11. 13(금), 18:00까지",
+            "locator": "Contents/section0.xml / paragraph 244",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "ae3841bab12b61b81f64",
+            "category": "exclusion",
+            "excerpt": "- 제출서류를 바탕으로 대응자금, 지원시설, 전담인력 등 신청자격 및 신청 제외 여부 등을 검토",
+            "locator": "Contents/section0.xml / paragraph 331",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "48b98272f3a45966d5f7",
+            "category": "documents",
+            "excerpt": "- 제출서류를 바탕으로 대응자금, 지원시설, 전담인력 등 신청자격 및 신청 제외 여부 등을 검토",
+            "locator": "Contents/section0.xml / paragraph 331",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "b4e8b5934294e250023a",
+            "category": "amount",
+            "excerpt": "◦ 사업 참여신청서(사업계획서) 허위기재 또는 누락한 경우 선정취소 및 정부 사업 참여제한, 정부 지원금 환수 등의 조치를 취할 수 있음",
+            "locator": "Contents/section0.xml / paragraph 378",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "38a2106df6a9fd050e74",
+            "category": "cofunding",
+            "excerpt": "기관부담금",
+            "locator": "Contents/section0.xml / paragraph 428",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "d2597039c08a523651d3",
+            "category": "documents",
+            "excerpt": "- 전문인력은 상근 여부를 추가 기재하고 자격 및 경력 증빙서류와 이력서를 별도제출",
+            "locator": "Contents/section0.xml / paragraph 493",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "구역·문단 위치는 실제 인쇄 쪽번호가 아닙니다.",
+          "표 셀 관계·그림·각주 의미는 미검토"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
+    },
+    "18dcb2bc2bcc6d93ffde70ea": {
+      "id": "18dcb2bc2bcc6d93ffde70ea",
+      "program_id": "NIPA-16866",
+      "notice_source": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16866&tab=2",
+      "url": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16866&tab=2",
+      "name": "붙임_1._특화_인공지능_파운데이션_모델_개발(사이버보안_분야)_사업_공고문.hwp",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-04T11:53:40+09:00",
+      "last_success_at": "2026-11-04T11:53:40+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-11-04T11:53:40+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "3bb9ff3870094af6ec04498648f98e62d7bc475e2b95c7954e6586dfcbb073ab",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "3bb9ff3870094af6ec04498648f98e62d7bc475e2b95c7954e6586dfcbb073ab",
+      "sha256": "3bb9ff3870094af6ec04498648f98e62d7bc475e2b95c7954e6586dfcbb073ab",
+      "extraction": {
+        "format": "hwp",
+        "parser": "olefile/0.47+hwp-body/0.4.0",
+        "sha256": "3bb9ff3870094af6ec04498648f98e62d7bc475e2b95c7954e6586dfcbb073ab",
+        "bytes": 137728,
+        "status": "text_extracted",
+        "text_characters": 2931,
+        "units": 119,
+        "text_sha256": "c54c365c588152e5b3cd24fb8b46085acce7cd29d75c0d7956028c12ba8377d7",
+        "pages": null,
+        "sections": 1,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "8bb7f41cc445a9a4d968",
+            "category": "eligibility",
+            "excerpt": "□ (지원대상) 국내 AI·사이버보안 관련 기업‧대학·연구기관 등(컨소시엄 가능)",
+            "locator": "BodyText/Section0 / record 124 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "c7466d258aba5a30aa26",
+            "category": "amount",
+            "excerpt": "※ 연구기관은 「과학기술분야 정부출연연구기관 등의 설립·운영 및 육성에 관한 법률」 제2조에 따른 연구기관을 의미",
+            "locator": "BodyText/Section0 / record 136 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "9f82c4c3acd8d0ff629f",
+            "category": "amount",
+            "excerpt": "□ (지원규모) 과제당 GPU(B200) 256장(32노드), 총 1개 과제",
+            "locator": "BodyText/Section0 / record 147 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "c9e3476e829e703816fd",
+            "category": "amount",
+            "excerpt": "지원규모 및 지원기간",
+            "locator": "BodyText/Section0 / record 187 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "d240d0ad58ba983684f4",
+            "category": "amount",
+            "excerpt": "GPU 지원규모",
+            "locator": "BodyText/Section0 / record 206 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "16d8dcf3048f537967b1",
+            "category": "amount",
+            "excerpt": "※ 지원 기간 및 지원 규모는 대내외 환경 등에 따라 조정될 수 있으며, 단계평가를 통해 2단계 지원 여부 결정 예정",
+            "locator": "BodyText/Section0 / record 231 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "041f91a40dba0bf91d9d",
+            "category": "eligibility",
+            "excerpt": "※ 지원과제 개요, 지원자격, 지원대상, 지원내용 등 공고",
+            "locator": "BodyText/Section0 / record 312 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "120be4cc02f9b1c2732a",
+            "category": "cofunding",
+            "excerpt": "ㆍ자부담 납부",
+            "locator": "BodyText/Section0 / record 440 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "0d78bd91622f6506e14f",
+            "category": "cofunding",
+            "excerpt": "ㆍ사업비(민간부담금) 집행 중간 점검, 현장점검(12월)",
+            "locator": "BodyText/Section0 / record 512 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "7f9d8aacfa438dc00b5f",
+            "category": "cofunding",
+            "excerpt": "ㆍ사업비(민간부담금) 집행 중간점검, 현장점검(5월)",
+            "locator": "BodyText/Section0 / record 634 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "9b4127abfd36e4f4c9d6",
+            "category": "documents",
+            "excerpt": "- 사업공고(www.nipa.kr) → 특화 인공지능 파운데이션 모델 개발 사업 → ‘사업계획서 작성안내 및 제출서류(양식)’ 다운로드 후 작성",
+            "locator": "BodyText/Section0 / record 755 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "26a33605581cd67e2e68",
+            "category": "deadline",
+            "excerpt": "ㅇ 전산 접수 마감시한 : 2026. 8. 21.(금) 14:00 까지",
+            "locator": "BodyText/Section0 / record 762 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "1280b66cad82d9254f61",
+            "category": "deadline",
+            "excerpt": " 마감시한 이후엔 접수가 불가하며, 마감시한에 접수가 집중될 경우 접수가 원활하게 진행되지 않을 수 있으므로 가급적 접수마감 1~2일 전까지 접수완료 요망",
+            "locator": "BodyText/Section0 / record 792 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "구역·레코드 위치는 실제 인쇄 쪽번호가 아닙니다.",
+          "표·그림·각주 의미와 문서의 모든 제외조건은 미검토"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
+    },
+    "5f84109d11118840b6f5d33b": {
+      "id": "5f84109d11118840b6f5d33b",
+      "program_id": "NIPA-16866",
+      "notice_source": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16866&tab=2",
+      "url": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16866&tab=2",
+      "name": "붙임_4._제출서류_양식.hwp",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-04T11:53:40+09:00",
+      "last_success_at": "2026-11-04T11:53:40+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-11-04T11:53:40+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "24a23822ae3c72734a02e3ad8d4c20e78ce6d2d0f4584d8033eab27ceb9a6d56",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "24a23822ae3c72734a02e3ad8d4c20e78ce6d2d0f4584d8033eab27ceb9a6d56",
+      "sha256": "24a23822ae3c72734a02e3ad8d4c20e78ce6d2d0f4584d8033eab27ceb9a6d56",
+      "extraction": {
+        "format": "hwp",
+        "parser": "olefile/0.47+hwp-body/0.4.0",
+        "sha256": "24a23822ae3c72734a02e3ad8d4c20e78ce6d2d0f4584d8033eab27ceb9a6d56",
+        "bytes": 161280,
+        "status": "text_extracted",
+        "text_characters": 11324,
+        "units": 574,
+        "text_sha256": "81ceab2db723a4644b5265b6aa55205f07da82110f7f51c1f167137b80af352c",
+        "pages": null,
+        "sections": 1,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "121828d40875bf424867",
+            "category": "documents",
+            "excerpt": "제출서류 양식",
+            "locator": "BodyText/Section0 / record 74 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "ee796c52d1cab8b5c8f0",
+            "category": "documents",
+            "excerpt": "[ 과제지원 시 제출서류 목록 ]",
+            "locator": "BodyText/Section0 / record 104 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "e45cc1ab00cbd6839cd0",
+            "category": "documents",
+            "excerpt": "필수 제출 서류 목록",
+            "locator": "BodyText/Section0 / record 115 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "66d6e07f2a1adfceb647",
+            "category": "cofunding",
+            "excerpt": "5. 현금부담 및 현금출자 확약서",
+            "locator": "BodyText/Section0 / record 229 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "877ccf872732dd517057",
+            "category": "eligibility",
+            "excerpt": "10. 과제 신청 자격요건 사전 자기점검표",
+            "locator": "BodyText/Section0 / record 333 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "92e9a8275d3a1550046d",
+            "category": "overlap",
+            "excerpt": "12. AI 데이터 중복지원 방지 확약서",
+            "locator": "BodyText/Section0 / record 373 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "c75c8debd95ea2026c36",
+            "category": "exclusion",
+            "excerpt": "※ 필수 제출서류 일부라도 누락 시 지원 제외 조치",
+            "locator": "BodyText/Section0 / record 448 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "f0ca273c9de1ba1fd64c",
+            "category": "documents",
+            "excerpt": "※ 필수 제출서류 일부라도 누락 시 지원 제외 조치",
+            "locator": "BodyText/Section0 / record 448 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "af252c00423fde926a8d",
+            "category": "documents",
+            "excerpt": "※ 위 제출서류는 사업자 선정에 필요한 최소한의 서류로 선정이 확정된 기업(기관)은 추후 협약 시 추가 서류를 요청할 수 있음 (협약 시 보증보험각서, 4대보험사업장 가입자명부, 청렴이행각서, 보안서약서 등 제출)",
+            "locator": "BodyText/Section0 / record 452 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "f39e0cc06c807c88fefb",
+            "category": "eligibility",
+            "excerpt": "모델 개발(사이버 보안 분야) 사업’ 수행을 위하여 사업 수행계획서의 사업 내용에 동의하고, 본 과제의 심의를 거쳐 지원 대상으로 선정될 시 정보통신진흥기금 운용‧관리규정 등 관련 규정에 의거하여 과제를 성실히 수행할 것을 확약하며, 상기 확약 사실을 위반하였을 경우 선정 제외 및 방송통신진흥기금 운용 관리 등 관련 규정 및 법령에 따른 참여 제한 등의 제재조치를 감수할 것을 확약합니다.",
+            "locator": "BodyText/Section0 / record 936 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "82343e7918203cbb4497",
+            "category": "cofunding",
+            "excerpt": "[서식 3] 사업수행기관 현금부담 및 현물출자 확약서",
+            "locator": "BodyText/Section0 / record 988 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "d0771ca0dc65b4a6a211",
+            "category": "cofunding",
+            "excerpt": "현금부담 및 현물출자 확약서",
+            "locator": "BodyText/Section0 / record 999 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "ed525470963a2962f998",
+            "category": "amount",
+            "excerpt": "정부출연금",
+            "locator": "BodyText/Section0 / record 1101 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "bc871e0b832ea7e7aafb",
+            "category": "cofunding",
+            "excerpt": "□ 현물 부담금 총괄표",
+            "locator": "BodyText/Section0 / record 1157 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "5aa7dde61982fd8ea585",
+            "category": "cofunding",
+            "excerpt": "장비, 시설 등 기타 현물",
+            "locator": "BodyText/Section0 / record 1205 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "aae3d9981281e110b7f7",
+            "category": "amount",
+            "excerpt": " 성명, 생년월일, 근무기관, 주소, 전화번호, 학력(학교, 전공, 학위, 연구분야 등), 경력, 특허/논문 실적, 정부출연사업 수행실적, 현재 수행중인 정부출연사업 전체 참여율 등에 대한 인적사항",
+            "locator": "BodyText/Section0 / record 1903 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "c733dbd435fd13417174",
+            "category": "amount",
+            "excerpt": "✓ 정부출연사업 등의 사업 참여율 합계 확인",
+            "locator": "BodyText/Section0 / record 1959 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "773f4ff3b1ada07d0fe6",
+            "category": "amount",
+            "excerpt": "④ 제공하는 개인정보 항목 : 성명, 근무기관, 학력(학교, 전공, 학위, 연구분야 등), 경력, 특허/논문 실적, 정부출연사업 수행실적, 현재 수행중인 정부출연사업 참여율",
+            "locator": "BodyText/Section0 / record 1985 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "044d6a313a7b12a84f1b",
+            "category": "eligibility",
+            "excerpt": "[서식 5] 과제 신청 자격요건 사전 자기점검표",
+            "locator": "BodyText/Section0 / record 2656 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "0944a3dd6985d16a731f",
+            "category": "eligibility",
+            "excerpt": "과제 신청 자격요건 사전 자기점검표",
+            "locator": "BodyText/Section0 / record 2663 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "6732638cb12aeb1145c2",
+            "category": "eligibility",
+            "excerpt": "신청인은 과제 신청을 위해 신청자격 제한여부에 해당하는지를 스스로 점검하시고, 해당 란에 표시()하여 주십시오.",
+            "locator": "BodyText/Section0 / record 2670 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "d18b93364b1293065320",
+            "category": "exclusion",
+            "excerpt": "4. 사전 지원제외 대상 여부",
+            "locator": "BodyText/Section0 / record 2772 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "336672ec6e875e95c2ed",
+            "category": "exclusion",
+            "excerpt": "√ 현재 신청인은 세무당국에 의하여 국세, 지방세 등의 체납처분을 받았나요?",
+            "locator": "BodyText/Section0 / record 2799 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "03259bbfeadcc17cbd28",
+            "category": "overlap",
+            "excerpt": "5. 과제 중복 지원 여부",
+            "locator": "BodyText/Section0 / record 2868 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "구역·레코드 위치는 실제 인쇄 쪽번호가 아닙니다.",
+          "표·그림·각주 의미와 문서의 모든 제외조건은 미검토"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
+    },
+    "88d657121fde016fb11b914b": {
+      "id": "88d657121fde016fb11b914b",
+      "program_id": "NIPA-16866",
+      "notice_source": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16866&tab=2",
+      "url": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16866&tab=2",
+      "name": "붙임_3._특화_인공지능_파운데이션_모델_개발(사이버_보안_분야)_사업계획서(양식).hwp",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
+    },
+    "abbb6856d5b954c00bec09b8": {
+      "id": "abbb6856d5b954c00bec09b8",
+      "program_id": "NIPA-16866",
+      "notice_source": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16866&tab=2",
+      "url": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16866&tab=2",
+      "name": "붙임_2._특화_인공지능_파운데이션_모델_개발(사이버보안_분야)_사업_공모_안내서.hwp",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
     }
   },
   "run": {
-    "at": "2026-11-03T12:50:55+09:00",
+    "at": "2026-11-04T11:53:40+09:00",
     "status": "partial",
     "notices_attempted": 3,
     "notices_success": 3,
@@ -5619,6 +6623,6 @@
     "failed": 0,
     "changed": 0,
     "sources_skipped": [],
-    "eligible_candidates": 20
+    "eligible_candidates": 21
   }
 }

@@ -1,8 +1,8 @@
 {
   "schema": "public-funding-conditions/v1",
   "version": "0.3.0",
-  "generated_at": "2026-11-03T12:49:33+09:00",
-  "input_fingerprint": "0ce9d9a7901f9772a6554765376be0eeebd6b6520e0378c569d1a41316966b4b",
+  "generated_at": "2026-11-04T11:52:32+09:00",
+  "input_fingerprint": "12be4a6cd7233d6ae9cb5e5894c1ef0fe3db23cec024a90cac006842e799cd55",
   "disclaimer": "요약에서 확인한 조건만 판정합니다. 자동 추출은 미검증 후보이며 기관의 최종 심사를 대체하지 않습니다.",
   "records": {
     "IBK-2027-1": {
@@ -4933,6 +4933,114 @@
         "amount": "지원금액 · 공고 원문 확인 필요",
         "opens": "2026-10-30",
         "deadline": "2026-11-26"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000127657": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000127657",
+      "basis_fingerprint": "3248b2e486f80ebdc95fe68882b28385e1bc178573e31b39befb472536dc9fe8",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000127657",
+        "title": "[경북] 구미시 2026년 문화로 창업지원사업 참여 창업자 모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127657",
+        "year": 2026,
+        "eligibility": "창업벤처",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": "2026-11-02",
+        "deadline": "2026-11-11"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000127652": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000127652",
+      "basis_fingerprint": "cbc9f0865e79487b44bb628b7b06bb39a1d9449ec261861b64d290f2b8e48464",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000127652",
+        "title": "2026년 SK텔레콤 협력형 세종시 사회적 배려 대상자 AIㆍ디지털 건강케어 실증 참여기업 모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127652",
+        "year": 2026,
+        "eligibility": "창업벤처",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": "2026-11-02",
+        "deadline": "2026-11-23"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000127647": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000127647",
+      "basis_fingerprint": "c0f3a291db3583666d10daa7df3541a49ee352782285a8ec62594ab9b7fd83f0",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000127647",
+        "title": "2026년 AX실증밸리조성(R&D) 사업 신규지원 대상과제 재공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127647",
+        "year": 2026,
+        "eligibility": "중소기업",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": "2026-11-03",
+        "deadline": "2026-11-16"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000127641": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000127641",
+      "basis_fingerprint": "59eb391ae8a44d3c70ede01173effd954c5507f632144cabfddfd95e91a848a0",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000127641",
+        "title": "2027년 초기창업ㆍ창업도약 패키지 사업 신규 주관기관 모집 수정 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127641",
+        "year": 2027,
+        "eligibility": "중소기업",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": "2026-10-30",
+        "deadline": "2026-11-23"
       },
       "coverage": "unreviewed",
       "metadata_state": "current",

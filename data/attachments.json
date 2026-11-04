@@ -1,9 +1,9 @@
 {
   "schema": "public-funding-attachments/v1",
   "version": "0.4.0",
-  "generated_at": "2026-11-03T12:51:27+09:00",
+  "generated_at": "2026-11-04T11:54:00+09:00",
   "run": {
-    "at": "2026-11-03T12:51:27+09:00",
+    "at": "2026-11-04T11:54:00+09:00",
     "notice_success": 3,
     "notice_failed": 0,
     "attempted": 4,
@@ -13,7 +13,7 @@
     "failed": 0,
     "changed": 0,
     "manifest_changed": 0,
-    "queued_total": 136,
+    "queued_total": 142,
     "new_attempted": 3,
     "retry_attempted": 1,
     "revisit_attempted": 0,
@@ -6515,12 +6515,19 @@
       "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120418",
       "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000750023&fileSn=0",
       "name": "다운로드",
-      "status": "download_failed",
-      "last_attempt_at": "2026-10-30T09:24:55+09:00",
-      "last_success_at": null,
-      "last_error": "download_failed",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-04T11:54:00+09:00",
+      "last_success_at": "2026-11-04T11:54:00+09:00",
+      "last_error": null,
       "review_required": false,
       "history": [
+        {
+          "at": "2026-11-04T11:54:00+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "ce96bd5c8ade8ccb529024bfb9eba1eb88ecfcb263db2d2f9dac2a7137f7905b",
+          "http_status": null,
+          "failure_kind": null
+        },
         {
           "at": "2026-10-30T09:24:55+09:00",
           "status": "download_failed",
@@ -6530,8 +6537,112 @@
         }
       ],
       "http_status": null,
-      "failure_kind": "network_error",
-      "retryable": true
+      "failure_kind": null,
+      "retryable": false,
+      "observed_sha256": "ce96bd5c8ade8ccb529024bfb9eba1eb88ecfcb263db2d2f9dac2a7137f7905b",
+      "sha256": "ce96bd5c8ade8ccb529024bfb9eba1eb88ecfcb263db2d2f9dac2a7137f7905b",
+      "extraction": {
+        "format": "hwp",
+        "parser": "olefile/0.47+hwp-body/0.4.0",
+        "sha256": "ce96bd5c8ade8ccb529024bfb9eba1eb88ecfcb263db2d2f9dac2a7137f7905b",
+        "bytes": 78848,
+        "status": "text_extracted",
+        "text_characters": 1703,
+        "units": 107,
+        "text_sha256": "f63729e5de0dd1c0a2bd0a78d5e184451a837fe02dece5f36dfe43115831cc1f",
+        "pages": null,
+        "sections": 1,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "d26411754e3d96b08409",
+            "category": "eligibility",
+            "excerpt": "김해의생명산업진흥원은 『창업기업 마케팅 역량강화 지원사업』의 원활한 추진을",
+            "locator": "BodyText/Section0 / record 29 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "2cabd4569f7dc09c3d03",
+            "category": "eligibility",
+            "excerpt": "김해의생명산업진흥원『창업기업 마케팅 역량강화 지원사업』담당 부서 및 사업위탁기관 담당부서",
+            "locator": "BodyText/Section0 / record 44 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "dfa5eaab7cd51d4fc215",
+            "category": "eligibility",
+            "excerpt": "『창업기업 마케팅 역량강화 지원사업』지원 기업의 기초 자료를 확보하여 대외 홍보 및 사업추진 및 평가 자료로 활용",
+            "locator": "BodyText/Section0 / record 55 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "907e6016c46d98692e42",
+            "category": "eligibility",
+            "excerpt": "거부할 경우 『창업기업 마케팅 역량강화 지원사업』 신청 자격 검토 및 선정 이후의 사업수행이 불가능한 관계로 사업신청이 불가함을 알려드립니다.",
+            "locator": "BodyText/Section0 / record 92 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "4b7e5df667f26800a927",
+            "category": "eligibility",
+            "excerpt": "창업기업 마케팅 역량강화 지원사업 [디자인 멘토링] 신청서",
+            "locator": "BodyText/Section0 / record 140 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "683b257229de70f78dc2",
+            "category": "amount",
+            "excerpt": "지원금 입금처",
+            "locator": "BodyText/Section0 / record 578 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "2acc3a90c15ac7798d18",
+            "category": "overlap",
+            "excerpt": "2026년 디자인 어워드 출품지원을 위한 신청서를 제출하며, 제출된 자료의 허위가 없음을 확인하고 법령위반, 중복수혜 등의 문제가 발생할 시 지원금 전액을 환금할 것을 확인합니다.",
+            "locator": "BodyText/Section0 / record 635 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "5d757b4424d68486ee6e",
+            "category": "amount",
+            "excerpt": "출품지원을 위한 신청서를 제출하며, 제출된 자료의 허위가 없음을 확인하고 법령위반, 중복수혜 등의 문제가 발생할 시 지원금 전액을 환금할 것을 확인합니다.",
+            "locator": "BodyText/Section0 / record 635 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "84387f6dadd886a5fb09",
+            "category": "documents",
+            "excerpt": "[붙임3-1] 증빙서류",
+            "locator": "BodyText/Section0 / record 661 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "구역·레코드 위치는 실제 인쇄 쪽번호가 아닙니다.",
+          "표·그림·각주 의미와 문서의 모든 제외조건은 미검토"
+        ]
+      }
     },
     "aa8e055fef6551190308c8d3": {
       "id": "aa8e055fef6551190308c8d3",
@@ -10938,6 +11049,348 @@
       "last_error": null,
       "review_required": false,
       "history": []
+    },
+    "5d7445e17413e89ba3a81103": {
+      "id": "5d7445e17413e89ba3a81103",
+      "program_id": "BIZINFO-PBLN_000000000125523",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125523",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000769477&fileSn=0",
+      "name": "다운로드",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-04T11:54:00+09:00",
+      "last_success_at": "2026-11-04T11:54:00+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-11-04T11:54:00+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "1641c50e419d27cec69b8cc21d1bc3e91823faa2181467add50f11d3c0057d4a",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "1641c50e419d27cec69b8cc21d1bc3e91823faa2181467add50f11d3c0057d4a",
+      "sha256": "1641c50e419d27cec69b8cc21d1bc3e91823faa2181467add50f11d3c0057d4a",
+      "extraction": {
+        "format": "pdf",
+        "parser": "pypdf/6.15.0",
+        "sha256": "1641c50e419d27cec69b8cc21d1bc3e91823faa2181467add50f11d3c0057d4a",
+        "bytes": 487414,
+        "status": "text_extracted",
+        "text_characters": 3716,
+        "units": 147,
+        "text_sha256": "6a7da3a479cd5a75833d60b4accd9b5d8a8f6bb0d211540a24f2af8715a118b3",
+        "pages": 5,
+        "sections": null,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "4d1350f6f9c8085f3416",
+            "category": "eligibility",
+            "excerpt": "재 시흥산업진흥원에서는 시흥시 소재 누구든 창의적이고 우수한 아이디어의 제품화 ( )",
+            "locator": "PDF p.1 / text-line 3",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "a0610c85ba5f5e929321",
+            "category": "eligibility",
+            "excerpt": "지원대상 ❍지원대상 ❍ 제한 없음 시흥시 관내 누구나 : ( )제한 없음 시흥시 관내 누구나 : ( )",
+            "locator": "PDF p.1 / text-line 10",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "8ea62893e8aa4c9cb4e6",
+            "category": "amount",
+            "excerpt": "지원규모 ❍지원규모 ❍ 시제품 제작 개사 내외 : 10시제품 제작 개사 내외 : 10",
+            "locator": "PDF p.1 / text-line 11",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "f238e39e1435e41515dc",
+            "category": "documents",
+            "excerpt": "- 신청시 제출서류신청시 제출서류",
+            "locator": "PDF p.2 / text-line 1",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "a6c09524824706011fef",
+            "category": "documents",
+            "excerpt": "제출서류 설명 비고",
+            "locator": "PDF p.2 / text-line 3",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "06e885a097e2993d94cb",
+            "category": "eligibility",
+            "excerpt": "- - 조사대상조사대상 : : 년 메이커스페이스 참여 기업 및 예비창업자 일반인2026 , 년 메이커스페이스 참여 기업 및 예비창업자 일반인2026 ,",
+            "locator": "PDF p.2 / text-line 21",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "0782001dd49095559d4a",
+            "category": "documents",
+            "excerpt": "- - 시흥산업진흥원은 제출서류에 대하여 보완을 요청할 수 있으며 참여자 기업 은 , ( )시흥산업진흥원은 제출서류에 대하여 보완을 요청할 수 있으며 참여자 기업 은 , ( )정당한정당한사유가 없는 한 이에 따라야 함 .사유가 없는 한 이에 따라야 함 .",
+            "locator": "PDF p.2 / text-line 26",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "1f3956e3d3a3dff41bd0",
+            "category": "eligibility",
+            "excerpt": "사업 지원대상 검토 평가 사업의 운영( ), ,",
+            "locator": "PDF p.5 / text-line 9",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "표 열 순서·이미지·주석의 의미는 검토하지 않았습니다.",
+          "OCR 미수행"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
+    },
+    "fe96c5de7ca4e094109dffea": {
+      "id": "fe96c5de7ca4e094109dffea",
+      "program_id": "BIZINFO-PBLN_000000000125523",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125523",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000769478&fileSn=0",
+      "name": "다운로드",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
+    },
+    "8df2865a733402bf13583608": {
+      "id": "8df2865a733402bf13583608",
+      "program_id": "BIZINFO-PBLN_000000000125560",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125560",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000769651&fileSn=0",
+      "name": "다운로드",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
+    },
+    "cf79f8f6b52b9170aa8460b4": {
+      "id": "cf79f8f6b52b9170aa8460b4",
+      "program_id": "BIZINFO-PBLN_000000000125560",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125560",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000769652&fileSn=0",
+      "name": "다운로드",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
+    },
+    "89c48d2c7e3dcdfe093efaa4": {
+      "id": "89c48d2c7e3dcdfe093efaa4",
+      "program_id": "BIZINFO-PBLN_000000000125634",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125634",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000769954&fileSn=2",
+      "name": "다운로드",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-04T11:54:00+09:00",
+      "last_success_at": "2026-11-04T11:54:00+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-11-04T11:54:00+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "90ecf513d875b311e014a19118a540c3fc896dc94dd989c6c145d9c16a3776e8",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "90ecf513d875b311e014a19118a540c3fc896dc94dd989c6c145d9c16a3776e8",
+      "sha256": "90ecf513d875b311e014a19118a540c3fc896dc94dd989c6c145d9c16a3776e8",
+      "extraction": {
+        "format": "pdf",
+        "parser": "pypdf/6.15.0",
+        "sha256": "90ecf513d875b311e014a19118a540c3fc896dc94dd989c6c145d9c16a3776e8",
+        "bytes": 266156,
+        "status": "text_extracted",
+        "text_characters": 3539,
+        "units": 23,
+        "text_sha256": "8fc2af7117d955402728f8acf2a3b408c9a62046445d0f417b4b10c970132629",
+        "pages": 7,
+        "sections": null,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "27b581ec4d5b23877a7d",
+            "category": "eligibility",
+            "excerpt": "강원특별자치도경제진흥원 공고 제2026-5호2026년「강원 지역 여성 창업기업 초기물품 지원사업」참여기업 모집 공고 (재)강원특별자치도경제진흥원(강원광역여성새로일하기센터)은 강원 지역 내 여성 초기 창업자의 안정적인 시장 안착 지원과 자립 기반 마련을 위한「강원 지역 여성 창업기업 초기물품 지원사업」을 다음과 같이 공고하오니 여성 초기 창업자들의 많은 참여 바랍니다. 2026년 8월 20일 (재)강원특별자치도",
+            "locator": "PDF p.1 / text-line 1",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "99f496f4982e1bb8c4ba",
+            "category": "cofunding",
+            "excerpt": " 지원내용 -창업 후 1년 이내인 기업 1개사 당 2,000천원 지원(최초 1회 지원) ※ 물품지원(지원금 70%, 자부담 30%) -지원물품:인테리어 및 업무용 컴퓨터,책상,책장,의자,소파 등 -제외업종*:숙박 및 음식 업종 사업체(사행성 업종 등 포함) * 단, 새일 센터를 통해 창업한 경우, 센터장이 적합하다고 인정하는 경우 예외적으로 지원 가능",
+            "locator": "PDF p.1 / text-line 1",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "b25a42a58256242de19b",
+            "category": "amount",
+            "excerpt": "(공동)대표자가 직업교육훈련, 창업동아리, 창업컨설팅 등 새일센터 프로그램에 참여한 증빙자료 및 기관 확인 필요 ❍ 지원규모: 총 20,000,000원 * 1개사 당 2,000,000원 지원 ❍ 지원내용 -창업 후 1년 이내인 기업 1개사 당 2,000천원 지원(최초 1회 지원) ※ 물품지원(지원금 70%, 자부담 30%) -지원물품:인테리어 및 업무용 컴퓨터,책상,책장,의자,소파 등 -제외업종*:숙박 및 음",
+            "locator": "PDF p.1 / text-line 1",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "b832d1cb189adc24155f",
+            "category": "documents",
+            "excerpt": " 후 1년 이내) ※ 창업기업의 (공동)대표자가 직업교육훈련, 창업동아리, 창업컨설팅 등 새일센터 프로그램에 참여한 증빙자료 및 기관 확인 필요 ❍ 지원규모: 총 20,000,000원 * 1개사 당 2,000,000원 지원 ❍ 지원내용 -창업 후 1년 이내인 기업 1개사 당 2,000천원 지원(최초 1회 지원) ※ 물품지원(지원금 70%, 자부담 30%) -지원물품:인테리어 및 업무용 컴퓨터,책상,책장,의자,",
+            "locator": "PDF p.1 / text-line 1",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "d2491b73bb0938d9237a",
+            "category": "deadline",
+            "excerpt": "(재)강원특별자치도경제진흥원장1 사업 개요 ❍ 사 업 명: 2026년 강원 지역 여성 창업기업 초기물품 지원사업 ❍ 신청기간: 2026. 8. ~ 12. * 단, 예산 소진 시 조기마감 ❍ 신청대상: 지역 내 새일센터를 통해 창업한 여성 창업기업 10개사 - 새일센터를 통해 창업한 기업(창업 후 1년 이내) ※ 창업기업의 (공동)대표자가 직업교육훈련, 창업동아리, 창업컨설팅 등 새일센터 프로그램에 참여한 증빙",
+            "locator": "PDF p.1 / text-line 1",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "18a45b076107f1b0ed6f",
+            "category": "documents",
+            "excerpt": "-접수방법:담당자 이메일 접수 ※ 강원광역새일센터 [연락처 생략] / [연락처 생략] -제출서류(필수)자체1.사업자등록증 1부2.환경 개선비용 및 구입 물품 견적서 1부3.새일센터 프로그램 참여 내역 증빙 서류 1부서식 활용(붙임 1) 기업 환경 개선 사업 신청서 1부(붙임 2) 고용 환경 개선 계획서 1부(붙임 3) 여성 근로자 및 여성 복지 현황표 1부(붙임 4) 여성 친화 진",
+            "locator": "PDF p.2 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": true,
+            "context_warning": true
+          },
+          {
+            "id": "a0fc4709db6c0d6f6930",
+            "category": "deadline",
+            "excerpt": " 일정 및 내용은 대내·외 상황에 따라 변경될 수 있음(변경 시 별도 안내 예정)2 주요 내용 ○신청 및 접수방법 -신청기간:2026.8.~예산 소진 시까지 -접수방법:담당자 이메일 접수 ※ 강원광역새일센터 [연락처 생략] / [연락처 생략] -제출서류(필수)자체1.사업자등록증 1부2.환경 개선비용 및 구입 물품 견적서 1부3.새일센터 프로그램 참여 내역 증빙 서류 1부서식 활용(",
+            "locator": "PDF p.2 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": true,
+            "context_warning": true
+          },
+          {
+            "id": "a1968feea5b5d7391c5a",
+            "category": "eligibility",
+            "excerpt": "가 항목심사 내용배점지원 타당성-새일센터를 통한 취업 연계 실적-향후 채용 약정의 구체성 및 확실성-새일센터를 통해 창업한 기업 여부-새일센터와의 협력 정도 50사업 계획 적절성-사업계획의 타당성-예산 편성의 적합성 30사업 효과성-여성 근로자 사기 진작 및 동기 부여 도움 여부-기업 환경 효과 장기 지속 가능 여부20총점 100",
+            "locator": "PDF p.3 / text-line 1",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "968da9bcbfb3af8b6ca2",
+            "category": "eligibility",
+            "excerpt": "붙임1 기업 환경 개선 사업 신청서※ 신청서 임의 수정 불가여성새로일하기센터 기업 환경 개선 사업 신청서(창업기업용)1. 신청인(사업주)사업장명대 표 자업종명 및 상시근로자 수 주 생산품사업자등록번호담당자/전화번호주소 개업년월일새일센터를 통한 취업자 수 (인턴 연계자 포함) 최근 1년 00명최근 2년 00명상시근로자 중 여성 비율(상시근로자 수)새일센터 창업자 여부여 □ 부 □ 창업자의 새일센터 참여 프로그램",
+            "locator": "PDF p.4 / text-line 1",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "표 열 순서·이미지·주석의 의미는 검토하지 않았습니다.",
+          "OCR 미수행"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
+    },
+    "67a03787a0b5de8513489cf8": {
+      "id": "67a03787a0b5de8513489cf8",
+      "program_id": "BIZINFO-PBLN_000000000125634",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125634",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000769955&fileSn=2",
+      "name": "다운로드",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-04T11:54:00+09:00",
+      "last_success_at": "2026-11-04T11:54:00+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-11-04T11:54:00+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "be192ac2151642d6e1ab0d13458025f3ed9dfa83b06c0652038afb4fe7daa7c4",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "be192ac2151642d6e1ab0d13458025f3ed9dfa83b06c0652038afb4fe7daa7c4",
+      "sha256": "be192ac2151642d6e1ab0d13458025f3ed9dfa83b06c0652038afb4fe7daa7c4",
+      "extraction": {
+        "format": "hwpx",
+        "parser": "hwp-body/0.4.0",
+        "sha256": "be192ac2151642d6e1ab0d13458025f3ed9dfa83b06c0652038afb4fe7daa7c4",
+        "bytes": 59967,
+        "status": "text_extracted",
+        "text_characters": 1881,
+        "units": 261,
+        "text_sha256": "35964b43ab384ae2ab962743064d8104e5425931af2d9b92089ab3f082212dda",
+        "pages": null,
+        "sections": 1,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "845f1ff3a89d9cf6a042",
+            "category": "eligibility",
+            "excerpt": "여성새로일하기센터 기업 환경 개선 사업 신청서(창업기업용)",
+            "locator": "Contents/section0.xml / paragraph 7",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "구역·문단 위치는 실제 인쇄 쪽번호가 아닙니다.",
+          "표 셀 관계·그림·각주 의미는 미검토"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
     }
   },
   "programs": {
@@ -11766,6 +12219,45 @@
       "document_ids": [
         "069618bb42d1aedd2da79695",
         "a30180faa26c14eba79db409"
+      ],
+      "review_required": false,
+      "last_error": null
+    },
+    "BIZINFO-PBLN_000000000125523": {
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125523",
+      "last_notice_attempt_at": "2026-11-04T11:54:00+09:00",
+      "last_notice_success_at": "2026-11-04T11:54:00+09:00",
+      "notice_status": "links_available",
+      "manifest_sha256": "3eacb279b327cecae1b7b6ed39da70ecb81869f12a92ec7b0c40681f53792125",
+      "document_ids": [
+        "5d7445e17413e89ba3a81103",
+        "fe96c5de7ca4e094109dffea"
+      ],
+      "review_required": false,
+      "last_error": null
+    },
+    "BIZINFO-PBLN_000000000125560": {
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125560",
+      "last_notice_attempt_at": "2026-11-04T11:54:00+09:00",
+      "last_notice_success_at": "2026-11-04T11:54:00+09:00",
+      "notice_status": "links_available",
+      "manifest_sha256": "328a8905e920b3a311a04bb571dcb86229de852964187663925ea57ec65ee68c",
+      "document_ids": [
+        "8df2865a733402bf13583608",
+        "cf79f8f6b52b9170aa8460b4"
+      ],
+      "review_required": false,
+      "last_error": null
+    },
+    "BIZINFO-PBLN_000000000125634": {
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125634",
+      "last_notice_attempt_at": "2026-11-04T11:54:00+09:00",
+      "last_notice_success_at": "2026-11-04T11:54:00+09:00",
+      "notice_status": "links_available",
+      "manifest_sha256": "d9d3e1790cb9d8fc51b2b62cf2ec2132c3ad74daea43f5d3da6748486136ec17",
+      "document_ids": [
+        "89c48d2c7e3dcdfe093efaa4",
+        "67a03787a0b5de8513489cf8"
       ],
       "review_required": false,
       "last_error": null

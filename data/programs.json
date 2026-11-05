@@ -1,6 +1,6 @@
 {
   "schema": "public-funding-radar/v1",
-  "generated_at": "2026-11-04T11:52:32+09:00",
+  "generated_at": "2026-11-05T12:04:58+09:00",
   "provenance": "공식기관 공개 공고 및 2026년 참고 제도. 2027년 미확정 사항은 자동 승격하지 않음.",
   "disclaimer": "본 자료는 신청·선정을 보장하지 않으며 최신 원문 확인 필요.",
   "items": [
@@ -4921,6 +4921,144 @@
         {
           "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000778576&fileSn=1",
           "name": "★★_261030_2027년도_초기창업·창업도약_패키지_사업__주관기관_모집공고_수정.pdf",
+          "status": "link_only_not_read"
+        }
+      ]
+    },
+    {
+      "id": "BIZINFO-PBLN_000000000127681",
+      "title": "K-푸드 위조상품 온라인플랫폼 AI 모니터링 및 차단 지원사업 참가기업 모집 공고",
+      "year": 2026,
+      "years": [],
+      "year_basis": "collection_year_inferred",
+      "kind": "경영",
+      "mode": "discovery",
+      "relevance": "ai",
+      "opens": "2026-11-02",
+      "deadline": "2026-11-16",
+      "deadline_precision": "date",
+      "application_period_raw": "2026-11-02 ~ 2026-11-16",
+      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127681",
+      "verified_at": "2026-11-05",
+      "amount": "지원금액 · 공고 원문 확인 필요",
+      "eligibility": "중소기업",
+      "note": "공식 API 목록 발견. 신청자격·지원금·첨부 조건은 검증 전입니다.",
+      "source_level": "official_api_index_not_full_application_verified",
+      "agency": "농림축산식품부",
+      "attachments": [
+        {
+          "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000778752&fileSn=0&fileSn=1&fileSn=2&fileSn=3",
+          "name": "원클릭_매뉴얼1.pdf@(신청서+양식)+K-푸드+위조상품+온라인플랫폼AI+모니터링+및+차단+지원사업1.hwpx@원클릭_매뉴얼3.pdf@원클릭_매뉴얼2.pdf",
+          "status": "link_only_not_read"
+        },
+        {
+          "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000778751&fileSn=0",
+          "name": "(공고문)+K-푸드+위조상품+온라인플랫폼AI+모니터링+및+차단+지원사업1.pdf",
+          "status": "link_only_not_read"
+        }
+      ]
+    },
+    {
+      "id": "BIZINFO-PBLN_000000000127680",
+      "title": "2026년 지역거점 AX 혁신 기술개발 사업 신규지원 대상과제 공고(공정ㆍ응용 솔루션 AX R&Dㆍ응용 제품 AX R&D)",
+      "year": 2026,
+      "years": [
+        2026
+      ],
+      "year_basis": "title",
+      "kind": "기술",
+      "mode": "discovery",
+      "relevance": "ai",
+      "opens": "2026-10-30",
+      "deadline": "2026-11-13",
+      "deadline_precision": "date",
+      "application_period_raw": "2026-10-30 ~ 2026-11-13",
+      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127680",
+      "verified_at": "2026-11-05",
+      "amount": "지원금액 · 공고 원문 확인 필요",
+      "eligibility": "중소기업",
+      "note": "공식 API 목록 발견. 신청자격·지원금·첨부 조건은 검증 전입니다.",
+      "source_level": "official_api_index_not_full_application_verified",
+      "agency": "보건복지부",
+      "attachments": [
+        {
+          "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000778740&fileSn=0&fileSn=1&fileSn=2",
+          "name": "[별첨] 차세대 AX 혁신제품 성과기준 및 인증·지정제도.hwpx@붙임 02. 연구개발계획서 등 관련양식.Zip@붙임 모음.zip",
+          "status": "link_only_not_read"
+        },
+        {
+          "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000778739&fileSn=0",
+          "name": "2026년 지역거점 AX 혁신 기술개발 사업 신규지원 대상과제 공고문_공정·응용 솔루션 AX R&D 응용 제품 AX R&D_KHIDI.pdf",
+          "status": "link_only_not_read"
+        }
+      ]
+    },
+    {
+      "id": "BIZINFO-PBLN_000000000127673",
+      "title": "2026년 1인 창조기업 지원센터ㆍ중장년 기술창업센터 신규 주관기관 모집 공고",
+      "year": 2026,
+      "years": [
+        2026
+      ],
+      "year_basis": "title",
+      "kind": "경영",
+      "mode": "operator",
+      "relevance": "startup_general",
+      "opens": "2026-11-03",
+      "deadline": "2026-11-13",
+      "deadline_precision": "date",
+      "application_period_raw": "2026-11-03 ~ 2026-11-13",
+      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127673",
+      "verified_at": "2026-11-05",
+      "amount": "지원금액 · 공고 원문 확인 필요",
+      "eligibility": "중소기업",
+      "note": "공식 API 목록 발견. 신청자격·지원금·첨부 조건은 검증 전입니다.",
+      "source_level": "official_api_index_not_full_application_verified",
+      "agency": "중소벤처기업부",
+      "attachments": [
+        {
+          "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000778727&fileSn=0",
+          "name": "2026년_1인_창조기업_지원센터‧중장년_기술창업센터_신규_주관기관_모집_공고.hwpx",
+          "status": "link_only_not_read"
+        },
+        {
+          "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000778726&fileSn=0",
+          "name": "2026년_1인_창조기업_지원센터‧중장년_기술창업센터_신규_주관기관_모집_공고.pdf",
+          "status": "link_only_not_read"
+        }
+      ]
+    },
+    {
+      "id": "BIZINFO-PBLN_000000000127669",
+      "title": "2027년 충북 청년농업인 스마트팜 창업 지원사업 공모",
+      "year": 2027,
+      "years": [
+        2027
+      ],
+      "year_basis": "title",
+      "kind": "창업",
+      "mode": "discovery",
+      "relevance": "startup_general",
+      "opens": "2026-11-09",
+      "deadline": "2026-12-31",
+      "deadline_precision": "date",
+      "application_period_raw": "2026-11-09 ~ 2026-12-31",
+      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127669",
+      "verified_at": "2026-11-05",
+      "amount": "지원금액 · 공고 원문 확인 필요",
+      "eligibility": "창업벤처",
+      "note": "공식 API 목록 발견. 신청자격·지원금·첨부 조건은 검증 전입니다.",
+      "source_level": "official_api_index_not_full_application_verified",
+      "agency": "충청북도",
+      "attachments": [
+        {
+          "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000778710&fileSn=0",
+          "name": "2027년 청년농업인 스마트팜 창업 지원사업 시행지침.hwpx",
+          "status": "link_only_not_read"
+        },
+        {
+          "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000778709&fileSn=0",
+          "name": "2027년 청년농업인 스마트팜 창업 지원사업 공모계획.hwpx",
           "status": "link_only_not_read"
         }
       ]

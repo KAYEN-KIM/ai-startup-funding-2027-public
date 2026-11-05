@@ -1,7 +1,7 @@
 {
   "schema": "public-funding-agency-evidence/v1",
   "version": "0.17.0",
-  "generated_at": "2026-11-04T11:53:40+09:00",
+  "generated_at": "2026-11-05T12:06:08+09:00",
   "model_calls": 0,
   "automatic_approval": false,
   "scope": "기관 직접 목록의 원문 최대 3건·첨부 최대 4건 순환 확인. 본문 추출은 조건 후보이며 신청자격·금액·중복지원·문서 완전성 검증이 아닙니다. 기존 공고와 검토 규칙은 수정하지 않습니다.",
@@ -98,9 +98,9 @@
       "source": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1071646",
       "title": "「2026년 스마트제조혁신 유공」 포상 후보자 모집 추가 공고",
       "listing_fingerprint": "66427605d60ba5142e2035b08198c603858def3a8d80b5436337c66b12d9dd0b",
-      "listing_seen_at": "2026-11-02T11:04:03+09:00",
-      "last_attempt_at": "2026-11-02T11:04:10+09:00",
-      "last_success_at": "2026-11-02T11:04:10+09:00",
+      "listing_seen_at": "2026-11-05T12:06:01+09:00",
+      "last_attempt_at": "2026-11-05T12:06:08+09:00",
+      "last_success_at": "2026-11-05T12:06:08+09:00",
       "status": "html_available",
       "last_error": null,
       "review_required": false,
@@ -121,6 +121,13 @@
         }
       ],
       "history": [
+        {
+          "at": "2026-11-05T12:06:08+09:00",
+          "status": "html_available",
+          "body_sha256": "9c6792dc87875cca4c169f2b3240b29755330c003f7ff9bfe030aa5dd21f2821",
+          "manifest_sha256": "e18299fdfba89c2dafa495d6bc78962acf08c4ee2961d80f5fbe3e7bb6455ec0",
+          "error": null
+        },
         {
           "at": "2026-11-02T11:04:10+09:00",
           "status": "html_available",
@@ -472,9 +479,9 @@
       "source": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1071648",
       "title": "2027년 초격차 스타트업 프로젝트 정부 첫 실증·구매 프로젝트 주관기관 모집공고",
       "listing_fingerprint": "ce665a0eca5309e6a7a42def3dd752238810f12b8b3b6a6cc0fddfb5d1d6cf62",
-      "listing_seen_at": "2026-11-01T10:49:45+09:00",
-      "last_attempt_at": "2026-11-01T10:49:52+09:00",
-      "last_success_at": "2026-11-01T10:49:52+09:00",
+      "listing_seen_at": "2026-11-05T12:06:01+09:00",
+      "last_attempt_at": "2026-11-05T12:06:08+09:00",
+      "last_success_at": "2026-11-05T12:06:08+09:00",
       "status": "html_available",
       "last_error": null,
       "review_required": false,
@@ -495,6 +502,13 @@
         }
       ],
       "history": [
+        {
+          "at": "2026-11-05T12:06:08+09:00",
+          "status": "html_available",
+          "body_sha256": "6aef637dcdcd0a8a3c1f05349962a539fe639a194c026db904721cb777b163bd",
+          "manifest_sha256": "f649f8b021066938b80be74330d833fd45ff664a5c076cfcf827cae0fba5c4a6",
+          "error": null
+        },
         {
           "at": "2026-11-01T10:49:52+09:00",
           "status": "html_available",
@@ -809,6 +823,45 @@
           "status": "html_available",
           "body_sha256": "4ea51de77350f0e175fe17c99b4af21abc6dccd70c7e8a64fa028a75bf86996f",
           "manifest_sha256": "841c9f215503a3ff4db8e047b2b835d2a72d913ce94d6f7c6d772bd74b5efb03",
+          "error": null
+        }
+      ],
+      "unhandled_links": 2
+    },
+    "NIPA-16852": {
+      "id": "NIPA-16852",
+      "agency_id": "nipa",
+      "source": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16852&tab=2",
+      "title": "전 국민 AI 서비스 보편적 활용 지원(모두의 AI) 사업 공고",
+      "listing_fingerprint": "25512296de14b11970e6fa3722a338629fa95953c56a192ac0eaf622a5574ada",
+      "listing_seen_at": "2026-11-05T12:06:01+09:00",
+      "last_attempt_at": "2026-11-05T12:06:08+09:00",
+      "last_success_at": "2026-11-05T12:06:08+09:00",
+      "status": "html_available",
+      "last_error": null,
+      "review_required": false,
+      "body_sha256": "0f0e2476ec9f6b715f77d586c6137f9974a3a4aa388af1c5294be354beb1723e",
+      "manifest_sha256": "edc45e5443eecfc835b09f88bd1b2f6b9d4081796adb6f7ad8e904ae6be1373c",
+      "documents": [
+        {
+          "id": "1ae791718a4004ebb99c040e",
+          "name": "[붙임1] 전 국민 AI 서비스 보편적 활용 지원(모두의 AI) 사업 공모안내서_F.hwpx",
+          "public_url": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16852&tab=2",
+          "locator": "공고 첨부파일 목록 / [붙임1] 전 국민 AI 서비스 보편적 활용 지원(모두의 AI) 사업 공모안내서_F.hwpx"
+        },
+        {
+          "id": "315f8b321383fa25d89181f1",
+          "name": "[공고문] 전 국민 AI 서비스 보편적 활용 지원(모두의 AI) 사업 공고문_F.hwpx",
+          "public_url": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16852&tab=2",
+          "locator": "공고 첨부파일 목록 / [공고문] 전 국민 AI 서비스 보편적 활용 지원(모두의 AI) 사업 공고문_F.hwpx"
+        }
+      ],
+      "history": [
+        {
+          "at": "2026-11-05T12:06:08+09:00",
+          "status": "html_available",
+          "body_sha256": "0f0e2476ec9f6b715f77d586c6137f9974a3a4aa388af1c5294be354beb1723e",
+          "manifest_sha256": "edc45e5443eecfc835b09f88bd1b2f6b9d4081796adb6f7ad8e904ae6be1373c",
           "error": null
         }
       ],
@@ -1362,11 +1415,18 @@
       "url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1071646&cbIdx=310&streFileNm=2ee810a5-6230-4d39-8285-e0f2542b221f.pdf",
       "name": "2ee810a5-6230-4d39-8285-e0f2542b221f.pdf",
       "status": "text_extracted",
-      "last_attempt_at": "2026-10-30T20:57:46+09:00",
-      "last_success_at": "2026-10-30T20:57:46+09:00",
+      "last_attempt_at": "2026-11-05T12:06:08+09:00",
+      "last_success_at": "2026-11-05T12:06:08+09:00",
       "last_error": null,
       "review_required": false,
       "history": [
+        {
+          "at": "2026-11-05T12:06:08+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "9179d78cd0e77993359f16530186122176d435bf96935c0a8632c252021952e4",
+          "http_status": null,
+          "failure_kind": null
+        },
         {
           "at": "2026-10-30T20:57:46+09:00",
           "status": "text_extracted",
@@ -1517,11 +1577,18 @@
       "url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1071646&cbIdx=310&streFileNm=272801bf-0749-4e48-aca7-ab6a8e09ef85.hwpx",
       "name": "272801bf-0749-4e48-aca7-ab6a8e09ef85.hwpx",
       "status": "text_extracted",
-      "last_attempt_at": "2026-10-30T20:57:46+09:00",
-      "last_success_at": "2026-10-30T20:57:46+09:00",
+      "last_attempt_at": "2026-11-05T12:06:08+09:00",
+      "last_success_at": "2026-11-05T12:06:08+09:00",
       "last_error": null,
       "review_required": false,
       "history": [
+        {
+          "at": "2026-11-05T12:06:08+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "716c2e4b73054b91735a94524517e402b4ad25b0a512eb73b88c3656e36651aa",
+          "http_status": null,
+          "failure_kind": null
+        },
         {
           "at": "2026-10-30T20:57:46+09:00",
           "status": "text_extracted",
@@ -6608,10 +6675,392 @@
       "last_error": null,
       "review_required": false,
       "history": []
+    },
+    "1ae791718a4004ebb99c040e": {
+      "id": "1ae791718a4004ebb99c040e",
+      "program_id": "NIPA-16852",
+      "notice_source": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16852&tab=2",
+      "url": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16852&tab=2",
+      "name": "[붙임1] 전 국민 AI 서비스 보편적 활용 지원(모두의 AI) 사업 공모안내서_F.hwpx",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-05T12:06:08+09:00",
+      "last_success_at": "2026-11-05T12:06:08+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-11-05T12:06:08+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "596f835123bb31bd0aba8e198124874697c1e8f729de3709b53ba856088c8510",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "596f835123bb31bd0aba8e198124874697c1e8f729de3709b53ba856088c8510",
+      "sha256": "596f835123bb31bd0aba8e198124874697c1e8f729de3709b53ba856088c8510",
+      "extraction": {
+        "format": "hwpx",
+        "parser": "hwp-body/0.4.0",
+        "sha256": "596f835123bb31bd0aba8e198124874697c1e8f729de3709b53ba856088c8510",
+        "bytes": 290646,
+        "status": "text_extracted",
+        "text_characters": 27573,
+        "units": 973,
+        "text_sha256": "1106647f270d91554e52805b4b59e852f9bb36f863a31147ab3eb7c8c8bbd321",
+        "pages": null,
+        "sections": 2,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "943739bd1b9ec3a2d094",
+            "category": "cofunding",
+            "excerpt": "2. 자부담금 매칭 15",
+            "locator": "Contents/section1.xml / paragraph 25",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "70afa0ee0a965963a3dc",
+            "category": "cofunding",
+            "excerpt": "3. 자부담금 사업비 편성 기준 17",
+            "locator": "Contents/section1.xml / paragraph 26",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "d27eaae148d61c6a5797",
+            "category": "cofunding",
+            "excerpt": "○ 자부담금의 현금·현물 비율에 관하여는 「국가연구개발혁신법」 시행령 준용",
+            "locator": "Contents/section1.xml / paragraph 116",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "9c0d86aeeb3a47db6ec6",
+            "category": "cofunding",
+            "excerpt": "ｏ GPU 자원 회수와 배분 심의, 자부담금 반환 등 세부 내용 결정‧심의",
+            "locator": "Contents/section1.xml / paragraph 173",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "7f1e6d671da004cc1243",
+            "category": "eligibility",
+            "excerpt": "※ 지원과제 개요, 지원자격, 지원대상, 지원내용 등 공고",
+            "locator": "Contents/section1.xml / paragraph 190",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "514e26d669e4b992c1a4",
+            "category": "eligibility",
+            "excerpt": "□ 지원대상",
+            "locator": "Contents/section1.xml / paragraph 310",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "514d62a56adae10342bf",
+            "category": "amount",
+            "excerpt": "□ 지원규모",
+            "locator": "Contents/section1.xml / paragraph 318",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "775ebc37c1f5d77e6b36",
+            "category": "cofunding",
+            "excerpt": "⑥ 정부지원(GPU 지원, 정부예산 등)에 대해 자부담금 매칭 필수",
+            "locator": "Contents/section1.xml / paragraph 380",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "d437e23a11d7e0107c06",
+            "category": "amount",
+            "excerpt": "⑥ 정부지원(GPU 지원, 정부예산 등)에 대해 자부담금 매칭 필수",
+            "locator": "Contents/section1.xml / paragraph 380",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "1082c3bd680cd984153d",
+            "category": "amount",
+            "excerpt": "※ 사업수행계획서 상 정부지원을 받지 않는 참여기관은 자부담금 면제",
+            "locator": "Contents/section1.xml / paragraph 382",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "7a1a3ba096072299e465",
+            "category": "amount",
+            "excerpt": "※ 총 사업비 = 정부지원금(GPU 비용 현금 환산) + 자부담금(현물 + 현금)",
+            "locator": "Contents/section1.xml / paragraph 505",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "cf375c87f667ef995335",
+            "category": "amount",
+            "excerpt": "- “표1”을 기준으로 최소 자부담 금액을 산정하고 GPU 지원에 대한 정부지원금은 “표2”를 기준으로 산정",
+            "locator": "Contents/section1.xml / paragraph 516",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "a0e2226f828445658caf",
+            "category": "eligibility",
+            "excerpt": "* 본사업은 사업추진기간 동안 전국민을 대상으로 AI 서비스를 쉽고 부담없이 활용할 수 있도록 서비스를 제공하는 사업으로, ‘독자 AI파운데이션 모델 프로젝트 공모’의 오픈소스를 공개하는 경우를 적용하여 준용",
+            "locator": "Contents/section1.xml / paragraph 530",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "9c6e66ee13e40de086b4",
+            "category": "documents",
+            "excerpt": "- 사업비 집행내역은 관련 증빙자료와 함께 관리해야 하며, 추후 정산 요구 시 제출",
+            "locator": "Contents/section1.xml / paragraph 686",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "d7e795dc63f03b379c68",
+            "category": "documents",
+            "excerpt": "- 사업공고(www.nipa.kr) → 전 국민 AI 서비스 보편적 활용 지원 사업 → ‘사업계획서 작성안내 및 제출서류(양식)’ 다운로드 후 작성",
+            "locator": "Contents/section1.xml / paragraph 746",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "afc5a334feccfa7802f8",
+            "category": "deadline",
+            "excerpt": "○ 전산 접수 마감시한 : 2026. 08. 11.(화) 17:00 까지",
+            "locator": "Contents/section1.xml / paragraph 748",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "0df8f65e311d8c3f8c55",
+            "category": "documents",
+            "excerpt": "- 모든 제출서류는 ‘PDF’ 파일로 제출하며, 각각 별도 파일로 제출",
+            "locator": "Contents/section1.xml / paragraph 768",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "65637c6799bb1fad34ac",
+            "category": "eligibility",
+            "excerpt": "- 컨소시엄 기관 등이 신청 자격 제외 대상에 해당되는지 사전 자체 검증 바람(해당될 경우 전산 접수 불가)",
+            "locator": "Contents/section1.xml / paragraph 770",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "147b8edaf0a4741611c5",
+            "category": "exclusion",
+            "excerpt": "- 컨소시엄 기관 등이 신청 자격 제외 대상에 해당되는지 사전 자체 검증 바람(해당될 경우 전산 접수 불가)",
+            "locator": "Contents/section1.xml / paragraph 770",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "cfd9d64c33e8e5f4d7e2",
+            "category": "eligibility",
+            "excerpt": "o 전산 접수 이전에 반드시 신청 자격요건, 컨소시엄별 요구사항 등을 숙지하시고 NIPA 사업관리시스템 공지사항에 있는 매뉴얼을 참고하시어 안내에 따라 전산 접수 진행",
+            "locator": "Contents/section1.xml / paragraph 771",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "d2f576fc278bb82fbaca",
+            "category": "documents",
+            "excerpt": "o 전산 접수는 사업계획(신청)서 최종본 및 제출 서류를 업로드한 후, 최종 ‘제출’이 되어야 마무리되며 최종 ‘제출’이 이루어지지 않을 경우, 접수가 완료되지 않음",
+            "locator": "Contents/section1.xml / paragraph 772",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "bd71c7e9d5a2312cf74f",
+            "category": "deadline",
+            "excerpt": " 마감시한 이후엔 접수가 불가하며, 마감시한에 접수가 집중될 경우 접수가 원활하게 진행되지 않을 수 있으므로 가급적 접수마감 1~2일 전까지 접수완료 요망",
+            "locator": "Contents/section1.xml / paragraph 774",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "e368afcee95f064daa0c",
+            "category": "documents",
+            "excerpt": "□ 제출서류 : 사업계획(신청)서 및 제출서류",
+            "locator": "Contents/section1.xml / paragraph 776",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "7065855b1b9f5be7550f",
+            "category": "overlap",
+            "excerpt": "11. AI 데이터 중복지원 방지 확약서",
+            "locator": "Contents/section1.xml / paragraph 827",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "구역·문단 위치는 실제 인쇄 쪽번호가 아닙니다.",
+          "표 셀 관계·그림·각주 의미는 미검토"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
+    },
+    "315f8b321383fa25d89181f1": {
+      "id": "315f8b321383fa25d89181f1",
+      "program_id": "NIPA-16852",
+      "notice_source": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16852&tab=2",
+      "url": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16852&tab=2",
+      "name": "[공고문] 전 국민 AI 서비스 보편적 활용 지원(모두의 AI) 사업 공고문_F.hwpx",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-05T12:06:08+09:00",
+      "last_success_at": "2026-11-05T12:06:08+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-11-05T12:06:08+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "8e2ea16ab2347dc545146437dc3fc489af2bec375da9d2d9640e59f6a3554cc0",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "8e2ea16ab2347dc545146437dc3fc489af2bec375da9d2d9640e59f6a3554cc0",
+      "sha256": "8e2ea16ab2347dc545146437dc3fc489af2bec375da9d2d9640e59f6a3554cc0",
+      "extraction": {
+        "format": "hwpx",
+        "parser": "hwp-body/0.4.0",
+        "sha256": "8e2ea16ab2347dc545146437dc3fc489af2bec375da9d2d9640e59f6a3554cc0",
+        "bytes": 98092,
+        "status": "text_extracted",
+        "text_characters": 3557,
+        "units": 137,
+        "text_sha256": "455251068c597cf924306eaf62bcc8af61a062e4c7ada72bfda6f84a423ad5e2",
+        "pages": null,
+        "sections": 1,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "5fb1c7d98b33a448d3fc",
+            "category": "eligibility",
+            "excerpt": "□ (지원대상) B2C 서비스 경험과 역량을 보유하여 전국민 대상으로 AI서비스를 제공하는 기업(단일 또는 컨소시엄 가능)",
+            "locator": "Contents/section0.xml / paragraph 38",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "67fa1fa3432be31ada15",
+            "category": "amount",
+            "excerpt": "□ (지원규모) 정부구매 GPU(최대 B200 512장 내외)를 배분하고 2차년도부터는 GPU 비용과 서비스 운영을 위한 정부 예산 지원(예정)",
+            "locator": "Contents/section0.xml / paragraph 40",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "8066b1be788c52fdf695",
+            "category": "cofunding",
+            "excerpt": "○ 정부지원(GPU 지원, 정부예산 등)에 대해 자부담금 매칭 필수",
+            "locator": "Contents/section0.xml / paragraph 72",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "e1b508a90bdd0a0a0700",
+            "category": "amount",
+            "excerpt": "○ 정부지원(GPU 지원, 정부예산 등)에 대해 자부담금 매칭 필수",
+            "locator": "Contents/section0.xml / paragraph 72",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "31061657ed01f415b83d",
+            "category": "eligibility",
+            "excerpt": "※ 지원과제 개요, 지원자격, 지원대상, 지원내용 등 공고",
+            "locator": "Contents/section0.xml / paragraph 100",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "6665c4c71234e0f95812",
+            "category": "documents",
+            "excerpt": "r) → 알림마당 → 사업공고 → 전 국민 AI서비스 보편적 활용지원(모두의AI) 사업 → ‘사업계획서 작성안내 및 제출서류(양식)’ 다운로드 후 작성",
+            "locator": "Contents/section0.xml / paragraph 185",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "a7fbe4d91c82e590e3e8",
+            "category": "deadline",
+            "excerpt": "ㅇ 전산 접수 마감시한 : 2026. 8. 11.(화) 17:00 까지",
+            "locator": "Contents/section0.xml / paragraph 187",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "2aa34acfebc2f38109f0",
+            "category": "deadline",
+            "excerpt": " 마감시한 이후엔 접수가 불가하며, 마감시한에 접수가 집중될 경우 접수가 원활하게 진행되지 않을 수 있으므로 가급적 접수마감 1～2일 전까지 접수완료 요망",
+            "locator": "Contents/section0.xml / paragraph 195",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "구역·문단 위치는 실제 인쇄 쪽번호가 아닙니다.",
+          "표 셀 관계·그림·각주 의미는 미검토"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
     }
   },
   "run": {
-    "at": "2026-11-04T11:53:40+09:00",
+    "at": "2026-11-05T12:06:08+09:00",
     "status": "partial",
     "notices_attempted": 3,
     "notices_success": 3,

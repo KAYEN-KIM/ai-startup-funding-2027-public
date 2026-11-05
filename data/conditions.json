@@ -1,8 +1,8 @@
 {
   "schema": "public-funding-conditions/v1",
   "version": "0.3.0",
-  "generated_at": "2026-11-04T11:52:32+09:00",
-  "input_fingerprint": "12be4a6cd7233d6ae9cb5e5894c1ef0fe3db23cec024a90cac006842e799cd55",
+  "generated_at": "2026-11-05T12:04:58+09:00",
+  "input_fingerprint": "6c8d395deed2091ac960ffafc3da99c23f7fbbae175fbaac4077ed15b6155ffd",
   "disclaimer": "요약에서 확인한 조건만 판정합니다. 자동 추출은 미검증 후보이며 기관의 최종 심사를 대체하지 않습니다.",
   "records": {
     "IBK-2027-1": {
@@ -5041,6 +5041,114 @@
         "amount": "지원금액 · 공고 원문 확인 필요",
         "opens": "2026-10-30",
         "deadline": "2026-11-23"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000127681": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000127681",
+      "basis_fingerprint": "86cc0d88db5bad12c10d5d2c1072ced6613d68140432208def52b41c9a18ce60",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000127681",
+        "title": "K-푸드 위조상품 온라인플랫폼 AI 모니터링 및 차단 지원사업 참가기업 모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127681",
+        "year": 2026,
+        "eligibility": "중소기업",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": "2026-11-02",
+        "deadline": "2026-11-16"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000127680": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000127680",
+      "basis_fingerprint": "ff47468b19980a025b4c4eca4551b6fe23c25ab346821be17f57093cc174b5bc",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000127680",
+        "title": "2026년 지역거점 AX 혁신 기술개발 사업 신규지원 대상과제 공고(공정ㆍ응용 솔루션 AX R&Dㆍ응용 제품 AX R&D)",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127680",
+        "year": 2026,
+        "eligibility": "중소기업",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": "2026-10-30",
+        "deadline": "2026-11-13"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000127673": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000127673",
+      "basis_fingerprint": "d77848f27750fa6ca0a49fe803a827835e3e635a37c8632cab42f66d2e4d5d64",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000127673",
+        "title": "2026년 1인 창조기업 지원센터ㆍ중장년 기술창업센터 신규 주관기관 모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127673",
+        "year": 2026,
+        "eligibility": "중소기업",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": "2026-11-03",
+        "deadline": "2026-11-13"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000127669": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000127669",
+      "basis_fingerprint": "8bf75ec652e4bfb4b702351d2a2a83cfadc1a1ccd8548901e4c2f6271985bebb",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000127669",
+        "title": "2027년 충북 청년농업인 스마트팜 창업 지원사업 공모",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127669",
+        "year": 2027,
+        "eligibility": "창업벤처",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": "2026-11-09",
+        "deadline": "2026-12-31"
       },
       "coverage": "unreviewed",
       "metadata_state": "current",

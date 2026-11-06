@@ -1,8 +1,8 @@
 {
   "schema": "public-funding-attachment-recovery/v1",
   "version": "0.23.0",
-  "generated_at": "2026-11-05T12:06:29+09:00",
-  "source_run_at": "2026-11-05T12:06:29+09:00",
+  "generated_at": "2026-11-06T12:06:07+09:00",
+  "source_run_at": "2026-11-06T12:06:07+09:00",
   "limits": {
     "notice_pages_per_run": 3,
     "file_attempts_per_run": 4,
@@ -10,40 +10,16 @@
     "success_recheck_days": 14
   },
   "counts": {
-    "queued": 56,
+    "queued": 60,
     "retry_due": 0,
     "retry_wait": 0,
-    "manual": 13,
+    "manual": 14,
     "revisit": 0,
-    "current": 78,
+    "current": 81,
     "inactive": 0
   },
-  "active_records": 147,
+  "active_records": 155,
   "selected": [
-    {
-      "id": "8313f4e1a0e13afda0b794de",
-      "program_id": "BIZINFO-PBLN_000000000125707",
-      "status": "queued",
-      "decision": "queued",
-      "reason": "newly_queued",
-      "retry_after": null,
-      "last_attempt_at": null,
-      "last_success_at": null,
-      "previous_extraction_kept": false,
-      "review_required": false
-    },
-    {
-      "id": "8df2865a733402bf13583608",
-      "program_id": "BIZINFO-PBLN_000000000125560",
-      "status": "queued",
-      "decision": "queued",
-      "reason": "newly_queued",
-      "retry_after": null,
-      "last_attempt_at": null,
-      "last_success_at": null,
-      "previous_extraction_kept": false,
-      "review_required": false
-    },
     {
       "id": "96e59accc98b7662900e7d9f",
       "program_id": "BIZINFO-PBLN_000000000120406",
@@ -59,6 +35,30 @@
     {
       "id": "9dafd73a070056a164f18097",
       "program_id": "BIZINFO-PBLN_000000000123662",
+      "status": "queued",
+      "decision": "queued",
+      "reason": "newly_queued",
+      "retry_after": null,
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "previous_extraction_kept": false,
+      "review_required": false
+    },
+    {
+      "id": "a30180faa26c14eba79db409",
+      "program_id": "BIZINFO-PBLN_000000000124926",
+      "status": "queued",
+      "decision": "queued",
+      "reason": "newly_queued",
+      "retry_after": null,
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "previous_extraction_kept": false,
+      "review_required": false
+    },
+    {
+      "id": "a469ee5378bf48286f727e84",
+      "program_id": "BIZINFO-PBLN_000000000122609",
       "status": "queued",
       "decision": "queued",
       "reason": "newly_queued",
@@ -224,6 +224,18 @@
       "last_attempt_at": "2026-11-02T13:08:12+09:00",
       "last_success_at": null,
       "previous_extraction_kept": false,
+      "review_required": false
+    },
+    {
+      "id": "8df2865a733402bf13583608",
+      "program_id": "BIZINFO-PBLN_000000000125560",
+      "status": "no_text",
+      "decision": "manual",
+      "reason": "manual_original_review_required",
+      "retry_after": null,
+      "last_attempt_at": "2026-11-06T12:06:07+09:00",
+      "last_success_at": "2026-11-06T12:06:07+09:00",
+      "previous_extraction_kept": true,
       "review_required": false
     }
   ],

@@ -1,24 +1,22 @@
 # AI 창업 지원 — AI 없이 생성한 봇 보고서
 
-보고서 생성: 2026\-11\-05T12:07:10\+09:00
-이번 범위의 수집 상태: **해당 회차 범위 확인**
+보고서 생성: 2026\-11\-06T12:06:49\+09:00
+이번 범위의 수집 상태: **부분 확인·재확인 필요**
 미해결 항목은 이번 실행 성공과 별도로 유지됩니다. 모델 호출: 0회(보고서 생성 경로).
 
 ## 수집 경로별 상태
-- 기업마당 API: ok\_scoped / 최근 시도 2026\-11\-05T12:04:58\+09:00
-- 공식 원문 HTML 순환: ok\_scoped / 최근 시도 2026\-11\-05T12:04:58\+09:00
-- 첨부파일 순환: ok\_scoped / 최근 시도 2026\-11\-05T12:06:29\+09:00
-- 검토된 과거 원본: ok\_scoped / 최근 시도 2026\-11\-05T12:06:58\+09:00
+- 기업마당 API: ok\_scoped / 최근 시도 2026\-11\-06T12:04:41\+09:00
+- 공식 원문 HTML 순환: ok\_scoped / 최근 시도 2026\-11\-06T12:04:41\+09:00
+- 첨부파일 순환: partial / 최근 시도 2026\-11\-06T12:06:07\+09:00
+- 검토된 과거 원본: ok\_scoped / 최근 시도 2026\-11\-06T12:06:39\+09:00
 
 ## 누적 미해결
-pending\_differences: 19 / attachment\_failures: 0 / notice\_failures: 0 / attachment\_limits: 13 / queued\_attachments: 56 / changed\_evidence: 0 / unverified\_programs: 129 / unverified\_2027: 2 / unknown\_dates: 82
+pending\_differences: 19 / attachment\_failures: 0 / notice\_failures: 0 / attachment\_limits: 14 / queued\_attachments: 60 / changed\_evidence: 1 / unverified\_programs: 131 / unverified\_2027: 2 / unknown\_dates: 82
 
 ## 다음 7일 내 기재 마감 — 개인 자격 미판정
-- 2026\-11\-05 · 2026년 서초창업스테이션 프리 오픈 이노베이션 참여 기업 모집 공고 · today\_time\_unknown · discovery
-- 2026\-11\-05 · \[경북\] 2027년 지역 자율형 디지털 혁신프로젝트 신규과제 컨소시엄 모집 공고 · today\_time\_unknown · beneficiary
-- 2026\-11\-06 · \[충남\] 2026년 AI 팩토리 사업 성과확산을 위한 지역 DX 수혜기업 지원 사업 공고 · upcoming · beneficiary
-- 2026\-11\-06 · \[충남\] 청양군 청년창업공간 누구나가게 본점 창업도전자 모집 공고 · upcoming · discovery
-- 2026\-11\-06 · \[충남\] 당진시 2026년 제조AX 산학혁신파크 사업 AX전환 매칭데이 참여기업 통합 모집 공고 · upcoming · discovery
+- 2026\-11\-06 · \[충남\] 2026년 AI 팩토리 사업 성과확산을 위한 지역 DX 수혜기업 지원 사업 공고 · today\_time\_unknown · beneficiary
+- 2026\-11\-06 · \[충남\] 청양군 청년창업공간 누구나가게 본점 창업도전자 모집 공고 · today\_time\_unknown · discovery
+- 2026\-11\-06 · \[충남\] 당진시 2026년 제조AX 산학혁신파크 사업 AX전환 매칭데이 참여기업 통합 모집 공고 · today\_time\_unknown · discovery
 - 2026\-11\-09 · 2026년 대구 지역거점 AX 혁신 기술개발 사업 신규지원 대상과제 공고\(표준모델 AX R&amp;D\) · upcoming · discovery
 - 2026\-11\-09 · \[대구\] 2026년 창업도시 조성 프로젝트 참가기업 모집 공고 · upcoming · discovery
 - 2026\-11\-10 · 제4차 기술개발제품 시범구매 지원 · upcoming · beneficiary
@@ -29,8 +27,17 @@ pending\_differences: 19 / attachment\_failures: 0 / notice\_failures: 0 / attac
 - 2026\-11\-12 · \[경기\] 성남시 2026 제조AX 솔루션 매칭ㆍ확산 사업 모집 공고 · upcoming · discovery
 - 2026\-11\-12 · 2026년 전남광주 제3기 지역자원 연계 청년창업 지원사업 모집 연장 공고 · upcoming · discovery
 - 2026\-11\-12 · \[경북\] 2027년 지역 자율형 디지털 혁신프로젝트 신규과제 컨소시엄 모집 연장 공고 · upcoming · discovery
+- 2026\-11\-13 · 2026년 딥테크 챌린지 프로젝트 기술도전형 제2차 기술수요조사 시행계획 공고 · upcoming · discovery
+- 2026\-11\-13 · \[경기\] 안성시 2026년 도시재생 창업지원사업 참여자 추가모집 공고\(성남ㆍ옥천지구 도시재생활성화\) · upcoming · discovery
+- 2026\-11\-13 · 2026년 지역거점 AX 혁신 기술개발 사업 신규지원 대상과제 공고\(공정ㆍ응용 솔루션 AX R&amp;Dㆍ응용 제품 AX R&amp;D\) · upcoming · discovery
+- 2026\-11\-13 · \[경기\] 2026년 AI콘텐츠 제작 및 마케팅 활용 교육 참여업체 모집 공고\(중소기업 마케팅 지원사업\) · upcoming · discovery
+- 2026\-11\-13 · 해외규격인증획득지원 3차 · upcoming · beneficiary
+- 2026\-11\-13 · 2027년 도약\(Jump\-Up\) 프로그램 참여기업 · upcoming · beneficiary
+- 2026\-11\-13T14:00:00\+09:00 · 2027년 상반기 IBK창공 혁신창업기업 모집 · upcoming · beneficiary
+- 2026\-11\-13T16:00:00\+09:00 · \[서울\] 2027년 Dream Play\(LGD 스타트업 육성프로그램 9기\) 모집 공고 · upcoming · beneficiary
 
 ## 검토 대기 — 검토 순서이지 선정 점수가 아님
+- P0 · \[충남\] 2026년 AI 팩토리 사업 성과확산을 위한 지역 DX 수혜기업 지원 사업 공고: 원문 내용 변경 신호\. 실제 정책 변경인지는 미검증
 - P0 · 아태 AI 특화지구 제조 AX 실증 수행기업 모집: 기존 값과 새 관측값 차이: eligibility — 자동 덮어쓰기·승인 없음
 - P0 · AI 기반 주파수 간섭분석 및 전파예측 R&amp;D: 기존 값과 새 관측값 차이: eligibility — 자동 덮어쓰기·승인 없음
 - P0 · 중소제조 특화 Multi AI Agent 개발\(R&amp;D\) 점프업 Track 시행계획 공고: 기존 값과 새 관측값 차이: eligibility — 자동 덮어쓰기·승인 없음
@@ -65,6 +72,7 @@ pending\_differences: 19 / attachment\_failures: 0 / notice\_failures: 0 / attac
 - P2 · \[대구ㆍ경북\] 경제자유구역기술 창업기업 맞춤형 멘토링 지원 공고: 형식·크기·본문 추출 한계: unsupported\_format — 원본 직접 확인 필요
 - P2 · \[서울ㆍ경기ㆍ인천ㆍ강원\] 2026년 중소기업 AI활용 도입을 위한 AI훈련 참여기업 모집 공고: 형식·크기·본문 추출 한계: no\_text — 원본 직접 확인 필요
 - P2 · \[전남광주\] 2026년 3차 인공지능 기술 고도화 지원사업 상시 모집 공고\(AI융합 지능형 농업 생태계 구축\): 형식·크기·본문 추출 한계: unsupported\_format — 원본 직접 확인 필요
+- P2 · \[서울\] 서초구 2026년 소상공인 대상 AI 홍보 컨텐츠 제작지원 신청자 모집 공고: 형식·크기·본문 추출 한계: no\_text — 원본 직접 확인 필요
 
 기업마당 API, 기존 공식 원문·첨부 순환 수집 및 검토 원본 재확인\. 전체 기관 독립 수집이나 자동 적격성 검증이 아님\.
 

@@ -1,19 +1,19 @@
 {
   "schema": "public-funding-attachments/v1",
   "version": "0.4.0",
-  "generated_at": "2026-11-05T12:06:29+09:00",
+  "generated_at": "2026-11-06T12:06:07+09:00",
   "run": {
-    "at": "2026-11-05T12:06:29+09:00",
+    "at": "2026-11-06T12:06:07+09:00",
     "notice_success": 3,
     "notice_failed": 0,
     "attempted": 4,
-    "text_extracted": 4,
-    "partial_or_no_text": 0,
+    "text_extracted": 3,
+    "partial_or_no_text": 1,
     "blocked_or_unsupported": 0,
     "failed": 0,
     "changed": 0,
     "manifest_changed": 0,
-    "queued_total": 147,
+    "queued_total": 155,
     "new_attempted": 4,
     "retry_attempted": 0,
     "revisit_attempted": 0,
@@ -11188,12 +11188,45 @@
       "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125560",
       "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000769651&fileSn=0",
       "name": "다운로드",
-      "status": "queued",
-      "last_attempt_at": null,
-      "last_success_at": null,
+      "status": "no_text",
+      "last_attempt_at": "2026-11-06T12:06:07+09:00",
+      "last_success_at": "2026-11-06T12:06:07+09:00",
       "last_error": null,
       "review_required": false,
-      "history": []
+      "history": [
+        {
+          "at": "2026-11-06T12:06:07+09:00",
+          "status": "no_text",
+          "observed_sha256": "9305faafab0bbc439f31c5e0488da86ddd639f93cd9b58d5a8a269edd958d24b",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "9305faafab0bbc439f31c5e0488da86ddd639f93cd9b58d5a8a269edd958d24b",
+      "sha256": "9305faafab0bbc439f31c5e0488da86ddd639f93cd9b58d5a8a269edd958d24b",
+      "extraction": {
+        "format": "pdf",
+        "parser": "pypdf/6.15.0",
+        "sha256": "9305faafab0bbc439f31c5e0488da86ddd639f93cd9b58d5a8a269edd958d24b",
+        "bytes": 359166,
+        "status": "no_text",
+        "text_characters": 0,
+        "units": 0,
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "pages": 1,
+        "sections": null,
+        "empty_pages": 1,
+        "candidate_facts": [],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "표 열 순서·이미지·주석의 의미는 검토하지 않았습니다.",
+          "OCR 미수행"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
     },
     "cf79f8f6b52b9170aa8460b4": {
       "id": "cf79f8f6b52b9170aa8460b4",
@@ -11535,12 +11568,73 @@
       "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125707",
       "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000770427&fileSn=1",
       "name": "다운로드",
-      "status": "queued",
-      "last_attempt_at": null,
-      "last_success_at": null,
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-06T12:06:07+09:00",
+      "last_success_at": "2026-11-06T12:06:07+09:00",
       "last_error": null,
       "review_required": false,
-      "history": []
+      "history": [
+        {
+          "at": "2026-11-06T12:06:07+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "d235e59e98d29c8d4a70e99d70d52e15ab6736cd2bf4a9a13bfeb76e41cec00c",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "d235e59e98d29c8d4a70e99d70d52e15ab6736cd2bf4a9a13bfeb76e41cec00c",
+      "sha256": "d235e59e98d29c8d4a70e99d70d52e15ab6736cd2bf4a9a13bfeb76e41cec00c",
+      "extraction": {
+        "format": "pdf",
+        "parser": "pypdf/6.15.0",
+        "sha256": "d235e59e98d29c8d4a70e99d70d52e15ab6736cd2bf4a9a13bfeb76e41cec00c",
+        "bytes": 1046987,
+        "status": "text_extracted",
+        "text_characters": 2554,
+        "units": 186,
+        "text_sha256": "859ba81e91119f06c106ac252fe9de647351aa7c64a392e29b43fc71444afb0f",
+        "pages": 2,
+        "sections": null,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "853cfa2ff9e9a146b753",
+            "category": "eligibility",
+            "excerpt": "충청권 (대전, 세종, 충남, 충북) 소재 중소기업",
+            "locator": "PDF p.1 / text-line 14",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "e586cae65844fcd33062",
+            "category": "amount",
+            "excerpt": "➁ 개발된 과정으로 기업자체훈련 실시 시 최대 783만원까지 비용지원",
+            "locator": "PDF p.1 / text-line 22",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "78c2387a3bbdc464ba4f",
+            "category": "amount",
+            "excerpt": "기업당 최대 783만원",
+            "locator": "PDF p.1 / text-line 42",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "표 열 순서·이미지·주석의 의미는 검토하지 않았습니다.",
+          "OCR 미수행"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
     },
     "4f4c3aeb86e95bf9ec7351c8": {
       "id": "4f4c3aeb86e95bf9ec7351c8",
@@ -12087,6 +12181,385 @@
       "http_status": null,
       "failure_kind": null,
       "retryable": false
+    },
+    "f800f6e7edd92d686f6622e1": {
+      "id": "f800f6e7edd92d686f6622e1",
+      "program_id": "BIZINFO-PBLN_000000000125847",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125847",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000770798&fileSn=0",
+      "name": "다운로드",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
+    },
+    "ebdfffb1e309e05dd0e62268": {
+      "id": "ebdfffb1e309e05dd0e62268",
+      "program_id": "BIZINFO-PBLN_000000000125847",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125847",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000770799&fileSn=0",
+      "name": "다운로드",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
+    },
+    "d39b69c6f20ed3d148f17475": {
+      "id": "d39b69c6f20ed3d148f17475",
+      "program_id": "BIZINFO-PBLN_000000000125888",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125888",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000770959&fileSn=0",
+      "name": "다운로드",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
+    },
+    "e89621884c4fde285b43db48": {
+      "id": "e89621884c4fde285b43db48",
+      "program_id": "BIZINFO-PBLN_000000000125888",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125888",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000770960&fileSn=0",
+      "name": "다운로드",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
+    },
+    "64df5e02a3c7414b9086fcad": {
+      "id": "64df5e02a3c7414b9086fcad",
+      "program_id": "BIZINFO-PBLN_000000000125928",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125928",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000771127&fileSn=1",
+      "name": "다운로드",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-06T12:06:07+09:00",
+      "last_success_at": "2026-11-06T12:06:07+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-11-06T12:06:07+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "ae2c20622818744e99c7a511b10a310a3cfe4d503f6404d290407f88e42763dd",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "ae2c20622818744e99c7a511b10a310a3cfe4d503f6404d290407f88e42763dd",
+      "sha256": "ae2c20622818744e99c7a511b10a310a3cfe4d503f6404d290407f88e42763dd",
+      "extraction": {
+        "format": "pdf",
+        "parser": "pypdf/6.15.0",
+        "sha256": "ae2c20622818744e99c7a511b10a310a3cfe4d503f6404d290407f88e42763dd",
+        "bytes": 502384,
+        "status": "text_extracted",
+        "text_characters": 6292,
+        "units": 36,
+        "text_sha256": "8e7abb8d13c23851b935ce18f83657bb89119e07cd1df6a75dc0276cca0309bd",
+        "pages": 7,
+        "sections": null,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "e694d2666993de732e68",
+            "category": "eligibility",
+            "excerpt": "창원시 소재 기업의 기술적 애로해소 및 사업화 지원을 통해 창원 강소특구 특화분야산업을 육성하기 위하여 2026년 강소특구 이노테크 기업육성(A I-C N C기반 제품 실증 및 성능 검증 지원)을 아래와 같이공고하오니 동 사업에 참여를 희망하는 기업은 공고 내용에 따라 신청하여 주시기 바랍니다.2026년 8월 31일한국전기연구원장1.사업개요□사 업 명:2026년 강소특구 이노테크 기업육성(A I-CN C기반 ",
+            "locator": "PDF p.1 / text-line 3",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "2fc732e4c7b20346ac3d",
+            "category": "deadline",
+            "excerpt": ",시험·인증 대응 및 국가 R & D·사업화 연계 지원 ※한국전기연구원AI-CNC실증센터내보유시험·실증인프라활용□사업공고기간:‘26.8.31(월)~예산 소진 시까지",
+            "locator": "PDF p.1 / text-line 3",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "09efb16a5521d0b7ac3c",
+            "category": "eligibility",
+            "excerpt": "접수기간:‘26.8.31(월)~예산 소진 시까지 상시접수□수행기간 :협약체결일로부터 최대 ’27.1.30.(토)까지□지원대상 :강 소 특 구 기 술 핵 심 기 관 ⇒(수 혜 대 상)강 소 특 구 내 기 업,지 역 특 화 기 업 등 (각 세 부 사 업 별 상 이)",
+            "locator": "PDF p.2 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "98c3a3a30c473c00c653",
+            "category": "amount",
+            "excerpt": "2.지원내용□지원규모:기술지원 5건 세부사업명총사업예산과제(기업당)지원규모수행기관(기업지원기관)AI-CNC실증지원50백만원10백만원내외한국전기연구원정밀제어연구센터및전담인력※상시접수사업으로사업비소진시조기종료될수있으며,신청수요에따라세부사업간지원예산변동가능□접수기간:‘26.8.31(월)~예산 소진 시까지 상시접수□수행기간 :협약체결일로부터 최대 ’27.1.30.(토)까지□지원대상 :강 소 특 구 기 술 핵 심 기 ",
+            "locator": "PDF p.2 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "d2281c23bdeeffb54ae0",
+            "category": "deadline",
+            "excerpt": "국전기연구원정밀제어연구센터및전담인력※상시접수사업으로사업비소진시조기종료될수있으며,신청수요에따라세부사업간지원예산변동가능□접수기간:‘26.8.31(월)~예산 소진 시까지 상시접수□수행기간 :협약체결일로부터 최대 ’27.1.30.(토)까지□지원대상 :강 소 특 구 기 술 핵 심 기 관 ⇒(수 혜 대 상)강 소 특 구 내 기 업,지 역 특 화 기 업 등 (각 세 부 사 업 별 상 이)",
+            "locator": "PDF p.2 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "fe1caa47a99abd2e4648",
+            "category": "eligibility",
+            "excerpt": "업기수 혜 기 업 은이전지원항목과다른지원항목혹은기존대비타당성있게발전된내용에한하여선정※기지원항목과중복되는내용은선정제외※지원대상기업선정시최초신청기업을우선순위로고려 ◦(AI-CNC실증지원)기술핵심기관(한국전기연구원 정밀제어연구센터)에서 AI-CNC실증센터 내 실증라인 및 보유 인프라를 활용하여 직접 시험·실증 및 기술지원 수행3.추진체계 및 추진절차□추진체계 ◦(한국전기연구원)사업계획 수립,기업 모집·관리 및 정산",
+            "locator": "PDF p.2 / text-line 3",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "e189ae47a86c34e3eb39",
+            "category": "exclusion",
+            "excerpt": "R&D·사업화연계지원기타AI-CNC실증센터인프라사용및한국전기연구원-중소기업간프로그램연계□신청 및 선정방법공통안내(중복지원제외)동 일 사 업기수 혜 기 업 은이전지원항목과다른지원항목혹은기존대비타당성있게발전된내용에한하여선정※기지원항목과중복되는내용은선정제외※지원대상기업선정시최초신청기업을우선순위로고려 ◦(AI-CNC실증지원)기술핵심기관(한국전기연구원 정밀제어연구센터)에서 AI-CNC실증센터 내 실증라인 및 보유 인프",
+            "locator": "PDF p.2 / text-line 3",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "37eee59a989d3754c0f0",
+            "category": "overlap",
+            "excerpt": "국가R&D·사업화연계지원기타AI-CNC실증센터인프라사용및한국전기연구원-중소기업간프로그램연계□신청 및 선정방법공통안내(중복지원제외)동 일 사 업기수 혜 기 업 은이전지원항목과다른지원항목혹은기존대비타당성있게발전된내용에한하여선정※기지원항목과중복되는내용은선정제외※지원대상기업선정시최초신청기업을우선순위로고려 ◦(AI-CNC실증지원)기술핵심기관(한국전기연구원 정밀제어연구센터)에서 AI-CNC실증센터 내 실증라인 및 보유 ",
+            "locator": "PDF p.2 / text-line 3",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "e6b570427dea8f9e46e3",
+            "category": "eligibility",
+            "excerpt": "-(1순위)강소특구내기업-(2순위)강소특구소재기초지자체기업중①특화분야기업,②강소특구육성사업수혜기업,③공공기술을이전받은기업",
+            "locator": "PDF p.2 / text-line 4",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "9ac8fac6ecf920c9fba8",
+            "category": "eligibility",
+            "excerpt": "및수행계획별도협의예정2사업자등록증전자파일(PDF,한글) -3개인정보및과세정보제공·활용동의서전자파일(PDF,한글) -4신청자격및참여제한여부확인서전자파일(PDF,한글) -",
+            "locator": "PDF p.3 / text-line 4",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "b9554c17d3ddf307a4fa",
+            "category": "documents",
+            "excerpt": "번호제출서류제출형식비고1기술지원신청서전자파일(PDF,한글)선정후세부시험·실증항목및수행계획별도협의예정2사업자등록증전자파일(PDF,한글) -3개인정보및과세정보제공·활용동의서전자파일(PDF,한글) -4신청자격및참여제한여부확인서전자파일(PDF,한글) -",
+            "locator": "PDF p.3 / text-line 4",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "73c5013474e2219fd3a5",
+            "category": "exclusion",
+            "excerpt": "□신청자격 검토사항 및 사전지원제외 대상 ◦(지원제외대상)‘연구개발특구육성사업 운영관리지침’의 제14조에서제한하는 대상*단,최근결산기준재무제표상한국채택국제회계기준적용에따른상환전환우선주는일반기업회계기준적용으로변환하여자본으로인정하며완전자본잠식여부는해당기준에따라판별하도록한다**선정평가이후상기제외항목에해당되는것으로확인된경우,해당과제의선정취소또는협약을해약할수있음(다만,과제수행중기업공개(증권시장의상장),인수합병,자금조달",
+            "locator": "PDF p.4 / text-line 4",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "e9a1a55146bb8abd8a3a",
+            "category": "exclusion",
+            "excerpt": "고서제출,연구개발성과로인한수익의납부,연구개발성과로인한수익의납부계획서제출,정산금또는환수금납부등)을불이행하고있는때에는사전지원제외대상과제로처리할수있음참여제한여부•주관연구개발기관,주관연구개발기관의장,공동연구개발기관,공동연구개발기관의장,연구책임자등이접수마감일현재국가연구개발혁신법제32조제1항에따른국가연구개발사업에참여제한중인때에는사전지원제외대상과제로처리함을원칙으로함",
+            "locator": "PDF p.5 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "393f416e1ed2ee8ff747",
+            "category": "deadline",
+            "excerpt": "불량(불성실수행)\"으로평가된과제는중복성검토대상에서제외함의무사항불이행여부•주관연구개발기관,공동연구개발기관,연구책임자등이접수마감일현재의무사항(각종보고서제출,연구개발성과로인한수익의납부,연구개발성과로인한수익의납부계획서제출,정산금또는환수금납부등)을불이행하고있는때에는사전지원제외대상과제로처리할수있음참여제한여부•주관연구개발기관,주관연구개발기관의장,공동연구개발기관,공동연구개발기관의장,연구책임자등이접수마감일현재국가연구개발혁신법",
+            "locator": "PDF p.5 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "d7e6d2a1d2e43fa8572a",
+            "category": "exclusion",
+            "excerpt": "•전문기관의장은주관연구개발기관,주관연구개발기관의장,공동연구개발기관,공동연구개발기관의장,연구책임자등을아래의사전지원제외대상또는사후관리대상과제로처리할수있다.단,비영리기관및공기업(공사)은적용하지아니함1)사전지원제외(다음각호의사항중1개이상에해당)1.기업의부도2.국세또는지방세등의체납처분을받은경우(단,회생인가를받은경우,중소벤처기업진흥공단및신용회복위원회(재창업지원위원회)를통해재창업자금을지원받은경우와신용보증기금및기술보증기금으",
+            "locator": "PDF p.5 / text-line 4",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "e538cdc0dd970886abaa",
+            "category": "exclusion",
+            "excerpt": "S)는부채총액에서제외가능6.최근결산기준자본전액잠식7.외부감사기업의경우최근년도결산감사의견이“의견거절”또는“부적정”<사전지원제외조치사항>‧",
+            "locator": "PDF p.5 / text-line 6",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "38f7179973afaf57c6f7",
+            "category": "deadline",
+            "excerpt": "인투자기업중외국인투자비율이50%이상이며,기업설립일로부터5년이경과되지않은외국인투자기업은예외).이때,기업의사업개시일로부터접수마감일까지3년이내인중소기업의경우는적용하지아니한다. ※상기의신용등급‘BBB’는‘BBB+’,‘BBB’,‘BBB-’를모두포함함-상기부채비율계산시한국벤처캐피탈협회회원사및「공공기관운영에관한법률」에따른공공기관으로부터최근2년간대출형투자유치(CB,BW등)를통한신규차입금및상환전환우선주(RCPS)는부채총액에서",
+            "locator": "PDF p.5 / text-line 6",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "df64fb741ce1acb80493",
+            "category": "deadline",
+            "excerpt": "접수마감일이후사전지원제외기준에해당하게된때에는해당과제의선정을취소할수있으며,필요한경우평가위원회에서제외여부를심의할수있음",
+            "locator": "PDF p.5 / text-line 9",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "d18be5e17484baefc41a",
+            "category": "documents",
+            "excerpt": "6.기타사항 ◦제출된 서류는 반환하지 않으며,기재된 내용이 사실과 다를 경우 선정을 취소할 수 있음 ◦신청서 및 구비서류의 미비한 사항에 대하여는 수정 및 보완요청에 응하여야 함 ◦미선정된 과제의 경우,신청내용 보완 후 재신청 가능 ◦사업비 및 사업기간 등은 평가결과에 따라 조정될 수 있음 ◦지원대상 과제가 정부에 의해 기 지원되어 중복성이 인정된 경우에는 당해 협약",
+            "locator": "PDF p.6 / text-line 3",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "aa729891cc9cae24110e",
+            "category": "amount",
+            "excerpt": "을포함하여100%를초과할경우또는수행하고있는국가연구개발사업과제가5개를초과하는경우참여연구원에서제외할수있음•국공립연구기관,정부출연연구기관,특정연구기관,전문생산기술연구소등인건비가100%확보되지않는기관에소속된연구원의경우총과제수행참여율을기관고유사업을포함하여130%이내에서산정하여야함",
+            "locator": "PDF p.6 / text-line 7",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "b21efde8d29f80bd9943",
+            "category": "overlap",
+            "excerpt": "국가연구개발혁신법,동법시행령및관련행정규칙**국가연구개발사업연구개발비사용기준,국가연구개발사업연구노트지침,국가연구개발사업동시수행연구개발과제수제한기준,국가연구개발정보처리기준등o과학기술기본법,기초연구진흥및기술개발지원에관한법률및하위법령,시행규칙o연구개발특구의육성에관한특별법,동법시행령및시행규칙관련규정o과학기술정보통신부소관과학기술분야연구개발사업처리규정o연구개발특구육성사업운영관리지침o강소특구특화개별사업운영관리지침",
+            "locator": "PDF p.6 / text-line 8",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "190f39613d06c0bdb4d3",
+            "category": "amount",
+            "excerpt": "및 관련 규정 등에 위배 되거나,참여 신청서의 내용을 허위 기재․누락한 경우 선정 취소,정부 사업 참여제한 및 사업 지원금 환수 등의 조치를 받을 수 있음 ◦본 공고문에명시되지 않은 사항은 동 사업 지침·기준 및 안내자료에서 정하는 바에 따르며,지침․기준 등을 미숙지하여 발생하는 불이익 및 그에 따른 책임은 본 사업을 신청한기업에게 있음 ◦사업선정 시 주요 성과지표,세부예산 및 사업계획 관련 세부내용 등은 당",
+            "locator": "PDF p.7 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "표 열 순서·이미지·주석의 의미는 검토하지 않았습니다.",
+          "OCR 미수행"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
+    },
+    "581ce1dceaa8398af9c74b44": {
+      "id": "581ce1dceaa8398af9c74b44",
+      "program_id": "BIZINFO-PBLN_000000000125928",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125928",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000771128&fileSn=1",
+      "name": "다운로드",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-06T12:06:07+09:00",
+      "last_success_at": "2026-11-06T12:06:07+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-11-06T12:06:07+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "af4ebfccebc367e4d253e8f7cd9b2e3e263cb7f4fdf5323fbbadbd198c769aff",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "af4ebfccebc367e4d253e8f7cd9b2e3e263cb7f4fdf5323fbbadbd198c769aff",
+      "sha256": "af4ebfccebc367e4d253e8f7cd9b2e3e263cb7f4fdf5323fbbadbd198c769aff",
+      "extraction": {
+        "format": "hwp",
+        "parser": "olefile/0.47+hwp-body/0.4.0",
+        "sha256": "af4ebfccebc367e4d253e8f7cd9b2e3e263cb7f4fdf5323fbbadbd198c769aff",
+        "bytes": 840192,
+        "status": "text_extracted",
+        "text_characters": 1458,
+        "units": 81,
+        "text_sha256": "63b39c671e44af7b515a4b32bd5f5b483b01b9eb8a0648cdfb28cffef59fbf65",
+        "pages": null,
+        "sections": 1,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "8ff6046b4f9621e90a0f",
+            "category": "eligibility",
+            "excerpt": "소재지",
+            "locator": "BodyText/Section0 / record 107 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "구역·레코드 위치는 실제 인쇄 쪽번호가 아닙니다.",
+          "표·그림·각주 의미와 문서의 모든 제외조건은 미검토"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
+    },
+    "d7ef569c29f2e6d72ad03f05": {
+      "id": "d7ef569c29f2e6d72ad03f05",
+      "program_id": "BIZINFO-PBLN_000000000125928",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125928",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000771128&fileSn=2",
+      "name": "다운로드",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
+    },
+    "eb3f385f47d214fc0795ff5c": {
+      "id": "eb3f385f47d214fc0795ff5c",
+      "program_id": "BIZINFO-PBLN_000000000125928",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125928",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000771128&fileSn=3",
+      "name": "다운로드",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
     }
   },
   "programs": {
@@ -12992,6 +13465,47 @@
       "document_ids": [
         "6a9e3c2564350ea619f2b67b",
         "5464559cc0b4cc898d491ef8"
+      ],
+      "review_required": false,
+      "last_error": null
+    },
+    "BIZINFO-PBLN_000000000125847": {
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125847",
+      "last_notice_attempt_at": "2026-11-06T12:06:07+09:00",
+      "last_notice_success_at": "2026-11-06T12:06:07+09:00",
+      "notice_status": "links_available",
+      "manifest_sha256": "b668031f02702e71c7c5412d357117d42b20f8c0c6894694eb4e2383a51cb91b",
+      "document_ids": [
+        "f800f6e7edd92d686f6622e1",
+        "ebdfffb1e309e05dd0e62268"
+      ],
+      "review_required": false,
+      "last_error": null
+    },
+    "BIZINFO-PBLN_000000000125888": {
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125888",
+      "last_notice_attempt_at": "2026-11-06T12:06:07+09:00",
+      "last_notice_success_at": "2026-11-06T12:06:07+09:00",
+      "notice_status": "links_available",
+      "manifest_sha256": "3784568a67d63cb8486c4772c0f0c0b98124d575a0b246786304d357d407fd1f",
+      "document_ids": [
+        "d39b69c6f20ed3d148f17475",
+        "e89621884c4fde285b43db48"
+      ],
+      "review_required": false,
+      "last_error": null
+    },
+    "BIZINFO-PBLN_000000000125928": {
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125928",
+      "last_notice_attempt_at": "2026-11-06T12:06:07+09:00",
+      "last_notice_success_at": "2026-11-06T12:06:07+09:00",
+      "notice_status": "links_available",
+      "manifest_sha256": "f3f0f4431ac0eeb762336e1b5e3ee415fd9b0046072cc0255e6b3e9a37183676",
+      "document_ids": [
+        "64df5e02a3c7414b9086fcad",
+        "581ce1dceaa8398af9c74b44",
+        "d7ef569c29f2e6d72ad03f05",
+        "eb3f385f47d214fc0795ff5c"
       ],
       "review_required": false,
       "last_error": null

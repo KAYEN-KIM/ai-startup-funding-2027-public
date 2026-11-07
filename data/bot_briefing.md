@@ -1,22 +1,19 @@
 # AI 창업 지원 — AI 없이 생성한 봇 보고서
 
-보고서 생성: 2026\-11\-06T12:06:49\+09:00
+보고서 생성: 2026\-11\-07T11:33:32\+09:00
 이번 범위의 수집 상태: **부분 확인·재확인 필요**
 미해결 항목은 이번 실행 성공과 별도로 유지됩니다. 모델 호출: 0회(보고서 생성 경로).
 
 ## 수집 경로별 상태
-- 기업마당 API: ok\_scoped / 최근 시도 2026\-11\-06T12:04:41\+09:00
-- 공식 원문 HTML 순환: ok\_scoped / 최근 시도 2026\-11\-06T12:04:41\+09:00
-- 첨부파일 순환: partial / 최근 시도 2026\-11\-06T12:06:07\+09:00
-- 검토된 과거 원본: ok\_scoped / 최근 시도 2026\-11\-06T12:06:39\+09:00
+- 기업마당 API: ok\_scoped / 최근 시도 2026\-11\-07T11:30:53\+09:00
+- 공식 원문 HTML 순환: ok\_scoped / 최근 시도 2026\-11\-07T11:30:53\+09:00
+- 첨부파일 순환: partial / 최근 시도 2026\-11\-07T11:32:45\+09:00
+- 검토된 과거 원본: ok\_scoped / 최근 시도 2026\-11\-07T11:33:20\+09:00
 
 ## 누적 미해결
-pending\_differences: 19 / attachment\_failures: 0 / notice\_failures: 0 / attachment\_limits: 14 / queued\_attachments: 60 / changed\_evidence: 1 / unverified\_programs: 131 / unverified\_2027: 2 / unknown\_dates: 82
+pending\_differences: 19 / attachment\_failures: 0 / notice\_failures: 0 / attachment\_limits: 15 / queued\_attachments: 63 / changed\_evidence: 4 / unverified\_programs: 133 / unverified\_2027: 2 / unknown\_dates: 82
 
 ## 다음 7일 내 기재 마감 — 개인 자격 미판정
-- 2026\-11\-06 · \[충남\] 2026년 AI 팩토리 사업 성과확산을 위한 지역 DX 수혜기업 지원 사업 공고 · today\_time\_unknown · beneficiary
-- 2026\-11\-06 · \[충남\] 청양군 청년창업공간 누구나가게 본점 창업도전자 모집 공고 · today\_time\_unknown · discovery
-- 2026\-11\-06 · \[충남\] 당진시 2026년 제조AX 산학혁신파크 사업 AX전환 매칭데이 참여기업 통합 모집 공고 · today\_time\_unknown · discovery
 - 2026\-11\-09 · 2026년 대구 지역거점 AX 혁신 기술개발 사업 신규지원 대상과제 공고\(표준모델 AX R&amp;D\) · upcoming · discovery
 - 2026\-11\-09 · \[대구\] 2026년 창업도시 조성 프로젝트 참가기업 모집 공고 · upcoming · discovery
 - 2026\-11\-10 · 제4차 기술개발제품 시범구매 지원 · upcoming · beneficiary
@@ -38,6 +35,9 @@ pending\_differences: 19 / attachment\_failures: 0 / notice\_failures: 0 / attac
 
 ## 검토 대기 — 검토 순서이지 선정 점수가 아님
 - P0 · \[충남\] 2026년 AI 팩토리 사업 성과확산을 위한 지역 DX 수혜기업 지원 사업 공고: 원문 내용 변경 신호\. 실제 정책 변경인지는 미검증
+- P0 · 2026년 대구 지역거점 AX 혁신 기술개발 사업 신규지원 대상과제 공고\(표준모델 AX R&amp;D\): 원문 내용 변경 신호\. 실제 정책 변경인지는 미검증
+- P0 · \[대구\] 2026년 창업도시 조성 프로젝트 참가기업 모집 공고: 원문 내용 변경 신호\. 실제 정책 변경인지는 미검증
+- P0 · 제4차 기술개발제품 시범구매 지원: 원문 내용 변경 신호\. 실제 정책 변경인지는 미검증
 - P0 · 아태 AI 특화지구 제조 AX 실증 수행기업 모집: 기존 값과 새 관측값 차이: eligibility — 자동 덮어쓰기·승인 없음
 - P0 · AI 기반 주파수 간섭분석 및 전파예측 R&amp;D: 기존 값과 새 관측값 차이: eligibility — 자동 덮어쓰기·승인 없음
 - P0 · 중소제조 특화 Multi AI Agent 개발\(R&amp;D\) 점프업 Track 시행계획 공고: 기존 값과 새 관측값 차이: eligibility — 자동 덮어쓰기·승인 없음
@@ -73,6 +73,7 @@ pending\_differences: 19 / attachment\_failures: 0 / notice\_failures: 0 / attac
 - P2 · \[서울ㆍ경기ㆍ인천ㆍ강원\] 2026년 중소기업 AI활용 도입을 위한 AI훈련 참여기업 모집 공고: 형식·크기·본문 추출 한계: no\_text — 원본 직접 확인 필요
 - P2 · \[전남광주\] 2026년 3차 인공지능 기술 고도화 지원사업 상시 모집 공고\(AI융합 지능형 농업 생태계 구축\): 형식·크기·본문 추출 한계: unsupported\_format — 원본 직접 확인 필요
 - P2 · \[서울\] 서초구 2026년 소상공인 대상 AI 홍보 컨텐츠 제작지원 신청자 모집 공고: 형식·크기·본문 추출 한계: no\_text — 원본 직접 확인 필요
+- P2 · 중소제조 특화 Multi AI Agent 개발\(R&amp;D\) 점프업 Track 시행계획 공고: 형식·크기·본문 추출 한계: unsupported\_format — 원본 직접 확인 필요
 
 기업마당 API, 기존 공식 원문·첨부 순환 수집 및 검토 원본 재확인\. 전체 기관 독립 수집이나 자동 적격성 검증이 아님\.
 

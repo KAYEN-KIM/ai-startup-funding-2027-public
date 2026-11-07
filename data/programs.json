@@ -1,6 +1,6 @@
 {
   "schema": "public-funding-radar/v1",
-  "generated_at": "2026-11-06T12:04:41+09:00",
+  "generated_at": "2026-11-07T11:30:53+09:00",
   "provenance": "공식기관 공개 공고 및 2026년 참고 제도. 2027년 미확정 사항은 자동 승격하지 않음.",
   "disclaimer": "본 자료는 신청·선정을 보장하지 않으며 최신 원문 확인 필요.",
   "items": [
@@ -5127,6 +5127,106 @@
         {
           "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000778929&fileSn=0",
           "name": "[붙임1] 공고문_강원 AI 헬스케어 글로벌 브릿지 조성사업_실증기업 모집_20261104.pdf",
+          "status": "link_only_not_read"
+        }
+      ]
+    },
+    {
+      "id": "BIZINFO-PBLN_000000000127753",
+      "title": "[대구] 2026년 뿌리산업특화단지 지원 사업 수혜기업 모집 공고(테크융합 스마트그린산단 전환(AX/GX) 지원 사업)",
+      "year": 2026,
+      "years": [
+        2026
+      ],
+      "year_basis": "title",
+      "kind": "기술",
+      "mode": "discovery",
+      "relevance": "ai",
+      "opens": "2026-11-05",
+      "deadline": "2026-11-16",
+      "deadline_precision": "date",
+      "application_period_raw": "2026-11-05 ~ 2026-11-16",
+      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127753",
+      "verified_at": "2026-11-07",
+      "amount": "지원금액 · 공고 원문 확인 필요",
+      "eligibility": "중소기업",
+      "note": "공식 API 목록 발견. 신청자격·지원금·첨부 조건은 검증 전입니다.",
+      "source_level": "official_api_index_not_full_application_verified",
+      "agency": "대구광역시",
+      "attachments": [
+        {
+          "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000779069&fileSn=1",
+          "name": "2026-11-05 17_52_44(신청서식) 사업 신청서 및 개인 및 기업정보 수집·이용·제공 및 사후관리 이행 동의서(2026년도 뿌리산업특화단지 지원 사업).hwpx",
+          "status": "link_only_not_read"
+        },
+        {
+          "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000779068&fileSn=0",
+          "name": "2026-11-05 17_52_44(공고문) 2026년 뿌리산업특화단지 지원 사업 수혜기업 모집 공고.pdf",
+          "status": "link_only_not_read"
+        }
+      ]
+    },
+    {
+      "id": "BIZINFO-PBLN_000000000127739",
+      "title": "2026년 1인 창조기업 지원센터ㆍ중장년 기술창업센터 신규 주관기관 모집 수정 공고",
+      "year": 2026,
+      "years": [
+        2026
+      ],
+      "year_basis": "title",
+      "kind": "경영",
+      "mode": "operator",
+      "relevance": "startup_general",
+      "opens": "2026-11-03",
+      "deadline": "2026-11-13",
+      "deadline_precision": "date",
+      "application_period_raw": "2026-11-03 ~ 2026-11-13",
+      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127739",
+      "verified_at": "2026-11-07",
+      "amount": "지원금액 · 공고 원문 확인 필요",
+      "eligibility": "중소기업",
+      "note": "공식 API 목록 발견. 신청자격·지원금·첨부 조건은 검증 전입니다.",
+      "source_level": "official_api_index_not_full_application_verified",
+      "agency": "중소벤처기업부",
+      "attachments": [
+        {
+          "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000779043&fileSn=1",
+          "name": "2026년_1인_창조기업_지원센터‧중장년_기술창업센터_신규_주관기관_모집_공고_수정.hwpx",
+          "status": "link_only_not_read"
+        },
+        {
+          "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000779042&fileSn=1",
+          "name": "2026년_1인_창조기업_지원센터‧중장년_기술창업센터_신규_주관기관_모집_공고_수정.pdf",
+          "status": "link_only_not_read"
+        }
+      ]
+    },
+    {
+      "id": "BIZINFO-PBLN_000000000127731",
+      "title": "2026년 onephai 플랫폼 활용 피지컬 AI 기술개발 및 실증 지원사업 지원기업 모집 공고(인간친화형 로봇 스케일업 밸리 혁신 생태계 구축사업)",
+      "year": 2026,
+      "years": [
+        2026
+      ],
+      "year_basis": "title",
+      "kind": "기술",
+      "mode": "discovery",
+      "relevance": "ai",
+      "opens": "2026-11-05",
+      "deadline": "2026-11-24",
+      "deadline_precision": "date",
+      "application_period_raw": "2026-11-05 ~ 2026-11-24",
+      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127731",
+      "verified_at": "2026-11-07",
+      "amount": "지원금액 · 공고 원문 확인 필요",
+      "eligibility": "중소기업",
+      "note": "공식 API 목록 발견. 신청자격·지원금·첨부 조건은 검증 전입니다.",
+      "source_level": "official_api_index_not_full_application_verified",
+      "agency": "대전광역시",
+      "attachments": [
+        {
+          "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000779011&fileSn=1",
+          "name": "2026년 onephai 플랫폼 활용 피지컬 AI 기술개발.pdf",
           "status": "link_only_not_read"
         }
       ]

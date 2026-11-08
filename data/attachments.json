@@ -1,9 +1,9 @@
 {
   "schema": "public-funding-attachments/v1",
   "version": "0.4.0",
-  "generated_at": "2026-11-07T11:32:45+09:00",
+  "generated_at": "2026-11-08T11:02:03+09:00",
   "run": {
-    "at": "2026-11-07T11:32:45+09:00",
+    "at": "2026-11-08T11:02:03+09:00",
     "notice_success": 3,
     "notice_failed": 0,
     "attempted": 4,
@@ -13,12 +13,12 @@
     "failed": 0,
     "changed": 0,
     "manifest_changed": 0,
-    "queued_total": 162,
+    "queued_total": 169,
     "new_attempted": 4,
     "retry_attempted": 0,
     "revisit_attempted": 0,
     "deferred_retry": 0,
-    "manual_hold": 14,
+    "manual_hold": 15,
     "scope": "원문 3건·첨부 4건 상한. 신규/일시적 전송실패/오래된 성공 기록을 분리해 선정하며 403·포맷·보호·크기 제한은 자동 우회하지 않습니다. 적격성은 미검증."
   },
   "records": {
@@ -13062,6 +13062,534 @@
       "http_status": null,
       "failure_kind": null,
       "retryable": false
+    },
+    "f32efdf88524a52f4fafdf4e": {
+      "id": "f32efdf88524a52f4fafdf4e",
+      "program_id": "BIZINFO-PBLN_000000000126109",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126109",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000771874&fileSn=0",
+      "name": "다운로드",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
+    },
+    "55b717e38d1edf19e7fc6d95": {
+      "id": "55b717e38d1edf19e7fc6d95",
+      "program_id": "BIZINFO-PBLN_000000000126109",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126109",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000771875&fileSn=0",
+      "name": "다운로드",
+      "status": "unsupported_format",
+      "last_attempt_at": "2026-11-08T11:02:03+09:00",
+      "last_success_at": null,
+      "last_error": "unsupported_format",
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-11-08T11:02:03+09:00",
+          "status": "unsupported_format",
+          "observed_sha256": "c93bb60ddf131bd60812b298a44b0822cc7b44054b29a2b10eb4896ed3e9db9c",
+          "http_status": null,
+          "failure_kind": "document_or_policy"
+        }
+      ],
+      "observed_sha256": "c93bb60ddf131bd60812b298a44b0822cc7b44054b29a2b10eb4896ed3e9db9c",
+      "http_status": null,
+      "failure_kind": "document_or_policy",
+      "retryable": false
+    },
+    "376a098a97d7b5d65c0fada6": {
+      "id": "376a098a97d7b5d65c0fada6",
+      "program_id": "BIZINFO-PBLN_000000000126209",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126209",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000772281&fileSn=1",
+      "name": "다운로드",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-08T11:02:03+09:00",
+      "last_success_at": "2026-11-08T11:02:03+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-11-08T11:02:03+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "343381a1cc699f14911ca5e65adc446926e786a525c904c4ffdd58d1077fe510",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "343381a1cc699f14911ca5e65adc446926e786a525c904c4ffdd58d1077fe510",
+      "sha256": "343381a1cc699f14911ca5e65adc446926e786a525c904c4ffdd58d1077fe510",
+      "extraction": {
+        "format": "pdf",
+        "parser": "pypdf/6.15.0",
+        "sha256": "343381a1cc699f14911ca5e65adc446926e786a525c904c4ffdd58d1077fe510",
+        "bytes": 263999,
+        "status": "text_extracted",
+        "text_characters": 6877,
+        "units": 31,
+        "text_sha256": "66fd0cb7e505f6f6568163a68b04e380e33cfac84ebdf94e401be9f0a5956e88",
+        "pages": 9,
+        "sections": null,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "701a13f5b4b46bba0732",
+            "category": "cofunding",
+            "excerpt": "※ 지원금액은 부가세 포함 금액이며, 각 세부 사업별 민간부담금은 아래 세부설명자료 참고",
+            "locator": "PDF p.1 / text-line 3",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "bfe2c3ddcfae4c0efbb1",
+            "category": "amount",
+            "excerpt": "※ 지원금액은 부가세 포함 금액이며, 각 세부 사업별 민간부담금은 아래 세부설명자료 참고",
+            "locator": "PDF p.1 / text-line 3",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "82ea9c9762559d8400e4",
+            "category": "amount",
+            "excerpt": "번호구분세부내용지원규모지원기관 및 문의처1기술개발지원시험·평가·인증지원▹ (지원유형) 시험분석, 평가 및 인증지원 ◦ 시험성적서 취득비용 사후 지원 ◦ 전열교환, 공기청정, 미세먼지 간이측정 분야의 장 비활 용 지 원 을 통 한 비 용 부 담 완 화 및 기 술 개 발 촉 진▹ (지원금액) 최대 6,000천원5개사부산테크노파크구태우 책임 연구원([연락처 생략])2 기술지도Ⅰ▹ (지원유형) 기업 애로기술 ",
+            "locator": "PDF p.1 / text-line 4",
+            "status": "candidate_unverified",
+            "redacted": true,
+            "context_warning": true
+          },
+          {
+            "id": "4c6e254fe89886165e77",
+            "category": "eligibility",
+            "excerpt": "신청자격",
+            "locator": "PDF p.2 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "9e7a3e131dc7bb835710",
+            "category": "deadline",
+            "excerpt": "신청방법 ◦ 공고기간 : 2026년 9월 7일(월) 09:00 ~ 접수완료 시 ◦ 신청기간 : 지원사업별 세부내용 확인 ◦ 신청방법 : 세부사업 담당자 이메일 접수세부사업명담당 기관명담당자접수처1. 시험·평가·인증 지원(재)부산테크노파크구태우 [연락처 생략]2. 기술지도Ⅰ",
+            "locator": "PDF p.2 / text-line 3",
+            "status": "candidate_unverified",
+            "redacted": true,
+            "context_warning": true
+          },
+          {
+            "id": "bfaa31a99a5672715ce7",
+            "category": "eligibility",
+            "excerpt": "가능하며(종된 사업장 포함), 증빙서류(사업자 단위 과세 적용 종된 사업장 명세) 제출 필요 * 사업별 특성에 따라 신청 자격이 다르므로 개별 사업공고를 반드시 참조 ② 공조부품 산업관련 기업 * 한국표준산업분류에 따라 지원 대상 기업은 전기 장비 제조업의 가정용 기기 제조업, 기타 기계/장비 제조업의 냉각/공기조화/여과/증류/가스발생기 제조업 및 수도, 하수 및 폐기물 처리, 원료 재생업(분류코드: 285,",
+            "locator": "PDF p.2 / text-line 7",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "b4a3c1d77b4d59df4b47",
+            "category": "documents",
+            "excerpt": "른 중견기업으로 아래에 해당하는 경우 * 사업자번호로 구분되는 도입기업 사업장별 신청 가능하며(종된 사업장 포함), 증빙서류(사업자 단위 과세 적용 종된 사업장 명세) 제출 필요 * 사업별 특성에 따라 신청 자격이 다르므로 개별 사업공고를 반드시 참조 ② 공조부품 산업관련 기업 * 한국표준산업분류에 따라 지원 대상 기업은 전기 장비 제조업의 가정용 기기 제조업, 기타 기계/장비 제조업의 냉각/공기조화/여과/증",
+            "locator": "PDF p.2 / text-line 7",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "8ebf5bcdac1aaa7bef4e",
+            "category": "eligibility",
+            "excerpt": "인증 지원, ② 기술지도Ⅰ평가항목평가지표배점지원 필요성(40)ㅇ 본 지원을 통해 달성하고자 하는 목표의 명확성20ㅇ 지원대상 제품/서비스 사양, 현 상황, 애로사항, 시의성 및 지원의 필요성 등 20지원내용 타당성(35)ㅇ 지원내용, 범위, 수행 일정의 구체성25ㅇ 지원금액의 적정성10기대효과(25)ㅇ 지원대상 제품/서비스의 사업화 가능성15ㅇ 고용 및 매출 증대 가능성10합계 100",
+            "locator": "PDF p.3 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "be0e448559a5eae01f8c",
+            "category": "amount",
+            "excerpt": "황, 애로사항, 시의성 및 지원의 필요성 등 20지원내용 타당성(35)ㅇ 지원내용, 범위, 수행 일정의 구체성25ㅇ 지원금액의 적정성10기대효과(25)ㅇ 지원대상 제품/서비스의 사업화 가능성15ㅇ 고용 및 매출 증대 가능성10합계 100",
+            "locator": "PDF p.3 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "477b1d5f525fdad1b31c",
+            "category": "exclusion",
+            "excerpt": "지원제외대상구 분신 청 제 외 대 상1필 수 제 출 서 류 누 락 또 는 제 출 된 서 류 가 확 인 이 불 가 한 경 우 제 출 된 서 류 가 허 위 인 경 우, 선 정 취 소 될 수 있 음2기 업 의 부 도(회 생 인 가 를 받 은 경 우 는 예 외)3기 업 이 휴·폐 업 상 태 인 경 우",
+            "locator": "PDF p.4 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "c8e5e7b78b77f42c27c2",
+            "category": "amount",
+            "excerpt": "자료 등 추가 보완자료를 요청할 수 있음 ◦ 제출된 서류는 일체 반환하지 않으며 탈락기업에 대해 별도 통지 없음 ◦ 지원금액은 선정평가에 따라 조정될 수 있음",
+            "locator": "PDF p.5 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "3b934f815fb2cc17bf7f",
+            "category": "documents",
+            "excerpt": "유의사항 ◦ 신청서 및 모든 제출서류는 반드시 공고에 명시된 접수마감 기한과 방식(형식·규격)을 준수해야 하며, 기한 내 미제출 시 접수되지 않음 ◦ 제출한 서류는 원칙적으로 반환되지 않으며, 제출서류 누락·오류 등으로 인한 책임은 신청자에게 있음 ◦ 선정평가 일정과 평가 결과는 신청기업에 개별 통보 ◦ 신청서 접수 후 과제별 면담/현장실태조사 또는 별도 서면자료 등 추가 보완자료를 요청할 수 있음 ◦ 제출",
+            "locator": "PDF p.5 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "dd12b47f8196eac62a06",
+            "category": "deadline",
+            "excerpt": "유의사항 ◦ 신청서 및 모든 제출서류는 반드시 공고에 명시된 접수마감 기한과 방식(형식·규격)을 준수해야 하며, 기한 내 미제출 시 접수되지 않음 ◦ 제출한 서류는 원칙적으로 반환되지 않으며, 제출서류 누락·오류 등으로 인한 책임은 신청자에게 있음 ◦ 선정평가 일정과 평가 결과는 신청기업에 개별 통보 ◦ 신청서 접수 후 과제별 면담/현장실태조사 또는 별도 서면자료 등 추가 보완자료를 요청할 수 있음 ◦ 제출",
+            "locator": "PDF p.5 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "4befa623c068bca05b6c",
+            "category": "amount",
+            "excerpt": " (5개사 지원 마감 시 접수종료) ◦ 사업수행기간 : 2026. 09. (선정 후) ~ 2026. 12. 31.□ 지원규모 구 분 내 용지원방법◦ 수행기관 선정 후 지원금액에 해당하는 시험분석·평가·인증 지원지원규모◦ 5개사지원금액및지급방법◦ 시험분석, 평가 및 인증 지원 : 최대 6,000천원◦ 지원금액에 해당하는 시험분석, 평가, 인증 수행 지원 (현금지원 없음)기타◦ 수행기관의 경우 본 사업의 협력기관",
+            "locator": "PDF p.6 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "7b208f45f120bc842941",
+            "category": "deadline",
+            "excerpt": "대응 역량 및 글로벌 시장 진출 기반 강화 ◦ 장비활용 지원을 통해 기업의 시험비용 부담 완화와 신제품 개발 촉진□ 신청기간 : 2026. 09. 07.(월) ~ 상시 (5개사 지원 마감 시 접수종료) ◦ 사업수행기간 : 2026. 09. (선정 후) ~ 2026. 12. 31.□ 지원규모 구 분 내 용지원방법◦ 수행기관 선정 후 지원금액에 해당하는 시험분석·평가·인증 지원지원규모◦ 5개사지원금액및지급방법◦ ",
+            "locator": "PDF p.6 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "2eda46ae4bebd0a8018a",
+            "category": "documents",
+            "excerpt": "□ 제출서류구분제출서류서식부수비고1시험·평가·인증지원 신청서[서식1]1부-2시험·평가·인증지원 신청서(상세) [서식1]1부-3개인·기업정보 이용 동의서[서식1]1부-4사업자등록증명원-1부-5국세 및 지방세 완납 증명서-각 1부-□ 추진절차 및 일정< 추진절차 > < 주요내용 > < 일정 >① 사업 지원 신청• 관련 서류 제출② 선정 평가• 시험분석, 평가, 인증 지원 필요성 등에 대한 서면평가 진행~ ‘26.",
+            "locator": "PDF p.7 / text-line 3",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "56add4bac7f29f943524",
+            "category": "deadline",
+            "excerpt": "증 기준 대응을 지원하여 기업의 글로벌 시장 대응 역량 강화 ◦ 공조부품 산업의 품질 수준 향상과 기술경쟁력 제고□ 신청기간 : 2026. 09. 07.(월) ~ 상시 (4개사 지원 마감 시 접수종료) ◦ 사업수행기간 : 2026. 09. (선정 후) ~ 2026. 12. 31.□ 지원규모 구분 내용지원방법◦ 수행기관 선정 후 지원금액에 해당하는 기술지도(컨설팅) 지원지원규모◦ 4개지원금액및지급방법◦ 최대 2",
+            "locator": "PDF p.8 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "bd951f006de56da967c4",
+            "category": "documents",
+            "excerpt": "□ 제출서류구분제출서류서식부수비고1기술지도지원 신청서[서식2]1부-2기술지도지원 신청서(상세) [서식2]1부-3개인·기업정보 이용 동의서[서식2]1부-4사업자등록증명원-1부-5국세 및 지방세 완납 증명서-각 1부-□ 추진절차< 추진절차 > < 주요내용 > < 일정 >① 사업 지원 신청• 관련 서류 제출② 선정 평가• 기술지도 필요성 등에 대한 서면평가 진행~ ‘26. 09.③ 사업 수행• 전략수립 및 기술지도",
+            "locator": "PDF p.9 / text-line 3",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "표 열 순서·이미지·주석의 의미는 검토하지 않았습니다.",
+          "OCR 미수행"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
+    },
+    "0c74e72c57eac043a5a7bd0f": {
+      "id": "0c74e72c57eac043a5a7bd0f",
+      "program_id": "BIZINFO-PBLN_000000000126209",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126209",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000772282&fileSn=1",
+      "name": "다운로드",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-08T11:02:03+09:00",
+      "last_success_at": "2026-11-08T11:02:03+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-11-08T11:02:03+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "bb7753b328f74c6897380fccf07ed2ce08377888df5195782bcbac860eaccd83",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "bb7753b328f74c6897380fccf07ed2ce08377888df5195782bcbac860eaccd83",
+      "sha256": "bb7753b328f74c6897380fccf07ed2ce08377888df5195782bcbac860eaccd83",
+      "extraction": {
+        "format": "hwp",
+        "parser": "olefile/0.47+hwp-body/0.4.0",
+        "sha256": "bb7753b328f74c6897380fccf07ed2ce08377888df5195782bcbac860eaccd83",
+        "bytes": 89600,
+        "status": "text_extracted",
+        "text_characters": 1897,
+        "units": 132,
+        "text_sha256": "a631a6312e84877b3393b81033f818d38175e8f9d9ba6963133d843d11c37148",
+        "pages": null,
+        "sections": 1,
+        "empty_pages": 0,
+        "candidate_facts": [],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "구역·레코드 위치는 실제 인쇄 쪽번호가 아닙니다.",
+          "표·그림·각주 의미와 문서의 모든 제외조건은 미검토"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
+    },
+    "ee469695cca2adf56f9f0ef4": {
+      "id": "ee469695cca2adf56f9f0ef4",
+      "program_id": "BIZINFO-PBLN_000000000126209",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126209",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000772282&fileSn=2",
+      "name": "다운로드",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
+    },
+    "508fe56b023a68370d9f2759": {
+      "id": "508fe56b023a68370d9f2759",
+      "program_id": "BIZINFO-PBLN_000000000126349",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126349",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000772843&fileSn=0",
+      "name": "다운로드",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-08T11:02:03+09:00",
+      "last_success_at": "2026-11-08T11:02:03+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-11-08T11:02:03+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "542fc7fed446a3ed1e751f0e03988f67644431e04c816afed6fdb492fdf040fc",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "542fc7fed446a3ed1e751f0e03988f67644431e04c816afed6fdb492fdf040fc",
+      "sha256": "542fc7fed446a3ed1e751f0e03988f67644431e04c816afed6fdb492fdf040fc",
+      "extraction": {
+        "format": "pdf",
+        "parser": "pypdf/6.15.0",
+        "sha256": "542fc7fed446a3ed1e751f0e03988f67644431e04c816afed6fdb492fdf040fc",
+        "bytes": 338702,
+        "status": "text_extracted",
+        "text_characters": 7097,
+        "units": 24,
+        "text_sha256": "e90594cd52190d657d6c8e14213a5da74efb928f9472512da2be02dea806aef3",
+        "pages": 9,
+        "sections": null,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "3cd20b7d2439eb891b1f",
+            "category": "eligibility",
+            "excerpt": "시 청년 취·창업 지원사업디자인 개선 지원 사업 참여 기업 모집 공고 당진시와 (사)충남산학융합원에서는 당진시 청년 창업기업의 제품 및 홍보 콘텐츠 경쟁력 강화와 해외 온라인 판매채널 진출 기반 마련을 위하여 「디자인 개선 지원 프로그램」을 운영하오니, 제품 홍보 콘텐츠 및 온라인 판매페이지 디자인 개선과 해외 온라인 플랫폼 입점 지원을 희망하는 관내 청년 창업기업의 많은 참여 바랍니다. 2026년 9월 7일",
+            "locator": "PDF p.1 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "9f9a3ab2d6eaf2c08039",
+            "category": "amount",
+            "excerpt": "합원장 1. 모집 개요□ 사 업 명: 디자인 개선 지원 프로그램□ 사업기간: 2026. 9. ~ 2026. 12.□ 지원규모: 당진시 소재 7년 이내 청년 창업 기업 6개사 □ 지원대상: 아래 지원요건을 모두 충족하는 기업ㆍ 당진시 소재 기업ㆍ 공고일 기준 대표자가 만 39세 이하 청년인 기업ㆍ 공고일 기준 창업 7년 이내 기업 (2019. 9. 7. 이후 창업기업)ㆍ 자체 생산 또는 판매 가능한 제품을 보유",
+            "locator": "PDF p.1 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "8bd6e68aa435bf6848a6",
+            "category": "eligibility",
+            "excerpt": "모인 6개사 지원 완료 또는 사업비 소진 시 접수 및 지원 종료 ❍ 제출서류 미비 또는 지원요건 미충족 기업의 경우 지원 대상에서 제외하며, 후순위 접수기업에 대해 순차적으로 지원 ❍ 지원기업의 참여 포기 등으로 잔여 지원기업이 발생하는 경우 후순위 접수기업에 대해 순차적으로 지원",
+            "locator": "PDF p.2 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "536ebc8ec9972afb0acd",
+            "category": "exclusion",
+            "excerpt": "원 완료 또는 사업비 소진 시 접수 및 지원 종료 ❍ 제출서류 미비 또는 지원요건 미충족 기업의 경우 지원 대상에서 제외하며, 후순위 접수기업에 대해 순차적으로 지원 ❍ 지원기업의 참여 포기 등으로 잔여 지원기업이 발생하는 경우 후순위 접수기업에 대해 순차적으로 지원",
+            "locator": "PDF p.2 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "3d10d9f2bff23a5b2377",
+            "category": "amount",
+            "excerpt": " 기업을 대상으로 제출서류 및 지원요건을 확인하고, 요건을 충족한 기업부터 접수 순서에 따라 순차적으로 지원 ❍ 총 지원규모인 6개사 지원 완료 또는 사업비 소진 시 접수 및 지원 종료 ❍ 제출서류 미비 또는 지원요건 미충족 기업의 경우 지원 대상에서 제외하며, 후순위 접수기업에 대해 순차적으로 지원 ❍ 지원기업의 참여 포기 등으로 잔여 지원기업이 발생하는 경우 후순위 접수기업에 대해 순차적으로 지원",
+            "locator": "PDF p.2 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "6146163150f748d0597b",
+            "category": "documents",
+            "excerpt": "3. 추진절차 및 지원방법□ 추진절차: 신청 접수 순서에 따라 지원요건 및 제출서류 확인 후 순차 지원기업 신청 접수▶지원요건 및 제출서류 검토▶기업·제품 사전진단▶지원 방향 설정▼성과점검 및 결과보고◀쇼피 입점 완료 및 판매채널 구축◀디자인 개선 및 쇼피 입점 지원※ 세부 일정 및 추진방법은 기업별 상황에 따라 일부 조정될 수 있음□ 지원방법 ❍ 지원요건을 충족하는 기업을 대상으로 접수 순서에 따라 순차 지",
+            "locator": "PDF p.2 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "d334f54fd21d7f53dc41",
+            "category": "deadline",
+            "excerpt": "상황에 따라 일부 조정될 수 있음□ 지원방법 ❍ 지원요건을 충족하는 기업을 대상으로 접수 순서에 따라 순차 지원 ❍ 접수기간 내 신청한 기업을 대상으로 제출서류 및 지원요건을 확인하고, 요건을 충족한 기업부터 접수 순서에 따라 순차적으로 지원 ❍ 총 지원규모인 6개사 지원 완료 또는 사업비 소진 시 접수 및 지원 종료 ❍ 제출서류 미비 또는 지원요건 미충족 기업의 경우 지원 대상에서 제외하며, 후순위 접수기업",
+            "locator": "PDF p.2 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "a4c86ff36da84b42ccc2",
+            "category": "documents",
+            "excerpt": "서명 후 제출 (서명 누락 시 접수 불가)□ 문 의: [연락처 생략] / [연락처 생략]□ 제출서류",
+            "locator": "PDF p.3 / text-line 1",
+            "status": "candidate_unverified",
+            "redacted": true,
+            "context_warning": true
+          },
+          {
+            "id": "e9cc916e3ce3580a98b7",
+            "category": "deadline",
+            "excerpt": "4. 신청 및 접수□ 신청․접수기간: 2026. 9. 7.(월) ~ 예산 소진 시까지□ 신청방법: 이메일 접수 ＊ 접수 후 유선으로 접수 여부를 반드시 확인하여야 함 ❍ 이메일 : [연락처 생략] (파일명 : 디자인개선지원_기업명) [파일명 예시와 다를 시 누락 될 수 있음을 알려드립니다.] ※ 참가신청서 및 개인(기업)정보 제공 및 신용정보 제공․조회 동의서에 서명 후 제출 (서명 누락 시",
+            "locator": "PDF p.3 / text-line 1",
+            "status": "candidate_unverified",
+            "redacted": true,
+            "context_warning": true
+          },
+          {
+            "id": "93ea540555d48acb820a",
+            "category": "documents",
+            "excerpt": "구분제출순서제출서류비고",
+            "locator": "PDF p.3 / text-line 3",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "e88f3827e64854ff9bad",
+            "category": "documents",
+            "excerpt": "해당 사업자 유형에 맞는 명의로 서류를 제출해 주시기 바랍니다. (법인: 법인명의 / 개인사업자: 개인명의)※ 모든 제출 서류는 신청일 기준 유효한 서류만 인정※ 접수 서류가 불충분하거나 미흡한 경우 서류 심사 시 선정 제외 ※ 온라인 마켓플레이스 내 상품 상세페이지는 기존 온라인 판매 여부 및 디자인 개선 필요성 확인을 위한 자료로 활용함",
+            "locator": "PDF p.3 / text-line 5",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "dfe05f88cab1342748c3",
+            "category": "eligibility",
+            "excerpt": "여야 함 ❍ 신청서 및 제출서류의 허위기재,기재착오,구비서류 미제출 등으로 인한 불이익은 신청기업의 책임으로 함 ❍ 지원 대상 여부를 개별 안내하며,세부 추진일정 및 지원 절차는 최종 지원기업을 대상으로 별도 안내함 ❍ 제출된 서류는 반환하지 않으며,최종 선정 이후에도 지원 제외 또는 결격 사유가 확인될 경우 선정을 취소할 수 있음 ❍ 선정 및 지원에 관한 세부사항은 주관기관의 결정에 따름□ 지원 취소 및 참",
+            "locator": "PDF p.4 / text-line 1",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "ec626ebb12f19f0bfe39",
+            "category": "exclusion",
+            "excerpt": "추진일정 및 지원 절차는 최종 지원기업을 대상으로 별도 안내함 ❍ 제출된 서류는 반환하지 않으며,최종 선정 이후에도 지원 제외 또는 결격 사유가 확인될 경우 선정을 취소할 수 있음 ❍ 선정 및 지원에 관한 세부사항은 주관기관의 결정에 따름□ 지원 취소 및 참여 제한 ❍ 다음 각 호에 해당하는 경우 지원을 취소하거나 향후 사업 참여를 제한할 수 있음ㆍ신청기업이 아닌 타 기업의 제품 또는 콘텐츠를 대상으로 지원받",
+            "locator": "PDF p.4 / text-line 1",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "8f1deae712a85049bb77",
+            "category": "documents",
+            "excerpt": "평가 등에 성실히 응하여야 함 ❍ 지원기업은 사업기간 동안 정상적으로 사업을 유지하여야 함 ❍ 신청서 및 제출서류의 허위기재,기재착오,구비서류 미제출 등으로 인한 불이익은 신청기업의 책임으로 함 ❍ 지원 대상 여부를 개별 안내하며,세부 추진일정 및 지원 절차는 최종 지원기업을 대상으로 별도 안내함 ❍ 제출된 서류는 반환하지 않으며,최종 선정 이후에도 지원 제외 또는 결격 사유가 확인될 경우 선정을 취소할 수 ",
+            "locator": "PDF p.4 / text-line 1",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "14d0a1aa79b2ef987f6b",
+            "category": "amount",
+            "excerpt": "사업』 참여를 신청합니다. 위 내용 및 제출한 서류의 내용이 사실임을 확인하며, 허위 사실이 있을 경우 선정취소 및 정부지원사업의 참여 제한 등의 조치에 동의합니다.2026년 월 일 충남산학융합원장 귀하기 업 명 :대표자 성명 : (날인 / 서명)",
+            "locator": "PDF p.5 / text-line 6",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "2cb65308a42764370792",
+            "category": "exclusion",
+            "excerpt": "계획입니다.1. 개인정보의 수집 및 이용목적(1) 디자인 개선 지원사업 참여자 선정·관리, 참여자 참여 이력 관리, 휴폐업여부조회 등 지원요건 확인 등에 활용 (2) 사업의 사후관리 : 성과추적, 사후설문, 자료제출, 변경사항 관리 등에 활용(3) 중앙부처·지방자치단체에서 실시하는 사업과의 중복여부 등 관리 목적으로 활용(4) 업무유관, 행정기관, 기타 기관의 요청 또는 필요에 따라 제공·이용행정기관당진시, ",
+            "locator": "PDF p.6 / text-line 1",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "c1d789b063df691e3217",
+            "category": "exclusion",
+            "excerpt": "의 선고를 받은 기업이 아님을 확인합니다.(공모일 기준 2년 이내) □민원야기, 임금체불, 환경오염, 불법공장, 세금체납 등 사회적 물의를 빚은 기업이 아님을 확인합니다.(공모일 기준 2년 이내) □프로젝트 미팅 1회 이상 대표자 참여가 가능하며, 미 참여 시 선정이 취소됨을 확인합니다. □ 상기 본인은 2026년 충남산학융합원 「디자인 개선 지원사업」에 참여하고자 신청서를 제출하며, 위 기재사항이 사실과 틀",
+            "locator": "PDF p.7 / text-line 1",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "c02bdf69649de277516d",
+            "category": "exclusion",
+            "excerpt": "붙임Ⅳ. 지원 제외 대상 업종 표준산업분류업 종33409 중도박기계 및 사행성, 불건전 오락기구 제조업46102 중담배 중개업46107 중예술품, 골동품 및 귀금속 중개업46209 중잎담배 도매업46333담배 도매업 * 담배대용물(전자담배 등) 포함46416, 46417 중모피제품 도매업46463 중도박기계 및 사행성, 불건전 오락기구 도매업47640 중도박기계 및 사행성, 불건전 오락기구 소매업47811 중",
+            "locator": "PDF p.8 / text-line 1",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "표 열 순서·이미지·주석의 의미는 검토하지 않았습니다.",
+          "OCR 미수행"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
+    },
+    "5a8e935185a6126254b9c7e1": {
+      "id": "5a8e935185a6126254b9c7e1",
+      "program_id": "BIZINFO-PBLN_000000000126349",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126349",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000772844&fileSn=0",
+      "name": "다운로드",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
     }
   },
   "programs": {
@@ -14048,6 +14576,46 @@
         "c4e57d3d5a798f8cf8406830",
         "bf64d9da0908cd4fb0fd74db",
         "19fbcc50e5f793008c4300c6"
+      ],
+      "review_required": false,
+      "last_error": null
+    },
+    "BIZINFO-PBLN_000000000126109": {
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126109",
+      "last_notice_attempt_at": "2026-11-08T11:02:03+09:00",
+      "last_notice_success_at": "2026-11-08T11:02:03+09:00",
+      "notice_status": "links_available",
+      "manifest_sha256": "2641be0dfd76a4725b897a80325de89509e440d84c72cf7399fa6312fcb6f788",
+      "document_ids": [
+        "f32efdf88524a52f4fafdf4e",
+        "55b717e38d1edf19e7fc6d95"
+      ],
+      "review_required": false,
+      "last_error": null
+    },
+    "BIZINFO-PBLN_000000000126209": {
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126209",
+      "last_notice_attempt_at": "2026-11-08T11:02:03+09:00",
+      "last_notice_success_at": "2026-11-08T11:02:03+09:00",
+      "notice_status": "links_available",
+      "manifest_sha256": "b5c0a03325cfbc1d5bcaeca9823b06ad7bf961b1647ca95b48c4de3b7182f9cb",
+      "document_ids": [
+        "376a098a97d7b5d65c0fada6",
+        "0c74e72c57eac043a5a7bd0f",
+        "ee469695cca2adf56f9f0ef4"
+      ],
+      "review_required": false,
+      "last_error": null
+    },
+    "BIZINFO-PBLN_000000000126349": {
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126349",
+      "last_notice_attempt_at": "2026-11-08T11:02:03+09:00",
+      "last_notice_success_at": "2026-11-08T11:02:03+09:00",
+      "notice_status": "links_available",
+      "manifest_sha256": "fb19010577523868741d97cf08fe7b4e8eb20bd8479abdd71915abbe3a38b9bf",
+      "document_ids": [
+        "508fe56b023a68370d9f2759",
+        "5a8e935185a6126254b9c7e1"
       ],
       "review_required": false,
       "last_error": null

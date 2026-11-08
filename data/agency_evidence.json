@@ -1,7 +1,7 @@
 {
   "schema": "public-funding-agency-evidence/v1",
   "version": "0.17.0",
-  "generated_at": "2026-11-07T11:32:11+09:00",
+  "generated_at": "2026-11-08T11:01:39+09:00",
   "model_calls": 0,
   "automatic_approval": false,
   "scope": "기관 직접 목록의 원문 최대 3건·첨부 최대 4건 순환 확인. 본문 추출은 조건 후보이며 신청자격·금액·중복지원·문서 완전성 검증이 아닙니다. 기존 공고와 검토 규칙은 수정하지 않습니다.",
@@ -12,9 +12,9 @@
       "source": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1071785",
       "title": "2027년 도약(Jump-Up) 프로그램 참여기업 모집 공고",
       "listing_fingerprint": "e4cdfd512f5098ae2167e3fa251d720044abdc9d89e36f97336d502086a8ad1f",
-      "listing_seen_at": "2026-11-04T11:53:32+09:00",
-      "last_attempt_at": "2026-11-04T11:53:40+09:00",
-      "last_success_at": "2026-11-04T11:53:40+09:00",
+      "listing_seen_at": "2026-11-08T11:01:33+09:00",
+      "last_attempt_at": "2026-11-08T11:01:39+09:00",
+      "last_success_at": "2026-11-08T11:01:39+09:00",
       "status": "html_available",
       "last_error": null,
       "review_required": false,
@@ -35,6 +35,13 @@
         }
       ],
       "history": [
+        {
+          "at": "2026-11-08T11:01:39+09:00",
+          "status": "html_available",
+          "body_sha256": "f24eab2ad59d502b3f1b3da0054e84eddc6358b5704d74d1aa2f05bf2ebd3e87",
+          "manifest_sha256": "e91eba66141ad96379eb59588d0aab1dfbaf0ba78d4f7cbf379620590cbf895d",
+          "error": null
+        },
         {
           "at": "2026-11-04T11:53:40+09:00",
           "status": "html_available",
@@ -423,9 +430,9 @@
       "source": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1071948",
       "title": "창업도시 조성 프로젝트 창업도시 모집 공고",
       "listing_fingerprint": "a4e466407ce7c88123e8acf8ccb5f4fe6ca6bb9d0929aba5f12b435f0d95a159",
-      "listing_seen_at": "2026-11-03T12:50:47+09:00",
-      "last_attempt_at": "2026-11-03T12:50:55+09:00",
-      "last_success_at": "2026-11-03T12:50:55+09:00",
+      "listing_seen_at": "2026-11-08T11:01:33+09:00",
+      "last_attempt_at": "2026-11-08T11:01:39+09:00",
+      "last_success_at": "2026-11-08T11:01:39+09:00",
       "status": "html_available",
       "last_error": null,
       "review_required": false,
@@ -470,6 +477,13 @@
         }
       ],
       "history": [
+        {
+          "at": "2026-11-08T11:01:39+09:00",
+          "status": "html_available",
+          "body_sha256": "05a18a9a3d038d2de12e4d50003ca76f834b692dc4dd7f70067a284fa218a95f",
+          "manifest_sha256": "d55e550d46b58c60280aab0d768978fea69488bb6b0229334311bd9a999aa121",
+          "error": null
+        },
         {
           "at": "2026-11-03T12:50:55+09:00",
           "status": "html_available",
@@ -991,6 +1005,45 @@
         }
       ],
       "unhandled_links": 2
+    },
+    "NIPA-16969": {
+      "id": "NIPA-16969",
+      "agency_id": "nipa",
+      "source": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16969&tab=2",
+      "title": "2026년 한-두바이 AI 사이버보안 포럼 운영 용역 모집- 잠정 중단 안내",
+      "listing_fingerprint": "33eb1aaa82d4c90fdafbc2b164d67166a3b16b5e752c553fe4f870c47d9d5a71",
+      "listing_seen_at": "2026-11-08T11:01:33+09:00",
+      "last_attempt_at": "2026-11-08T11:01:39+09:00",
+      "last_success_at": "2026-11-08T11:01:39+09:00",
+      "status": "html_available",
+      "last_error": null,
+      "review_required": true,
+      "body_sha256": "ed5c5ef2966a2b50386124a0113e4eaa75be37bdb77a57916d47df9d37a0ad7b",
+      "manifest_sha256": "53542e7e505fb22e2f037a0d3d65d70c25c832c0bf960cee994a39b4fea9dc27",
+      "documents": [
+        {
+          "id": "0adf00c9c6ea76e0e6ebfcd6",
+          "name": "붙임2. 제안요청서_2026년 한-두바이 AI 사이버보안 포럼 운영 용역.hwp",
+          "public_url": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16969&tab=2",
+          "locator": "공고 첨부파일 목록 / 붙임2. 제안요청서_2026년 한-두바이 AI 사이버보안 포럼 운영 용역.hwp"
+        },
+        {
+          "id": "cd7082d5cde321188f98e168",
+          "name": "붙임1. 입찰공고문_2026년 한-두바이 AI 사이버보안 포럼 운영 용역.hwp",
+          "public_url": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16969&tab=2",
+          "locator": "공고 첨부파일 목록 / 붙임1. 입찰공고문_2026년 한-두바이 AI 사이버보안 포럼 운영 용역.hwp"
+        }
+      ],
+      "history": [
+        {
+          "at": "2026-11-08T11:01:39+09:00",
+          "status": "html_available",
+          "body_sha256": "ed5c5ef2966a2b50386124a0113e4eaa75be37bdb77a57916d47df9d37a0ad7b",
+          "manifest_sha256": "53542e7e505fb22e2f037a0d3d65d70c25c832c0bf960cee994a39b4fea9dc27",
+          "error": null
+        }
+      ],
+      "unhandled_links": 0
     }
   },
   "documents": {
@@ -1001,11 +1054,18 @@
       "url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1071785&cbIdx=310&streFileNm=5ec2eccf-5588-4d6d-9633-e9dd7bbf1358.hwpx",
       "name": "5ec2eccf-5588-4d6d-9633-e9dd7bbf1358.hwpx",
       "status": "text_extracted",
-      "last_attempt_at": "2026-10-30T20:57:46+09:00",
-      "last_success_at": "2026-10-30T20:57:46+09:00",
+      "last_attempt_at": "2026-11-08T11:01:39+09:00",
+      "last_success_at": "2026-11-08T11:01:39+09:00",
       "last_error": null,
       "review_required": false,
       "history": [
+        {
+          "at": "2026-11-08T11:01:39+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "d9de1beeab1c69978bddb788d9e4189ab6f0a9b41d33be9ec7e948ec69402044",
+          "http_status": null,
+          "failure_kind": null
+        },
         {
           "at": "2026-10-30T20:57:46+09:00",
           "status": "text_extracted",
@@ -1264,11 +1324,18 @@
       "url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1071785&cbIdx=310&streFileNm=616ad874-cee9-458c-8b63-873d955be3cc.pdf",
       "name": "616ad874-cee9-458c-8b63-873d955be3cc.pdf",
       "status": "text_extracted",
-      "last_attempt_at": "2026-10-30T20:57:46+09:00",
-      "last_success_at": "2026-10-30T20:57:46+09:00",
+      "last_attempt_at": "2026-11-08T11:01:39+09:00",
+      "last_success_at": "2026-11-08T11:01:39+09:00",
       "last_error": null,
       "review_required": false,
       "history": [
+        {
+          "at": "2026-11-08T11:01:39+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "f9eaf14d758270ed99147a6243fe7c51936506d1be71ac03f3a4051bfd1b8b96",
+          "http_status": null,
+          "failure_kind": null
+        },
         {
           "at": "2026-10-30T20:57:46+09:00",
           "status": "text_extracted",
@@ -7848,11 +7915,213 @@
       "http_status": null,
       "failure_kind": null,
       "retryable": false
+    },
+    "0adf00c9c6ea76e0e6ebfcd6": {
+      "id": "0adf00c9c6ea76e0e6ebfcd6",
+      "program_id": "NIPA-16969",
+      "notice_source": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16969&tab=2",
+      "url": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16969&tab=2",
+      "name": "붙임2. 제안요청서_2026년 한-두바이 AI 사이버보안 포럼 운영 용역.hwp",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-08T11:01:39+09:00",
+      "last_success_at": "2026-11-08T11:01:39+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-11-08T11:01:39+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "b0e848a1d41a054a548ed07dce395c5384571977f5328a6eec51e07d9c4e6fc9",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "b0e848a1d41a054a548ed07dce395c5384571977f5328a6eec51e07d9c4e6fc9",
+      "sha256": "b0e848a1d41a054a548ed07dce395c5384571977f5328a6eec51e07d9c4e6fc9",
+      "extraction": {
+        "format": "hwp",
+        "parser": "olefile/0.47+hwp-body/0.4.0",
+        "sha256": "b0e848a1d41a054a548ed07dce395c5384571977f5328a6eec51e07d9c4e6fc9",
+        "bytes": 128512,
+        "status": "text_extracted",
+        "text_characters": 11882,
+        "units": 546,
+        "text_sha256": "66429d7da600316834a87c28dafb6070937a08222f24c0db7d16efd8b0e016d0",
+        "pages": null,
+        "sections": 1,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "2cb7cb927e0e3f27bac4",
+            "category": "deadline",
+            "excerpt": "제안접수마감",
+            "locator": "BodyText/Section0 / record 593 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "e936f39fce2f05a53c4e",
+            "category": "deadline",
+            "excerpt": "제안서 접수마감",
+            "locator": "BodyText/Section0 / record 621 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "4e9363a6f47e02f664d7",
+            "category": "documents",
+            "excerpt": "□ 제출 서류 목록",
+            "locator": "BodyText/Section0 / record 2291 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "140cf7c6acfe44391356",
+            "category": "documents",
+            "excerpt": "* 기타 제출 서류 목록을 작성하여 첨부",
+            "locator": "BodyText/Section0 / record 2749 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "464f4da5f2a6b8b8a1ab",
+            "category": "eligibility",
+            "excerpt": "본사업",
+            "locator": "BodyText/Section0 / record 3234 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "구역·레코드 위치는 실제 인쇄 쪽번호가 아닙니다.",
+          "표·그림·각주 의미와 문서의 모든 제외조건은 미검토"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
+    },
+    "cd7082d5cde321188f98e168": {
+      "id": "cd7082d5cde321188f98e168",
+      "program_id": "NIPA-16969",
+      "notice_source": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16969&tab=2",
+      "url": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16969&tab=2",
+      "name": "붙임1. 입찰공고문_2026년 한-두바이 AI 사이버보안 포럼 운영 용역.hwp",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-08T11:01:39+09:00",
+      "last_success_at": "2026-11-08T11:01:39+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-11-08T11:01:39+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "3cf355a4faf54db659069946554b7799583987cb556774529bc9b19dcbb1b6c5",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "3cf355a4faf54db659069946554b7799583987cb556774529bc9b19dcbb1b6c5",
+      "sha256": "3cf355a4faf54db659069946554b7799583987cb556774529bc9b19dcbb1b6c5",
+      "extraction": {
+        "format": "hwp",
+        "parser": "olefile/0.47+hwp-body/0.4.0",
+        "sha256": "3cf355a4faf54db659069946554b7799583987cb556774529bc9b19dcbb1b6c5",
+        "bytes": 172544,
+        "status": "text_extracted",
+        "text_characters": 10318,
+        "units": 280,
+        "text_sha256": "f40ba55a7675827c66319c9bb4a3fb75fa09402cdb1f46316972d0d36195b06c",
+        "pages": null,
+        "sections": 1,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "46465ca40227124f5a0a",
+            "category": "deadline",
+            "excerpt": "① 제출마감일시: 2026.11.04. 17:00, 공고기간 10일(공고 시작일, 마감일 제외) 이상",
+            "locator": "BodyText/Section0 / record 265 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "d5d3cb6a49ecccf614d9",
+            "category": "documents",
+            "excerpt": "4. 제출서류",
+            "locator": "BodyText/Section0 / record 347 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "79ab2920e993b935aec1",
+            "category": "documents",
+            "excerpt": "※ (사후판정) 계약담당자는 제출서류(입찰보증금, 입찰참가자격 포함)에 대한 적정성(적합)여부를 개찰 이후에도 판정할 수 있습니다.",
+            "locator": "BodyText/Section0 / record 576 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "0168fa1c82b1bca573c7",
+            "category": "deadline",
+            "excerpt": "* 개시일 : 입찰서 제출 마감일 이전 / 종료일 : 입찰서 제출마감일 + 30일 이상",
+            "locator": "BodyText/Section0 / record 734 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "ed57270f8eabdca83dba",
+            "category": "deadline",
+            "excerpt": "1) 입찰참가자격의 판단기준일은 입찰참가자격등록 마감일(기준일이 정해져 있는 경우에는 해당일)이며 마감일(일시가 정해져 있는 경우에는 해당일시)까지 참가자격을 갖추지 않은 경우 무효입찰임을 알려드리오니 주의하시기 바랍니다.",
+            "locator": "BodyText/Section0 / record 766 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "d600600c8a23edf965ee",
+            "category": "eligibility",
+            "excerpt": "제2조(공동수급체) 공동수급체의 명칭, 사업소의 소재지, 대표자는 다음과 같다.",
+            "locator": "BodyText/Section0 / record 1440 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "ec29d4ad20ffd509047f",
+            "category": "eligibility",
+            "excerpt": "2. 주사무소소재지 :",
+            "locator": "BodyText/Section0 / record 1448 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "구역·레코드 위치는 실제 인쇄 쪽번호가 아닙니다.",
+          "표·그림·각주 의미와 문서의 모든 제외조건은 미검토"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
     }
   },
   "run": {
-    "at": "2026-11-07T11:32:11+09:00",
-    "status": "partial",
+    "at": "2026-11-08T11:01:39+09:00",
+    "status": "ok_scoped",
     "notices_attempted": 3,
     "notices_success": 3,
     "notices_failed": 0,

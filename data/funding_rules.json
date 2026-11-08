@@ -1,7 +1,7 @@
 {
   "schema": "public-funding-planning/v1",
   "version": "0.5.0",
-  "generated_at": "2026-11-07T11:32:45+09:00",
+  "generated_at": "2026-11-08T11:02:03+09:00",
   "registry_fingerprint": "6cc9a9dbe93cb377cac01e99bac93b9f32bdc368e10568463e3c8cf432ab3621",
   "records": [
     {
@@ -101,8 +101,10 @@
         "필수 집행 항목, 세금·부가세 처리와 현물 인정액이 협약에서 승인되는가?",
         "다른 모든 지원사업의 동시수행 제한까지 기관에 확인했는가?"
       ],
-      "source_state": "ready",
-      "hold_reasons": [],
+      "source_state": "hold",
+      "hold_reasons": [
+        "html_review_required"
+      ],
       "rule_fingerprint": "eab05e52faabde94c0a38918f7ed051aa171aade4eb931e764140808e5ebf915"
     },
     {
@@ -202,8 +204,10 @@
         "필수 집행 항목, 세금·부가세 처리와 현물 인정액이 협약에서 승인되는가?",
         "다른 모든 지원사업의 동시수행 제한까지 기관에 확인했는가?"
       ],
-      "source_state": "ready",
-      "hold_reasons": [],
+      "source_state": "hold",
+      "hold_reasons": [
+        "html_review_required"
+      ],
       "rule_fingerprint": "d7dc5b6dcf506de237e9157b2cb0a65f093578c22f8361f4a9f30dd6f6ae3219"
     },
     {
@@ -303,8 +307,10 @@
         "필수 집행 항목, 세금·부가세 처리와 현물 인정액이 협약에서 승인되는가?",
         "다른 모든 지원사업의 동시수행 제한까지 기관에 확인했는가?"
       ],
-      "source_state": "ready",
-      "hold_reasons": [],
+      "source_state": "hold",
+      "hold_reasons": [
+        "html_review_required"
+      ],
       "rule_fingerprint": "e2682520969f4bb710234f8e4121abc0b0fe011be75457f43e2577e846a4dfc6"
     },
     {

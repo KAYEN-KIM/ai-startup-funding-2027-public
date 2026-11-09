@@ -1,7 +1,7 @@
 {
   "schema": "public-funding-planning/v1",
   "version": "0.5.0",
-  "generated_at": "2026-11-08T11:02:03+09:00",
+  "generated_at": "2026-11-09T11:22:17+09:00",
   "registry_fingerprint": "6cc9a9dbe93cb377cac01e99bac93b9f32bdc368e10568463e3c8cf432ab3621",
   "records": [
     {
@@ -363,8 +363,10 @@
       "open_questions": [
         "센터 외 다른 지원사업의 중복제한과 제출요건은 별도 확인해야 합니다."
       ],
-      "source_state": "ready",
-      "hold_reasons": [],
+      "source_state": "hold",
+      "hold_reasons": [
+        "html_review_required"
+      ],
       "rule_fingerprint": "af3122a5a659a965677d3b11c6f03d16f4d3a52d30a922ad36fcd512a28043cf"
     },
     {

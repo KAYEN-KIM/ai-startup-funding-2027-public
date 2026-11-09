@@ -1,7 +1,7 @@
 {
   "schema": "public-funding-agency-evidence/v1",
   "version": "0.17.0",
-  "generated_at": "2026-11-08T11:01:39+09:00",
+  "generated_at": "2026-11-09T11:21:53+09:00",
   "model_calls": 0,
   "automatic_approval": false,
   "scope": "기관 직접 목록의 원문 최대 3건·첨부 최대 4건 순환 확인. 본문 추출은 조건 후보이며 신청자격·금액·중복지원·문서 완전성 검증이 아닙니다. 기존 공고와 검토 규칙은 수정하지 않습니다.",
@@ -105,9 +105,9 @@
       "source": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1071646",
       "title": "「2026년 스마트제조혁신 유공」 포상 후보자 모집 추가 공고",
       "listing_fingerprint": "66427605d60ba5142e2035b08198c603858def3a8d80b5436337c66b12d9dd0b",
-      "listing_seen_at": "2026-11-05T12:06:01+09:00",
-      "last_attempt_at": "2026-11-05T12:06:08+09:00",
-      "last_success_at": "2026-11-05T12:06:08+09:00",
+      "listing_seen_at": "2026-11-09T11:21:45+09:00",
+      "last_attempt_at": "2026-11-09T11:21:53+09:00",
+      "last_success_at": "2026-11-09T11:21:53+09:00",
       "status": "html_available",
       "last_error": null,
       "review_required": false,
@@ -128,6 +128,13 @@
         }
       ],
       "history": [
+        {
+          "at": "2026-11-09T11:21:53+09:00",
+          "status": "html_available",
+          "body_sha256": "9c6792dc87875cca4c169f2b3240b29755330c003f7ff9bfe030aa5dd21f2821",
+          "manifest_sha256": "e18299fdfba89c2dafa495d6bc78962acf08c4ee2961d80f5fbe3e7bb6455ec0",
+          "error": null
+        },
         {
           "at": "2026-11-05T12:06:08+09:00",
           "status": "html_available",
@@ -779,9 +786,9 @@
       "source": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1072252",
       "title": "2026년 1인 창조기업 지원센터‧중장년 기술창업센터 신규 주관기관 모집 공고",
       "listing_fingerprint": "4d60142e8e5e595209bdc8a0bec66fadfa460cf42960ee41f15b1bfae39b8e89",
-      "listing_seen_at": "2026-11-04T11:53:32+09:00",
-      "last_attempt_at": "2026-11-04T11:53:40+09:00",
-      "last_success_at": "2026-11-04T11:53:40+09:00",
+      "listing_seen_at": "2026-11-09T11:21:45+09:00",
+      "last_attempt_at": "2026-11-09T11:21:53+09:00",
+      "last_success_at": "2026-11-09T11:21:53+09:00",
       "status": "html_available",
       "last_error": null,
       "review_required": false,
@@ -802,6 +809,13 @@
         }
       ],
       "history": [
+        {
+          "at": "2026-11-09T11:21:53+09:00",
+          "status": "html_available",
+          "body_sha256": "9a9d8a15ab90a68c5112ab8de179021efde75a8fff44bf1324bb061221d15045",
+          "manifest_sha256": "53b94d865a44ed7c805334ba632c40d01fcad412bd7f70c1a3065ce55a383537",
+          "error": null
+        },
         {
           "at": "2026-11-04T11:53:40+09:00",
           "status": "html_available",
@@ -1040,6 +1054,45 @@
           "status": "html_available",
           "body_sha256": "ed5c5ef2966a2b50386124a0113e4eaa75be37bdb77a57916d47df9d37a0ad7b",
           "manifest_sha256": "53542e7e505fb22e2f037a0d3d65d70c25c832c0bf960cee994a39b4fea9dc27",
+          "error": null
+        }
+      ],
+      "unhandled_links": 0
+    },
+    "NIPA-16922": {
+      "id": "NIPA-16922",
+      "agency_id": "nipa",
+      "source": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16922&tab=2",
+      "title": "2026년도 한-베트남 AI·디지털 포럼 운영 대행 용역 입찰공고",
+      "listing_fingerprint": "b4787a0422575d4ebcae5a61f7dad329b06d9ab747b2262585028da3a4002858",
+      "listing_seen_at": "2026-11-09T11:21:45+09:00",
+      "last_attempt_at": "2026-11-09T11:21:53+09:00",
+      "last_success_at": "2026-11-09T11:21:53+09:00",
+      "status": "html_available",
+      "last_error": null,
+      "review_required": false,
+      "body_sha256": "3cf4185444cd6af754491db1271e83eb63b5c73c852b10611bcef49837dcdd11",
+      "manifest_sha256": "e48138b1ea2decd1c550fbd95ea85490e71e5c627dbf941095d38e91578de448",
+      "documents": [
+        {
+          "id": "14f8a2172ec0be64e4561341",
+          "name": "붙임1. [공고문] 2026년도 한-베트남 AI·디지털 포럼 운영대행 용역.hwp",
+          "public_url": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16922&tab=2",
+          "locator": "공고 첨부파일 목록 / 붙임1. [공고문] 2026년도 한-베트남 AI·디지털 포럼 운영대행 용역.hwp"
+        },
+        {
+          "id": "88a74c05cccfcd49b9c13afa",
+          "name": "붙임2. [제안요청서] 2026년도 한-베트남 AI·디지털 포럼 운영대행 용역.hwp",
+          "public_url": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16922&tab=2",
+          "locator": "공고 첨부파일 목록 / 붙임2. [제안요청서] 2026년도 한-베트남 AI·디지털 포럼 운영대행 용역.hwp"
+        }
+      ],
+      "history": [
+        {
+          "at": "2026-11-09T11:21:53+09:00",
+          "status": "html_available",
+          "body_sha256": "3cf4185444cd6af754491db1271e83eb63b5c73c852b10611bcef49837dcdd11",
+          "manifest_sha256": "e48138b1ea2decd1c550fbd95ea85490e71e5c627dbf941095d38e91578de448",
           "error": null
         }
       ],
@@ -5996,11 +6049,18 @@
       "url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1072252&cbIdx=310&streFileNm=a9c066da-619f-42de-b401-d2691338e82a.pdf",
       "name": "a9c066da-619f-42de-b401-d2691338e82a.pdf",
       "status": "text_extracted",
-      "last_attempt_at": "2026-11-04T11:53:40+09:00",
-      "last_success_at": "2026-11-04T11:53:40+09:00",
+      "last_attempt_at": "2026-11-09T11:21:53+09:00",
+      "last_success_at": "2026-11-09T11:21:53+09:00",
       "last_error": null,
       "review_required": false,
       "history": [
+        {
+          "at": "2026-11-09T11:21:53+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "48c62ae25537f43f7bef30203d3339b594a2d78473f7d63cbfbe07fe544b6f82",
+          "http_status": null,
+          "failure_kind": null
+        },
         {
           "at": "2026-11-04T11:53:40+09:00",
           "status": "text_extracted",
@@ -6214,11 +6274,18 @@
       "url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1072252&cbIdx=310&streFileNm=25a03638-cecc-4b01-9fc3-4eb444a4d8fc.hwpx",
       "name": "25a03638-cecc-4b01-9fc3-4eb444a4d8fc.hwpx",
       "status": "text_extracted",
-      "last_attempt_at": "2026-11-04T11:53:40+09:00",
-      "last_success_at": "2026-11-04T11:53:40+09:00",
+      "last_attempt_at": "2026-11-09T11:21:53+09:00",
+      "last_success_at": "2026-11-09T11:21:53+09:00",
       "last_error": null,
       "review_required": false,
       "history": [
+        {
+          "at": "2026-11-09T11:21:53+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "577421ab05e7bdae7216cebf29f416cd58ef8e6bfe4bdd6b688b1aab4dfdb552",
+          "http_status": null,
+          "failure_kind": null
+        },
         {
           "at": "2026-11-04T11:53:40+09:00",
           "status": "text_extracted",
@@ -8117,10 +8184,257 @@
       "http_status": null,
       "failure_kind": null,
       "retryable": false
+    },
+    "14f8a2172ec0be64e4561341": {
+      "id": "14f8a2172ec0be64e4561341",
+      "program_id": "NIPA-16922",
+      "notice_source": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16922&tab=2",
+      "url": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16922&tab=2",
+      "name": "붙임1. [공고문] 2026년도 한-베트남 AI·디지털 포럼 운영대행 용역.hwp",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-09T11:21:53+09:00",
+      "last_success_at": "2026-11-09T11:21:53+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-11-09T11:21:53+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "abbf51c69de6e1167f9725188ca6889badce9ca2c16fd232e6d088390af50d56",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "abbf51c69de6e1167f9725188ca6889badce9ca2c16fd232e6d088390af50d56",
+      "sha256": "abbf51c69de6e1167f9725188ca6889badce9ca2c16fd232e6d088390af50d56",
+      "extraction": {
+        "format": "hwp",
+        "parser": "olefile/0.47+hwp-body/0.4.0",
+        "sha256": "abbf51c69de6e1167f9725188ca6889badce9ca2c16fd232e6d088390af50d56",
+        "bytes": 87552,
+        "status": "text_extracted",
+        "text_characters": 14684,
+        "units": 359,
+        "text_sha256": "8c308aadb3e96c4e1cef33f19206b45450f4ab166761dd41b4d8cd31a12c2a3b",
+        "pages": null,
+        "sections": 1,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "4276f33e437707068e47",
+            "category": "deadline",
+            "excerpt": "② 접수마감일시: 2026.09.15. 14:00 (베트남시간 기준)",
+            "locator": "BodyText/Section0 / record 260 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "b3860f8709efaf651e10",
+            "category": "documents",
+            "excerpt": "4. 제출서류(300MB 미만)",
+            "locator": "BodyText/Section0 / record 314 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "fb2389f99fd005a66353",
+            "category": "documents",
+            "excerpt": "4) 기술제안서 1식, 발표자료 1식, 기타문서 1식(제안서 증빙자료 및 각종서식)",
+            "locator": "BodyText/Section0 / record 334 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "57f8c3850f2d54400953",
+            "category": "documents",
+            "excerpt": "※ (사후판정) 계약담당자는 제출서류(입찰보증금, 입찰참가자격 포함)에 대한 적정성(적합)여부를 개찰 이후에도 판정할 수 있습니다.",
+            "locator": "BodyText/Section0 / record 354 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "1bc2cc58e36dcef2fa2b",
+            "category": "deadline",
+            "excerpt": "* 개시일 : 입찰서 제출 마감일 이전 / 종료일 : 입찰서 제출마감일 + 30일 이상",
+            "locator": "BodyText/Section0 / record 507 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "44350d4261406b9e7152",
+            "category": "deadline",
+            "excerpt": "1) 입찰참가자격의 판단기준일은 입찰참가자격등록 마감일(기준일이 정해져 있는 경우에는 해당일)이며 마감일(일시가 정해져 있는 경우에는 해당일시)까지 참가자격을 갖추지 않은 경우 무효입찰임을 알려드리오니 주의하시기 바랍니다.",
+            "locator": "BodyText/Section0 / record 562 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "1dda8258526074017456",
+            "category": "eligibility",
+            "excerpt": "제2조(공동수급체) 공동수급체의 명칭, 사업소의 소재지, 대표자는 다음과 같다.",
+            "locator": "BodyText/Section0 / record 1664 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "17602508bf149610bf19",
+            "category": "eligibility",
+            "excerpt": "2. 주사무소소재지 :",
+            "locator": "BodyText/Section0 / record 1672 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "구역·레코드 위치는 실제 인쇄 쪽번호가 아닙니다.",
+          "표·그림·각주 의미와 문서의 모든 제외조건은 미검토"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
+    },
+    "88a74c05cccfcd49b9c13afa": {
+      "id": "88a74c05cccfcd49b9c13afa",
+      "program_id": "NIPA-16922",
+      "notice_source": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16922&tab=2",
+      "url": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16922&tab=2",
+      "name": "붙임2. [제안요청서] 2026년도 한-베트남 AI·디지털 포럼 운영대행 용역.hwp",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-09T11:21:53+09:00",
+      "last_success_at": "2026-11-09T11:21:53+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-11-09T11:21:53+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "c592db6535f2e0d8c1d5b45688fb92cd5207ea9464ab9fa12b70ef502f3a27fa",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "c592db6535f2e0d8c1d5b45688fb92cd5207ea9464ab9fa12b70ef502f3a27fa",
+      "sha256": "c592db6535f2e0d8c1d5b45688fb92cd5207ea9464ab9fa12b70ef502f3a27fa",
+      "extraction": {
+        "format": "hwp",
+        "parser": "olefile/0.47+hwp-body/0.4.0",
+        "sha256": "c592db6535f2e0d8c1d5b45688fb92cd5207ea9464ab9fa12b70ef502f3a27fa",
+        "bytes": 120320,
+        "status": "text_extracted",
+        "text_characters": 10953,
+        "units": 481,
+        "text_sha256": "4d5eb0035d96dbd202a96687bf5388495f8e914f2fc691ff2687b0528e6014cb",
+        "pages": null,
+        "sections": 1,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "23e55e6d6d48e6080ab9",
+            "category": "documents",
+            "excerpt": "• 제안서 및 제출서류 접수 마감",
+            "locator": "BodyText/Section0 / record 479 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "f1333f74dd86930b38b4",
+            "category": "deadline",
+            "excerpt": "• 제안서 및 제출서류 접수 마감",
+            "locator": "BodyText/Section0 / record 479 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "8a1b8ec7119d1a7ff618",
+            "category": "eligibility",
+            "excerpt": "• 신청 자격 및 제출 서류 적정 여부, 참여 제한 여부 등 검토",
+            "locator": "BodyText/Section0 / record 515 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "263589a96811ce07aaed",
+            "category": "documents",
+            "excerpt": "• 신청 자격 및 제출 서류 적정 여부, 참여 제한 여부 등 검토",
+            "locator": "BodyText/Section0 / record 515 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "b50f25b3f4c310c2a23b",
+            "category": "cofunding",
+            "excerpt": "이IT지원센터가 섭외, 수행사는 행사당일 연사 안내 및 한국에서 참석하는 연사에 대한 공항 픽업 지원(※ 항공‧숙박 자부담)",
+            "locator": "BodyText/Section0 / record 859 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "9c2e050bb498f94b1eae",
+            "category": "documents",
+            "excerpt": "□ 제출 서류 목록",
+            "locator": "BodyText/Section0 / record 2059 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "a25ef0618dfe0456b3df",
+            "category": "documents",
+            "excerpt": "ㅇ ④ 정성제안서 및 기타문서 각 1식(제안서 증빙자료 및 각종서식)",
+            "locator": "BodyText/Section0 / record 2078 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "946a9a68df0a373e6005",
+            "category": "documents",
+            "excerpt": "* 기타 제출 서류 목록을 작성하여 첨부",
+            "locator": "BodyText/Section0 / record 2350 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "222fd111809920b96d03",
+            "category": "eligibility",
+            "excerpt": "본사업",
+            "locator": "BodyText/Section0 / record 2757 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "구역·레코드 위치는 실제 인쇄 쪽번호가 아닙니다.",
+          "표·그림·각주 의미와 문서의 모든 제외조건은 미검토"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
     }
   },
   "run": {
-    "at": "2026-11-08T11:01:39+09:00",
+    "at": "2026-11-09T11:21:53+09:00",
     "status": "ok_scoped",
     "notices_attempted": 3,
     "notices_success": 3,

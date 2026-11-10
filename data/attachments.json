@@ -1,9 +1,9 @@
 {
   "schema": "public-funding-attachments/v1",
   "version": "0.4.0",
-  "generated_at": "2026-11-09T11:22:17+09:00",
+  "generated_at": "2026-11-10T13:30:44+09:00",
   "run": {
-    "at": "2026-11-09T11:22:17+09:00",
+    "at": "2026-11-10T13:30:44+09:00",
     "notice_success": 3,
     "notice_failed": 0,
     "attempted": 4,
@@ -13,7 +13,7 @@
     "failed": 0,
     "changed": 0,
     "manifest_changed": 0,
-    "queued_total": 176,
+    "queued_total": 182,
     "new_attempted": 4,
     "retry_attempted": 0,
     "revisit_attempted": 0,
@@ -14014,6 +14014,545 @@
       "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126667",
       "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000774186&fileSn=0",
       "name": "다운로드",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-10T13:30:44+09:00",
+      "last_success_at": "2026-11-10T13:30:44+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-11-10T13:30:44+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "026935b6ae23774559e899c134bc9df76539d80098f81de3df94d28980406147",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "026935b6ae23774559e899c134bc9df76539d80098f81de3df94d28980406147",
+      "sha256": "026935b6ae23774559e899c134bc9df76539d80098f81de3df94d28980406147",
+      "extraction": {
+        "format": "pdf",
+        "parser": "pypdf/6.15.0",
+        "sha256": "026935b6ae23774559e899c134bc9df76539d80098f81de3df94d28980406147",
+        "bytes": 405431,
+        "status": "text_extracted",
+        "text_characters": 3594,
+        "units": 147,
+        "text_sha256": "8861f4c59185cbf9cb6d4800b4edc8b3249e04cf59222648203ddd2590f62162",
+        "pages": 4,
+        "sections": null,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "dc856d174ef84bda6374",
+            "category": "eligibility",
+            "excerpt": "지원대상 : ◦ 멀티모달 기반 헬스케어 제품 서비스를 개발 사업화하는 기업AI · ·",
+            "locator": "PDF p.1 / text-line 18",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "26c70c9dcd4ea93aeaac",
+            "category": "amount",
+            "excerpt": "지원규모 개사 내외 : 5◦",
+            "locator": "PDF p.1 / text-line 22",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "b95edac70801e007253f",
+            "category": "eligibility",
+            "excerpt": "◦국내에 본사 공장 또는 연구시설을 보유하고 있으며 신청 시점에 정상적으로 , ,",
+            "locator": "PDF p.2 / text-line 4",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "aaf99f5beea23e545166",
+            "category": "amount",
+            "excerpt": "정부지원사업과 관련한 참여제한이나 의무 불이행 이력이 없는 기업",
+            "locator": "PDF p.2 / text-line 9",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "87653ac5971849b90f23",
+            "category": "exclusion",
+            "excerpt": "국세 및 지방세 관련 체납 사실이 없는 기업 ◦",
+            "locator": "PDF p.2 / text-line 10",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "a46044982f8bfd0eeca2",
+            "category": "deadline",
+            "excerpt": "접수기간 수시모집 : ◦",
+            "locator": "PDF p.2 / text-line 18",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "446350e0648164c037f8",
+            "category": "documents",
+            "excerpt": "제출서류 ◦ 필요시 선정평가에 참고할 수 있는 기타 증빙자료를 추가로 제출할 수 있음*",
+            "locator": "PDF p.2 / text-line 20",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "a9e838096d08783f884d",
+            "category": "documents",
+            "excerpt": "구분 제출서류 비고",
+            "locator": "PDF p.2 / text-line 22",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "644c9edb494c93e7d223",
+            "category": "overlap",
+            "excerpt": "붙임 [ 3] 중복지원 금지 확약서",
+            "locator": "PDF p.2 / text-line 27",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "86f3c8684d4e8ec6d96d",
+            "category": "amount",
+            "excerpt": "붙임 [ 3] 중복지원 금지 확약서",
+            "locator": "PDF p.2 / text-line 27",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "557c494a85e1c7e49874",
+            "category": "documents",
+            "excerpt": "제출 서류는 반환하지 않으며 기재 내용이 사실과 다를 경우 선정 취소할 수 있음, ※ ※ 필요시 추가 자료를 요청할 수 있으며 이에 따라 제출된 자료는 신청서와 동일한 효력을 가짐,",
+            "locator": "PDF p.2 / text-line 35",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "b8efb443238e393b0102",
+            "category": "documents",
+            "excerpt": "서면평가- ( ) 신청서 및 제출서류를 기반으로 서면평가를 실시하여 지원기업 선정",
+            "locator": "PDF p.3 / text-line 7",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "dca0513abd784d5629d0",
+            "category": "documents",
+            "excerpt": "- 신청서 및 제출서류를 기반으로 서면평가를 실시",
+            "locator": "PDF p.3 / text-line 16",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "6157d94b79c3d2674c30",
+            "category": "eligibility",
+            "excerpt": "가점 창원특례시 소재기업 본사 연구소 공장( , , )∘ 5",
+            "locator": "PDF p.3 / text-line 51",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "표 열 순서·이미지·주석의 의미는 검토하지 않았습니다.",
+          "OCR 미수행"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
+    },
+    "903ac62880a80cf490711a74": {
+      "id": "903ac62880a80cf490711a74",
+      "program_id": "BIZINFO-PBLN_000000000126667",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126667",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000774187&fileSn=0",
+      "name": "다운로드",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-10T13:30:44+09:00",
+      "last_success_at": "2026-11-10T13:30:44+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-11-10T13:30:44+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "c230a521339f0f0d68e228d93df37437cfe724225aaa0cae9047e6e0a84ce21c",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "c230a521339f0f0d68e228d93df37437cfe724225aaa0cae9047e6e0a84ce21c",
+      "sha256": "c230a521339f0f0d68e228d93df37437cfe724225aaa0cae9047e6e0a84ce21c",
+      "extraction": {
+        "format": "hwpx",
+        "parser": "hwp-body/0.4.0",
+        "sha256": "c230a521339f0f0d68e228d93df37437cfe724225aaa0cae9047e6e0a84ce21c",
+        "bytes": 685210,
+        "status": "text_extracted",
+        "text_characters": 4713,
+        "units": 321,
+        "text_sha256": "f1b139bc2443f482b9ac32a47a0c711b0ad0f4ab8742a3decdda68e0ee32428a",
+        "pages": null,
+        "sections": 2,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "8e2a3bc21077bdf3002e",
+            "category": "eligibility",
+            "excerpt": "소재지(본사)",
+            "locator": "Contents/section0.xml / paragraph 16",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "7ce6484c371b808c2e03",
+            "category": "overlap",
+            "excerpt": "□ 중복지원 금지 확약서 1부",
+            "locator": "Contents/section0.xml / paragraph 71",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "70ae1cdfba89aa863420",
+            "category": "amount",
+            "excerpt": "□ 중복지원 금지 확약서 1부",
+            "locator": "Contents/section0.xml / paragraph 71",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "b71cd7d50481ba57ae3c",
+            "category": "amount",
+            "excerpt": "※ 정부지원사업, 공동연구·PoC 및 전략적 파트너십 등 대상 제품과 관련된 주요 실적을 작성",
+            "locator": "Contents/section0.xml / paragraph 309",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "32fadac2acc39e7be722",
+            "category": "amount",
+            "excerpt": "정부지원사업",
+            "locator": "Contents/section0.xml / paragraph 316",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "6777a51f8af72c107ec4",
+            "category": "overlap",
+            "excerpt": "[붙임 3] 중복지원 금지 확약서",
+            "locator": "Contents/section0.xml / paragraph 536",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "8cb71b6094f7972d85c8",
+            "category": "amount",
+            "excerpt": "[붙임 3] 중복지원 금지 확약서",
+            "locator": "Contents/section0.xml / paragraph 536",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "c53f960b8eb9b23cb39d",
+            "category": "eligibility",
+            "excerpt": "본 과제가 지원대상으로 선정되는 경우에는 동일 또는 유사한 내용의 과제로 그 밖의 지원사업을 중복지원 받지 않겠으며, 만약 중복지원을 받는 경우 민・형사상의 책임을 질 것은 물론 사업비 지원 불가, 환수 등 사업 추진 상의 제반 사항에 대하여 적극 협조・승낙할 것을 확약함.",
+            "locator": "Contents/section0.xml / paragraph 540",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "e7dfcdc3b05860881fa6",
+            "category": "overlap",
+            "excerpt": "본 과제가 지원대상으로 선정되는 경우에는 동일 또는 유사한 내용의 과제로 그 밖의 지원사업을 중복지원 받지 않겠으며, 만약 중복지원을 받는 경우 민・형사상의 책임을 질 것은 물론 사업비 지원 불가, 환수 등 사업 추진 상의 제반 사항에 대하여 적극 협조・승낙할 것을 확약함.",
+            "locator": "Contents/section0.xml / paragraph 540",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "구역·문단 위치는 실제 인쇄 쪽번호가 아닙니다.",
+          "표 셀 관계·그림·각주 의미는 미검토"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
+    },
+    "32d5eb6392397ed6aea8e8b4": {
+      "id": "32d5eb6392397ed6aea8e8b4",
+      "program_id": "BIZINFO-PBLN_000000000126692",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126692",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000774347&fileSn=1",
+      "name": "다운로드",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-10T13:30:44+09:00",
+      "last_success_at": "2026-11-10T13:30:44+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-11-10T13:30:44+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "fe6c4e3af8df893cebc13da03a8d0143b1d58c7118ab4a0ecd6cb998e34aff15",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "fe6c4e3af8df893cebc13da03a8d0143b1d58c7118ab4a0ecd6cb998e34aff15",
+      "sha256": "fe6c4e3af8df893cebc13da03a8d0143b1d58c7118ab4a0ecd6cb998e34aff15",
+      "extraction": {
+        "format": "pdf",
+        "parser": "pypdf/6.15.0",
+        "sha256": "fe6c4e3af8df893cebc13da03a8d0143b1d58c7118ab4a0ecd6cb998e34aff15",
+        "bytes": 490483,
+        "status": "text_extracted",
+        "text_characters": 4298,
+        "units": 22,
+        "text_sha256": "d80c387afdff4f410ce65a5924ed7b89f6d60aa56225bd0ad6330300f0236e35",
+        "pages": 8,
+        "sections": null,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "a5ce1750275579edf1fe",
+            "category": "eligibility",
+            "excerpt": "일(재)경상북도경제진흥원장1 사업개요○사 업 명:경북청년 창업제품 온라인 기획전 판로지원○지 원 대 상: 도 내 청년창업기업 ※ 통 신 판 매 업 신 고 증 보 유, 대 표 자 나 이 만 19세 ~ 39세 이 하, 1987년 이 후 출 생 자○지 원 규 모:40개사 내외○입 점 채 널:롯데온○지 원 내 용:온라인 전용 기획관 운영, 상세 페이지 제작, 마케팅 및 광고 지원 등 판로지원○지 원 기 간:협약체결일",
+            "locator": "PDF p.1 / text-line 1",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "edb53a067ff666c2ee2a",
+            "category": "eligibility",
+            "excerpt": "4 신청접수 및 선정□ 참가기업모집m접수기간:2026.9.21.(월)~10.30.(금)m신청대상및자격요건 -사업자등록증상소재지가경북이면서통신판매업신고증을보유한청년창업기업※ 대표자 만 19세 ~ 39세이하, 1987년이후 출생자m모집규모:40개사내외※추진상황에따라변동될수있음m접수방법:이메일접수([연락처 생략])m 지원제외대상 -공고일기준경상북도외지역에사업장을두고있는자 ※본사는경상북도에두고있으며,공장및",
+            "locator": "PDF p.3 / text-line 1",
+            "status": "candidate_unverified",
+            "redacted": true,
+            "context_warning": true
+          },
+          {
+            "id": "b120efc588f843438895",
+            "category": "exclusion",
+            "excerpt": "987년이후 출생자m모집규모:40개사내외※추진상황에따라변동될수있음m접수방법:이메일접수([연락처 생략])m 지원제외대상 -공고일기준경상북도외지역에사업장을두고있는자 ※본사는경상북도에두고있으며,공장및영업장을타지에두고있는경우지원가능 -대기업제품,e쿠폰,상품권,렌탈,구독서비스취급업체 -신청사실이허위또는중복수혜로판명되었을경우 -국세,지방세등의체납처분을받은기업 -대표자또는기업이보조금법위반등으로정부지원사업에참여제",
+            "locator": "PDF p.3 / text-line 1",
+            "status": "candidate_unverified",
+            "redacted": true,
+            "context_warning": true
+          },
+          {
+            "id": "8ed15d4b1f4bd3ca5c59",
+            "category": "overlap",
+            "excerpt": "두고있으며,공장및영업장을타지에두고있는경우지원가능 -대기업제품,e쿠폰,상품권,렌탈,구독서비스취급업체 -신청사실이허위또는중복수혜로판명되었을경우 -국세,지방세등의체납처분을받은기업 -대표자또는기업이보조금법위반등으로정부지원사업에참여제한중인경우 -관련요청사항에대해불응하거나기타참여제한의사유로지원이어렵다고판단될경우 -온라인판매를위한제품준비도가현저히낮아사업수행이불가능하다고판단되는경우 -해당판매플랫폼의운영정책및입점기준미달로제품",
+            "locator": "PDF p.3 / text-line 1",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "71e9e440e1ad4e7f21af",
+            "category": "amount",
+            "excerpt": "취급업체 -신청사실이허위또는중복수혜로판명되었을경우 -국세,지방세등의체납처분을받은기업 -대표자또는기업이보조금법위반등으로정부지원사업에참여제한중인경우 -관련요청사항에대해불응하거나기타참여제한의사유로지원이어렵다고판단될경우 -온라인판매를위한제품준비도가현저히낮아사업수행이불가능하다고판단되는경우 -해당판매플랫폼의운영정책및입점기준미달로제품등록,판매가불가능한경우m제출서류번호제출서류필수여부비고1 참가신청서* 여양식(별첨)활용경제진",
+            "locator": "PDF p.3 / text-line 1",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "3faf99374821893c4a36",
+            "category": "documents",
+            "excerpt": "제품준비도가현저히낮아사업수행이불가능하다고판단되는경우 -해당판매플랫폼의운영정책및입점기준미달로제품등록,판매가불가능한경우m제출서류번호제출서류필수여부비고1 참가신청서* 여양식(별첨)활용경제진흥원 홈페이지 게시2 사업자등록증여3 통신판매업신고증여홈택스",
+            "locator": "PDF p.3 / text-line 1",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "2cf69d54cbd440a35be9",
+            "category": "deadline",
+            "excerpt": "4 신청접수 및 선정□ 참가기업모집m접수기간:2026.9.21.(월)~10.30.(금)m신청대상및자격요건 -사업자등록증상소재지가경북이면서통신판매업신고증을보유한청년창업기업※ 대표자 만 19세 ~ 39세이하, 1987년이후 출생자m모집규모:40개사내외※추진상황에따라변동될수있음m접수방법:이메일접수([연락처 생략])m 지원제외대상 -공고일기준경상북도외지역에사업장을두고있는자 ※본사는경상북도에두고있으며,공장및",
+            "locator": "PDF p.3 / text-line 1",
+            "status": "candidate_unverified",
+            "redacted": true,
+            "context_warning": true
+          },
+          {
+            "id": "be4f4bc1650dd4645674",
+            "category": "eligibility",
+            "excerpt": "□ 참여자선정m 선정방법:서류및신청자격적격여부검토후온라인플랫폼MD의판매적합성평가*에의한최종선정 * 평가기준: 입점요건충족여부, 보유제품경쟁력, 가격적정성등종합평가m 선정규모:40개사내외m 선정절차 모집공고및접수⇒서류적격심사⇒입점적격심사⇒선정및입점안내⇒기획전운영지원진흥원/기업진흥원플랫폼MD진흥원/플랫폼MD진흥원 m 선정발표:서류접수후2주이내개별통보※추진일정에따라지연될수있음※선정이후매칭된유통플랫폼사에서신청서에기재",
+            "locator": "PDF p.4 / text-line 1",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "88a43cdaa373ee3f8d58",
+            "category": "overlap",
+            "excerpt": "신청 -제출된서류는반환하지않으며,참가신청내용이허위일경우선정발표이후에도선정이취소될수있음 -동사업과관련하여다른기관으로부터중복지원받은경우,경상북",
+            "locator": "PDF p.4 / text-line 1",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "2423172c064d1e89ccf2",
+            "category": "eligibility",
+            "excerpt": "도로부터이중으로지원받을수없음 -지원대상업체로선정된이후정당한사유없이지원취소,지원성과제출등준수사항미이행등의경우,경상북도및경상북도경제진흥원에서시행하는지원사업에서2년간배제될수있음 -본공고문은사정에의하여변경될수있으며,변경된사항은경상북도홈페이지(w w w .g b .g o .k r)및(재)경상북도경제진흥원홈페이지(www.gepa.kr)에공고예정m 문의처 - (재)경상북도경제진흥원민생경제지원팀☎[연락처 생략]붙임참",
+            "locator": "PDF p.5 / text-line 1",
+            "status": "candidate_unverified",
+            "redacted": true,
+            "context_warning": true
+          },
+          {
+            "id": "fea901809451a4121604",
+            "category": "documents",
+            "excerpt": "첨부 제출서류 1. 신청서(서식) 1부. 2. 상품기술서(서식) 1부. 3. 기업정보의 제공활용 및 이용 동의서(서식) 1부. 4. 사업자등록증 1부. 5. 통신판매업신고증 1부. 6. 대표자 신분증 사본 1부. 7. 2025년 표준재무제표 또는 부가가치세과세표준증명원(과세기간 2025년 1월~12월) 1부. 8. 국세·지방세 납부증명서 각 1부. 9. 제품 카탈로그 1부.위와 같이 경북청년창업제품 온라인 기",
+            "locator": "PDF p.6 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "2278739538d33ba1f215",
+            "category": "eligibility",
+            "excerpt": "판로지원사업 참가 지원수집하는 개인정보 항목대표자 성명, 이메일, 휴대전화, 유선전화, 팩스번호, 회사명, 회사주소(본사/지사), 회사사업자등록번호, 부서명, 직위/직책, 플랫폼(스마트스토어 등) 매출액, 신청서와 제출서류에 포함된 개인정보보유ㆍ이용 기간5년보유ㆍ이용 근거개인정보 주체자의 이용 동의 추가 수집 항목※ 없음 개인정보의 수집 및 이용목적에 동의하십니까? □ 동의함 □ 동의하지 않음2. 개인정보의제",
+            "locator": "PDF p.8 / text-line 1",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "43f69c64498a408afd1c",
+            "category": "documents",
+            "excerpt": "회사명, 회사주소(본사/지사), 회사사업자등록번호, 부서명, 직위/직책, 플랫폼(스마트스토어 등) 매출액, 신청서와 제출서류에 포함된 개인정보보유ㆍ이용 기간5년보유ㆍ이용 근거개인정보 주체자의 이용 동의 추가 수집 항목※ 없음 개인정보의 수집 및 이용목적에 동의하십니까? □ 동의함 □ 동의하지 않음2. 개인정보의제3자제공동의제공 목적경북청년창업제품 온라인 기획전 판로지원사업 참가 지원제공하는 개인정보 항목대표자",
+            "locator": "PDF p.8 / text-line 1",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "표 열 순서·이미지·주석의 의미는 검토하지 않았습니다.",
+          "OCR 미수행"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
+    },
+    "75f188a1dead366f5eff1075": {
+      "id": "75f188a1dead366f5eff1075",
+      "program_id": "BIZINFO-PBLN_000000000126692",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126692",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000774348&fileSn=1",
+      "name": "다운로드",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-10T13:30:44+09:00",
+      "last_success_at": "2026-11-10T13:30:44+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-11-10T13:30:44+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "29301ef8b658b62866f48b24f19005632f4a3398cf73d75e20e8bc5e3c76e243",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "29301ef8b658b62866f48b24f19005632f4a3398cf73d75e20e8bc5e3c76e243",
+      "sha256": "29301ef8b658b62866f48b24f19005632f4a3398cf73d75e20e8bc5e3c76e243",
+      "extraction": {
+        "format": "hwp",
+        "parser": "olefile/0.47+hwp-body/0.4.0",
+        "sha256": "29301ef8b658b62866f48b24f19005632f4a3398cf73d75e20e8bc5e3c76e243",
+        "bytes": 22528,
+        "status": "text_extracted",
+        "text_characters": 1907,
+        "units": 123,
+        "text_sha256": "b70dd3839027f80eaf72012964c4737efad4424efa7acd6deee52fc8945f66a8",
+        "pages": null,
+        "sections": 1,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "67753e9ed005f0e0ea41",
+            "category": "documents",
+            "excerpt": "첨부 제출서류",
+            "locator": "BodyText/Section0 / record 176 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "d0f8ea95ef1f2c2a3335",
+            "category": "eligibility",
+            "excerpt": "대표자 성명, 이메일, 휴대전화, 유선전화, 팩스번호, 회사명, 회사주소(본사/지사), 회사사업자등록번호, 부서명, 직위/직책, 플랫폼(스마트스토어 등) 매출액, 신청서와 제출서류에 포함된 개인정보",
+            "locator": "BodyText/Section0 / record 685 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "851f0091a62eb9108f03",
+            "category": "documents",
+            "excerpt": "회사명, 회사주소(본사/지사), 회사사업자등록번호, 부서명, 직위/직책, 플랫폼(스마트스토어 등) 매출액, 신청서와 제출서류에 포함된 개인정보",
+            "locator": "BodyText/Section0 / record 685 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "구역·레코드 위치는 실제 인쇄 쪽번호가 아닙니다.",
+          "표·그림·각주 의미와 문서의 모든 제외조건은 미검토"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
+    },
+    "f07bd0a7e5c20acad269f5cb": {
+      "id": "f07bd0a7e5c20acad269f5cb",
+      "program_id": "BIZINFO-PBLN_000000000126739",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126739",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000774527&fileSn=1",
+      "name": "다운로드",
       "status": "queued",
       "last_attempt_at": null,
       "last_success_at": null,
@@ -14021,11 +14560,37 @@
       "review_required": false,
       "history": []
     },
-    "903ac62880a80cf490711a74": {
-      "id": "903ac62880a80cf490711a74",
-      "program_id": "BIZINFO-PBLN_000000000126667",
-      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126667",
-      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000774187&fileSn=0",
+    "9d595723bcf6ae350418a6c2": {
+      "id": "9d595723bcf6ae350418a6c2",
+      "program_id": "BIZINFO-PBLN_000000000126739",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126739",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000774528&fileSn=1",
+      "name": "다운로드",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
+    },
+    "a91c25d8b62bd5c7d7ed42a0": {
+      "id": "a91c25d8b62bd5c7d7ed42a0",
+      "program_id": "BIZINFO-PBLN_000000000126774",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126774",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000774656&fileSn=0",
+      "name": "다운로드",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
+    },
+    "9e29658c5fb9890209ef0db1": {
+      "id": "9e29658c5fb9890209ef0db1",
+      "program_id": "BIZINFO-PBLN_000000000126774",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126774",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000774657&fileSn=0",
       "name": "다운로드",
       "status": "queued",
       "last_attempt_at": null,
@@ -15099,6 +15664,45 @@
       "document_ids": [
         "84b961bc913150f39b544840",
         "903ac62880a80cf490711a74"
+      ],
+      "review_required": false,
+      "last_error": null
+    },
+    "BIZINFO-PBLN_000000000126692": {
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126692",
+      "last_notice_attempt_at": "2026-11-10T13:30:44+09:00",
+      "last_notice_success_at": "2026-11-10T13:30:44+09:00",
+      "notice_status": "links_available",
+      "manifest_sha256": "86ada279cd9e3b139095439f9566951757c1fb1446a5190ea2a9d914d4da8dcb",
+      "document_ids": [
+        "32d5eb6392397ed6aea8e8b4",
+        "75f188a1dead366f5eff1075"
+      ],
+      "review_required": false,
+      "last_error": null
+    },
+    "BIZINFO-PBLN_000000000126739": {
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126739",
+      "last_notice_attempt_at": "2026-11-10T13:30:44+09:00",
+      "last_notice_success_at": "2026-11-10T13:30:44+09:00",
+      "notice_status": "links_available",
+      "manifest_sha256": "b71ad98376d3d608f80609392657c16efee266e9f4b90b0552b7076be24df1c1",
+      "document_ids": [
+        "f07bd0a7e5c20acad269f5cb",
+        "9d595723bcf6ae350418a6c2"
+      ],
+      "review_required": false,
+      "last_error": null
+    },
+    "BIZINFO-PBLN_000000000126774": {
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126774",
+      "last_notice_attempt_at": "2026-11-10T13:30:44+09:00",
+      "last_notice_success_at": "2026-11-10T13:30:44+09:00",
+      "notice_status": "links_available",
+      "manifest_sha256": "96fec390523ea256c5d021817ffdffd722d810e10fa828fe3222e584d1d76b50",
+      "document_ids": [
+        "a91c25d8b62bd5c7d7ed42a0",
+        "9e29658c5fb9890209ef0db1"
       ],
       "review_required": false,
       "last_error": null

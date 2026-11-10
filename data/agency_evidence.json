@@ -1,7 +1,7 @@
 {
   "schema": "public-funding-agency-evidence/v1",
   "version": "0.17.0",
-  "generated_at": "2026-11-09T11:21:53+09:00",
+  "generated_at": "2026-11-10T13:30:13+09:00",
   "model_calls": 0,
   "automatic_approval": false,
   "scope": "기관 직접 목록의 원문 최대 3건·첨부 최대 4건 순환 확인. 본문 추출은 조건 후보이며 신청자격·금액·중복지원·문서 완전성 검증이 아닙니다. 기존 공고와 검토 규칙은 수정하지 않습니다.",
@@ -72,9 +72,9 @@
       "source": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16976&tab=2",
       "title": "2026년「첨단 GPU 활용 지원 사업」 베타서비스 참여자 모집 공모 안내 (산학연 지원)",
       "listing_fingerprint": "f55f49abdb3cab590de49908d72fcab987f9897dd0cf3657fd45540e3114ec5d",
-      "listing_seen_at": "2026-10-30T19:55:45+09:00",
-      "last_attempt_at": "2026-10-30T20:57:46+09:00",
-      "last_success_at": "2026-10-30T20:57:46+09:00",
+      "listing_seen_at": "2026-11-10T13:30:05+09:00",
+      "last_attempt_at": "2026-11-10T13:30:13+09:00",
+      "last_success_at": "2026-11-10T13:30:13+09:00",
       "status": "html_available",
       "last_error": null,
       "review_required": false,
@@ -89,6 +89,13 @@
         }
       ],
       "history": [
+        {
+          "at": "2026-11-10T13:30:13+09:00",
+          "status": "html_available",
+          "body_sha256": "c379a8310c207d562b362743a2ff162a979f02cacff76aaac7118cbfdde6337e",
+          "manifest_sha256": "b2f079769d7cac2dd7ad0950a15b0ed7e3542bccf1838b47e9bd8d4f7edbe854",
+          "error": null
+        },
         {
           "at": "2026-10-30T20:57:46+09:00",
           "status": "html_available",
@@ -514,9 +521,9 @@
       "source": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1071648",
       "title": "2027년 초격차 스타트업 프로젝트 정부 첫 실증·구매 프로젝트 주관기관 모집공고",
       "listing_fingerprint": "ce665a0eca5309e6a7a42def3dd752238810f12b8b3b6a6cc0fddfb5d1d6cf62",
-      "listing_seen_at": "2026-11-05T12:06:01+09:00",
-      "last_attempt_at": "2026-11-05T12:06:08+09:00",
-      "last_success_at": "2026-11-05T12:06:08+09:00",
+      "listing_seen_at": "2026-11-10T13:30:05+09:00",
+      "last_attempt_at": "2026-11-10T13:30:13+09:00",
+      "last_success_at": "2026-11-10T13:30:13+09:00",
       "status": "html_available",
       "last_error": null,
       "review_required": false,
@@ -537,6 +544,13 @@
         }
       ],
       "history": [
+        {
+          "at": "2026-11-10T13:30:13+09:00",
+          "status": "html_available",
+          "body_sha256": "6aef637dcdcd0a8a3c1f05349962a539fe639a194c026db904721cb777b163bd",
+          "manifest_sha256": "f649f8b021066938b80be74330d833fd45ff664a5c076cfcf827cae0fba5c4a6",
+          "error": null
+        },
         {
           "at": "2026-11-05T12:06:08+09:00",
           "status": "html_available",
@@ -922,9 +936,9 @@
       "source": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1072312",
       "title": "2026년 1인 창조기업 지원센터‧중장년 기술창업센터 신규 주관기관 모집 수정 공고",
       "listing_fingerprint": "3c47e14616b132ba0241f6c493aecf0b91bab94c8d0b28e45016d7b35a7cf479",
-      "listing_seen_at": "2026-11-06T12:05:41+09:00",
-      "last_attempt_at": "2026-11-06T12:05:47+09:00",
-      "last_success_at": "2026-11-06T12:05:47+09:00",
+      "listing_seen_at": "2026-11-10T13:30:05+09:00",
+      "last_attempt_at": "2026-11-10T13:30:13+09:00",
+      "last_success_at": "2026-11-10T13:30:13+09:00",
       "status": "html_available",
       "last_error": null,
       "review_required": false,
@@ -945,6 +959,13 @@
         }
       ],
       "history": [
+        {
+          "at": "2026-11-10T13:30:13+09:00",
+          "status": "html_available",
+          "body_sha256": "7da33a2b0c5b4749c23e8a43eb0eaac237e44637a7440f197838be412b4ffd59",
+          "manifest_sha256": "5100b5cd2bd8399fe2f5407fe13588c5d6bcae0889ca73a8da703ad9d7e3355a",
+          "error": null
+        },
         {
           "at": "2026-11-06T12:05:47+09:00",
           "status": "html_available",
@@ -1646,12 +1667,136 @@
       "notice_source": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16976&tab=2",
       "url": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16976&tab=2",
       "name": "2026년 「첨단 GPU 활용 지원 사업」 베타서비스 참여자 모집 공고문.hwpx",
-      "status": "queued",
-      "last_attempt_at": null,
-      "last_success_at": null,
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-10T13:30:13+09:00",
+      "last_success_at": "2026-11-10T13:30:13+09:00",
       "last_error": null,
       "review_required": false,
-      "history": []
+      "history": [
+        {
+          "at": "2026-11-10T13:30:13+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "2465f96e3c1e517d11fa4581de653c0dcb8f7f911e81af1bc80b772a0e0d32f2",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "2465f96e3c1e517d11fa4581de653c0dcb8f7f911e81af1bc80b772a0e0d32f2",
+      "sha256": "2465f96e3c1e517d11fa4581de653c0dcb8f7f911e81af1bc80b772a0e0d32f2",
+      "extraction": {
+        "format": "hwpx",
+        "parser": "hwp-body/0.4.0",
+        "sha256": "2465f96e3c1e517d11fa4581de653c0dcb8f7f911e81af1bc80b772a0e0d32f2",
+        "bytes": 80146,
+        "status": "text_extracted",
+        "text_characters": 3227,
+        "units": 152,
+        "text_sha256": "6760b4f408ca5ce66a2faa2c2741958c1fdcc5f934b47eda1ceff320a8b26cff",
+        "pages": null,
+        "sections": 1,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "a839eb28e2f6f9f06983",
+            "category": "amount",
+            "excerpt": "2. 지원규모 및 베타 기간",
+            "locator": "Contents/section0.xml / paragraph 17",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "2218503d085098b83ec2",
+            "category": "amount",
+            "excerpt": "○ (지원규모) B300 서버 60대(480장)",
+            "locator": "Contents/section0.xml / paragraph 19",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "a26acd2ae81669fc2550",
+            "category": "eligibility",
+            "excerpt": "3. 지원대상(신청자격) 및 비용",
+            "locator": "Contents/section0.xml / paragraph 24",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "f2a732e8d4d5f236ea4c",
+            "category": "eligibility",
+            "excerpt": "○ (지원대상) 아래 조건에 부합하는 산업계, 학계, 연구계",
+            "locator": "Contents/section0.xml / paragraph 26",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "d9d2996d79baae372dec",
+            "category": "amount",
+            "excerpt": "연구소(국(공)립, 및 정부출연연구소)",
+            "locator": "Contents/section0.xml / paragraph 35",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "5266e8d38942d0506156",
+            "category": "cofunding",
+            "excerpt": "○ (비용) 자부담금 전액 면제(무상 지원)",
+            "locator": "Contents/section0.xml / paragraph 37",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "dfc4b8244c6513884ef4",
+            "category": "deadline",
+            "excerpt": "6. 공고기간 및 제출방법",
+            "locator": "Contents/section0.xml / paragraph 65",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "f0b4360a34a051132221",
+            "category": "deadline",
+            "excerpt": "○ (공고기간) ’26. 10. 23.(금) ~ ’26. 10. 28.(수) 15:00까지(6일)",
+            "locator": "Contents/section0.xml / paragraph 67",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "079178ddd85ca3b303f6",
+            "category": "deadline",
+            "excerpt": "※ 마감일 15:00까지 제출 완료 신청과제만 접수 가능",
+            "locator": "Contents/section0.xml / paragraph 68",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "b000ba57c53e12c1de38",
+            "category": "deadline",
+            "excerpt": "활용 신청 기간(개월)",
+            "locator": "Contents/section0.xml / paragraph 205",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "구역·문단 위치는 실제 인쇄 쪽번호가 아닙니다.",
+          "표 셀 관계·그림·각주 의미는 미검토"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
     },
     "17d9eed0651520abd57bc531": {
       "id": "17d9eed0651520abd57bc531",
@@ -4421,11 +4566,18 @@
       "url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1071648&cbIdx=310&streFileNm=ca0f024d-e028-40f2-aa7f-4c4feba19e82.hwpx",
       "name": "ca0f024d-e028-40f2-aa7f-4c4feba19e82.hwpx",
       "status": "text_extracted",
-      "last_attempt_at": "2026-11-01T10:49:52+09:00",
-      "last_success_at": "2026-11-01T10:49:52+09:00",
+      "last_attempt_at": "2026-11-10T13:30:13+09:00",
+      "last_success_at": "2026-11-10T13:30:13+09:00",
       "last_error": null,
       "review_required": false,
       "history": [
+        {
+          "at": "2026-11-10T13:30:13+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "51e2ff04fae7f835398451bf31cf22a93ace0e859116effbcdd8cf70e51173b7",
+          "http_status": null,
+          "failure_kind": null
+        },
         {
           "at": "2026-11-01T10:49:52+09:00",
           "status": "text_extracted",
@@ -4657,11 +4809,18 @@
       "url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1071648&cbIdx=310&streFileNm=cf8334cc-60a1-48e6-8fd9-f7f9a738347f.pdf",
       "name": "cf8334cc-60a1-48e6-8fd9-f7f9a738347f.pdf",
       "status": "text_extracted",
-      "last_attempt_at": "2026-11-01T10:49:52+09:00",
-      "last_success_at": "2026-11-01T10:49:52+09:00",
+      "last_attempt_at": "2026-11-10T13:30:13+09:00",
+      "last_success_at": "2026-11-10T13:30:13+09:00",
       "last_error": null,
       "review_required": false,
       "history": [
+        {
+          "at": "2026-11-10T13:30:13+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "e68a4a8be1a3cbe169d4ac39b92b5543bb23f7276a9db18fce32a92e908cec8d",
+          "http_status": null,
+          "failure_kind": null
+        },
         {
           "at": "2026-11-01T10:49:52+09:00",
           "status": "text_extracted",
@@ -7352,11 +7511,18 @@
       "url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1072312&cbIdx=310&streFileNm=6c0521ec-849c-4e23-963d-bcc1c3816aa8.pdf",
       "name": "6c0521ec-849c-4e23-963d-bcc1c3816aa8.pdf",
       "status": "text_extracted",
-      "last_attempt_at": "2026-11-06T12:05:47+09:00",
-      "last_success_at": "2026-11-06T12:05:47+09:00",
+      "last_attempt_at": "2026-11-10T13:30:13+09:00",
+      "last_success_at": "2026-11-10T13:30:13+09:00",
       "last_error": null,
       "review_required": false,
       "history": [
+        {
+          "at": "2026-11-10T13:30:13+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "cf87c838a2ac195824077a5f4e685de188b05a7360f2f3cc82a094bb81fc3f9c",
+          "http_status": null,
+          "failure_kind": null
+        },
         {
           "at": "2026-11-06T12:05:47+09:00",
           "status": "text_extracted",
@@ -8434,7 +8600,7 @@
     }
   },
   "run": {
-    "at": "2026-11-09T11:21:53+09:00",
+    "at": "2026-11-10T13:30:13+09:00",
     "status": "ok_scoped",
     "notices_attempted": 3,
     "notices_success": 3,

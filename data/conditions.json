@@ -1,8 +1,8 @@
 {
   "schema": "public-funding-conditions/v1",
   "version": "0.3.0",
-  "generated_at": "2026-11-07T11:30:53+09:00",
-  "input_fingerprint": "3a618d663387c0e8e4252c0976d743b645b2bae7f1abd2e31885875dc141a0be",
+  "generated_at": "2026-11-10T13:28:51+09:00",
+  "input_fingerprint": "2267a936ce82499c8b7705bbd9a70f70ace42085f5a23ae2dc12e71ba0f2d5b3",
   "disclaimer": "요약에서 확인한 조건만 판정합니다. 자동 추출은 미검증 후보이며 기관의 최종 심사를 대체하지 않습니다.",
   "records": {
     "IBK-2027-1": {
@@ -5284,6 +5284,33 @@
         "amount": "지원금액 · 공고 원문 확인 필요",
         "opens": "2026-11-05",
         "deadline": "2026-11-24"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000127759": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000127759",
+      "basis_fingerprint": "8c306a4835ee2d61f36f5d350da6142da1c873e11a0bed45715e9b431fec85e7",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000127759",
+        "title": "[충남] 2026년 AI 팩토리 사업 연계 지역 제조기업 디지털 전환 확산 지원사업 모집 재공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127759",
+        "year": 2026,
+        "eligibility": "중소기업",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": "2026-11-06",
+        "deadline": "2026-11-16"
       },
       "coverage": "unreviewed",
       "metadata_state": "current",

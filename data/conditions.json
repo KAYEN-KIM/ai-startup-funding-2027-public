@@ -1,8 +1,8 @@
 {
   "schema": "public-funding-conditions/v1",
   "version": "0.3.0",
-  "generated_at": "2026-11-10T13:28:51+09:00",
-  "input_fingerprint": "2267a936ce82499c8b7705bbd9a70f70ace42085f5a23ae2dc12e71ba0f2d5b3",
+  "generated_at": "2026-11-11T11:29:42+09:00",
+  "input_fingerprint": "412c486dbf59e629010bcb616079abc63443a3b7ca414dedca69c8195928d3cf",
   "disclaimer": "요약에서 확인한 조건만 판정합니다. 자동 추출은 미검증 후보이며 기관의 최종 심사를 대체하지 않습니다.",
   "records": {
     "IBK-2027-1": {
@@ -5311,6 +5311,141 @@
         "amount": "지원금액 · 공고 원문 확인 필요",
         "opens": "2026-11-06",
         "deadline": "2026-11-16"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000127807": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000127807",
+      "basis_fingerprint": "0bc2d2a4dd4b715ebb68a864f36ef7084452ca860b96ed0c74b74bbd2320a235",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000127807",
+        "title": "[경북] 2026년 K-AI 경북형 동반성장 주력산업 육성 지원사업 컨소시엄 모집 재공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127807",
+        "year": 2026,
+        "eligibility": "중소기업",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": "2026-11-09",
+        "deadline": "2026-11-30"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000127800": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000127800",
+      "basis_fingerprint": "bb67950f4de0f1f959039941e52d7298a8e165c69b6b5a24074d5ef2b1765a0e",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000127800",
+        "title": "[강원] AI 기반 맞춤형 수출전략 수립 지원사업 참가기업 3차 모집 공고(강원특별자치도ㆍKOTRA 연계)",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127800",
+        "year": 2026,
+        "eligibility": "중소기업",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": "2026-11-09",
+        "deadline": "2026-11-15"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000127798": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000127798",
+      "basis_fingerprint": "cffe599d63cd91d4a12c6eddc946f66bb5e964cbd4dbd9c79d8dec822d27a8c9",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000127798",
+        "title": "[전북] 익산시 청년공유주방(배달형 외식창업 인큐베이팅) 예비창업자 모집 재공고(익산시 음식ㆍ식품교육문화원)",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127798",
+        "year": 2026,
+        "eligibility": "창업벤처",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": "2026-11-03",
+        "deadline": "2026-11-16"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000127797": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000127797",
+      "basis_fingerprint": "7fe25e1c00b15afd0d2b2c103d9afe383a8559bcb0fee25973482d261dba41fa",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000127797",
+        "title": "[울산] 제조AI컴퓨팅센터 GPU 인프라 공개 시범 운영 참여기업 모집 공고(지역 주도형 AI 대전환 사업)",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127797",
+        "year": 2026,
+        "eligibility": "중소기업",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": "2026-11-09",
+        "deadline": "2026-11-14"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000127794": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000127794",
+      "basis_fingerprint": "8c6a3cb081a6f2f040b8ae2c648d06bbd2726a1c9f5fc3cffb54ee3d54d3dd59",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000127794",
+        "title": "[부산] 부산지하철 미남역 지하상가 내 부산안전산업존(BSI-Zone) 초기창업자 모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127794",
+        "year": 2026,
+        "eligibility": "창업벤처",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": "2026-11-09",
+        "deadline": "2026-11-18"
       },
       "coverage": "unreviewed",
       "metadata_state": "current",

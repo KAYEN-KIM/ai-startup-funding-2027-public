@@ -1,22 +1,21 @@
 # AI 창업 지원 — AI 없이 생성한 봇 보고서
 
-보고서 생성: 2026\-11\-10T13:31:32\+09:00
+보고서 생성: 2026\-11\-11T11:31:34\+09:00
 이번 범위의 수집 상태: **해당 회차 범위 확인**
 미해결 항목은 이번 실행 성공과 별도로 유지됩니다. 모델 호출: 0회(보고서 생성 경로).
 
 ## 수집 경로별 상태
-- 기업마당 API: ok\_scoped / 최근 시도 2026\-11\-10T13:28:51\+09:00
-- 공식 원문 HTML 순환: ok\_scoped / 최근 시도 2026\-11\-10T13:28:51\+09:00
-- 첨부파일 순환: ok\_scoped / 최근 시도 2026\-11\-10T13:30:44\+09:00
-- 검토된 과거 원본: ok\_scoped / 최근 시도 2026\-11\-10T13:31:18\+09:00
+- 기업마당 API: ok\_scoped / 최근 시도 2026\-11\-11T11:29:42\+09:00
+- 공식 원문 HTML 순환: ok\_scoped / 최근 시도 2026\-11\-11T11:29:42\+09:00
+- 첨부파일 순환: ok\_scoped / 최근 시도 2026\-11\-11T11:31:07\+09:00
+- 검토된 과거 원본: ok\_scoped / 최근 시도 2026\-11\-11T11:31:24\+09:00
 
 ## 누적 미해결
-pending\_differences: 19 / attachment\_failures: 0 / notice\_failures: 0 / attachment\_limits: 16 / queued\_attachments: 71 / changed\_evidence: 21 / unverified\_programs: 134 / unverified\_2027: 2 / unknown\_dates: 82
+pending\_differences: 19 / attachment\_failures: 0 / notice\_failures: 0 / attachment\_limits: 16 / queued\_attachments: 77 / changed\_evidence: 22 / unverified\_programs: 139 / unverified\_2027: 2 / unknown\_dates: 82
 
 ## 다음 7일 내 기재 마감 — 개인 자격 미판정
-- 2026\-11\-10 · 제4차 기술개발제품 시범구매 지원 · today\_time\_unknown · beneficiary
-- 2026\-11\-11 · 2026년 강원연구개발특구육성\(R&amp;D\)사업 강원 특구 배치 프로그램 1기 창업기업 모집 공고 · upcoming · discovery
-- 2026\-11\-11 · \[경북\] 구미시 2026년 문화로 창업지원사업 참여 창업자 모집 공고 · upcoming · discovery
+- 2026\-11\-11 · 2026년 강원연구개발특구육성\(R&amp;D\)사업 강원 특구 배치 프로그램 1기 창업기업 모집 공고 · today\_time\_unknown · discovery
+- 2026\-11\-11 · \[경북\] 구미시 2026년 문화로 창업지원사업 참여 창업자 모집 공고 · today\_time\_unknown · discovery
 - 2026\-11\-12 · \[대구\] 남구 2026년 남구다운 청년 창업 지원사업 통합 수정 공고 · upcoming · discovery
 - 2026\-11\-12 · 2026년 지역거점 AX 혁신 기술개발 사업 신규지원 대상과제 공고 \(공정ㆍ응용 솔루션 AX R&amp;D, 응용 제품 AX R&amp;D\) · upcoming · beneficiary
 - 2026\-11\-12 · \[경기\] 성남시 2026 제조AX 솔루션 매칭ㆍ확산 사업 모집 공고 · upcoming · discovery
@@ -30,6 +29,8 @@ pending\_differences: 19 / attachment\_failures: 0 / notice\_failures: 0 / attac
 - 2026\-11\-13 · 2027년 도약\(Jump\-Up\) 프로그램 참여기업 · upcoming · beneficiary
 - 2026\-11\-13T14:00:00\+09:00 · 2027년 상반기 IBK창공 혁신창업기업 모집 · upcoming · beneficiary
 - 2026\-11\-13T16:00:00\+09:00 · \[서울\] 2027년 Dream Play\(LGD 스타트업 육성프로그램 9기\) 모집 공고 · upcoming · beneficiary
+- 2026\-11\-14 · \[울산\] 제조AI컴퓨팅센터 GPU 인프라 공개 시범 운영 참여기업 모집 공고\(지역 주도형 AI 대전환 사업\) · upcoming · discovery
+- 2026\-11\-15 · \[강원\] AI 기반 맞춤형 수출전략 수립 지원사업 참가기업 3차 모집 공고\(강원특별자치도ㆍKOTRA 연계\) · upcoming · discovery
 - 2026\-11\-16 · AI 기반 주파수 간섭분석 및 전파예측 R&amp;D · upcoming · beneficiary
 - 2026\-11\-16 · 2026년 연구개발특구진흥재단 X 알테오젠 바이오 딥테크 오픈이노베이션 참여기업ㆍ연구기관 모집 공고 · upcoming · discovery
 - 2026\-11\-16 · \[대구\] 2026년 글로벌 AI로봇 특화지구 조성 사업 지원기업 모집 공고\(아태 AI 특화지구\(AHAP\) 조성 사업\) · upcoming · beneficiary
@@ -37,11 +38,16 @@ pending\_differences: 19 / attachment\_failures: 0 / notice\_failures: 0 / attac
 - 2026\-11\-16 · K\-푸드 위조상품 온라인플랫폼 AI 모니터링 및 차단 지원사업 참가기업 모집 공고 · upcoming · discovery
 - 2026\-11\-16 · \[대구\] 2026년 뿌리산업특화단지 지원 사업 수혜기업 모집 공고\(테크융합 스마트그린산단 전환\(AX/GX\) 지원 사업\) · upcoming · discovery
 - 2026\-11\-16 · \[충남\] 2026년 AI 팩토리 사업 연계 지역 제조기업 디지털 전환 확산 지원사업 모집 재공고 · upcoming · discovery
+- 2026\-11\-16 · \[전북\] 익산시 청년공유주방\(배달형 외식창업 인큐베이팅\) 예비창업자 모집 재공고\(익산시 음식ㆍ식품교육문화원\) · upcoming · discovery
+- 2026\-11\-18 · 2026년 호남권 AX랩 지능형농업 데이터 활용 경진대회 공고\(AI융합 지능형 농업 생태계 구축 사업\) · upcoming · discovery
+- 2026\-11\-18 · \[강원\] AI 헬스케어 글로벌 브릿지 조성사업 아태 AI 헬스케어 글로벌 교차실증 참여 모집 공고 · upcoming · discovery
+- 2026\-11\-18 · \[부산\] 부산지하철 미남역 지하상가 내 부산안전산업존\(BSI\-Zone\) 초기창업자 모집 공고 · upcoming · discovery
 
 ## 검토 대기 — 검토 순서이지 선정 점수가 아님
 - P0 · AI 기반 주파수 간섭분석 및 전파예측 R&amp;D: 원문 내용 변경 신호\. 실제 정책 변경인지는 미검증
 - P0 · 2026년 딥테크 챌린지 프로젝트 기술도전형 제2차 기술수요조사 시행계획 공고: 원문 내용 변경 신호\. 실제 정책 변경인지는 미검증
 - P0 · 2026년 AI 기반 바이오 소재 융복합 제품의 정보분석 및 특허 창출 지원 사업 수혜기업 모집 공고: 원문 내용 변경 신호\. 실제 정책 변경인지는 미검증
+- P0 · \[충북\] 2026년 4분기 청년 소상공인 창업응원금 지원 참여자 모집 공고: 원문 내용 변경 신호\. 실제 정책 변경인지는 미검증
 - P0 · \[대구\] 남구 2026년 남구다운 청년 창업 지원사업 통합 수정 공고: 원문 내용 변경 신호\. 실제 정책 변경인지는 미검증
 - P0 · 2026년 지역거점 AX 혁신 기술개발 사업 신규지원 대상과제 공고 \(공정ㆍ응용 솔루션 AX R&amp;D, 응용 제품 AX R&amp;D\): 원문 내용 변경 신호\. 실제 정책 변경인지는 미검증
 - P0 · \[충남\] 2026년 AI 팩토리 사업 성과확산을 위한 지역 DX 수혜기업 지원 사업 공고: 원문 내용 변경 신호\. 실제 정책 변경인지는 미검증

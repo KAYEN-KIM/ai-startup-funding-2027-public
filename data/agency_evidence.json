@@ -1,7 +1,7 @@
 {
   "schema": "public-funding-agency-evidence/v1",
   "version": "0.17.0",
-  "generated_at": "2026-11-10T13:30:13+09:00",
+  "generated_at": "2026-11-11T11:30:46+09:00",
   "model_calls": 0,
   "automatic_approval": false,
   "scope": "기관 직접 목록의 원문 최대 3건·첨부 최대 4건 순환 확인. 본문 추출은 조건 후보이며 신청자격·금액·중복지원·문서 완전성 검증이 아닙니다. 기존 공고와 검토 규칙은 수정하지 않습니다.",
@@ -242,9 +242,9 @@
       "source": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16953&tab=2",
       "title": "2026년도 한-베트남 AI 디지털 포럼 전시 및 비즈니스 매칭 부스 참가기업 모집",
       "listing_fingerprint": "104080d5fd3416c80c905e7dbf77f793cc9c7545fd623a40fd1a90f118c910db",
-      "listing_seen_at": "2026-10-30T21:14:20+09:00",
-      "last_attempt_at": "2026-10-30T21:14:28+09:00",
-      "last_success_at": "2026-10-30T21:14:28+09:00",
+      "listing_seen_at": "2026-11-11T11:30:40+09:00",
+      "last_attempt_at": "2026-11-11T11:30:46+09:00",
+      "last_success_at": "2026-11-11T11:30:46+09:00",
       "status": "html_available",
       "last_error": null,
       "review_required": false,
@@ -266,6 +266,13 @@
       ],
       "history": [
         {
+          "at": "2026-11-11T11:30:46+09:00",
+          "status": "html_available",
+          "body_sha256": "2e808d6febea1b44a48ccfe6eee12d2df80add65f4427b3ac38d6c4d1b7ed81f",
+          "manifest_sha256": "02cd36ebf465d728be836978a6617471951a332568d8e62ffc80193ac16eb420",
+          "error": null
+        },
+        {
           "at": "2026-10-30T21:14:28+09:00",
           "status": "html_available",
           "body_sha256": "2e808d6febea1b44a48ccfe6eee12d2df80add65f4427b3ac38d6c4d1b7ed81f",
@@ -281,9 +288,9 @@
       "source": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1072138",
       "title": "2027년 스마트 제조혁신 지원사업 통합공고",
       "listing_fingerprint": "f8c278616014df06dbe1e9c7e58409a32c7c7a3fbb4f58f32d62ba64cc24e174",
-      "listing_seen_at": "2026-11-06T12:05:41+09:00",
-      "last_attempt_at": "2026-11-06T12:05:47+09:00",
-      "last_success_at": "2026-11-06T12:05:47+09:00",
+      "listing_seen_at": "2026-11-11T11:30:40+09:00",
+      "last_attempt_at": "2026-11-11T11:30:46+09:00",
+      "last_success_at": "2026-11-11T11:30:46+09:00",
       "status": "html_available",
       "last_error": null,
       "review_required": false,
@@ -304,6 +311,13 @@
         }
       ],
       "history": [
+        {
+          "at": "2026-11-11T11:30:46+09:00",
+          "status": "html_available",
+          "body_sha256": "6ce268054f0abbee3d86ca3f30b1985bc474fa5466f4b8b68ed6ef1e10cc8d04",
+          "manifest_sha256": "ee088bb5fee43bc8b654c1b83dc7b33c094cd1e85b3a3033f915e95cea306780",
+          "error": null
+        },
         {
           "at": "2026-11-06T12:05:47+09:00",
           "status": "html_available",
@@ -709,9 +723,9 @@
       "source": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1072214",
       "title": "2027년도 초기창업·창업도약 패키지 사업신규 주관기관 모집 수정 공고",
       "listing_fingerprint": "6430022c82a6e1cb9dba93b2b2634da7f808aac8daaf3b8b58d7a32dd65ef5c3",
-      "listing_seen_at": "2026-11-07T11:32:03+09:00",
-      "last_attempt_at": "2026-11-07T11:32:11+09:00",
-      "last_success_at": "2026-11-07T11:32:11+09:00",
+      "listing_seen_at": "2026-11-11T11:30:40+09:00",
+      "last_attempt_at": "2026-11-11T11:30:46+09:00",
+      "last_success_at": "2026-11-11T11:30:46+09:00",
       "status": "html_available",
       "last_error": null,
       "review_required": false,
@@ -732,6 +746,13 @@
         }
       ],
       "history": [
+        {
+          "at": "2026-11-11T11:30:46+09:00",
+          "status": "html_available",
+          "body_sha256": "a1889f5b8abd7215bcd88190ed17548fad9d9d2b212ca46bf3e0a9d195fa79ff",
+          "manifest_sha256": "c4fdf98cb74944ebffaaa528845637c9920add917a18d356678b50c26d1afc32",
+          "error": null
+        },
         {
           "at": "2026-11-07T11:32:11+09:00",
           "status": "html_available",
@@ -2671,12 +2692,91 @@
       "notice_source": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16953&tab=2",
       "url": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16953&tab=2",
       "name": "붙임2. [참가신청서] 2026년도 한-베트남 AI·디지털 포럼 참가기업 모집.hwp",
-      "status": "queued",
-      "last_attempt_at": null,
-      "last_success_at": null,
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-11T11:30:46+09:00",
+      "last_success_at": "2026-11-11T11:30:46+09:00",
       "last_error": null,
       "review_required": false,
-      "history": []
+      "history": [
+        {
+          "at": "2026-11-11T11:30:46+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "84ad40ff16e8f76e1700673e36423b9f82d1ecc98317f11340daea8f4b5404b8",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "84ad40ff16e8f76e1700673e36423b9f82d1ecc98317f11340daea8f4b5404b8",
+      "sha256": "84ad40ff16e8f76e1700673e36423b9f82d1ecc98317f11340daea8f4b5404b8",
+      "extraction": {
+        "format": "hwp",
+        "parser": "olefile/0.47+hwp-body/0.4.0",
+        "sha256": "84ad40ff16e8f76e1700673e36423b9f82d1ecc98317f11340daea8f4b5404b8",
+        "bytes": 74752,
+        "status": "text_extracted",
+        "text_characters": 1840,
+        "units": 76,
+        "text_sha256": "c8548768c886f032bc5ce41147b5baa88e636d59773994b20fd0315db39b9664",
+        "pages": null,
+        "sections": 2,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "e7e2c609ae9e0f2a9312",
+            "category": "documents",
+            "excerpt": "필수제출서류",
+            "locator": "BodyText/Section0 / record 224 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "6ae6854cd6f3344b9d68",
+            "category": "documents",
+            "excerpt": "서류평가 가점사항 제출서류",
+            "locator": "BodyText/Section0 / record 242 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "caa561281e12d4874e35",
+            "category": "amount",
+            "excerpt": "트남 AI·디지털 포럼」 참가를 신청합니다. 또한 제출 서류에 불성실 기재나 허위 사실이 포함된 경우 선정 취소 및 정부지원사업 참여 제한 등의 조치에 동의합니다.",
+            "locator": "BodyText/Section0 / record 255 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "4c45f74499a1a296cbff",
+            "category": "documents",
+            "excerpt": "상기와 같이 「2026년도 한-베트남 AI·디지털 포럼」 참가를 신청합니다. 또한 제출 서류에 불성실 기재나 허위 사실이 포함된 경우 선정 취소 및 정부지원사업 참여 제한 등의 조치에 동의합니다.",
+            "locator": "BodyText/Section0 / record 255 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "f96af922997572acab26",
+            "category": "eligibility",
+            "excerpt": "◦ 이를 위반할 경우, 참여기업 선정 이전에는 선정 시의 불이익, 선정 이후에는 참여기업 선정 취소, 당해 지원대상 선정 건의 전부 또는 일부가 해제 또는 해지될 수 있으며, 당사는 이를 감수하여, 민․형사상 어떠한 이의도 제기하지 않겠습니다.",
+            "locator": "BodyText/Section1 / record 189 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "구역·레코드 위치는 실제 인쇄 쪽번호가 아닙니다.",
+          "표·그림·각주 의미와 문서의 모든 제외조건은 미검토"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
     },
     "740f8ee7237fdd49438abe1c": {
       "id": "740f8ee7237fdd49438abe1c",
@@ -2684,12 +2784,127 @@
       "notice_source": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16953&tab=2",
       "url": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16953&tab=2",
       "name": "붙임1. [공고문] 2026년도 한-베트남 AI·디지털 포럼 참가기업 모집.hwp",
-      "status": "queued",
-      "last_attempt_at": null,
-      "last_success_at": null,
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-11T11:30:46+09:00",
+      "last_success_at": "2026-11-11T11:30:46+09:00",
       "last_error": null,
       "review_required": false,
-      "history": []
+      "history": [
+        {
+          "at": "2026-11-11T11:30:46+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "efcf01ade12d860b05bad55c5a308c90f32b907a53c58e965e55409b9a0fd455",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "efcf01ade12d860b05bad55c5a308c90f32b907a53c58e965e55409b9a0fd455",
+      "sha256": "efcf01ade12d860b05bad55c5a308c90f32b907a53c58e965e55409b9a0fd455",
+      "extraction": {
+        "format": "hwp",
+        "parser": "olefile/0.47+hwp-body/0.4.0",
+        "sha256": "efcf01ade12d860b05bad55c5a308c90f32b907a53c58e965e55409b9a0fd455",
+        "bytes": 2653184,
+        "status": "text_extracted",
+        "text_characters": 2095,
+        "units": 101,
+        "text_sha256": "31f9a2731b1d2530b501cfb3fc64f7bdea162b20ea5da67a5241da4c2ca1a115",
+        "pages": null,
+        "sections": 1,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "fe798d2a8d13c23fa773",
+            "category": "eligibility",
+            "excerpt": "ㅇ 일시/장소 : 2026. 10. 29.(목) / 하노이 소재 호텔",
+            "locator": "BodyText/Section0 / record 70 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "8fb574014d2150cee5a9",
+            "category": "eligibility",
+            "excerpt": "□ 신청 자격",
+            "locator": "BodyText/Section0 / record 335 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "7d7cc180ed87645656da",
+            "category": "exclusion",
+            "excerpt": "< 지원제외 대상 >",
+            "locator": "BodyText/Section0 / record 362 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "11dcd7b77ad3bb8e3700",
+            "category": "exclusion",
+            "excerpt": "① 휴·폐업중인 기업",
+            "locator": "BodyText/Section0 / record 379 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "c854eb2c3a6fa5dbfa7b",
+            "category": "exclusion",
+            "excerpt": "② 국세 및 지방세 체납 중인 기업",
+            "locator": "BodyText/Section0 / record 383 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "b0f059262005c1b30e2f",
+            "category": "amount",
+            "excerpt": "⑤ 정부 지원사업 참여제한 등 제재사실이 있는 기업",
+            "locator": "BodyText/Section0 / record 395 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "6b8ffac8f964cad0c242",
+            "category": "exclusion",
+            "excerpt": "⑥ 지원제외 업종 영위기업 : 사행산업 등 국민 정서상 지원이 부적절한 업종(도박‧사치‧향락, 건강유해 등)",
+            "locator": "BodyText/Section0 / record 399 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "3ea21308c4b07962241a",
+            "category": "exclusion",
+            "excerpt": "지원제외대상",
+            "locator": "BodyText/Section0 / record 534 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "b68eb479c30bd3b88b7a",
+            "category": "amount",
+            "excerpt": " 등에 위배 되거나, 참여 신청서의 내용을 허위 기재 또는 고의누락한 경우에는 선정 취소, 정부 사업 참여 제한 및 정부지원금 환수 등의 조치를 받을 수 있음",
+            "locator": "BodyText/Section0 / record 594 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "구역·레코드 위치는 실제 인쇄 쪽번호가 아닙니다.",
+          "표·그림·각주 의미와 문서의 모든 제외조건은 미검토"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
     },
     "29b7d3de16f487e19941864f": {
       "id": "29b7d3de16f487e19941864f",
@@ -2698,11 +2913,18 @@
       "url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1072138&cbIdx=310&streFileNm=008b1236-66ba-463e-a181-e5bc0912a772.pdf",
       "name": "008b1236-66ba-463e-a181-e5bc0912a772.pdf",
       "status": "text_extracted",
-      "last_attempt_at": "2026-11-02T13:07:44+09:00",
-      "last_success_at": "2026-11-02T13:07:44+09:00",
+      "last_attempt_at": "2026-11-11T11:30:46+09:00",
+      "last_success_at": "2026-11-11T11:30:46+09:00",
       "last_error": null,
       "review_required": false,
       "history": [
+        {
+          "at": "2026-11-11T11:30:46+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "dc4b8f78a73591ef7481634150dd0f5aa674f913c5980b6a81e692d061e74929",
+          "http_status": null,
+          "failure_kind": null
+        },
         {
           "at": "2026-11-02T13:07:44+09:00",
           "status": "text_extracted",
@@ -2898,11 +3120,18 @@
       "url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1072138&cbIdx=310&streFileNm=46e8dc89-e5ca-4a96-ba26-987c862bba08.hwpx",
       "name": "46e8dc89-e5ca-4a96-ba26-987c862bba08.hwpx",
       "status": "text_extracted",
-      "last_attempt_at": "2026-11-02T13:07:44+09:00",
-      "last_success_at": "2026-11-02T13:07:44+09:00",
+      "last_attempt_at": "2026-11-11T11:30:46+09:00",
+      "last_success_at": "2026-11-11T11:30:46+09:00",
       "last_error": null,
       "review_required": false,
       "history": [
+        {
+          "at": "2026-11-11T11:30:46+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "fabd5938177f4fb8c467cfba04225439b19b9ee932db30b5589732bc82ed66af",
+          "http_status": null,
+          "failure_kind": null
+        },
         {
           "at": "2026-11-02T13:07:44+09:00",
           "status": "text_extracted",
@@ -8600,7 +8829,7 @@
     }
   },
   "run": {
-    "at": "2026-11-10T13:30:13+09:00",
+    "at": "2026-11-11T11:30:46+09:00",
     "status": "ok_scoped",
     "notices_attempted": 3,
     "notices_success": 3,

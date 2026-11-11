@@ -1,9 +1,9 @@
 {
   "schema": "public-funding-attachments/v1",
   "version": "0.4.0",
-  "generated_at": "2026-11-10T13:30:44+09:00",
+  "generated_at": "2026-11-11T11:31:07+09:00",
   "run": {
-    "at": "2026-11-10T13:30:44+09:00",
+    "at": "2026-11-11T11:31:07+09:00",
     "notice_success": 3,
     "notice_failed": 0,
     "attempted": 4,
@@ -13,7 +13,7 @@
     "failed": 0,
     "changed": 0,
     "manifest_changed": 0,
-    "queued_total": 182,
+    "queued_total": 192,
     "new_attempted": 4,
     "retry_attempted": 0,
     "revisit_attempted": 0,
@@ -14598,6 +14598,407 @@
       "last_error": null,
       "review_required": false,
       "history": []
+    },
+    "f6b230bc374613a8aea63e57": {
+      "id": "f6b230bc374613a8aea63e57",
+      "program_id": "BIZINFO-PBLN_000000000126776",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126776",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000774675&fileSn=1",
+      "name": "다운로드",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
+    },
+    "a0442de40500188d2451b218": {
+      "id": "a0442de40500188d2451b218",
+      "program_id": "BIZINFO-PBLN_000000000126776",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126776",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000774676&fileSn=1",
+      "name": "다운로드",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
+    },
+    "36be8bd2143f3acb4aa81c91": {
+      "id": "36be8bd2143f3acb4aa81c91",
+      "program_id": "BIZINFO-PBLN_000000000126812",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126812",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000774784&fileSn=1",
+      "name": "다운로드",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-11T11:31:07+09:00",
+      "last_success_at": "2026-11-11T11:31:07+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-11-11T11:31:07+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "ba45b0392aeb46c7c7a3a5ce521a3d9266230c48073d942b23984853756891f0",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "ba45b0392aeb46c7c7a3a5ce521a3d9266230c48073d942b23984853756891f0",
+      "sha256": "ba45b0392aeb46c7c7a3a5ce521a3d9266230c48073d942b23984853756891f0",
+      "extraction": {
+        "format": "pdf",
+        "parser": "pypdf/6.15.0",
+        "sha256": "ba45b0392aeb46c7c7a3a5ce521a3d9266230c48073d942b23984853756891f0",
+        "bytes": 395049,
+        "status": "text_extracted",
+        "text_characters": 3348,
+        "units": 11,
+        "text_sha256": "a029f6e08f34ba61e98a7f7cef3d057e53901a335264cea3c18fea467f34c76a",
+        "pages": 5,
+        "sections": null,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "868daaadd3031e45e298",
+            "category": "eligibility",
+            "excerpt": "◦기술개발역량,의지를보유한중소벤처기업이혁신적R&D에과감히도전할수있도록중소벤처기업주도의임무(미션)중심R&D프로젝트추진□지원대상:중소벤처기업주관(대학·출연연·전문연등컨소시엄참여필수)□지원분야:3대메가+7대SEED프로젝트분야□추진절차기술수요조사공고➡테마기술발굴 및 검증➡지정공모 프로젝트 과제기획➡프로젝트 과제 출제(전략기술 Bank 게시)기술개발 수행 및 PM 전주기 관리프로젝트 확정역량·심층평가(기술성·사업",
+            "locator": "PDF p.1 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "54ccdd4a4a1a34b7c1f9",
+            "category": "eligibility",
+            "excerpt": "모델, ④SMR·핵융합, ⑤재생에너지·수소·전력망, ⑥첨단바이오, ⑦우주·항공·방산, ⑧양자·보안·네트워크, ⑨첨단 소재·자원□(조사항목)기술명,기술개발의배경·필요성,국내·외기술및시장동향,개발내용및최종개발목표,기대효과등□(지원내용)프로젝트당90억원내외(민간先투자20억원이상,출연방식R&D최대50억원이내)+지분투자(모태펀드)* * 지분투자(모태펀드)는 프로젝트 수행기업으로 선정된 중소벤처기업이 사전에 설정한 R&",
+            "locator": "PDF p.2 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "585f04b488cab5de7a7d",
+            "category": "amount",
+            "excerpt": ", 신기술투자조합, 창업기획자, 외국투자회사 ** ①국공립연구기관, ②「특정연구기관육성법」에 따른 특정연구기관, ③「정부출연연구기관 등의 설립·운영 및 육성에 관한 법률」에 따른 정부출연연구기관, ④「과학기술분야 정부출연연구기관 등의 설립·운영 및 육성에 관한 법률」 제8조제1항에 따른 과학기술분야 정부출연연구기관, ⑤「지방자치단체출연 연구원의 설립 및 운영에 관한 법률」 제2조에 따른 지방자치단체출연 연구원",
+            "locator": "PDF p.2 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "db5a2e31e8a84ab46384",
+            "category": "documents",
+            "excerpt": "후 검색 → 공고 선택 → 하단 “작성” 클릭 → 내용입력 후 신청서류(기술수요조사서 등) 첨부 → 저장 및 제출◦(제출서류)제안자가홈페이지*에서제출서식(붙임1)을다운로드받아작성하고홈페이지에제안내용을온라인입력후제출서류를첨부하여등록 * 범부처통합연구지원시스템(IRIS, iris.go.kr)",
+            "locator": "PDF p.3 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "c51996738b87924f4bbf",
+            "category": "amount",
+            "excerpt": "통합연구관리시스템’(https://www.iris.go.kr)에서 기 지원여부 및 중복성 등에 대한 사전 검토 가능◦지원규모는과제별지원한도내에서결정되며,과제제안시기간·규모를제안하여야함",
+            "locator": "PDF p.4 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "0b59d0512101ca9d8fca",
+            "category": "deadline",
+            "excerpt": "◦다음의경우는딥테크챌린지프로젝트의기획활용대상에서제외 -전산접수완료를하지않은경우 -접수기간이후에수요조사제안서를제출한경우 -홈페이지를통한접수및제출이아닌개별적방법으로제출하는경우 * 예시) 방문, 우편 또는 이메일을 통해 기술수요조사서를 제출하는 경우 등 -첨부파일(기술수요조사서)등관련자료를누락한경우,첨부된기술수요조사양식이외의양식으로기술수요조사서를제출하는경우 -정부R&D사업으로지원된기존과제와현저히유사하거나,타부처에중",
+            "locator": "PDF p.5 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "표 열 순서·이미지·주석의 의미는 검토하지 않았습니다.",
+          "OCR 미수행"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
+    },
+    "be20f2ccb08c8be32a7e4edb": {
+      "id": "be20f2ccb08c8be32a7e4edb",
+      "program_id": "BIZINFO-PBLN_000000000126812",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126812",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000774785&fileSn=1",
+      "name": "다운로드",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
+    },
+    "620fb7ca2817e8c8e8767bbe": {
+      "id": "620fb7ca2817e8c8e8767bbe",
+      "program_id": "BIZINFO-PBLN_000000000126812",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126812",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000774785&fileSn=2",
+      "name": "다운로드",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-11T11:31:07+09:00",
+      "last_success_at": "2026-11-11T11:31:07+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-11-11T11:31:07+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "81b0346202fbbe8db81046be54a4a3f53b99b92d67d7dbb2c58fe167aefa8a4f",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "81b0346202fbbe8db81046be54a4a3f53b99b92d67d7dbb2c58fe167aefa8a4f",
+      "sha256": "81b0346202fbbe8db81046be54a4a3f53b99b92d67d7dbb2c58fe167aefa8a4f",
+      "extraction": {
+        "format": "hwpx",
+        "parser": "hwp-body/0.4.0",
+        "sha256": "81b0346202fbbe8db81046be54a4a3f53b99b92d67d7dbb2c58fe167aefa8a4f",
+        "bytes": 58007,
+        "status": "text_extracted",
+        "text_characters": 2511,
+        "units": 137,
+        "text_sha256": "68ce7178fd491c49a2d3ce7088072af2ab4f5676cc132cce56462f18f404d79c",
+        "pages": null,
+        "sections": 1,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "424b73cf48dd17ab1db8",
+            "category": "eligibility",
+            "excerpt": "□ 첨단 소재·자원",
+            "locator": "Contents/section0.xml / paragraph 52",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "688c81c06ca3a87e1010",
+            "category": "amount",
+            "excerpt": "* 민간투자 및 정부지원 필요성, 해결하고자 하는 문제 등 제시(기업성장, 생태계 강화, 글로벌 경쟁력 강화 등)",
+            "locator": "Contents/section0.xml / paragraph 103",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "구역·문단 위치는 실제 인쇄 쪽번호가 아닙니다.",
+          "표 셀 관계·그림·각주 의미는 미검토"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
+    },
+    "2acd15454bd2ba8388cff660": {
+      "id": "2acd15454bd2ba8388cff660",
+      "program_id": "BIZINFO-PBLN_000000000126812",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126812",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000774785&fileSn=3",
+      "name": "다운로드",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-11T11:31:07+09:00",
+      "last_success_at": "2026-11-11T11:31:07+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-11-11T11:31:07+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "3a46a193a62acf561835e1104a91c11cd4a8aafee3a652e3d074640c5312ddeb",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "3a46a193a62acf561835e1104a91c11cd4a8aafee3a652e3d074640c5312ddeb",
+      "sha256": "3a46a193a62acf561835e1104a91c11cd4a8aafee3a652e3d074640c5312ddeb",
+      "extraction": {
+        "format": "pdf",
+        "parser": "pypdf/6.15.0",
+        "sha256": "3a46a193a62acf561835e1104a91c11cd4a8aafee3a652e3d074640c5312ddeb",
+        "bytes": 249175,
+        "status": "text_extracted",
+        "text_characters": 2436,
+        "units": 13,
+        "text_sha256": "01d3741a97d52b055d33dc08d508390e565b5cd286e870cb531af0779b5c27ad",
+        "pages": 5,
+        "sections": null,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "39f3e6899dbb8cee1bf7",
+            "category": "eligibility",
+            "excerpt": "데이터센터·모델□ SMR·핵융합□ 재생에너지·수소·전력망□ 첨단바이오□ 우주·항공·방산□ 양자·보안·네트워크□ 첨단 소재·자원최종 개발 목표◦ 국내 참여기관(해당 시 작성)◦ 기업, 대학, 출연연 등 참여(예정)기관명국외 참여기관(해당 시 작성)◦ 기업, 대학, 출연연 등 참여(예정)기관명 총 기술개발 기간총 소요 금액(억원)민간 선투자, R&D출연금 등을 전부 포함한 금액 기준(기술수요조사 공고 內 지원내용",
+            "locator": "PDF p.2 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "8572386459e80cec7878",
+            "category": "amount",
+            "excerpt": "◦ (기술개발 필요성) - - ◦ (혁신성 및 도전성) - - ◦ - - * 민간투자 및 정부지원 필요성, 해결하고자 하는 문제 등 제시(기업성장, 생태계 강화, 글로벌 경쟁력 강화 등)",
+            "locator": "PDF p.3 / text-line 4",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "표 열 순서·이미지·주석의 의미는 검토하지 않았습니다.",
+          "OCR 미수행"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
+    },
+    "277559cbb505f959fd6667e5": {
+      "id": "277559cbb505f959fd6667e5",
+      "program_id": "BIZINFO-PBLN_000000000126812",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126812",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000774785&fileSn=4",
+      "name": "다운로드",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-11T11:31:07+09:00",
+      "last_success_at": "2026-11-11T11:31:07+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-11-11T11:31:07+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "c2ef38bab5e110a172a29c77a06afcee083a70c2de40694af6d0403ac2fc9f3d",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "c2ef38bab5e110a172a29c77a06afcee083a70c2de40694af6d0403ac2fc9f3d",
+      "sha256": "c2ef38bab5e110a172a29c77a06afcee083a70c2de40694af6d0403ac2fc9f3d",
+      "extraction": {
+        "format": "hwpx",
+        "parser": "hwp-body/0.4.0",
+        "sha256": "c2ef38bab5e110a172a29c77a06afcee083a70c2de40694af6d0403ac2fc9f3d",
+        "bytes": 156919,
+        "status": "text_extracted",
+        "text_characters": 49455,
+        "units": 3804,
+        "text_sha256": "37663ee6e673512511614011ee21b11f0883ec51c43f02f9b59737a3bdd44727",
+        "pages": null,
+        "sections": 1,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "1c4734bbd0c10b44e030",
+            "category": "eligibility",
+            "excerpt": "NC0706. 광소재화학",
+            "locator": "Contents/section0.xml / paragraph 291",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "9cc05331c4cd9ab6e0dc",
+            "category": "eligibility",
+            "excerpt": "NC0306. 무기소재화학",
+            "locator": "Contents/section0.xml / paragraph 302",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "600341e264939081e65a",
+            "category": "eligibility",
+            "excerpt": "ND1003. 신소재가공",
+            "locator": "Contents/section0.xml / paragraph 471",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "dea645b8f50217ea8aa1",
+            "category": "eligibility",
+            "excerpt": "LA0703. 나노바이오소재",
+            "locator": "Contents/section0.xml / paragraph 580",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "806399b581de50fe402b",
+            "category": "eligibility",
+            "excerpt": "LA0901. 바이오화학소재",
+            "locator": "Contents/section0.xml / paragraph 619",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "구역·문단 위치는 실제 인쇄 쪽번호가 아닙니다.",
+          "표 셀 관계·그림·각주 의미는 미검토"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
+    },
+    "74160fea7f1dd33d24a60670": {
+      "id": "74160fea7f1dd33d24a60670",
+      "program_id": "BIZINFO-PBLN_000000000126812",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126812",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000774785&fileSn=5",
+      "name": "다운로드",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
+    },
+    "f40450a7f250ab44fc0eaeac": {
+      "id": "f40450a7f250ab44fc0eaeac",
+      "program_id": "BIZINFO-PBLN_000000000126833",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126833",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000774886&fileSn=0",
+      "name": "다운로드",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
+    },
+    "71bc08e6c472a9d695f6d67b": {
+      "id": "71bc08e6c472a9d695f6d67b",
+      "program_id": "BIZINFO-PBLN_000000000126833",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126833",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000774887&fileSn=0",
+      "name": "다운로드",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
     }
   },
   "programs": {
@@ -15703,6 +16104,49 @@
       "document_ids": [
         "a91c25d8b62bd5c7d7ed42a0",
         "9e29658c5fb9890209ef0db1"
+      ],
+      "review_required": false,
+      "last_error": null
+    },
+    "BIZINFO-PBLN_000000000126776": {
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126776",
+      "last_notice_attempt_at": "2026-11-11T11:31:07+09:00",
+      "last_notice_success_at": "2026-11-11T11:31:07+09:00",
+      "notice_status": "links_available",
+      "manifest_sha256": "effa4936d5e6d7691f496f7d5c40afa59f8a6b22457d08f41ce14d3656c9624c",
+      "document_ids": [
+        "f6b230bc374613a8aea63e57",
+        "a0442de40500188d2451b218"
+      ],
+      "review_required": false,
+      "last_error": null
+    },
+    "BIZINFO-PBLN_000000000126812": {
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126812",
+      "last_notice_attempt_at": "2026-11-11T11:31:07+09:00",
+      "last_notice_success_at": "2026-11-11T11:31:07+09:00",
+      "notice_status": "links_available",
+      "manifest_sha256": "8a3d93f6b80a5b1f5e10b903cc48a69cff29b548ee059ffbba59532e59ee4a4d",
+      "document_ids": [
+        "36be8bd2143f3acb4aa81c91",
+        "be20f2ccb08c8be32a7e4edb",
+        "620fb7ca2817e8c8e8767bbe",
+        "2acd15454bd2ba8388cff660",
+        "277559cbb505f959fd6667e5",
+        "74160fea7f1dd33d24a60670"
+      ],
+      "review_required": false,
+      "last_error": null
+    },
+    "BIZINFO-PBLN_000000000126833": {
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126833",
+      "last_notice_attempt_at": "2026-11-11T11:31:07+09:00",
+      "last_notice_success_at": "2026-11-11T11:31:07+09:00",
+      "notice_status": "links_available",
+      "manifest_sha256": "e9f5999fc10181a19d4c82661d9ed228672027a1d85308b4f85c39b1251e1d9f",
+      "document_ids": [
+        "f40450a7f250ab44fc0eaeac",
+        "71bc08e6c472a9d695f6d67b"
       ],
       "review_required": false,
       "last_error": null

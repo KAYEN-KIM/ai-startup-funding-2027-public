@@ -1,6 +1,6 @@
 {
   "schema": "public-funding-radar/v1",
-  "generated_at": "2026-11-10T13:28:51+09:00",
+  "generated_at": "2026-11-11T11:29:42+09:00",
   "provenance": "공식기관 공개 공고 및 2026년 참고 제도. 2027년 미확정 사항은 자동 승격하지 않음.",
   "disclaimer": "본 자료는 신청·선정을 보장하지 않으며 최신 원문 확인 필요.",
   "items": [
@@ -5262,6 +5262,163 @@
         {
           "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000779164&fileSn=1",
           "name": "1. 2026년 AI 팩토리 사업 연계 지역 제조기업 디지털 전환 확산 지원사업 공고문.hwpx",
+          "status": "link_only_not_read"
+        }
+      ]
+    },
+    {
+      "id": "BIZINFO-PBLN_000000000127807",
+      "title": "[경북] 2026년 K-AI 경북형 동반성장 주력산업 육성 지원사업 컨소시엄 모집 재공고",
+      "year": 2026,
+      "years": [
+        2026
+      ],
+      "year_basis": "title",
+      "kind": "기술",
+      "mode": "discovery",
+      "relevance": "ai",
+      "opens": "2026-11-09",
+      "deadline": "2026-11-30",
+      "deadline_precision": "date",
+      "application_period_raw": "2026-11-09 ~ 2026-11-30",
+      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127807",
+      "verified_at": "2026-11-11",
+      "amount": "지원금액 · 공고 원문 확인 필요",
+      "eligibility": "중소기업",
+      "note": "공식 API 목록 발견. 신청자격·지원금·첨부 조건은 검증 전입니다.",
+      "source_level": "official_api_index_not_full_application_verified",
+      "agency": "경상북도",
+      "attachments": [
+        {
+          "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000779357&fileSn=1",
+          "name": "양식_사업신청서-등.hwpx",
+          "status": "link_only_not_read"
+        },
+        {
+          "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000779356&fileSn=1",
+          "name": "재공고_「K-AI-경북형-동반성장-주력산업-육성-지원사업」컨소시엄-모집.pdf",
+          "status": "link_only_not_read"
+        }
+      ]
+    },
+    {
+      "id": "BIZINFO-PBLN_000000000127800",
+      "title": "[강원] AI 기반 맞춤형 수출전략 수립 지원사업 참가기업 3차 모집 공고(강원특별자치도ㆍKOTRA 연계)",
+      "year": 2026,
+      "years": [],
+      "year_basis": "collection_year_inferred",
+      "kind": "수출",
+      "mode": "discovery",
+      "relevance": "ai",
+      "opens": "2026-11-09",
+      "deadline": "2026-11-15",
+      "deadline_precision": "date",
+      "application_period_raw": "2026-11-09 ~ 2026-11-15",
+      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127800",
+      "verified_at": "2026-11-11",
+      "amount": "지원금액 · 공고 원문 확인 필요",
+      "eligibility": "중소기업",
+      "note": "공식 API 목록 발견. 신청자격·지원금·첨부 조건은 검증 전입니다.",
+      "source_level": "official_api_index_not_full_application_verified",
+      "agency": "강원특별자치도",
+      "attachments": [
+        {
+          "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000779337&fileSn=1&fileSn=2&fileSn=3",
+          "name": "양식1. [강원도-KOTRA] AI 맞춤형 수출전략 수립 지원사업 참가신청 양식.xlsx@참조. KOTRA 맞춤형 AI수출전략 보고서 샘플보고서4종.zip@양식2. 2026년 개인·기업 정보 수집·이용 및 제3자 제공 동의서.hwpx",
+          "status": "link_only_not_read"
+        },
+        {
+          "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000779336&fileSn=1",
+          "name": "붙임. [강원특별자치도-KOTRA] AI 기반 맞춤형 수출전략 수립 지원사업 참가기업 3차 모집공고+.pdf",
+          "status": "link_only_not_read"
+        }
+      ]
+    },
+    {
+      "id": "BIZINFO-PBLN_000000000127798",
+      "title": "[전북] 익산시 청년공유주방(배달형 외식창업 인큐베이팅) 예비창업자 모집 재공고(익산시 음식ㆍ식품교육문화원)",
+      "year": 2026,
+      "years": [],
+      "year_basis": "collection_year_inferred",
+      "kind": "창업",
+      "mode": "discovery",
+      "relevance": "startup_general",
+      "opens": "2026-11-03",
+      "deadline": "2026-11-16",
+      "deadline_precision": "date",
+      "application_period_raw": "2026-11-03 ~ 2026-11-16",
+      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127798",
+      "verified_at": "2026-11-11",
+      "amount": "지원금액 · 공고 원문 확인 필요",
+      "eligibility": "창업벤처",
+      "note": "공식 API 목록 발견. 신청자격·지원금·첨부 조건은 검증 전입니다.",
+      "source_level": "official_api_index_not_full_application_verified",
+      "agency": "전북특별자치도",
+      "attachments": [
+        {
+          "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000779325&fileSn=1",
+          "name": "2026년「익산시 음식식품교육문화원」 청년공유주방 예비창업자 모집 재공고문.hwpx",
+          "status": "link_only_not_read"
+        }
+      ]
+    },
+    {
+      "id": "BIZINFO-PBLN_000000000127797",
+      "title": "[울산] 제조AI컴퓨팅센터 GPU 인프라 공개 시범 운영 참여기업 모집 공고(지역 주도형 AI 대전환 사업)",
+      "year": 2026,
+      "years": [],
+      "year_basis": "collection_year_inferred",
+      "kind": "기술",
+      "mode": "discovery",
+      "relevance": "ai",
+      "opens": "2026-11-09",
+      "deadline": "2026-11-14",
+      "deadline_precision": "date",
+      "application_period_raw": "2026-11-09 ~ 2026-11-14",
+      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127797",
+      "verified_at": "2026-11-11",
+      "amount": "지원금액 · 공고 원문 확인 필요",
+      "eligibility": "중소기업",
+      "note": "공식 API 목록 발견. 신청자격·지원금·첨부 조건은 검증 전입니다.",
+      "source_level": "official_api_index_not_full_application_verified",
+      "agency": "중소벤처기업부",
+      "attachments": [
+        {
+          "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000779322&fileSn=0",
+          "name": "붙임_2__제조AI컴퓨팅센터_GPU_인프라_공개_시범_운영_제출서류_양식.hwpx",
+          "status": "link_only_not_read"
+        },
+        {
+          "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000779321&fileSn=0",
+          "name": "붙임_1__제조AI컴퓨팅센터_GPU_인프라_공개_시범_운영_참여기업_모집_공고문.hwpx",
+          "status": "link_only_not_read"
+        }
+      ]
+    },
+    {
+      "id": "BIZINFO-PBLN_000000000127794",
+      "title": "[부산] 부산지하철 미남역 지하상가 내 부산안전산업존(BSI-Zone) 초기창업자 모집 공고",
+      "year": 2026,
+      "years": [],
+      "year_basis": "collection_year_inferred",
+      "kind": "창업",
+      "mode": "discovery",
+      "relevance": "startup_general",
+      "opens": "2026-11-09",
+      "deadline": "2026-11-18",
+      "deadline_precision": "date",
+      "application_period_raw": "2026-11-09 ~ 2026-11-18",
+      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127794",
+      "verified_at": "2026-11-11",
+      "amount": "지원금액 · 공고 원문 확인 필요",
+      "eligibility": "창업벤처",
+      "note": "공식 API 목록 발견. 신청자격·지원금·첨부 조건은 검증 전입니다.",
+      "source_level": "official_api_index_not_full_application_verified",
+      "agency": "부산광역시",
+      "attachments": [
+        {
+          "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000779319&fileSn=1",
+          "name": "붙임_신규입주기업+모집+공고문+.hwpx",
           "status": "link_only_not_read"
         }
       ]

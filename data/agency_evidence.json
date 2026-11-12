@@ -1,7 +1,7 @@
 {
   "schema": "public-funding-agency-evidence/v1",
   "version": "0.17.0",
-  "generated_at": "2026-11-11T11:30:46+09:00",
+  "generated_at": "2026-11-12T12:35:18+09:00",
   "model_calls": 0,
   "automatic_approval": false,
   "scope": "기관 직접 목록의 원문 최대 3건·첨부 최대 4건 순환 확인. 본문 추출은 조건 후보이며 신청자격·금액·중복지원·문서 완전성 검증이 아닙니다. 기존 공고와 검토 규칙은 수정하지 않습니다.",
@@ -12,9 +12,9 @@
       "source": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1071785",
       "title": "2027년 도약(Jump-Up) 프로그램 참여기업 모집 공고",
       "listing_fingerprint": "e4cdfd512f5098ae2167e3fa251d720044abdc9d89e36f97336d502086a8ad1f",
-      "listing_seen_at": "2026-11-08T11:01:33+09:00",
-      "last_attempt_at": "2026-11-08T11:01:39+09:00",
-      "last_success_at": "2026-11-08T11:01:39+09:00",
+      "listing_seen_at": "2026-11-12T12:35:11+09:00",
+      "last_attempt_at": "2026-11-12T12:35:18+09:00",
+      "last_success_at": "2026-11-12T12:35:18+09:00",
       "status": "html_available",
       "last_error": null,
       "review_required": false,
@@ -35,6 +35,13 @@
         }
       ],
       "history": [
+        {
+          "at": "2026-11-12T12:35:18+09:00",
+          "status": "html_available",
+          "body_sha256": "f24eab2ad59d502b3f1b3da0054e84eddc6358b5704d74d1aa2f05bf2ebd3e87",
+          "manifest_sha256": "e91eba66141ad96379eb59588d0aab1dfbaf0ba78d4f7cbf379620590cbf895d",
+          "error": null
+        },
         {
           "at": "2026-11-08T11:01:39+09:00",
           "status": "html_available",
@@ -348,9 +355,9 @@
       "source": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1072172",
       "title": "2027년도 초기창업·창업도약 패키지 사업 신규 주관기관 모집 공고",
       "listing_fingerprint": "839b08d2c2662479ecc73450e79c356d9d2cc4082e50a89080f2e2643f866eaf",
-      "listing_seen_at": "2026-11-07T11:32:03+09:00",
-      "last_attempt_at": "2026-11-07T11:32:11+09:00",
-      "last_success_at": "2026-11-07T11:32:11+09:00",
+      "listing_seen_at": "2026-11-12T12:35:11+09:00",
+      "last_attempt_at": "2026-11-12T12:35:18+09:00",
+      "last_success_at": "2026-11-12T12:35:18+09:00",
       "status": "html_available",
       "last_error": null,
       "review_required": false,
@@ -371,6 +378,13 @@
         }
       ],
       "history": [
+        {
+          "at": "2026-11-12T12:35:18+09:00",
+          "status": "html_available",
+          "body_sha256": "86167596803f649745cf1f3dff49a34f05c362798dd6104fc161133f4a42785f",
+          "manifest_sha256": "dda5de4d5413b1c489ac9e4f67493ff7d97958deb224af95b7ca08743f8e6149",
+          "error": null
+        },
         {
           "at": "2026-11-07T11:32:11+09:00",
           "status": "html_available",
@@ -401,9 +415,9 @@
       "source": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16921&tab=2",
       "title": "2026년 아태 AI 특화지구(AHAP) 조성 사업 공고",
       "listing_fingerprint": "524902cf6ed3cb2590887f29eaa4f919a171309f209950cb00b81b3ea75a2a78",
-      "listing_seen_at": "2026-10-31T10:59:23+09:00",
-      "last_attempt_at": "2026-10-31T10:59:31+09:00",
-      "last_success_at": "2026-10-31T10:59:31+09:00",
+      "listing_seen_at": "2026-11-12T12:35:11+09:00",
+      "last_attempt_at": "2026-11-12T12:35:18+09:00",
+      "last_success_at": "2026-11-12T12:35:18+09:00",
       "status": "html_available",
       "last_error": null,
       "review_required": false,
@@ -442,6 +456,13 @@
         }
       ],
       "history": [
+        {
+          "at": "2026-11-12T12:35:18+09:00",
+          "status": "html_available",
+          "body_sha256": "27a99e1b609bd99b8c37739c104f733f54879c8162992e6f3e02e0d2d817ad24",
+          "manifest_sha256": "cec62da44562f3b6e4c6ee29171082219314503588e8c261f9d771ea8bc2106f",
+          "error": null
+        },
         {
           "at": "2026-10-31T10:59:31+09:00",
           "status": "html_available",
@@ -3875,12 +3896,199 @@
       "notice_source": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16921&tab=2",
       "url": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16921&tab=2",
       "name": "4. [양식] 아태 AI 특화지구(AHAP) 조성 사업수행계획서(수행기관용).hwp",
-      "status": "queued",
-      "last_attempt_at": null,
-      "last_success_at": null,
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-12T12:35:18+09:00",
+      "last_success_at": "2026-11-12T12:35:18+09:00",
       "last_error": null,
       "review_required": false,
-      "history": []
+      "history": [
+        {
+          "at": "2026-11-12T12:35:18+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "8defd8541ba38c3893620efa86e70cd557b53d4855fc6e2488e62d7bdd52adaf",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "8defd8541ba38c3893620efa86e70cd557b53d4855fc6e2488e62d7bdd52adaf",
+      "sha256": "8defd8541ba38c3893620efa86e70cd557b53d4855fc6e2488e62d7bdd52adaf",
+      "extraction": {
+        "format": "hwp",
+        "parser": "olefile/0.47+hwp-body/0.4.0",
+        "sha256": "8defd8541ba38c3893620efa86e70cd557b53d4855fc6e2488e62d7bdd52adaf",
+        "bytes": 117760,
+        "status": "text_extracted",
+        "text_characters": 16815,
+        "units": 1387,
+        "text_sha256": "f439e634f4bc6d627498560025bd99ac539e9b6f14904537bfd196feb0e61248",
+        "pages": null,
+        "sections": 1,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "ad1130eb434981eac814",
+            "category": "amount",
+            "excerpt": "- 접수 마감일 현재 정부지원과제의 참여제한의 적용을 받고 있는 기관(기업), 대표자, 총괄책임자는 과제 신청 및 참여 불가",
+            "locator": "BodyText/Section0 / record 186 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "5155fded9cbe36dc4945",
+            "category": "deadline",
+            "excerpt": "- 접수 마감일 현재 정부지원과제의 참여제한의 적용을 받고 있는 기관(기업), 대표자, 총괄책임자는 과제 신청 및 참여 불가",
+            "locator": "BodyText/Section0 / record 186 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "d37acbb295fa000e6f25",
+            "category": "cofunding",
+            "excerpt": "ㅇ 인건비 : 인건비는 현물로 편성가능 하며, 협약일 현재 근무인력만 편성 가능",
+            "locator": "BodyText/Section0 / record 204 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "9690a9952a371adc49bc",
+            "category": "documents",
+            "excerpt": "※ 사업비 정산시 기자재 구입 등 개별 집행건별로 증빙서류를 갖추어 세부내역을 입증해야 함",
+            "locator": "BodyText/Section0 / record 220 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "4ca666e600c08baca1ee",
+            "category": "documents",
+            "excerpt": "행계획서는 표지, 과제신청서(사본), 요약서(4쪽 이내), 목차, 본문(50쪽 이내) 및 참고자료(분량제한 없음), 증빙자료 순으로 구성",
+            "locator": "BodyText/Section0 / record 251 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "4ff11fa015fb8d946672",
+            "category": "documents",
+            "excerpt": "ㅇ (본문) 본문은 A4 50쪽 이내로 하며, 참고·증빙자료를 첨부하되, 순서에 따라 별첨",
+            "locator": "BodyText/Section0 / record 281 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "03061d83c9a2b2841b14",
+            "category": "documents",
+            "excerpt": "- 참고자료 및 증빙자료는 핵심사항 위주로 첨부하고, 위치를 본문에 표시",
+            "locator": "BodyText/Section0 / record 289 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "3d0a21c5adec90603ab9",
+            "category": "documents",
+            "excerpt": "※ 사업비 정산 시 기자재 구입 등 개별 집행건별로 증빙서류를 갖추어 세부내역을 입증해야함",
+            "locator": "BodyText/Section0 / record 301 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "47d0dba74d5efbd30766",
+            "category": "amount",
+            "excerpt": "※ 본 사업추진 필요성, 정부 지원 필요성 제시, 해당 지역에서 아태 AI특화지구로 기능·역할 제시(선택 과제별 가 /나/다 순으로 작성)",
+            "locator": "BodyText/Section0 / record 1228 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "c4dd9fa224e815dee212",
+            "category": "eligibility",
+            "excerpt": "ㅇ 기관명, 소재지, 사업자등록번호 등 관련 내용은 사업자등록증 기준으로 작성",
+            "locator": "BodyText/Section0 / record 4965 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "770a28d546bf1104f445",
+            "category": "eligibility",
+            "excerpt": "본사업",
+            "locator": "BodyText/Section0 / record 6478 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "7d5c38362563dd1194ab",
+            "category": "eligibility",
+            "excerpt": "ㅇ 참여기간별 본사업참여율이 상이한 경우, 참여기간별 참여율을 분리하여 기입(예. 24.4.1∼24.6.30. 50%, 24.7.1∼24.12.31 100%)",
+            "locator": "BodyText/Section0 / record 6948 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "62ebf8a4f5f0996fede2",
+            "category": "amount",
+            "excerpt": "정부지원금",
+            "locator": "BodyText/Section0 / record 7062 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "42730df7b2994d8c4922",
+            "category": "cofunding",
+            "excerpt": "현물",
+            "locator": "BodyText/Section0 / record 7134 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "e48fdf589e9c55ece7ae",
+            "category": "amount",
+            "excerpt": "지원금",
+            "locator": "BodyText/Section0 / record 7550 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "09137ffbf468c7883c0d",
+            "category": "cofunding",
+            "excerpt": "민간부담금",
+            "locator": "BodyText/Section0 / record 7560 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "1f24e193cf11cc66e6b3",
+            "category": "eligibility",
+            "excerpt": "ㅇ 본사업을 통해 획득하게 될 사업수행기관(주관, 참여)의 기대효과, 파급효과 등 기술",
+            "locator": "BodyText/Section0 / record 12881 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "구역·레코드 위치는 실제 인쇄 쪽번호가 아닙니다.",
+          "표·그림·각주 의미와 문서의 모든 제외조건은 미검토"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
     },
     "2763821fc59c026035c579c9": {
       "id": "2763821fc59c026035c579c9",
@@ -3888,12 +4096,262 @@
       "notice_source": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16921&tab=2",
       "url": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16921&tab=2",
       "name": "3. [공모안내서] 아태 AI 특화지구(AHAP) 조성.hwp",
-      "status": "queued",
-      "last_attempt_at": null,
-      "last_success_at": null,
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-12T12:35:18+09:00",
+      "last_success_at": "2026-11-12T12:35:18+09:00",
       "last_error": null,
       "review_required": false,
-      "history": []
+      "history": [
+        {
+          "at": "2026-11-12T12:35:18+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "1e7b68dc7789a1fc4793e9b0f6bb83bc00299384ae44d4b4e1c76a7ea01edb78",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "1e7b68dc7789a1fc4793e9b0f6bb83bc00299384ae44d4b4e1c76a7ea01edb78",
+      "sha256": "1e7b68dc7789a1fc4793e9b0f6bb83bc00299384ae44d4b4e1c76a7ea01edb78",
+      "extraction": {
+        "format": "hwp",
+        "parser": "olefile/0.47+hwp-body/0.4.0",
+        "sha256": "1e7b68dc7789a1fc4793e9b0f6bb83bc00299384ae44d4b4e1c76a7ea01edb78",
+        "bytes": 260096,
+        "status": "text_extracted",
+        "text_characters": 13969,
+        "units": 524,
+        "text_sha256": "e96a7737f5b21ceff63134aea02bb3240be6ec6d7c6caead9dc2fa4e42c5a1a8",
+        "pages": null,
+        "sections": 2,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "0bece88c7f975f03d507",
+            "category": "amount",
+            "excerpt": "ㅇ (지원규모) 지역당 평균 국비 23억원 내외*(2개년 기준)",
+            "locator": "BodyText/Section1 / record 629 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "351ccd5ee65e5799c059",
+            "category": "cofunding",
+            "excerpt": "※ 민간기관(업) 참여 시, 민간부담금 필수",
+            "locator": "BodyText/Section1 / record 641 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "93e70950af3e51463b67",
+            "category": "eligibility",
+            "excerpt": "☐ 지원대상",
+            "locator": "BodyText/Section1 / record 648 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "95a0e31dda6deb3b8f69",
+            "category": "eligibility",
+            "excerpt": "ㅇ (신청대상) 대상 지역 내 지역 소프트웨어산업진흥기관* 또는 지역 소프트웨어 산업진흥기관(주관)을 포함한 컨소시엄**",
+            "locator": "BodyText/Section1 / record 662 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "8788a88f3415c29b810e",
+            "category": "eligibility",
+            "excerpt": "** 컨소시엄 대상: 지역 소재 기업(거점지역 내), 국내·외 대학, 연구소 등",
+            "locator": "BodyText/Section1 / record 676 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "573cfda18ff08a2e17d7",
+            "category": "amount",
+            "excerpt": "ㅇ (예산 편성) 연차별 지원 규모 내에서 유형별 복수 과제 구성",
+            "locator": "BodyText/Section1 / record 704 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "41fb47e3ccac968d62c6",
+            "category": "eligibility",
+            "excerpt": "∙산업단지 내 원소재·부품·완제품 기업 간 생산·품질·설비 데이터 연계",
+            "locator": "BodyText/Section1 / record 878 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "b711e91dc5dee55b5fea",
+            "category": "amount",
+            "excerpt": "ㅇ 정부출연금을 받는 주관기관 및 참여기관은 사업비(정부출연금)를 별도의 계좌로 관리",
+            "locator": "BodyText/Section1 / record 1299 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "5fe23fe4320231f8f4e2",
+            "category": "documents",
+            "excerpt": "- 사업비 집행은 사업비카드 사용, 은행 간 계좌이체 등을 통해 투명하게 관리하며, 집행내역은 관련 증빙자료와 함께 관리해야 하여 추후 정산 요구 시 제출",
+            "locator": "BodyText/Section1 / record 1310 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "935fb47976a1dbee220e",
+            "category": "amount",
+            "excerpt": "ㅇ 평가위원회 또는 사업비심의·조정위원회 등의 의견에 따라 최종 사업비(정부출연금 등)는 축소․조정 및 비목별 추가·변경·삭제될 수 있으며, 이 경우 사업비 내역을 수정하여 제출하여야 함",
+            "locator": "BodyText/Section1 / record 1349 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "a81b87e179b72966f2c8",
+            "category": "cofunding",
+            "excerpt": "□ 민간부담금 부담 기준",
+            "locator": "BodyText/Section1 / record 1393 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "800a00e4f2a83f702249",
+            "category": "cofunding",
+            "excerpt": "o 정부지원금 지원기준 및 민간부담금 중 현금부담 기준",
+            "locator": "BodyText/Section1 / record 1404 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "d4803686fe57ec15d788",
+            "category": "amount",
+            "excerpt": "o 정부지원금 지원기준 및 민간부담금 중 현금부담 기준",
+            "locator": "BodyText/Section1 / record 1404 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "6217606a9a9ab43bfaf6",
+            "category": "cofunding",
+            "excerpt": "▸ 민간부담금 중 현금부담 기준",
+            "locator": "BodyText/Section1 / record 1452 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "759e9d22f932cd8bed61",
+            "category": "cofunding",
+            "excerpt": "해당 수행기관 민간부담금의 10% 이상",
+            "locator": "BodyText/Section1 / record 1478 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "22cd208ca3fd22fb0ff8",
+            "category": "exclusion",
+            "excerpt": "□ 사전 지원 제외 (주관사업수행기관 확인 必)",
+            "locator": "BodyText/Section1 / record 1548 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "4fa049b97727a0c7f10f",
+            "category": "eligibility",
+            "excerpt": "※ 기타 관련 규정, 신청 자격 등에 적합하지 않을 경우 평가대상에서 지원제외 대상이 될 수 있음",
+            "locator": "BodyText/Section1 / record 1571 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "84fff07f1a74d1c9e51e",
+            "category": "exclusion",
+            "excerpt": "※ 기타 관련 규정, 신청 자격 등에 적합하지 않을 경우 평가대상에서 지원제외 대상이 될 수 있음",
+            "locator": "BodyText/Section1 / record 1571 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "d9a3cdf7bba7da93d49b",
+            "category": "exclusion",
+            "excerpt": "④ 사전 지원 제외 대상 확인",
+            "locator": "BodyText/Section1 / record 1587 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "b9a9f5de329ad6b105e4",
+            "category": "exclusion",
+            "excerpt": "사전지원제외",
+            "locator": "BodyText/Section1 / record 1603 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "8505d813bcffc03173f0",
+            "category": "exclusion",
+            "excerpt": "2. 세무당국에 의하여 국세, 지방세 등의 체납처분을 받은 경우(단, 회생인가 받은 기업, 중소기업진흥공단 등으로부터 재창업자금을 지원 받은 기업은 예외)",
+            "locator": "BodyText/Section1 / record 1629 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "943e825efbe4c706c88c",
+            "category": "deadline",
+            "excerpt": "∙ 접수마감일 이후 사전지원 제외 기준에 해당하게 된 때에는 해당 과제의 선정을 취소할 수 있으며, 필요한 경우 평가위원회에서 제외 여부를 심의할 수 있다.",
+            "locator": "BodyText/Section1 / record 1698 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "d2d4e44aec70ae1e1fb4",
+            "category": "documents",
+            "excerpt": "ㅇ (개요) 기한 내 접수 완료된 사업계획서 등 제출서류의 적정성, 참여제한 여부 등 지원 자격조건에 대한 적합성 검토",
+            "locator": "BodyText/Section1 / record 2348 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "2cf617c11be9c1b52636",
+            "category": "documents",
+            "excerpt": "ㅇ (검토기준) 사업수행계획서, 첨부․제출 서류 검토 및 참여제한 여부 등 국가과학기술종합정보시스템을 통한 NIPA 내부 검토",
+            "locator": "BodyText/Section1 / record 2362 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "구역·레코드 위치는 실제 인쇄 쪽번호가 아닙니다.",
+          "표·그림·각주 의미와 문서의 모든 제외조건은 미검토"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
     },
     "2efaed96b99ea19e57097086": {
       "id": "2efaed96b99ea19e57097086",
@@ -3901,12 +4359,55 @@
       "notice_source": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16921&tab=2",
       "url": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16921&tab=2",
       "name": "매뉴얼_사업관리(회원가입)_v3.1.pdf",
-      "status": "queued",
-      "last_attempt_at": null,
-      "last_success_at": null,
+      "status": "partial_text",
+      "last_attempt_at": "2026-11-12T12:35:18+09:00",
+      "last_success_at": "2026-11-12T12:35:18+09:00",
       "last_error": null,
       "review_required": false,
-      "history": []
+      "history": [
+        {
+          "at": "2026-11-12T12:35:18+09:00",
+          "status": "partial_text",
+          "observed_sha256": "5223bdbd52fa0b45af000888a94380000fc679965cfc3a02c604a6abc8e31815",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "5223bdbd52fa0b45af000888a94380000fc679965cfc3a02c604a6abc8e31815",
+      "sha256": "5223bdbd52fa0b45af000888a94380000fc679965cfc3a02c604a6abc8e31815",
+      "extraction": {
+        "format": "pdf",
+        "parser": "pypdf/6.15.0",
+        "sha256": "5223bdbd52fa0b45af000888a94380000fc679965cfc3a02c604a6abc8e31815",
+        "bytes": 2124716,
+        "status": "partial_text",
+        "text_characters": 3861,
+        "units": 263,
+        "text_sha256": "ee06c7f4359191c87bce16f695c1b4c7fbe914431f6ee7088f28c685776a8397",
+        "pages": 17,
+        "sections": null,
+        "empty_pages": 1,
+        "candidate_facts": [
+          {
+            "id": "f5c095a1544718492f40",
+            "category": "documents",
+            "excerpt": "내용(증빙서류 등)을 기재하고",
+            "locator": "PDF p.15 / text-line 10",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "표 열 순서·이미지·주석의 의미는 검토하지 않았습니다.",
+          "OCR 미수행"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
     },
     "74fc03cc9cd9a33e08eae12b": {
       "id": "74fc03cc9cd9a33e08eae12b",
@@ -3914,12 +4415,154 @@
       "notice_source": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16921&tab=2",
       "url": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16921&tab=2",
       "name": "2. [공고문] 2026년 아태 AI 특화지구(AHAP) 조성 사업.hwp",
-      "status": "queued",
-      "last_attempt_at": null,
-      "last_success_at": null,
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-12T12:35:18+09:00",
+      "last_success_at": "2026-11-12T12:35:18+09:00",
       "last_error": null,
       "review_required": false,
-      "history": []
+      "history": [
+        {
+          "at": "2026-11-12T12:35:18+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "78b095ddc20f9a220aef16cc2e29084f080ab8267d6b8fafff638cd7e835f945",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "78b095ddc20f9a220aef16cc2e29084f080ab8267d6b8fafff638cd7e835f945",
+      "sha256": "78b095ddc20f9a220aef16cc2e29084f080ab8267d6b8fafff638cd7e835f945",
+      "extraction": {
+        "format": "hwp",
+        "parser": "olefile/0.47+hwp-body/0.4.0",
+        "sha256": "78b095ddc20f9a220aef16cc2e29084f080ab8267d6b8fafff638cd7e835f945",
+        "bytes": 151552,
+        "status": "text_extracted",
+        "text_characters": 2777,
+        "units": 94,
+        "text_sha256": "ef38918f106b3710bba7dc7f117bd5e5ee436e3479dafa9acc1bd38883f486b0",
+        "pages": null,
+        "sections": 1,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "05eec273985be663faec",
+            "category": "amount",
+            "excerpt": "※ ‘26년 선정 후 2년간 지원. 단, 평가를 통해 지속 지원 여부 및 지원규모를 결정하며, 정부 예산사정상 기간·예산규모가 변동될 수 있음",
+            "locator": "BodyText/Section0 / record 107 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "900a132bb6a955e62289",
+            "category": "amount",
+            "excerpt": "ㅇ (지원규모) 지역당 평균 국비 23억원 내외*(2개년 기준)",
+            "locator": "BodyText/Section0 / record 114 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "15b098227cd3e9fd01e6",
+            "category": "eligibility",
+            "excerpt": "☐ 지원 대상",
+            "locator": "BodyText/Section0 / record 129 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "f6962ab4d264778a6818",
+            "category": "eligibility",
+            "excerpt": "ㅇ 신청대상 : 대상 지역 내 지역 소프트웨어산업진흥기관* 또는 지역 소프트웨어 산업진흥기관(주관)을 포함한 컨소시엄**",
+            "locator": "BodyText/Section0 / record 143 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "77e937aa2c1e7d510e39",
+            "category": "eligibility",
+            "excerpt": "** 컨소시엄 대상: 지역 소재 기업(거점지역 내), 국내·외 대학, 연구소 등",
+            "locator": "BodyText/Section0 / record 157 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "33e03ca6f45b4148b167",
+            "category": "amount",
+            "excerpt": "ㅇ 거점당 예산 지원 범위(2개년 기준) : 최소 18억원 ~ 최대 30억원",
+            "locator": "BodyText/Section0 / record 297 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "209bb1a0a0a70d2801d6",
+            "category": "deadline",
+            "excerpt": "접수 기간 및 방법",
+            "locator": "BodyText/Section0 / record 352 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "73c9cc1b049a0bb4ee17",
+            "category": "deadline",
+            "excerpt": "ㅇ (접수기간) 2026년 9월 7일(월) ∼ 9월 23일(수) 15시까지",
+            "locator": "BodyText/Section0 / record 360 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "e82c725d138d894c478d",
+            "category": "documents",
+            "excerpt": "ㅇ (제출서류) 사업계획서 등 필수 제출서류 일체",
+            "locator": "BodyText/Section0 / record 385 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "c3d8c23c7f71814cee8c",
+            "category": "documents",
+            "excerpt": "※ 상세 내용 및 제출서류는 공모안내서 확인",
+            "locator": "BodyText/Section0 / record 392 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "a25701ccd52c83d6db4f",
+            "category": "exclusion",
+            "excerpt": "☐ 사전 지원 제외",
+            "locator": "BodyText/Section0 / record 454 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "87fc948ed4e82226cb8d",
+            "category": "eligibility",
+            "excerpt": "ㅇ 기타 관련 규정, 중복성, 신청 자격 등에 적합하지 않을 경우, 평가대상에서 제외 가능",
+            "locator": "BodyText/Section0 / record 498 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "구역·레코드 위치는 실제 인쇄 쪽번호가 아닙니다.",
+          "표·그림·각주 의미와 문서의 모든 제외조건은 미검토"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
     },
     "c9475cf1e8d1060b7a1befa0": {
       "id": "c9475cf1e8d1060b7a1befa0",
@@ -8829,14 +9472,14 @@
     }
   },
   "run": {
-    "at": "2026-11-11T11:30:46+09:00",
-    "status": "ok_scoped",
+    "at": "2026-11-12T12:35:18+09:00",
+    "status": "partial",
     "notices_attempted": 3,
     "notices_success": 3,
     "notices_failed": 0,
     "files_attempted": 4,
-    "text_extracted": 4,
-    "partial_or_no_text": 0,
+    "text_extracted": 3,
+    "partial_or_no_text": 1,
     "blocked": 0,
     "failed": 0,
     "changed": 0,

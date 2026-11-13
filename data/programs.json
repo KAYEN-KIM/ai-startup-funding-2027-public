@@ -1,6 +1,6 @@
 {
   "schema": "public-funding-radar/v1",
-  "generated_at": "2026-11-12T12:34:03+09:00",
+  "generated_at": "2026-11-13T12:06:45+09:00",
   "provenance": "공식기관 공개 공고 및 2026년 참고 제도. 2027년 미확정 사항은 자동 승격하지 않음.",
   "disclaimer": "본 자료는 신청·선정을 보장하지 않으며 최신 원문 확인 필요.",
   "items": [
@@ -5554,6 +5554,41 @@
         {
           "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000779465&fileSn=1",
           "name": "KCL_디지털의료기기_사이버보안_지원기업_모집공고_2026+.pdf",
+          "status": "link_only_not_read"
+        }
+      ]
+    },
+    {
+      "id": "BIZINFO-PBLN_000000000127876",
+      "title": "[강원] 2026년 4차 지역 주도형 AI 대전환 사업 강원 지역주도 AI 대전환 수요기업 모집 공고",
+      "year": 2026,
+      "years": [
+        2026
+      ],
+      "year_basis": "title",
+      "kind": "기술",
+      "mode": "discovery",
+      "relevance": "ai",
+      "opens": "2026-11-11",
+      "deadline": "2026-11-20",
+      "deadline_precision": "date",
+      "application_period_raw": "2026-11-11 ~ 2026-11-20",
+      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127876",
+      "verified_at": "2026-11-13",
+      "amount": "지원금액 · 공고 원문 확인 필요",
+      "eligibility": "중소기업",
+      "note": "공식 API 목록 발견. 신청자격·지원금·첨부 조건은 검증 전입니다.",
+      "source_level": "official_api_index_not_full_application_verified",
+      "agency": "중소벤처기업부",
+      "attachments": [
+        {
+          "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000779650&fileSn=1",
+          "name": "수요 제출양식(1~7).zip",
+          "status": "link_only_not_read"
+        },
+        {
+          "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000779649&fileSn=1",
+          "name": "[공고문] 강원 지역주도 AI 대전환 수요기업 모집 공고(4차).pdf",
           "status": "link_only_not_read"
         }
       ]

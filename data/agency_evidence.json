@@ -1,7 +1,7 @@
 {
   "schema": "public-funding-agency-evidence/v1",
   "version": "0.17.0",
-  "generated_at": "2026-11-12T12:35:18+09:00",
+  "generated_at": "2026-11-13T12:07:50+09:00",
   "model_calls": 0,
   "automatic_approval": false,
   "scope": "기관 직접 목록의 원문 최대 3건·첨부 최대 4건 순환 확인. 본문 추출은 조건 후보이며 신청자격·금액·중복지원·문서 완전성 검증이 아닙니다. 기존 공고와 검토 규칙은 수정하지 않습니다.",
@@ -119,9 +119,9 @@
       "source": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1071646",
       "title": "「2026년 스마트제조혁신 유공」 포상 후보자 모집 추가 공고",
       "listing_fingerprint": "66427605d60ba5142e2035b08198c603858def3a8d80b5436337c66b12d9dd0b",
-      "listing_seen_at": "2026-11-09T11:21:45+09:00",
-      "last_attempt_at": "2026-11-09T11:21:53+09:00",
-      "last_success_at": "2026-11-09T11:21:53+09:00",
+      "listing_seen_at": "2026-11-13T12:07:44+09:00",
+      "last_attempt_at": "2026-11-13T12:07:50+09:00",
+      "last_success_at": "2026-11-13T12:07:50+09:00",
       "status": "html_available",
       "last_error": null,
       "review_required": false,
@@ -142,6 +142,13 @@
         }
       ],
       "history": [
+        {
+          "at": "2026-11-13T12:07:50+09:00",
+          "status": "html_available",
+          "body_sha256": "9c6792dc87875cca4c169f2b3240b29755330c003f7ff9bfe030aa5dd21f2821",
+          "manifest_sha256": "e18299fdfba89c2dafa495d6bc78962acf08c4ee2961d80f5fbe3e7bb6455ec0",
+          "error": null
+        },
         {
           "at": "2026-11-09T11:21:53+09:00",
           "status": "html_available",
@@ -479,9 +486,9 @@
       "source": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1071948",
       "title": "창업도시 조성 프로젝트 창업도시 모집 공고",
       "listing_fingerprint": "a4e466407ce7c88123e8acf8ccb5f4fe6ca6bb9d0929aba5f12b435f0d95a159",
-      "listing_seen_at": "2026-11-08T11:01:33+09:00",
-      "last_attempt_at": "2026-11-08T11:01:39+09:00",
-      "last_success_at": "2026-11-08T11:01:39+09:00",
+      "listing_seen_at": "2026-11-13T12:07:44+09:00",
+      "last_attempt_at": "2026-11-13T12:07:50+09:00",
+      "last_success_at": "2026-11-13T12:07:50+09:00",
       "status": "html_available",
       "last_error": null,
       "review_required": false,
@@ -526,6 +533,13 @@
         }
       ],
       "history": [
+        {
+          "at": "2026-11-13T12:07:50+09:00",
+          "status": "html_available",
+          "body_sha256": "05a18a9a3d038d2de12e4d50003ca76f834b692dc4dd7f70067a284fa218a95f",
+          "manifest_sha256": "d55e550d46b58c60280aab0d768978fea69488bb6b0229334311bd9a999aa121",
+          "error": null
+        },
         {
           "at": "2026-11-08T11:01:39+09:00",
           "status": "html_available",
@@ -609,9 +623,9 @@
       "source": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16897&tab=2",
       "title": "2026년「디지털콘텐츠 융합기업 글로벌 마켓 참가사업」지원기업 모집 공고",
       "listing_fingerprint": "812af1a964b773690bba272e33a366357fa8f989e70c8ecdbde4ef7c92601267",
-      "listing_seen_at": "2026-11-01T10:49:45+09:00",
-      "last_attempt_at": "2026-11-01T10:49:52+09:00",
-      "last_success_at": "2026-11-01T10:49:52+09:00",
+      "listing_seen_at": "2026-11-13T12:07:44+09:00",
+      "last_attempt_at": "2026-11-13T12:07:50+09:00",
+      "last_success_at": "2026-11-13T12:07:50+09:00",
       "status": "html_available",
       "last_error": null,
       "review_required": false,
@@ -638,6 +652,13 @@
         }
       ],
       "history": [
+        {
+          "at": "2026-11-13T12:07:50+09:00",
+          "status": "html_available",
+          "body_sha256": "c9f5acab6382923aec39591ad55128a8c3f0d8b749b92ebc6e2d5e5cbaa625a3",
+          "manifest_sha256": "166087f770e5fcffa07d89dd7a5dc7c551eece11597696994f1a022e4968cff0",
+          "error": null
+        },
         {
           "at": "2026-11-01T10:49:52+09:00",
           "status": "html_available",
@@ -4584,11 +4605,18 @@
       "url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1071948&cbIdx=310&streFileNm=dc212520-5fa4-4315-971c-3622fbacd8ec.hwpx",
       "name": "dc212520-5fa4-4315-971c-3622fbacd8ec.hwpx",
       "status": "text_extracted",
-      "last_attempt_at": "2026-10-31T10:59:31+09:00",
-      "last_success_at": "2026-10-31T10:59:31+09:00",
+      "last_attempt_at": "2026-11-13T12:07:50+09:00",
+      "last_success_at": "2026-11-13T12:07:50+09:00",
       "last_error": null,
       "review_required": false,
       "history": [
+        {
+          "at": "2026-11-13T12:07:50+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "13eaecd0c03ee6cd6ddb50e88b4efd056014f33298af0fa45c2f46fbf7c42798",
+          "http_status": null,
+          "failure_kind": null
+        },
         {
           "at": "2026-10-31T10:59:31+09:00",
           "status": "text_extracted",
@@ -4649,11 +4677,18 @@
       "url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1071948&cbIdx=310&streFileNm=0a2ca2e5-317e-4f7d-a335-d47cb576711c.pdf",
       "name": "0a2ca2e5-317e-4f7d-a335-d47cb576711c.pdf",
       "status": "text_extracted",
-      "last_attempt_at": "2026-10-31T10:59:31+09:00",
-      "last_success_at": "2026-10-31T10:59:31+09:00",
+      "last_attempt_at": "2026-11-13T12:07:50+09:00",
+      "last_success_at": "2026-11-13T12:07:50+09:00",
       "last_error": null,
       "review_required": false,
       "history": [
+        {
+          "at": "2026-11-13T12:07:50+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "fb7e5fe3ba09371c0e1601bed2ce038b023a4c0334ce31b771a7032c7d548357",
+          "http_status": null,
+          "failure_kind": null
+        },
         {
           "at": "2026-10-31T10:59:31+09:00",
           "status": "text_extracted",
@@ -4876,11 +4911,18 @@
       "url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1071948&cbIdx=310&streFileNm=0f5e47e4-42c4-499e-824e-8422a9a66858.hwpx",
       "name": "0f5e47e4-42c4-499e-824e-8422a9a66858.hwpx",
       "status": "size_limit",
-      "last_attempt_at": "2026-10-31T10:59:31+09:00",
+      "last_attempt_at": "2026-11-13T12:07:50+09:00",
       "last_success_at": null,
       "last_error": "size_limit",
       "review_required": false,
       "history": [
+        {
+          "at": "2026-11-13T12:07:50+09:00",
+          "status": "size_limit",
+          "observed_sha256": "4544ee0e2a7a2e4073f62833e011abf8e39d534539295c9cc91e7506af549f66",
+          "http_status": null,
+          "failure_kind": "document_or_policy"
+        },
         {
           "at": "2026-10-31T10:59:31+09:00",
           "status": "size_limit",
@@ -6296,12 +6338,91 @@
       "notice_source": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16897&tab=2",
       "url": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16897&tab=2",
       "name": "1_(공고문)_2026년_디지털콘텐츠_융합기업_글로벌_마켓_참가(XR_Fair_Tokyo_Autumn)_지원기업_모집.pdf",
-      "status": "queued",
-      "last_attempt_at": null,
-      "last_success_at": null,
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-13T12:07:50+09:00",
+      "last_success_at": "2026-11-13T12:07:50+09:00",
       "last_error": null,
       "review_required": false,
-      "history": []
+      "history": [
+        {
+          "at": "2026-11-13T12:07:50+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "ae40db8f7f2208c0e241bcb703e776333d89ab150608f681439e38bdfb075050",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "ae40db8f7f2208c0e241bcb703e776333d89ab150608f681439e38bdfb075050",
+      "sha256": "ae40db8f7f2208c0e241bcb703e776333d89ab150608f681439e38bdfb075050",
+      "extraction": {
+        "format": "pdf",
+        "parser": "pypdf/6.15.0",
+        "sha256": "ae40db8f7f2208c0e241bcb703e776333d89ab150608f681439e38bdfb075050",
+        "bytes": 226199,
+        "status": "text_extracted",
+        "text_characters": 2132,
+        "units": 10,
+        "text_sha256": "b15553e679100ad21198bce520aed71f4ce509fd4e7ad1d2ab0766272a13aa15",
+        "pages": 3,
+        "sections": null,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "b1c3e7920b852e26b451",
+            "category": "eligibility",
+            "excerpt": "king, Play Ground기업 제품․서비스 홍보 ※ 상기 지원 내용은 추진 상황에 따라 일부 변경될 수 있음2.신청자격 및 신청방법■신청자격ㅇ 해외 마켓에 판매‧",
+            "locator": "PDF p.2 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "30e8ac6fec3934fe1fde",
+            "category": "eligibility",
+            "excerpt": "출 완료 ※ 전자우편이나 우편, 방문 접수 등 우리원 사업관리시스템 외 접수 불가3.선정절차 및 추진일정■선정절차ㅇ 신청자격 등 적합성 검토 및 선정평가(평가위원회)를 통해 지원기업 선정",
+            "locator": "PDF p.2 / text-line 4",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "a77bb3f13bc30f20f8f7",
+            "category": "deadline",
+            "excerpt": " 가능하고,수출 이력 보유 또는 수출 예정인 디지털콘텐츠 융합 제품․서비스 보유국내 중소기업(법인)(컨소시엄 불가)■신청기간:2026년 8월 10일(월)~9월 8일(화),14:00까지 ※ 마감시한 이후에는 접수가 불가하며, 접수마감 1∼2일 전에 접수완료 요망■신청방법 :우리원 사업관리시스템(NXT)을 통한 전산접수 ※ 정보통신산업진흥원 홈페이지(www.nipa.kr) → 사업관리시스템(https://nxt.",
+            "locator": "PDF p.2 / text-line 4",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "1d3f2a52c6c58e241142",
+            "category": "eligibility",
+            "excerpt": "적합성 검토⇨선정평가(평가위원회) ⇨협약체결(수행기관↔지원기업)제출서류 및 신청자격 검토를 통한 평가대상 확정정책부합성, 사업경쟁력, 등을 평가하여 우선 지원 대상 기업 선정 사업추진을 위한 협약체결 ※ 세부내용은 공고안내문 ‘평가절차 및 기준’ 등 참조■주요 추진일정",
+            "locator": "PDF p.3 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "f9f58a54c62545d10416",
+            "category": "documents",
+            "excerpt": "적합성 검토⇨선정평가(평가위원회) ⇨협약체결(수행기관↔지원기업)제출서류 및 신청자격 검토를 통한 평가대상 확정정책부합성, 사업경쟁력, 등을 평가하여 우선 지원 대상 기업 선정 사업추진을 위한 협약체결 ※ 세부내용은 공고안내문 ‘평가절차 및 기준’ 등 참조■주요 추진일정",
+            "locator": "PDF p.3 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "표 열 순서·이미지·주석의 의미는 검토하지 않았습니다.",
+          "OCR 미수행"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
     },
     "01dd37798fc09cfd80a80547": {
       "id": "01dd37798fc09cfd80a80547",
@@ -9472,15 +9593,15 @@
     }
   },
   "run": {
-    "at": "2026-11-12T12:35:18+09:00",
+    "at": "2026-11-13T12:07:50+09:00",
     "status": "partial",
     "notices_attempted": 3,
     "notices_success": 3,
     "notices_failed": 0,
     "files_attempted": 4,
     "text_extracted": 3,
-    "partial_or_no_text": 1,
-    "blocked": 0,
+    "partial_or_no_text": 0,
+    "blocked": 1,
     "failed": 0,
     "changed": 0,
     "sources_skipped": [],

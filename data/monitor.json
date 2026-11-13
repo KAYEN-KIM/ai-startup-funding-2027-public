@@ -1,12 +1,19 @@
 {
   "schema": "public-funding-monitor/v1",
   "status": "ok_changed",
-  "last_attempt_at": "2026-11-12T12:34:03+09:00",
-  "last_success_at": "2026-11-12T12:34:03+09:00",
-  "changed_count": 4,
-  "checked_count": 1357,
-  "message": "기업마당 1357건 / 7페이지 · 추가 4 · 수정 0 · 변경 검토 0 · 수집범위 API 제공범위 완료 · 원문 HTML 6성공/0실패 (첨부·적격성 미검증)",
+  "last_attempt_at": "2026-11-13T12:06:45+09:00",
+  "last_success_at": "2026-11-13T12:06:45+09:00",
+  "changed_count": 1,
+  "checked_count": 1366,
+  "message": "기업마당 1366건 / 7페이지 · 추가 1 · 수정 0 · 변경 검토 0 · 수집범위 API 제공범위 완료 · 원문 HTML 6성공/0실패 (첨부·적격성 미검증)",
   "events": [
+    {
+      "at": "2026-11-13T12:06:45+09:00",
+      "status": "ok_changed",
+      "changed": 1,
+      "message": "기업마당 1366건 / 7페이지 · 추가 1 · 수정 0 · 변경 검토 0 · 수집범위 API 제공범위 완료 · 원문 HTML 6성공/0실패 (첨부·적격성 미검증)",
+      "source": "bizinfo_api_and_html"
+    },
     {
       "at": "2026-11-12T12:34:03+09:00",
       "status": "ok_changed",
@@ -290,30 +297,30 @@
     },
     "html_evidence": {
       "status": "ok",
-      "last_attempt_at": "2026-11-12T12:34:03+09:00",
+      "last_attempt_at": "2026-11-13T12:06:45+09:00",
       "attempted": 6,
       "success": 6,
       "failed": 0,
-      "content_changed": 2,
-      "eligible_records": 172,
+      "content_changed": 5,
+      "eligible_records": 173,
       "scope": "최대 6개 원문 HTML 순환 열람; 첨부 본문·자격 자동 검증 아님"
     },
     "bizinfo_api": {
-      "last_attempt_at": "2026-11-12T12:34:03+09:00",
+      "last_attempt_at": "2026-11-13T12:06:45+09:00",
       "pages": 7,
-      "checked_count": 1357,
-      "reported_total": 1357,
+      "checked_count": 1366,
+      "reported_total": 1366,
       "coverage_complete": true,
       "errors": [],
-      "candidate_count": 117,
+      "candidate_count": 114,
       "scope": "기업마당 API 제공 범위; 정부 전체 공고를 뜻하지 않음",
-      "added": 4,
+      "added": 1,
       "modified": 0,
       "suggested": 0,
       "status": "ok_changed",
-      "changed_count": 4,
-      "last_partial_success_at": "2026-11-12T12:34:03+09:00",
-      "last_success_at": "2026-11-12T12:34:03+09:00"
+      "changed_count": 1,
+      "last_partial_success_at": "2026-11-13T12:06:45+09:00",
+      "last_success_at": "2026-11-13T12:06:45+09:00"
     },
     "manual_official_20261030": {
       "status": "ok_changed",

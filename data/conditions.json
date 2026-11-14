@@ -1,8 +1,8 @@
 {
   "schema": "public-funding-conditions/v1",
   "version": "0.3.0",
-  "generated_at": "2026-11-13T12:06:45+09:00",
-  "input_fingerprint": "c9a31091ad4d83fc162f1448d15bec2d3de6594aa76733e8ec64ed7d8fdf1669",
+  "generated_at": "2026-11-14T11:53:34+09:00",
+  "input_fingerprint": "28fbdef4e5b0395eb2275b029a6b0b64db5cb22e9fbab2fcb6dcdba9fdf275ab",
   "disclaimer": "요약에서 확인한 조건만 판정합니다. 자동 추출은 미검증 후보이며 기관의 최종 심사를 대체하지 않습니다.",
   "records": {
     "IBK-2027-1": {
@@ -5581,6 +5581,60 @@
         "amount": "지원금액 · 공고 원문 확인 필요",
         "opens": "2026-11-11",
         "deadline": "2026-11-20"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000127909": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000127909",
+      "basis_fingerprint": "60a55b8c4032273118512c411436359bd88c27e50994375a3aaddc3dd7639156",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000127909",
+        "title": "[전남광주] 2026년 아태 AI 특화지구조성 올인원 AI 사업화지원(투자지원 및 해외수요처발굴지원 프로그램) 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127909",
+        "year": 2026,
+        "eligibility": "중소기업",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": "2026-11-16",
+        "deadline": "2026-11-18"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000127906": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000127906",
+      "basis_fingerprint": "4e84883419a6845067c553f80d2274824d1e7793e81a29c32a94ec1103f821ea",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000127906",
+        "title": "2027년 농촌창업 경진대회 참여자 모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127906",
+        "year": 2027,
+        "eligibility": "창업벤처",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": "2026-11-13",
+        "deadline": "2026-12-10"
       },
       "coverage": "unreviewed",
       "metadata_state": "current",

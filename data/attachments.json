@@ -1,19 +1,19 @@
 {
   "schema": "public-funding-attachments/v1",
   "version": "0.4.0",
-  "generated_at": "2026-11-13T12:08:19+09:00",
+  "generated_at": "2026-11-14T11:54:56+09:00",
   "run": {
-    "at": "2026-11-13T12:08:19+09:00",
+    "at": "2026-11-14T11:54:56+09:00",
     "notice_success": 3,
     "notice_failed": 0,
     "attempted": 4,
-    "text_extracted": 4,
-    "partial_or_no_text": 0,
+    "text_extracted": 3,
+    "partial_or_no_text": 1,
     "blocked_or_unsupported": 0,
     "failed": 0,
     "changed": 0,
     "manifest_changed": 0,
-    "queued_total": 204,
+    "queued_total": 212,
     "new_attempted": 4,
     "retry_attempted": 0,
     "revisit_attempted": 0,
@@ -16282,6 +16282,442 @@
       "last_error": null,
       "review_required": false,
       "history": []
+    },
+    "4d8e5fcdcb0edd3c7df42e0f": {
+      "id": "4d8e5fcdcb0edd3c7df42e0f",
+      "program_id": "BIZINFO-PBLN_000000000126988",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126988",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000775623&fileSn=1",
+      "name": "다운로드",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
+    },
+    "3fc712e530f688ef5703a7df": {
+      "id": "3fc712e530f688ef5703a7df",
+      "program_id": "BIZINFO-PBLN_000000000126988",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126988",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000775624&fileSn=1",
+      "name": "다운로드",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-14T11:54:56+09:00",
+      "last_success_at": "2026-11-14T11:54:56+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-11-14T11:54:56+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "4a70323807042cac10bd64cdf3599f6481b02d3e9e0ca65551b0f8981c1f9309",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "4a70323807042cac10bd64cdf3599f6481b02d3e9e0ca65551b0f8981c1f9309",
+      "sha256": "4a70323807042cac10bd64cdf3599f6481b02d3e9e0ca65551b0f8981c1f9309",
+      "extraction": {
+        "format": "hwp",
+        "parser": "olefile/0.47+hwp-body/0.4.0",
+        "sha256": "4a70323807042cac10bd64cdf3599f6481b02d3e9e0ca65551b0f8981c1f9309",
+        "bytes": 371200,
+        "status": "text_extracted",
+        "text_characters": 1842,
+        "units": 162,
+        "text_sha256": "d507347d7db64bdf0536430cce4eaef243842c79b085e5ab176bdc0c7a5e65bb",
+        "pages": null,
+        "sections": 1,
+        "empty_pages": 0,
+        "candidate_facts": [],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "구역·레코드 위치는 실제 인쇄 쪽번호가 아닙니다.",
+          "표·그림·각주 의미와 문서의 모든 제외조건은 미검토"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
+    },
+    "34e426d42bb4024d1193754a": {
+      "id": "34e426d42bb4024d1193754a",
+      "program_id": "BIZINFO-PBLN_000000000127003",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127003",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000775665&fileSn=0",
+      "name": "다운로드",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-14T11:54:56+09:00",
+      "last_success_at": "2026-11-14T11:54:56+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-11-14T11:54:56+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "047720904d04f605fdab610f4ef01a41dc51c4164cf76bd5bc721060328b5047",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "047720904d04f605fdab610f4ef01a41dc51c4164cf76bd5bc721060328b5047",
+      "sha256": "047720904d04f605fdab610f4ef01a41dc51c4164cf76bd5bc721060328b5047",
+      "extraction": {
+        "format": "pdf",
+        "parser": "pypdf/6.15.0",
+        "sha256": "047720904d04f605fdab610f4ef01a41dc51c4164cf76bd5bc721060328b5047",
+        "bytes": 853124,
+        "status": "text_extracted",
+        "text_characters": 7429,
+        "units": 35,
+        "text_sha256": "d06fcc9e2266752bdeae64505745d7213c3219d900561501ad1eb0450e21afe8",
+        "pages": 11,
+        "sections": null,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "9ad471fc08998365800c",
+            "category": "eligibility",
+            "excerpt": "년 ~ 2028년(2개년) m 사 업 량 : 97팀 내외 *3인 이내 팀 구성 m 사업대상 : 창업예정자 및 사업장 소재지 변경이 가능한 7년 이내 기 창업자 m 지원내용 : 지역자원조사 활동비(180만원), 사업화자금(최대 7,000만원) 지원 등구분지원내용창업교육(아카데미)￮ 창업교육기본역량강화를위한창업기초·심화교육제공￮ 집합교육·온라인병행,자원조사팀/사업화팀대상단계별맞춤커리큘럼운영￮ 지역온･",
+            "locator": "PDF p.2 / text-line 4",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "40757dd6b8e3d2df22c0",
+            "category": "amount",
+            "excerpt": " 및 사업장 소재지 변경이 가능한 7년 이내 기 창업자 m 지원내용 : 지역자원조사 활동비(180만원), 사업화자금(최대 7,000만원) 지원 등구분지원내용창업교육(아카데미)￮ 창업교육기본역량강화를위한창업기초·심화교육제공￮ 집합교육·온라인병행,자원조사팀/사업화팀대상단계별맞춤커리큘럼운영￮ 지역온･",
+            "locator": "PDF p.2 / text-line 4",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "1aacb7bdad4e9dfa32e8",
+            "category": "eligibility",
+            "excerpt": "멘토운영을통해비즈니스모델구체화,사업계획서작성등멘토링및전담컨설팅을통한책임운영네트워킹및판로연계￮ 지역박람회·컨퍼런스참가,창업기업및소그룹교류등￮ IRDeck자 료,실전투자유치연계대상자발굴,VC/AC대상투자유치IR등￮ 지 역로 컬 마 켓·편 집 숍입 점연 계,국 내 외 시 장판 로 개 척,해 외박 람 회참 가연 계등지역자원조사및사업화자금￮ 지역자원조사활동비지원(팀당최대180만원)￮ 단계별창업사업화자금지원(최소10백만",
+            "locator": "PDF p.2 / text-line 5",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "6c4a84727d626c117173",
+            "category": "amount",
+            "excerpt": "점연 계,국 내 외 시 장판 로 개 척,해 외박 람 회참 가연 계등지역자원조사및사업화자금￮ 지역자원조사활동비지원(팀당최대180만원)￮ 단계별창업사업화자금지원(최소10백만원~최대70백만원)※단 계 별창 업사 업 화자 금지 원 은사 업일 정 에따 라향 후추 진예 정이 며,사 업 화및고 도 화지 원 금 액 은변 경될수있 음",
+            "locator": "PDF p.2 / text-line 5",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "4e53043fd7c70ca943c1",
+            "category": "eligibility",
+            "excerpt": "30.(수) ~ 2026. 10. 30.(금) 17:00까지 m 선발인원 : 97팀 내외 * 3인 이내 팀 구성 m 신청자격 : 접수일 기준 청년(19세 ~ 45세 이하)으로 아래 조건에 하나라도 부합하는 자<지원가능지역[A]> <창업지역(인구감소지역)[B]>-타시·도(전남광주통합특별시외지역)-전남광주통합특별시5구,5개시,4군**전남광주통합특별시(5구),목포시,여수시,순천시,광양시,나주시,진도군,보성군,무안군",
+            "locator": "PDF p.3 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "bc60926590e1d1b74f2e",
+            "category": "eligibility",
+            "excerpt": "m 유의사항-사업화지원대상으로선정후신청자및대표(팀)는창업지역[B]으로창업및본사이전필수,주민등록이전필수-대표포함모든팀원은세부프로그램전원참석을원칙으로함-팀원의50%이상은신청가능지역[A]거주청년으로구성되어야함(예비창업자는제외)-기창업자경우,사업장소재지는신청가능지역[A]이어야하며,팀대표역시전남광주통합특별시신청가능지역[A]거주자로서,팀원의50%이상이타지역거주청년의기준에부합해야함 m 신청제외대상 - 전남광주통합특별시 및",
+            "locator": "PDF p.4 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "898ba59e29270f557a01",
+            "category": "exclusion",
+            "excerpt": "A]이어야하며,팀대표역시전남광주통합특별시신청가능지역[A]거주자로서,팀원의50%이상이타지역거주청년의기준에부합해야함 m 신청제외대상 - 전남광주통합특별시 및 정부지원사업 참여 제한 등 제재조치를 받고 있는 개인(팀) - 전남광주통합특별시 및 정부지원사업에서 동일한 아이템(상품 및 서비스)으로 사업 지원을 받고 있는 경우<예시>중소벤처기업부및전라남도관내창업지원사업수혜자,지역기반로컬크리에이터활성화지원사업,서울시넥스트",
+            "locator": "PDF p.4 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "c86498a0ec8a12adbd00",
+            "category": "amount",
+            "excerpt": "시신청가능지역[A]거주자로서,팀원의50%이상이타지역거주청년의기준에부합해야함 m 신청제외대상 - 전남광주통합특별시 및 정부지원사업 참여 제한 등 제재조치를 받고 있는 개인(팀) - 전남광주통합특별시 및 정부지원사업에서 동일한 아이템(상품 및 서비스)으로 사업 지원을 받고 있는 경우<예시>중소벤처기업부및전라남도관내창업지원사업수혜자,지역기반로컬크리에이터활성화지원사업,서울시넥스트로컬지원사업등 - 국세 또는 지방세 체",
+            "locator": "PDF p.4 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "c9188650f898f61ddcbd",
+            "category": "eligibility",
+            "excerpt": " ‘제3기「지역자원 연계 청년창업 지원사업」’ 단계별 추진일정 〉모집·홍보→서류평가→1단계지역자원조사→지역자원멘토링→창업교육(1차년)사업홍보및참여자모집지역활동조사단선정(총97팀내외) 지역자원활동조사단운영지역 전문가활용개 별멘 토링지역조사및역량강화교육’26.9.~ ’26.10.~11.’26.10.~’27.1.’26.11.~’27.1.’26.11.~’27.5. ↓ 결과보고및정산(1차년)←사업화성과교류회및네트워킹←",
+            "locator": "PDF p.5 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "d6538759259b8e17b04f",
+            "category": "amount",
+            "excerpt": "랙사업화선정평가및협약,수행←사업화선정평가및협약,수행사 업비정산성과공유의장마련미니오디션재도전트랙사업화지원및선정평가,협약최대2천만원지원을위한선정평가,협약’27.6. ’27.5. ’27.4.~5. ’27.5.~9. ’27.2.~9. ↓ 교부신청(2차년) →창업및사업화교육→창업및사업화멘토링→3단계고도화선정평가및협약,수행→IR경험제공및실전투자연계특별시,군교부신청사업화교육창 업전문가활 용개별멘토링협약체결및고도화지원IRD",
+            "locator": "PDF p.5 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "fa4b681d61d387fd3ab5",
+            "category": "amount",
+            "excerpt": "s.gle/XT3SEyMWxMkp7nNo8포스터QR접수❍[1단계]지역자원조사 활동 지원(’26.10.~’27.1.)▪지원규모:공모선발97팀내외▪지원금액:팀당최대180만원▪지원내용:지역자원조사(창업아이템발굴)를위한활동비(여비,전문가활용비등)▪결과물:지역창업아이디어및지역탐색보고서97건 ※희망창업분야(4개):제조·가공형(푸드&바이오),공간·체험형,콘텐츠·IP형(지식재산),DX·AX전환형(디지털·AI전환)",
+            "locator": "PDF p.6 / text-line 5",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "5223e105fb332e50f466",
+            "category": "documents",
+            "excerpt": "실시지급기준3)전문가활용비현장전문가활용자문의견서작성지급기준4) - 지원방식 : 지역자원 활동 보고서 및 사업비 집행 증빙자료 필수제출 지역자원 조사 활동비는 사후 사업비 증빙자료 정산 후 100% 지급 ※ 활동보고서 미 제출시 활동비 미지급 될 수 있으며, 활동비 불인정인 경우 미지급 될 수 있음 1) 현장방문 지급비 산정 기준 적용 - 지역자원조사 활동 현장방문 지급비 산정 내역지원분야세부내용증빙서류식비/일",
+            "locator": "PDF p.7 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "19e6d329f035aa4ba660",
+            "category": "exclusion",
+            "excerpt": "- 참여자 선정은 참여자 적격 여부 판정(서류검토 포함) 후 서 면 평가를 통해 선정 - 참여자 적격 여부 판정 시 결격사유(주요 서류 미제출, 중복 수급 등) 있는 사업계획은 평가대상에서 제외 ※적격여부는서면검토/결격사유는선정완료후확인시에도적용함❍ 지역활동 조사단 선정평가 - 외부전문가 3~5인 이내의 선정평가위원회를 구성 후 적격 심사 통과 참여자 대상 서면 평가를 통해 최종 지원 참여자 선정※서면평가를추",
+            "locator": "PDF p.9 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "f67a210abc169109f8ac",
+            "category": "documents",
+            "excerpt": "청 URL: https://forms.gle/XT3SEyMWxMkp7nNo8을 통한 참여신청서 및 사업계획서, 관련 증빙서류 접수 - 참여자 선정은 참여자 적격 여부 판정(서류검토 포함) 후 서 면 평가를 통해 선정 - 참여자 적격 여부 판정 시 결격사유(주요 서류 미제출, 중복 수급 등) 있는 사업계획은 평가대상에서 제외 ※적격여부는서면검토/결격사유는선정완료후확인시에도적용함❍ 지역활동 조사단 선정평가 - 외",
+            "locator": "PDF p.9 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "598e870e5388240257ca",
+            "category": "documents",
+            "excerpt": "청접수 : 공고문 URL: https://forms.gle/XT3SEyMWxMkp7nNo8 포스터 QR 접수 (필수 제출서류 업로드 필수)❍ 제출서류 구분세부내용대상",
+            "locator": "PDF p.10 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "d662eeda43fa0e24e8ee",
+            "category": "deadline",
+            "excerpt": "- 제출된 과제수행 세부내용 및 사업비 내역은 진흥원 협의, 승인 후 협약 체결Ⅴ 접수 및 문의처❍ 신청기간 : 2026. 9. 30.(수) ~ 2026. 10. 30.(금) 17:00 까지❍ 공고방법 : (재)전남정보문화산업진흥원 홈페이지(www.jcia.or.kr) 등❍ 신청방법 : 신청URL 또는 QR 신청 접수 ※ 신청 후 담당자 유선확인 필수❍ 신청접수 : 공고문 URL: https://forms.g",
+            "locator": "PDF p.10 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "3081fe21ab06c44e07e8",
+            "category": "documents",
+            "excerpt": " 의 처 : 콘텐츠기반팀 청년창업 지원사업 담당(☎[연락처 생략]~3)Ⅵ 기타 유의사항❍ 신청시 유의사항 - 제출서류의 기재 착오 또는 누락, 연락 불능 등으로 인한 불이익은 일체 신청자의 책임이며, 제출된 서류는 반환하지 않음 - 지원 대상자는 사업계획서, 창업역량 등을 종합 평가하여 사업계획 서면심사에서 최종 선정되며, 사업시행 전 중도 포기자 발생 시 차순위 후보자 기회 부여 - 접수서류 중 공고",
+            "locator": "PDF p.10 / text-line 3",
+            "status": "candidate_unverified",
+            "redacted": true,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "표 열 순서·이미지·주석의 의미는 검토하지 않았습니다.",
+          "OCR 미수행"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
+    },
+    "742dd7fa6348d11616583001": {
+      "id": "742dd7fa6348d11616583001",
+      "program_id": "BIZINFO-PBLN_000000000127003",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127003",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000775666&fileSn=0",
+      "name": "다운로드",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
+    },
+    "4d4ec1edc7e5bee9d40aa239": {
+      "id": "4d4ec1edc7e5bee9d40aa239",
+      "program_id": "BIZINFO-PBLN_000000000127003",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127003",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000775666&fileSn=1",
+      "name": "다운로드",
+      "status": "no_text",
+      "last_attempt_at": "2026-11-14T11:54:56+09:00",
+      "last_success_at": "2026-11-14T11:54:56+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-11-14T11:54:56+09:00",
+          "status": "no_text",
+          "observed_sha256": "b0528328bc8d5534ed7aa6110e3ebc745b51e78b67098328b2ae837056924abb",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "b0528328bc8d5534ed7aa6110e3ebc745b51e78b67098328b2ae837056924abb",
+      "sha256": "b0528328bc8d5534ed7aa6110e3ebc745b51e78b67098328b2ae837056924abb",
+      "extraction": {
+        "format": "pdf",
+        "parser": "pypdf/6.15.0",
+        "sha256": "b0528328bc8d5534ed7aa6110e3ebc745b51e78b67098328b2ae837056924abb",
+        "bytes": 2059335,
+        "status": "no_text",
+        "text_characters": 0,
+        "units": 0,
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "pages": 1,
+        "sections": null,
+        "empty_pages": 1,
+        "candidate_facts": [],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "표 열 순서·이미지·주석의 의미는 검토하지 않았습니다.",
+          "OCR 미수행"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
+    },
+    "feca26dd40cb63bc6f3a4f39": {
+      "id": "feca26dd40cb63bc6f3a4f39",
+      "program_id": "BIZINFO-PBLN_000000000127098",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127098",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000776153&fileSn=0",
+      "name": "다운로드",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
+    },
+    "77072b74533808b6ed2fc027": {
+      "id": "77072b74533808b6ed2fc027",
+      "program_id": "BIZINFO-PBLN_000000000127098",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127098",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000776154&fileSn=0",
+      "name": "다운로드",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
+    },
+    "21b120df30d93c4e06d3ddc4": {
+      "id": "21b120df30d93c4e06d3ddc4",
+      "program_id": "BIZINFO-PBLN_000000000127098",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127098",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000776154&fileSn=1",
+      "name": "다운로드",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-14T11:54:56+09:00",
+      "last_success_at": "2026-11-14T11:54:56+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-11-14T11:54:56+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "1d7f64007da666f5c9c51d54361aefc6a17d701d10ad74e66a20fe916f75427f",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "1d7f64007da666f5c9c51d54361aefc6a17d701d10ad74e66a20fe916f75427f",
+      "sha256": "1d7f64007da666f5c9c51d54361aefc6a17d701d10ad74e66a20fe916f75427f",
+      "extraction": {
+        "format": "hwp",
+        "parser": "olefile/0.47+hwp-body/0.4.0",
+        "sha256": "1d7f64007da666f5c9c51d54361aefc6a17d701d10ad74e66a20fe916f75427f",
+        "bytes": 81920,
+        "status": "text_extracted",
+        "text_characters": 5165,
+        "units": 381,
+        "text_sha256": "03c94d1138e325b597d6a84cdac0c9e8298553952516c5d272682131fbe9716c",
+        "pages": null,
+        "sections": 1,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "44584dfa03e716268586",
+            "category": "eligibility",
+            "excerpt": "(본사)",
+            "locator": "BodyText/Section0 / record 157 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "6caa2f65a8858487c073",
+            "category": "eligibility",
+            "excerpt": "□ 기계정밀 □ 전기전자 □ 바이오의료 □ 소재화학",
+            "locator": "BodyText/Section0 / record 180 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "18f0b9d7740f282ec18e",
+            "category": "documents",
+            "excerpt": "Ⅴ. 기타 증빙서류 첨부",
+            "locator": "BodyText/Section0 / record 547 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "0a3159ab88d2463b375f",
+            "category": "documents",
+            "excerpt": "- 인증, 특허, 포상, 기술이전관련 계약 예정 및 계약서류, 수출실적 등 해당 시 기타 증빙서류 첨부",
+            "locator": "BodyText/Section0 / record 552 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "78873207914677e5996c",
+            "category": "documents",
+            "excerpt": "※ 사업자등록증, 인증, 특허, 포상, 기술이전관련 계약 예정 및 계약서류, 수출실적 등 해당 시 기타 증빙서류 첨부",
+            "locator": "BodyText/Section0 / record 3863 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "구역·레코드 위치는 실제 인쇄 쪽번호가 아닙니다.",
+          "표·그림·각주 의미와 문서의 모든 제외조건은 미검토"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
     }
   },
   "programs": {
@@ -17508,6 +17944,47 @@
         "dc39e0ec94c463f8ef19bc96",
         "0196584aa6adc831e6e8acf1",
         "60514041bc9f6a23ce044b3a"
+      ],
+      "review_required": false,
+      "last_error": null
+    },
+    "BIZINFO-PBLN_000000000126988": {
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126988",
+      "last_notice_attempt_at": "2026-11-14T11:54:56+09:00",
+      "last_notice_success_at": "2026-11-14T11:54:56+09:00",
+      "notice_status": "links_available",
+      "manifest_sha256": "62ae696198e687af77fc685362f5c5ae5a816286224b606cdcc715f5a2cf38e8",
+      "document_ids": [
+        "4d8e5fcdcb0edd3c7df42e0f",
+        "3fc712e530f688ef5703a7df"
+      ],
+      "review_required": false,
+      "last_error": null
+    },
+    "BIZINFO-PBLN_000000000127003": {
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127003",
+      "last_notice_attempt_at": "2026-11-14T11:54:56+09:00",
+      "last_notice_success_at": "2026-11-14T11:54:56+09:00",
+      "notice_status": "links_available",
+      "manifest_sha256": "37f33062f9aaa75a48d8d5d963da715fe89904a240a8f9c7879632d9e84f84df",
+      "document_ids": [
+        "34e426d42bb4024d1193754a",
+        "742dd7fa6348d11616583001",
+        "4d4ec1edc7e5bee9d40aa239"
+      ],
+      "review_required": false,
+      "last_error": null
+    },
+    "BIZINFO-PBLN_000000000127098": {
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127098",
+      "last_notice_attempt_at": "2026-11-14T11:54:56+09:00",
+      "last_notice_success_at": "2026-11-14T11:54:56+09:00",
+      "notice_status": "links_available",
+      "manifest_sha256": "e5d1570fd5489fc00ec05337d19262d55e0d3aeed4e19779ea6265a9fbd0ed9e",
+      "document_ids": [
+        "feca26dd40cb63bc6f3a4f39",
+        "77072b74533808b6ed2fc027",
+        "21b120df30d93c4e06d3ddc4"
       ],
       "review_required": false,
       "last_error": null

@@ -1,7 +1,7 @@
 {
   "schema": "public-funding-agency-evidence/v1",
   "version": "0.17.0",
-  "generated_at": "2026-11-15T11:22:58+09:00",
+  "generated_at": "2026-11-16T11:34:13+09:00",
   "model_calls": 0,
   "automatic_approval": false,
   "scope": "기관 직접 목록의 원문 최대 3건·첨부 최대 4건 순환 확인. 본문 추출은 조건 후보이며 신청자격·금액·중복지원·문서 완전성 검증이 아닙니다. 기존 공고와 검토 규칙은 수정하지 않습니다.",
@@ -12,9 +12,9 @@
       "source": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1071785",
       "title": "2027년 도약(Jump-Up) 프로그램 참여기업 모집 공고",
       "listing_fingerprint": "e4cdfd512f5098ae2167e3fa251d720044abdc9d89e36f97336d502086a8ad1f",
-      "listing_seen_at": "2026-11-12T12:35:11+09:00",
-      "last_attempt_at": "2026-11-12T12:35:18+09:00",
-      "last_success_at": "2026-11-12T12:35:18+09:00",
+      "listing_seen_at": "2026-11-16T11:34:07+09:00",
+      "last_attempt_at": "2026-11-16T11:34:13+09:00",
+      "last_success_at": "2026-11-16T11:34:13+09:00",
       "status": "html_available",
       "last_error": null,
       "review_required": false,
@@ -35,6 +35,13 @@
         }
       ],
       "history": [
+        {
+          "at": "2026-11-16T11:34:13+09:00",
+          "status": "html_available",
+          "body_sha256": "f24eab2ad59d502b3f1b3da0054e84eddc6358b5704d74d1aa2f05bf2ebd3e87",
+          "manifest_sha256": "e91eba66141ad96379eb59588d0aab1dfbaf0ba78d4f7cbf379620590cbf895d",
+          "error": null
+        },
         {
           "at": "2026-11-12T12:35:18+09:00",
           "status": "html_available",
@@ -58,13 +65,6 @@
         },
         {
           "at": "2026-11-01T10:49:52+09:00",
-          "status": "html_available",
-          "body_sha256": "f24eab2ad59d502b3f1b3da0054e84eddc6358b5704d74d1aa2f05bf2ebd3e87",
-          "manifest_sha256": "e91eba66141ad96379eb59588d0aab1dfbaf0ba78d4f7cbf379620590cbf895d",
-          "error": null
-        },
-        {
-          "at": "2026-10-30T20:57:46+09:00",
           "status": "html_available",
           "body_sha256": "f24eab2ad59d502b3f1b3da0054e84eddc6358b5704d74d1aa2f05bf2ebd3e87",
           "manifest_sha256": "e91eba66141ad96379eb59588d0aab1dfbaf0ba78d4f7cbf379620590cbf895d",
@@ -302,9 +302,9 @@
       "source": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1072138",
       "title": "2027년 스마트 제조혁신 지원사업 통합공고",
       "listing_fingerprint": "f8c278616014df06dbe1e9c7e58409a32c7c7a3fbb4f58f32d62ba64cc24e174",
-      "listing_seen_at": "2026-11-11T11:30:40+09:00",
-      "last_attempt_at": "2026-11-11T11:30:46+09:00",
-      "last_success_at": "2026-11-11T11:30:46+09:00",
+      "listing_seen_at": "2026-11-16T11:34:07+09:00",
+      "last_attempt_at": "2026-11-16T11:34:13+09:00",
+      "last_success_at": "2026-11-16T11:34:13+09:00",
       "status": "html_available",
       "last_error": null,
       "review_required": false,
@@ -325,6 +325,13 @@
         }
       ],
       "history": [
+        {
+          "at": "2026-11-16T11:34:13+09:00",
+          "status": "html_available",
+          "body_sha256": "6ce268054f0abbee3d86ca3f30b1985bc474fa5466f4b8b68ed6ef1e10cc8d04",
+          "manifest_sha256": "ee088bb5fee43bc8b654c1b83dc7b33c094cd1e85b3a3033f915e95cea306780",
+          "error": null
+        },
         {
           "at": "2026-11-11T11:30:46+09:00",
           "status": "html_available",
@@ -846,9 +853,9 @@
       "source": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16883&tab=2",
       "title": "전 국민 AI 서비스 보편적 활용 지원 (모두의 AI) 사업 수정 공고",
       "listing_fingerprint": "411457b5c95af997ab514a82b70f531e2285b45cf58370f247fb51259d374b5a",
-      "listing_seen_at": "2026-11-03T12:50:47+09:00",
-      "last_attempt_at": "2026-11-03T12:50:55+09:00",
-      "last_success_at": "2026-11-03T12:50:55+09:00",
+      "listing_seen_at": "2026-11-16T11:34:07+09:00",
+      "last_attempt_at": "2026-11-16T11:34:13+09:00",
+      "last_success_at": "2026-11-16T11:34:13+09:00",
       "status": "html_available",
       "last_error": null,
       "review_required": false,
@@ -875,6 +882,13 @@
         }
       ],
       "history": [
+        {
+          "at": "2026-11-16T11:34:13+09:00",
+          "status": "html_available",
+          "body_sha256": "574c3df7ea3f1559c8628264c2d1391592737b019aaca81e7c2082919ec08649",
+          "manifest_sha256": "0fc0852acb93c7f87fe787fd175796d33c7eb963b7472cf72cfc7101c31afa13",
+          "error": null
+        },
         {
           "at": "2026-11-03T12:50:55+09:00",
           "status": "html_available",
@@ -1233,11 +1247,18 @@
       "url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1071785&cbIdx=310&streFileNm=5ec2eccf-5588-4d6d-9633-e9dd7bbf1358.hwpx",
       "name": "5ec2eccf-5588-4d6d-9633-e9dd7bbf1358.hwpx",
       "status": "text_extracted",
-      "last_attempt_at": "2026-11-08T11:01:39+09:00",
-      "last_success_at": "2026-11-08T11:01:39+09:00",
+      "last_attempt_at": "2026-11-16T11:34:13+09:00",
+      "last_success_at": "2026-11-16T11:34:13+09:00",
       "last_error": null,
       "review_required": false,
       "history": [
+        {
+          "at": "2026-11-16T11:34:13+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "d9de1beeab1c69978bddb788d9e4189ab6f0a9b41d33be9ec7e948ec69402044",
+          "http_status": null,
+          "failure_kind": null
+        },
         {
           "at": "2026-11-08T11:01:39+09:00",
           "status": "text_extracted",
@@ -8019,12 +8040,244 @@
       "notice_source": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16883&tab=2",
       "url": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16883&tab=2",
       "name": "[붙임5] 전 국민 AI 서비스 보편적 활용 지원(모두의 AI) 사업 FAQ.pdf",
-      "status": "queued",
-      "last_attempt_at": null,
-      "last_success_at": null,
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-16T11:34:13+09:00",
+      "last_success_at": "2026-11-16T11:34:13+09:00",
       "last_error": null,
       "review_required": false,
-      "history": []
+      "history": [
+        {
+          "at": "2026-11-16T11:34:13+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "9b7f1b70891128978ece4e6485440801d0a6cdf09b959fad69e3fcee14593feb",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "9b7f1b70891128978ece4e6485440801d0a6cdf09b959fad69e3fcee14593feb",
+      "sha256": "9b7f1b70891128978ece4e6485440801d0a6cdf09b959fad69e3fcee14593feb",
+      "extraction": {
+        "format": "pdf",
+        "parser": "pypdf/6.15.0",
+        "sha256": "9b7f1b70891128978ece4e6485440801d0a6cdf09b959fad69e3fcee14593feb",
+        "bytes": 988148,
+        "status": "text_extracted",
+        "text_characters": 19879,
+        "units": 138,
+        "text_sha256": "1833adf245173869498b3102d1f28a0d0783cd9dad77d4f7c981ee69e3fd6edf",
+        "pages": 15,
+        "sections": null,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "a3caae03a34a38974151",
+            "category": "eligibility",
+            "excerpt": "보편적 활용지원(모두의 AI) 사업 FAQ구분 내용1Q컨소시엄 참여기업 수에 제한이 있습니까? ▸ 공모안내서 Ⅱ-1 지원대상, P9A참여기업 수에 제한은 없습니다. 다만 기업 간 역할이 중복되거나 공백이 발생하지 않도록 구분하여 작성하여야 하며, 역할 분담의 적정성은 평가 대상입니다.2Q외국에 모회사가 있는 국내 법인도 참여할 수 있습니까? ▸ 공모안내서 Ⅱ-1 지원대상, P9A모회사 국적에 따른 제한을 두고",
+            "locator": "PDF p.1 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "a07ad5152924a93487c0",
+            "category": "documents",
+            "excerpt": ". 국내에 별도 법인(사업자등록번호)을 보유한 법인이면 신청 자격 요건상 별도의 제한은 없습니다. 다만 이 경우에도 제출서류, 신청 절차, 국산 AI 모델 활용 요건을 포함한 지원조건 등 모든 요건은 국내 기업과 동일하게 적용됩니다. 3Q대학 등 기업이 아닌 기관도 참여기관으로 참여할 수 있습니까? ▸ 공모안내서 Ⅱ-1 지원대상, P9A가능합니다. 법인등록번호를 보유한 국내 기관이면 대학·연구기관 등도 참여기",
+            "locator": "PDF p.1 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "9547bc72328924826074",
+            "category": "amount",
+            "excerpt": "4Q몇 개 기업이 선정되며 GPU는 어떻게 배분됩니까? ▸ 공모안내서 Ⅱ-1 지원규모, P9",
+            "locator": "PDF p.1 / text-line 3",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "b2bef7353cdae51b5ec6",
+            "category": "cofunding",
+            "excerpt": " 유료 API를 활용해 서비스를 제공하는 기업도 지원할 수 있습니까?▸ 공모안내서 Ⅱ-1 지원조건⑤ P10, Ⅲ-3 자부담금 사업비 편성 기준 P17",
+            "locator": "PDF p.4 / text-line 9",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "8c5d569bc1131f19400e",
+            "category": "cofunding",
+            "excerpt": " 한정)을 충족하는 서비스 구성을 제시하여야 합니다. 아울러 외산(해외) 모델 API 이용료는 사업비(정부지원금 및 자부담금)에 반영할 수 없으며, 지원기업이 사업비와 별도로 자체 부담하여야 합니다.",
+            "locator": "PDF p.4 / text-line 10",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "0a11b004fe93aa174b9a",
+            "category": "amount",
+            "excerpt": "최소한의 기능에 한정)을 충족하는 서비스 구성을 제시하여야 합니다. 아울러 외산(해외) 모델 API 이용료는 사업비(정부지원금 및 자부담금)에 반영할 수 없으며, 지원기업이 사업비와 별도로 자체 부담하여야 합니다.",
+            "locator": "PDF p.4 / text-line 10",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "a93856e5d42151c654e9",
+            "category": "cofunding",
+            "excerpt": "구분 내용15Q정부지원(GPU)을 배분받지 않는 참여기업도 자부담금을 부담해야 합니까?▸ 공모안내서 Ⅱ-1 지원조건⑥ P10, Ⅲ-2 자부담금 매칭 P15A부담하지 않습니다. \"사업수행계획서 상 정부지원을 받지 않는 참여기업은 자부담금 면제\"입니다. 다만 제출서류, 적합성 검토, 역할 기재, 개인정보보호 교육, 성과·보고 등 수행기업으로서의 의무는 동일하게 적용됩니다.16Q정부 시스템 연계·마이데이터 활용에 ",
+            "locator": "PDF p.5 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "77fcdf2ad536852f657e",
+            "category": "amount",
+            "excerpt": "구분 내용15Q정부지원(GPU)을 배분받지 않는 참여기업도 자부담금을 부담해야 합니까?▸ 공모안내서 Ⅱ-1 지원조건⑥ P10, Ⅲ-2 자부담금 매칭 P15A부담하지 않습니다. \"사업수행계획서 상 정부지원을 받지 않는 참여기업은 자부담금 면제\"입니다. 다만 제출서류, 적합성 검토, 역할 기재, 개인정보보호 교육, 성과·보고 등 수행기업으로서의 의무는 동일하게 적용됩니다.16Q정부 시스템 연계·마이데이터 활용에 ",
+            "locator": "PDF p.5 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "b4d3eed06eca9cd21144",
+            "category": "documents",
+            "excerpt": "금 매칭 P15A부담하지 않습니다. \"사업수행계획서 상 정부지원을 받지 않는 참여기업은 자부담금 면제\"입니다. 다만 제출서류, 적합성 검토, 역할 기재, 개인정보보호 교육, 성과·보고 등 수행기업으로서의 의무는 동일하게 적용됩니다.16Q정부 시스템 연계·마이데이터 활용에 대해 정부가 협조해줄 수 있습니까?▸ 공모안내서 Ⅱ-2 사업관리(제도·규제/연계) P12A해당사항은 사업자 선정 이후 정부 및 전담기관과 협",
+            "locator": "PDF p.5 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "11b7a95fe8c7f51d321f",
+            "category": "cofunding",
+            "excerpt": "Q1차년도 정부지원금은 어떻게 산정됩니까? ▸ 공모안내서 Ⅲ-1 사업비 구성 P15, Ⅲ-2 자부담금 매칭 P15",
+            "locator": "PDF p.5 / text-line 4",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "2f847f5a18f94dd25a91",
+            "category": "amount",
+            "excerpt": "Q1차년도 정부지원금은 어떻게 산정됩니까? ▸ 공모안내서 Ⅲ-1 사업비 구성 P15, Ⅲ-2 자부담금 매칭 P15",
+            "locator": "PDF p.5 / text-line 4",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "b55c8e22395d08212841",
+            "category": "cofunding",
+            "excerpt": "자원으로 제공됩니다. B200의 월별 단가는 6.6백만원이며, 총 사업비 = 정부지원금(GPU 비용 현금 환산) + 자부담금(현물 + 현금)으로 구성됩니다. < GPU 지원에 대한 정부지원금 산정 기준(공모안내서 표2) >< 기관 유형별 최소 자부담 기준(공모안내서 표1) >",
+            "locator": "PDF p.5 / text-line 6",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "4fbd1df19dfe80aa1d34",
+            "category": "amount",
+            "excerpt": "정부지원금 = GPU 개수 × GPU 월별 단가 × 협약 개월 수로 책정하되, 현금이 아니라 GPU 자원으로 제공됩니다. B200의 월별 단가는 6.6백만원이며, 총 사업비 = 정부지원금(GPU 비용 현금 환산) + 자부담금(현물 + 현금)으로 구성됩니다. < GPU 지원에 대한 정부지원금 산정 기준(공모안내서 표2) >< 기관 유형별 최소 자부담 기준(공모안내서 표1) >",
+            "locator": "PDF p.5 / text-line 6",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "68ee9341ebefb16ebb53",
+            "category": "documents",
+            "excerpt": "24Q접수 방법과 마감 시한, 필수 제출서류는 어떻게 됩니까? ▸ 공모안내서 Ⅳ-1 사업신청 및 접수 P22",
+            "locator": "PDF p.6 / text-line 7",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "bfa75709bfe203819bef",
+            "category": "overlap",
+            "excerpt": "완납증명서, 기관확인서, 개인정보 동의서, 자격요건 사전 자기점검표, 인공지능 개인정보보호 자율점검표, AI 데이터 중복지원 방지 확약서, 유사과제 검색 결과서, 자산취득 활용계획서(필요시), 일자리 창출 계획서(추후))입니다.",
+            "locator": "PDF p.6 / text-line 8",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "491a4d830943a8f111b7",
+            "category": "documents",
+            "excerpt": " 2026. 7. 13.(월) 17:00부터 가능하고 마감시한은 2026. 8. 18.(화) 17:00입니다. 필수 제출서류는 총 14종(사업수행계획서, 평가항목 참조표, 사업자등록증 또는 법인등기부등본, 참여의사 확인서, 최근 3년 표준재무제표증명원, 국세·지방세 및 4대 보험 완납증명서, 기관확인서, 개인정보 동의서, 자격요건 사전 자기점검표, 인공지능 개인정보보호 자율점검표, AI 데이터 중복지원 방지 ",
+            "locator": "PDF p.6 / text-line 8",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "378fcef6fd3a3dd02152",
+            "category": "eligibility",
+            "excerpt": "납증명서X○○7. 기관확인서(대·중견·중소기업, 기관 등) X○○8. 개인정보 수집·이용·제공 동의서○○○9. 과제 신청 자격요건 사전 자기점검표○○○10. 인공지능 개인정보보호 자율점검표○○○11. AI 데이터 중복지원 방지 확약서○○○12. 유사과제 검색 결과서X○X13. 자산취득 활용계획서○필요시필요시14. 일자리 창출 계획서추후제출추후제출추후제출",
+            "locator": "PDF p.7 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "ba864a87382052b54fcb",
+            "category": "overlap",
+            "excerpt": "의서○○○9. 과제 신청 자격요건 사전 자기점검표○○○10. 인공지능 개인정보보호 자율점검표○○○11. AI 데이터 중복지원 방지 확약서○○○12. 유사과제 검색 결과서X○X13. 자산취득 활용계획서○필요시필요시14. 일자리 창출 계획서추후제출추후제출추후제출",
+            "locator": "PDF p.7 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "b78bcb133d0429d16acc",
+            "category": "documents",
+            "excerpt": "구분 내용< 필수 제출서류 및 제출 대상 >필수 제출 서류 목록양식 제공주관참여1. 사업수행계획서○○X2. 평가항목 참조표○○X3. 사업자등록증 또는 법인등기부등본X○○4. 사업수행기관(주관·참여)의 참여의사 확인서○○○5. (최근 3년) 표준재무제표증명원('23년~'25년) X○○6. 국세·지방세 완납증명서(또는 세금분납계획서) 및 4대 보험 완납증명서X○○7. 기관확인서(대·중견·중소기업, 기관 등) X○",
+            "locator": "PDF p.7 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "e4e43545184c98ae4ade",
+            "category": "deadline",
+            "excerpt": "번 수정 공고에 따라 신청 기업의 충분한 준비 기간을 보장하기 위해 당초 ’26년 8월 11일(화) 17:00까지인 접수 마감일을 ’26년 8월 18일(화) 17:00까지로 연장합니다.본 조치는 불명확하고, 불완전한 감점 항목을 바로잡는 시정일 뿐, 해당 사업에서의 개인정보보호 기준이 완화되는 것을 의미하지 않습니다. 공모안내서에 명시된 관계 법령 준수 의무, 자율점검 결과 제출, 보안 교육 이수, 위반 시 ",
+            "locator": "PDF p.8 / text-line 8",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "26c7b4ca35a4e3af6445",
+            "category": "eligibility",
+            "excerpt": ". 본 사업의 최종 수요자는 전 국민이며, 결과물이 실제로 대국민(B2C) 서비스로 제공되는지가 판단의 기준입니다. 지원대상을 \"B2C 서비스 경험과 역량을 보유하여 전국민 대상으로 AI서비스를 제공할 기업\"으로 규정하고, 지원조건 ①∼③을 각각 \"전국민 대상 범용 AI 챗봇\", \"국민께 공공서비스를 찾아서 미리 알려주고 신청까지 대신해 주는 AI에이전트\", \"대국민 대상 기업별 특화 AI에이전트 서비스\"로 ",
+            "locator": "PDF p.14 / text-line 7",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "0f5f3f566550fdee83c8",
+            "category": "eligibility",
+            "excerpt": "다는 점은 인정합니다. 다만 본 사업은 모델을 개발하는 사업이 아니라 대국민 AI 서비스를 개발·출시하는 사업이며, 지원대상 자체가 \"B2C 서비스 경험과 역량을 보유한 기업\"으로 규정되어 있습니다. 베타서비스를 통해 단계적으로 검증한 뒤 12월 정식 출시하는 구조이며, 개발 범위·추진일정·단계별 구축계획의 구체성 및 실현가능성은 평가 대상입니다.",
+            "locator": "PDF p.15 / text-line 4",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "표 열 순서·이미지·주석의 의미는 검토하지 않았습니다.",
+          "OCR 미수행"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
     },
     "7abdc71950aeddb5527b1dd8": {
       "id": "7abdc71950aeddb5527b1dd8",
@@ -8032,12 +8285,91 @@
       "notice_source": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16883&tab=2",
       "url": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16883&tab=2",
       "name": "[공고문] 전 국민 AI 서비스 보편적 활용 지원(모두의 AI) 사업 수정 공고문.pdf",
-      "status": "queued",
-      "last_attempt_at": null,
-      "last_success_at": null,
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-16T11:34:13+09:00",
+      "last_success_at": "2026-11-16T11:34:13+09:00",
       "last_error": null,
       "review_required": false,
-      "history": []
+      "history": [
+        {
+          "at": "2026-11-16T11:34:13+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "aa6484c9e9cef75b6c092599af45c907412d444390db7e353c279d7a5b8fb889",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "aa6484c9e9cef75b6c092599af45c907412d444390db7e353c279d7a5b8fb889",
+      "sha256": "aa6484c9e9cef75b6c092599af45c907412d444390db7e353c279d7a5b8fb889",
+      "extraction": {
+        "format": "pdf",
+        "parser": "pypdf/6.15.0",
+        "sha256": "aa6484c9e9cef75b6c092599af45c907412d444390db7e353c279d7a5b8fb889",
+        "bytes": 328426,
+        "status": "text_extracted",
+        "text_characters": 3672,
+        "units": 10,
+        "text_sha256": "246503ea0ca763bcfbc6e6d3417a6d09e1605bc5047e335e7b114a9dc5a9f431",
+        "pages": 5,
+        "sections": null,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "09b384f0192433718f30",
+            "category": "eligibility",
+            "excerpt": "및 개시에 필요한 GPU지원 ※2026년은GPU지원,2027년~2030년은관계부처·국회등협의후지원방식및규모결정예정□(지원대상)B2C 서비스 경험과 역량을 보유하여 전국민 대상으로 AI서비스를 제공하는 기업(단일또는컨소시엄가능)□(지원규모)정부구매 GPU(최대 B200 512장 내외)를 배분하고 2차년도부터는 GPU 비용과 서비스 운영을 위한 정부 예산 지원(예정) ※(1차년도)기업당GPUB200256장또는12",
+            "locator": "PDF p.2 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "f504476185e3ac823028",
+            "category": "cofunding",
+            "excerpt": "비스 발굴·제공○AI 에이전트 고도화(’27년 이후)○국산 AI모델 활용○ 정부지원(GPU지원,정부예산 등)에 대해 자부담금 매칭 필수 ※상세내용공모안내서확인□ (지원기간) 협약체결일로부터 ’30.12.31까지(5개년도)○(1차년도)협약체결일∼’26.12.31. ※사업수행기간은향후정부정책및예산상황에따라변경될수있으며,연차평가에따라계속지원여부결정",
+            "locator": "PDF p.2 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "a576c553d18d8ad8ee0e",
+            "category": "amount",
+            "excerpt": "□(지원대상)B2C 서비스 경험과 역량을 보유하여 전국민 대상으로 AI서비스를 제공하는 기업(단일또는컨소시엄가능)□(지원규모)정부구매 GPU(최대 B200 512장 내외)를 배분하고 2차년도부터는 GPU 비용과 서비스 운영을 위한 정부 예산 지원(예정) ※(1차년도)기업당GPUB200256장또는128장을제공하여2개혹은3개기업선정<B200제공(예시)>2개사선정시3개사선정시1순위B200256장1순위B200256장",
+            "locator": "PDF p.2 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "4e1d0e9ed98e95d26fe5",
+            "category": "documents",
+            "excerpt": "www.nipa.kr)→알림마당 →사업공고→전 국민 AI서비스 보편적 활용지원(모두의AI)사업→‘사업계획서작성안내및 제출서류(양식)’다운로드 후 작성ㅇ 전산 접수 마감시한 : 2026. 8. 18.(화) 17:00 까지 ※전산접수는2026.7.13.(월)17:00부터가능ㅇ 접수방법 :사업관리시스템(https://nxt.nipa.kr) 전산 접수 -정보통신산업진흥원(www.nipa.kr) 홈페이지 하단(기관 바",
+            "locator": "PDF p.4 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "e342b00c96ca8051436e",
+            "category": "deadline",
+            "excerpt": "→전 국민 AI서비스 보편적 활용지원(모두의AI)사업→‘사업계획서작성안내및 제출서류(양식)’다운로드 후 작성ㅇ 전산 접수 마감시한 : 2026. 8. 18.(화) 17:00 까지 ※전산접수는2026.7.13.(월)17:00부터가능ㅇ 접수방법 :사업관리시스템(https://nxt.nipa.kr) 전산 접수 -정보통신산업진흥원(www.nipa.kr) 홈페이지 하단(기관 바로가기) → 사업관리시스템(https://",
+            "locator": "PDF p.4 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "표 열 순서·이미지·주석의 의미는 검토하지 않았습니다.",
+          "OCR 미수행"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
     },
     "b4a385f4cc27ff6a2dddc598": {
       "id": "b4a385f4cc27ff6a2dddc598",
@@ -8045,12 +8377,262 @@
       "notice_source": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16883&tab=2",
       "url": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16883&tab=2",
       "name": "[붙임1] 전 국민 AI 서비스 보편적 활용 지원(모두의 AI) 사업 수정 공모안내서.pdf",
-      "status": "queued",
-      "last_attempt_at": null,
-      "last_success_at": null,
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-16T11:34:13+09:00",
+      "last_success_at": "2026-11-16T11:34:13+09:00",
       "last_error": null,
       "review_required": false,
-      "history": []
+      "history": [
+        {
+          "at": "2026-11-16T11:34:13+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "8156d39581bc04d437184d88ccc57644056ac0bf77f2c1918aa25e2ca566034e",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "8156d39581bc04d437184d88ccc57644056ac0bf77f2c1918aa25e2ca566034e",
+      "sha256": "8156d39581bc04d437184d88ccc57644056ac0bf77f2c1918aa25e2ca566034e",
+      "extraction": {
+        "format": "pdf",
+        "parser": "pypdf/6.15.0",
+        "sha256": "8156d39581bc04d437184d88ccc57644056ac0bf77f2c1918aa25e2ca566034e",
+        "bytes": 768882,
+        "status": "text_extracted",
+        "text_characters": 31091,
+        "units": 132,
+        "text_sha256": "b04feadfa396208a18a8e059ddf5d6e85c2580ed3c50ec56c01a62150aea26fb",
+        "pages": 40,
+        "sections": null,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "3cd995bfc0f5eb8f209c",
+            "category": "cofunding",
+            "excerpt": "· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · 152. 자부담금 매칭· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ",
+            "locator": "PDF p.2 / text-line 1",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "283e6eb8dc042a0e1375",
+            "category": "cofunding",
+            "excerpt": " 운용·관리규정 및 관련 부속지침○개인정보보호법(법령 시행 2025.10.02.)○「공공재정환수법」및 동법 시행령○ 자부담금의 현금·현물 비율에 관하여는 「국가연구개발혁신법」 시행령 준용 ○「인공지능 발전과 신뢰 기반 조성 등에 관한 법률」및 동법 시행령○ 위 규정에 정의되지 않은 항목에 한하여 「국가연구개발혁신법」 시행령 준용",
+            "locator": "PDF p.5 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "5519d064d067c205b8d0",
+            "category": "cofunding",
+            "excerpt": " 세부내용 검토 등 심의사업비심의‧조정위원회ｏ 사업비 산정의 적정성 검토 및 조정ｏ GPU 자원 회수와 배분 심의, 자부담금 반환 등 세부 내용 결정‧심의ｏ 과제 범위, 예산 등 최종 조정 및 확정 등사업수행기관(주관, 참여기관)ｏ 사업수행계획에 따른 세부사항 추진ｏ 과제 진행현황 및 결과보고ｏ 기타 과제수행과 관련된 제반업무 수행 등",
+            "locator": "PDF p.6 / text-line 3",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "cf3e6ae59ff28c0188d8",
+            "category": "eligibility",
+            "excerpt": "4 사업 추진절차 및 일정지원과제 공모(‘26. 7월) ㆍ전담기관(정보통신산업진흥원) ※ 지원과제 개요, 지원자격, 지원대상, 지원내용 등 공고과제신청서 접수(‘26. 7~8월) ㆍ지원기관 → 전담기관(정보통신산업진흥원)과제 발표평가 및 사업자 선정 통보(‘26. 8월) ㆍ전담기관(정보통신산업진흥원) ※ 적합성검토, 서면평가, 발표평가, 사업비심의‧조정 등 종합적으로 검토하여 지원기관(사업수행기관) 선정협약체",
+            "locator": "PDF p.7 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "18c9f224e974664c5cb3",
+            "category": "eligibility",
+            "excerpt": "1 지원개요□ 지원대상 ○ B2C 서비스 경험과 역량을 보유하여 전국민 대상으로 AI서비스를 제공할 기업(단일또는컨소시엄가능)□ 지원내용 ○올해에는 정부가 보유한 첨단 GPU(B200)512장을 활용하여 조속한 서비스 출시를 할 수 있도록 지원하고,27년부터 정부 예산을 통해 전 국민 서비스 제공에 필요한 비용을 지원할 예정□ 지원규모 ○ (1차년도) 정부구매 GPU(최대 B200 512장 내외)를 배분 ※(",
+            "locator": "PDF p.9 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "0082af06ad5696fdf4a1",
+            "category": "amount",
+            "excerpt": "비스 출시를 할 수 있도록 지원하고,27년부터 정부 예산을 통해 전 국민 서비스 제공에 필요한 비용을 지원할 예정□ 지원규모 ○ (1차년도) 정부구매 GPU(최대 B200 512장 내외)를 배분 ※(1차년도)기업당GPUB200256장또는128장을제공하여2개혹은3개기업선정 ※관계부처·국회등협의후지원방식및규모결정예정<B200제공(예시)>2개사선정시3개사선정시1순위B200256장1순위B200256장2순위B20012",
+            "locator": "PDF p.9 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "777cafae9cd782b68864",
+            "category": "cofunding",
+            "excerpt": " 구성하지 않고, 타사의 국산 AI 모델 비중을 30% 이상 활용 필수 ⑥ 정부지원(GPU지원,정부예산 등)에 대해 자부담금 매칭 필수 ※사업수행계획서상정부지원을받지않는참여기관은자부담금면제 ※자부담금세부내용은(「Ⅲ.사업비」참조)",
+            "locator": "PDF p.10 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "9483cc69d510d6bd94b8",
+            "category": "amount",
+            "excerpt": "여 자사가 개발한 AI 모델만으로 서비스를 구성하지 않고, 타사의 국산 AI 모델 비중을 30% 이상 활용 필수 ⑥ 정부지원(GPU지원,정부예산 등)에 대해 자부담금 매칭 필수 ※사업수행계획서상정부지원을받지않는참여기관은자부담금면제 ※자부담금세부내용은(「Ⅲ.사업비」참조)",
+            "locator": "PDF p.10 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "252fdf66e6d463f6b912",
+            "category": "cofunding",
+            "excerpt": "1 사업비 구성○과제의 사업비는 자부담금(현금 및 현물)으로 구성 ※총사업비=정부지원금(GPU비용현금환산)+자부담금(현물+현금) ※자부담금=현물부담(참여인력인건비및보유유형자산)+현금부담2 자부담금 매칭○본 사업에 참여를 위해서는 자부담금 매칭 필수-자부담금에 대한 규모는 상한선은 없으며 최소 자부담 금액은 아래 표의 기준에 따라 산정-“표1”을 기준으로 최소 자부담 금액을 산정하고 GPU지원에 대한 정부지원금",
+            "locator": "PDF p.15 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "9cc0dec21079f14043f9",
+            "category": "amount",
+            "excerpt": "1 사업비 구성○과제의 사업비는 자부담금(현금 및 현물)으로 구성 ※총사업비=정부지원금(GPU비용현금환산)+자부담금(현물+현금) ※자부담금=현물부담(참여인력인건비및보유유형자산)+현금부담2 자부담금 매칭○본 사업에 참여를 위해서는 자부담금 매칭 필수-자부담금에 대한 규모는 상한선은 없으며 최소 자부담 금액은 아래 표의 기준에 따라 산정-“표1”을 기준으로 최소 자부담 금액을 산정하고 GPU지원에 대한 정부지원금",
+            "locator": "PDF p.15 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "288d896ca863155b95f3",
+            "category": "amount",
+            "excerpt": "□ 자부담금 관리○자부담금을 편성하는 모든 사업수행기관은 사업비(정부지원금 +자부담금 현금)를별도의 계좌로 관리(*통장 사본은 최종 선정된 기관만 추후 제출) - 사업비 집행은 사업비카드 사용, 은행 간 계좌이체 등을 통해 투명하게 진행 - 사업비 집행내역은 관련 증빙자료와 함께 관리해야 하며, 추후 정산 요구 시 제출○협약 시 정부지원(GPU)에 대한 보증지급각서*를 제출하여야 함 *1차년도보증지급각서의금액",
+            "locator": "PDF p.20 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "3733ba17be9ca05ac37e",
+            "category": "documents",
+            "excerpt": "후 제출) - 사업비 집행은 사업비카드 사용, 은행 간 계좌이체 등을 통해 투명하게 진행 - 사업비 집행내역은 관련 증빙자료와 함께 관리해야 하며, 추후 정산 요구 시 제출○협약 시 정부지원(GPU)에 대한 보증지급각서*를 제출하여야 함 *1차년도보증지급각서의금액은GPU자원을현금으로환산한금액으로작성 향후2～5차 년 도협 약시정 부 지 원 금 이정 부 예 산 으 로지급되 는경 우,지급이행보증보험증권발급필요하며향",
+            "locator": "PDF p.20 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "78ce4221ca0f6a86e0a8",
+            "category": "eligibility",
+            "excerpt": "이상의 용량은 전산에 장애를 줄 수 있으니, 그림 등은 JPG로 변환하는 등 주의하시기 바람 - 컨소시엄 기관 등이 신청 자격 제외 대상에 해당되는지 사전 자체 검증 바람(해당될 경우 전산 접수 불가)o 전산 접수 이전에 반드시 신청 자격요건, 컨소시엄별 요구사항 등을 숙지하시고 NIPA 사업관리시스템 공지사항에 있는 매뉴얼을 참고하시어 안내에 따라 전산 접수 진행o 전산 접수는 사업계획(신청)서 최종본 및 ",
+            "locator": "PDF p.22 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "a10170dd1d4f699cb95c",
+            "category": "exclusion",
+            "excerpt": "은 전산에 장애를 줄 수 있으니, 그림 등은 JPG로 변환하는 등 주의하시기 바람 - 컨소시엄 기관 등이 신청 자격 제외 대상에 해당되는지 사전 자체 검증 바람(해당될 경우 전산 접수 불가)o 전산 접수 이전에 반드시 신청 자격요건, 컨소시엄별 요구사항 등을 숙지하시고 NIPA 사업관리시스템 공지사항에 있는 매뉴얼을 참고하시어 안내에 따라 전산 접수 진행o 전산 접수는 사업계획(신청)서 최종본 및 제출 서류를",
+            "locator": "PDF p.22 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "f52993ca1aab6cd8ee2b",
+            "category": "documents",
+            "excerpt": "운로드 후 작성-사업공고(www.nipa.kr)→전 국민 AI서비스 보편적 활용 지원 사업→‘사업계획서 작성안내 및 제출서류(양식)’다운로드 후 작성 ○ 전산 접수 마감시한 : 2026. 08. 18.(화) 17:00 까지 ※전산접수는2026.07.13.(월)17:00부터가능ㅇ 접수방법 : 사업관리시스템(https://nxt.nipa.kr) 전산 접수-정보통신산업진흥원(www.nipa.kr) 홈페이지 하단(기",
+            "locator": "PDF p.22 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "259c145e2ae6a847e285",
+            "category": "deadline",
+            "excerpt": "r)→전 국민 AI서비스 보편적 활용 지원 사업→‘사업계획서 작성안내 및 제출서류(양식)’다운로드 후 작성 ○ 전산 접수 마감시한 : 2026. 08. 18.(화) 17:00 까지 ※전산접수는2026.07.13.(월)17:00부터가능ㅇ 접수방법 : 사업관리시스템(https://nxt.nipa.kr) 전산 접수-정보통신산업진흥원(www.nipa.kr) 홈페이지 하단(기관 바로가기) → 사업관리시스템(https:",
+            "locator": "PDF p.22 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "b848d82b382d525d6912",
+            "category": "eligibility",
+            "excerpt": "증명서X○○7. 기관확인서 (대·중견·중소기업, 기관 등) X○○8. 개인정보 수집ㆍ이용ㆍ제공 동의서○○○9. 과제 신청 자격요건 사전 자기점검표○○○10. 인공지능 개인정보보호 자율점검표○○○11. AI 데이터 중복지원 방지 확약서○○○12. 유사과제 검색 결과서 ※기준연도 ‘2025년, 차별성검토 40점 세팅후 NTIS>과제참여·관리>차별성검토>정보입력 후 결과제출X○X13. 자산취득 활용계획서○필요시필요",
+            "locator": "PDF p.23 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "9cf5594dd7453da53a22",
+            "category": "exclusion",
+            "excerpt": " 서류는 스캔하여 PDF파일로 전산접수 함 (원본대조필 불필요, 주관기관이 제출)※ 필수 제출서류 일부라도 누락 시 지원 제외 조치※ 위 제 출 서 류 는 사 업 자 선 정 에 필 요 한 최 소 한 의 서 류 로 선 정 이 확 정 된 기 업(기 관)은 추 후 협 약 시 추 가 서 류 를 요청할 수 있음 (협약 시 보증지급각서, 4대보험사업장 가입자 명부, 청렴이행각서, 보안서약서 등 제출)※ 증빙서류는 공고시",
+            "locator": "PDF p.23 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "5859df3b0de891b98fad",
+            "category": "overlap",
+            "excerpt": "의서○○○9. 과제 신청 자격요건 사전 자기점검표○○○10. 인공지능 개인정보보호 자율점검표○○○11. AI 데이터 중복지원 방지 확약서○○○12. 유사과제 검색 결과서 ※기준연도 ‘2025년, 차별성검토 40점 세팅후 NTIS>과제참여·관리>차별성검토>정보입력 후 결과제출X○X13. 자산취득 활용계획서○필요시필요시14. 일자리 창출 계획서추후제출추후제출추후제출※ 모든 서류는 스캔하여 PDF파일로 전산접수 함",
+            "locator": "PDF p.23 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "8eba53ff9072512b7219",
+            "category": "documents",
+            "excerpt": "□ 제출서류 : 사업계획(신청)서 및 제출서류필수 제출 서류 목록필수 제출 대상구분양식제공주관참여1. 사업수행계획서○○X2. 평가항목 참조표○○X3. 사업자등록증 또는 법인등기부등본X○○4. 사업수행기관(주관,참여)의 참여의사 확인서○○○5. (최근 3년) 표준재무제표증명원 (‘23년~’25년) ※ ‘25년 신고 미완료자는 ’25년 결산재무제표 및 세무대리인으로부터 직인을 받은 재무제표 확인원 제출X○○6. ",
+            "locator": "PDF p.23 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "1785804400a66219f84b",
+            "category": "eligibility",
+            "excerpt": "통한 평가대상 확정 사업 타당성, 내용의 부합성, 수행능력 등 평가를 통해 심의대상 과제 선정평가결과를 종합하여최종 지원대상 및 세부예산내역 확정 ※ 과제 선정 이후에라도 허위자료 제출 및 자격 조건 미달 시, 과제 선정이 취소될 수 있음<평가 일정(안)>절차일정(안) 주요 업무추진 주체공고‘26.7.13. ㅇ 공고(정보통신산업진흥원 홈페이지) 정보통신산업진흥원⇩접수마감‘26.8.18.ㅇ 전산접수 * 정보통신",
+            "locator": "PDF p.26 / text-line 4",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "67644a598745e21d6346",
+            "category": "deadline",
+            "excerpt": "(안)>절차일정(안) 주요 업무추진 주체공고‘26.7.13. ㅇ 공고(정보통신산업진흥원 홈페이지) 정보통신산업진흥원⇩접수마감‘26.8.18.ㅇ 전산접수 * 정보통신산업진흥원 사업관리시스템(https://nxt.nipa.kr)을 통해 접수신청기관⇩서면‧발표평가‘26. 8월ㅇ 지원 적합성 검토ㅇ 서류 및 발표평가평가위원회⇩사업비심의‧조정‘26.8월~9월ㅇ 세부 사업비 내역 조정심의‧조정위원회⇩사업내용협의·조정/협",
+            "locator": "PDF p.26 / text-line 4",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "6d2bfde9633fba81ea13",
+            "category": "exclusion",
+            "excerpt": "여부※ (외부감사기업) 최근년도 결산 감사의견 “의견거절” 또는 “부적정” 여부- 세무당국에 의한 국세, 지방세 등 체납처분 여부- 채무불이행자 등록여부- 파산·회생절차·개인회생절차 개시신청 여부참여제한- 주관기관, 참여기관, 총괄책임자, 주관기관장, 참여기관장 등의 국가연구개발사업 참여제한 여부 ※적 합 성검 토결 과,중 대문제(사 전 지 원제 외대 상,제 출 서류미제 출등)발 견과 제 는평 가 대 상 에 ",
+            "locator": "PDF p.27 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "c2b18870c4a999512db9",
+            "category": "documents",
+            "excerpt": "2 평가방법 및 기준 □ 적합성 검토○(개요)사업계획서 등 제출서류 적정성,참여제한 여부 등 지원 자격조건에 대한 적합성 검토(접수 완료 과제 대상)○(평가대상)접수 완료 과제○(검토방법)사업계획(신청)서,첨부․제출 서류 검토 및 참여제한 여부 등국가과학기술지식정보서비스(NTIS)을 통한 정보통신산업진흥원 내부검토○(주요 검토항목)신청자격,신청서류,사업비 산정,참여제한,중복성,복수과제 지원등과 관련 규정 준수",
+            "locator": "PDF p.27 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "표 열 순서·이미지·주석의 의미는 검토하지 않았습니다.",
+          "OCR 미수행"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
     },
     "3612e25cc29dcb80c198df4c": {
       "id": "3612e25cc29dcb80c198df4c",
@@ -10465,7 +11047,7 @@
     }
   },
   "run": {
-    "at": "2026-11-15T11:22:58+09:00",
+    "at": "2026-11-16T11:34:13+09:00",
     "status": "partial",
     "notices_attempted": 3,
     "notices_success": 3,

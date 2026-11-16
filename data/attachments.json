@@ -1,9 +1,9 @@
 {
   "schema": "public-funding-attachments/v1",
   "version": "0.4.0",
-  "generated_at": "2026-11-15T11:23:16+09:00",
+  "generated_at": "2026-11-16T11:34:33+09:00",
   "run": {
-    "at": "2026-11-15T11:23:16+09:00",
+    "at": "2026-11-16T11:34:33+09:00",
     "notice_success": 3,
     "notice_failed": 0,
     "attempted": 4,
@@ -13,7 +13,7 @@
     "failed": 0,
     "changed": 0,
     "manifest_changed": 0,
-    "queued_total": 220,
+    "queued_total": 225,
     "new_attempted": 4,
     "retry_attempted": 0,
     "revisit_attempted": 0,
@@ -17156,6 +17156,441 @@
       "last_error": null,
       "review_required": false,
       "history": []
+    },
+    "4945502b222bb52c4819b0d0": {
+      "id": "4945502b222bb52c4819b0d0",
+      "program_id": "BIZINFO-PBLN_000000000127148",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127148",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000776307&fileSn=0",
+      "name": "다운로드",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-16T11:34:33+09:00",
+      "last_success_at": "2026-11-16T11:34:33+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-11-16T11:34:33+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "9925870a17680034b226e8a51144136319ef37e7f7072fa68bceced15261feca",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "9925870a17680034b226e8a51144136319ef37e7f7072fa68bceced15261feca",
+      "sha256": "9925870a17680034b226e8a51144136319ef37e7f7072fa68bceced15261feca",
+      "extraction": {
+        "format": "pdf",
+        "parser": "pypdf/6.15.0",
+        "sha256": "9925870a17680034b226e8a51144136319ef37e7f7072fa68bceced15261feca",
+        "bytes": 219498,
+        "status": "text_extracted",
+        "text_characters": 9307,
+        "units": 41,
+        "text_sha256": "fdf8c1b2f6b53b21c8b09b3d631fec5963657460cf14d50a91a9a9f483fd990b",
+        "pages": 7,
+        "sections": null,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "3d295fa9edf2ea3fff2c",
+            "category": "documents",
+            "excerpt": "금)까지 * 기업 신청 현황에 따라 신청기한 변동 가능□유의사항 ◦참가 신청은 바이어 매칭 및 상담을 보장하지 않음◦제출서류 내용이 미비하거나 바이어 발굴용 정보가 충분하지 않은 경우,상담 매칭 대상에서 제외되거나 상담 주선이 어려울수 있음4. 향후 일정",
+            "locator": "PDF p.2 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "표 열 순서·이미지·주석의 의미는 검토하지 않았습니다.",
+          "OCR 미수행"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
+    },
+    "548c17118bc82d3afb401a9f": {
+      "id": "548c17118bc82d3afb401a9f",
+      "program_id": "BIZINFO-PBLN_000000000127158",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127158",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000776330&fileSn=0",
+      "name": "다운로드",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-16T11:34:33+09:00",
+      "last_success_at": "2026-11-16T11:34:33+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-11-16T11:34:33+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "44f2dd2dccccb246963d9e1f457eda1ab219a1e86ed9ebbda37ced5f4b11333e",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "44f2dd2dccccb246963d9e1f457eda1ab219a1e86ed9ebbda37ced5f4b11333e",
+      "sha256": "44f2dd2dccccb246963d9e1f457eda1ab219a1e86ed9ebbda37ced5f4b11333e",
+      "extraction": {
+        "format": "pdf",
+        "parser": "pypdf/6.15.0",
+        "sha256": "44f2dd2dccccb246963d9e1f457eda1ab219a1e86ed9ebbda37ced5f4b11333e",
+        "bytes": 563736,
+        "status": "text_extracted",
+        "text_characters": 8172,
+        "units": 22,
+        "text_sha256": "dee7e8bd9366b92401290081bf145b0a0264d0613a25edb254237ca3fd190d05",
+        "pages": 14,
+        "sections": null,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "fec820e5aed7cf8fe96a",
+            "category": "eligibility",
+            "excerpt": " 서비스 기반 창업*단순영농생산확대를위한시설·장비지원은지양하고,기술적용과사업화중심의창의적창업모델지원4. 사업대상 및 신청자격❍ 칠곡군에 주소지를 두고 거주하며,농산업 기술 분야로 청년농업인(만18~39세)이 대표를 맡는 5인 이상의창업(예정)법인,청년농업인 품목모임체 등으로 공공기관(농촌진흥청·농업기술원·농업기술센터 등)개발 농업 R&D기술을 활용하여 창업을추진하는 단체❍ 사업 목적에 부합하는 인력,시설,영농",
+            "locator": "PDF p.3 / text-line 1",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "3334aad16a37e2bebacc",
+            "category": "deadline",
+            "excerpt": "시범사업 이해 실천사항」온라인교육 필수 이수(http://hrd.rda.go.kr)5. 세부추진계획 가. 사업신청❍ 공고기간:2026.10.1.~10.30.❍ 신청기간:2026.10.19.~10.30.※09:00~18:00,근무시간 내 접수❍ 접 수 처:농업기술센터 농업경영과 교육경영팀(방문접수)",
+            "locator": "PDF p.3 / text-line 1",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "df259dc1772df67c05b7",
+            "category": "documents",
+            "excerpt": "❍ 제출서류:사업신청서 및 관련서류 제출(서식 참조)❍ 문 의 처:농업경영과 교육경영팀(☎[연락처 생략])❍ 신청 시 유의사항-사업추진 중 담당부서 요청시 사업자는 사업추진성과,경영성과,소득 분석 자료,경제적 파급효과 등 사업성과를 분석할 자료를 제공해야 함. 나. 사업대상자 선발❍ 사업계획 공고를 통해 사업대상자를 모집하고,신청서류(별지 1호서식)심사를 통해 사업대상자 선정-선정위원회 구성:관련분야 ",
+            "locator": "PDF p.4 / text-line 1",
+            "status": "candidate_unverified",
+            "redacted": true,
+            "context_warning": true
+          },
+          {
+            "id": "6872636891dfd38dcd3f",
+            "category": "eligibility",
+            "excerpt": "템ㅇ 생산·공정·품질관리 체계 구축을 위한 운영 시스템ㅇ 재고·물류·유통 관리 등 사업 운영을 지원하는 관리 시스템*본사업은공공연구기관R&D기술성과의사업화를목적으로하므로,단순영농생산확대또는범용적활용이가능한시설·장비는지원하지않음❍ 사업자 변경은 공모에 의한 사항이므로 원칙적으로 불가하나 자연재해,사망 등의 불가항력적인 경우에 한해 해당 농업기술원의 검토를 거친후 변경승인 요청 가능 *제5호 서식❍ 컨설팅을 통한",
+            "locator": "PDF p.5 / text-line 1",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "cdb1fcc7c8a25eae9e02",
+            "category": "documents",
+            "excerpt": "구비서류1.단체 일반현황 1부2.사업계획서 1부3.농업경영체등록증 1부4.기타 사업자 선정에 참고될 수 있는 증빙자료 1부.(ex.법인사업자등록증,고유번호증,토지 및 건물등기부등본 등)",
+            "locator": "PDF p.7 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "17a2a42e312211d093cf",
+            "category": "cofunding",
+            "excerpt": " ｢청년농업인 R&D 기술창업 통합지원｣ 사업비 이외의 용도로 사용할 수 없습니다. 3. 보조사업자는 교부신청서상의 자부담액을 우선적으로 집행하되 보조사업에 전액 집행하여야 하며 타당한 사유 없이 감액 집행한 경우에는 정산시 동률의 국고보조금을 감액 조치할 수 있습니다.4. 보조사업자는 교부받은 보조금에 대하여 별도의 계정을 설정하고 자체 수입 및 지출과 명백히 구분하여 계리하여야 합니다.5. 보조사업자는 교",
+            "locator": "PDF p.12 / text-line 1",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "9343558c2b3cb0f0c3b9",
+            "category": "documents",
+            "excerpt": "니다. ㅇ이미 교부된 보조금과 이로 인하여 발생한 이자를 더한 금액이 확정된 교부금액을 초과한 경우 그 초과액 ㅇ집행증빙서류가 집행내역과 일치하지 않을 경우에 그 차액5. 보조사업자는 보조사업의 수행과 관련된 계산서, 증거서류, 첨부서류 등 사용내역을 증명하는데 필요한 서류를 자체규정에 따라 구비하여야 하고, 당해 보조사업 종료연도부터 5년간 이를 보존하여야 합니다.6. 각 중앙관서의 장은 국고보조금 교부결정",
+            "locator": "PDF p.13 / text-line 1",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "a70be934728d29421455",
+            "category": "exclusion",
+            "excerpt": "목적: - 본인확인절차, 정책정보 등 행정서비스 제공, 업무와 관련된 통계자료 작성, 정부 보조금사업 추진과 관련된 체납액 확인 등 보조금 지급관리◦ 개인정보 수집항목: - 성명, 주민등록번호, 주소, 전화번호 등◦ 개인정보 보유 및 이용기간: 사업포기 또는 사업목적이 달성된 이후 파기 개인정보를 제공받는 대상 : 국가 및 지방행정기관 * 귀하께서는 개인정보 제공 및 활용에 거부할 권리가 있음을 알려드리며, ",
+            "locator": "PDF p.14 / text-line 1",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "표 열 순서·이미지·주석의 의미는 검토하지 않았습니다.",
+          "OCR 미수행"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
+    },
+    "36165ce33c7462a261c8d264": {
+      "id": "36165ce33c7462a261c8d264",
+      "program_id": "BIZINFO-PBLN_000000000127158",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127158",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000776341&fileSn=0",
+      "name": "다운로드",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-16T11:34:33+09:00",
+      "last_success_at": "2026-11-16T11:34:33+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-11-16T11:34:33+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "49cf2af261525252457b066522abb362c9537112cb0df8350be238bdb4d3a6e2",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "49cf2af261525252457b066522abb362c9537112cb0df8350be238bdb4d3a6e2",
+      "sha256": "49cf2af261525252457b066522abb362c9537112cb0df8350be238bdb4d3a6e2",
+      "extraction": {
+        "format": "hwpx",
+        "parser": "hwp-body/0.4.0",
+        "sha256": "49cf2af261525252457b066522abb362c9537112cb0df8350be238bdb4d3a6e2",
+        "bytes": 134400,
+        "status": "text_extracted",
+        "text_characters": 8439,
+        "units": 325,
+        "text_sha256": "332f108509f05b1bed73a0ccc2e3c684b069b1b4bff1431a17e41a611ee83d7b",
+        "pages": null,
+        "sections": 1,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "56945d2f9cf40e47ce5b",
+            "category": "eligibility",
+            "excerpt": "4. 사업대상 및 신청자격",
+            "locator": "Contents/section0.xml / paragraph 59",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "9a7d947dff16183c9613",
+            "category": "eligibility",
+            "excerpt": "❍ 칠곡군에 주소지를 두고 거주하며, 농산업 기술 분야로 청년농업인(만18~39세)이 대표를 맡는 5인 이상의 창업(예정) 법인, 청년농업인 품목모임체 등으로 공공기관(농촌진흥청· 농업기술원·농업기술센터 등) 개발 농업 R&D 기술을 활용하여 창업을 추진하는 단체",
+            "locator": "Contents/section0.xml / paragraph 60",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "0f05af0dff115931e6ef",
+            "category": "eligibility",
+            "excerpt": "* 휴 · 폐업 중인 법인, 세금 체납 및 보조금 부정수급 이력이 있는 법인은 지원 대상에서 제외",
+            "locator": "Contents/section0.xml / paragraph 62",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "dd4ab74da3a83a453299",
+            "category": "exclusion",
+            "excerpt": "* 휴 · 폐업 중인 법인, 세금 체납 및 보조금 부정수급 이력이 있는 법인은 지원 대상에서 제외",
+            "locator": "Contents/section0.xml / paragraph 62",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "a574caf52525d89c0fad",
+            "category": "deadline",
+            "excerpt": "❍ 공고기간: 2026. 10. 1. ~ 10. 30.",
+            "locator": "Contents/section0.xml / paragraph 68",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "06695a4c176525e21f31",
+            "category": "deadline",
+            "excerpt": "❍ 신청기간: 2026. 10. 19. ~ 10. 30. ※09:00~18:00, 근무시간 내 접수",
+            "locator": "Contents/section0.xml / paragraph 69",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "30fa72b0fb44a6dc9b48",
+            "category": "documents",
+            "excerpt": "❍ 제출서류: 사업신청서 및 관련서류 제출(서식 참조)",
+            "locator": "Contents/section0.xml / paragraph 71",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "8207820e05772187f26f",
+            "category": "documents",
+            "excerpt": "- 평가방법: 제출서류(계획서 등)에 대한 서면평가",
+            "locator": "Contents/section0.xml / paragraph 80",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "e24e117bf3b103811c78",
+            "category": "documents",
+            "excerpt": "* 사업대상자는 증빙자료를 반드시 제출할 것",
+            "locator": "Contents/section0.xml / paragraph 108",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "360bd102c2d887549742",
+            "category": "documents",
+            "excerpt": "구비서류",
+            "locator": "Contents/section0.xml / paragraph 223",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "2bf40af7a9f6916bcf4f",
+            "category": "documents",
+            "excerpt": "4. 기타 사업자 선정에 참고될 수 있는 증빙자료 1부.",
+            "locator": "Contents/section0.xml / paragraph 227",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "7e26f42ea6acc5a722f0",
+            "category": "cofunding",
+            "excerpt": "3. 보조사업자는 교부신청서상의 자부담액을 우선적으로 집행하되 보조사업에 전액 집행하여야 하며 타당한 사유 없이 감액 집행한 경우에는 정산시 동률의 국고보조금을 감액 조치할 수 있습니다.",
+            "locator": "Contents/section0.xml / paragraph 449",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "dd62fa1d13989a0c5d48",
+            "category": "exclusion",
+            "excerpt": "작성, 정부 보조금사업 추진과 관련된 체납액 확인 등 보조금 지급관리",
+            "locator": "Contents/section0.xml / paragraph 497",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "구역·문단 위치는 실제 인쇄 쪽번호가 아닙니다.",
+          "표 셀 관계·그림·각주 의미는 미검토"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
+    },
+    "1a055a70dde86a6471297cf3": {
+      "id": "1a055a70dde86a6471297cf3",
+      "program_id": "BIZINFO-PBLN_000000000127162",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127162",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000776344&fileSn=1",
+      "name": "다운로드",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-16T11:34:33+09:00",
+      "last_success_at": "2026-11-16T11:34:33+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-11-16T11:34:33+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "a3aa91477deef03a13001bcf0ed8c7ac884ea248c739379ed1ad22f320e4d271",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "a3aa91477deef03a13001bcf0ed8c7ac884ea248c739379ed1ad22f320e4d271",
+      "sha256": "a3aa91477deef03a13001bcf0ed8c7ac884ea248c739379ed1ad22f320e4d271",
+      "extraction": {
+        "format": "pdf",
+        "parser": "pypdf/6.15.0",
+        "sha256": "a3aa91477deef03a13001bcf0ed8c7ac884ea248c739379ed1ad22f320e4d271",
+        "bytes": 243001,
+        "status": "text_extracted",
+        "text_characters": 3479,
+        "units": 24,
+        "text_sha256": "8f50da1f21ce62045351b5ffe1de74c1e4830df7acbb48a81a8490eebfde8c16",
+        "pages": 7,
+        "sections": null,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "1378ecbbe3b191267ad8",
+            "category": "deadline",
+            "excerpt": "12일 군 산 시 장1 모 집 개 요가.공고 및 접수 ❍ 사 업 명 : 2026년 창업플랫폼(청춘미가) 지원사업 ❍ 접수기간 :‘26. 10. 12.(월) ~ 10. 30.(금) 18:00까지 ❍ 선발인원 : 예비창업가 1명(팀) ❍ 접수방법 - 방 문 접수 : 군산시청 6층 기업지원과 - 이메일 접수 : [연락처 생략] ※이메일로 신청 시 지원서류에 도장 또는 서명 필수나.추진일정(안",
+            "locator": "PDF p.1 / text-line 1",
+            "status": "candidate_unverified",
+            "redacted": true,
+            "context_warning": true
+          },
+          {
+            "id": "669d2c54de4dba85b72c",
+            "category": "documents",
+            "excerpt": "정 예정 - 서류심사 시, 사업계획서상 사업 아이템 및 사업 운영계획 타당성 심사 ❍ 서류평가 가점 항목 및 점수 ※증빙서류 미제출시 불인정연번가점 세부 항목점수 1외식업에 종사한 경험이 6개월 이상 1년 미만인 자1점2외식업에 종사한 경험이 1년 이상 2년 미만인 자2점3외식업에 종사한 경험이 2년 이상인 자 3점4조리사 관련 자격증 소지자3점5전문기관에서 외식‧조리 관련 교육 수료 및 졸업자2점6지역 농축",
+            "locator": "PDF p.2 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "e3cd75625b2bd80ebea9",
+            "category": "exclusion",
+            "excerpt": "신청 제외 대상• 타 정부(중앙, 지방) 및 공공기관에서 동일한 내용의 지원사업을 수행 중인 자• 채무불이행으로 규제 중이거나 국세 또는 지방세 체납으로 규제 중인 자 등 군산시장이 참여 제한의 사유가 있다고 인정하는 자• 공고일 기준 대학교(대학원) 재학생(졸업예정자, 유예자, 휴학생)",
+            "locator": "PDF p.2 / text-line 5",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "ff167fb2c2b3865d1b9a",
+            "category": "documents",
+            "excerpt": "❍제출서류※ 본인 주민등록번호 13자리 숫자 모두 기재, 공고일 이후 발급하여 제출연번서류명비고1참가신청서 1부 [서식1] 공통2사업계획서 1부 [서식2] 공통3개인정보 수집·이용·제공·조회 동의서 1부 [서식3]공통4주민등록 등본 또는 초본 1부 공통5국세·지방세 납세증명서 1부 공통6사업자 미등록 사실 증명 1부 공통7관련분야 경력증명서 및 자격증 사본 각 1부해당자8관련분야 교육수료 및 졸업 증빙자료 각",
+            "locator": "PDF p.3 / text-line 1",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "표 열 순서·이미지·주석의 의미는 검토하지 않았습니다.",
+          "OCR 미수행"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
+    },
+    "6cd0dbbb2eefcab2f0887deb": {
+      "id": "6cd0dbbb2eefcab2f0887deb",
+      "program_id": "BIZINFO-PBLN_000000000127162",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127162",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000776345&fileSn=1",
+      "name": "다운로드",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
     }
   },
   "programs": {
@@ -18464,6 +18899,44 @@
       "document_ids": [
         "db47529d083b0c4be6582d79",
         "96faab6fba4fb12d86b009ab"
+      ],
+      "review_required": false,
+      "last_error": null
+    },
+    "BIZINFO-PBLN_000000000127148": {
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127148",
+      "last_notice_attempt_at": "2026-11-16T11:34:33+09:00",
+      "last_notice_success_at": "2026-11-16T11:34:33+09:00",
+      "notice_status": "links_available",
+      "manifest_sha256": "59c3d417d6a2149e85e0d4cccf9f0abe194d875e876e8e9bb60553a2fb005900",
+      "document_ids": [
+        "4945502b222bb52c4819b0d0"
+      ],
+      "review_required": false,
+      "last_error": null
+    },
+    "BIZINFO-PBLN_000000000127158": {
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127158",
+      "last_notice_attempt_at": "2026-11-16T11:34:33+09:00",
+      "last_notice_success_at": "2026-11-16T11:34:33+09:00",
+      "notice_status": "links_available",
+      "manifest_sha256": "ab09fcede565fc04410cbf25c83cef544031588a20c01bdf67177aa41cb93b58",
+      "document_ids": [
+        "548c17118bc82d3afb401a9f",
+        "36165ce33c7462a261c8d264"
+      ],
+      "review_required": false,
+      "last_error": null
+    },
+    "BIZINFO-PBLN_000000000127162": {
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127162",
+      "last_notice_attempt_at": "2026-11-16T11:34:33+09:00",
+      "last_notice_success_at": "2026-11-16T11:34:33+09:00",
+      "notice_status": "links_available",
+      "manifest_sha256": "931d70b0f41cf6abeeccb087d753c0b1999658ffdb29baa0d4ddcedb02033b18",
+      "document_ids": [
+        "1a055a70dde86a6471297cf3",
+        "6cd0dbbb2eefcab2f0887deb"
       ],
       "review_required": false,
       "last_error": null

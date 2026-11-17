@@ -1,7 +1,7 @@
 {
   "schema": "public-funding-agency-evidence/v1",
   "version": "0.17.0",
-  "generated_at": "2026-11-16T11:34:13+09:00",
+  "generated_at": "2026-11-17T13:57:43+09:00",
   "model_calls": 0,
   "automatic_approval": false,
   "scope": "기관 직접 목록의 원문 최대 3건·첨부 최대 4건 순환 확인. 본문 추출은 조건 후보이며 신청자격·금액·중복지원·문서 완전성 검증이 아닙니다. 기존 공고와 검토 규칙은 수정하지 않습니다.",
@@ -119,9 +119,9 @@
       "source": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1071646",
       "title": "「2026년 스마트제조혁신 유공」 포상 후보자 모집 추가 공고",
       "listing_fingerprint": "66427605d60ba5142e2035b08198c603858def3a8d80b5436337c66b12d9dd0b",
-      "listing_seen_at": "2026-11-13T12:07:44+09:00",
-      "last_attempt_at": "2026-11-13T12:07:50+09:00",
-      "last_success_at": "2026-11-13T12:07:50+09:00",
+      "listing_seen_at": "2026-11-17T13:57:36+09:00",
+      "last_attempt_at": "2026-11-17T13:57:43+09:00",
+      "last_success_at": "2026-11-17T13:57:43+09:00",
       "status": "html_available",
       "last_error": null,
       "review_required": false,
@@ -142,6 +142,13 @@
         }
       ],
       "history": [
+        {
+          "at": "2026-11-17T13:57:43+09:00",
+          "status": "html_available",
+          "body_sha256": "9c6792dc87875cca4c169f2b3240b29755330c003f7ff9bfe030aa5dd21f2821",
+          "manifest_sha256": "e18299fdfba89c2dafa495d6bc78962acf08c4ee2961d80f5fbe3e7bb6455ec0",
+          "error": null
+        },
         {
           "at": "2026-11-13T12:07:50+09:00",
           "status": "html_available",
@@ -165,13 +172,6 @@
         },
         {
           "at": "2026-11-02T11:04:10+09:00",
-          "status": "html_available",
-          "body_sha256": "9c6792dc87875cca4c169f2b3240b29755330c003f7ff9bfe030aa5dd21f2821",
-          "manifest_sha256": "e18299fdfba89c2dafa495d6bc78962acf08c4ee2961d80f5fbe3e7bb6455ec0",
-          "error": null
-        },
-        {
-          "at": "2026-10-30T20:57:46+09:00",
           "status": "html_available",
           "body_sha256": "9c6792dc87875cca4c169f2b3240b29755330c003f7ff9bfe030aa5dd21f2821",
           "manifest_sha256": "e18299fdfba89c2dafa495d6bc78962acf08c4ee2961d80f5fbe3e7bb6455ec0",
@@ -369,9 +369,9 @@
       "source": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1072172",
       "title": "2027년도 초기창업·창업도약 패키지 사업 신규 주관기관 모집 공고",
       "listing_fingerprint": "839b08d2c2662479ecc73450e79c356d9d2cc4082e50a89080f2e2643f866eaf",
-      "listing_seen_at": "2026-11-12T12:35:11+09:00",
-      "last_attempt_at": "2026-11-12T12:35:18+09:00",
-      "last_success_at": "2026-11-12T12:35:18+09:00",
+      "listing_seen_at": "2026-11-17T13:57:36+09:00",
+      "last_attempt_at": "2026-11-17T13:57:43+09:00",
+      "last_success_at": "2026-11-17T13:57:43+09:00",
       "status": "html_available",
       "last_error": null,
       "review_required": false,
@@ -392,6 +392,13 @@
         }
       ],
       "history": [
+        {
+          "at": "2026-11-17T13:57:43+09:00",
+          "status": "html_available",
+          "body_sha256": "86167596803f649745cf1f3dff49a34f05c362798dd6104fc161133f4a42785f",
+          "manifest_sha256": "dda5de4d5413b1c489ac9e4f67493ff7d97958deb224af95b7ca08743f8e6149",
+          "error": null
+        },
         {
           "at": "2026-11-12T12:35:18+09:00",
           "status": "html_available",
@@ -958,9 +965,9 @@
       "source": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16866&tab=2",
       "title": "특화 인공지능 파운데이션 모델 개발(사이버 보안 분야) 사업 공고",
       "listing_fingerprint": "dfce59a9f7aa1746704eb09967ef39b0e363238c79abee84aa2c8812407b7bfd",
-      "listing_seen_at": "2026-11-04T11:53:32+09:00",
-      "last_attempt_at": "2026-11-04T11:53:40+09:00",
-      "last_success_at": "2026-11-04T11:53:40+09:00",
+      "listing_seen_at": "2026-11-17T13:57:36+09:00",
+      "last_attempt_at": "2026-11-17T13:57:43+09:00",
+      "last_success_at": "2026-11-17T13:57:43+09:00",
       "status": "html_available",
       "last_error": null,
       "review_required": false,
@@ -993,6 +1000,13 @@
         }
       ],
       "history": [
+        {
+          "at": "2026-11-17T13:57:43+09:00",
+          "status": "html_available",
+          "body_sha256": "4ea51de77350f0e175fe17c99b4af21abc6dccd70c7e8a64fa028a75bf86996f",
+          "manifest_sha256": "841c9f215503a3ff4db8e047b2b835d2a72d913ce94d6f7c6d772bd74b5efb03",
+          "error": null
+        },
         {
           "at": "2026-11-04T11:53:40+09:00",
           "status": "html_available",
@@ -9116,11 +9130,18 @@
       "url": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16866&tab=2",
       "name": "붙임_1._특화_인공지능_파운데이션_모델_개발(사이버보안_분야)_사업_공고문.hwp",
       "status": "text_extracted",
-      "last_attempt_at": "2026-11-04T11:53:40+09:00",
-      "last_success_at": "2026-11-04T11:53:40+09:00",
+      "last_attempt_at": "2026-11-17T13:57:43+09:00",
+      "last_success_at": "2026-11-17T13:57:43+09:00",
       "last_error": null,
       "review_required": false,
       "history": [
+        {
+          "at": "2026-11-17T13:57:43+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "3bb9ff3870094af6ec04498648f98e62d7bc475e2b95c7954e6586dfcbb073ab",
+          "http_status": null,
+          "failure_kind": null
+        },
         {
           "at": "2026-11-04T11:53:40+09:00",
           "status": "text_extracted",
@@ -9280,11 +9301,18 @@
       "url": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16866&tab=2",
       "name": "붙임_4._제출서류_양식.hwp",
       "status": "text_extracted",
-      "last_attempt_at": "2026-11-04T11:53:40+09:00",
-      "last_success_at": "2026-11-04T11:53:40+09:00",
+      "last_attempt_at": "2026-11-17T13:57:43+09:00",
+      "last_success_at": "2026-11-17T13:57:43+09:00",
       "last_error": null,
       "review_required": false,
       "history": [
+        {
+          "at": "2026-11-17T13:57:43+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "24a23822ae3c72734a02e3ad8d4c20e78ce6d2d0f4584d8033eab27ceb9a6d56",
+          "http_status": null,
+          "failure_kind": null
+        },
         {
           "at": "2026-11-04T11:53:40+09:00",
           "status": "text_extracted",
@@ -9542,12 +9570,163 @@
       "notice_source": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16866&tab=2",
       "url": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16866&tab=2",
       "name": "붙임_3._특화_인공지능_파운데이션_모델_개발(사이버_보안_분야)_사업계획서(양식).hwp",
-      "status": "queued",
-      "last_attempt_at": null,
-      "last_success_at": null,
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-17T13:57:43+09:00",
+      "last_success_at": "2026-11-17T13:57:43+09:00",
       "last_error": null,
       "review_required": false,
-      "history": []
+      "history": [
+        {
+          "at": "2026-11-17T13:57:43+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "ec646d4e52de331e60b34e5b3258e96df11c3d5b8b2b8e4690fc0d085db672b6",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "ec646d4e52de331e60b34e5b3258e96df11c3d5b8b2b8e4690fc0d085db672b6",
+      "sha256": "ec646d4e52de331e60b34e5b3258e96df11c3d5b8b2b8e4690fc0d085db672b6",
+      "extraction": {
+        "format": "hwp",
+        "parser": "olefile/0.47+hwp-body/0.4.0",
+        "sha256": "ec646d4e52de331e60b34e5b3258e96df11c3d5b8b2b8e4690fc0d085db672b6",
+        "bytes": 238080,
+        "status": "text_extracted",
+        "text_characters": 20383,
+        "units": 1965,
+        "text_sha256": "c5e7955f1deb5fb46ca415f109c218e8943484f0cdeef97e6eafc6072e2776d4",
+        "pages": null,
+        "sections": 5,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "4341e39f63569018f940",
+            "category": "amount",
+            "excerpt": "정부출연금(A)",
+            "locator": "BodyText/Section0 / record 462 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "c3fe0eead05a92ab7021",
+            "category": "cofunding",
+            "excerpt": "민간부담금",
+            "locator": "BodyText/Section0 / record 475 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "a40e28f7c38a943287e5",
+            "category": "cofunding",
+            "excerpt": "현물(C)",
+            "locator": "BodyText/Section0 / record 485 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "a6f052bf3d4648f70382",
+            "category": "amount",
+            "excerpt": "지원규모",
+            "locator": "BodyText/Section0 / record 576 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "1a96e134663ad7aec001",
+            "category": "documents",
+            "excerpt": "붙임 : 필수제출 서류 등 관련문서 각 1부",
+            "locator": "BodyText/Section0 / record 596 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "b51b8d6f6a541ebb5c0d",
+            "category": "cofunding",
+            "excerpt": "2. 기관별 정부출연금 배분 및 민간부담금 분담 내역 00",
+            "locator": "BodyText/Section0 / record 804 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "37cfce7cb72af166571a",
+            "category": "amount",
+            "excerpt": "2. 기관별 정부출연금 배분 및 민간부담금 분담 내역 00",
+            "locator": "BodyText/Section0 / record 804 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "da7f8fd896082ebed4d4",
+            "category": "cofunding",
+            "excerpt": "- 인건비는 과제를 직접 수행하는 참여인력에 한해서만 계상 가능(현물은 협약일 현재 근무 인력만 편성 가능)",
+            "locator": "BodyText/Section0 / record 881 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "96800c21c6b208080cb0",
+            "category": "documents",
+            "excerpt": "※ 사업비 정산시 기자재 구입 등 개별 집행건별로 증빙서류를 갖추어 세부내역을 입증해야 함",
+            "locator": "BodyText/Section0 / record 913 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "af9ccad7992c3894fc3f",
+            "category": "cofunding",
+            "excerpt": "○ 사업수행기관 컨소시엄은 과제 수행에 따른 민간부담금(현금,현물)를 공모안내서에 기재된 민간부담금 비율에 따라 부담",
+            "locator": "BodyText/Section0 / record 961 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "45dbbf21189a12d670ae",
+            "category": "amount",
+            "excerpt": "- 접수 마감일 현재 정부지원과제의 참여제한의 적용을 받고 있는 기관(기업), 대표자, 총괄책임자는 과제 신청 및 참여 불가",
+            "locator": "BodyText/Section0 / record 1053 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "92ad46a43495dc217478",
+            "category": "deadline",
+            "excerpt": "- 접수 마감일 현재 정부지원과제의 참여제한의 적용을 받고 있는 기관(기업), 대표자, 총괄책임자는 과제 신청 및 참여 불가",
+            "locator": "BodyText/Section0 / record 1053 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "40222219acd6fa30ea7f",
+            "category": "amount",
+            "excerpt": "- 정부출연금 : 천원 / 민간부담금 : 천원",
+            "locator": "BodyText/Section0 / record 1158 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "구역·레코드 위치는 실제 인쇄 쪽번호가 아닙니다.",
+          "표·그림·각주 의미와 문서의 모든 제외조건은 미검토"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
     },
     "abbb6856d5b954c00bec09b8": {
       "id": "abbb6856d5b954c00bec09b8",
@@ -9555,12 +9734,262 @@
       "notice_source": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16866&tab=2",
       "url": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16866&tab=2",
       "name": "붙임_2._특화_인공지능_파운데이션_모델_개발(사이버보안_분야)_사업_공모_안내서.hwp",
-      "status": "queued",
-      "last_attempt_at": null,
-      "last_success_at": null,
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-17T13:57:43+09:00",
+      "last_success_at": "2026-11-17T13:57:43+09:00",
       "last_error": null,
       "review_required": false,
-      "history": []
+      "history": [
+        {
+          "at": "2026-11-17T13:57:43+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "b8dca08adfb212ffcfed282eecf6f99a1b6e8d7082aa34c2338e93c6fad1d249",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "b8dca08adfb212ffcfed282eecf6f99a1b6e8d7082aa34c2338e93c6fad1d249",
+      "sha256": "b8dca08adfb212ffcfed282eecf6f99a1b6e8d7082aa34c2338e93c6fad1d249",
+      "extraction": {
+        "format": "hwp",
+        "parser": "olefile/0.47+hwp-body/0.4.0",
+        "sha256": "b8dca08adfb212ffcfed282eecf6f99a1b6e8d7082aa34c2338e93c6fad1d249",
+        "bytes": 199168,
+        "status": "text_extracted",
+        "text_characters": 24580,
+        "units": 873,
+        "text_sha256": "09dd9041c362f05746182d6c3763574fae6050f763852d4adf66804e1799932d",
+        "pages": null,
+        "sections": 1,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "60e92938e8b9970346b9",
+            "category": "cofunding",
+            "excerpt": "2. 민간부담금 비율 14",
+            "locator": "BodyText/Section0 / record 251 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "db357b8c12a62dd653d4",
+            "category": "cofunding",
+            "excerpt": "3. 민간부담금 사업비 편성 기준 15",
+            "locator": "BodyText/Section0 / record 255 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "bb58553f4cc00f31aa57",
+            "category": "eligibility",
+            "excerpt": "󰊱 (지원대상) 국내 AI·사이버보안 관련 기업‧대학·연구기관 등",
+            "locator": "BodyText/Section0 / record 567 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "d2475808c10eee2734d8",
+            "category": "amount",
+            "excerpt": "※ 연구기관은 「과학기술분야 정부출연연구기관 등의 설립·운영 및 육성에 관한 법률」 제2조에 따른 연구기관을 의미",
+            "locator": "BodyText/Section0 / record 589 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "bfb03f4cb1c02b6b614e",
+            "category": "amount",
+            "excerpt": "󰊲 (지원규모) GPU(B200) 256장(32노드) / 1개 과제",
+            "locator": "BodyText/Section0 / record 603 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "cadedae16839ee43aa88",
+            "category": "cofunding",
+            "excerpt": "참여팀에 GPU 제공 + 자부담은 오픈소스向 차등 적용",
+            "locator": "BodyText/Section0 / record 885 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "1d791cf1a0bd8def15e8",
+            "category": "cofunding",
+            "excerpt": "󰊲 (매칭) 기업규모와 오픈소스 수준에 따라 자부담 차등 적용",
+            "locator": "BodyText/Section0 / record 899 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "30660ad18dbdbb7029b7",
+            "category": "eligibility",
+            "excerpt": "ㅇ 국정과제 23. 국민의 안전과 보편적 삶의 질 제고 위한 ‘AI 기본사회’ 실현",
+            "locator": "BodyText/Section0 / record 978 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "7d17647b44603abc46a2",
+            "category": "eligibility",
+            "excerpt": "※ 지원과제 개요, 지원자격, 지원대상, 지원내용 등 공고",
+            "locator": "BodyText/Section0 / record 1367 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "5f50a9d08810fe43b651",
+            "category": "cofunding",
+            "excerpt": "ㆍ자부담 납부",
+            "locator": "BodyText/Section0 / record 1495 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "58c19df9a9430d05b716",
+            "category": "eligibility",
+            "excerpt": "지원대상",
+            "locator": "BodyText/Section0 / record 1893 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "6a4486dc407cf509e82d",
+            "category": "amount",
+            "excerpt": "지원규모",
+            "locator": "BodyText/Section0 / record 1954 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "5f4bd312d0d8e5667234",
+            "category": "amount",
+            "excerpt": "지원규모 및 지원기간",
+            "locator": "BodyText/Section0 / record 1977 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "414cf8eded3e8276aaf4",
+            "category": "amount",
+            "excerpt": "GPU 지원규모",
+            "locator": "BodyText/Section0 / record 1996 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "f85684a9f3fd9a24e9c8",
+            "category": "eligibility",
+            "excerpt": "□ 지원대상 : (주관) 국내 AI·사이버보안 관련 기업·대학·연구기관",
+            "locator": "BodyText/Section0 / record 2162 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "ace47d6d4f4e5b83d0f4",
+            "category": "overlap",
+            "excerpt": "(참여) 연구실 단위를 1개 기관 기준으로 하되, 한 기관(연구실 단위)이 복수 컨소시엄에 참여 불가하고 참여인력의 중복지원도 불가",
+            "locator": "BodyText/Section0 / record 2324 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "a3e651725dfdabe6d587",
+            "category": "overlap",
+            "excerpt": "① 본 사업에 대한 중복 지원 불가",
+            "locator": "BodyText/Section0 / record 2343 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "c458f46e4b0f269b92e4",
+            "category": "exclusion",
+            "excerpt": "- 1개 기업이 중복 지원한 것이 확인될 경우, 1개 기업을 제외한 나머지 기업의 과제 참여 구성원에서 해당 기업을 배제(참여 포기 각서 제출 등)하고 적합성 검토, 서면평가, 발표평가를 진행할 수 있음",
+            "locator": "BodyText/Section0 / record 2354 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "4d70b7bcd9a518c62fb1",
+            "category": "overlap",
+            "excerpt": "- 1개 기업이 중복 지원한 것이 확인될 경우, 1개 기업을 제외한 나머지 기업의 과제 참여 구성원에서 해당 기업을 배제(참여 포기 각서 제출 등)하고 적합성 검토, 서면평가, 발표평가를 진행할 수 있음",
+            "locator": "BodyText/Section0 / record 2354 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "2e4d7f697229c5ab68f6",
+            "category": "documents",
+            "excerpt": "- 사업비 집행내역은 관련 증빙자료와 함께 관리해야 하며, 추후 정산 요구 시 제출",
+            "locator": "BodyText/Section0 / record 3538 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "1203b71f532de357aeb5",
+            "category": "documents",
+            "excerpt": "www.nipa.kr) → 특화 인공지능 파운데이션 모델 개발(사이버 보안 분야) 사업 → ‘사업계획서 작성안내 및 제출서류(양식)’ 다운로드 후 작성",
+            "locator": "BodyText/Section0 / record 3732 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "fecbc9cc9861cd83e396",
+            "category": "deadline",
+            "excerpt": "ㅇ 전산 접수 마감시한 : 2026. 8. 21.(금) 14:00 까지",
+            "locator": "BodyText/Section0 / record 3739 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "e3024aa76abc7dcd6c15",
+            "category": "documents",
+            "excerpt": "- 모든 제출서류는 ‘PDF’ 파일로 제출하며, 각각 별도 파일로 제출",
+            "locator": "BodyText/Section0 / record 3819 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "e8767696b695baa64d6b",
+            "category": "exclusion",
+            "excerpt": "- 컨소시엄 기관 등이 신청 자격 제외 대상에 해당하는지 사전 자체 검증 바람(해당될 경우 전산 접수 불가)",
+            "locator": "BodyText/Section0 / record 3831 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "구역·레코드 위치는 실제 인쇄 쪽번호가 아닙니다.",
+          "표·그림·각주 의미와 문서의 모든 제외조건은 미검토"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
     },
     "1ae791718a4004ebb99c040e": {
       "id": "1ae791718a4004ebb99c040e",
@@ -11047,7 +11476,7 @@
     }
   },
   "run": {
-    "at": "2026-11-16T11:34:13+09:00",
+    "at": "2026-11-17T13:57:43+09:00",
     "status": "partial",
     "notices_attempted": 3,
     "notices_success": 3,

@@ -1,6 +1,6 @@
 {
   "schema": "public-funding-radar/v1",
-  "generated_at": "2026-11-14T11:53:34+09:00",
+  "generated_at": "2026-11-17T13:56:27+09:00",
   "provenance": "공식기관 공개 공고 및 2026년 참고 제도. 2027년 미확정 사항은 자동 승격하지 않음.",
   "disclaimer": "본 자료는 신청·선정을 보장하지 않으며 최신 원문 확인 필요.",
   "items": [
@@ -5654,6 +5654,34 @@
         {
           "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000779768&fileSn=1",
           "name": "[공고문] 2027년 농촌창업 경진대회 공고문(최종).hwpx",
+          "status": "link_only_not_read"
+        }
+      ]
+    },
+    {
+      "id": "BIZINFO-PBLN_000000000127939",
+      "title": "[제주] AI 데이터 기반 위기징후 알람모형 지원 사업 시행 공고",
+      "year": 2026,
+      "years": [],
+      "year_basis": "collection_year_inferred",
+      "kind": "경영",
+      "mode": "discovery",
+      "relevance": "ai",
+      "opens": null,
+      "deadline": null,
+      "deadline_precision": "unknown",
+      "application_period_raw": "예산 소진시까지",
+      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127939",
+      "verified_at": "2026-11-17",
+      "amount": "지원금액 · 공고 원문 확인 필요",
+      "eligibility": "소상공인",
+      "note": "공식 API 목록 발견. 신청자격·지원금·첨부 조건은 검증 전입니다.",
+      "source_level": "official_api_index_not_full_application_verified",
+      "agency": "제주특별자치도",
+      "attachments": [
+        {
+          "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000779931&fileSn=0",
+          "name": "AI+데이터+기반「위기징후+알람모형」지원+사업+시행+공고.hwpx",
           "status": "link_only_not_read"
         }
       ]

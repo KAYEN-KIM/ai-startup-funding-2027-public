@@ -1,19 +1,19 @@
 {
   "schema": "public-funding-attachments/v1",
   "version": "0.4.0",
-  "generated_at": "2026-11-16T11:34:33+09:00",
+  "generated_at": "2026-11-17T13:58:00+09:00",
   "run": {
-    "at": "2026-11-16T11:34:33+09:00",
+    "at": "2026-11-17T13:58:00+09:00",
     "notice_success": 3,
     "notice_failed": 0,
     "attempted": 4,
-    "text_extracted": 4,
+    "text_extracted": 3,
     "partial_or_no_text": 0,
-    "blocked_or_unsupported": 0,
+    "blocked_or_unsupported": 1,
     "failed": 0,
     "changed": 0,
     "manifest_changed": 0,
-    "queued_total": 225,
+    "queued_total": 231,
     "new_attempted": 4,
     "retry_attempted": 0,
     "revisit_attempted": 0,
@@ -17585,12 +17585,690 @@
       "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127162",
       "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000776345&fileSn=1",
       "name": "다운로드",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-17T13:58:00+09:00",
+      "last_success_at": "2026-11-17T13:58:00+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-11-17T13:58:00+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "6a77bbc213dce93378630585aa17aaa66fcd20649b390932d02ba5e5b55f6d29",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "6a77bbc213dce93378630585aa17aaa66fcd20649b390932d02ba5e5b55f6d29",
+      "sha256": "6a77bbc213dce93378630585aa17aaa66fcd20649b390932d02ba5e5b55f6d29",
+      "extraction": {
+        "format": "hwpx",
+        "parser": "hwp-body/0.4.0",
+        "sha256": "6a77bbc213dce93378630585aa17aaa66fcd20649b390932d02ba5e5b55f6d29",
+        "bytes": 100686,
+        "status": "text_extracted",
+        "text_characters": 3386,
+        "units": 200,
+        "text_sha256": "24b0464a548b6a7030ae13d1c9c6298f262d51e69ead58766fb8c768c1b5d53c",
+        "pages": null,
+        "sections": 1,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "453c7c5b30f235b8f046",
+            "category": "deadline",
+            "excerpt": "❍ 접수기간 :‘26. 10. 12.(월) ~ 10. 30.(금) 18:00까지",
+            "locator": "Contents/section0.xml / paragraph 18",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "610cf7869b82f790a8ad",
+            "category": "exclusion",
+            "excerpt": "신청 제외 대상",
+            "locator": "Contents/section0.xml / paragraph 54",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "1b6b262b98d2340954a6",
+            "category": "exclusion",
+            "excerpt": "• 채무불이행으로 규제 중이거나 국세 또는 지방세 체납으로 규제 중인 자 등",
+            "locator": "Contents/section0.xml / paragraph 59",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "05170d3d43260f2a2722",
+            "category": "documents",
+            "excerpt": "❍ 서류평가 가점 항목 및 점수 ※증빙서류 미제출시 불인정",
+            "locator": "Contents/section0.xml / paragraph 78",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "586c248c8388a53a1560",
+            "category": "documents",
+            "excerpt": "❍ 제출서류 ※ 본인 주민등록번호 13자리 숫자 모두 기재, 공고일 이후 발급하여 제출",
+            "locator": "Contents/section0.xml / paragraph 104",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "f812f05079c15cebd821",
+            "category": "documents",
+            "excerpt": "관련분야 교육수료 및 졸업 증빙자료 각 1부",
+            "locator": "Contents/section0.xml / paragraph 131",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "구역·문단 위치는 실제 인쇄 쪽번호가 아닙니다.",
+          "표 셀 관계·그림·각주 의미는 미검토"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
+    },
+    "711bc9fd38322498d27fd1fd": {
+      "id": "711bc9fd38322498d27fd1fd",
+      "program_id": "BIZINFO-PBLN_000000000127175",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127175",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000776471&fileSn=1",
+      "name": "다운로드",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-17T13:58:00+09:00",
+      "last_success_at": "2026-11-17T13:58:00+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-11-17T13:58:00+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "2747bdb27d04e3dec88764147d02bac2f4b33577bc1a3e84c8fc71a99d191e36",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "2747bdb27d04e3dec88764147d02bac2f4b33577bc1a3e84c8fc71a99d191e36",
+      "sha256": "2747bdb27d04e3dec88764147d02bac2f4b33577bc1a3e84c8fc71a99d191e36",
+      "extraction": {
+        "format": "pdf",
+        "parser": "pypdf/6.15.0",
+        "sha256": "2747bdb27d04e3dec88764147d02bac2f4b33577bc1a3e84c8fc71a99d191e36",
+        "bytes": 399734,
+        "status": "text_extracted",
+        "text_characters": 10390,
+        "units": 34,
+        "text_sha256": "fb0f7612b40bd55e59ff8b48b346bd82749a0f2b46473b71fe7aa64a30ebdcc3",
+        "pages": 16,
+        "sections": null,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "ffea7c8844cad11170fe",
+            "category": "eligibility",
+            "excerpt": "한국디지털헬스케어진흥재단에서는 창업도시 추진단 프로그램 운영 사업의 일환으로 디지털 헬스케어 분야 유망 스타트업 및 창업기업을 육성하고 AI헬스케어 산업 생태계를 활성화하기 위해 ｢",
+            "locator": "PDF p.1 / text-line 1",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "c090b0d2e51cb50d8d41",
+            "category": "eligibility",
+            "excerpt": "털 헬스케어 기업의 기술 고도화 및 임상 유효성 검증을 촉진하고,산업의 성공적인 상용화와 혁신 생태계 확산 도모□ (지원대상)광주 지역 소재*헬스케어 제품 및 서비스 고도화를 희망하는 초기 AI헬스케어 분야 스타트업(7년 이내) * 지역 소재 판단 기준 : 사업자등록증상 광주 내 본사, 공장, 지사, 사업장, 연구소 중 1개 이상 소재 * 지원사업 종료시까지 해당 지역에 이전계획 있을 시 이전확약서 서류 제출",
+            "locator": "PDF p.1 / text-line 3",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "2e94bb0e6e76803ae482",
+            "category": "overlap",
+            "excerpt": "(지원기간)협약일 ~2027.02.28.□ (지원방법)선정평가 →협약 →사업수행 →최종평가□ (지원내용) 프로그램별 중복지원 불가지원 프로그램명지원 대상내용지원규모(VAT 제외)① 제품·서비스 고도화 기업 실증 연계 지원제품 및 서비스 개발/고도화를 진행 중인 스타트업현장 기반의 실증검증 지원 기업당 10,000천원 / 총 4개社② 스타트업 즉시 실증 지원실증 준비가 완료된 스타트업신속 실증 수행 지원 기업당",
+            "locator": "PDF p.1 / text-line 3",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "7ee5316b9f55f1bcc0de",
+            "category": "cofunding",
+            "excerpt": "/ 총 4개社※ 상세내용은 지원프로그램별 별첨 자료 참조(6p~), 부가가치세(VAT) 및 지원금 초과 비용은 기업 자부담※ 데이터 활용 실증을 위한 피험자 리워드 비용 필수 산정- ① 제품·서비스 고도화 기업 실증 연계 지원 : 40%, ② 스타트업 즉시 실증 지원 : 80%, ③ 없음",
+            "locator": "PDF p.1 / text-line 3",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "59288b62de4da9654ea8",
+            "category": "amount",
+            "excerpt": "□ (지원방법)선정평가 →협약 →사업수행 →최종평가□ (지원내용) 프로그램별 중복지원 불가지원 프로그램명지원 대상내용지원규모(VAT 제외)① 제품·서비스 고도화 기업 실증 연계 지원제품 및 서비스 개발/고도화를 진행 중인 스타트업현장 기반의 실증검증 지원 기업당 10,000천원 / 총 4개社② 스타트업 즉시 실증 지원실증 준비가 완료된 스타트업신속 실증 수행 지원 기업당 10,000천원 / 총 4개社③ 1:1",
+            "locator": "PDF p.1 / text-line 3",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "e3d01901a0be6b5813c0",
+            "category": "documents",
+            "excerpt": "❷선정개요 평가방법◦(1차)지원자격 및 제출서류 기반 자격요건 검토 -‘적정’기업에 한하여 2차 평가 진행◦(2차)프로그램별 신청서,증빙서류를 통한 서면평가◦신청기업이 제출한 사업계획의 세부내용을 평가항목에 따라 검토평가항목평가항목배점1기업역량- 해당 산업분야 R&D 역량 및 과제 수행 능력- 핵심 제품(기술) 보유 현황 및 보유 기술 수준의 우위성- 예비 수혜기업의 사업화 및 기술 역량202계획 적정성- ",
+            "locator": "PDF p.2 / text-line 1",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "0a25d6be7ecd6b9e3bb2",
+            "category": "eligibility",
+            "excerpt": "ail 접수예비진단 및 사전검토(26. 11. 02. 예정) 자격검토 및 신청 기업 사전 검토⇩-(1차) 자격검토 (지원대상, 참여제한 등)-(2차) 평가점수 70점 이상 고득점 순 우선 지원대상 선정 및 지원금 확정선정평가(26. 11. 04. 예정) 내·외부 전문가에 의한 평가⇩- 지역 관련 내·외부 전문가 3인 이상 선정평가위원회를 구성하여 평가협약 및 사업수행협약 및 사업수행⇩- 지원프로그램별 사업 수",
+            "locator": "PDF p.3 / text-line 1",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "13593949975d749f57e4",
+            "category": "amount",
+            "excerpt": "검토⇩-(1차) 자격검토 (지원대상, 참여제한 등)-(2차) 평가점수 70점 이상 고득점 순 우선 지원대상 선정 및 지원금 확정선정평가(26. 11. 04. 예정) 내·외부 전문가에 의한 평가⇩- 지역 관련 내·외부 전문가 3인 이상 선정평가위원회를 구성하여 평가협약 및 사업수행협약 및 사업수행⇩- 지원프로그램별 사업 수행기간이 상이할 수 있음중간 모니터링(협약 기간 내 상시) 사업 진행 상황 중간 모니터링(",
+            "locator": "PDF p.3 / text-line 1",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "10b5df0f838b66bdc3c6",
+            "category": "documents",
+            "excerpt": "황 중간 모니터링(상시)⇩- 상시 진도점검 및 중간 점검 시행(현장점검)결과보고서 제출 결과보고서 제출(수행결과물, 증빙서류 등)⇩- 수혜기업은 사업계획서 기준 사업 종료일 이후 10일 이내 지원기관에 결과보고서 제출최종평가지원사업 최종 평가 실시⇩- 결과보고서 및 서류 기반의 최종평가 진행- 지역 내외 관련 전문가 5인 내외 최종평가위원회를 구성하여 평가 실시결과보고서 보완 제출(27. 2. 1. ~ 2. ",
+            "locator": "PDF p.3 / text-line 1",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "bdd4ac028c1af581071d",
+            "category": "eligibility",
+            "excerpt": "※ 필수서류 누락 등 제출 의무사항 불이행 시, 평가대상 제외◦지원 제외대상※ 사전 지원 제외① 사전검토 결과 사업 신청자격요건 및 기타 신청 제한사항으로 다음 각 호의 하나에 해당되는 경우 1. 광주창조경제혁신센터 및 한국디지털헬스케어진흥재단의 각종 보고서 및 자료 제출 등 지시사항 불이행 2. 정부지원사업 참여 제한 등 제재 중인 자 또는 기업 3. 신청서 및 제출서류에 허위 사실을 기재하거나 주요 사실을",
+            "locator": "PDF p.4 / text-line 1",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "1d38e15cc8fcd531ab38",
+            "category": "exclusion",
+            "excerpt": "황 및 기업 소개 등 자료(평가시 평가위원 참고가능) 선택 ※ 필수서류 누락 등 제출 의무사항 불이행 시, 평가대상 제외◦지원 제외대상※ 사전 지원 제외① 사전검토 결과 사업 신청자격요건 및 기타 신청 제한사항으로 다음 각 호의 하나에 해당되는 경우 1. 광주창조경제혁신센터 및 한국디지털헬스케어진흥재단의 각종 보고서 및 자료 제출 등 지시사항 불이행 2. 정부지원사업 참여 제한 등 제재 중인 자 또는 기업 3",
+            "locator": "PDF p.4 / text-line 1",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "2538b17a6bb0ff1010a9",
+            "category": "amount",
+            "excerpt": "는 경우 1. 광주창조경제혁신센터 및 한국디지털헬스케어진흥재단의 각종 보고서 및 자료 제출 등 지시사항 불이행 2. 정부지원사업 참여 제한 등 제재 중인 자 또는 기업 3. 신청서 및 제출서류에 허위 사실을 기재하거나 주요 사실을 누락한 경우 가. 지원대상으로 선정된 후 이러한 사실이 발견되면 선정취소, 지원금 환수 및 제재조치 등을 취함 4. 휴업 또는 폐업 중인 기업② 사업 참여 신청자의 경영상태가 접수일",
+            "locator": "PDF p.4 / text-line 1",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "4d9647f4d79997dcdd91",
+            "category": "documents",
+            "excerpt": "❹신청방법 및 제출서류◦공고 및 신청기간 : 2026. 10. 2(금) ~ 2026. 10. 30(금) 14시까지◦신청방법 : 프로그램별 신청양식 작성 후 담당자([연락처 생략]) 메일 접수◦문의처소속담당자이메일/연락처한국디지털헬스케어진흥재단[접수처] 김*희 [연락처 생략] / 010-4*29-4*2*송*정 [연락처 생략] / 010-7*48-4*8*",
+            "locator": "PDF p.4 / text-line 1",
+            "status": "candidate_unverified",
+            "redacted": true,
+            "context_warning": true
+          },
+          {
+            "id": "0fbbb39a6bed3bc2bf2f",
+            "category": "deadline",
+            "excerpt": "❹신청방법 및 제출서류◦공고 및 신청기간 : 2026. 10. 2(금) ~ 2026. 10. 30(금) 14시까지◦신청방법 : 프로그램별 신청양식 작성 후 담당자([연락처 생략]) 메일 접수◦문의처소속담당자이메일/연락처한국디지털헬스케어진흥재단[접수처] 김*희 [연락처 생략] / 010-4*29-4*2*송*정 [연락처 생략] / 010-7*48-4*8*",
+            "locator": "PDF p.4 / text-line 1",
+            "status": "candidate_unverified",
+            "redacted": true,
+            "context_warning": true
+          },
+          {
+            "id": "85e0cd42a5e2f002fb6f",
+            "category": "eligibility",
+            "excerpt": "규모 등에 따라 조정될 수 있음 ◦ 참여 신청서의 내용을 허위 기재 또는 누락한 경우에는 선정이 취소될 수 있음 ◦ 지원 대상기업은 평가위원회를 통해 선정되며, 평가결과는 공개하지 않으며, 제출된 서류는 일체 반환하지 않음 ◦ 지원대상이 없을 경우 선정하지 않을 수 있음 ◦ 각 지원 프로그램별 추진 방식 및 계획서 내용 확인 후, 신청서 및 사업계획서를 작성 후 제출하여야 함 ◦ 지원사업 종료 후 제출하게 되",
+            "locator": "PDF p.5 / text-line 1",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "e59411e7e4f8f0ae4499",
+            "category": "amount",
+            "excerpt": "추진 후 결과보고서를 제출하지 않거나 내용이 부실할 경우, 내용 수정 및 보완 등의 요구에 불응하거나 불성실한 경우 지원금액을 지급하지 아니하거나 환수할 수 있음 ◦ 사업비 집행 절차는 사업수행 기관의 회계 집행 기준에 따름 ◦ 본 사업에 선정된 기업은 사업 수행 중 또는 종료 후 지원 성과*에 대한 자료 요청시 관련 자료를 성실히 제출하여야 함 * 매출, 고용, 투자유치, 제품 개발 및 사업화 성과, 기술 ",
+            "locator": "PDF p.5 / text-line 1",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "aadbf1f1f06f182bce94",
+            "category": "amount",
+            "excerpt": "도화 기업 실증 연계 지원지원프로그램제품·서비스 고도화 기업 실증 연계 지원수행기간협약일 ~ ‘27년 2월 28일까지지원규모최대 10,000천원 / 기업당(총 4개社, VAT 제외)1. 지원내용 ○ 제품·서비스 개발/고도화를 진행 중인 기업을 대상으로 현장 기반의 실증 검증 및 유효성 확보 지원 - 데이터 연계 AI 헬스케어 제품 및 서비스 실증 검증에 소요되는 사업화 지원금 지원",
+            "locator": "PDF p.6 / text-line 1",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "62cab2b6784b53f361d8",
+            "category": "exclusion",
+            "excerpt": " 제한 가능 1. 자료제공 의무 미이행 기업2. 기업지원사업 중도포기 기업(※ 불가항력에 의한 중도포기 관련 소명시 제외)3. 기업지원사업 수행결과 ‘실패’(또는 이에 준하는 ‘미흡’시) 판정 기업4. 그 밖에 협약에 대한 위반 행위가 있는 경우 등4. 제출서류 ○ 공통 제출서류 각 1부(공고문 제출서류 참조) - 공통 제출서류 내 지원 신청서에 제품 및 서비스 개요, 제품 및 서비스 적용·활용 계획, 검증 ",
+            "locator": "PDF p.6 / text-line 3",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "ce83d4ec17b260a49284",
+            "category": "cofunding",
+            "excerpt": " → (재단) 사업비 지급(재단→구매처)3. 기타 참고사항 ○ 부가가치세(VAT) 및 지원금 초과 집행 금액분 기업 자부담 ○ 지원사업 수행 후 사업지원을 통한 성과분석 관리 활용 등을 위해 매출 및 신규고용 등 지원성과에 대해서 협약기간을 포함한 협약 종료일로부터 향후 3년간 성실히 자료 제공 ○ 다음 각 호에 해당하는 기업에 대해서는 (재)한국디지털헬스케어진흥재단이 시행하는 기업지원사업에 대해 일정기간 신",
+            "locator": "PDF p.6 / text-line 3",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "195a5333aadd86cd632e",
+            "category": "documents",
+            "excerpt": "민 이용 활성화를 위한 리워드 제공 및 인프라 운영, 데이터 수집·제공 형태로 제공 ○ 직접지원 : (기업) 비목별 증빙 서류 제출 → (재단) 제출서류 검토 → (재단) 사업비 지급(재단→구매처)3. 기타 참고사항 ○ 부가가치세(VAT) 및 지원금 초과 집행 금액분 기업 자부담 ○ 지원사업 수행 후 사업지원을 통한 성과분석 관리 활용 등을 위해 매출 및 신규고용 등 지원성과에 대해서 협약기간을 포함한 협약 ",
+            "locator": "PDF p.6 / text-line 3",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "49ea51ecbbf14a0424ff",
+            "category": "exclusion",
+            "excerpt": " 제한 가능 1. 자료제공 의무 미이행 기업2. 기업지원사업 중도포기 기업(※ 불가항력에 의한 중도포기 관련 소명시 제외)3. 기업지원사업 수행결과 ‘실패’(또는 이에 준하는 ‘미흡’시) 판정 기업4. 그 밖에 협약에 대한 위반 행위가 있는 경우 등4. 제출서류 ○ 공통 제출서류 각 1부(공고문 제출서류 참조) - 공통 제출서류 내 지원 신청서에 제품 및 서비스 개요, 실증 적용·활용 계획, 검증 계획을 포함",
+            "locator": "PDF p.7 / text-line 3",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "f0b8dd67f3d0d5eec616",
+            "category": "exclusion",
+            "excerpt": " 제한 가능 1. 자료제공 의무 미이행 기업2. 기업지원사업 중도포기 기업(※ 불가항력에 의한 중도포기 관련 소명시 제외)3. 기업지원사업 수행결과 ‘실패’(또는 이에 준하는 ‘미흡’시) 판정 기업4. 그 밖에 협약에 대한 위반 행위가 있는 경우 등4. 제출서류 ○ 공통 제출서류 각 1부(공고문 제출서류 참조) - 공통 제출서류 내 지원 신청서에 컨설팅 개요, 컨설팅 적용·활용 계획 등을 포함하여 작성 ○ 재",
+            "locator": "PDF p.8 / text-line 1",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "f5a1d8f958b7762a595b",
+            "category": "cofunding",
+            "excerpt": " 컨설팅 비용 : 20만원/2시간(1회)3. 기타 참고사항 ○ 부가가치세(VAT) 및 지원금 초과 집행 금액분 기업 자부담 ○ 지원사업 수행 후 사업지원을 통한 성과분석 관리 활용 등을 위해 매출 및 신규고용 등 지원성과에 대해서 협약기간을 포함한 협약 종료일로부터 향후 3년간 성실히 자료 제공 ○ 다음 각 호에 해당하는 기업에 대해서는 (재)한국디지털헬스케어진흥재단이 시행하는 기업지원사업에 대해 일정기간 신",
+            "locator": "PDF p.8 / text-line 1",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "388d4e9203b2886140f6",
+            "category": "documents",
+            "excerpt": "구 계획 수립, 유효성 평가 및 제품 고도화를 위한 임상적 기술자문 제공 등2. 지원금 지원 방식 ○ 지원금 집행은 증빙서류 검토 후 관련 전문가에게 지급 - 증빙서류 : 컨설팅 신청서, 컨설팅 보고서, 회의록, 컨설팅 현장사진 등 - 전문가 컨설팅 비용 : 20만원/2시간(1회)3. 기타 참고사항 ○ 부가가치세(VAT) 및 지원금 초과 집행 금액분 기업 자부담 ○ 지원사업 수행 후 사업지원을 통한 성과분석 ",
+            "locator": "PDF p.8 / text-line 1",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "표 열 순서·이미지·주석의 의미는 검토하지 않았습니다.",
+          "OCR 미수행"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
+    },
+    "8da37a6320a56168e1892605": {
+      "id": "8da37a6320a56168e1892605",
+      "program_id": "BIZINFO-PBLN_000000000127175",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127175",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000776472&fileSn=1",
+      "name": "다운로드",
       "status": "queued",
       "last_attempt_at": null,
       "last_success_at": null,
       "last_error": null,
       "review_required": false,
       "history": []
+    },
+    "e6db928229a8a42a4442bbc7": {
+      "id": "e6db928229a8a42a4442bbc7",
+      "program_id": "BIZINFO-PBLN_000000000127197",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127197",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000776527&fileSn=0",
+      "name": "다운로드",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
+    },
+    "a3d7ec6f3926f7743e096a6e": {
+      "id": "a3d7ec6f3926f7743e096a6e",
+      "program_id": "BIZINFO-PBLN_000000000127197",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127197",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000776528&fileSn=0",
+      "name": "다운로드",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
+    },
+    "3120631b2632fa78bb164ff6": {
+      "id": "3120631b2632fa78bb164ff6",
+      "program_id": "BIZINFO-PBLN_000000000127207",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127207",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000776547&fileSn=0",
+      "name": "다운로드",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-17T13:58:00+09:00",
+      "last_success_at": "2026-11-17T13:58:00+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-11-17T13:58:00+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "7af5c34d4ff51b63afe697fa3f5da856d6f507c842e647ea392bd7c4e859199e",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "7af5c34d4ff51b63afe697fa3f5da856d6f507c842e647ea392bd7c4e859199e",
+      "sha256": "7af5c34d4ff51b63afe697fa3f5da856d6f507c842e647ea392bd7c4e859199e",
+      "extraction": {
+        "format": "pdf",
+        "parser": "pypdf/6.15.0",
+        "sha256": "7af5c34d4ff51b63afe697fa3f5da856d6f507c842e647ea392bd7c4e859199e",
+        "bytes": 531569,
+        "status": "text_extracted",
+        "text_characters": 12274,
+        "units": 47,
+        "text_sha256": "d0642c22cc8dd3858e41e1dbfbe0e09da5b9327506c6dbbce35a281cc5d12576",
+        "pages": 17,
+        "sections": null,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "ef74eeee048c786da8aa",
+            "category": "eligibility",
+            "excerpt": "청 · 접수기간선정평가협약‘26년 10월 7일(수) ~ ’26년 11월 4일(수) ’26년 11월’26년 12월 ~<지원대상> AI 스마트공장 구축 전 데이터 활용 체계 마련을 희망하는 도내 중소·중견 제조기업 ※ 신청가능 지역: 창원, 진주, 통영, 사천, 김해, 거제, 양산, 의령, 함안<지원조건>지원유형지원목표총사업비지방비 지원 규모경상남도(최대) 시·군(최대) 기업부담금금액비율금액비율금액비율경남 제조A",
+            "locator": "PDF p.1 / text-line 3",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "3185297068c23bd5dd7b",
+            "category": "cofunding",
+            "excerpt": "지원사업 협약체결 이후 최종점검 전까지 운영기관에서 지원‧배정하는 컨설팅 3회를 필수적으로 받아야 함 (컨설팅 비용 자부담 없음)◦ 추후 제조AI특화 스마트공장 구축지원사업 신청 시, 차액 차감 없이 정부지원금 최대 2억원을 AI공장 구축 지원유형으로 지원받을 수 있음◦ 스마트공장 구축 수준 기초수준 이상의 도내 제조기업을 대상으로 함(수준 확인 포함)",
+            "locator": "PDF p.1 / text-line 3",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "5e823df03bcf3d45c083",
+            "category": "amount",
+            "excerpt": "신청가능 지역: 창원, 진주, 통영, 사천, 김해, 거제, 양산, 의령, 함안<지원조건>지원유형지원목표총사업비지방비 지원 규모경상남도(최대) 시·군(최대) 기업부담금금액비율금액비율금액비율경남 제조AI 데이터활용 지원사업12개사최대 1억원30백만원30%30백만원30%40백만원40%< 제조AI 데이터활용 지원사업 유의사항 안내 >◦ 제조AI 스마트공장 구축지원사업 참여 사전준비를 위한 맞춤형 컨설팅을 제공함 - ",
+            "locator": "PDF p.1 / text-line 3",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "60035c25b65b606c9f93",
+            "category": "deadline",
+            "excerpt": " 다음과 같이 공고합니다.2026년 10월 (재)경남테크노파크원장< 주요 일정 및 유의사항 ><주요 일정> 신청 · 접수기간선정평가협약‘26년 10월 7일(수) ~ ’26년 11월 4일(수) ’26년 11월’26년 12월 ~<지원대상> AI 스마트공장 구축 전 데이터 활용 체계 마련을 희망하는 도내 중소·중견 제조기업 ※ 신청가능 지역: 창원, 진주, 통영, 사천, 김해, 거제, 양산, 의령, 함안<지원조건>",
+            "locator": "PDF p.1 / text-line 3",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "bdb4895e17526b140740",
+            "category": "eligibility",
+            "excerpt": "중견 제조기업의 참여 장벽을 완화하고,데이터 활용 체계 구축 및 향후 AI공장 고도화를 위한 연계 성장 기반 마련◦(지원 대상)데이터 수집·활용 체계 마련을 희망하는도내 9개 시·군 (창원,진주,통영,사천,김해,거제,양산,의령,함안)에 소재한 스마트공장 구축 수준(수준 확인 포함) ‘기초수준’이상으로 확인된도내 중소·중견 제조기업◦(지원 내용)AI공장 구축의 사전 준비 단계로 데이터 수집·활용 체계 마련을 지",
+            "locator": "PDF p.2 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "4eb037d25dfd5d6464a2",
+            "category": "amount",
+            "excerpt": "령, 함안 (시군비 매칭이 된 지역만 지원 가능)◦(사업 기간)최대 6개월◦(지원 조건)지원유형지원기간총사업비지방비 지원 규모경상남도(최대) 시·군(최대) 기업부담금금액비율금액비율금액비율경남 제조AI 데이터활용 지원사업최대 6개월최대 1억원30백만원30%30백만원30%40백만원40%※ 구축목표수준 없음(향후 제조AI특화 스마트공장 구축 지원시 설정)-데이터 수집·관리시스템 구축이 선행되어야 하는 기업을 대상으",
+            "locator": "PDF p.2 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "1e88165dd3016919daac",
+            "category": "amount",
+            "excerpt": "검증‘을 위해 최대 6천만원 한도로 지원",
+            "locator": "PDF p.2 / text-line 3",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "1535caa1ae48386442f1",
+            "category": "eligibility",
+            "excerpt": "2. 신청자격 및 기간·방법 등□ 신청 기간‧방법◦(신청 기간)공고일~’26년 11월 4일(수)17시까지☞ 접수 마감일에는 접속 폭주 등에 따라 원활한 접속이 되지 않을 수 있으므로 가급적 마감 2∼3일 전에 온라인 신청 완료 요망(접수 마감일 17시 이후 신청·제출·수정 불가)☞ 「스마트공장 사업관리시스템 – 마이페이지 - 나의 담당과제 현황」 메뉴에서 과제신청상태 “제출완료” 확인☞ 공고 미숙지, 공급기업",
+            "locator": "PDF p.3 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "4dde37b13cc8dc81ed85",
+            "category": "documents",
+            "excerpt": "제신청 → 사업계획서 내용입력 * 신청 전 스마트공장 사업관리시스템(smart-factory.kr) 회원가입 필수◦(제출서류)사업 신청 시 아래 서류를 온라인으로 등록구분제출서류 목록공통 제출(도입·공급기업)필수- 사업계획서- 국세·지방세 완납 증명서 각 1부(발행일로부터 3개월 이내)- 사업자등록증명원 각 1부(발행일로부터 3개월 이내)- 중소기업 빅데이터 플랫폼 정보활용동의서",
+            "locator": "PDF p.3 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "23c1b0b8a1cd014d4af1",
+            "category": "deadline",
+            "excerpt": "2. 신청자격 및 기간·방법 등□ 신청 기간‧방법◦(신청 기간)공고일~’26년 11월 4일(수)17시까지☞ 접수 마감일에는 접속 폭주 등에 따라 원활한 접속이 되지 않을 수 있으므로 가급적 마감 2∼3일 전에 온라인 신청 완료 요망(접수 마감일 17시 이후 신청·제출·수정 불가)☞ 「스마트공장 사업관리시스템 – 마이페이지 - 나의 담당과제 현황」 메뉴에서 과제신청상태 “제출완료” 확인☞ 공고 미숙지, 공급기업",
+            "locator": "PDF p.3 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "e7fa10482f846b91cbbc",
+            "category": "eligibility",
+            "excerpt": "서 발급- 가점 증빙 서류(해당시, 신청·접수 마감일을 기준으로 유효한 서류)-법인등기부등본 1부(본점과 공장 확인 소재지 시)-스마트공장 중복성 소명서공급기업제출해당시-법인등기부등본 각 1부(공급기업은 우대가점 해당 시) * 사업계획서 서식은 https://smart-factory.kr에서 다운로드 가능 * 모든 서류는 발행일로부터 3개월 이내 * 공급기업은 사업관리시스템(smart–factory.kr)을 ",
+            "locator": "PDF p.3 / text-line 3",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "5a454f6fcb1cd9cb8a1b",
+            "category": "documents",
+            "excerpt": "25) 수출실적 확인 및 증명서(해당시, 직접수출만 인정) * 한국무역협회(www.kita.net)에서 발급- 가점 증빙 서류(해당시, 신청·접수 마감일을 기준으로 유효한 서류)-법인등기부등본 1부(본점과 공장 확인 소재지 시)-스마트공장 중복성 소명서공급기업제출해당시-법인등기부등본 각 1부(공급기업은 우대가점 해당 시) * 사업계획서 서식은 https://smart-factory.kr에서 다운로드 가능 * ",
+            "locator": "PDF p.3 / text-line 3",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "0806522190af7b8fd04b",
+            "category": "deadline",
+            "excerpt": "증명서(해당시, 직접수출만 인정) * 한국무역협회(www.kita.net)에서 발급- 가점 증빙 서류(해당시, 신청·접수 마감일을 기준으로 유효한 서류)-법인등기부등본 1부(본점과 공장 확인 소재지 시)-스마트공장 중복성 소명서공급기업제출해당시-법인등기부등본 각 1부(공급기업은 우대가점 해당 시) * 사업계획서 서식은 https://smart-factory.kr에서 다운로드 가능 * 모든 서류는 발행일로부터 ",
+            "locator": "PDF p.3 / text-line 3",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "26b06ea4263fac7e1822",
+            "category": "eligibility",
+            "excerpt": "□ 신청 자격◦(도입기업)도내 9개 시·군(창원,진주,통영,사천,김해,거제,양산,의령,함안)에 소재한 중소·중견 제조기업 중 스마트공장 구축 수준(수준 확인 포함) ‘기초수준’ 이상으로 확인된도내 중소·중견 제조기업-사업자번호로 구분되는 도입기업 사업장별로 신청 가능 * 종된 사업장의 경우 종된 사업장별로 신청가능하며 증빙서류(사업자단위과세 적용 종된 사업장 명세) 제출 필요 ☞ 공고일로부터 협약체결일까지 본",
+            "locator": "PDF p.4 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "7fd86e3bcc578932cc97",
+            "category": "exclusion",
+            "excerpt": "actory.kr) – 알림/참여마당 - 공지사항’에서 “공급기업 Pool 등록 안내(1077번 게시글)” 참조 ◦(지원 제외 사항)아래 사항에 해당하는 경우에는 지원 대상에서 제외< 부적격 사항 > ▷ 휴·폐업중인 기업 ▷ 국세 및 지방세 체납 중인 기업 ▷ 유흥·향락업, 숙박·음식점 ▷ 불건전 오락용품 제조업 ▷ 동일·유사한 사업계획서로 정부에서 지원을 받고 있거나 받은 경우-자율형공장,대중소상생형(AI트",
+            "locator": "PDF p.4 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "e50885ebcd69cdc8df0d",
+            "category": "documents",
+            "excerpt": "견 제조기업-사업자번호로 구분되는 도입기업 사업장별로 신청 가능 * 종된 사업장의 경우 종된 사업장별로 신청가능하며 증빙서류(사업자단위과세 적용 종된 사업장 명세) 제출 필요 ☞ 공고일로부터 협약체결일까지 본점 소재지 및 구축공장이 경상남도 내에 있는 업체☞ 국내 제조기업 중「중소기업기본법」에 따른 중소기업 및 「중견기업 성장촉진 및 경쟁력 강화에 관한 특별법」에 따른 중견기업◦(공급기업)스마트공장 구축 역량",
+            "locator": "PDF p.4 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "a84623a591e46895e5ef",
+            "category": "documents",
+            "excerpt": "평가, 선정, 협약 등 절차는 사정에 따라 변경될 수 있음□ 평가 절차(붙임3 참고)◦(요건 검토)도입기업이 제출한 제출서류,자격기준 등 검토를 통해 적합과제를 사업계획서 작성 대상으로 선발◦(기술성 평가)사업계획서 및 발표 내용을 기반으로 스마트공장 구축목표·방식,달성가능성 및 기업역량 등 대면 평가◦(현장 확인 및 원가계산)사업계획서와 현장의 일치여부,신청 가점 등의확인 및 사업비 계상의 적정성 검토를 통",
+            "locator": "PDF p.5 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "f198ac63502ae158e9cc",
+            "category": "cofunding",
+            "excerpt": "외200백만원 이하637400백만원 이하910400백만원 초과1,182 * 정산대상 사업비(총사업비) : 지원금 + 민간부담금◦(현물편성)클라우드 서비스 이용료(현금·현물 모두가능)와 도입기업 인건비를 합하여기업부담금 중 20%(최대 8백만원까지)내에서 현물로 편성 가능-클라우드 서비스 이용료는 사용 시작일로부터 최대 3년의 비용*을편성 가능하며,협약 기간 내에 클라우드 사용을 시작하여야 함",
+            "locator": "PDF p.6 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "700d55c2f5d0e599de15",
+            "category": "amount",
+            "excerpt": "5부가세 제외200백만원 이하637400백만원 이하910400백만원 초과1,182 * 정산대상 사업비(총사업비) : 지원금 + 민간부담금◦(현물편성)클라우드 서비스 이용료(현금·현물 모두가능)와 도입기업 인건비를 합하여기업부담금 중 20%(최대 8백만원까지)내에서 현물로 편성 가능-클라우드 서비스 이용료는 사용 시작일로부터 최대 3년의 비용*을편성 가능하며,협약 기간 내에 클라우드 사용을 시작하여야 함",
+            "locator": "PDF p.6 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "5c2945dfcb3d09d1c24d",
+            "category": "cofunding",
+            "excerpt": "지원사업 협약체결 이후 최종평가 전까지 운영기관에서 지원‧배정하는 컨설팅 3회를 필수적으로 받아야 함 (컨설팅 비용 자부담 없음)□ 기타 사항◦본 사업의 공고 이외의 사항은 2026년 스마트공장 보급확산사업 세부관리 지침 및 기준’을 따름-단,지원금에 대한 이행(지급)보증보험증권(도입기업은 추진기관을 피보험자로 하여 발행,보증기간은 협약기간에 5개월을 가산하여 설정-사업비 내역 중 기업부담금으로 차지하는 SW",
+            "locator": "PDF p.7 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "10b3a8caed8cbd409672",
+            "category": "amount",
+            "excerpt": ")□ 기타 사항◦본 사업의 공고 이외의 사항은 2026년 스마트공장 보급확산사업 세부관리 지침 및 기준’을 따름-단,지원금에 대한 이행(지급)보증보험증권(도입기업은 추진기관을 피보험자로 하여 발행,보증기간은 협약기간에 5개월을 가산하여 설정-사업비 내역 중 기업부담금으로 차지하는 SW개발비에 대한 이행",
+            "locator": "PDF p.7 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "bf052095ba4f01cd983f",
+            "category": "documents",
+            "excerpt": " [참고] 확인-제조AI데이터 활용 체계구축 및 시스템 안정화 등을 위한 도입기업 인건비 편성 가능 * 인건비 지급 증빙자료(입금확인증 등) 및 수행일지 등 정산 시 확인 예정□ 교육 이수◦스마트공장 지원사업에 선정된 도입·공급기업은 “스마트공장 교육”을이수하고 최종보고 시 수료증을 필수 제출-(교육기관)중소벤처기업진흥공단 연수 사업처(https://ssup.kosmes.or.kr)<스마트공장 교육 현황>구분",
+            "locator": "PDF p.7 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "0df3fb98d09408bf2543",
+            "category": "overlap",
+            "excerpt": "붙임 2 동시수행 제한사업 목록□동시 수행 제한사업 목록(기존사업 수행중인 경우)사업명(지원유형) 2023202420252026 - 자율형공장 - 제조AI특화 스마트공장, 대중소상생형(AI트랙)※ 음영이 칠해진 해당 연도 사업을 진행 중인 경우, 26년 경남 제조AI 데이터 활용지원과 동시수행 불가※ 단, 협약서 상 구축기간이 종료된 경우 신청 가능(공고 접수마감일 기준)□ 동시 선정‧신청 제한사업 목록26년",
+            "locator": "PDF p.11 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "e094ff93067e38eb1d6e",
+            "category": "deadline",
+            "excerpt": "우, 26년 경남 제조AI 데이터 활용지원과 동시수행 불가※ 단, 협약서 상 구축기간이 종료된 경우 신청 가능(공고 접수마감일 기준)□ 동시 선정‧신청 제한사업 목록26년 사업명내용 ① 정부형 스마트공장 (점프업 및 레전드50+, 지역특화형 포함) ①~⑧ 사업간 동시 수행 불가 ② 자율형공장 ③ 대중소 상생형 스마트공장(AI트랙 제외) ④ 부처협업형 스마트공장 ⑤ 디지털 협업공장 ⑥ R&D성과확산 스마트공장 ",
+            "locator": "PDF p.11 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "표 열 순서·이미지·주석의 의미는 검토하지 않았습니다.",
+          "OCR 미수행"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
+    },
+    "004c48b85e1b4072328079c2": {
+      "id": "004c48b85e1b4072328079c2",
+      "program_id": "BIZINFO-PBLN_000000000127207",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127207",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000776548&fileSn=0",
+      "name": "다운로드",
+      "status": "unsupported_format",
+      "last_attempt_at": "2026-11-17T13:58:00+09:00",
+      "last_success_at": null,
+      "last_error": "unsupported_format",
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-11-17T13:58:00+09:00",
+          "status": "unsupported_format",
+          "observed_sha256": "61c501a0cf91c1e5d3ad86cf1c7565ba6ca4cc7d9f93d101c8f63e938101bd20",
+          "http_status": null,
+          "failure_kind": "document_or_policy"
+        }
+      ],
+      "observed_sha256": "61c501a0cf91c1e5d3ad86cf1c7565ba6ca4cc7d9f93d101c8f63e938101bd20",
+      "http_status": null,
+      "failure_kind": "document_or_policy",
+      "retryable": false
     }
   },
   "programs": {
@@ -18937,6 +19615,45 @@
       "document_ids": [
         "1a055a70dde86a6471297cf3",
         "6cd0dbbb2eefcab2f0887deb"
+      ],
+      "review_required": false,
+      "last_error": null
+    },
+    "BIZINFO-PBLN_000000000127175": {
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127175",
+      "last_notice_attempt_at": "2026-11-17T13:58:00+09:00",
+      "last_notice_success_at": "2026-11-17T13:58:00+09:00",
+      "notice_status": "links_available",
+      "manifest_sha256": "6b23930985d9de4a60e7e62940adde2b80cc687be828fb576e6f38b49d496412",
+      "document_ids": [
+        "711bc9fd38322498d27fd1fd",
+        "8da37a6320a56168e1892605"
+      ],
+      "review_required": false,
+      "last_error": null
+    },
+    "BIZINFO-PBLN_000000000127197": {
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127197",
+      "last_notice_attempt_at": "2026-11-17T13:58:00+09:00",
+      "last_notice_success_at": "2026-11-17T13:58:00+09:00",
+      "notice_status": "links_available",
+      "manifest_sha256": "ee940566a03663b97f2754f9094812e18a26d356aed7ea67677891e1de065bcb",
+      "document_ids": [
+        "e6db928229a8a42a4442bbc7",
+        "a3d7ec6f3926f7743e096a6e"
+      ],
+      "review_required": false,
+      "last_error": null
+    },
+    "BIZINFO-PBLN_000000000127207": {
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127207",
+      "last_notice_attempt_at": "2026-11-17T13:58:00+09:00",
+      "last_notice_success_at": "2026-11-17T13:58:00+09:00",
+      "notice_status": "links_available",
+      "manifest_sha256": "1082523c846a26d383277af5e75d3567edab64e508c0431eb14a026dbd9fb761",
+      "document_ids": [
+        "3120631b2632fa78bb164ff6",
+        "004c48b85e1b4072328079c2"
       ],
       "review_required": false,
       "last_error": null

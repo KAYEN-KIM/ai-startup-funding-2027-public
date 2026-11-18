@@ -1,19 +1,19 @@
 {
   "schema": "public-funding-bot-briefing/v1",
   "engine_version": "0.15.0",
-  "generated_at": "2026-11-17T13:58:52+09:00",
+  "generated_at": "2026-11-18T13:02:41+09:00",
   "generation": "deterministic_no_model",
   "report_model_calls": 0,
   "ai_transport": "manual_cli_only",
   "automatic_rule_approval": false,
   "automatic_submission": false,
   "input_fingerprints": {
-    "data/programs.json": "95afc2f4e294580ea7d17377cc80168c196ea9f84ff7603e4b25bc0d5eb80e08",
-    "data/monitor.json": "62bcb9fbc1df8aea8845eb16adbf67fb4d409eeb76902e6de3e2c241c52e354a",
-    "data/evidence.json": "8e68b0c6d16146c0444bcc615137252c11bf44333d7a5fcd44e11834f829717b",
-    "data/change_reviews.json": "e46a7bb68b10e315ecb4368cebe10dc88183bb7455ee8e63898438d287310fd8",
-    "data/attachments.json": "b345fc05e1d5451cc41cbefd8e5bcaa5d80f77b2aa26ff3a0912642ae331e847",
-    "data/startup_sources.json": "d2a3794fd094df501e2c2b0278b2e28597673331be117bad1a954d4979b6640c",
+    "data/programs.json": "e7679d9edb9769fe359cfc0ec8f01ec85eda5667754f658eddf82a9a81124d4c",
+    "data/monitor.json": "18dc7f0ce012aedab5f91ad16ed75ccab1a34592eaee05d2f7d7ba287afb6be8",
+    "data/evidence.json": "e3b7389d1ce2bb6a9de8e2201f59bd762097b88363e033dd6d5a38e3d31b2128",
+    "data/change_reviews.json": "adaccba3f2b407974b871405e8a8fb80590a7d7053fdec5a934d7f09ef41638a",
+    "data/attachments.json": "0fa598ab7e9bb797847940d9697f9e25298e28220685483629729888da994879",
+    "data/startup_sources.json": "9ca65ab6bfa5f1b44f4a3b035b70895c0c0ad09cda3532aae6c6f73c631da6e0",
     "config/automation_policy.json": "167611159390f47d645f4f831e909f79bf41cfb5173e618f607e351dfe309140"
   },
   "run_status": "partial_or_stale",
@@ -24,15 +24,15 @@
       "id": "api",
       "name": "기업마당 API",
       "status": "ok_scoped",
-      "last_attempt_at": "2026-11-17T13:56:27+09:00",
-      "last_success_at": "2026-11-17T13:56:27+09:00",
+      "last_attempt_at": "2026-11-18T13:00:30+09:00",
+      "last_success_at": "2026-11-18T13:00:30+09:00",
       "freshness": "recent",
       "workflow_outcome": "success",
-      "checked": 1304,
+      "checked": 1322,
       "failed": 0,
       "detail": {
         "pages": 7,
-        "reported_total": 1304,
+        "reported_total": 1322,
         "added": 1,
         "modified": 0,
         "suggested": 0,
@@ -48,7 +48,7 @@
       "id": "html",
       "name": "공식 원문 HTML 순환",
       "status": "ok_scoped",
-      "last_attempt_at": "2026-11-17T13:56:27+09:00",
+      "last_attempt_at": "2026-11-18T13:00:30+09:00",
       "last_success_at": null,
       "freshness": "recent",
       "workflow_outcome": "success",
@@ -72,7 +72,7 @@
       "id": "attachments",
       "name": "첨부파일 순환",
       "status": "partial",
-      "last_attempt_at": "2026-11-17T13:58:00+09:00",
+      "last_attempt_at": "2026-11-18T13:02:06+09:00",
       "last_success_at": null,
       "freshness": "recent",
       "workflow_outcome": "success",
@@ -96,7 +96,7 @@
       "id": "startup",
       "name": "검토된 과거 원본",
       "status": "ok_scoped",
-      "last_attempt_at": "2026-11-17T13:58:37+09:00",
+      "last_attempt_at": "2026-11-18T13:02:29+09:00",
       "last_success_at": null,
       "freshness": "recent",
       "workflow_outcome": "success",
@@ -121,20 +121,20 @@
     "pending_differences": 19,
     "attachment_failures": 0,
     "notice_failures": 0,
-    "attachment_limits": 18,
-    "queued_attachments": 92,
-    "changed_evidence": 50,
-    "unverified_programs": 147,
+    "attachment_limits": 19,
+    "queued_attachments": 95,
+    "changed_evidence": 55,
+    "unverified_programs": 148,
     "unverified_2027": 4,
     "unknown_dates": 83
   },
   "counts": {
-    "registered": 190,
+    "registered": 191,
     "upcoming_deadlines": 9,
-    "queue_total": 91,
-    "queue_shown": 91,
+    "queue_total": 97,
+    "queue_shown": 97,
     "queue_by_action": {
-      "review_original": 91
+      "review_original": 97
     }
   },
   "deadlines": [
@@ -144,9 +144,9 @@
       "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127372",
       "mode": "discovery",
       "deadline": "2026-11-18",
-      "status": "upcoming",
+      "status": "today_time_unknown",
       "date": "2026-11-18",
-      "days": 1,
+      "days": 0,
       "precision": "date_only",
       "qualification": "개별 신청자격 미판정"
     },
@@ -156,9 +156,9 @@
       "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127721",
       "mode": "discovery",
       "deadline": "2026-11-18",
-      "status": "upcoming",
+      "status": "today_time_unknown",
       "date": "2026-11-18",
-      "days": 1,
+      "days": 0,
       "precision": "date_only",
       "qualification": "개별 신청자격 미판정"
     },
@@ -168,9 +168,9 @@
       "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127794",
       "mode": "discovery",
       "deadline": "2026-11-18",
-      "status": "upcoming",
+      "status": "today_time_unknown",
       "date": "2026-11-18",
-      "days": 1,
+      "days": 0,
       "precision": "date_only",
       "qualification": "개별 신청자격 미판정"
     },
@@ -180,9 +180,9 @@
       "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127909",
       "mode": "discovery",
       "deadline": "2026-11-18",
-      "status": "upcoming",
+      "status": "today_time_unknown",
       "date": "2026-11-18",
-      "days": 1,
+      "days": 0,
       "precision": "date_only",
       "qualification": "개별 신청자격 미판정"
     },
@@ -194,7 +194,7 @@
       "deadline": "2026-11-20",
       "status": "upcoming",
       "date": "2026-11-20",
-      "days": 3,
+      "days": 2,
       "precision": "date_only",
       "qualification": "개별 신청자격 미판정"
     },
@@ -206,7 +206,7 @@
       "deadline": "2026-11-20",
       "status": "upcoming",
       "date": "2026-11-20",
-      "days": 3,
+      "days": 2,
       "precision": "date_only",
       "qualification": "개별 신청자격 미판정"
     },
@@ -218,7 +218,7 @@
       "deadline": "2026-11-20",
       "status": "upcoming",
       "date": "2026-11-20",
-      "days": 3,
+      "days": 2,
       "precision": "date_only",
       "qualification": "개별 신청자격 미판정"
     },
@@ -230,7 +230,7 @@
       "deadline": "2026-11-23",
       "status": "upcoming",
       "date": "2026-11-23",
-      "days": 6,
+      "days": 5,
       "precision": "date_only",
       "qualification": "개별 신청자격 미판정"
     },
@@ -242,7 +242,7 @@
       "deadline": "2026-11-24",
       "status": "upcoming",
       "date": "2026-11-24",
-      "days": 7,
+      "days": 6,
       "precision": "date_only",
       "qualification": "개별 신청자격 미판정"
     }
@@ -332,6 +332,66 @@
       "reason": "원문 내용 변경 신호. 실제 정책 변경인지는 미검증",
       "reference_id": "BIZINFO-PBLN_000000000124915",
       "observed_at": "2026-11-13T12:06:45+09:00"
+    },
+    {
+      "id": "58bb7556d70e44b0575eb440",
+      "category": "notice_changed",
+      "priority": "P0",
+      "program_id": "BIZINFO-PBLN_000000000125847",
+      "title": "[전북] 2026년 식품기업 창업프로그램 지원사업 스마트 푸드테크 LAB 현장애로 해결 자문 프로그램 참여기업 모집 공고",
+      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125847",
+      "action": "review_original",
+      "reason": "원문 내용 변경 신호. 실제 정책 변경인지는 미검증",
+      "reference_id": "BIZINFO-PBLN_000000000125847",
+      "observed_at": "2026-11-18T13:00:30+09:00"
+    },
+    {
+      "id": "d3741c836b31241ece5ad8ce",
+      "category": "notice_changed",
+      "priority": "P0",
+      "program_id": "BIZINFO-PBLN_000000000125888",
+      "title": "[전남광주] 2026년 AI융합 지능형 농업 생태계 구축 인공지능 기술 고도화(신뢰성평가) 지원사업 추가 모집 공고",
+      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125888",
+      "action": "review_original",
+      "reason": "원문 내용 변경 신호. 실제 정책 변경인지는 미검증",
+      "reference_id": "BIZINFO-PBLN_000000000125888",
+      "observed_at": "2026-11-18T13:00:30+09:00"
+    },
+    {
+      "id": "a9bcaf994b9b5e15a46b10ee",
+      "category": "notice_changed",
+      "priority": "P0",
+      "program_id": "BIZINFO-PBLN_000000000125928",
+      "title": "[경남] 창원시 2026년 강소특구 이노테크 기업육성 AI-CNC 기반 제품 실증 및 성능 검증 지원 사업 공고",
+      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125928",
+      "action": "review_original",
+      "reason": "원문 내용 변경 신호. 실제 정책 변경인지는 미검증",
+      "reference_id": "BIZINFO-PBLN_000000000125928",
+      "observed_at": "2026-11-18T13:00:30+09:00"
+    },
+    {
+      "id": "77839a5d76791ce6f4223ae6",
+      "category": "notice_changed",
+      "priority": "P0",
+      "program_id": "BIZINFO-PBLN_000000000125974",
+      "title": "[경남] 진주시 2026년 발달장애인 가족창업 컨설팅 지원 모집 공고",
+      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125974",
+      "action": "review_original",
+      "reason": "원문 내용 변경 신호. 실제 정책 변경인지는 미검증",
+      "reference_id": "BIZINFO-PBLN_000000000125974",
+      "observed_at": "2026-11-18T13:00:30+09:00"
+    },
+    {
+      "id": "2b074c88cdbeadba95b930b1",
+      "category": "notice_changed",
+      "priority": "P0",
+      "program_id": "BIZINFO-PBLN_000000000126048",
+      "title": "[전남광주] 2026년 하반기 중점산업 창업 중소기업 육성 및 주력산업 위기극복 및 수출ㆍ기술 경쟁력 강화 금융지원 공고",
+      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126048",
+      "action": "review_original",
+      "reason": "원문 내용 변경 신호. 실제 정책 변경인지는 미검증",
+      "reference_id": "BIZINFO-PBLN_000000000126048",
+      "observed_at": "2026-11-18T13:00:30+09:00"
     },
     {
       "id": "6dfeac928e268bafb94e9b42",
@@ -1340,11 +1400,23 @@
       "reason": "형식·크기·본문 추출 한계: unsupported_format — 원본 직접 확인 필요",
       "reference_id": "004c48b85e1b4072328079c2",
       "observed_at": "2026-11-17T13:58:00+09:00"
+    },
+    {
+      "id": "66cb39b26058a19c9a07df8f",
+      "category": "attachment_limit",
+      "priority": "P2",
+      "program_id": "BIZINFO-PBLN_000000000127227",
+      "title": "[경기] 성남시 2026년 피지컬 AI 자율실험 기반구축 지원사업 수혜기업 모집 통합 공고(산업혁신기반구축사업 혼합현실(Mixed Reality 기반 피지컬AI 자율실험 기반구축)",
+      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127227",
+      "action": "review_original",
+      "reason": "형식·크기·본문 추출 한계: unsupported_format — 원본 직접 확인 필요",
+      "reference_id": "40446fce1bf330d044f1b01b",
+      "observed_at": "2026-11-18T13:02:06+09:00"
     }
   ],
   "queue_truncated": false,
   "scope": "기업마당 API, 기존 공식 원문·첨부 순환 수집 및 검토 원본 재확인. 전체 기관 독립 수집이나 자동 적격성 검증이 아님.",
   "notice": "이 보고서는 공개 저장자료의 규칙 기반 집계입니다. 후보·마감·우선순위는 신청 적격성, 선정 확률 또는 지원금 확정이 아닙니다. 자료 변경은 정책 변경 확정이 아니며 원문 대조가 필요합니다.",
   "ai_handoff": "공개 근거 검토요청 파일만 생성 가능. AI CLI 자동 실행·API 호출·결과 자동 반영 없음.",
-  "report_id": "8aede71e5cf3c19c1007b67a"
+  "report_id": "dfee69c66df9bd24d0d146de"
 }

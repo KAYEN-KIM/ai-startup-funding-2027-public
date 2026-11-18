@@ -1,9 +1,9 @@
 {
   "schema": "public-funding-attachments/v1",
   "version": "0.4.0",
-  "generated_at": "2026-11-17T13:58:00+09:00",
+  "generated_at": "2026-11-18T13:02:06+09:00",
   "run": {
-    "at": "2026-11-17T13:58:00+09:00",
+    "at": "2026-11-18T13:02:06+09:00",
     "notice_success": 3,
     "notice_failed": 0,
     "attempted": 4,
@@ -13,12 +13,12 @@
     "failed": 0,
     "changed": 0,
     "manifest_changed": 0,
-    "queued_total": 231,
+    "queued_total": 238,
     "new_attempted": 4,
     "retry_attempted": 0,
     "revisit_attempted": 0,
     "deferred_retry": 0,
-    "manual_hold": 17,
+    "manual_hold": 18,
     "scope": "원문 3건·첨부 4건 상한. 신규/일시적 전송실패/오래된 성공 기록을 분리해 선정하며 403·포맷·보호·크기 제한은 자동 우회하지 않습니다. 적격성은 미검증."
   },
   "records": {
@@ -15577,12 +15577,163 @@
       "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126910",
       "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000775236&fileSn=0",
       "name": "다운로드",
-      "status": "queued",
-      "last_attempt_at": null,
-      "last_success_at": null,
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-18T13:02:06+09:00",
+      "last_success_at": "2026-11-18T13:02:06+09:00",
       "last_error": null,
       "review_required": false,
-      "history": []
+      "history": [
+        {
+          "at": "2026-11-18T13:02:06+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "5598c0f1bb07850640949d0b644ae26b8f53888005bae1b46a10eb418d3396f7",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "5598c0f1bb07850640949d0b644ae26b8f53888005bae1b46a10eb418d3396f7",
+      "sha256": "5598c0f1bb07850640949d0b644ae26b8f53888005bae1b46a10eb418d3396f7",
+      "extraction": {
+        "format": "pdf",
+        "parser": "pypdf/6.15.0",
+        "sha256": "5598c0f1bb07850640949d0b644ae26b8f53888005bae1b46a10eb418d3396f7",
+        "bytes": 183484,
+        "status": "text_extracted",
+        "text_characters": 4228,
+        "units": 9,
+        "text_sha256": "3dc8d6201586bd1d2ec383e9f91c9179a82cd2205a535b31f934ea3b835bc61e",
+        "pages": 6,
+        "sections": null,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "e774df863f69e85c2fe1",
+            "category": "eligibility",
+            "excerpt": "슬립테크분야의 실증 지원 ▢ 지원기간: 협약체결일로부터 2026. 12. 31.까지 ▢ 지원규모: 1개 프로그램 ▢ 지원대상: AI기반 슬립테크 산업 제품 분야 제조 및 연구개발 중소·중견기업 ▢ 지원분야: 수면질환 예방 및 향상, 수면장애 치료 슬립테크 분야구 분 개념생활용품수면의 질을 향상 시키거나 수면에 직간접적으로 영향을 미치는 침구류, 조명, 음향 가구, 등 수면 개선 제품 니어러블 디바이스다양한 센",
+            "locator": "PDF p.1 / text-line 1",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "fb8ad172e304af1f7233",
+            "category": "amount",
+            "excerpt": " 시장개척을 위한 AI 기반 슬립테크분야의 실증 지원 ▢ 지원기간: 협약체결일로부터 2026. 12. 31.까지 ▢ 지원규모: 1개 프로그램 ▢ 지원대상: AI기반 슬립테크 산업 제품 분야 제조 및 연구개발 중소·중견기업 ▢ 지원분야: 수면질환 예방 및 향상, 수면장애 치료 슬립테크 분야구 분 개념생활용품수면의 질을 향상 시키거나 수면에 직간접적으로 영향을 미치는 침구류, 조명, 음향 가구, 등 수면 개선 제",
+            "locator": "PDF p.1 / text-line 1",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "f58f7f5e33d7a636a324",
+            "category": "amount",
+            "excerpt": "`Ⅱ 지원내용 ▢ 지원규모 : 1개 프로그램",
+            "locator": "PDF p.2 / text-line 1",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "1473c5c64bcecd03f976",
+            "category": "amount",
+            "excerpt": "답, 일정 조율 등 필요한 사항에 성실히 협조하여야 하며, 지원 요청사항에 대한 의사소통이 적시에 이루어져야 함.▢ 지원금 관련 안내 ○ 지원금이 있는 프로그램의 경우 수행기관→공급기업으로 ‘간접지원’하며, 기술·서비스의 경우 수행기관→수혜기업에 ‘직접지원’함. ○ 지원금의 30% 이상을 기업부담금(매칭비용)으로 필수로 편성하며, 매칭비용에 따라 선정 평가 시 매칭비용에 따른 지원 의지를 고려함. ○ 본 사업",
+            "locator": "PDF p.2 / text-line 3",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "e5dc7529889d4a6c9b2a",
+            "category": "amount",
+            "excerpt": "구분프로그램명지원내용건수지원규모수행기관제품화국제 공인 시험 지원 - KOLAS, CB 등 국제 공인 시험 성적서 획득 지원 - IEC60601-1, 사이버보안, 소프트웨어, 개별 성능에 관한 시험 등 성적서 획득 지원 1건건당14백만원한국기계전기전자시험연구원",
+            "locator": "PDF p.2 / text-line 4",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "35179a90c7cd3d6fee22",
+            "category": "exclusion",
+            "excerpt": "` ▢ 지원제외 대상➀ 기업의 신청내용이 사업의 기본목적, 공고내용에 적합하지 않은 경우➁ 사업에 참여하는 자(기업 대표자 등)가 접수 마감일 현재 다음의 어느 하나에 해당하는 경우 가. 사업별 의무사항(각종 보고서 제출, 기술료 납부, 기술료 납부계획서 제출, 정산 또는 환수금 납부 등)을 불이행하고 있는 경우 나. 접수 마감일 현재 국가연구개발사업 참여 제한 중인 경우➂ 접수 마감일 현재 신청기업의 경영상",
+            "locator": "PDF p.3 / text-line 1",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "601f00afc52ee2a002aa",
+            "category": "deadline",
+            "excerpt": " 대상➀ 기업의 신청내용이 사업의 기본목적, 공고내용에 적합하지 않은 경우➁ 사업에 참여하는 자(기업 대표자 등)가 접수 마감일 현재 다음의 어느 하나에 해당하는 경우 가. 사업별 의무사항(각종 보고서 제출, 기술료 납부, 기술료 납부계획서 제출, 정산 또는 환수금 납부 등)을 불이행하고 있는 경우 나. 접수 마감일 현재 국가연구개발사업 참여 제한 중인 경우➂ 접수 마감일 현재 신청기업의 경영상태가 다음의 어",
+            "locator": "PDF p.3 / text-line 1",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "edf8a8e0dbb67ed80dcf",
+            "category": "eligibility",
+            "excerpt": "직접 제출 ▢ 제출서류 구 분 제출서류비고필수수혜기업 지원 신청서(신청 프로그램별 작성) 서식1성실 이행 동의서서식2신청 자격 적정성 확인서서식3개인(기업)정보 수집·이용 및 제3자 제공 동의서서식4사업자등록증, 법인등기부등본-최근 3년(2023년~2025년) 재무제표(국세청 발행분)※ 일반과세자의 경우 부가가치세 과세표준증명지원 제품(서비스)에 대한 상품기술서(카달로그 등) 해당 시(지원 품목 의료기기 해당",
+            "locator": "PDF p.4 / text-line 1",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "2da92e7a15e3b23f198c",
+            "category": "documents",
+            "excerpt": "접수방법 : 바이오사업관리시스템(BSMS, https://www.bsms.or.kr) * 회원가입 후 직접 제출 ▢ 제출서류 구 분 제출서류비고필수수혜기업 지원 신청서(신청 프로그램별 작성) 서식1성실 이행 동의서서식2신청 자격 적정성 확인서서식3개인(기업)정보 수집·이용 및 제3자 제공 동의서서식4사업자등록증, 법인등기부등본-최근 3년(2023년~2025년) 재무제표(국세청 발행분)※ 일반과세자의 경우 부가",
+            "locator": "PDF p.4 / text-line 1",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "3b9774d2dc3e1fcbe285",
+            "category": "deadline",
+            "excerpt": "`Ⅲ 신청방법 ▢ 접수기간 : 2026. 9. 29.(금) ~ 2026. 12. 31.(일) 23:00까지 ▢ 접수방법 : 바이오사업관리시스템(BSMS, https://www.bsms.or.kr) * 회원가입 후 직접 제출 ▢ 제출서류 구 분 제출서류비고필수수혜기업 지원 신청서(신청 프로그램별 작성) 서식1성실 이행 동의서서식2신청 자격 적정성 확인서서식3개인(기업)정보 수집·이용 및 제3자 제공 동의서서식4",
+            "locator": "PDF p.4 / text-line 1",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "127135bda3c65f2014e4",
+            "category": "eligibility",
+            "excerpt": "및 지원금 확정 ○ 제안사업의 필요성, 적정성 및 기대효과 등에 세부사업별 평가항목을 기준으로 객관적인 평가에 따라 지원대상 선정 및 지원금 조정·확정(지원타당성 검토) ○ 평가항목 평가 항목 배점추진의지(30)∘ 사업화 의지, 인프라 및 제품현황 등 기업역량, 매칭 펀드30신청기업 역량(10)∘ 상시 종업원 수, 매출액, 수출액(해당되는 경우), 영업이익, 부채비율 등 기업 현황의 지속가능성5∘ 제품화 진행",
+            "locator": "PDF p.5 / text-line 1",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "de7703c1c88827ba1dc8",
+            "category": "exclusion",
+            "excerpt": "한 문서 검토 - AI 기반 슬립테크 산업 제품 분야 해당 여부 - 제조 및 연구개발인 중소·중견기업 해당 여부 - 지원제외 대상 해당 여부 ○ 선정평가는 대면 또는 줌-평가(필요 시 서면 평가로 대체가능) 진행 - 문서심사(제출문서 적격성 검토) 후 대면 평가 시 일정 개별 안내 - 평가위원회는 분야를 고려하여 외부 전문가 3명 이상 구성 ○ 평가 등 세부 내용은 공개하지 않으며, 결과는 지원기업에 개별 통",
+            "locator": "PDF p.5 / text-line 1",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "dc075ae9850369951620",
+            "category": "amount",
+            "excerpt": " 등 세부 내용은 공개하지 않으며, 결과는 지원기업에 개별 통보 ▢ (선정기준) 평가항목별 배점에 따라 지원과제 및 지원금 확정 ○ 제안사업의 필요성, 적정성 및 기대효과 등에 세부사업별 평가항목을 기준으로 객관적인 평가에 따라 지원대상 선정 및 지원금 조정·확정(지원타당성 검토) ○ 평가항목 평가 항목 배점추진의지(30)∘ 사업화 의지, 인프라 및 제품현황 등 기업역량, 매칭 펀드30신청기업 역량(10)∘ ",
+            "locator": "PDF p.5 / text-line 1",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "표 열 순서·이미지·주석의 의미는 검토하지 않았습니다.",
+          "OCR 미수행"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
     },
     "d4ddb8a818d29fb00320f09a": {
       "id": "d4ddb8a818d29fb00320f09a",
@@ -16857,12 +17008,64 @@
       "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127098",
       "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000776154&fileSn=0",
       "name": "다운로드",
-      "status": "queued",
-      "last_attempt_at": null,
-      "last_success_at": null,
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-18T13:02:06+09:00",
+      "last_success_at": "2026-11-18T13:02:06+09:00",
       "last_error": null,
       "review_required": false,
-      "history": []
+      "history": [
+        {
+          "at": "2026-11-18T13:02:06+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "a4e8cd21160ca8eaebc2f3accfe448c062b4cebb2221390a7472ecd55c65382f",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "a4e8cd21160ca8eaebc2f3accfe448c062b4cebb2221390a7472ecd55c65382f",
+      "sha256": "a4e8cd21160ca8eaebc2f3accfe448c062b4cebb2221390a7472ecd55c65382f",
+      "extraction": {
+        "format": "hwp",
+        "parser": "olefile/0.47+hwp-body/0.4.0",
+        "sha256": "a4e8cd21160ca8eaebc2f3accfe448c062b4cebb2221390a7472ecd55c65382f",
+        "bytes": 60416,
+        "status": "text_extracted",
+        "text_characters": 2397,
+        "units": 133,
+        "text_sha256": "b3a089258536bd53bcea9f53a265035c0d00313e1c94a77e00c8f49e513f22d8",
+        "pages": null,
+        "sections": 1,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "9b707d642b04590e171a",
+            "category": "eligibility",
+            "excerpt": "(본사)",
+            "locator": "BodyText/Section0 / record 164 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "5cad3deaa3333df0b93c",
+            "category": "eligibility",
+            "excerpt": "□ 기계정밀 □ 전기전자 □ 바이오의료 □ 소재화학 □ 정보통신",
+            "locator": "BodyText/Section0 / record 187 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "구역·레코드 위치는 실제 인쇄 쪽번호가 아닙니다.",
+          "표·그림·각주 의미와 문서의 모든 제외조건은 미검토"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
     },
     "21b120df30d93c4e06d3ddc4": {
       "id": "21b120df30d93c4e06d3ddc4",
@@ -18269,6 +18472,170 @@
       "http_status": null,
       "failure_kind": "document_or_policy",
       "retryable": false
+    },
+    "8a97da41713744920139a505": {
+      "id": "8a97da41713744920139a505",
+      "program_id": "BIZINFO-PBLN_000000000127225",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127225",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000776683&fileSn=0",
+      "name": "다운로드",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
+    },
+    "4759fec49e872f8a644d0157": {
+      "id": "4759fec49e872f8a644d0157",
+      "program_id": "BIZINFO-PBLN_000000000127225",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127225",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000776684&fileSn=0",
+      "name": "다운로드",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-18T13:02:06+09:00",
+      "last_success_at": "2026-11-18T13:02:06+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-11-18T13:02:06+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "eb6c8142477f704580a11614b8db5b739526f6eb6ff981ba3d4470c171783bb4",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "eb6c8142477f704580a11614b8db5b739526f6eb6ff981ba3d4470c171783bb4",
+      "sha256": "eb6c8142477f704580a11614b8db5b739526f6eb6ff981ba3d4470c171783bb4",
+      "extraction": {
+        "format": "hwp",
+        "parser": "olefile/0.47+hwp-body/0.4.0",
+        "sha256": "eb6c8142477f704580a11614b8db5b739526f6eb6ff981ba3d4470c171783bb4",
+        "bytes": 71168,
+        "status": "text_extracted",
+        "text_characters": 1371,
+        "units": 118,
+        "text_sha256": "c3c0ac279cafab641c13383b5f091e1d0347ab95736f1a5d35e6832e4be1c869",
+        "pages": null,
+        "sections": 1,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "b30da50bb83c4fdf9b6e",
+            "category": "amount",
+            "excerpt": "지원금액",
+            "locator": "BodyText/Section0 / record 695 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "9da568587dda30ae1ac6",
+            "category": "exclusion",
+            "excerpt": "※ 지원금은 부가가치세 제외 금액임(부가가치세 기업부담)",
+            "locator": "BodyText/Section0 / record 733 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "ece50322f0552e474c25",
+            "category": "amount",
+            "excerpt": "※ 지원금은 부가가치세 제외 금액임(부가가치세 기업부담)",
+            "locator": "BodyText/Section0 / record 733 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "구역·레코드 위치는 실제 인쇄 쪽번호가 아닙니다.",
+          "표·그림·각주 의미와 문서의 모든 제외조건은 미검토"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
+    },
+    "befcc583e02468bc42120419": {
+      "id": "befcc583e02468bc42120419",
+      "program_id": "BIZINFO-PBLN_000000000127227",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127227",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000776680&fileSn=0",
+      "name": "다운로드",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
+    },
+    "40446fce1bf330d044f1b01b": {
+      "id": "40446fce1bf330d044f1b01b",
+      "program_id": "BIZINFO-PBLN_000000000127227",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127227",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000776691&fileSn=0",
+      "name": "다운로드",
+      "status": "unsupported_format",
+      "last_attempt_at": "2026-11-18T13:02:06+09:00",
+      "last_success_at": null,
+      "last_error": "unsupported_format",
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-11-18T13:02:06+09:00",
+          "status": "unsupported_format",
+          "observed_sha256": "6e09736919d65cd8dbe3b8a113500ebc0f4fc856c08435d0bab2ac8c60a8dbd8",
+          "http_status": null,
+          "failure_kind": "document_or_policy"
+        }
+      ],
+      "observed_sha256": "6e09736919d65cd8dbe3b8a113500ebc0f4fc856c08435d0bab2ac8c60a8dbd8",
+      "http_status": null,
+      "failure_kind": "document_or_policy",
+      "retryable": false
+    },
+    "cc4a7deac3bd13c12ff12c5f": {
+      "id": "cc4a7deac3bd13c12ff12c5f",
+      "program_id": "BIZINFO-PBLN_000000000127238",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127238",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000776714&fileSn=0",
+      "name": "다운로드",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
+    },
+    "c899a72a4d8b3ccf9116d64f": {
+      "id": "c899a72a4d8b3ccf9116d64f",
+      "program_id": "BIZINFO-PBLN_000000000127238",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127238",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000776715&fileSn=0",
+      "name": "다운로드",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
+    },
+    "a99f20f12ede7b6071cabc34": {
+      "id": "a99f20f12ede7b6071cabc34",
+      "program_id": "BIZINFO-PBLN_000000000127238",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127238",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000776715&fileSn=1",
+      "name": "다운로드",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
     }
   },
   "programs": {
@@ -19654,6 +20021,46 @@
       "document_ids": [
         "3120631b2632fa78bb164ff6",
         "004c48b85e1b4072328079c2"
+      ],
+      "review_required": false,
+      "last_error": null
+    },
+    "BIZINFO-PBLN_000000000127225": {
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127225",
+      "last_notice_attempt_at": "2026-11-18T13:02:06+09:00",
+      "last_notice_success_at": "2026-11-18T13:02:06+09:00",
+      "notice_status": "links_available",
+      "manifest_sha256": "d04e5876ddcc12db42c394f580c3e30451f7a92fd794f7a86edc64de1ccf4d9e",
+      "document_ids": [
+        "8a97da41713744920139a505",
+        "4759fec49e872f8a644d0157"
+      ],
+      "review_required": false,
+      "last_error": null
+    },
+    "BIZINFO-PBLN_000000000127227": {
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127227",
+      "last_notice_attempt_at": "2026-11-18T13:02:06+09:00",
+      "last_notice_success_at": "2026-11-18T13:02:06+09:00",
+      "notice_status": "links_available",
+      "manifest_sha256": "abd908ed9366a1763afb5d4d5469d9bdc0f33fcb622ab58e7d343af1a09afb8c",
+      "document_ids": [
+        "befcc583e02468bc42120419",
+        "40446fce1bf330d044f1b01b"
+      ],
+      "review_required": false,
+      "last_error": null
+    },
+    "BIZINFO-PBLN_000000000127238": {
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127238",
+      "last_notice_attempt_at": "2026-11-18T13:02:06+09:00",
+      "last_notice_success_at": "2026-11-18T13:02:06+09:00",
+      "notice_status": "links_available",
+      "manifest_sha256": "a8f8ddc23f3fc75154f4c410c8f825835c75fe108bb9bafb39fc06a355caed85",
+      "document_ids": [
+        "cc4a7deac3bd13c12ff12c5f",
+        "c899a72a4d8b3ccf9116d64f",
+        "a99f20f12ede7b6071cabc34"
       ],
       "review_required": false,
       "last_error": null

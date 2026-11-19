@@ -1,6 +1,6 @@
 {
   "schema": "public-funding-radar/v1",
-  "generated_at": "2026-11-18T13:00:30+09:00",
+  "generated_at": "2026-11-19T12:57:27+09:00",
   "provenance": "공식기관 공개 공고 및 2026년 참고 제도. 2027년 미확정 사항은 자동 승격하지 않음.",
   "disclaimer": "본 자료는 신청·선정을 보장하지 않으며 최신 원문 확인 필요.",
   "items": [
@@ -5434,12 +5434,12 @@
       "kind": "창업",
       "mode": "discovery",
       "relevance": "startup_general",
-      "opens": "2026-11-11",
+      "opens": "2026-11-16",
       "deadline": "2026-12-11",
       "deadline_precision": "date",
-      "application_period_raw": "2026-11-11 ~ 2026-12-11",
+      "application_period_raw": "2026-11-16 ~ 2026-12-11",
       "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127866",
-      "verified_at": "2026-11-12",
+      "verified_at": "2026-11-19",
       "amount": "지원금액 · 공고 원문 확인 필요",
       "eligibility": "창업벤처",
       "note": "공식 API 목록 발견. 신청자격·지원금·첨부 조건은 검증 전입니다.",
@@ -5447,8 +5447,13 @@
       "agency": "강원특별자치도",
       "attachments": [
         {
-          "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000779538&fileSn=1",
-          "name": "2027년 삼척형 청년 스타트업 창업 지원사업 모집 공고(안) (최종).hwpx",
+          "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000780250&fileSn=1&fileSn=2",
+          "name": "신청서식.hwpx@참여제한 대상 업종.hwpx",
+          "status": "link_only_not_read"
+        },
+        {
+          "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000779538&fileSn=2",
+          "name": "2027년 삼척형 청년 스타트업 창업 지원사업 모집 공고(정정안).hwpx",
           "status": "link_only_not_read"
         }
       ]

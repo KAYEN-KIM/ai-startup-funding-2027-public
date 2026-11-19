@@ -1,22 +1,22 @@
 {
   "schema": "public-funding-bot-briefing/v1",
   "engine_version": "0.15.0",
-  "generated_at": "2026-11-18T13:02:41+09:00",
+  "generated_at": "2026-11-19T13:00:01+09:00",
   "generation": "deterministic_no_model",
   "report_model_calls": 0,
   "ai_transport": "manual_cli_only",
   "automatic_rule_approval": false,
   "automatic_submission": false,
   "input_fingerprints": {
-    "data/programs.json": "e7679d9edb9769fe359cfc0ec8f01ec85eda5667754f658eddf82a9a81124d4c",
-    "data/monitor.json": "18dc7f0ce012aedab5f91ad16ed75ccab1a34592eaee05d2f7d7ba287afb6be8",
-    "data/evidence.json": "e3b7389d1ce2bb6a9de8e2201f59bd762097b88363e033dd6d5a38e3d31b2128",
-    "data/change_reviews.json": "adaccba3f2b407974b871405e8a8fb80590a7d7053fdec5a934d7f09ef41638a",
-    "data/attachments.json": "0fa598ab7e9bb797847940d9697f9e25298e28220685483629729888da994879",
-    "data/startup_sources.json": "9ca65ab6bfa5f1b44f4a3b035b70895c0c0ad09cda3532aae6c6f73c631da6e0",
+    "data/programs.json": "1e18cd2c32527c20ff046d2d774550dc477663eb76325b2b869d546748ddd868",
+    "data/monitor.json": "7896cba4b1ca2c08ab89ea10bb3e419436b25a994c4f5eb0285f069054120908",
+    "data/evidence.json": "30ffe84c986f47e503f9f19bb7db7359e73238ca1be768dbaa342c4769029b3a",
+    "data/change_reviews.json": "a2d81aed189ed820c205ff7908c6457cf077e65fa6d3497b504bce123fbde39d",
+    "data/attachments.json": "6b9d45df4de1b098b945fb40de75fddd7f707cc91a98fd7e0a756d0acf5fa817",
+    "data/startup_sources.json": "adbb820d05518d3f2b2dc43658b269c0c51a54673260f451d87cb999984e1c94",
     "config/automation_policy.json": "167611159390f47d645f4f831e909f79bf41cfb5173e618f607e351dfe309140"
   },
-  "run_status": "partial_or_stale",
+  "run_status": "ok_scoped",
   "attention_required": true,
   "deadline_window_days": 7,
   "lanes": [
@@ -24,17 +24,17 @@
       "id": "api",
       "name": "기업마당 API",
       "status": "ok_scoped",
-      "last_attempt_at": "2026-11-18T13:00:30+09:00",
-      "last_success_at": "2026-11-18T13:00:30+09:00",
+      "last_attempt_at": "2026-11-19T12:57:27+09:00",
+      "last_success_at": "2026-11-19T12:57:27+09:00",
       "freshness": "recent",
       "workflow_outcome": "success",
-      "checked": 1322,
+      "checked": 1335,
       "failed": 0,
       "detail": {
         "pages": 7,
-        "reported_total": 1322,
-        "added": 1,
-        "modified": 0,
+        "reported_total": 1335,
+        "added": 0,
+        "modified": 1,
         "suggested": 0,
         "success": 0,
         "text_extracted": 0,
@@ -48,7 +48,7 @@
       "id": "html",
       "name": "공식 원문 HTML 순환",
       "status": "ok_scoped",
-      "last_attempt_at": "2026-11-18T13:00:30+09:00",
+      "last_attempt_at": "2026-11-19T12:57:27+09:00",
       "last_success_at": null,
       "freshness": "recent",
       "workflow_outcome": "success",
@@ -71,8 +71,8 @@
     {
       "id": "attachments",
       "name": "첨부파일 순환",
-      "status": "partial",
-      "last_attempt_at": "2026-11-18T13:02:06+09:00",
+      "status": "ok_scoped",
+      "last_attempt_at": "2026-11-19T12:59:19+09:00",
       "last_success_at": null,
       "freshness": "recent",
       "workflow_outcome": "success",
@@ -85,9 +85,9 @@
         "modified": 0,
         "suggested": 0,
         "success": 0,
-        "text_extracted": 3,
+        "text_extracted": 4,
         "partial_or_no_text": 0,
-        "blocked_or_unsupported": 1,
+        "blocked_or_unsupported": 0,
         "matched": 0,
         "changed": 0
       }
@@ -96,7 +96,7 @@
       "id": "startup",
       "name": "검토된 과거 원본",
       "status": "ok_scoped",
-      "last_attempt_at": "2026-11-18T13:02:29+09:00",
+      "last_attempt_at": "2026-11-19T12:59:47+09:00",
       "last_success_at": null,
       "freshness": "recent",
       "workflow_outcome": "success",
@@ -122,70 +122,22 @@
     "attachment_failures": 0,
     "notice_failures": 0,
     "attachment_limits": 19,
-    "queued_attachments": 95,
-    "changed_evidence": 55,
+    "queued_attachments": 98,
+    "changed_evidence": 61,
     "unverified_programs": 148,
     "unverified_2027": 4,
     "unknown_dates": 83
   },
   "counts": {
     "registered": 191,
-    "upcoming_deadlines": 9,
-    "queue_total": 97,
-    "queue_shown": 97,
+    "upcoming_deadlines": 6,
+    "queue_total": 103,
+    "queue_shown": 103,
     "queue_by_action": {
-      "review_original": 97
+      "review_original": 103
     }
   },
   "deadlines": [
-    {
-      "program_id": "BIZINFO-PBLN_000000000127372",
-      "title": "2026년 호남권 AX랩 지능형농업 데이터 활용 경진대회 공고(AI융합 지능형 농업 생태계 구축 사업)",
-      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127372",
-      "mode": "discovery",
-      "deadline": "2026-11-18",
-      "status": "today_time_unknown",
-      "date": "2026-11-18",
-      "days": 0,
-      "precision": "date_only",
-      "qualification": "개별 신청자격 미판정"
-    },
-    {
-      "program_id": "BIZINFO-PBLN_000000000127721",
-      "title": "[강원] AI 헬스케어 글로벌 브릿지 조성사업 아태 AI 헬스케어 글로벌 교차실증 참여 모집 공고",
-      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127721",
-      "mode": "discovery",
-      "deadline": "2026-11-18",
-      "status": "today_time_unknown",
-      "date": "2026-11-18",
-      "days": 0,
-      "precision": "date_only",
-      "qualification": "개별 신청자격 미판정"
-    },
-    {
-      "program_id": "BIZINFO-PBLN_000000000127794",
-      "title": "[부산] 부산지하철 미남역 지하상가 내 부산안전산업존(BSI-Zone) 초기창업자 모집 공고",
-      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127794",
-      "mode": "discovery",
-      "deadline": "2026-11-18",
-      "status": "today_time_unknown",
-      "date": "2026-11-18",
-      "days": 0,
-      "precision": "date_only",
-      "qualification": "개별 신청자격 미판정"
-    },
-    {
-      "program_id": "BIZINFO-PBLN_000000000127909",
-      "title": "[전남광주] 2026년 아태 AI 특화지구조성 올인원 AI 사업화지원(투자지원 및 해외수요처발굴지원 프로그램) 공고",
-      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127909",
-      "mode": "discovery",
-      "deadline": "2026-11-18",
-      "status": "today_time_unknown",
-      "date": "2026-11-18",
-      "days": 0,
-      "precision": "date_only",
-      "qualification": "개별 신청자격 미판정"
-    },
     {
       "program_id": "BIZINFO-PBLN_000000000127422",
       "title": "2026년 3차 기계장비산업기술개발사업 신규지원 대상과제 공고",
@@ -194,7 +146,7 @@
       "deadline": "2026-11-20",
       "status": "upcoming",
       "date": "2026-11-20",
-      "days": 2,
+      "days": 1,
       "precision": "date_only",
       "qualification": "개별 신청자격 미판정"
     },
@@ -206,7 +158,7 @@
       "deadline": "2026-11-20",
       "status": "upcoming",
       "date": "2026-11-20",
-      "days": 2,
+      "days": 1,
       "precision": "date_only",
       "qualification": "개별 신청자격 미판정"
     },
@@ -218,7 +170,7 @@
       "deadline": "2026-11-20",
       "status": "upcoming",
       "date": "2026-11-20",
-      "days": 2,
+      "days": 1,
       "precision": "date_only",
       "qualification": "개별 신청자격 미판정"
     },
@@ -230,7 +182,7 @@
       "deadline": "2026-11-23",
       "status": "upcoming",
       "date": "2026-11-23",
-      "days": 5,
+      "days": 4,
       "precision": "date_only",
       "qualification": "개별 신청자격 미판정"
     },
@@ -242,7 +194,19 @@
       "deadline": "2026-11-24",
       "status": "upcoming",
       "date": "2026-11-24",
-      "days": 6,
+      "days": 5,
+      "precision": "date_only",
+      "qualification": "개별 신청자격 미판정"
+    },
+    {
+      "program_id": "BIZINFO-PBLN_000000000127603",
+      "title": "[인천] 대학 청년 창업펀드 2호 UniVest Scale-Up 참여기업 모집 공고",
+      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127603",
+      "mode": "discovery",
+      "deadline": "2026-11-26",
+      "status": "upcoming",
+      "date": "2026-11-26",
+      "days": 7,
       "precision": "date_only",
       "qualification": "개별 신청자격 미판정"
     }
@@ -332,6 +296,78 @@
       "reason": "원문 내용 변경 신호. 실제 정책 변경인지는 미검증",
       "reference_id": "BIZINFO-PBLN_000000000124915",
       "observed_at": "2026-11-13T12:06:45+09:00"
+    },
+    {
+      "id": "a130987e8f8ccacf54e6f6e0",
+      "category": "notice_changed",
+      "priority": "P0",
+      "program_id": "BIZINFO-PBLN_000000000125523",
+      "title": "[경기] 시흥시 2026년 하반기 시흥창업센터 메이커스페이스 참여 모집 공고",
+      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125523",
+      "action": "review_original",
+      "reason": "원문 내용 변경 신호. 실제 정책 변경인지는 미검증",
+      "reference_id": "BIZINFO-PBLN_000000000125523",
+      "observed_at": "2026-11-19T12:57:27+09:00"
+    },
+    {
+      "id": "3d2ac49e75b6af792c4052e6",
+      "category": "notice_changed",
+      "priority": "P0",
+      "program_id": "BIZINFO-PBLN_000000000125560",
+      "title": "[서울] 서초구 2026년 소상공인 대상 AI 홍보 컨텐츠 제작지원 신청자 모집 공고",
+      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125560",
+      "action": "review_original",
+      "reason": "원문 내용 변경 신호. 실제 정책 변경인지는 미검증",
+      "reference_id": "BIZINFO-PBLN_000000000125560",
+      "observed_at": "2026-11-19T12:57:27+09:00"
+    },
+    {
+      "id": "99f839251fc209e93b2b866b",
+      "category": "notice_changed",
+      "priority": "P0",
+      "program_id": "BIZINFO-PBLN_000000000125634",
+      "title": "[강원] 2026년 지역 여성 창업기업 초기물품 지원사업 참여기업 모집 정정 공고",
+      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125634",
+      "action": "review_original",
+      "reason": "원문 내용 변경 신호. 실제 정책 변경인지는 미검증",
+      "reference_id": "BIZINFO-PBLN_000000000125634",
+      "observed_at": "2026-11-19T12:57:27+09:00"
+    },
+    {
+      "id": "dc327c27511933e4960b8ef3",
+      "category": "notice_changed",
+      "priority": "P0",
+      "program_id": "BIZINFO-PBLN_000000000125707",
+      "title": "[충남ㆍ충북ㆍ대전ㆍ세종] 2026년 중소기업 AI훈련확산센터 참여기업 모집 공고",
+      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125707",
+      "action": "review_original",
+      "reason": "원문 내용 변경 신호. 실제 정책 변경인지는 미검증",
+      "reference_id": "BIZINFO-PBLN_000000000125707",
+      "observed_at": "2026-11-19T12:57:27+09:00"
+    },
+    {
+      "id": "5d137d5c524f676b7815a4d0",
+      "category": "notice_changed",
+      "priority": "P0",
+      "program_id": "BIZINFO-PBLN_000000000125770",
+      "title": "[경남] 함양군 2026년 3차 소규모 창업자 초기 창업자금 지원 사업 모집 공고",
+      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125770",
+      "action": "review_original",
+      "reason": "원문 내용 변경 신호. 실제 정책 변경인지는 미검증",
+      "reference_id": "BIZINFO-PBLN_000000000125770",
+      "observed_at": "2026-11-19T12:57:27+09:00"
+    },
+    {
+      "id": "b60ab0454024c894640bc002",
+      "category": "notice_changed",
+      "priority": "P0",
+      "program_id": "BIZINFO-PBLN_000000000125775",
+      "title": "[전북] 2026년 3차 인공지능 전환 도입 컨설팅 지원사업 수시 모집 공고(AX실증산단 구축사업)",
+      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125775",
+      "action": "review_original",
+      "reason": "원문 내용 변경 신호. 실제 정책 변경인지는 미검증",
+      "reference_id": "BIZINFO-PBLN_000000000125775",
+      "observed_at": "2026-11-19T12:57:27+09:00"
     },
     {
       "id": "58bb7556d70e44b0575eb440",
@@ -1418,5 +1454,5 @@
   "scope": "기업마당 API, 기존 공식 원문·첨부 순환 수집 및 검토 원본 재확인. 전체 기관 독립 수집이나 자동 적격성 검증이 아님.",
   "notice": "이 보고서는 공개 저장자료의 규칙 기반 집계입니다. 후보·마감·우선순위는 신청 적격성, 선정 확률 또는 지원금 확정이 아닙니다. 자료 변경은 정책 변경 확정이 아니며 원문 대조가 필요합니다.",
   "ai_handoff": "공개 근거 검토요청 파일만 생성 가능. AI CLI 자동 실행·API 호출·결과 자동 반영 없음.",
-  "report_id": "dfee69c66df9bd24d0d146de"
+  "report_id": "e079a64334d96e52b78469ef"
 }

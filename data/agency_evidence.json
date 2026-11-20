@@ -1,7 +1,7 @@
 {
   "schema": "public-funding-agency-evidence/v1",
   "version": "0.17.0",
-  "generated_at": "2026-11-19T12:58:48+09:00",
+  "generated_at": "2026-11-20T12:52:20+09:00",
   "model_calls": 0,
   "automatic_approval": false,
   "scope": "기관 직접 목록의 원문 최대 3건·첨부 최대 4건 순환 확인. 본문 추출은 조건 후보이며 신청자격·금액·중복지원·문서 완전성 검증이 아닙니다. 기존 공고와 검토 규칙은 수정하지 않습니다.",
@@ -12,9 +12,9 @@
       "source": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1071785",
       "title": "2027년 도약(Jump-Up) 프로그램 참여기업 모집 공고",
       "listing_fingerprint": "e4cdfd512f5098ae2167e3fa251d720044abdc9d89e36f97336d502086a8ad1f",
-      "listing_seen_at": "2026-11-16T11:34:07+09:00",
-      "last_attempt_at": "2026-11-16T11:34:13+09:00",
-      "last_success_at": "2026-11-16T11:34:13+09:00",
+      "listing_seen_at": "2026-11-20T12:52:12+09:00",
+      "last_attempt_at": "2026-11-20T12:52:20+09:00",
+      "last_success_at": "2026-11-20T12:52:20+09:00",
       "status": "html_available",
       "last_error": null,
       "review_required": false,
@@ -35,6 +35,13 @@
         }
       ],
       "history": [
+        {
+          "at": "2026-11-20T12:52:20+09:00",
+          "status": "html_available",
+          "body_sha256": "f24eab2ad59d502b3f1b3da0054e84eddc6358b5704d74d1aa2f05bf2ebd3e87",
+          "manifest_sha256": "e91eba66141ad96379eb59588d0aab1dfbaf0ba78d4f7cbf379620590cbf895d",
+          "error": null
+        },
         {
           "at": "2026-11-16T11:34:13+09:00",
           "status": "html_available",
@@ -58,13 +65,6 @@
         },
         {
           "at": "2026-11-04T11:53:40+09:00",
-          "status": "html_available",
-          "body_sha256": "f24eab2ad59d502b3f1b3da0054e84eddc6358b5704d74d1aa2f05bf2ebd3e87",
-          "manifest_sha256": "e91eba66141ad96379eb59588d0aab1dfbaf0ba78d4f7cbf379620590cbf895d",
-          "error": null
-        },
-        {
-          "at": "2026-11-01T10:49:52+09:00",
           "status": "html_available",
           "body_sha256": "f24eab2ad59d502b3f1b3da0054e84eddc6358b5704d74d1aa2f05bf2ebd3e87",
           "manifest_sha256": "e91eba66141ad96379eb59588d0aab1dfbaf0ba78d4f7cbf379620590cbf895d",
@@ -591,9 +591,9 @@
       "source": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1071648",
       "title": "2027년 초격차 스타트업 프로젝트 정부 첫 실증·구매 프로젝트 주관기관 모집공고",
       "listing_fingerprint": "ce665a0eca5309e6a7a42def3dd752238810f12b8b3b6a6cc0fddfb5d1d6cf62",
-      "listing_seen_at": "2026-11-15T11:22:52+09:00",
-      "last_attempt_at": "2026-11-15T11:22:58+09:00",
-      "last_success_at": "2026-11-15T11:22:58+09:00",
+      "listing_seen_at": "2026-11-20T12:52:12+09:00",
+      "last_attempt_at": "2026-11-20T12:52:20+09:00",
+      "last_success_at": "2026-11-20T12:52:20+09:00",
       "status": "html_available",
       "last_error": null,
       "review_required": false,
@@ -614,6 +614,13 @@
         }
       ],
       "history": [
+        {
+          "at": "2026-11-20T12:52:20+09:00",
+          "status": "html_available",
+          "body_sha256": "6aef637dcdcd0a8a3c1f05349962a539fe639a194c026db904721cb777b163bd",
+          "manifest_sha256": "f649f8b021066938b80be74330d833fd45ff664a5c076cfcf827cae0fba5c4a6",
+          "error": null
+        },
         {
           "at": "2026-11-15T11:22:58+09:00",
           "status": "html_available",
@@ -1150,9 +1157,9 @@
       "source": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16827&tab=2",
       "title": "2026년도 SaaS 전환 컨설팅 2차 수요기업 모집",
       "listing_fingerprint": "31d147c11d90cd9ed23a5c63d266fa60c4716bc9ecc813f3665a59dbe6af8917",
-      "listing_seen_at": "2026-11-06T12:05:41+09:00",
-      "last_attempt_at": "2026-11-06T12:05:47+09:00",
-      "last_success_at": "2026-11-06T12:05:47+09:00",
+      "listing_seen_at": "2026-11-20T12:52:12+09:00",
+      "last_attempt_at": "2026-11-20T12:52:20+09:00",
+      "last_success_at": "2026-11-20T12:52:20+09:00",
       "status": "html_available",
       "last_error": null,
       "review_required": false,
@@ -1173,6 +1180,13 @@
         }
       ],
       "history": [
+        {
+          "at": "2026-11-20T12:52:20+09:00",
+          "status": "html_available",
+          "body_sha256": "8ec97f0290ba085aae6d0c0eb810241d7ae86cb9f2dbf98da73a07123b60a9e5",
+          "manifest_sha256": "b274a7348789ea66691b53f3a6db90694357f8da2db9c5eb12acc39447dce478",
+          "error": null
+        },
         {
           "at": "2026-11-06T12:05:47+09:00",
           "status": "html_available",
@@ -1606,11 +1620,18 @@
       "url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1071785&cbIdx=310&streFileNm=616ad874-cee9-458c-8b63-873d955be3cc.pdf",
       "name": "616ad874-cee9-458c-8b63-873d955be3cc.pdf",
       "status": "text_extracted",
-      "last_attempt_at": "2026-11-08T11:01:39+09:00",
-      "last_success_at": "2026-11-08T11:01:39+09:00",
+      "last_attempt_at": "2026-11-20T12:52:20+09:00",
+      "last_success_at": "2026-11-20T12:52:20+09:00",
       "last_error": null,
       "review_required": false,
       "history": [
+        {
+          "at": "2026-11-20T12:52:20+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "f9eaf14d758270ed99147a6243fe7c51936506d1be71ac03f3a4051bfd1b8b96",
+          "http_status": null,
+          "failure_kind": null
+        },
         {
           "at": "2026-11-08T11:01:39+09:00",
           "status": "text_extracted",
@@ -5646,11 +5667,18 @@
       "url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1071648&cbIdx=310&streFileNm=ca0f024d-e028-40f2-aa7f-4c4feba19e82.hwpx",
       "name": "ca0f024d-e028-40f2-aa7f-4c4feba19e82.hwpx",
       "status": "text_extracted",
-      "last_attempt_at": "2026-11-10T13:30:13+09:00",
-      "last_success_at": "2026-11-10T13:30:13+09:00",
+      "last_attempt_at": "2026-11-20T12:52:20+09:00",
+      "last_success_at": "2026-11-20T12:52:20+09:00",
       "last_error": null,
       "review_required": false,
       "history": [
+        {
+          "at": "2026-11-20T12:52:20+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "51e2ff04fae7f835398451bf31cf22a93ace0e859116effbcdd8cf70e51173b7",
+          "http_status": null,
+          "failure_kind": null
+        },
         {
           "at": "2026-11-10T13:30:13+09:00",
           "status": "text_extracted",
@@ -10965,11 +10993,18 @@
       "url": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16827&tab=2",
       "name": "2026년 SaaS 전환지원센터 SaaS 전환 컨설팅 지원 수요기업 신청서.hwp",
       "status": "text_extracted",
-      "last_attempt_at": "2026-11-06T12:05:47+09:00",
-      "last_success_at": "2026-11-06T12:05:47+09:00",
+      "last_attempt_at": "2026-11-20T12:52:20+09:00",
+      "last_success_at": "2026-11-20T12:52:20+09:00",
       "last_error": null,
       "review_required": false,
       "history": [
+        {
+          "at": "2026-11-20T12:52:20+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "9874d99d354e39d456282d8fa2223c9c7588e233fced3fb772d29f6b0d7b9f92",
+          "http_status": null,
+          "failure_kind": null
+        },
         {
           "at": "2026-11-06T12:05:47+09:00",
           "status": "text_extracted",
@@ -11048,11 +11083,18 @@
       "url": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16827&tab=2",
       "name": "2026년 SaaS 전환지원센터 SaaS 전환 컨설팅 2차 수요기업 모집 공고.hwp",
       "status": "text_extracted",
-      "last_attempt_at": "2026-11-06T12:05:47+09:00",
-      "last_success_at": "2026-11-06T12:05:47+09:00",
+      "last_attempt_at": "2026-11-20T12:52:20+09:00",
+      "last_success_at": "2026-11-20T12:52:20+09:00",
       "last_error": null,
       "review_required": false,
       "history": [
+        {
+          "at": "2026-11-20T12:52:20+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "eeafd84b07d324cf917a471f6a8e57474aedcb4579ef3f10cd7bd9191fcd06a2",
+          "http_status": null,
+          "failure_kind": null
+        },
         {
           "at": "2026-11-06T12:05:47+09:00",
           "status": "text_extracted",
@@ -11730,7 +11772,7 @@
     }
   },
   "run": {
-    "at": "2026-11-19T12:58:48+09:00",
+    "at": "2026-11-20T12:52:20+09:00",
     "status": "ok_scoped",
     "notices_attempted": 3,
     "notices_success": 3,

@@ -1,8 +1,8 @@
 {
   "schema": "public-funding-attachment-recovery/v1",
   "version": "0.23.0",
-  "generated_at": "2026-11-19T12:59:19+09:00",
-  "source_run_at": "2026-11-19T12:59:19+09:00",
+  "generated_at": "2026-11-20T12:52:42+09:00",
+  "source_run_at": "2026-11-20T12:52:42+09:00",
   "limits": {
     "notice_pages_per_run": 3,
     "file_attempts_per_run": 4,
@@ -10,28 +10,16 @@
     "success_recheck_days": 14
   },
   "counts": {
-    "queued": 98,
+    "queued": 99,
     "retry_due": 0,
     "retry_wait": 0,
-    "manual": 19,
-    "revisit": 78,
+    "manual": 20,
+    "revisit": 81,
     "current": 50,
     "inactive": 0
   },
-  "active_records": 245,
+  "active_records": 250,
   "selected": [
-    {
-      "id": "96faab6fba4fb12d86b009ab",
-      "program_id": "BIZINFO-PBLN_000000000127132",
-      "status": "queued",
-      "decision": "queued",
-      "reason": "newly_queued",
-      "retry_after": null,
-      "last_attempt_at": null,
-      "last_success_at": null,
-      "previous_extraction_kept": false,
-      "review_required": false
-    },
     {
       "id": "97feedb1c9b37b51c9c2fad5",
       "program_id": "BIZINFO-PBLN_000000000127126",
@@ -47,6 +35,18 @@
     {
       "id": "98abe2de4e0b49871300f59e",
       "program_id": "BIZINFO-PBLN_000000000126963",
+      "status": "queued",
+      "decision": "queued",
+      "reason": "newly_queued",
+      "retry_after": null,
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "previous_extraction_kept": false,
+      "review_required": false
+    },
+    {
+      "id": "9a000469eb19fc90b7329ecf",
+      "program_id": "BIZINFO-PBLN_000000000127316",
       "status": "queued",
       "decision": "queued",
       "reason": "newly_queued",
@@ -296,6 +296,18 @@
       "last_attempt_at": "2026-11-18T13:02:06+09:00",
       "last_success_at": null,
       "previous_extraction_kept": false,
+      "review_required": false
+    },
+    {
+      "id": "96faab6fba4fb12d86b009ab",
+      "program_id": "BIZINFO-PBLN_000000000127132",
+      "status": "no_text",
+      "decision": "manual",
+      "reason": "manual_original_review_required",
+      "retry_after": null,
+      "last_attempt_at": "2026-11-20T12:52:42+09:00",
+      "last_success_at": "2026-11-20T12:52:42+09:00",
+      "previous_extraction_kept": true,
       "review_required": false
     }
   ],

@@ -1,8 +1,8 @@
 {
   "schema": "public-funding-conditions/v1",
   "version": "0.3.0",
-  "generated_at": "2026-11-19T12:57:27+09:00",
-  "input_fingerprint": "976fa0ae31a5d0a24e9f8d7a5b546eaa76f46619c87f96e22a2f44568785f821",
+  "generated_at": "2026-11-20T12:51:10+09:00",
+  "input_fingerprint": "aaf5d2bbb119be53245b2bde79d5886a0947e97e4022b7a1c56091a10e19efa0",
   "disclaimer": "요약에서 확인한 조건만 판정합니다. 자동 추출은 미검증 후보이며 기관의 최종 심사를 대체하지 않습니다.",
   "records": {
     "IBK-2027-1": {
@@ -5689,6 +5689,60 @@
         "amount": "지원금액 · 공고 원문 확인 필요",
         "opens": "2026-11-16",
         "deadline": "2026-12-17"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000128022": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000128022",
+      "basis_fingerprint": "9c7940a24f6d5d173b901a2ae851bae182807e30f0ccef7c4827e5142fd99fec",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000128022",
+        "title": "2027년 AI데이터센터 서비스 이용자 정기모집(1트랙) 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000128022",
+        "year": 2027,
+        "eligibility": "중소기업",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": "2026-11-13",
+        "deadline": "2026-12-04"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000128016": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000128016",
+      "basis_fingerprint": "111fe77584060f1bbcceb06ebffbc016b4e2b884d990fb12512d209cb44cbdfd",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000128016",
+        "title": "AI융합 의료기기 신뢰성 강화 및 성능 평가ㆍ실증 통합지원 사업 재공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000128016",
+        "year": 2026,
+        "eligibility": "중소기업",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": null,
+        "deadline": null
       },
       "coverage": "unreviewed",
       "metadata_state": "current",

@@ -1,6 +1,6 @@
 {
   "schema": "public-funding-radar/v1",
-  "generated_at": "2026-11-19T12:57:27+09:00",
+  "generated_at": "2026-11-20T12:51:10+09:00",
   "provenance": "공식기관 공개 공고 및 2026년 참고 제도. 2027년 미확정 사항은 자동 승격하지 않음.",
   "disclaimer": "본 자료는 신청·선정을 보장하지 않으며 최신 원문 확인 필요.",
   "items": [
@@ -5722,6 +5722,74 @@
         {
           "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000780064&fileSn=0",
           "name": "[공고] 청년창업자 정주여건(주거·사업장) 지원 모집 공고.pdf",
+          "status": "link_only_not_read"
+        }
+      ]
+    },
+    {
+      "id": "BIZINFO-PBLN_000000000128022",
+      "title": "2027년 AI데이터센터 서비스 이용자 정기모집(1트랙) 공고",
+      "year": 2027,
+      "years": [
+        2027
+      ],
+      "year_basis": "title",
+      "kind": "기술",
+      "mode": "discovery",
+      "relevance": "ai",
+      "opens": "2026-11-13",
+      "deadline": "2026-12-04",
+      "deadline_precision": "date",
+      "application_period_raw": "2026-11-13 ~ 2026-12-04",
+      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000128022",
+      "verified_at": "2026-11-20",
+      "amount": "지원금액 · 공고 원문 확인 필요",
+      "eligibility": "중소기업",
+      "note": "공식 API 목록 발견. 신청자격·지원금·첨부 조건은 검증 전입니다.",
+      "source_level": "official_api_index_not_full_application_verified",
+      "agency": "과학기술정보통신부",
+      "attachments": [
+        {
+          "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000780370&fileSn=1&fileSn=2",
+          "name": "[신청서류] 2027년 AI데이터센터 서비스 이용자 정기모집(1트랙).zip@2027년 AI데이터센터 서비스 이용자 모집 홍보 포스터.pdf",
+          "status": "link_only_not_read"
+        },
+        {
+          "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000780369&fileSn=1",
+          "name": "[공고문] 2027년 AI 데이터센터 서비스 이용자 정기모집 공고문(1트랙).pdf",
+          "status": "link_only_not_read"
+        }
+      ]
+    },
+    {
+      "id": "BIZINFO-PBLN_000000000128016",
+      "title": "AI융합 의료기기 신뢰성 강화 및 성능 평가ㆍ실증 통합지원 사업 재공고",
+      "year": 2026,
+      "years": [],
+      "year_basis": "collection_year_inferred",
+      "kind": "기술",
+      "mode": "discovery",
+      "relevance": "ai",
+      "opens": null,
+      "deadline": null,
+      "deadline_precision": "unknown",
+      "application_period_raw": "상시 접수",
+      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000128016",
+      "verified_at": "2026-11-20",
+      "amount": "지원금액 · 공고 원문 확인 필요",
+      "eligibility": "중소기업",
+      "note": "공식 API 목록 발견. 신청자격·지원금·첨부 조건은 검증 전입니다.",
+      "source_level": "official_api_index_not_full_application_verified",
+      "agency": "산업통상부",
+      "attachments": [
+        {
+          "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000780354&fileSn=1",
+          "name": "01_(양식)협약서_통합공고_수혜기업.hwpx",
+          "status": "link_only_not_read"
+        },
+        {
+          "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000780353&fileSn=1",
+          "name": "(본문) AI융합 의료기기 신뢰성 강화 및 성능 평가·실증 통합지원 사업_충북TP_.pdf",
           "status": "link_only_not_read"
         }
       ]

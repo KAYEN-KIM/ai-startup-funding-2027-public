@@ -1,7 +1,7 @@
 {
   "schema": "public-funding-agency-evidence/v1",
   "version": "0.17.0",
-  "generated_at": "2026-11-20T12:52:20+09:00",
+  "generated_at": "2026-11-21T12:45:00+09:00",
   "model_calls": 0,
   "automatic_approval": false,
   "scope": "기관 직접 목록의 원문 최대 3건·첨부 최대 4건 순환 확인. 본문 추출은 조건 후보이며 신청자격·금액·중복지원·문서 완전성 검증이 아닙니다. 기존 공고와 검토 규칙은 수정하지 않습니다.",
@@ -119,9 +119,9 @@
       "source": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1071646",
       "title": "「2026년 스마트제조혁신 유공」 포상 후보자 모집 추가 공고",
       "listing_fingerprint": "66427605d60ba5142e2035b08198c603858def3a8d80b5436337c66b12d9dd0b",
-      "listing_seen_at": "2026-11-17T13:57:36+09:00",
-      "last_attempt_at": "2026-11-17T13:57:43+09:00",
-      "last_success_at": "2026-11-17T13:57:43+09:00",
+      "listing_seen_at": "2026-11-21T12:44:52+09:00",
+      "last_attempt_at": "2026-11-21T12:45:00+09:00",
+      "last_success_at": "2026-11-21T12:45:00+09:00",
       "status": "html_available",
       "last_error": null,
       "review_required": false,
@@ -142,6 +142,13 @@
         }
       ],
       "history": [
+        {
+          "at": "2026-11-21T12:45:00+09:00",
+          "status": "html_available",
+          "body_sha256": "9c6792dc87875cca4c169f2b3240b29755330c003f7ff9bfe030aa5dd21f2821",
+          "manifest_sha256": "e18299fdfba89c2dafa495d6bc78962acf08c4ee2961d80f5fbe3e7bb6455ec0",
+          "error": null
+        },
         {
           "at": "2026-11-17T13:57:43+09:00",
           "status": "html_available",
@@ -165,13 +172,6 @@
         },
         {
           "at": "2026-11-05T12:06:08+09:00",
-          "status": "html_available",
-          "body_sha256": "9c6792dc87875cca4c169f2b3240b29755330c003f7ff9bfe030aa5dd21f2821",
-          "manifest_sha256": "e18299fdfba89c2dafa495d6bc78962acf08c4ee2961d80f5fbe3e7bb6455ec0",
-          "error": null
-        },
-        {
-          "at": "2026-11-02T11:04:10+09:00",
           "status": "html_available",
           "body_sha256": "9c6792dc87875cca4c169f2b3240b29755330c003f7ff9bfe030aa5dd21f2821",
           "manifest_sha256": "e18299fdfba89c2dafa495d6bc78962acf08c4ee2961d80f5fbe3e7bb6455ec0",
@@ -302,9 +302,9 @@
       "source": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1072138",
       "title": "2027년 스마트 제조혁신 지원사업 통합공고",
       "listing_fingerprint": "f8c278616014df06dbe1e9c7e58409a32c7c7a3fbb4f58f32d62ba64cc24e174",
-      "listing_seen_at": "2026-11-16T11:34:07+09:00",
-      "last_attempt_at": "2026-11-16T11:34:13+09:00",
-      "last_success_at": "2026-11-16T11:34:13+09:00",
+      "listing_seen_at": "2026-11-21T12:44:52+09:00",
+      "last_attempt_at": "2026-11-21T12:45:00+09:00",
+      "last_success_at": "2026-11-21T12:45:00+09:00",
       "status": "html_available",
       "last_error": null,
       "review_required": false,
@@ -325,6 +325,13 @@
         }
       ],
       "history": [
+        {
+          "at": "2026-11-21T12:45:00+09:00",
+          "status": "html_available",
+          "body_sha256": "6ce268054f0abbee3d86ca3f30b1985bc474fa5466f4b8b68ed6ef1e10cc8d04",
+          "manifest_sha256": "ee088bb5fee43bc8b654c1b83dc7b33c094cd1e85b3a3033f915e95cea306780",
+          "error": null
+        },
         {
           "at": "2026-11-16T11:34:13+09:00",
           "status": "html_available",
@@ -348,13 +355,6 @@
         },
         {
           "at": "2026-11-02T13:07:44+09:00",
-          "status": "html_available",
-          "body_sha256": "6ce268054f0abbee3d86ca3f30b1985bc474fa5466f4b8b68ed6ef1e10cc8d04",
-          "manifest_sha256": "ee088bb5fee43bc8b654c1b83dc7b33c094cd1e85b3a3033f915e95cea306780",
-          "error": null
-        },
-        {
-          "at": "2026-10-30T21:14:28+09:00",
           "status": "html_available",
           "body_sha256": "6ce268054f0abbee3d86ca3f30b1985bc474fa5466f4b8b68ed6ef1e10cc8d04",
           "manifest_sha256": "ee088bb5fee43bc8b654c1b83dc7b33c094cd1e85b3a3033f915e95cea306780",
@@ -1203,9 +1203,9 @@
       "source": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16974&tab=2",
       "title": "「모두의 AI」 정책브랜드 대국민 공모전 공고",
       "listing_fingerprint": "3016ea268b7d40e84193a6089d85de26b25badd1b8d76011ce31274e29ead1cc",
-      "listing_seen_at": "2026-11-07T11:32:03+09:00",
-      "last_attempt_at": "2026-11-07T11:32:11+09:00",
-      "last_success_at": "2026-11-07T11:32:11+09:00",
+      "listing_seen_at": "2026-11-21T12:44:52+09:00",
+      "last_attempt_at": "2026-11-21T12:45:00+09:00",
+      "last_success_at": "2026-11-21T12:45:00+09:00",
       "status": "html_available",
       "last_error": null,
       "review_required": false,
@@ -1213,6 +1213,13 @@
       "manifest_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
       "documents": [],
       "history": [
+        {
+          "at": "2026-11-21T12:45:00+09:00",
+          "status": "html_available",
+          "body_sha256": "f4e667ff7410ceeed40104501d42918563a718d33431a39d54704d26d54a11fe",
+          "manifest_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "error": null
+        },
         {
           "at": "2026-11-07T11:32:11+09:00",
           "status": "html_available",
@@ -2034,11 +2041,18 @@
       "url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1071646&cbIdx=310&streFileNm=2ee810a5-6230-4d39-8285-e0f2542b221f.pdf",
       "name": "2ee810a5-6230-4d39-8285-e0f2542b221f.pdf",
       "status": "text_extracted",
-      "last_attempt_at": "2026-11-05T12:06:08+09:00",
-      "last_success_at": "2026-11-05T12:06:08+09:00",
+      "last_attempt_at": "2026-11-21T12:45:00+09:00",
+      "last_success_at": "2026-11-21T12:45:00+09:00",
       "last_error": null,
       "review_required": false,
       "history": [
+        {
+          "at": "2026-11-21T12:45:00+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "9179d78cd0e77993359f16530186122176d435bf96935c0a8632c252021952e4",
+          "http_status": null,
+          "failure_kind": null
+        },
         {
           "at": "2026-11-05T12:06:08+09:00",
           "status": "text_extracted",
@@ -2196,11 +2210,18 @@
       "url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1071646&cbIdx=310&streFileNm=272801bf-0749-4e48-aca7-ab6a8e09ef85.hwpx",
       "name": "272801bf-0749-4e48-aca7-ab6a8e09ef85.hwpx",
       "status": "text_extracted",
-      "last_attempt_at": "2026-11-05T12:06:08+09:00",
-      "last_success_at": "2026-11-05T12:06:08+09:00",
+      "last_attempt_at": "2026-11-21T12:45:00+09:00",
+      "last_success_at": "2026-11-21T12:45:00+09:00",
       "last_error": null,
       "review_required": false,
       "history": [
+        {
+          "at": "2026-11-21T12:45:00+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "716c2e4b73054b91735a94524517e402b4ad25b0a512eb73b88c3656e36651aa",
+          "http_status": null,
+          "failure_kind": null
+        },
         {
           "at": "2026-11-05T12:06:08+09:00",
           "status": "text_extracted",
@@ -3121,11 +3142,18 @@
       "url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1072138&cbIdx=310&streFileNm=008b1236-66ba-463e-a181-e5bc0912a772.pdf",
       "name": "008b1236-66ba-463e-a181-e5bc0912a772.pdf",
       "status": "text_extracted",
-      "last_attempt_at": "2026-11-11T11:30:46+09:00",
-      "last_success_at": "2026-11-11T11:30:46+09:00",
+      "last_attempt_at": "2026-11-21T12:45:00+09:00",
+      "last_success_at": "2026-11-21T12:45:00+09:00",
       "last_error": null,
       "review_required": false,
       "history": [
+        {
+          "at": "2026-11-21T12:45:00+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "dc4b8f78a73591ef7481634150dd0f5aa674f913c5980b6a81e692d061e74929",
+          "http_status": null,
+          "failure_kind": null
+        },
         {
           "at": "2026-11-11T11:30:46+09:00",
           "status": "text_extracted",
@@ -3328,11 +3356,18 @@
       "url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1072138&cbIdx=310&streFileNm=46e8dc89-e5ca-4a96-ba26-987c862bba08.hwpx",
       "name": "46e8dc89-e5ca-4a96-ba26-987c862bba08.hwpx",
       "status": "text_extracted",
-      "last_attempt_at": "2026-11-11T11:30:46+09:00",
-      "last_success_at": "2026-11-11T11:30:46+09:00",
+      "last_attempt_at": "2026-11-21T12:45:00+09:00",
+      "last_success_at": "2026-11-21T12:45:00+09:00",
       "last_error": null,
       "review_required": false,
       "history": [
+        {
+          "at": "2026-11-21T12:45:00+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "fabd5938177f4fb8c467cfba04225439b19b9ee932db30b5589732bc82ed66af",
+          "http_status": null,
+          "failure_kind": null
+        },
         {
           "at": "2026-11-11T11:30:46+09:00",
           "status": "text_extracted",
@@ -11772,8 +11807,8 @@
     }
   },
   "run": {
-    "at": "2026-11-20T12:52:20+09:00",
-    "status": "ok_scoped",
+    "at": "2026-11-21T12:45:00+09:00",
+    "status": "partial",
     "notices_attempted": 3,
     "notices_success": 3,
     "notices_failed": 0,

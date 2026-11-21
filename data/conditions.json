@@ -1,8 +1,8 @@
 {
   "schema": "public-funding-conditions/v1",
   "version": "0.3.0",
-  "generated_at": "2026-11-20T12:51:10+09:00",
-  "input_fingerprint": "aaf5d2bbb119be53245b2bde79d5886a0947e97e4022b7a1c56091a10e19efa0",
+  "generated_at": "2026-11-21T12:43:44+09:00",
+  "input_fingerprint": "3db8f3991bacb5bde70df38fdfd0abb70715a1ada27fa7bd82f70f8b15e9bf13",
   "disclaimer": "요약에서 확인한 조건만 판정합니다. 자동 추출은 미검증 후보이며 기관의 최종 심사를 대체하지 않습니다.",
   "records": {
     "IBK-2027-1": {
@@ -5743,6 +5743,60 @@
         "amount": "지원금액 · 공고 원문 확인 필요",
         "opens": null,
         "deadline": null
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000128052": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000128052",
+      "basis_fingerprint": "3e28c64998bc27af21ca2759ea98a66b49ec91d2abfbe2ca69effa63dfb14fed",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000128052",
+        "title": "첨단 GPU 활용 지원 사업 베타서비스 참여자 모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000128052",
+        "year": 2026,
+        "eligibility": "중소기업",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": "2026-11-19",
+        "deadline": "2026-11-24"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000128041": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000128041",
+      "basis_fingerprint": "f8fe4e8eadc680aa715e9641f97103a6a46cf93e654567018ed5b2e9a88e6681",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000128041",
+        "title": "전북형 스마트 제조AI 시범공장 조성사업 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000128041",
+        "year": 2026,
+        "eligibility": "중소기업",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": "2026-11-19",
+        "deadline": "2026-12-11"
       },
       "coverage": "unreviewed",
       "metadata_state": "current",

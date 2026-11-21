@@ -1,8 +1,8 @@
 {
   "schema": "public-funding-attachment-recovery/v1",
   "version": "0.23.0",
-  "generated_at": "2026-11-20T12:52:42+09:00",
-  "source_run_at": "2026-11-20T12:52:42+09:00",
+  "generated_at": "2026-11-21T12:45:29+09:00",
+  "source_run_at": "2026-11-21T12:45:29+09:00",
   "limits": {
     "notice_pages_per_run": 3,
     "file_attempts_per_run": 4,
@@ -10,40 +10,16 @@
     "success_recheck_days": 14
   },
   "counts": {
-    "queued": 99,
+    "queued": 100,
     "retry_due": 0,
     "retry_wait": 0,
     "manual": 20,
-    "revisit": 81,
-    "current": 50,
+    "revisit": 84,
+    "current": 51,
     "inactive": 0
   },
-  "active_records": 250,
+  "active_records": 255,
   "selected": [
-    {
-      "id": "97feedb1c9b37b51c9c2fad5",
-      "program_id": "BIZINFO-PBLN_000000000127126",
-      "status": "queued",
-      "decision": "queued",
-      "reason": "newly_queued",
-      "retry_after": null,
-      "last_attempt_at": null,
-      "last_success_at": null,
-      "previous_extraction_kept": false,
-      "review_required": false
-    },
-    {
-      "id": "98abe2de4e0b49871300f59e",
-      "program_id": "BIZINFO-PBLN_000000000126963",
-      "status": "queued",
-      "decision": "queued",
-      "reason": "newly_queued",
-      "retry_after": null,
-      "last_attempt_at": null,
-      "last_success_at": null,
-      "previous_extraction_kept": false,
-      "review_required": false
-    },
     {
       "id": "9a000469eb19fc90b7329ecf",
       "program_id": "BIZINFO-PBLN_000000000127316",
@@ -59,6 +35,30 @@
     {
       "id": "9d595723bcf6ae350418a6c2",
       "program_id": "BIZINFO-PBLN_000000000126739",
+      "status": "queued",
+      "decision": "queued",
+      "reason": "newly_queued",
+      "retry_after": null,
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "previous_extraction_kept": false,
+      "review_required": false
+    },
+    {
+      "id": "9dafd73a070056a164f18097",
+      "program_id": "BIZINFO-PBLN_000000000123662",
+      "status": "queued",
+      "decision": "queued",
+      "reason": "newly_queued",
+      "retry_after": null,
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "previous_extraction_kept": false,
+      "review_required": false
+    },
+    {
+      "id": "9e29658c5fb9890209ef0db1",
+      "program_id": "BIZINFO-PBLN_000000000126774",
       "status": "queued",
       "decision": "queued",
       "reason": "newly_queued",

@@ -1,9 +1,9 @@
 {
   "schema": "public-funding-attachments/v1",
   "version": "0.4.0",
-  "generated_at": "2026-11-21T12:45:29+09:00",
+  "generated_at": "2026-11-22T11:49:03+09:00",
   "run": {
-    "at": "2026-11-21T12:45:29+09:00",
+    "at": "2026-11-22T11:49:03+09:00",
     "notice_success": 3,
     "notice_failed": 0,
     "attempted": 4,
@@ -13,7 +13,7 @@
     "failed": 0,
     "changed": 0,
     "manifest_changed": 0,
-    "queued_total": 255,
+    "queued_total": 262,
     "new_attempted": 4,
     "retry_attempted": 0,
     "revisit_attempted": 0,
@@ -20425,6 +20425,764 @@
       "http_status": null,
       "failure_kind": null,
       "retryable": false
+    },
+    "2af3d709167f28cc5e0c498e": {
+      "id": "2af3d709167f28cc5e0c498e",
+      "program_id": "BIZINFO-PBLN_000000000127394",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127394",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000777427&fileSn=0",
+      "name": "다운로드",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-22T11:49:03+09:00",
+      "last_success_at": "2026-11-22T11:49:03+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-11-22T11:49:03+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "df9b5c18dbf908c4dd85d0d7b863957df7d71e1186fee3c0cd26865479c54578",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "df9b5c18dbf908c4dd85d0d7b863957df7d71e1186fee3c0cd26865479c54578",
+      "sha256": "df9b5c18dbf908c4dd85d0d7b863957df7d71e1186fee3c0cd26865479c54578",
+      "extraction": {
+        "format": "pdf",
+        "parser": "pypdf/6.15.0",
+        "sha256": "df9b5c18dbf908c4dd85d0d7b863957df7d71e1186fee3c0cd26865479c54578",
+        "bytes": 170231,
+        "status": "text_extracted",
+        "text_characters": 2538,
+        "units": 177,
+        "text_sha256": "88915eb85ac8f68b2cdbc96aebc79087275932edbc1f994eb79c65a19959d3de",
+        "pages": 4,
+        "sections": null,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "90ee04a68a1887bcc034",
+            "category": "eligibility",
+            "excerpt": "비창업자: 각 지역별 10명 이상 3. 모집대상 : 경산·청도·영덕 지역 K-MEDI분야 창업희망자 및 공고일 기준 창업 1년 미만 창업자 4. 모집분야분야 대상업종K-MEDI분야 천연소재, 바이오기술, 기능성소재, 화장품, 식품, 재활의료, 한의학, IT기술2 지원방법 1. 신청기간 : 공고일부터 ~ 2026. 10. 28.(수) 까지 2. 신청방법 : 모집 포스터 하단의 QR코드 폼 작성 후 신청서 접수 ",
+            "locator": "PDF p.1 / text-line 1",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "b7ea9d1d00615b558ae1",
+            "category": "documents",
+            "excerpt": "~ 2026. 10. 28.(수) 까지 2. 신청방법 : 모집 포스터 하단의 QR코드 폼 작성 후 신청서 접수 3. 제출서류 ◦ 참가지원 신청서 1부(서식 1 양식)",
+            "locator": "PDF p.1 / text-line 1",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "bb5f2acfd2250d99660b",
+            "category": "deadline",
+            "excerpt": "업종K-MEDI분야 천연소재, 바이오기술, 기능성소재, 화장품, 식품, 재활의료, 한의학, IT기술2 지원방법 1. 신청기간 : 공고일부터 ~ 2026. 10. 28.(수) 까지 2. 신청방법 : 모집 포스터 하단의 QR코드 폼 작성 후 신청서 접수 3. 제출서류 ◦ 참가지원 신청서 1부(서식 1 양식)",
+            "locator": "PDF p.1 / text-line 1",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "863d063820b6dd599016",
+            "category": "eligibility",
+            "excerpt": "기반 마련 3. 창업교육 및 단계별 성장 지원 가. OT 및 기초역량강화 온라인 교육 ◦ K-MEDI산업의 이해 및 창업자들의 기업가정신 함양 교육 진행 ◦ 기업가정신 및 창업 준비 프로세스 교육을 통해 창업 마인드셋 확립 나. 단계별 성장 지원 ◦ AI 기반 산업환경 변화에 대응할 수 있는 창업역량을 갖춘 경산·청도·영덕 지역의 K-MEDI분야 예비·초기 창업자를 체계적으로 발굴·육성 ◦ 분야별 전문가 컨설",
+            "locator": "PDF p.2 / text-line 1",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "224b8f4508b2770f7bc7",
+            "category": "exclusion",
+            "excerpt": "◦ 사업계획서 1부 (서식 2 양식) ◦ 개인정보제공 및 신용조회동의서 1부(서식 3 양식)3 지원제외자 ◦ 금융기관 등으로부터 금융 불량 거래자로 규제 중인 사람 ◦ 신청서 및 사업계획서를 허위로 기재한 사람 ◦ 기타 총장이 지원 제외 함이 타당하다고 인정하는 자4 지원내용 1. 지원기간 : 2026년 11월~12월 2. 창업 인프라 지원 ◦ 대구한의대학교 산하 창업 공간(회의실, 화상회의실 등), 온라인 ",
+            "locator": "PDF p.2 / text-line 1",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "8b0c1438a2f0c4d9bab8",
+            "category": "eligibility",
+            "excerpt": " 멘토링10월~11월기초창업교육- AI 기 반 산 업 환 경 변 화 와 K-M EDI 산 업 트 렌 드 이 해- 예비창업자 대상 창업기본 및 기업가정신 교육멘토링- 창업자 아이템 중심의 1:1 멘토링 진행- 기능성소재·바이오·재활의료 분야별 멘토링개발 및 실증지원10월~11월실전창업교육- AI 활용 시장조사 및 데이터 기반 시장 분석- 린스타트업·린캔버스 모델 교육 및 실습- MVP 제작방법 및 실습- 사업",
+            "locator": "PDF p.3 / text-line 1",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "표 열 순서·이미지·주석의 의미는 검토하지 않았습니다.",
+          "OCR 미수행"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
+    },
+    "faad53b35b3a0b297a870cb0": {
+      "id": "faad53b35b3a0b297a870cb0",
+      "program_id": "BIZINFO-PBLN_000000000127394",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127394",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000777428&fileSn=0",
+      "name": "다운로드",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
+    },
+    "cc92ca50d0cd14200a40ed96": {
+      "id": "cc92ca50d0cd14200a40ed96",
+      "program_id": "BIZINFO-PBLN_000000000127411",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127411",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000777491&fileSn=0",
+      "name": "다운로드",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
+    },
+    "5244f7a52c38b54d6aa91652": {
+      "id": "5244f7a52c38b54d6aa91652",
+      "program_id": "BIZINFO-PBLN_000000000127411",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127411",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000777492&fileSn=0",
+      "name": "다운로드",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-22T11:49:03+09:00",
+      "last_success_at": "2026-11-22T11:49:03+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-11-22T11:49:03+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "483c5256244061dc37d8b7b2317c22f67b61b78a08112277b610ab785737eb32",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "483c5256244061dc37d8b7b2317c22f67b61b78a08112277b610ab785737eb32",
+      "sha256": "483c5256244061dc37d8b7b2317c22f67b61b78a08112277b610ab785737eb32",
+      "extraction": {
+        "format": "hwp",
+        "parser": "olefile/0.47+hwp-body/0.4.0",
+        "sha256": "483c5256244061dc37d8b7b2317c22f67b61b78a08112277b610ab785737eb32",
+        "bytes": 79872,
+        "status": "text_extracted",
+        "text_characters": 1705,
+        "units": 94,
+        "text_sha256": "1ae6829af8bfb2df299e0bbb523bdd3469daa79b60953cc710379594982dfaf8",
+        "pages": null,
+        "sections": 1,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "f5c9ced6d0dd15d3ef18",
+            "category": "eligibility",
+            "excerpt": "소재지",
+            "locator": "BodyText/Section0 / record 125 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "eaff2c69b55e955d6fae",
+            "category": "eligibility",
+            "excerpt": "□ 투자유치를 준비 중이거나 진행 중인 (예비)창업기업",
+            "locator": "BodyText/Section0 / record 207 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "d98adc38660c599e97c1",
+            "category": "eligibility",
+            "excerpt": "□ 강원연구개발특구 내 본사·연구소·지사·공장 중 1곳 이상 소재*",
+            "locator": "BodyText/Section0 / record 212 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "437b8ee32f14d7d160ce",
+            "category": "eligibility",
+            "excerpt": "□ 바이오 신소재",
+            "locator": "BodyText/Section0 / record 231 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "889ce3bbea0fb6d42a3d",
+            "category": "eligibility",
+            "excerpt": "□ 반도체(센서) 소재·부품",
+            "locator": "BodyText/Section0 / record 241 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "구역·레코드 위치는 실제 인쇄 쪽번호가 아닙니다.",
+          "표·그림·각주 의미와 문서의 모든 제외조건은 미검토"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
+    },
+    "b8fa49c70d83b3f7b5b3953d": {
+      "id": "b8fa49c70d83b3f7b5b3953d",
+      "program_id": "BIZINFO-PBLN_000000000127411",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127411",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000777492&fileSn=1",
+      "name": "다운로드",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
+    },
+    "1d94430068518b0053d551fd": {
+      "id": "1d94430068518b0053d551fd",
+      "program_id": "BIZINFO-PBLN_000000000127422",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127422",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000777579&fileSn=1",
+      "name": "다운로드",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-22T11:49:03+09:00",
+      "last_success_at": "2026-11-22T11:49:03+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-11-22T11:49:03+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "409c28026882e8098e356ff8f4df7833dad7757abf76a473d21ed298fa641f89",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "409c28026882e8098e356ff8f4df7833dad7757abf76a473d21ed298fa641f89",
+      "sha256": "409c28026882e8098e356ff8f4df7833dad7757abf76a473d21ed298fa641f89",
+      "extraction": {
+        "format": "pdf",
+        "parser": "pypdf/6.15.0",
+        "sha256": "409c28026882e8098e356ff8f4df7833dad7757abf76a473d21ed298fa641f89",
+        "bytes": 911684,
+        "status": "text_extracted",
+        "text_characters": 23066,
+        "units": 75,
+        "text_sha256": "15e50999119107bc80d12e4842c1014a8f9fa8453a6a2b43be467c1d07f00dea",
+        "pages": 26,
+        "sections": null,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "70b538e6219403ddec72",
+            "category": "eligibility",
+            "excerpt": " 계 장 비 산 업 기 술 개 발 사 업 신 규 지 원 대 상 과 제 공 고2026년도제3차기계장비산업기술개발사업신규지원대상연구개발과제를다음과같이공고하오니수행하고자하는자는신청하여주시기바랍니다. 2026년10월22일산업통상부장관<목차>1.사업개요1-1.사업목적1-2.연구개발비지원규모및기간2.사업추진체계3.연구개발비지원기준및기술료징수기준3-1.연구개발비지원기준3-2.기술료등징수기준3-3.연구개발비산정시유의사항4.",
+            "locator": "PDF p.1 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "25b8715003c37b5b2d00",
+            "category": "exclusion",
+            "excerpt": "비지원기준3-2.기술료등징수기준3-3.연구개발비산정시유의사항4.지원분야및신청자격등4-1.지원분야4-2.신청자격4-3.지원제외처리기준4-4.과제차별성제기5.평가절차및기준5-1.평가절차5-2.평가기준6.근거법령및규정7.신청방법,신청서제출기한및접수처8.제출서류사항9.기타유의사항10.문의처",
+            "locator": "PDF p.1 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "619e30e619983cce4ec3",
+            "category": "amount",
+            "excerpt": "하고자하는자는신청하여주시기바랍니다. 2026년10월22일산업통상부장관<목차>1.사업개요1-1.사업목적1-2.연구개발비지원규모및기간2.사업추진체계3.연구개발비지원기준및기술료징수기준3-1.연구개발비지원기준3-2.기술료등징수기준3-3.연구개발비산정시유의사항4.지원분야및신청자격등4-1.지원분야4-2.신청자격4-3.지원제외처리기준4-4.과제차별성제기5.평가절차및기준5-1.평가절차5-2.평가기준6.근거법령및규정7.신청방",
+            "locator": "PDF p.1 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "ef4742d29e86283417a6",
+            "category": "documents",
+            "excerpt": "4-4.과제차별성제기5.평가절차및기준5-1.평가절차5-2.평가기준6.근거법령및규정7.신청방법,신청서제출기한및접수처8.제출서류사항9.기타유의사항10.문의처",
+            "locator": "PDF p.1 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "b723dadc7e65942fa9a2",
+            "category": "eligibility",
+            "excerpt": " 3개양식교부 및 접수처범부처통합연구지원시스템(iris.go.kr)지원규모 및 기간연구개발과제별 특성에 따라 달리함(지원대상 사업 및 과제(RFP, 품목) 목록(첨부파일 참조)) ◦신규연구개발과제선정시협약기간은해당연구개발과제의전체연구개발기간에대해일괄로체결하며,연차별연구개발기간은연구개발과제의특성을고려해과제별상이할수있으며,필요시전체연구개발기간을단계로구분할수있음 * 제조기반생산시스템 ’26년(1차년) 개발기간 9개",
+            "locator": "PDF p.2 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "4b63518f51e4aad57476",
+            "category": "amount",
+            "excerpt": "장비실증)기개발된기계·장비핵심부품및제조AI기술을제조현장에도입·실증하여기술의검증(PoC)및확산생태계구축1-2.연구개발비지원규모및기간세부사업(내역사업) 기계장비산업기술개발(제조기반생산시스템) 기계장비산업기술개발(제조장비실증)공고예산76.52억원37.5억원신규 지원 연구개발과제6개 3개양식교부 및 접수처범부처통합연구지원시스템(iris.go.kr)지원규모 및 기간연구개발과제별 특성에 따라 달리함(지원대상 사업 및 과",
+            "locator": "PDF p.2 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "9edefb961fa9480e0c1b",
+            "category": "cofunding",
+            "excerpt": "등)”는해당과제에실질적참여자로국한할것3.연구개발비지원기준및기술료징수기준3-1.연구개발비지원기준□정부지원연구개발비지원및기관부담연구개발비부담조건 ①공통사항 ◦연구개발과제의연구개발비는정부지원연구개발비와기관부담연구개발비,그외기관·단체·개인이지원하는연구개발비(지방자치단체등이보유한현금및현물)로구성 ◦연구개발기관중영리기관의경우기관부담연구개발비중현금을개별부담하여야함-수요기업*의경우정부지원연구개발비지원없이참여가가능하며이경우기",
+            "locator": "PDF p.3 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "be9ff348c941d03effee",
+            "category": "amount",
+            "excerpt": "제참여자(책임자및연구원등)”는해당과제에실질적참여자로국한할것3.연구개발비지원기준및기술료징수기준3-1.연구개발비지원기준□정부지원연구개발비지원및기관부담연구개발비부담조건 ①공통사항 ◦연구개발과제의연구개발비는정부지원연구개발비와기관부담연구개발비,그외기관·단체·개인이지원하는연구개발비(지방자치단체등이보유한현금및현물)로구성 ◦연구개발기관중영리기관의경우기관부담연구개발비중현금을개별부담하여야함-수요기업*의경우정부지원연구개발비지원없",
+            "locator": "PDF p.3 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "43e873355a33449f31f0",
+            "category": "eligibility",
+            "excerpt": "수있음.단,연구개발과제평가단심의를거쳐수요기업이아니라고판단될경우연구개발기관유형에따라연구개발비를재산정하여야함-산업위기지역소재기업*중,중소기업이수행하는연구개발과제는예외적으로정부지원연구개발비지원비율을해당연구개발기관연구개발비의80%이하로,중견기업이수행하는혁신제품형연구개발과제는65%이하로할수있음 * ‘산업위기지역 소재기업’이란, 「지역 산업위기 대응 및 지역경제 회복을 위한 특별법」제8조제2항, 제9조제2항, 제10조제",
+            "locator": "PDF p.4 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "b20d089dd299ced2b348",
+            "category": "amount",
+            "excerpt": ",챌린지트랙,대형통합형,서비스형,국제공동연구개발과제등),핵심전략기술관련기술개발등유리한조건적용가능(단,중복적용불가) ②정부지원연구개발비지원기준 ㅇ 정부지원연구개발비지원비율은아래의표와같이연구개발기관및연구개발과제유형에따라달리적용가능-수요기업으로참여하는공동연구개발기관은기업유형에관계없이중소기업수준으로정부지원연구개발비를지원할수있음.단,연구개발과제평가단심의를거쳐수요기업이아니라고판단될경우연구개발기관유형에따라연구개발비를재산정",
+            "locator": "PDF p.4 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "a76efe2217ff1fa04431",
+            "category": "eligibility",
+            "excerpt": "금을부담할수있음.신청과제의참여기업은‘3-1.연구개발비지원기준’②항및③항기준으로연구개발계획서를우선신청하며,선정평가결과‘지원대상’으로선정된경우협약체결이후신청기업에한하여별도위원회심의를거쳐「산업기술혁신사업공통운영요령」제24조제2항및제25조제4항의“핵심전략기술관련기술개발에참여하는기업”**에해당여부를확정하여지원비율을협약시변경할수있음 * 「핵심전략기술 및 핵심전략기술과 관련된 품목, 핵심전략기술 선정･재검토 세부절차 등에",
+            "locator": "PDF p.5 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "ff4652971e0aa3d3ce1c",
+            "category": "cofunding",
+            "excerpt": "③기관부담연구개발비중현금부담비율기준 ㅇ 연구개발기관에서부담하여야할기관부담연구개발비중현금부담비율은아래의표와같이연구개발기관유형에따라달리적용가능-수요기업으로참여하는공동연구개발기관,「중견기업성장촉진및경쟁력강화에관한특별법」시행령제7조에따라산정한평균매출액등이3천억원미만인중견기업은기업유형에관계없이중소기업수준으로현금부담비율을적용할수있음.(단,연구개발과제평가단심의를거쳐수요기업이아니라고판단될경우연구개발기관유형에따라연구개발비를재",
+            "locator": "PDF p.5 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "c7cf1b2ecf62b6104637",
+            "category": "amount",
+            "excerpt": "사업공통운영요령」제24조제2항및제25조제4항의“핵심전략기술*관련기술개발에참여하는기업”은기관유형에관계없이중소기업수준으로정부지원연구개발비의지원및기관부담연구개발비중현금을부담할수있음.신청과제의참여기업은‘3-1.연구개발비지원기준’②항및③항기준으로연구개발계획서를우선신청하며,선정평가결과‘지원대상’으로선정된경우협약체결이후신청기업에한하여별도위원회심의를거쳐「산업기술혁신사업공통운영요령」제24조제2항및제25조제4항의“핵심전략기술관",
+            "locator": "PDF p.5 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "2473663e5480d629c8a9",
+            "category": "eligibility",
+            "excerpt": "이에채용한연구원은전체연구개발기간에걸쳐신규인력으로간주하며,신규참여연구자인건비금액만큼기존참여연구자의인건비현금산정가능. ◦창업초기중소기업(사업개시일로부터연구개발기간시작일까지7년이지나지아니한중소기업)소속기존인력의인건비현금산정가능 ◦「산업기술혁신사업공통운영요령」별표제4호의인건비현금인정분야의연구개발과제를수행하는영리기관소속연구자의인건비계상률에따른인건비<인건비현금인정분야의구체적산정기준>",
+            "locator": "PDF p.7 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "d855b33b45a32841d46a",
+            "category": "cofunding",
+            "excerpt": "3-3.연구개발비산정시유의사항□영리기관소속참여연구원의인건비는현물계상이원칙이나다음기준에따라현금으로산정가능 ◦영리기관의경우,해당연구개발과제수행을위해신규로채용하는연구자의인건비계상률에따른인건비를현금으로산정할수있음-사업공고일기준6개월이전(2026년4월22일)부터각연구개발과제종료시점사이에채용한연구원은전체연구개발기간에걸쳐신규인력으로간주하며,신규참여연구자인건비금액만큼기존참여연구자의인건비현금산정가능. ◦창업초기중소기업(사업개",
+            "locator": "PDF p.7 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "461c35c023eba90fc811",
+            "category": "cofunding",
+            "excerpt": "계획을연구개발기간개시시점에제시하거나계획하지않았더라도연구개발기간중실제채용한경우,추가채용인력의해당연도인건비액수만큼해당연도기관부담연구개발비현금을감액하고동액상당의현물을추가로부담할수있음.이때,기관부담연구개발비현금을납부한경우기관부담연구개발비현금의감액범위는해당연구개발기관이추가채용사실을소명하여감액승인을요청한시점의연구개발비현금잔액을한도로함. * 기본채용 인원 : 전체 연구개발기간에 걸친 각 참여기업의 정부지원연구개발비 합계액",
+            "locator": "PDF p.8 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "128ab678eedd31d0025f",
+            "category": "cofunding",
+            "excerpt": "여가능*연구개발기관외기관으로참여시주관연구개발기관혹은공동연구개발기관의연구개발비내에국제공동연구개발비를편성해야함(해당기관의기관부담연구개발비산정시국제공동연구개발비는제외함)",
+            "locator": "PDF p.12 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "43af87e26d6213645cdd",
+            "category": "deadline",
+            "excerpt": "업공통운영요령」제2조제1항제3호,제4호및제4의2호,9의2부터9의5,제58호에해당하는기관 ◦주관연구개발기관이기업인경우는접수마감일현재법인사업자이어야하며,선정평가개최일이전에기업부설연구소(한국산업기술진흥협회인정서기준)를보유하고있어야함(연구개발전담부서는불인정) ※국외기관(기업,대학및연구소등)의경우연구개발기관또는연구개발기관외기관으로참여가능*연구개발기관외기관으로참여시주관연구개발기관혹은공동연구개발기관의연구개발비내에국제공동연",
+            "locator": "PDF p.12 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "a5a6e692bc100f6008ec",
+            "category": "exclusion",
+            "excerpt": "4-3.지원제외처리기준□아래의경우지원대상에서제외처리되나,선정평가일의3영업일전18:00까지공문으로별첨(사전지원제외기관변경요청서)을제출하여연구개발기관변경등으로사전지원제외사유를해소할경우선정평가에상정할수있음.단,주관연구개발기관및연구책임자의변경은허용되지않음 ㅇ주관연구개발기관,공동연구개발기관,주관연구개발기관의장,공동연구개발기관의장,연구책임자가접수마감일현재국가연구개발사업에참여제한을받고있는경우 ㅇ접수마감일현재연구개발기관(단",
+            "locator": "PDF p.13 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "795dec11e819edf93929",
+            "category": "deadline",
+            "excerpt": "관및연구책임자의변경은허용되지않음 ㅇ주관연구개발기관,공동연구개발기관,주관연구개발기관의장,공동연구개발기관의장,연구책임자가접수마감일현재국가연구개발사업에참여제한을받고있는경우 ㅇ접수마감일현재연구개발기관(단,비영리기관및공기업(공사)은적용예외),연구개발기관의장(단,공직자윤리법제3조의2에따라공직유관단체로지정된기관은적용예외),연구책임자(공동연구책임자제외)가아래사유에해당하는경우 1. 기업의 부도 2. 세무당국에 의하여 국세, ",
+            "locator": "PDF p.13 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "2fc904e67fa1615d9054",
+            "category": "exclusion",
+            "excerpt": "견기업중한계기업이접수마감일기준으로주관연구개발기관으로동시에수행하는산업통상부소관연구개발과제수가아래표의기준초과인경우에는사전지원제외로처리함.단,공통운영요령제20조제3항각호어느하나에해당하는연구개발과제는연구개발과제수에포함하지않음.주관연구개발기관 유형(한계기업) 연구개발과제 수중견기업4개까지 수행 가능중소기업2개까지 수행 가능 * “한계기업”이란 최근 3개 회계연도 말 결산 재무제표**상 이자보상비율이 연속으로 1미만인 ",
+            "locator": "PDF p.14 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "10ae026a9edd8bb34d22",
+            "category": "documents",
+            "excerpt": "약할 수 있음□다음의경우는지원대상에서제외될수있음 ㅇ신청과제가해당사업의기본목적에부합되지않은경우 ㅇ신청과제가접수기간내신청필수서류를제출하지아니하였거나,제출양식을준수하",
+            "locator": "PDF p.14 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "75b52fa05a544b35c2d5",
+            "category": "deadline",
+            "excerpt": "ㅇ연구개발과제의주관연구개발기관인중소기업또는중견기업중한계기업이접수마감일기준으로주관연구개발기관으로동시에수행하는산업통상부소관연구개발과제수가아래표의기준초과인경우에는사전지원제외로처리함.단,공통운영요령제20조제3항각호어느하나에해당하는연구개발과제는연구개발과제수에포함하지않음.주관연구개발기관 유형(한계기업) 연구개발과제 수중견기업4개까지 수행 가능중소기업2개까지 수행 가능 * “한계기업”이란 최근 3개 회계연도 말 결산 재무",
+            "locator": "PDF p.14 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "004a93e25430a8a059b6",
+            "category": "deadline",
+            "excerpt": "지원,기개발된과제와동일한경우 ㅇ신청과제가공고된기술범위에부합하지않은경우 ㅇ주관연구개발기관,공동연구개발기관,연구책임자등이접수마감일현재각종보고서제출,기술료/정산금/환수금/제재부과금납부등의무사항을불이행하고있는경우 ㅇ참여연구원이국가연구개발사업참여율및참여과제수기준을만족하지못하는경우-사업을신청하는참여연구원의과제인건비계상률은10%이상이고동시에수행하는국가연구개발사업과제는최대5개이내여야하며,이중연구책임자(세부주관책임자포함)로서",
+            "locator": "PDF p.15 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "표 열 순서·이미지·주석의 의미는 검토하지 않았습니다.",
+          "OCR 미수행"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
+    },
+    "3ffc65874421b5aa4b874222": {
+      "id": "3ffc65874421b5aa4b874222",
+      "program_id": "BIZINFO-PBLN_000000000127422",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127422",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000777580&fileSn=1",
+      "name": "다운로드",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-22T11:49:03+09:00",
+      "last_success_at": "2026-11-22T11:49:03+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-11-22T11:49:03+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "b168c24e002f3c9f54d3c4ae8c88a48ece6f19c59ebbc222424ddf3ae582158d",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "b168c24e002f3c9f54d3c4ae8c88a48ece6f19c59ebbc222424ddf3ae582158d",
+      "sha256": "b168c24e002f3c9f54d3c4ae8c88a48ece6f19c59ebbc222424ddf3ae582158d",
+      "extraction": {
+        "format": "hwpx",
+        "parser": "hwp-body/0.4.0",
+        "sha256": "b168c24e002f3c9f54d3c4ae8c88a48ece6f19c59ebbc222424ddf3ae582158d",
+        "bytes": 136877,
+        "status": "text_extracted",
+        "text_characters": 26032,
+        "units": 757,
+        "text_sha256": "020fdd1b675166363d8abb4d0cc4e938c5c7a6fbaf79149c40abd732d9c01084",
+        "pages": null,
+        "sections": 1,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "7dc831c4bc5343bf772d",
+            "category": "eligibility",
+            "excerpt": "2026년도 제3차 기계장비산업기술개발사업 신규지원 대상과제 공고",
+            "locator": "Contents/section0.xml / paragraph 4",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "cd42a5eb4af22709d087",
+            "category": "eligibility",
+            "excerpt": "2026년도 제3차 기계장비산업기술개발사업 신규 지원대상 연구개발과제를 다음과 같이 공고하오니 수행하고자 하는 자는 신청하여 주시기 바랍니다.",
+            "locator": "Contents/section0.xml / paragraph 6",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "6a7a7f99948d417bdbc0",
+            "category": "amount",
+            "excerpt": "1-2. 연구개발비 지원 규모 및 기간",
+            "locator": "Contents/section0.xml / paragraph 14",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "83d3244926b3568756cc",
+            "category": "eligibility",
+            "excerpt": "4. 지원분야 및 신청자격 등",
+            "locator": "Contents/section0.xml / paragraph 20",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "1739672a25c84770e894",
+            "category": "eligibility",
+            "excerpt": "4-2. 신청자격",
+            "locator": "Contents/section0.xml / paragraph 22",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "04b9292ee61afac97c01",
+            "category": "exclusion",
+            "excerpt": "4-3. 지원제외 처리기준",
+            "locator": "Contents/section0.xml / paragraph 23",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "6861fa00ffca6915e54b",
+            "category": "documents",
+            "excerpt": "8. 제출 서류 사항",
+            "locator": "Contents/section0.xml / paragraph 30",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "2d83cf15e0a6eafc1ae1",
+            "category": "amount",
+            "excerpt": "지원규모 및 기간",
+            "locator": "Contents/section0.xml / paragraph 61",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "b84d821dd1a1380719a0",
+            "category": "eligibility",
+            "excerpt": "연구개발과제별 특성에 따라 달리함(지원대상 사업 및 과제(RFP, 품목) 목록(첨부파일 참조))",
+            "locator": "Contents/section0.xml / paragraph 62",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "d9b73a8e52fbb7168c02",
+            "category": "cofunding",
+            "excerpt": "□ 정부지원연구개발비 지원 및 기관부담연구개발비 부담 조건",
+            "locator": "Contents/section0.xml / paragraph 138",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "bd5cb1da3002b5918568",
+            "category": "amount",
+            "excerpt": "□ 정부지원연구개발비 지원 및 기관부담연구개발비 부담 조건",
+            "locator": "Contents/section0.xml / paragraph 138",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "cf91815daaa9574f1085",
+            "category": "cofunding",
+            "excerpt": "◦연구개발과제의 연구개발비는 정부지원연구개발비와 기관부담연구개발비, 그 외 기관·단체·개인이 지원하는 연구개발비(지방자치단체 등이 보유한 현금 및 현물)로 구성",
+            "locator": "Contents/section0.xml / paragraph 142",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "8e12999f37cc93dcdbf1",
+            "category": "amount",
+            "excerpt": "◦연구개발과제의 연구개발비는 정부지원연구개발비와 기관부담연구개발비, 그 외 기관·단체·개인이 지원하는 연구개발비(지방자치단체 등이 보유한 현금 및 현물)로 구성",
+            "locator": "Contents/section0.xml / paragraph 142",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "9b32b8696852bc15320e",
+            "category": "cofunding",
+            "excerpt": "◦연구개발기관 중 영리기관의 경우 기관부담연구개발비 중 현금을 개별 부담하여야 함",
+            "locator": "Contents/section0.xml / paragraph 144",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "1bc4097e4e0d00e69730",
+            "category": "cofunding",
+            "excerpt": "- 수요기업*의 경우 정부지원연구개발비 지원 없이 참여가 가능하며 이 경우 기관부담연구개발비 중 현물(참여연구자 인건비 등)로 구성할 수 있음",
+            "locator": "Contents/section0.xml / paragraph 146",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "6c064bf8720ff1cf31a0",
+            "category": "amount",
+            "excerpt": "- 수요기업*의 경우 정부지원연구개발비 지원 없이 참여가 가능하며 이 경우 기관부담연구개발비 중 현물(참여연구자 인건비 등)로 구성할 수 있음",
+            "locator": "Contents/section0.xml / paragraph 146",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "dfa2b1888dacd329496e",
+            "category": "cofunding",
+            "excerpt": "③ 기관부담연구개발비 중 현금부담비율 기준",
+            "locator": "Contents/section0.xml / paragraph 193",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "a62f8b8c7bc2338f5652",
+            "category": "deadline",
+            "excerpt": "◦주관연구개발기관이 기업인 경우는 접수마감일 현재 법인사업자이어야 하며, 선정평가 개최일 이전에 기업부설연구소(한국산업기술진흥협회 인정서 기준)를 보유하고 있어야 함(연구개발전담부서는 불인정)",
+            "locator": "Contents/section0.xml / paragraph 575",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "65f3aa93b066ec628260",
+            "category": "exclusion",
+            "excerpt": "□ 아래의 경우 지원대상에서 제외 처리되나, 선정평가일의 3영업일 전 18:00까지 공문으로 별첨(사전지원제외 기관 변경 요청서)을 제출하여 연구개발기관 변경 등으로 사전지원제외 사유를 해소할 경우 선정평가에 상정할 수 있음. 단, 주관연구개발기관 및 연구책임자의 변경은 허용되지 않음",
+            "locator": "Contents/section0.xml / paragraph 581",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "461e61bfa523adaf3097",
+            "category": "deadline",
+            "excerpt": "ㅇ주관연구개발기관, 공동연구개발기관, 주관연구개발기관의 장, 공동연구개발기관의 장, 연구책임자가 접수 마감일 현재 국가연구개발사업에 참여제한을 받고 있는 경우",
+            "locator": "Contents/section0.xml / paragraph 583",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "483f83ed09f8819df6f1",
+            "category": "deadline",
+            "excerpt": "ㅇ접수마감일 현재 연구개발기관(단, 비영리기관 및 공기업(공사)은 적용 예외), 연구개발기관의 장(단, 공직자윤리법 제3조의2에 따라 공직유관단체로 지정된 기관은 적용 예외), 연구책임자(공동연구책임자 제외)가 아래 사유에 해당하는 경우",
+            "locator": "Contents/section0.xml / paragraph 585",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "fdec6ad6a135becba23b",
+            "category": "exclusion",
+            "excerpt": "2. 세무당국에 의하여 국세, 지방세 등의 체납처분을 받은 경우(단, 중소기업진흥공단 및 신용회복위원회(재창업지원위원회)를 통해 재창업자금을 지원받은 경우와 신용보증기금 및 기술신용보증기금으로부터 재도전기업주 재기지원보증을 받은 경우는 예외로 한다)",
+            "locator": "Contents/section0.xml / paragraph 589",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "0e7b9a4e8d951ef10330",
+            "category": "deadline",
+            "excerpt": "또는 산업기술혁신사업 공통운영요령 제2조제9의7호의 산업위기지역 소재 기업은 예외로 한다.) 이때, 사업개시일로부터 접수마감일까지 5년 미만인 기업의 경우는 적용하지 아니한다.",
+            "locator": "Contents/section0.xml / paragraph 592",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "ada1fa4403bc9d33020e",
+            "category": "exclusion",
+            "excerpt": "일 기준으로 주관연구개발기관으로 동시에 수행하는 산업통상부 소관 연구개발과제수가 아래 표의 기준 초과인 경우에는 사전지원제외로 처리함. 단, 공통운영요령 제20조제3항 각 호 어느 하나에 해당하는 연구개발과제는 연구개발과제 수에 포함하지 않음.",
+            "locator": "Contents/section0.xml / paragraph 607",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "구역·문단 위치는 실제 인쇄 쪽번호가 아닙니다.",
+          "표 셀 관계·그림·각주 의미는 미검토"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
     }
   },
   "programs": {
@@ -21966,6 +22724,46 @@
       "document_ids": [
         "cd19a4211326349543d4cfb2",
         "0b3aa6c6ad8f7fc556f48dd1"
+      ],
+      "review_required": false,
+      "last_error": null
+    },
+    "BIZINFO-PBLN_000000000127394": {
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127394",
+      "last_notice_attempt_at": "2026-11-22T11:49:03+09:00",
+      "last_notice_success_at": "2026-11-22T11:49:03+09:00",
+      "notice_status": "links_available",
+      "manifest_sha256": "deca85d90826238fbaadcaa019da1197ec5143567f9d16f7b27dc71897ce7d9a",
+      "document_ids": [
+        "2af3d709167f28cc5e0c498e",
+        "faad53b35b3a0b297a870cb0"
+      ],
+      "review_required": false,
+      "last_error": null
+    },
+    "BIZINFO-PBLN_000000000127411": {
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127411",
+      "last_notice_attempt_at": "2026-11-22T11:49:03+09:00",
+      "last_notice_success_at": "2026-11-22T11:49:03+09:00",
+      "notice_status": "links_available",
+      "manifest_sha256": "7f7aca69e6a5cd19b68bf80c012b15a18e5fe3edebbbc9599de7b5abc8b50274",
+      "document_ids": [
+        "cc92ca50d0cd14200a40ed96",
+        "5244f7a52c38b54d6aa91652",
+        "b8fa49c70d83b3f7b5b3953d"
+      ],
+      "review_required": false,
+      "last_error": null
+    },
+    "BIZINFO-PBLN_000000000127422": {
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127422",
+      "last_notice_attempt_at": "2026-11-22T11:49:03+09:00",
+      "last_notice_success_at": "2026-11-22T11:49:03+09:00",
+      "notice_status": "links_available",
+      "manifest_sha256": "70cc9a587e0bce4c60ca0213a710c87ea61ef1670c59fa69228c044e73dbb67a",
+      "document_ids": [
+        "1d94430068518b0053d551fd",
+        "3ffc65874421b5aa4b874222"
       ],
       "review_required": false,
       "last_error": null

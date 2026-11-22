@@ -1,7 +1,7 @@
 {
   "schema": "public-funding-bot-briefing/v1",
   "engine_version": "0.15.0",
-  "generated_at": "2026-11-21T12:46:01+09:00",
+  "generated_at": "2026-11-22T11:49:38+09:00",
   "generation": "deterministic_no_model",
   "report_model_calls": 0,
   "ai_transport": "manual_cli_only",
@@ -9,11 +9,11 @@
   "automatic_submission": false,
   "input_fingerprints": {
     "data/programs.json": "06f83ad02a4e674e850cbd9addd62273a8420dd090f5be5b7010aa621b915637",
-    "data/monitor.json": "4da0244c3b0801cb50ca7043dfe5d4850a2646620ca77fa0838543d5bc94189f",
-    "data/evidence.json": "6b5509cc30f19109575853e1404a92a07e45618c3b0648cd45309991dd3fcd01",
-    "data/change_reviews.json": "f889e3a55191c457e8daba138363ccfe53f7925bafd6200436d873a08cb99394",
-    "data/attachments.json": "1eef65ad1e4302aec4aa82cb48f4f8d77ca69d102fe4b4575a003bddb1cf7e55",
-    "data/startup_sources.json": "299d94f2f670234e4edbed7a08a7894f8e716156091ba540f88270fb8267ca0c",
+    "data/monitor.json": "26f39dc24b6a13f39814e9277a39af34f159fa4bb957a2db0316718e2f38d888",
+    "data/evidence.json": "7ccedf076c54575545329dd852b6c57051cefb421e8fde2679031bbb1b682a2a",
+    "data/change_reviews.json": "81a5ec9c724a9857d037dd1645e3d9c2edb5b39c843cf9d616ac467b83197026",
+    "data/attachments.json": "a3cd78b42d6fc6a7559db466cc1e4e1248d7f1f811de39af91799ee12f4a4742",
+    "data/startup_sources.json": "8b357bc3a63e6ef2ac8620b55516b0c0b52299454631d607da7bacd24a15f4ec",
     "config/automation_policy.json": "167611159390f47d645f4f831e909f79bf41cfb5173e618f607e351dfe309140"
   },
   "run_status": "ok_scoped",
@@ -24,16 +24,16 @@
       "id": "api",
       "name": "기업마당 API",
       "status": "ok_scoped",
-      "last_attempt_at": "2026-11-21T12:43:44+09:00",
-      "last_success_at": "2026-11-21T12:43:44+09:00",
+      "last_attempt_at": "2026-11-22T11:47:37+09:00",
+      "last_success_at": "2026-11-22T11:47:37+09:00",
       "freshness": "recent",
       "workflow_outcome": "success",
-      "checked": 1303,
+      "checked": 1295,
       "failed": 0,
       "detail": {
         "pages": 7,
-        "reported_total": 1303,
-        "added": 2,
+        "reported_total": 1295,
+        "added": 0,
         "modified": 0,
         "suggested": 0,
         "success": 0,
@@ -48,7 +48,7 @@
       "id": "html",
       "name": "공식 원문 HTML 순환",
       "status": "ok_scoped",
-      "last_attempt_at": "2026-11-21T12:43:44+09:00",
+      "last_attempt_at": "2026-11-22T11:47:37+09:00",
       "last_success_at": null,
       "freshness": "recent",
       "workflow_outcome": "success",
@@ -72,7 +72,7 @@
       "id": "attachments",
       "name": "첨부파일 순환",
       "status": "ok_scoped",
-      "last_attempt_at": "2026-11-21T12:45:29+09:00",
+      "last_attempt_at": "2026-11-22T11:49:03+09:00",
       "last_success_at": null,
       "freshness": "recent",
       "workflow_outcome": "success",
@@ -96,7 +96,7 @@
       "id": "startup",
       "name": "검토된 과거 원본",
       "status": "ok_scoped",
-      "last_attempt_at": "2026-11-21T12:45:51+09:00",
+      "last_attempt_at": "2026-11-22T11:49:27+09:00",
       "last_success_at": null,
       "freshness": "recent",
       "workflow_outcome": "success",
@@ -122,8 +122,8 @@
     "attachment_failures": 0,
     "notice_failures": 0,
     "attachment_limits": 20,
-    "queued_attachments": 100,
-    "changed_evidence": 69,
+    "queued_attachments": 103,
+    "changed_evidence": 75,
     "unverified_programs": 152,
     "unverified_2027": 5,
     "unknown_dates": 84
@@ -131,10 +131,10 @@
   "counts": {
     "registered": 195,
     "upcoming_deadlines": 4,
-    "queue_total": 113,
-    "queue_shown": 113,
+    "queue_total": 119,
+    "queue_shown": 119,
     "queue_by_action": {
-      "review_original": 113
+      "review_original": 119
     }
   },
   "deadlines": [
@@ -146,7 +146,7 @@
       "deadline": "2026-11-23",
       "status": "upcoming",
       "date": "2026-11-23",
-      "days": 2,
+      "days": 1,
       "precision": "date_only",
       "qualification": "개별 신청자격 미판정"
     },
@@ -158,7 +158,7 @@
       "deadline": "2026-11-24",
       "status": "upcoming",
       "date": "2026-11-24",
-      "days": 3,
+      "days": 2,
       "precision": "date_only",
       "qualification": "개별 신청자격 미판정"
     },
@@ -170,7 +170,7 @@
       "deadline": "2026-11-24",
       "status": "upcoming",
       "date": "2026-11-24",
-      "days": 3,
+      "days": 2,
       "precision": "date_only",
       "qualification": "개별 신청자격 미판정"
     },
@@ -182,7 +182,7 @@
       "deadline": "2026-11-26",
       "status": "upcoming",
       "date": "2026-11-26",
-      "days": 5,
+      "days": 4,
       "precision": "date_only",
       "qualification": "개별 신청자격 미판정"
     }
@@ -248,6 +248,78 @@
       "reason": "원문 내용 변경 신호. 실제 정책 변경인지는 미검증",
       "reference_id": "BIZINFO-PBLN_000000000122863",
       "observed_at": "2026-11-13T12:06:45+09:00"
+    },
+    {
+      "id": "ccaf37c24fbdaab06c5d3c01",
+      "category": "notice_changed",
+      "priority": "P0",
+      "program_id": "BIZINFO-PBLN_000000000123091",
+      "title": "[제주] 2026년 해양수산 창업투자 지원센터사업 수혜기업 모집 재공고",
+      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123091",
+      "action": "review_original",
+      "reason": "원문 내용 변경 신호. 실제 정책 변경인지는 미검증",
+      "reference_id": "BIZINFO-PBLN_000000000123091",
+      "observed_at": "2026-11-22T11:47:37+09:00"
+    },
+    {
+      "id": "fc4f826a2075a555254848bb",
+      "category": "notice_changed",
+      "priority": "P0",
+      "program_id": "BIZINFO-PBLN_000000000123108",
+      "title": "[서울ㆍ인천ㆍ경기ㆍ강원] 2026년 중소기업 AI훈련확산센터 참여기업 모집 공고",
+      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123108",
+      "action": "review_original",
+      "reason": "원문 내용 변경 신호. 실제 정책 변경인지는 미검증",
+      "reference_id": "BIZINFO-PBLN_000000000123108",
+      "observed_at": "2026-11-22T11:47:37+09:00"
+    },
+    {
+      "id": "e41be95200e9c9fd8a594bc8",
+      "category": "notice_changed",
+      "priority": "P0",
+      "program_id": "BIZINFO-PBLN_000000000123291",
+      "title": "[전북] 군산시 2026년 2차 AX얼라이언스 산ㆍ학ㆍ연 종합프로그램 지원 수혜기업 모집 공고(군산국가산업단지 스마트그린 AX실증산단 구축사업)",
+      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123291",
+      "action": "review_original",
+      "reason": "원문 내용 변경 신호. 실제 정책 변경인지는 미검증",
+      "reference_id": "BIZINFO-PBLN_000000000123291",
+      "observed_at": "2026-11-22T11:47:37+09:00"
+    },
+    {
+      "id": "47243c99f9b997981c47700a",
+      "category": "notice_changed",
+      "priority": "P0",
+      "program_id": "BIZINFO-PBLN_000000000123536",
+      "title": "[대전ㆍ세종ㆍ충북ㆍ충남] 2026년 충청권 지역특화산업 취ㆍ창업 CDP지원 프로그램 참여기업 모집 공고",
+      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123536",
+      "action": "review_original",
+      "reason": "원문 내용 변경 신호. 실제 정책 변경인지는 미검증",
+      "reference_id": "BIZINFO-PBLN_000000000123536",
+      "observed_at": "2026-11-22T11:47:37+09:00"
+    },
+    {
+      "id": "4d28c6bcbffb9d56ca23d68a",
+      "category": "notice_changed",
+      "priority": "P0",
+      "program_id": "BIZINFO-PBLN_000000000123596",
+      "title": "[서울ㆍ경기ㆍ인천ㆍ강원] 2026년 중소기업 AI활용 도입을 위한 AI훈련 참여기업 모집 공고",
+      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123596",
+      "action": "review_original",
+      "reason": "원문 내용 변경 신호. 실제 정책 변경인지는 미검증",
+      "reference_id": "BIZINFO-PBLN_000000000123596",
+      "observed_at": "2026-11-22T11:47:37+09:00"
+    },
+    {
+      "id": "add8455384f01e477f1a91a9",
+      "category": "notice_changed",
+      "priority": "P0",
+      "program_id": "BIZINFO-PBLN_000000000123662",
+      "title": "[전북] 2026년 게임기업 컨설팅 지원사업 신청 게임기업(예비창업자) 모집 공고",
+      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123662",
+      "action": "review_original",
+      "reason": "원문 내용 변경 신호. 실제 정책 변경인지는 미검증",
+      "reference_id": "BIZINFO-PBLN_000000000123662",
+      "observed_at": "2026-11-22T11:47:37+09:00"
     },
     {
       "id": "8ae7018d31a7be4a29520662",
@@ -1550,5 +1622,5 @@
   "scope": "기업마당 API, 기존 공식 원문·첨부 순환 수집 및 검토 원본 재확인. 전체 기관 독립 수집이나 자동 적격성 검증이 아님.",
   "notice": "이 보고서는 공개 저장자료의 규칙 기반 집계입니다. 후보·마감·우선순위는 신청 적격성, 선정 확률 또는 지원금 확정이 아닙니다. 자료 변경은 정책 변경 확정이 아니며 원문 대조가 필요합니다.",
   "ai_handoff": "공개 근거 검토요청 파일만 생성 가능. AI CLI 자동 실행·API 호출·결과 자동 반영 없음.",
-  "report_id": "e8bb8f9627fe16f3025336df"
+  "report_id": "117d96164a2cab7c8701d8b8"
 }

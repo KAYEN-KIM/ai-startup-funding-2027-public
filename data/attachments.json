@@ -1,19 +1,19 @@
 {
   "schema": "public-funding-attachments/v1",
   "version": "0.4.0",
-  "generated_at": "2026-11-22T11:49:03+09:00",
+  "generated_at": "2026-11-23T12:29:51+09:00",
   "run": {
-    "at": "2026-11-22T11:49:03+09:00",
+    "at": "2026-11-23T12:29:51+09:00",
     "notice_success": 3,
     "notice_failed": 0,
     "attempted": 4,
-    "text_extracted": 4,
-    "partial_or_no_text": 0,
+    "text_extracted": 3,
+    "partial_or_no_text": 1,
     "blocked_or_unsupported": 0,
     "failed": 0,
     "changed": 0,
     "manifest_changed": 0,
-    "queued_total": 262,
+    "queued_total": 271,
     "new_attempted": 4,
     "retry_attempted": 0,
     "revisit_attempted": 0,
@@ -21183,6 +21183,645 @@
       "http_status": null,
       "failure_kind": null,
       "retryable": false
+    },
+    "402f91e26c8c64420fd92e38": {
+      "id": "402f91e26c8c64420fd92e38",
+      "program_id": "BIZINFO-PBLN_000000000127446",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127446",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000777683&fileSn=0",
+      "name": "다운로드",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-23T12:29:51+09:00",
+      "last_success_at": "2026-11-23T12:29:51+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-11-23T12:29:51+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "64fd88fb9632871e3e97b3f7e594a746c74238c3a150f857c3a5dda45aafabfa",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "64fd88fb9632871e3e97b3f7e594a746c74238c3a150f857c3a5dda45aafabfa",
+      "sha256": "64fd88fb9632871e3e97b3f7e594a746c74238c3a150f857c3a5dda45aafabfa",
+      "extraction": {
+        "format": "pdf",
+        "parser": "pypdf/6.15.0",
+        "sha256": "64fd88fb9632871e3e97b3f7e594a746c74238c3a150f857c3a5dda45aafabfa",
+        "bytes": 615547,
+        "status": "text_extracted",
+        "text_characters": 11552,
+        "units": 38,
+        "text_sha256": "d8d1d6ece98922ae9f56eb76c3536dbc016bb43b31b6085cad92093e57492cb8",
+        "pages": 12,
+        "sections": null,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "52bb5612a9bb8db0c4f5",
+            "category": "exclusion",
+            "excerpt": "원금 전액환수 등의 제재조치 가능 ∎ 선정 후 불가항력적 사유 외 사업 포기 시, 추후 사업 참여 제재 ∎ [붙임] 지원제외 대상 목록 확인 필수",
+            "locator": "PDF p.1 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "273588d2b9321e53f86d",
+            "category": "cofunding",
+            "excerpt": "’, ‘창원시 공공기관의 출연금, 전출금 및 위탁사업비 정산에 관한 조례’에 맞도록 사용되어야 함 - 총 사업비 중 민간부담금 25%(현금 100%) 이상 필수 - 사업비는 사업에 필요한 소모성 재료비, 시험인증비 등 직접 수행비를 중점적으로 편성 - 자산확보성 구매(기계장비, 단순 제조·시험·측정 장비, 컴퓨터, 3D 프린터, 차량, 범용 소프트웨어 등 사업 종료 후에도 유형자산으로 사용가능하며 범용적으로 ",
+            "locator": "PDF p.1 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "f381a42dbc1ac49c8cd4",
+            "category": "amount",
+            "excerpt": " 가능 ∎ 선정 전․후 허위사실 기재, 유사성이 높은 중복과제, 사업비 유용 등의 사안이 발생할 경우, 참여제한, 시지원금 전액환수 등의 제재조치 가능 ∎ 선정 후 불가항력적 사유 외 사업 포기 시, 추후 사업 참여 제재 ∎ [붙임] 지원제외 대상 목록 확인 필수",
+            "locator": "PDF p.1 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "7f3c3de68ec3dca9f285",
+            "category": "eligibility",
+            "excerpt": " ~ 11. 20.(금) m 지원내용: 의료기기 부품 모듈 국산화 및 기술개발 관련 시작품 & 고도화 개발 지원 ❍ 지원대상: 관내 의료·바이오 산업을 영위하고 있는 기업 혹은 전환 예정 전·후방 기업 ※ 부가가치세법 및 동법 시행령 제8조에 따라 창원시 관내 본사 또는 공장(연구소) 보유기업<지원 제외대상> · 서류 미비, 허위사실 제출 등이 발견되는 경우 · 과제 중복성에 해당하는 경우 · 금융기관 등으로",
+            "locator": "PDF p.2 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "5b1a8dca8c9b88fbb64f",
+            "category": "exclusion",
+            "excerpt": "환 예정 전·후방 기업 ※ 부가가치세법 및 동법 시행령 제8조에 따라 창원시 관내 본사 또는 공장(연구소) 보유기업<지원 제외대상> · 서류 미비, 허위사실 제출 등이 발견되는 경우 · 과제 중복성에 해당하는 경우 · 금융기관 등으로부터 채무 불이행으로 규제 중인 자 또는 기업 · 국세 또는 지방세 체납으로 규제 중인 자 · 신청일 현재 휴·폐업 중인 기업 · 기타 창원산업진흥원이 참여제한의 사유가 있다고 인",
+            "locator": "PDF p.2 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "4aca16ff97fe2d3bbab7",
+            "category": "amount",
+            "excerpt": "현재 휴·폐업 중인 기업 · 기타 창원산업진흥원이 참여제한의 사유가 있다고 인정하는 자 또는 기업 2. 지원내용 m 지원규모: 시작품 4개사(최대 5천만원) / 고도화 4개사(최대 1억원) m 지원범위 및 내용구분세부실행과제지원요건지원내용건수(건)지원금(백만원)1의료기기 부품모듈 시작품 연구개발 지원TRL 4~5필수ㆍ시작품 연구개발 지원 - 국산화 및 기술개발 개념정립 및 검증이 끝난 품목의 시작품 설계 및 ",
+            "locator": "PDF p.2 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "30ffd0694b3b60a11b79",
+            "category": "amount",
+            "excerpt": "L 6~8필수ㆍ제품 고도화 연구개발 지원 - 개발이 완료된 유망 품목에 대한 제품 고도화 기술개발 지원5500기업당 최대1억원보조ㆍ시험성능 평가분석비 지원 - 시제품 신뢰성 확보를 위한 성능인증 및 시험평가 분석비 지원ㆍ컨설팅 지원 - 개발 제품 품질기준, 시험방법 가이드라인 등 개발 지원 ※ 시작품 혹은 고도화 지원에 관련 추가 보조지원 가능(예: 시작품제작+시험인증지원)",
+            "locator": "PDF p.2 / text-line 3",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "280362c513846a9e476f",
+            "category": "eligibility",
+            "excerpt": "00,00012,500,000 m 지원기간: 사업 협약 후 ~ 2027. 5. m 지원요건 - 창원시 관내 주사업장(본사, 공장, 연구소)을 보유한 법인기업 - 접수마감일 기 준 창 업 후 1년 이 상 경 과 하 고 6개 월 이 상 납 세 등 창 원 에 서 업 력 이 있 는 기 업 - 의료바이오 산업 유관 전·후방(예비) 기업 - 지원제외대상*에 해당하지 않는 기업(*세부사항 붙임3 참조) m 지원절차 및 일",
+            "locator": "PDF p.3 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "ca18468b5259ab0f7c13",
+            "category": "exclusion",
+            "excerpt": "6개 월 이 상 납 세 등 창 원 에 서 업 력 이 있 는 기 업 - 의료바이오 산업 유관 전·후방(예비) 기업 - 지원제외대상*에 해당하지 않는 기업(*세부사항 붙임3 참조) m 지원절차 및 일정",
+            "locator": "PDF p.3 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "2c98336c35d6336f210c",
+            "category": "cofunding",
+            "excerpt": "은 최종 결과평가 이후 결과 및 증빙에 따른 후정산 - 기업부담금: 지원금의 25%이상 부담 *부담금 현금 100%(현물 불인정)구분총사업비(가) 시지원금(나) 민간부담금(다)구성 기준(나)+(다) 선정금액 (나)의 25% 이상 (예시) 62,500,00050,000,00012,500,000 m 지원기간: 사업 협약 후 ~ 2027. 5. m 지원요건 - 창원시 관내 주사업장(본사, 공장, 연구소)을 보유한 ",
+            "locator": "PDF p.3 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "98cc7798606c51433309",
+            "category": "amount",
+            "excerpt": "L 4~5단계에 해당하는 의료기기 부품·모듈 - 고도화 연구개발 : TRL 6단계 이상에 해당하는 의료기기 제품 - 지원금은 최종 결과평가 이후 결과 및 증빙에 따른 후정산 - 기업부담금: 지원금의 25%이상 부담 *부담금 현금 100%(현물 불인정)구분총사업비(가) 시지원금(나) 민간부담금(다)구성 기준(나)+(다) 선정금액 (나)의 25% 이상 (예시) 62,500,00050,000,00012,500,00",
+            "locator": "PDF p.3 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "1b826d3dee0381613233",
+            "category": "deadline",
+            "excerpt": "사업 협약 후 ~ 2027. 5. m 지원요건 - 창원시 관내 주사업장(본사, 공장, 연구소)을 보유한 법인기업 - 접수마감일 기 준 창 업 후 1년 이 상 경 과 하 고 6개 월 이 상 납 세 등 창 원 에 서 업 력 이 있 는 기 업 - 의료바이오 산업 유관 전·후방(예비) 기업 - 지원제외대상*에 해당하지 않는 기업(*세부사항 붙임3 참조) m 지원절차 및 일정",
+            "locator": "PDF p.3 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "79675a9679bb872b5d15",
+            "category": "eligibility",
+            "excerpt": "사업 시행공고 및과제계획서 및 신청서류 접수⇒평가위원회 개최⇒지원대상과제 통보 및 수정계획 접수(이의신청 처리)⇒협약체결’26.10.23.~11.20.’26.11.30.’26.12.4.~11.’26.12.14. ▼과제 관리 및 상시모니터링⇒현장중간점검⇒결과보고서 제출 및 최종평가⇒사업비 정산’26.12.~’27.5.’27.2.’27.4.’27.5.※ 상기 일정은 변경될 수 있음",
+            "locator": "PDF p.3 / text-line 4",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "7ad15066a8da3c7fc34c",
+            "category": "eligibility",
+            "excerpt": " 검토 및 미제출서류 보완요청 등 창원산업진흥원 내부자체 사전점검 및 요건심사 1. 지원사업 신청 시 제출서류 2. 신청자격 검토 1) 공고 내용과의 부합성 여부 2) 기지원 과제와의 중복성(국가과학기술지식정보서비스(NTIS) 활용) 3) 의무사항 불이행 여부 4) 참여 제한 여부 5) 채무불이행 및 부실위험 여부 6) 기타 공고에서 정한 사전지원제외 대상 기준 및 신청자격 관련 사항 등 - (2단계)선정평가",
+            "locator": "PDF p.4 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "5ad7c78d2e8d41be7e30",
+            "category": "exclusion",
+            "excerpt": "용) 3) 의무사항 불이행 여부 4) 참여 제한 여부 5) 채무불이행 및 부실위험 여부 6) 기타 공고에서 정한 사전지원제외 대상 기준 및 신청자격 관련 사항 등 - (2단계)선정평가: 제출된 사업계획서의 검토 및 PPT 발표평가 심사 · 사전검토 통과 과제에 대해 실시하며, 산·학·연·병 외부전문가로 평가위원회 운용 · 발 표 자 는 과 제 책 임 자 포 함 3인 이 내, 업 체 당 30분(발 표 15분, ",
+            "locator": "PDF p.4 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "9d620959595e13d0ae98",
+            "category": "documents",
+            "excerpt": "신청서 접수접수서류 적합여부등 검토서면검토 및발표평가평가점수 및 순위산정지원기업선정 및 통보 - (1단계)사전검토: 제출서류 검토 및 미제출서류 보완요청 등 창원산업진흥원 내부자체 사전점검 및 요건심사 1. 지원사업 신청 시 제출서류 2. 신청자격 검토 1) 공고 내용과의 부합성 여부 2) 기지원 과제와의 중복성(국가과학기술지식정보서비스(NTIS) 활용) 3) 의무사항 불이행 여부 4) 참여 제한 여부 5) ",
+            "locator": "PDF p.4 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "37affc54dbde76ab4bb0",
+            "category": "eligibility",
+            "excerpt": "분서 식 명 비고첨부양식 사업계획서 (계획서 40쪽 이내, 요약본 2쪽 이내, 제출서식 참조) 직인날인 필수붙임 1 신청자격 사전검토 확인서필 수붙임 2 참여제한 사전검토 확인서필 수붙임 3 개인정보 제공‧수집‧이용 동의서필 수붙임 4 중앙정부·타 지자체 R&D·기업 지원사업 현황(최근 3년) 필 수붙임 5 기술개발전략 로드맵 필 수붙임 6 시장진출전략 로드맵 필 수붙임 7 제품생산계획서필 수붙임 8 기술개발",
+            "locator": "PDF p.5 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "aa09e2ef154ae33eb778",
+            "category": "documents",
+            "excerpt": "업신청 → 지원사업 신청 → 의료바이오팀 → 2026년 의료기기 부품·모듈 국산화 및 기술개발 지원사업 모집공고 m 제출서류: 한글(HWP)/스캔(PDF) 온라인 업로드구분서 식 명 비고첨부양식 사업계획서 (계획서 40쪽 이내, 요약본 2쪽 이내, 제출서식 참조) 직인날인 필수붙임 1 신청자격 사전검토 확인서필 수붙임 2 참여제한 사전검토 확인서필 수붙임 3 개인정보 제공‧수집‧이용 동의서필 수붙임 4 중앙정",
+            "locator": "PDF p.5 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "bbb810411733a485b004",
+            "category": "documents",
+            "excerpt": "추가제출서류 기업신용평가등급 확인서 해당 시 기술·품질 인증 및 인정 서류 지식재산권 보유현황(저작권, 특허권(출원·등록), 실용신안권, 의장권, 상표권) 국내·외 관련 논문 R&D 전담 증빙(기업부설연구소 인정서, 전담부서(인력) 비중 증빙) 참여제한 예외 조건에 해당하는 경우 증빙서류 진해 지식산업센터 입주 계약 체결 서류 의료·바이오 관련 교류, 마케팅 실적 증빙서류 ※ 증빙 제출서류만 선정평가 점수에 ",
+            "locator": "PDF p.5 / text-line 3",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "6ab6f4af700bc09aa0ab",
+            "category": "exclusion",
+            "excerpt": "될 수 있도록 사전등록 권장 - 제출한 서류는 일절 반환하지 않으며, 보유기간(선정 후 5년간) 이후 파기 예정 - 지원제외 대상 목록 확인 필수 - 사업수행이 불가능하거나 정당한 사유없이 미이행 시 선정 취소 및 협약 취소가 될 수 있음 - 선정평가에 의하여 선정 여부가 결정되며 평가 결과에 따라 사업내용 및 지원금액 등이 조정될 수 있음 - 선정 전·후 허위사실 기재, 유사성이 높은 중복과제, 사업비 유용",
+            "locator": "PDF p.6 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "62bf57ebfbc7e70d0b4a",
+            "category": "amount",
+            "excerpt": "시 선정 취소 및 협약 취소가 될 수 있음 - 선정평가에 의하여 선정 여부가 결정되며 평가 결과에 따라 사업내용 및 지원금액 등이 조정될 수 있음 - 선정 전·후 허위사실 기재, 유사성이 높은 중복과제, 사업비 유용 등의 사안이 발생할 경우, 참여제한, 시지원금 전액환수 등의 제재조치 가능 - 사업비는 ⸢지방자치단체 보조금 관리에 관한 법률⸥, ⸢지방보조금 관리기준⸥, ⸢창원시 지방보조금 관리조례⸥, ⸢창원시",
+            "locator": "PDF p.6 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "e0e5f7b410cc6de0ddd6",
+            "category": "documents",
+            "excerpt": "5. 유의사항 m 유의사항 - 제출서류 양식을 준수하여 상세히 작성 후 제출 요망 - 신청서, 첨부서류를 모두 온라인으로 접수 - 접수 마감일까지 신청서를 비롯한 첨부서류 전체가 제출 완료되어야 하며, 마감시간 이후 접수문서는 불인정 - 회원가입, 연구개발과제 전산정보 입력 및 제출서류 업로드 등에 하루 이상 소요될 수 있으므로 마감 2~3일전 과제가 접수 완료될 수 있도록 사전등록 권장 - 제출한 서류는 일",
+            "locator": "PDF p.6 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "1e411c1be665c9786440",
+            "category": "deadline",
+            "excerpt": "m 유의사항 - 제출서류 양식을 준수하여 상세히 작성 후 제출 요망 - 신청서, 첨부서류를 모두 온라인으로 접수 - 접수 마감일까지 신청서를 비롯한 첨부서류 전체가 제출 완료되어야 하며, 마감시간 이후 접수문서는 불인정 - 회원가입, 연구개발과제 전산정보 입력 및 제출서류 업로드 등에 하루 이상 소요될 수 있으므로 마감 2~3일전 과제가 접수 완료될 수 있도록 사전등록 권장 - 제출한 서류는 일절 반환하지 않",
+            "locator": "PDF p.6 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "efa42499bf1719ab6433",
+            "category": "documents",
+            "excerpt": "및 자격 보유(이노비즈, 전문기업 지정서, 기업부설연구소 인정서 등) 인증, 자격 관련 내용 증빙 1건 이상 5점 (증빙서류 필수) 5의료·바이오전문성• 의료·바이오 관련 특허권(출원·등록) 등 지식재산권• 의료·바이오 관련 논문 게재 등 증빙 1건 이상 5점 (증빙서류 필수) 5사업화노력(10)교류실적• 의료·바이오 제품(직·간접) 실적 증명서, 고객사 구매확약서 등• 의료·바이오 제품 LOI, MOU, L",
+            "locator": "PDF p.8 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "표 열 순서·이미지·주석의 의미는 검토하지 않았습니다.",
+          "OCR 미수행"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
+    },
+    "b925ac106230a3d13ec5a806": {
+      "id": "b925ac106230a3d13ec5a806",
+      "program_id": "BIZINFO-PBLN_000000000127446",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127446",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000777684&fileSn=0",
+      "name": "다운로드",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
+    },
+    "e6eedef35a5d6535cc6b48a5": {
+      "id": "e6eedef35a5d6535cc6b48a5",
+      "program_id": "BIZINFO-PBLN_000000000127446",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127446",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000777684&fileSn=1",
+      "name": "다운로드",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
+    },
+    "a8143530d79ffd01c11782aa": {
+      "id": "a8143530d79ffd01c11782aa",
+      "program_id": "BIZINFO-PBLN_000000000127454",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127454",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000777714&fileSn=1",
+      "name": "다운로드",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
+    },
+    "26203291bbb079d12f127414": {
+      "id": "26203291bbb079d12f127414",
+      "program_id": "BIZINFO-PBLN_000000000127454",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127454",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000777715&fileSn=1",
+      "name": "다운로드",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-23T12:29:51+09:00",
+      "last_success_at": "2026-11-23T12:29:51+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-11-23T12:29:51+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "fcf89c9e868b3ea3f72af83a3e3ee1c6b0418a4fd56bada09011f70cb62bab8a",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "fcf89c9e868b3ea3f72af83a3e3ee1c6b0418a4fd56bada09011f70cb62bab8a",
+      "sha256": "fcf89c9e868b3ea3f72af83a3e3ee1c6b0418a4fd56bada09011f70cb62bab8a",
+      "extraction": {
+        "format": "hwp",
+        "parser": "olefile/0.47+hwp-body/0.4.0",
+        "sha256": "fcf89c9e868b3ea3f72af83a3e3ee1c6b0418a4fd56bada09011f70cb62bab8a",
+        "bytes": 70656,
+        "status": "text_extracted",
+        "text_characters": 1904,
+        "units": 117,
+        "text_sha256": "7ab835ba40d3f83e28c15dee1f07bb3f83b372444e506e3c2d69f0bb233320fa",
+        "pages": null,
+        "sections": 1,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "dd520c66e0c92efc1d03",
+            "category": "amount",
+            "excerpt": "‣ 단, 사업 종료일 후에는 향후 정부 지원 사업 신청 시의 이력관리만을 위하여 보유․이용되며 기간은 3년입니다.(공공기록물 관리에 관한 법률 시행령)",
+            "locator": "BodyText/Section0 / record 677 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "구역·레코드 위치는 실제 인쇄 쪽번호가 아닙니다.",
+          "표·그림·각주 의미와 문서의 모든 제외조건은 미검토"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
+    },
+    "4d7bad8b9533bf7f62a7460d": {
+      "id": "4d7bad8b9533bf7f62a7460d",
+      "program_id": "BIZINFO-PBLN_000000000127454",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127454",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000777715&fileSn=2",
+      "name": "다운로드",
+      "status": "no_text",
+      "last_attempt_at": "2026-11-23T12:29:51+09:00",
+      "last_success_at": "2026-11-23T12:29:51+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-11-23T12:29:51+09:00",
+          "status": "no_text",
+          "observed_sha256": "32f230f78e38ce62f3cf923b2e8478761a6c9cce81eb1798e06e6ddf72265106",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "32f230f78e38ce62f3cf923b2e8478761a6c9cce81eb1798e06e6ddf72265106",
+      "sha256": "32f230f78e38ce62f3cf923b2e8478761a6c9cce81eb1798e06e6ddf72265106",
+      "extraction": {
+        "format": "pdf",
+        "parser": "pypdf/6.15.0",
+        "sha256": "32f230f78e38ce62f3cf923b2e8478761a6c9cce81eb1798e06e6ddf72265106",
+        "bytes": 2509281,
+        "status": "no_text",
+        "text_characters": 0,
+        "units": 0,
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "pages": 1,
+        "sections": null,
+        "empty_pages": 1,
+        "candidate_facts": [],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "표 열 순서·이미지·주석의 의미는 검토하지 않았습니다.",
+          "OCR 미수행"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
+    },
+    "52b15344bfdba44847230edd": {
+      "id": "52b15344bfdba44847230edd",
+      "program_id": "BIZINFO-PBLN_000000000127466",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127466",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000777742&fileSn=0",
+      "name": "다운로드",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-23T12:29:51+09:00",
+      "last_success_at": "2026-11-23T12:29:51+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-11-23T12:29:51+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "606a14e1fa0d67b1f5e37f27948efae4e2f6d3b8b25a1a1096a2ad40f437aada",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "606a14e1fa0d67b1f5e37f27948efae4e2f6d3b8b25a1a1096a2ad40f437aada",
+      "sha256": "606a14e1fa0d67b1f5e37f27948efae4e2f6d3b8b25a1a1096a2ad40f437aada",
+      "extraction": {
+        "format": "hwp",
+        "parser": "olefile/0.47+hwp-body/0.4.0",
+        "sha256": "606a14e1fa0d67b1f5e37f27948efae4e2f6d3b8b25a1a1096a2ad40f437aada",
+        "bytes": 107008,
+        "status": "text_extracted",
+        "text_characters": 3381,
+        "units": 200,
+        "text_sha256": "5411b3a60738c20929ba56ed0b75d4179918086edac37a93b9b32cead1e04e63",
+        "pages": null,
+        "sections": 1,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "10b891c22f4aa9d16afe",
+            "category": "eligibility",
+            "excerpt": "2026년도 서천 해양 블루바이오 신소재 기반",
+            "locator": "BodyText/Section0 / record 30 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "68edde545eb6fc2ef338",
+            "category": "eligibility",
+            "excerpt": " 창업 아이디어를 보유한 예비창업자의 성공적인 창업 및 시장 안착을 지원하고자 「2026년도 서천 해양 블루바이오 신소재 기반 예비창업자 지원 프로그램」을 다음과 같이 공고합니다.",
+            "locator": "BodyText/Section0 / record 53 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "0b24f38666aaf8420967",
+            "category": "deadline",
+            "excerpt": "○ (신청기간) 2026. 10. 19.(월) ~ 모집 완료 시까지(상시 모집)",
+            "locator": "BodyText/Section0 / record 81 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "859e0f171f618cdc4526",
+            "category": "amount",
+            "excerpt": "○ (지원금액) 개별 예비 창업자당 최대 10,000천원 이내",
+            "locator": "BodyText/Section0 / record 97 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "9311afeaa7d70d9479c4",
+            "category": "amount",
+            "excerpt": "※ 지원금은 신청자에게 직접 지급하지 않으며, KY 앵커사업단이 선정한 공급기관을 통해 지원",
+            "locator": "BodyText/Section0 / record 198 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "cf42e15a15fd657fc644",
+            "category": "eligibility",
+            "excerpt": " 우수 예비 창업자 대상 차년도 기업 기술·사업화 지원 프로그램 우선 연계 추천",
+            "locator": "BodyText/Section0 / record 258 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "4bfab735b6efa32d21aa",
+            "category": "eligibility",
+            "excerpt": "󰊳 신청자격",
+            "locator": "BodyText/Section0 / record 265 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "279906a8bbe7a864cc0e",
+            "category": "eligibility",
+            "excerpt": "○ 지원대상 구분",
+            "locator": "BodyText/Section0 / record 269 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "dc0d80f001f38b408053",
+            "category": "exclusion",
+            "excerpt": "○ 신청 제외 대상",
+            "locator": "BodyText/Section0 / record 365 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "fe7420536e15b76b8247",
+            "category": "exclusion",
+            "excerpt": "- 국세 또는 지방세 체납 중인 자",
+            "locator": "BodyText/Section0 / record 381 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "623207f360cfee91ea1d",
+            "category": "exclusion",
+            "excerpt": "- 「중소기업창업 지원법 시행령」 제4조의 지원 제외 업종을 영위하는 자 (하단 [참고 1]의 내용 참조)",
+            "locator": "BodyText/Section0 / record 385 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "a4ae98c7645a23c3c05b",
+            "category": "documents",
+            "excerpt": "󰊴 신청방법 및 제출서류",
+            "locator": "BodyText/Section0 / record 392 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "5147a0bf8d3dd70645db",
+            "category": "documents",
+            "excerpt": "제출서류",
+            "locator": "BodyText/Section0 / record 412 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "30531fcecda1121cd065",
+            "category": "overlap",
+            "excerpt": " 중복지원 금지 확약서(붙임 양식)",
+            "locator": "BodyText/Section0 / record 472 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "0ac08cea036d06fe0349",
+            "category": "amount",
+            "excerpt": " 중복지원 금지 확약서(붙임 양식)",
+            "locator": "BodyText/Section0 / record 472 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "8951fdb85e47241ce157",
+            "category": "documents",
+            "excerpt": " 관련 연구·활동 증빙자료(포트폴리오, 수상실적, 특허 등)",
+            "locator": "BodyText/Section0 / record 487 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "e660568de59630d07e78",
+            "category": "documents",
+            "excerpt": "○ 제출 서류에 허위 사실 기재 시 선정 취소 및 향후 지원사업 참여 제한",
+            "locator": "BodyText/Section0 / record 1211 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "71758615924a9870fd2e",
+            "category": "amount",
+            "excerpt": "○ 지원금은 신청자에게 현금으로 지급되지 않으며, 공급기관을 통한 지원으로 집행",
+            "locator": "BodyText/Section0 / record 1215 (PARA_TEXT)",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "구역·레코드 위치는 실제 인쇄 쪽번호가 아닙니다.",
+          "표·그림·각주 의미와 문서의 모든 제외조건은 미검토"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
+    },
+    "ea4403a838352b8789606aa3": {
+      "id": "ea4403a838352b8789606aa3",
+      "program_id": "BIZINFO-PBLN_000000000127466",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127466",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000777743&fileSn=0",
+      "name": "다운로드",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
+    },
+    "641d73ee501142b34112a821": {
+      "id": "641d73ee501142b34112a821",
+      "program_id": "BIZINFO-PBLN_000000000127466",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127466",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000777743&fileSn=1",
+      "name": "다운로드",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
     }
   },
   "programs": {
@@ -22764,6 +23403,48 @@
       "document_ids": [
         "1d94430068518b0053d551fd",
         "3ffc65874421b5aa4b874222"
+      ],
+      "review_required": false,
+      "last_error": null
+    },
+    "BIZINFO-PBLN_000000000127446": {
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127446",
+      "last_notice_attempt_at": "2026-11-23T12:29:51+09:00",
+      "last_notice_success_at": "2026-11-23T12:29:51+09:00",
+      "notice_status": "links_available",
+      "manifest_sha256": "1f5b5245aee03a96319ce280c8ab86fd6949f04af2eaa8fe118ca027fcd423c5",
+      "document_ids": [
+        "402f91e26c8c64420fd92e38",
+        "b925ac106230a3d13ec5a806",
+        "e6eedef35a5d6535cc6b48a5"
+      ],
+      "review_required": false,
+      "last_error": null
+    },
+    "BIZINFO-PBLN_000000000127454": {
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127454",
+      "last_notice_attempt_at": "2026-11-23T12:29:51+09:00",
+      "last_notice_success_at": "2026-11-23T12:29:51+09:00",
+      "notice_status": "links_available",
+      "manifest_sha256": "f06d19752cbbf771bf07414e89e28c229ef91fd575d0ce9db9a0978ca92dd49e",
+      "document_ids": [
+        "a8143530d79ffd01c11782aa",
+        "26203291bbb079d12f127414",
+        "4d7bad8b9533bf7f62a7460d"
+      ],
+      "review_required": false,
+      "last_error": null
+    },
+    "BIZINFO-PBLN_000000000127466": {
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127466",
+      "last_notice_attempt_at": "2026-11-23T12:29:51+09:00",
+      "last_notice_success_at": "2026-11-23T12:29:51+09:00",
+      "notice_status": "links_available",
+      "manifest_sha256": "38eded1ed3216525c3862b16a0ac1a53b00112703c46adc651249f92ee5b4be6",
+      "document_ids": [
+        "52b15344bfdba44847230edd",
+        "ea4403a838352b8789606aa3",
+        "641d73ee501142b34112a821"
       ],
       "review_required": false,
       "last_error": null

@@ -1,8 +1,8 @@
 {
   "schema": "public-funding-attachment-recovery/v1",
   "version": "0.23.0",
-  "generated_at": "2026-11-22T11:49:03+09:00",
-  "source_run_at": "2026-11-22T11:49:03+09:00",
+  "generated_at": "2026-11-23T12:29:51+09:00",
+  "source_run_at": "2026-11-23T12:29:51+09:00",
   "limits": {
     "notice_pages_per_run": 3,
     "file_attempts_per_run": 4,
@@ -10,16 +10,28 @@
     "success_recheck_days": 14
   },
   "counts": {
-    "queued": 103,
+    "queued": 108,
     "retry_due": 0,
     "retry_wait": 0,
-    "manual": 20,
-    "revisit": 87,
-    "current": 52,
+    "manual": 21,
+    "revisit": 91,
+    "current": 51,
     "inactive": 0
   },
-  "active_records": 262,
+  "active_records": 271,
   "selected": [
+    {
+      "id": "641d73ee501142b34112a821",
+      "program_id": "BIZINFO-PBLN_000000000127466",
+      "status": "queued",
+      "decision": "queued",
+      "reason": "newly_queued",
+      "retry_after": null,
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "previous_extraction_kept": false,
+      "review_required": false
+    },
     {
       "id": "9a000469eb19fc90b7329ecf",
       "program_id": "BIZINFO-PBLN_000000000127316",
@@ -47,18 +59,6 @@
     {
       "id": "9dafd73a070056a164f18097",
       "program_id": "BIZINFO-PBLN_000000000123662",
-      "status": "queued",
-      "decision": "queued",
-      "reason": "newly_queued",
-      "retry_after": null,
-      "last_attempt_at": null,
-      "last_success_at": null,
-      "previous_extraction_kept": false,
-      "review_required": false
-    },
-    {
-      "id": "9e29658c5fb9890209ef0db1",
-      "program_id": "BIZINFO-PBLN_000000000126774",
       "status": "queued",
       "decision": "queued",
       "reason": "newly_queued",
@@ -307,6 +307,18 @@
       "retry_after": null,
       "last_attempt_at": "2026-11-20T12:52:42+09:00",
       "last_success_at": "2026-11-20T12:52:42+09:00",
+      "previous_extraction_kept": true,
+      "review_required": false
+    },
+    {
+      "id": "4d7bad8b9533bf7f62a7460d",
+      "program_id": "BIZINFO-PBLN_000000000127454",
+      "status": "no_text",
+      "decision": "manual",
+      "reason": "manual_original_review_required",
+      "retry_after": null,
+      "last_attempt_at": "2026-11-23T12:29:51+09:00",
+      "last_success_at": "2026-11-23T12:29:51+09:00",
       "previous_extraction_kept": true,
       "review_required": false
     }

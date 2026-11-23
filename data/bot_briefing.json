@@ -1,7 +1,7 @@
 {
   "schema": "public-funding-bot-briefing/v1",
   "engine_version": "0.15.0",
-  "generated_at": "2026-11-22T11:49:38+09:00",
+  "generated_at": "2026-11-23T12:30:33+09:00",
   "generation": "deterministic_no_model",
   "report_model_calls": 0,
   "ai_transport": "manual_cli_only",
@@ -9,14 +9,14 @@
   "automatic_submission": false,
   "input_fingerprints": {
     "data/programs.json": "06f83ad02a4e674e850cbd9addd62273a8420dd090f5be5b7010aa621b915637",
-    "data/monitor.json": "26f39dc24b6a13f39814e9277a39af34f159fa4bb957a2db0316718e2f38d888",
-    "data/evidence.json": "7ccedf076c54575545329dd852b6c57051cefb421e8fde2679031bbb1b682a2a",
-    "data/change_reviews.json": "81a5ec9c724a9857d037dd1645e3d9c2edb5b39c843cf9d616ac467b83197026",
-    "data/attachments.json": "a3cd78b42d6fc6a7559db466cc1e4e1248d7f1f811de39af91799ee12f4a4742",
-    "data/startup_sources.json": "8b357bc3a63e6ef2ac8620b55516b0c0b52299454631d607da7bacd24a15f4ec",
+    "data/monitor.json": "cd8f9786975296a5cebecaeb05f28cf8d00ff0b83ec6c1253272980ea8c22b17",
+    "data/evidence.json": "3e4ffe93836dc02ceae8b123e00ef6b78558c70881144e83e6025e87b88608fc",
+    "data/change_reviews.json": "1cffe263165820b9bc9916578f07bf22caf09e8abfb2cc316ce97ec560828e44",
+    "data/attachments.json": "0e05c01e7dddd7b87831f27800a5e3e91eb66cb6332bbc3d3264725aad31703f",
+    "data/startup_sources.json": "eabfb46afea90d125676940181c7d468be3a91a690730cd4e5c07e5b5c43686e",
     "config/automation_policy.json": "167611159390f47d645f4f831e909f79bf41cfb5173e618f607e351dfe309140"
   },
-  "run_status": "ok_scoped",
+  "run_status": "partial_or_stale",
   "attention_required": true,
   "deadline_window_days": 7,
   "lanes": [
@@ -24,15 +24,15 @@
       "id": "api",
       "name": "기업마당 API",
       "status": "ok_scoped",
-      "last_attempt_at": "2026-11-22T11:47:37+09:00",
-      "last_success_at": "2026-11-22T11:47:37+09:00",
+      "last_attempt_at": "2026-11-23T12:28:10+09:00",
+      "last_success_at": "2026-11-23T12:28:10+09:00",
       "freshness": "recent",
       "workflow_outcome": "success",
-      "checked": 1295,
+      "checked": 1292,
       "failed": 0,
       "detail": {
         "pages": 7,
-        "reported_total": 1295,
+        "reported_total": 1292,
         "added": 0,
         "modified": 0,
         "suggested": 0,
@@ -48,7 +48,7 @@
       "id": "html",
       "name": "공식 원문 HTML 순환",
       "status": "ok_scoped",
-      "last_attempt_at": "2026-11-22T11:47:37+09:00",
+      "last_attempt_at": "2026-11-23T12:28:10+09:00",
       "last_success_at": null,
       "freshness": "recent",
       "workflow_outcome": "success",
@@ -71,8 +71,8 @@
     {
       "id": "attachments",
       "name": "첨부파일 순환",
-      "status": "ok_scoped",
-      "last_attempt_at": "2026-11-22T11:49:03+09:00",
+      "status": "partial",
+      "last_attempt_at": "2026-11-23T12:29:51+09:00",
       "last_success_at": null,
       "freshness": "recent",
       "workflow_outcome": "success",
@@ -85,8 +85,8 @@
         "modified": 0,
         "suggested": 0,
         "success": 0,
-        "text_extracted": 4,
-        "partial_or_no_text": 0,
+        "text_extracted": 3,
+        "partial_or_no_text": 1,
         "blocked_or_unsupported": 0,
         "matched": 0,
         "changed": 0
@@ -96,7 +96,7 @@
       "id": "startup",
       "name": "검토된 과거 원본",
       "status": "ok_scoped",
-      "last_attempt_at": "2026-11-22T11:49:27+09:00",
+      "last_attempt_at": "2026-11-23T12:30:25+09:00",
       "last_success_at": null,
       "freshness": "recent",
       "workflow_outcome": "success",
@@ -121,20 +121,20 @@
     "pending_differences": 19,
     "attachment_failures": 0,
     "notice_failures": 0,
-    "attachment_limits": 20,
-    "queued_attachments": 103,
-    "changed_evidence": 75,
+    "attachment_limits": 21,
+    "queued_attachments": 108,
+    "changed_evidence": 81,
     "unverified_programs": 152,
     "unverified_2027": 5,
     "unknown_dates": 84
   },
   "counts": {
     "registered": 195,
-    "upcoming_deadlines": 4,
-    "queue_total": 119,
-    "queue_shown": 119,
+    "upcoming_deadlines": 6,
+    "queue_total": 126,
+    "queue_shown": 120,
     "queue_by_action": {
-      "review_original": 119
+      "review_original": 126
     }
   },
   "deadlines": [
@@ -144,9 +144,9 @@
       "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127652",
       "mode": "discovery",
       "deadline": "2026-11-23",
-      "status": "upcoming",
+      "status": "today_time_unknown",
       "date": "2026-11-23",
-      "days": 1,
+      "days": 0,
       "precision": "date_only",
       "qualification": "개별 신청자격 미판정"
     },
@@ -158,7 +158,7 @@
       "deadline": "2026-11-24",
       "status": "upcoming",
       "date": "2026-11-24",
-      "days": 2,
+      "days": 1,
       "precision": "date_only",
       "qualification": "개별 신청자격 미판정"
     },
@@ -170,7 +170,7 @@
       "deadline": "2026-11-24",
       "status": "upcoming",
       "date": "2026-11-24",
-      "days": 2,
+      "days": 1,
       "precision": "date_only",
       "qualification": "개별 신청자격 미판정"
     },
@@ -182,7 +182,31 @@
       "deadline": "2026-11-26",
       "status": "upcoming",
       "date": "2026-11-26",
-      "days": 4,
+      "days": 3,
+      "precision": "date_only",
+      "qualification": "개별 신청자격 미판정"
+    },
+    {
+      "program_id": "BIZINFO-PBLN_000000000126833",
+      "title": "2026년 AI 기반 바이오 소재 융복합 제품의 정보분석 및 특허 창출 지원 사업 수혜기업 모집 공고",
+      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126833",
+      "mode": "discovery",
+      "deadline": "2026-11-30",
+      "status": "upcoming",
+      "date": "2026-11-30",
+      "days": 7,
+      "precision": "date_only",
+      "qualification": "개별 신청자격 미판정"
+    },
+    {
+      "program_id": "BIZINFO-PBLN_000000000127807",
+      "title": "[경북] 2026년 K-AI 경북형 동반성장 주력산업 육성 지원사업 컨소시엄 모집 재공고",
+      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127807",
+      "mode": "discovery",
+      "deadline": "2026-11-30",
+      "status": "upcoming",
+      "date": "2026-11-30",
+      "days": 7,
       "precision": "date_only",
       "qualification": "개별 신청자격 미판정"
     }
@@ -236,6 +260,78 @@
       "reason": "원문 내용 변경 신호. 실제 정책 변경인지는 미검증",
       "reference_id": "BIZINFO-PBLN_000000000119235",
       "observed_at": "2026-11-13T12:06:45+09:00"
+    },
+    {
+      "id": "3b262945a8abb93621cf1e79",
+      "category": "notice_changed",
+      "priority": "P0",
+      "program_id": "BIZINFO-PBLN_000000000121634",
+      "title": "[경기] 용인시 2026년 창업 멘토링(1:1) 희망기업 모집 공고",
+      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000121634",
+      "action": "review_original",
+      "reason": "원문 내용 변경 신호. 실제 정책 변경인지는 미검증",
+      "reference_id": "BIZINFO-PBLN_000000000121634",
+      "observed_at": "2026-11-23T12:28:10+09:00"
+    },
+    {
+      "id": "b9a42390e2f6fef856529197",
+      "category": "notice_changed",
+      "priority": "P0",
+      "program_id": "BIZINFO-PBLN_000000000121832",
+      "title": "[강원] 2026년 청년창업자금 무이자 대출지원 사업시행 변경 공고",
+      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000121832",
+      "action": "review_original",
+      "reason": "원문 내용 변경 신호. 실제 정책 변경인지는 미검증",
+      "reference_id": "BIZINFO-PBLN_000000000121832",
+      "observed_at": "2026-11-23T12:28:10+09:00"
+    },
+    {
+      "id": "1ec90e425cef9ee847980d06",
+      "category": "notice_changed",
+      "priority": "P0",
+      "program_id": "BIZINFO-PBLN_000000000122229",
+      "title": "2026년 창업BuS in 세종 수요투자 라운드 참여기업 상시 모집 공고",
+      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000122229",
+      "action": "review_original",
+      "reason": "원문 내용 변경 신호. 실제 정책 변경인지는 미검증",
+      "reference_id": "BIZINFO-PBLN_000000000122229",
+      "observed_at": "2026-11-23T12:28:10+09:00"
+    },
+    {
+      "id": "e1dd95621343180ebfcaba69",
+      "category": "notice_changed",
+      "priority": "P0",
+      "program_id": "BIZINFO-PBLN_000000000122332",
+      "title": "[대구ㆍ경북] 경제자유구역기술 창업기업 맞춤형 멘토링 지원 공고",
+      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000122332",
+      "action": "review_original",
+      "reason": "원문 내용 변경 신호. 실제 정책 변경인지는 미검증",
+      "reference_id": "BIZINFO-PBLN_000000000122332",
+      "observed_at": "2026-11-23T12:28:10+09:00"
+    },
+    {
+      "id": "60e8af7cb5178dc210797671",
+      "category": "notice_changed",
+      "priority": "P0",
+      "program_id": "BIZINFO-PBLN_000000000122551",
+      "title": "[울산] 2026년 AI무역지원센터 활용 해외 홍보 지원사업 모집 공고",
+      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000122551",
+      "action": "review_original",
+      "reason": "원문 내용 변경 신호. 실제 정책 변경인지는 미검증",
+      "reference_id": "BIZINFO-PBLN_000000000122551",
+      "observed_at": "2026-11-23T12:28:10+09:00"
+    },
+    {
+      "id": "49893376bd3a6657f89ac83d",
+      "category": "notice_changed",
+      "priority": "P0",
+      "program_id": "BIZINFO-PBLN_000000000122609",
+      "title": "2026년 경북AI데이터센터 테스트베드 실증지원 공고(데이터센터 테스트베드 조성 지원)",
+      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000122609",
+      "action": "review_original",
+      "reason": "원문 내용 변경 신호. 실제 정책 변경인지는 미검증",
+      "reference_id": "BIZINFO-PBLN_000000000122609",
+      "observed_at": "2026-11-23T12:28:10+09:00"
     },
     {
       "id": "33bfb0887831af4c42338d92",
@@ -1556,71 +1652,11 @@
       "reason": "형식·크기·본문 추출 한계: unsupported_format — 원본 직접 확인 필요",
       "reference_id": "3ffa483eb06ef1004bb33bac",
       "observed_at": "2026-11-07T11:32:45+09:00"
-    },
-    {
-      "id": "e537e78622f2911383330a65",
-      "category": "attachment_limit",
-      "priority": "P2",
-      "program_id": "BIZINFO-PBLN_000000000126109",
-      "title": "[전북] 2026년 AI융합 지능형 농업 생태계 구축 사업 인공지능 기술고도화 지원사업 상시모집 공고",
-      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126109",
-      "action": "review_original",
-      "reason": "형식·크기·본문 추출 한계: unsupported_format — 원본 직접 확인 필요",
-      "reference_id": "55b717e38d1edf19e7fc6d95",
-      "observed_at": "2026-11-08T11:02:03+09:00"
-    },
-    {
-      "id": "ba5d4dbec48a988a0d668a5d",
-      "category": "attachment_limit",
-      "priority": "P2",
-      "program_id": "BIZINFO-PBLN_000000000127003",
-      "title": "2026년 전남광주 제3기 지역자원 연계 청년창업 지원사업 모집 공고",
-      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127003",
-      "action": "review_original",
-      "reason": "형식·크기·본문 추출 한계: no_text — 원본 직접 확인 필요",
-      "reference_id": "4d4ec1edc7e5bee9d40aa239",
-      "observed_at": "2026-11-14T11:54:56+09:00"
-    },
-    {
-      "id": "3c75ff7c0ed3d07a46704e24",
-      "category": "attachment_limit",
-      "priority": "P2",
-      "program_id": "BIZINFO-PBLN_000000000127132",
-      "title": "[서울] MWC2027-4YFN 서울기업관 서울소재 참가기업 모집",
-      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127132",
-      "action": "review_original",
-      "reason": "형식·크기·본문 추출 한계: no_text — 원본 직접 확인 필요",
-      "reference_id": "96faab6fba4fb12d86b009ab",
-      "observed_at": "2026-11-20T12:52:42+09:00"
-    },
-    {
-      "id": "0e6cf909f21a2227cf1108d1",
-      "category": "attachment_limit",
-      "priority": "P2",
-      "program_id": "BIZINFO-PBLN_000000000127207",
-      "title": "[경남] 2026년 제조AI 데이터 활용지원 사업 공고",
-      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127207",
-      "action": "review_original",
-      "reason": "형식·크기·본문 추출 한계: unsupported_format — 원본 직접 확인 필요",
-      "reference_id": "004c48b85e1b4072328079c2",
-      "observed_at": "2026-11-17T13:58:00+09:00"
-    },
-    {
-      "id": "66cb39b26058a19c9a07df8f",
-      "category": "attachment_limit",
-      "priority": "P2",
-      "program_id": "BIZINFO-PBLN_000000000127227",
-      "title": "[경기] 성남시 2026년 피지컬 AI 자율실험 기반구축 지원사업 수혜기업 모집 통합 공고(산업혁신기반구축사업 혼합현실(Mixed Reality 기반 피지컬AI 자율실험 기반구축)",
-      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127227",
-      "action": "review_original",
-      "reason": "형식·크기·본문 추출 한계: unsupported_format — 원본 직접 확인 필요",
-      "reference_id": "40446fce1bf330d044f1b01b",
-      "observed_at": "2026-11-18T13:02:06+09:00"
     }
   ],
-  "queue_truncated": false,
+  "queue_truncated": true,
   "scope": "기업마당 API, 기존 공식 원문·첨부 순환 수집 및 검토 원본 재확인. 전체 기관 독립 수집이나 자동 적격성 검증이 아님.",
   "notice": "이 보고서는 공개 저장자료의 규칙 기반 집계입니다. 후보·마감·우선순위는 신청 적격성, 선정 확률 또는 지원금 확정이 아닙니다. 자료 변경은 정책 변경 확정이 아니며 원문 대조가 필요합니다.",
   "ai_handoff": "공개 근거 검토요청 파일만 생성 가능. AI CLI 자동 실행·API 호출·결과 자동 반영 없음.",
-  "report_id": "117d96164a2cab7c8701d8b8"
+  "report_id": "33eed02eabec872c8f55a9b8"
 }

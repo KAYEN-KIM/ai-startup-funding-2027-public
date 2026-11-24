@@ -1,8 +1,8 @@
 {
   "schema": "public-funding-attachment-recovery/v1",
   "version": "0.23.0",
-  "generated_at": "2026-11-23T12:29:51+09:00",
-  "source_run_at": "2026-11-23T12:29:51+09:00",
+  "generated_at": "2026-11-24T15:44:42+09:00",
+  "source_run_at": "2026-11-24T15:44:42+09:00",
   "limits": {
     "notice_pages_per_run": 3,
     "file_attempts_per_run": 4,
@@ -10,15 +10,15 @@
     "success_recheck_days": 14
   },
   "counts": {
-    "queued": 108,
+    "queued": 110,
     "retry_due": 0,
     "retry_wait": 0,
     "manual": 21,
-    "revisit": 91,
+    "revisit": 95,
     "current": 51,
     "inactive": 0
   },
-  "active_records": 271,
+  "active_records": 277,
   "selected": [
     {
       "id": "641d73ee501142b34112a821",

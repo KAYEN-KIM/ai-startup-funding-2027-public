@@ -1,7 +1,7 @@
 {
   "schema": "public-funding-agency-evidence/v1",
   "version": "0.17.0",
-  "generated_at": "2026-11-23T12:29:26+09:00",
+  "generated_at": "2026-11-24T15:44:19+09:00",
   "model_calls": 0,
   "automatic_approval": false,
   "scope": "기관 직접 목록의 원문 최대 3건·첨부 최대 4건 순환 확인. 본문 추출은 조건 후보이며 신청자격·금액·중복지원·문서 완전성 검증이 아닙니다. 기존 공고와 검토 규칙은 수정하지 않습니다.",
@@ -79,9 +79,9 @@
       "source": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16976&tab=2",
       "title": "2026년「첨단 GPU 활용 지원 사업」 베타서비스 참여자 모집 공모 안내 (산학연 지원)",
       "listing_fingerprint": "f55f49abdb3cab590de49908d72fcab987f9897dd0cf3657fd45540e3114ec5d",
-      "listing_seen_at": "2026-11-10T13:30:05+09:00",
-      "last_attempt_at": "2026-11-10T13:30:13+09:00",
-      "last_success_at": "2026-11-10T13:30:13+09:00",
+      "listing_seen_at": "2026-11-24T15:44:13+09:00",
+      "last_attempt_at": "2026-11-24T15:44:19+09:00",
+      "last_success_at": "2026-11-24T15:44:19+09:00",
       "status": "html_available",
       "last_error": null,
       "review_required": false,
@@ -96,6 +96,13 @@
         }
       ],
       "history": [
+        {
+          "at": "2026-11-24T15:44:19+09:00",
+          "status": "html_available",
+          "body_sha256": "c379a8310c207d562b362743a2ff162a979f02cacff76aaac7118cbfdde6337e",
+          "manifest_sha256": "b2f079769d7cac2dd7ad0950a15b0ed7e3542bccf1838b47e9bd8d4f7edbe854",
+          "error": null
+        },
         {
           "at": "2026-11-10T13:30:13+09:00",
           "status": "html_available",
@@ -814,9 +821,9 @@
       "source": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1072214",
       "title": "2027년도 초기창업·창업도약 패키지 사업신규 주관기관 모집 수정 공고",
       "listing_fingerprint": "6430022c82a6e1cb9dba93b2b2634da7f808aac8daaf3b8b58d7a32dd65ef5c3",
-      "listing_seen_at": "2026-11-19T12:58:40+09:00",
-      "last_attempt_at": "2026-11-19T12:58:48+09:00",
-      "last_success_at": "2026-11-19T12:58:48+09:00",
+      "listing_seen_at": "2026-11-24T15:44:13+09:00",
+      "last_attempt_at": "2026-11-24T15:44:19+09:00",
+      "last_success_at": "2026-11-24T15:44:19+09:00",
       "status": "html_available",
       "last_error": null,
       "review_required": false,
@@ -837,6 +844,13 @@
         }
       ],
       "history": [
+        {
+          "at": "2026-11-24T15:44:19+09:00",
+          "status": "html_available",
+          "body_sha256": "a1889f5b8abd7215bcd88190ed17548fad9d9d2b212ca46bf3e0a9d195fa79ff",
+          "manifest_sha256": "c4fdf98cb74944ebffaaa528845637c9920add917a18d356678b50c26d1afc32",
+          "error": null
+        },
         {
           "at": "2026-11-19T12:58:48+09:00",
           "status": "html_available",
@@ -860,13 +874,6 @@
         },
         {
           "at": "2026-11-07T11:32:11+09:00",
-          "status": "html_available",
-          "body_sha256": "a1889f5b8abd7215bcd88190ed17548fad9d9d2b212ca46bf3e0a9d195fa79ff",
-          "manifest_sha256": "c4fdf98cb74944ebffaaa528845637c9920add917a18d356678b50c26d1afc32",
-          "error": null
-        },
-        {
-          "at": "2026-11-03T12:50:55+09:00",
           "status": "html_available",
           "body_sha256": "a1889f5b8abd7215bcd88190ed17548fad9d9d2b212ca46bf3e0a9d195fa79ff",
           "manifest_sha256": "c4fdf98cb74944ebffaaa528845637c9920add917a18d356678b50c26d1afc32",
@@ -1368,6 +1375,45 @@
         }
       ],
       "unhandled_links": 0
+    },
+    "MSS-1072666": {
+      "id": "MSS-1072666",
+      "agency_id": "mss",
+      "source": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1072666",
+      "title": "2027년 스마트공장 구축지원사업 모집공고",
+      "listing_fingerprint": "9825987f1cb5365922d96d83b83dae897abab269a61a8b27efbf92f9966f0d62",
+      "listing_seen_at": "2026-11-24T15:44:13+09:00",
+      "last_attempt_at": "2026-11-24T15:44:19+09:00",
+      "last_success_at": "2026-11-24T15:44:19+09:00",
+      "status": "html_available",
+      "last_error": null,
+      "review_required": false,
+      "body_sha256": "aec1953795e2dceab0cb0cc500451cd442594ee924995923f0c57ebcced724a1",
+      "manifest_sha256": "29a20a00d20eb7405089c8339b7852df949debd033495de0b2d7bc738d3bd995",
+      "documents": [
+        {
+          "id": "4267e5b1d6980e1cd534e131",
+          "name": "2720e07d-4dc9-44c4-9f31-fd6b4777fd5c.hwpx",
+          "public_url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1072666&cbIdx=310&streFileNm=2720e07d-4dc9-44c4-9f31-fd6b4777fd5c.hwpx",
+          "locator": "공고 첨부파일 목록 / 2720e07d-4dc9-44c4-9f31-fd6b4777fd5c.hwpx"
+        },
+        {
+          "id": "c99ae9c5506b26a664db8d05",
+          "name": "4cea8a26-4c34-4aa6-a57f-e9e628eec1a3.pdf",
+          "public_url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1072666&cbIdx=310&streFileNm=4cea8a26-4c34-4aa6-a57f-e9e628eec1a3.pdf",
+          "locator": "공고 첨부파일 목록 / 4cea8a26-4c34-4aa6-a57f-e9e628eec1a3.pdf"
+        }
+      ],
+      "history": [
+        {
+          "at": "2026-11-24T15:44:19+09:00",
+          "status": "html_available",
+          "body_sha256": "aec1953795e2dceab0cb0cc500451cd442594ee924995923f0c57ebcced724a1",
+          "manifest_sha256": "29a20a00d20eb7405089c8339b7852df949debd033495de0b2d7bc738d3bd995",
+          "error": null
+        }
+      ],
+      "unhandled_links": 1
     }
   },
   "documents": {
@@ -1932,11 +1978,18 @@
       "url": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16976&tab=2",
       "name": "2026년 「첨단 GPU 활용 지원 사업」 베타서비스 참여자 모집 공고문.hwpx",
       "status": "text_extracted",
-      "last_attempt_at": "2026-11-10T13:30:13+09:00",
-      "last_success_at": "2026-11-10T13:30:13+09:00",
+      "last_attempt_at": "2026-11-24T15:44:19+09:00",
+      "last_success_at": "2026-11-24T15:44:19+09:00",
       "last_error": null,
       "review_required": false,
       "history": [
+        {
+          "at": "2026-11-24T15:44:19+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "2465f96e3c1e517d11fa4581de653c0dcb8f7f911e81af1bc80b772a0e0d32f2",
+          "http_status": null,
+          "failure_kind": null
+        },
         {
           "at": "2026-11-10T13:30:13+09:00",
           "status": "text_extracted",
@@ -7723,11 +7776,18 @@
       "url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1072214&cbIdx=310&streFileNm=351acb8b-5bf0-4178-9e5a-3e9cde6c24f6.hwpx",
       "name": "351acb8b-5bf0-4178-9e5a-3e9cde6c24f6.hwpx",
       "status": "text_extracted",
-      "last_attempt_at": "2026-11-19T12:58:48+09:00",
-      "last_success_at": "2026-11-19T12:58:48+09:00",
+      "last_attempt_at": "2026-11-24T15:44:19+09:00",
+      "last_success_at": "2026-11-24T15:44:19+09:00",
       "last_error": null,
       "review_required": false,
       "history": [
+        {
+          "at": "2026-11-24T15:44:19+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "77c608fbbd7450e7c861af5634f760c4d5e7f2e3f96048ec50f95b841f3fb3c7",
+          "http_status": null,
+          "failure_kind": null
+        },
         {
           "at": "2026-11-19T12:58:48+09:00",
           "status": "text_extracted",
@@ -11888,11 +11948,537 @@
       "http_status": null,
       "failure_kind": null,
       "retryable": false
+    },
+    "4267e5b1d6980e1cd534e131": {
+      "id": "4267e5b1d6980e1cd534e131",
+      "program_id": "MSS-1072666",
+      "notice_source": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1072666",
+      "url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1072666&cbIdx=310&streFileNm=2720e07d-4dc9-44c4-9f31-fd6b4777fd5c.hwpx",
+      "name": "2720e07d-4dc9-44c4-9f31-fd6b4777fd5c.hwpx",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-24T15:44:19+09:00",
+      "last_success_at": "2026-11-24T15:44:19+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-11-24T15:44:19+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "d77b24fe290604683f02ad69af3c7f783e032b318be51f87ba55b54fb3f8afe3",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "d77b24fe290604683f02ad69af3c7f783e032b318be51f87ba55b54fb3f8afe3",
+      "sha256": "d77b24fe290604683f02ad69af3c7f783e032b318be51f87ba55b54fb3f8afe3",
+      "extraction": {
+        "format": "hwpx",
+        "parser": "hwp-body/0.4.0",
+        "sha256": "d77b24fe290604683f02ad69af3c7f783e032b318be51f87ba55b54fb3f8afe3",
+        "bytes": 223686,
+        "status": "text_extracted",
+        "text_characters": 28024,
+        "units": 1355,
+        "text_sha256": "057cdeaedc68f9b03bd1140877fcba51f175b7d03bbb330606b205728105a149",
+        "pages": null,
+        "sections": 1,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "c1c07e90a55bedcff256",
+            "category": "deadline",
+            "excerpt": "신청 · 접수기간",
+            "locator": "Contents/section0.xml / paragraph 15",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "08a6e6c47cbd6ee70975",
+            "category": "cofunding",
+            "excerpt": "* 자부담금액(사업비의 50%) 소요예정으로 제조DX멘토단 세부사항은 ’27년 1월 공고 예정",
+            "locator": "Contents/section0.xml / paragraph 58",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "2aad4c9f92dd359cf7c5",
+            "category": "amount",
+            "excerpt": "력 채용이 필요한 기업은 중소벤처기업진흥공단의 채용수요 진단을 통해 스마트제조 전문인력 육성 사업(인턴십 비용 연간 최대 1800만원 지원)을 연계 받을 수 있습니다.",
+            "locator": "Contents/section0.xml / paragraph 61",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "07278390817916306226",
+            "category": "eligibility",
+            "excerpt": "◦ (지원 대상) 국내 중소·중견기업 중 스마트공장 구축이 필요한 제조기업",
+            "locator": "Contents/section0.xml / paragraph 83",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "d453e62eec3582a8ccb0",
+            "category": "amount",
+            "excerpt": "지원한도",
+            "locator": "Contents/section0.xml / paragraph 92",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "d7e5b2fe8de3be2722a5",
+            "category": "amount",
+            "excerpt": "󰊱 (정부일반형) 구축목표수준별 총 지원한도(중간1: 3억원, 중간2: 4억원) 내에서 2회(1회차고도화→2회차동일수준)까지 지원하되, 회당 최대 2억원 한도, 지원비율 50-70% 이내에서 지원 가능",
+            "locator": "Contents/section0.xml / paragraph 122",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "59df73394f9cf09d7475",
+            "category": "amount",
+            "excerpt": "◦ 과거 정부 지원사업으로 구축한 스마트공장의 구축 수준이 계획 대비 초과 달성한 경우는 기존과 동일한 구축 수준으로 올해 신규 신청하더라도 “고도화” 신청 가능",
+            "locator": "Contents/section0.xml / paragraph 151",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "97ca783c3b88a67a2f96",
+            "category": "amount",
+            "excerpt": " 지원기간 내 AI공장 구축이 가능한 기업은 도입 예정인 ’AI기능‘과 ’적용 공정‘을 선택하여([참고 3] 참조) 최대 2억원 내에서 구축 지원",
+            "locator": "Contents/section0.xml / paragraph 173",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "1daa7176338703b8ee38",
+            "category": "eligibility",
+            "excerpt": "※ 컨소시엄별 지원대상 및 지원한도, 현금·현물 비율이 상이하므로 반드시 [별첨 1] 컨소시엄별 지원상세 확인 후 신청",
+            "locator": "Contents/section0.xml / paragraph 256",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "147d6de6df4d93bfa3df",
+            "category": "cofunding",
+            "excerpt": "※ 컨소시엄별 지원대상 및 지원한도, 현금·현물 비율이 상이하므로 반드시 [별첨 1] 컨소시엄별 지원상세 확인 후 신청",
+            "locator": "Contents/section0.xml / paragraph 256",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "9bab331e1e6ac2ab5660",
+            "category": "eligibility",
+            "excerpt": "지원대상 및 주요 특징",
+            "locator": "Contents/section0.xml / paragraph 300",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "f8ff77f476b664736966",
+            "category": "eligibility",
+            "excerpt": "- 경북 소재 식품제조기업 대상 특화 지원",
+            "locator": "Contents/section0.xml / paragraph 322",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "13b62a43544f7f9ed167",
+            "category": "deadline",
+            "excerpt": "2. 신청기간·방법 및 자격 등",
+            "locator": "Contents/section0.xml / paragraph 417",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "28150f60e69a88a76906",
+            "category": "deadline",
+            "excerpt": "□ 신청 기간 : ’26. 12. 7.(월) – ’27. 1. 6.(수) 17:00까지",
+            "locator": "Contents/section0.xml / paragraph 420",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "afff5c178fefe85453cc",
+            "category": "deadline",
+            "excerpt": "☞ 접수 마감일에는 접속 폭주 등에 따라 원활한 접속이 되지 않을 수 있으므로 가급적 마감 2∼3일 전에 온라인 신청 완료 요망 (접수 마감일 17시 이후 신청·제출·수정 불가)",
+            "locator": "Contents/section0.xml / paragraph 422",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "6c57f3bf0aeb2c6de03b",
+            "category": "documents",
+            "excerpt": "□ 제출서류",
+            "locator": "Contents/section0.xml / paragraph 431",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "31257e1510e6b158ad4b",
+            "category": "documents",
+            "excerpt": "제출서류 목록",
+            "locator": "Contents/section0.xml / paragraph 434",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "e7a26b4d679b9ebf48e2",
+            "category": "deadline",
+            "excerpt": "- 국세·지방세 완납 증명서 각 1부(접수 마감일 기준 유효한 서류)",
+            "locator": "Contents/section0.xml / paragraph 441",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "bc56529273227f339d46",
+            "category": "documents",
+            "excerpt": "※ 업종특화 분야의 경우 업종확인을 위한 필수 서류 제출 필요",
+            "locator": "Contents/section0.xml / paragraph 452",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "db6ef143120e9be3edd8",
+            "category": "documents",
+            "excerpt": "- 가점 증빙 서류(해당시, 본 공고 접수 마감일을 기준으로 유효한 서류)",
+            "locator": "Contents/section0.xml / paragraph 459",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "3115cf1aeec11acb01ee",
+            "category": "eligibility",
+            "excerpt": "□ 신청 자격",
+            "locator": "Contents/section0.xml / paragraph 462",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "2fd25c431f426a4d1ea7",
+            "category": "documents",
+            "excerpt": "* 종된 사업장의 경우 종된 사업장별로 신청가능하며 증빙서류(사업자단위과세 적용 종된 사업장 명세) 제출 필요",
+            "locator": "Contents/section0.xml / paragraph 468",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "68f29525427101aef697",
+            "category": "exclusion",
+            "excerpt": "□ 지원 제외 대상",
+            "locator": "Contents/section0.xml / paragraph 517",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "abaad6260625c1b98bbf",
+            "category": "exclusion",
+            "excerpt": "▷ 휴·폐업중인 기업 ▷ 국세 및 지방세 체납 중인 기업",
+            "locator": "Contents/section0.xml / paragraph 522",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "구역·문단 위치는 실제 인쇄 쪽번호가 아닙니다.",
+          "표 셀 관계·그림·각주 의미는 미검토"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
+    },
+    "c99ae9c5506b26a664db8d05": {
+      "id": "c99ae9c5506b26a664db8d05",
+      "program_id": "MSS-1072666",
+      "notice_source": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1072666",
+      "url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1072666&cbIdx=310&streFileNm=4cea8a26-4c34-4aa6-a57f-e9e628eec1a3.pdf",
+      "name": "4cea8a26-4c34-4aa6-a57f-e9e628eec1a3.pdf",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-24T15:44:19+09:00",
+      "last_success_at": "2026-11-24T15:44:19+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-11-24T15:44:19+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "f654791c2cde4f5d00b0d357058f347d6afe2c8d3b4514b469464b561711a0c8",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "f654791c2cde4f5d00b0d357058f347d6afe2c8d3b4514b469464b561711a0c8",
+      "sha256": "f654791c2cde4f5d00b0d357058f347d6afe2c8d3b4514b469464b561711a0c8",
+      "extraction": {
+        "format": "pdf",
+        "parser": "pypdf/6.15.0",
+        "sha256": "f654791c2cde4f5d00b0d357058f347d6afe2c8d3b4514b469464b561711a0c8",
+        "bytes": 1119461,
+        "status": "text_extracted",
+        "text_characters": 27491,
+        "units": 104,
+        "text_sha256": "aa6232409d74e76dfb20303c078532bb5fc004a4a2006aced76304bae637f840",
+        "pages": 28,
+        "sections": null,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "b12deacb7496c59441b2",
+            "category": "deadline",
+            "excerpt": "소벤처기업부장관◦ 대상 사업 : 정부일반형, 제조AI특화, 자율형공장, 대중소상생형 AX선도모델◦ 주요 일정신청 · 접수기간선정평가협약 및 사업수행’26년 12월 7일(월) ~ ’27년 1월 6일(수) 17시’27년 1~3월’27년 4월 ~◦ 주요 변경사항",
+            "locator": "PDF p.1 / text-line 3",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "3129f904f0bcad89dd61",
+            "category": "cofunding",
+            "excerpt": "지도 필수 수행 * 제조AI특화, 자율형사업은 구축지도 내용 중 AAS 관련 기획, 자문, 컨설팅이 필수로 포함 * 자부담금액(사업비의 50%) 소요예정으로 제조DX멘토단 세부사항은 ’27년 1월 공고 예정< 채용수요진단 안내 > ◦ 스마트공장 운영 인력 채용이 필요한 기업은 중소벤처기업진흥공단의 채용수요 진단을 통해 스마트제조 전문인력 육성 사업(인턴십 비용 연간 최대 1800만원 지원)을 연계 받을 수 있",
+            "locator": "PDF p.1 / text-line 5",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "9d3d970ee1c4b68b0ff2",
+            "category": "amount",
+            "excerpt": "력 채용이 필요한 기업은 중소벤처기업진흥공단의 채용수요 진단을 통해 스마트제조 전문인력 육성 사업(인턴십 비용 연간 최대 1800만원 지원)을 연계 받을 수 있습니다. ▶ 바로가기: 일자리매칭플랫폼(job.kosmes.or.kr) → 회원가입 → 지원서비스 → 채용수요 진단",
+            "locator": "PDF p.1 / text-line 5",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "62127d807cd212557855",
+            "category": "eligibility",
+            "excerpt": "이적용된자율형공장구축 (상생형AX선도모델)대기업이보유한제조혁신역량을기반으로제조현장의전사적AX전환및선도모델구축지원◦(지원대상)국내중소·중견기업중스마트공장구축이필요한제조기업□지원과제및조건세부 사업명지원과제수지원기간지원한도지원비율 정부일반형고도화428개사9개월2억원50~70%(지역별 차등)동일수준 제조AI특화AI공장구축500개사9개월2억원데이터수집검증6개월0.5억원 자율형공장30개사21개월6억원(연 3억원)",
+            "locator": "PDF p.2 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "979dbacd70100de29cf9",
+            "category": "amount",
+            "excerpt": "환및선도모델구축지원◦(지원대상)국내중소·중견기업중스마트공장구축이필요한제조기업□지원과제및조건세부 사업명지원과제수지원기간지원한도지원비율 정부일반형고도화428개사9개월2억원50~70%(지역별 차등)동일수준 제조AI특화AI공장구축500개사9개월2억원데이터수집검증6개월0.5억원 자율형공장30개사21개월6억원(연 3억원) 50% 상생형 AX선도모델63개사12개월12억원40% * 지원과제수 및 지원조건 등은 202",
+            "locator": "PDF p.2 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "3501fd9493adc2ff4000",
+            "category": "amount",
+            "excerpt": " (정부일반형)구축목표수준별총지원한도(중간1:3억원,중간2:4억원)내에서2회(1회차고도화→2회차동일수준)까지지원하되,회당최대2억원한도,지원비율50-70%이내에서지원가능 * (적용예시) ‘26년(중간1, 고도화) 1.5억, ‘27년 이후(중간1, 동일수준) 최대 1.5억지원유형구축목표수준※ 지원 비율비고고도화/동일수준중간1 이상목표설정 필수(고도화는 수준 향상 필수) 50-70%이내 지역별 지원비율 차등 적용",
+            "locator": "PDF p.3 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "e710bac5979db6d51623",
+            "category": "amount",
+            "excerpt": "-지원기간내AI공장구축이가능한기업은도입예정인’AI기능‘과’적용공정‘을선택하여([참고3]참조)최대2억원내에서구축지원 * 참고3 기준 선택한 적용분야 · AI기능(셀)은 반복 지원 불가(각 셀에 대한 지원 한도 2억원)-데이터수집·관리시스템구축이선행되어야하는기업은’데이터수집‧",
+            "locator": "PDF p.4 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "90d1908c018949a9865a",
+            "category": "amount",
+            "excerpt": "검증‘을위해최대5천만원한도로지원< 기업 유형에 따른 단계별 지원방안 >데이터 존재 기업: AI공장 구축*최대 9개월, 최대 2억원 지원사전 검증 필요 기업:(①단계) 데이터 수집‧검증*최대 6개월, 최대 0.5억원⇨(②단계) AI공장 구축*최대 9개월, 2억원 중 1단계 지원 차액 이내< “데이터 수집‧검증” 지원 관련 유의사항 >☞ “(①단계)데이터 수집·검증”에 선정되어 과제완료 후, 차년도 이후에 “(②",
+            "locator": "PDF p.4 / text-line 3",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "f2b02a02f67119c068cd",
+            "category": "eligibility",
+            "excerpt": "본개념과 구조) 표준 기준 ※ \"고도\"단계 정의 : 단위 공정이 아닌 “공장 전반”의 완전자율화 수준 ※ 컨소시엄별 지원대상 및 지원한도, 현금·현물 비율이 상이하므로 반드시 [별첨 1] 컨소시엄별 지원상세 확인 후 신청□모집방법 · 2027년은 분야·주관기관을 선택하고 사업신청 체계로 변경 - 신청방법 : 기업의 특성에 맞는 분야·주관기관 선택 → 정부일반형, 제조AI특화, 자율형 스마트공장 등 희망 사업을",
+            "locator": "PDF p.5 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "38524ad05eee3d18d501",
+            "category": "cofunding",
+            "excerpt": " \"고도\"단계 정의 : 단위 공정이 아닌 “공장 전반”의 완전자율화 수준 ※ 컨소시엄별 지원대상 및 지원한도, 현금·현물 비율이 상이하므로 반드시 [별첨 1] 컨소시엄별 지원상세 확인 후 신청□모집방법 · 2027년은 분야·주관기관을 선택하고 사업신청 체계로 변경 - 신청방법 : 기업의 특성에 맞는 분야·주관기관 선택 → 정부일반형, 제조AI특화, 자율형 스마트공장 등 희망 사업을 선택하여 신청 - 주관기관 ",
+            "locator": "PDF p.5 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "49f9deddc5d87e19e787",
+            "category": "eligibility",
+            "excerpt": "분야세부분야주관기관지원대상 및 주요 특징",
+            "locator": "PDF p.6 / text-line 4",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "71d1b8a19f5ff2112776",
+            "category": "eligibility",
+            "excerpt": "한국수산회- 스마트공장 + 수출활성화 패키지 지원 * 대상 : 수산식품 제조기업경북 식품기업구미전자정보기술원- 경북 소재 식품제조기업 대상 특화 지원K-뷰티대한화장품협회- 스마트공장 + CGMP 인증을 컨설팅 지원 * 대상 : 화장품 제조기업의료제품한 국 제 약 바 이 오 협 회- 스마트공장+의료제품 전문가 육성 패키지 지원 * 대상 : 의약품·의료기기 제조기업방산방위산업국방기술품질원- 스마트공장+인증·보안+",
+            "locator": "PDF p.6 / text-line 6",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "873348364e0bf0732bd7",
+            "category": "documents",
+            "excerpt": "ry.kr) 접속 → 회원가입 → 로그인 → 과제신청 → ① 분야/주관기관 선택 → ② 사업선택 → 사업계획서 입력□제출서류구분 제출서류 목록",
+            "locator": "PDF p.7 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "897f34187c2e3e19f721",
+            "category": "deadline",
+            "excerpt": "2. 신청기간·방법 및 자격 등□신청기간:’26.12.7.(월)–’27.1.6.(수)17:00까지☞ 접수 마감일에는 접속 폭주 등에 따라 원활한 접속이 되지 않을 수 있으므로 가급적 마감 2∼3일 전에 온라인 신청 완료 요망 (접수 마감일 17시 이후 신청·제출·수정 불가)☞ 「스마트공장 사업관리시스템 – 마이페이지 - 나의 담당과제 현황」 과제신청상태 “제출완료” 확인☞ 공고 미숙지, 공급기업 미등록 등으로",
+            "locator": "PDF p.7 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "53148b30be9f3e7e0b0b",
+            "category": "deadline",
+            "excerpt": " 작성 필수- 사업자 등록 증명원 각 1부(현재 사업자등록사항이 반영된 최신본)- 국세·지방세 완납 증명서 각 1부(접수 마감일 기준 유효한 서류)- 중소기업 빅데이터 플랫폼 정보활용동의서- 법인인감증명서 및 사용인감계 각 1부(발행일로부터 3개월 이내) * 개인사업자 생략 가능- 4대 사회보험 사업장 가입자 명부",
+            "locator": "PDF p.7 / text-line 4",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "90e2e3dbfd8753e31b5e",
+            "category": "documents",
+            "excerpt": "w.fomek.or.kr - 최근 3개년도 재무제표 각 1부(’23~’25)※ 업종특화 분야의 경우 업종확인을 위한 필수 서류 제출 필요 ([별첨1-2]의 업종특화 주관기관별 상세지원 내용 확인 필수)해당시- 종된사업장에 구축시 “사업자단위과세 적용 종된사업장 명세” 제출- 최근년도(’25) 수출실적 확인 및 증명서(해당시, 직접수출만 인정) * 한국무역협회(www.kita.net)에서 발급- 가점 증빙 서류",
+            "locator": "PDF p.7 / text-line 5",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "b1a46db830b70c9b8a5d",
+            "category": "deadline",
+            "excerpt": "서(해당시, 직접수출만 인정) * 한국무역협회(www.kita.net)에서 발급- 가점 증빙 서류(해당시, 본 공고 접수 마감일을 기준으로 유효한 서류)- 참여 공급기업의 \"스마트제조 공급기업 역량진단 확인서\" * 관련 양식은 사업관리시스템(smart-factory.kr)의 ‘알림/참여마당-자료실’ 참고",
+            "locator": "PDF p.7 / text-line 5",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "3eb0e2e8d2e06097f4df",
+            "category": "eligibility",
+            "excerpt": "□신청자격◦(도입기업)국내제조기업중「중소기업기본법」에따른중소기업및「중견기업성장촉진및경쟁력강화에관한특별법」에따른중견기업-사업자번호로구분되는도입기업사업장별로신청가능 * 종된 사업장의 경우 종된 사업장별로 신청가능하며 증빙서류(사업자단위과세 적용 종된 사업장 명세) 제출 필요-주관기관또는주관-상생기관컨소시엄별로지원자격(업종,협력사등)을추가로정한경우(별첨1확인),해당조건충족기업만참여가능-“자율형공장”은성장성또는성장잠",
+            "locator": "PDF p.8 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "8e4af9b61c48c4aeaae8",
+            "category": "documents",
+            "excerpt": "특별법」에따른중견기업-사업자번호로구분되는도입기업사업장별로신청가능 * 종된 사업장의 경우 종된 사업장별로 신청가능하며 증빙서류(사업자단위과세 적용 종된 사업장 명세) 제출 필요-주관기관또는주관-상생기관컨소시엄별로지원자격(업종,협력사등)을추가로정한경우(별첨1확인),해당조건충족기업만참여가능-“자율형공장”은성장성또는성장잠재력보유기업만참여가능· (참여자격) 성장성 또는 성장잠재력 중 1개 이상 보유기업 - (성장성) ",
+            "locator": "PDF p.8 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "8bf36324b7bb3f581d3d",
+            "category": "deadline",
+            "excerpt": "* 중소기업기술정보진흥원은 기업에게 검토 결과를 제공하지 않으며 요건검토를 통해 지원자격을 확인· (신청기한) 공고 마감일 까지· (주의사항) 링크에 접속하여 확인에 필요한 서류 자동제출 동의 필수(별첨2) * 미동의시 성장성·잠재력 확인 불가로 자동 탈락 * 서류제출시스템 오류 및 업로드 장애 문의 : KODATA 최신화센터 ([연락처 생략])· 상세내용 : [별첨 2] 참고",
+            "locator": "PDF p.8 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": true,
+            "context_warning": true
+          },
+          {
+            "id": "9ba2cfcdd2a3be143c9d",
+            "category": "exclusion",
+            "excerpt": "협업체-(AX선도모델)상생기관이공급기업으로참여하면서공급컨소시엄을구성한경우,해당공급기업만상생기관이추진하는과제에참여가능□지원제외대상◦다음부적격사항에해당되는경우 ▷ 휴·폐업중인 기업 ▷ 국세 및 지방세 체납 중인 기업 ▷ 유흥·향락업, 숙박·음식점 ▷ 불건전 오락용품 제조업 ▷ 동일‧유사한 사업계획서로 정부에서 지원을 받고 있거나 받은 경우◦다음스마트제조혁신지원사업에서‘참여제한’제재중인기업사업명기업별 참여제한 여부",
+            "locator": "PDF p.9 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "c2c402643c51d6e9ff55",
+            "category": "cofunding",
+            "excerpt": " * “상생형 AX선도모델” 선정기업은 구축지원 생략 가능 * 사업 최종 선정 이후 1개월 이내 구축지도 신청 필수(자부담 별도 안내)◦동사업을통해구축한솔루션로그기록을스마트공장사업관리시스템에연동하여구축완료후5년간제출필요 * 스마트공장 사업관리시스템 – 알림/참여마당 – 공지사항 – 994번 글 확인",
+            "locator": "PDF p.13 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "b00da195fee8e98f452b",
+            "category": "cofunding",
+            "excerpt": "00백만원 이하637400백만원 이하910400백만원 초과1,182 * 정산대상 사업비(총사업비) : 정부출연금 + 민간부담금 ** “상생형 AX선도모델”은 회계정산 수수료 편성 불필요 ②교육비:스마트공장기술교육(사업관리교육및기술교육)수강비용(1백만원)필수편성 ③기술임치비:스마트공장구축결과물의기술임치비(45만원)필수편성◦(현물인정)사업별로현물인정한도및항목이별도로정해져있으며,정산시현물지급증빙자료(인건비:재직증명",
+            "locator": "PDF p.14 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "a639e9c25422b69cfb34",
+            "category": "documents",
+            "excerpt": ":스마트공장구축결과물의기술임치비(45만원)필수편성◦(현물인정)사업별로현물인정한도및항목이별도로정해져있으며,정산시현물지급증빙자료(인건비:재직증명서,입금확인증등)제출필수및불인정시현금으로환수□사업별세부사항 정부일반형, 제조AI특화◦(현물편성)기업부담금중20%이내(당해년도사업비기준,최대4천만원)에서현물편성이가능하며클라우드서비스이용료,도입기업인건비만편성가능 * 클라우드 서비스 이용료는 기업부담금 내에서 현금으로도 편",
+            "locator": "PDF p.14 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "표 열 순서·이미지·주석의 의미는 검토하지 않았습니다.",
+          "OCR 미수행"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
     }
   },
   "run": {
-    "at": "2026-11-23T12:29:26+09:00",
-    "status": "ok_scoped",
+    "at": "2026-11-24T15:44:19+09:00",
+    "status": "partial",
     "notices_attempted": 3,
     "notices_success": 3,
     "notices_failed": 0,
@@ -11903,6 +12489,6 @@
     "failed": 0,
     "changed": 0,
     "sources_skipped": [],
-    "eligible_candidates": 23
+    "eligible_candidates": 24
   }
 }

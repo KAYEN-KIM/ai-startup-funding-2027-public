@@ -1,8 +1,8 @@
 {
   "schema": "public-funding-attachment-recovery/v1",
   "version": "0.23.0",
-  "generated_at": "2026-11-24T15:44:42+09:00",
-  "source_run_at": "2026-11-24T15:44:42+09:00",
+  "generated_at": "2026-11-25T14:14:33+09:00",
+  "source_run_at": "2026-11-25T14:14:33+09:00",
   "limits": {
     "notice_pages_per_run": 3,
     "file_attempts_per_run": 4,
@@ -10,19 +10,19 @@
     "success_recheck_days": 14
   },
   "counts": {
-    "queued": 110,
+    "queued": 115,
     "retry_due": 0,
     "retry_wait": 0,
     "manual": 21,
-    "revisit": 95,
+    "revisit": 99,
     "current": 51,
     "inactive": 0
   },
-  "active_records": 277,
+  "active_records": 286,
   "selected": [
     {
-      "id": "641d73ee501142b34112a821",
-      "program_id": "BIZINFO-PBLN_000000000127466",
+      "id": "772a72319f9960968f1ff34b",
+      "program_id": "BIZINFO-PBLN_000000000127506",
       "status": "queued",
       "decision": "queued",
       "reason": "newly_queued",

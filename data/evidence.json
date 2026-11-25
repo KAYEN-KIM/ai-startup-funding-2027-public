@@ -3055,9 +3055,9 @@
     },
     "BIZINFO-PBLN_000000000120871": {
       "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120871",
-      "last_attempt_at": "2026-10-31T10:58:09+09:00",
-      "body_sha256": "16b62e1618ecb0e7034baa506c8a9fe1bdfecfd4c51526890a957d191aba98a2",
-      "characters": 2515,
+      "last_attempt_at": "2026-11-25T14:12:48+09:00",
+      "body_sha256": "bb294ed49ac69e03581930c3529e481d180c792d8735ecdeb1f34c07274b2cc2",
+      "characters": 2420,
       "page_title": "기업마당>정책정보>지원사업 공고 기업마당 기업마당 > 정책정보 > 지원사업 공고",
       "attachments": [
         {
@@ -3077,16 +3077,18 @@
         }
       ],
       "level": "html_retrieved_not_eligibility_verified",
-      "status": "html_available",
-      "last_success_at": "2026-10-31T10:58:09+09:00",
+      "status": "content_changed_review_required",
+      "last_success_at": "2026-11-25T14:12:48+09:00",
       "last_error": null,
-      "review_required": false
+      "review_required": true,
+      "previous_sha256": "16b62e1618ecb0e7034baa506c8a9fe1bdfecfd4c51526890a957d191aba98a2",
+      "change_detected_at": "2026-11-25T14:12:48+09:00"
     },
     "BIZINFO-PBLN_000000000120509": {
       "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120509",
-      "last_attempt_at": "2026-11-01T10:48:36+09:00",
-      "body_sha256": "a9e69ac01ae46daf355f4e5761dfd62d23a17f367f50a94bf473fbd362338179",
-      "characters": 1776,
+      "last_attempt_at": "2026-11-25T14:12:48+09:00",
+      "body_sha256": "d61a0b05c53c8d49a7f1d2d59bb9e642f6e84dac56c2b1e4d864d98ccb7ccf00",
+      "characters": 2124,
       "page_title": "기업마당>정책정보>지원사업 공고 기업마당 기업마당 > 정책정보 > 지원사업 공고",
       "attachments": [
         {
@@ -3111,16 +3113,18 @@
         }
       ],
       "level": "html_retrieved_not_eligibility_verified",
-      "status": "html_available",
-      "last_success_at": "2026-11-01T10:48:36+09:00",
+      "status": "content_changed_review_required",
+      "last_success_at": "2026-11-25T14:12:48+09:00",
       "last_error": null,
-      "review_required": false
+      "review_required": true,
+      "previous_sha256": "a9e69ac01ae46daf355f4e5761dfd62d23a17f367f50a94bf473fbd362338179",
+      "change_detected_at": "2026-11-25T14:12:48+09:00"
     },
     "BIZINFO-PBLN_000000000120418": {
       "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120418",
-      "last_attempt_at": "2026-11-01T10:48:36+09:00",
-      "body_sha256": "8c0cfbdf12115717d83f116edf2d14d596501dca91da46d2c5788cc8dc6ded54",
-      "characters": 2031,
+      "last_attempt_at": "2026-11-25T14:12:48+09:00",
+      "body_sha256": "7da338b43f92c2399c580981491d5b63261573b73f0b30cdc30bbdeadc988651",
+      "characters": 2147,
       "page_title": "기업마당>정책정보>지원사업 공고 기업마당 기업마당 > 정책정보 > 지원사업 공고",
       "attachments": [
         {
@@ -3135,16 +3139,18 @@
         }
       ],
       "level": "html_retrieved_not_eligibility_verified",
-      "status": "html_available",
-      "last_success_at": "2026-11-01T10:48:36+09:00",
+      "status": "content_changed_review_required",
+      "last_success_at": "2026-11-25T14:12:48+09:00",
       "last_error": null,
-      "review_required": false
+      "review_required": true,
+      "previous_sha256": "8c0cfbdf12115717d83f116edf2d14d596501dca91da46d2c5788cc8dc6ded54",
+      "change_detected_at": "2026-11-25T14:12:48+09:00"
     },
     "BIZINFO-PBLN_000000000120406": {
       "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120406",
-      "last_attempt_at": "2026-11-01T10:48:36+09:00",
-      "body_sha256": "eafbc72b2ca8dbf348df8394472249aece17367b89e5314aeddd3113bf9caeb6",
-      "characters": 2087,
+      "last_attempt_at": "2026-11-25T14:12:48+09:00",
+      "body_sha256": "b76b8521dc9fd0a11e1cf8fd4c8e6b0b2a8b95fe84e4f3cd59ba77df6ebecffb",
+      "characters": 2181,
       "page_title": "기업마당>정책정보>지원사업 공고 기업마당 기업마당 > 정책정보 > 지원사업 공고",
       "attachments": [
         {
@@ -3174,16 +3180,18 @@
         }
       ],
       "level": "html_retrieved_not_eligibility_verified",
-      "status": "html_available",
-      "last_success_at": "2026-11-01T10:48:36+09:00",
+      "status": "content_changed_review_required",
+      "last_success_at": "2026-11-25T14:12:48+09:00",
       "last_error": null,
-      "review_required": false
+      "review_required": true,
+      "previous_sha256": "eafbc72b2ca8dbf348df8394472249aece17367b89e5314aeddd3113bf9caeb6",
+      "change_detected_at": "2026-11-25T14:12:48+09:00"
     },
     "BIZINFO-PBLN_000000000120234": {
       "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120234",
-      "last_attempt_at": "2026-11-01T10:48:36+09:00",
-      "body_sha256": "dc3cf0bb86803f5114da7d97736aa3f3a31a0c9e7458776f754d9a200ea0d1c9",
-      "characters": 1700,
+      "last_attempt_at": "2026-11-25T14:12:48+09:00",
+      "body_sha256": "729ed0cbde8cb79dc7cbbd444d065b79346c94e6ae4daf1840521fbeb3b52274",
+      "characters": 1903,
       "page_title": "기업마당>정책정보>지원사업 공고 기업마당 기업마당 > 정책정보 > 지원사업 공고",
       "attachments": [
         {
@@ -3193,16 +3201,18 @@
         }
       ],
       "level": "html_retrieved_not_eligibility_verified",
-      "status": "html_available",
-      "last_success_at": "2026-11-01T10:48:36+09:00",
+      "status": "content_changed_review_required",
+      "last_success_at": "2026-11-25T14:12:48+09:00",
       "last_error": null,
-      "review_required": false
+      "review_required": true,
+      "previous_sha256": "dc3cf0bb86803f5114da7d97736aa3f3a31a0c9e7458776f754d9a200ea0d1c9",
+      "change_detected_at": "2026-11-25T14:12:48+09:00"
     },
     "BIZINFO-PBLN_000000000119999": {
       "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000119999",
-      "last_attempt_at": "2026-11-01T10:48:36+09:00",
-      "body_sha256": "20579b6e4c7375aa4f2ec8120d0a7b92379a10d2aa59d2e3fc4ebb4df82279d9",
-      "characters": 2273,
+      "last_attempt_at": "2026-11-25T14:12:48+09:00",
+      "body_sha256": "e62c4094afd0749d0add8a3411e54e3237361f28232b169367f50bb766524fa4",
+      "characters": 2249,
       "page_title": "기업마당>정책정보>지원사업 공고 기업마당 기업마당 > 정책정보 > 지원사업 공고",
       "attachments": [
         {
@@ -3217,10 +3227,12 @@
         }
       ],
       "level": "html_retrieved_not_eligibility_verified",
-      "status": "html_available",
-      "last_success_at": "2026-11-01T10:48:36+09:00",
+      "status": "content_changed_review_required",
+      "last_success_at": "2026-11-25T14:12:48+09:00",
       "last_error": null,
-      "review_required": false
+      "review_required": true,
+      "previous_sha256": "20579b6e4c7375aa4f2ec8120d0a7b92379a10d2aa59d2e3fc4ebb4df82279d9",
+      "change_detected_at": "2026-11-25T14:12:48+09:00"
     },
     "BIZINFO-PBLN_000000000119817": {
       "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000119817",
@@ -4708,12 +4720,12 @@
       "review_required": false
     }
   },
-  "generated_at": "2026-11-24T15:43:17+09:00",
+  "generated_at": "2026-11-25T14:12:48+09:00",
   "run": {
     "attempted": 6,
     "success": 6,
     "failed": 0,
-    "content_changed": 4,
+    "content_changed": 6,
     "eligible_records": 183,
     "scope": "최대 6개 원문 HTML 순환 열람; 첨부 본문·자격 자동 검증 아님"
   }

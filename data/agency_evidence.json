@@ -1,7 +1,7 @@
 {
   "schema": "public-funding-agency-evidence/v1",
   "version": "0.17.0",
-  "generated_at": "2026-11-25T14:14:05+09:00",
+  "generated_at": "2026-11-26T13:41:48+09:00",
   "model_calls": 0,
   "automatic_approval": false,
   "scope": "기관 직접 목록의 원문 최대 3건·첨부 최대 4건 순환 확인. 본문 추출은 조건 후보이며 신청자격·금액·중복지원·문서 완전성 검증이 아닙니다. 기존 공고와 검토 규칙은 수정하지 않습니다.",
@@ -126,9 +126,9 @@
       "source": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1071646",
       "title": "「2026년 스마트제조혁신 유공」 포상 후보자 모집 추가 공고",
       "listing_fingerprint": "66427605d60ba5142e2035b08198c603858def3a8d80b5436337c66b12d9dd0b",
-      "listing_seen_at": "2026-11-21T12:44:52+09:00",
-      "last_attempt_at": "2026-11-21T12:45:00+09:00",
-      "last_success_at": "2026-11-21T12:45:00+09:00",
+      "listing_seen_at": "2026-11-26T13:41:40+09:00",
+      "last_attempt_at": "2026-11-26T13:41:48+09:00",
+      "last_success_at": "2026-11-26T13:41:48+09:00",
       "status": "html_available",
       "last_error": null,
       "review_required": false,
@@ -149,6 +149,13 @@
         }
       ],
       "history": [
+        {
+          "at": "2026-11-26T13:41:48+09:00",
+          "status": "html_available",
+          "body_sha256": "9c6792dc87875cca4c169f2b3240b29755330c003f7ff9bfe030aa5dd21f2821",
+          "manifest_sha256": "e18299fdfba89c2dafa495d6bc78962acf08c4ee2961d80f5fbe3e7bb6455ec0",
+          "error": null
+        },
         {
           "at": "2026-11-21T12:45:00+09:00",
           "status": "html_available",
@@ -172,13 +179,6 @@
         },
         {
           "at": "2026-11-09T11:21:53+09:00",
-          "status": "html_available",
-          "body_sha256": "9c6792dc87875cca4c169f2b3240b29755330c003f7ff9bfe030aa5dd21f2821",
-          "manifest_sha256": "e18299fdfba89c2dafa495d6bc78962acf08c4ee2961d80f5fbe3e7bb6455ec0",
-          "error": null
-        },
-        {
-          "at": "2026-11-05T12:06:08+09:00",
           "status": "html_available",
           "body_sha256": "9c6792dc87875cca4c169f2b3240b29755330c003f7ff9bfe030aa5dd21f2821",
           "manifest_sha256": "e18299fdfba89c2dafa495d6bc78962acf08c4ee2961d80f5fbe3e7bb6455ec0",
@@ -316,9 +316,9 @@
       "source": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1072138",
       "title": "2027년 스마트 제조혁신 지원사업 통합공고",
       "listing_fingerprint": "f8c278616014df06dbe1e9c7e58409a32c7c7a3fbb4f58f32d62ba64cc24e174",
-      "listing_seen_at": "2026-11-21T12:44:52+09:00",
-      "last_attempt_at": "2026-11-21T12:45:00+09:00",
-      "last_success_at": "2026-11-21T12:45:00+09:00",
+      "listing_seen_at": "2026-11-26T13:41:40+09:00",
+      "last_attempt_at": "2026-11-26T13:41:48+09:00",
+      "last_success_at": "2026-11-26T13:41:48+09:00",
       "status": "html_available",
       "last_error": null,
       "review_required": false,
@@ -339,6 +339,13 @@
         }
       ],
       "history": [
+        {
+          "at": "2026-11-26T13:41:48+09:00",
+          "status": "html_available",
+          "body_sha256": "6ce268054f0abbee3d86ca3f30b1985bc474fa5466f4b8b68ed6ef1e10cc8d04",
+          "manifest_sha256": "ee088bb5fee43bc8b654c1b83dc7b33c094cd1e85b3a3033f915e95cea306780",
+          "error": null
+        },
         {
           "at": "2026-11-21T12:45:00+09:00",
           "status": "html_available",
@@ -362,13 +369,6 @@
         },
         {
           "at": "2026-11-06T12:05:47+09:00",
-          "status": "html_available",
-          "body_sha256": "6ce268054f0abbee3d86ca3f30b1985bc474fa5466f4b8b68ed6ef1e10cc8d04",
-          "manifest_sha256": "ee088bb5fee43bc8b654c1b83dc7b33c094cd1e85b3a3033f915e95cea306780",
-          "error": null
-        },
-        {
-          "at": "2026-11-02T13:07:44+09:00",
           "status": "html_available",
           "body_sha256": "6ce268054f0abbee3d86ca3f30b1985bc474fa5466f4b8b68ed6ef1e10cc8d04",
           "manifest_sha256": "ee088bb5fee43bc8b654c1b83dc7b33c094cd1e85b3a3033f915e95cea306780",
@@ -450,9 +450,9 @@
       "source": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16921&tab=2",
       "title": "2026년 아태 AI 특화지구(AHAP) 조성 사업 공고",
       "listing_fingerprint": "524902cf6ed3cb2590887f29eaa4f919a171309f209950cb00b81b3ea75a2a78",
-      "listing_seen_at": "2026-11-12T12:35:11+09:00",
-      "last_attempt_at": "2026-11-12T12:35:18+09:00",
-      "last_success_at": "2026-11-12T12:35:18+09:00",
+      "listing_seen_at": "2026-11-26T13:41:40+09:00",
+      "last_attempt_at": "2026-11-26T13:41:48+09:00",
+      "last_success_at": "2026-11-26T13:41:48+09:00",
       "status": "html_available",
       "last_error": null,
       "review_required": false,
@@ -491,6 +491,13 @@
         }
       ],
       "history": [
+        {
+          "at": "2026-11-26T13:41:48+09:00",
+          "status": "html_available",
+          "body_sha256": "27a99e1b609bd99b8c37739c104f733f54879c8162992e6f3e02e0d2d817ad24",
+          "manifest_sha256": "cec62da44562f3b6e4c6ee29171082219314503588e8c261f9d771ea8bc2106f",
+          "error": null
+        },
         {
           "at": "2026-11-12T12:35:18+09:00",
           "status": "html_available",
@@ -4242,11 +4249,18 @@
       "url": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16921&tab=2",
       "name": "4. [양식] 아태 AI 특화지구(AHAP) 조성 사업수행계획서(수행기관용).hwp",
       "status": "text_extracted",
-      "last_attempt_at": "2026-11-12T12:35:18+09:00",
-      "last_success_at": "2026-11-12T12:35:18+09:00",
+      "last_attempt_at": "2026-11-26T13:41:48+09:00",
+      "last_success_at": "2026-11-26T13:41:48+09:00",
       "last_error": null,
       "review_required": false,
       "history": [
+        {
+          "at": "2026-11-26T13:41:48+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "8defd8541ba38c3893620efa86e70cd557b53d4855fc6e2488e62d7bdd52adaf",
+          "http_status": null,
+          "failure_kind": null
+        },
         {
           "at": "2026-11-12T12:35:18+09:00",
           "status": "text_extracted",
@@ -4442,11 +4456,18 @@
       "url": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16921&tab=2",
       "name": "3. [공모안내서] 아태 AI 특화지구(AHAP) 조성.hwp",
       "status": "text_extracted",
-      "last_attempt_at": "2026-11-12T12:35:18+09:00",
-      "last_success_at": "2026-11-12T12:35:18+09:00",
+      "last_attempt_at": "2026-11-26T13:41:48+09:00",
+      "last_success_at": "2026-11-26T13:41:48+09:00",
       "last_error": null,
       "review_required": false,
       "history": [
+        {
+          "at": "2026-11-26T13:41:48+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "1e7b68dc7789a1fc4793e9b0f6bb83bc00299384ae44d4b4e1c76a7ea01edb78",
+          "http_status": null,
+          "failure_kind": null
+        },
         {
           "at": "2026-11-12T12:35:18+09:00",
           "status": "text_extracted",
@@ -4705,11 +4726,18 @@
       "url": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16921&tab=2",
       "name": "매뉴얼_사업관리(회원가입)_v3.1.pdf",
       "status": "partial_text",
-      "last_attempt_at": "2026-11-12T12:35:18+09:00",
-      "last_success_at": "2026-11-12T12:35:18+09:00",
+      "last_attempt_at": "2026-11-26T13:41:48+09:00",
+      "last_success_at": "2026-11-26T13:41:48+09:00",
       "last_error": null,
       "review_required": false,
       "history": [
+        {
+          "at": "2026-11-26T13:41:48+09:00",
+          "status": "partial_text",
+          "observed_sha256": "5223bdbd52fa0b45af000888a94380000fc679965cfc3a02c604a6abc8e31815",
+          "http_status": null,
+          "failure_kind": null
+        },
         {
           "at": "2026-11-12T12:35:18+09:00",
           "status": "partial_text",
@@ -4915,12 +4943,55 @@
       "notice_source": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16921&tab=2",
       "url": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&nttNo=16921&tab=2",
       "name": "매뉴얼_사업관리(접수_일반사용자)_v3.1.pdf",
-      "status": "queued",
-      "last_attempt_at": null,
-      "last_success_at": null,
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-26T13:41:48+09:00",
+      "last_success_at": "2026-11-26T13:41:48+09:00",
       "last_error": null,
       "review_required": false,
-      "history": []
+      "history": [
+        {
+          "at": "2026-11-26T13:41:48+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "1b814751f505559d95fa66787f725be19f3fa5061fd439ee40b4a965dfb48857",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "1b814751f505559d95fa66787f725be19f3fa5061fd439ee40b4a965dfb48857",
+      "sha256": "1b814751f505559d95fa66787f725be19f3fa5061fd439ee40b4a965dfb48857",
+      "extraction": {
+        "format": "pdf",
+        "parser": "pypdf/6.15.0",
+        "sha256": "1b814751f505559d95fa66787f725be19f3fa5061fd439ee40b4a965dfb48857",
+        "bytes": 2275872,
+        "status": "text_extracted",
+        "text_characters": 3665,
+        "units": 433,
+        "text_sha256": "59b39c90a796141aa60c8bcaa7414d89edccd87c534f16c3c2e396b5d61d819a",
+        "pages": 18,
+        "sections": null,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "669e124b932108afb4ce",
+            "category": "deadline",
+            "excerpt": "※ 접수기간마감후에는유효성검사항목",
+            "locator": "PDF p.16 / text-line 23",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "표 열 순서·이미지·주석의 의미는 검토하지 않았습니다.",
+          "OCR 미수행"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
     },
     "10cb2b28e8f23cfaedee4f20": {
       "id": "10cb2b28e8f23cfaedee4f20",
@@ -12512,14 +12583,14 @@
     }
   },
   "run": {
-    "at": "2026-11-25T14:14:05+09:00",
-    "status": "ok_scoped",
+    "at": "2026-11-26T13:41:48+09:00",
+    "status": "partial",
     "notices_attempted": 3,
     "notices_success": 3,
     "notices_failed": 0,
     "files_attempted": 4,
-    "text_extracted": 4,
-    "partial_or_no_text": 0,
+    "text_extracted": 3,
+    "partial_or_no_text": 1,
     "blocked": 0,
     "failed": 0,
     "changed": 0,

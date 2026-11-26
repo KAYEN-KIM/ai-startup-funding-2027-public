@@ -1,9 +1,9 @@
 {
   "schema": "public-funding-attachments/v1",
   "version": "0.4.0",
-  "generated_at": "2026-11-25T14:14:33+09:00",
+  "generated_at": "2026-11-26T13:42:07+09:00",
   "run": {
-    "at": "2026-11-25T14:14:33+09:00",
+    "at": "2026-11-26T13:42:07+09:00",
     "notice_success": 3,
     "notice_failed": 0,
     "attempted": 4,
@@ -13,7 +13,7 @@
     "failed": 0,
     "changed": 0,
     "manifest_changed": 0,
-    "queued_total": 286,
+    "queued_total": 294,
     "new_attempted": 4,
     "retry_attempted": 0,
     "revisit_attempted": 0,
@@ -22726,12 +22726,55 @@
       "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127506",
       "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000777923&fileSn=0",
       "name": "다운로드",
-      "status": "queued",
-      "last_attempt_at": null,
-      "last_success_at": null,
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-26T13:42:07+09:00",
+      "last_success_at": "2026-11-26T13:42:07+09:00",
       "last_error": null,
       "review_required": false,
-      "history": []
+      "history": [
+        {
+          "at": "2026-11-26T13:42:07+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "7f9827fdc823d6cc82b4aaf443c651c3d9c8d89c2ca8cce5c2de13e3eb452864",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "7f9827fdc823d6cc82b4aaf443c651c3d9c8d89c2ca8cce5c2de13e3eb452864",
+      "sha256": "7f9827fdc823d6cc82b4aaf443c651c3d9c8d89c2ca8cce5c2de13e3eb452864",
+      "extraction": {
+        "format": "hwpx",
+        "parser": "hwp-body/0.4.0",
+        "sha256": "7f9827fdc823d6cc82b4aaf443c651c3d9c8d89c2ca8cce5c2de13e3eb452864",
+        "bytes": 69930,
+        "status": "text_extracted",
+        "text_characters": 1984,
+        "units": 111,
+        "text_sha256": "acdb789227e065c60f24ff4297fa2133b9ee979fa158c8f7c204fdf0f1edab34",
+        "pages": null,
+        "sections": 1,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "8ca30aadc15d729c22d4",
+            "category": "eligibility",
+            "excerpt": "사업장 소재지",
+            "locator": "Contents/section0.xml / paragraph 16",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "구역·문단 위치는 실제 인쇄 쪽번호가 아닙니다.",
+          "표 셀 관계·그림·각주 의미는 미검토"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
     },
     "da41fd49d24ef89974d4f8b5": {
       "id": "da41fd49d24ef89974d4f8b5",
@@ -23145,6 +23188,553 @@
       "program_id": "BIZINFO-PBLN_000000000127514",
       "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127514",
       "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000777961&fileSn=3",
+      "name": "다운로드",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
+    },
+    "63e7a36c1c53db3e1826b3ef": {
+      "id": "63e7a36c1c53db3e1826b3ef",
+      "program_id": "BIZINFO-PBLN_000000000127523",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127523",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000777970&fileSn=1",
+      "name": "다운로드",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-26T13:42:07+09:00",
+      "last_success_at": "2026-11-26T13:42:07+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-11-26T13:42:07+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "706738645466f5f71ee6ad2b5ddae54095c7d73fe2d9f80635d7a839b9cee893",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "706738645466f5f71ee6ad2b5ddae54095c7d73fe2d9f80635d7a839b9cee893",
+      "sha256": "706738645466f5f71ee6ad2b5ddae54095c7d73fe2d9f80635d7a839b9cee893",
+      "extraction": {
+        "format": "pdf",
+        "parser": "pypdf/6.15.0",
+        "sha256": "706738645466f5f71ee6ad2b5ddae54095c7d73fe2d9f80635d7a839b9cee893",
+        "bytes": 416291,
+        "status": "text_extracted",
+        "text_characters": 33615,
+        "units": 92,
+        "text_sha256": "4fa50cecbf1b07d7dfbd078b6275df62fcda9b67650e616441d0c5c9d2aa3078",
+        "pages": 27,
+        "sections": null,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "de7dcbf26ad223628c8b",
+            "category": "eligibility",
+            "excerpt": "과학기술정보통신부 공고 제2026-1000호2026년 지역거점 AX 혁신 기술개발 사업 신규지원 대상과제 공고(표준모델 AX R&D)2026년도 지역거점 AX 혁신 기술개발 사업의 신규 지원대상 연구개발과제를 다음과 같이 공고하오니 수행하고자 하는 자는 신청하여 주시기 바랍니다.2026년 10월 8일지역거점AX혁신기술개발사업단장 직무대행□ 지원대상 사업 ○지역거점 AX 혁신 기술개발 사업□ 사업목적 ○AX 혁",
+            "locator": "PDF p.1 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "e54832d1240cd4feb207",
+            "category": "deadline",
+            "excerpt": "모대상 : 지정공모(6개)□ 공모기간 : 2026. 10. 8(목) ～ 2026. 11. 9(월), 32일간 ○ 전산접수기간 : 2026.10.26(월)～2026.11.9(월) 17:00시까지(IRIS 시스템 시간 기준) * 신청서 전산등록 마감일 17:00 전까지 반드시 전산등록을 완료하여야 함, 마감 시간 17:00 이후에는 전산등록(제출) 불가함 * 전산 등록기간 마감일에는 접속 폭주로 인한 접수지연 및",
+            "locator": "PDF p.1 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "ff9d89599179fc023c62",
+            "category": "eligibility",
+            "excerpt": "··················································· 9 7. 연구개발기관의 신청 자격 및 구성 요건······························································· 10 8. 지원대상 제외 등 유의사항····································································",
+            "locator": "PDF p.2 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "92b88c2f4c6a29691263",
+            "category": "overlap",
+            "excerpt": "················································· 11 9. 공통적용사항 및 동시 수행과제 수 제한······························································· 12 10. 정부지원연구개발비 지원기준····································································",
+            "locator": "PDF p.2 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "21f70855e0e8f2499e99",
+            "category": "amount",
+            "excerpt": "························································· 12 10. 정부지원연구개발비 지원기준················································································ 14 11. 기술료 및 연구성과의 소유·················································",
+            "locator": "PDF p.2 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "c3ed09729dd0a6be267c",
+            "category": "documents",
+            "excerpt": "··························································· 4 3. 제출서류··························································································································· 5 4. 연구개발계획서 작성‧신청 시 고려사항············",
+            "locator": "PDF p.2 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "13c3b02d33d851cb3731",
+            "category": "deadline",
+            "excerpt": "신청하여 주시기 바랍니다.2026년 10월 8일 과학기술정보통신부지역거점AX혁신기술개발사업단목 차 1. 신청방법 및 접수기간··································································································· 3 2. 과제개요 ···················································",
+            "locator": "PDF p.2 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "5b602e5b497e759739f3",
+            "category": "eligibility",
+            "excerpt": "1 신청방법 및 접수기간 □ 신청방법 o 범부처통합연구지원시스템(www.iris.go.kr)에 기본사항을 전산등록한 후, 신청서(연구개발계획서 및 제출서류)를 첨부하여 전산접수 완료해야 함 - IRIS 시스템을 통한 접수 전 ‘연구개발과제 접수 전 필수 이행 사항’ 매뉴얼을 확인하여 관련 정보를 사전 등록한 후, 아래 절차를 참조하여 접수 진행※ 범부처통합연구지원시스템(IRIS) 內 신청・접수 과제 확인 방법",
+            "locator": "PDF p.3 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "1efe6ebebeb320e3cdb1",
+            "category": "exclusion",
+            "excerpt": "의 내용과 일치하도록 정확하게 작성 후 전산시스템에 등록 제출해야 함 ※ 연구개발계획서의 기재사항 허위 작성 시 사전지원제외 또는 협약해약 등 불이익 조치함 o ‘연구개발과제 접수 전 필수 이행 사항’에 상당 시간이 소요될 수 있으므로 과제 접수 전 조치가 필요함 o 신청자의 실수로 전산접수 마감시간 이전 접속 후, 마감시간 경과로 제출 완료하지 못한 경우 미제출로 사전제외 함 o 신청기관 실수로 과제제안요구",
+            "locator": "PDF p.3 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "0289ed5581da804197db",
+            "category": "documents",
+            "excerpt": "청방법 o 범부처통합연구지원시스템(www.iris.go.kr)에 기본사항을 전산등록한 후, 신청서(연구개발계획서 및 제출서류)를 첨부하여 전산접수 완료해야 함 - IRIS 시스템을 통한 접수 전 ‘연구개발과제 접수 전 필수 이행 사항’ 매뉴얼을 확인하여 관련 정보를 사전 등록한 후, 아래 절차를 참조하여 접수 진행※ 범부처통합연구지원시스템(IRIS) 內 신청・접수 과제 확인 방법 ① 부문별 공고명 확인 ex.",
+            "locator": "PDF p.3 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "77e9b35ef9f648f748d8",
+            "category": "deadline",
+            "excerpt": "1 신청방법 및 접수기간 □ 신청방법 o 범부처통합연구지원시스템(www.iris.go.kr)에 기본사항을 전산등록한 후, 신청서(연구개발계획서 및 제출서류)를 첨부하여 전산접수 완료해야 함 - IRIS 시스템을 통한 접수 전 ‘연구개발과제 접수 전 필수 이행 사항’ 매뉴얼을 확인하여 관련 정보를 사전 등록한 후, 아래 절차를 참조하여 접수 진행※ 범부처통합연구지원시스템(IRIS) 內 신청・접수 과제 확인 방법",
+            "locator": "PDF p.3 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "a467b59d6aaa016e76de",
+            "category": "eligibility",
+            "excerpt": " 4차년도(2029년 1월 1일) ~ 5차년도(2030년 12월 31일) ※ 1단계 종료 후 단계평가를 통해 2단계 지원 대상을 선별하며, 평가 결과에 따라 연구기간·예산·지원 범위가 조정될 수 있음) ▶ 과제특성 : 무빙타겟 방식 적용 - 급변하는 기술·산업환경에 탄력적으로 대응할 수 있도록, 사업단은 연구개발기간 내에서 연구개발기관 간 협의를 통해 기술발전 수준 및 시장·산업환경 변화 등을 고려하여 연구개",
+            "locator": "PDF p.4 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "924cee3b4d024255f630",
+            "category": "eligibility",
+            "excerpt": "- 모 든 신 청 연 구 개 발 기 관 이 한 장 에 날 인 또 는 개별 낱장 제출 가능○○7[필수] 연구개발기관의 신청자격적정성 확인서온라인 전산 입력(PDF로 스캔)○○8[필수] 연구수행총량 및 연구자의 동시수행 과제수(전부처) 준수 확약서온라인 업로드(PDF로 스캔) ○○9[필수] 연구윤리·청렴 및 보안서약서연구개발계획서 뒷페이지 스캔본 붙임○○10[필수] 개인정보 및 과세정보제공활용동의서연구개발계획서 ",
+            "locator": "PDF p.5 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "1957705aeb042b04e2b1",
+            "category": "overlap",
+            "excerpt": "7[필수] 연구개발기관의 신청자격적정성 확인서온라인 전산 입력(PDF로 스캔)○○8[필수] 연구수행총량 및 연구자의 동시수행 과제수(전부처) 준수 확약서온라인 업로드(PDF로 스캔) ○○9[필수] 연구윤리·청렴 및 보안서약서연구개발계획서 뒷페이지 스캔본 붙임○○10[필수] 개인정보 및 과세정보제공활용동의서연구개발계획서 뒷페이지 스캔본 붙임○○11[필수] 연구개발계획 발표자료온라인 업로드(PDF)-",
+            "locator": "PDF p.5 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "1620c026085ce81aaebf",
+            "category": "documents",
+            "excerpt": "3 제출서류 □ 제출 서류번호제출 서류명제출방법(형식) 주관공동1[필수] 연구개발계획서온라인 업로드(hwp)- 기본정보에 대한 온라인 전산 입력이 완료되어야 함 -2[필수] 사업자등록증연구개발계획서 뒷페이지 스캔본 붙임 - 영리기업만 제출○○3[필수] 연구개발기관 책임자의 재직증명서연구개발계획서 뒷페이지 스캔본 붙임○○4[필수] NTIS 중복성 체크결과 사본연구개발계획서 뒷페이지 스캔본 붙임○○5[필수] 국세",
+            "locator": "PDF p.5 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "084e677cd8e8124a71bc",
+            "category": "exclusion",
+            "excerpt": "2025년도말 추정재무제표 제출 - (기타 증빙 문서) 기타 증빙이 필요한 서류 일체 제출 필요 * 사전 지원 대상 제외 기업이 아닌 경우 회계감사 보고서 및 재무제표만 제출 ※ 위탁연구·용역 계획, 연구시설·장비 구입 계획, 연구데이터관리 계획 등 포함",
+            "locator": "PDF p.6 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "5f99759f503147178198",
+            "category": "cofunding",
+            "excerpt": " 기업(기관)은 추후 협약 시 추가 서류를 요청할 수 있음(협약 시 보증보험증권, 4대보험사업장 가입자 명부, 현금(현물)출자 확약서, 청렴이행각서, 보안서약서 등 제출) o 기술료 징수 과제 중 기술료 납부 의무가 있는 기관별로 작성 후 제출 o 가점사항 증빙서류를 전산접수하지 않은 경우 가점을 부여하지 않음 o 회계감사보고서 및 재무제표 제출서류 설명 - 연구개발기관이 기업인 경우, 2023년, 2024년",
+            "locator": "PDF p.6 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "2ef7a79d7af217895759",
+            "category": "documents",
+            "excerpt": "o 필수 제출서류 중 일부라도 누락 시 평가 대상 제외 조치o 위 제출서류는 사업자 선정에 필요한 최소한의 서류로, 선정 확정된 기업(기관)은 추후 협약 시 추가 서류를 요청할 수 있음(협약 시 보증보험증권, 4대보험사업장 가입자 명부, 현금(현물)출자 확약서, 청렴이행각서, 보안서약서 등 제출) o 기술료 징수 과제 중 기술료 납부 의무가 있는 기관별로 작성 후 제출 o 가점사항 증빙서류를 전산접수하지 않은",
+            "locator": "PDF p.6 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "663738ca88422af0ce03",
+            "category": "deadline",
+            "excerpt": "제출서류 설명 - 연구개발기관이 기업인 경우, 2023년, 2024년, 2025년도 결산재무제표 원본 각 1부 - (접수마감일 기준) 창업 2년 미만인 기업의 경우, 2025년도 결산재무제표만 제출 * 2025년도 결산이 마무리되지 않은 경우, 2025년도말 추정재무제표 제출 - (기타 증빙 문서) 기타 증빙이 필요한 서류 일체 제출 필요 * 사전 지원 대상 제외 기업이 아닌 경우 회계감사 보고서 및 재무제표",
+            "locator": "PDF p.6 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "de4bd7fa7705103d9aca",
+            "category": "documents",
+            "excerpt": "번호제출 서류명제출방법(형식) 주관공동14[해당 시 필수] 가‧감점사항 확인서연구개발계획서 뒷페이지 스캔본 붙임 * 각 가점에 대한 관련 인증 확인서류 및 증빙서류 등은 전산접수 시 제출○○15[해당 시] 비공개 과제 신청서연구개발계획서 뒷페이지 스캔본 붙임○○16[해당 시] 대학 연구근접지원인력 활용 확약서연구개발계획서 뒷페이지 스캔본 붙임○○17[해당 시] 기술기여도 산정 근거연구개발계획서 뒷페이지 스캔본",
+            "locator": "PDF p.6 / text-line 3",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "eac36bbf1e991c26f6c6",
+            "category": "cofunding",
+            "excerpt": "설연구소 보유여부 확인 : 한국산업기술진흥협회(www.rnd.or.kr) ㅇ (지원조건) 지원금(국비+지방비) 대비 민간부담금 의무매칭*(유형별 상이) * 참고자료 “정부지원연구개발비 지원기준 및 기관부담연구개발비 기준” 참고 * 과제별 총 연구개발비 중 기관부담연구개발비(민간부담금 등) 매칭비율은 연구개발기관 유형에 따라 상이하며, 국가연구개발혁신법 시행령에서 정한 기준에 따라 중소기업·초기중견기업은25% ",
+            "locator": "PDF p.10 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "3707da3e5c64c794352b",
+            "category": "amount",
+            "excerpt": "조(연구개발기관) ※ 기업부설연구소 보유여부 확인 : 한국산업기술진흥협회(www.rnd.or.kr) ㅇ (지원조건) 지원금(국비+지방비) 대비 민간부담금 의무매칭*(유형별 상이) * 참고자료 “정부지원연구개발비 지원기준 및 기관부담연구개발비 기준” 참고 * 과제별 총 연구개발비 중 기관부담연구개발비(민간부담금 등) 매칭비율은 연구개발기관 유형에 따라 상이하며, 국가연구개발혁신법 시행령에서 정한 기준에 따라 중",
+            "locator": "PDF p.10 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "271e087374aba60eac16",
+            "category": "deadline",
+            "excerpt": " 자격 및 구성 요건 ㅇ (신청 자격) 기업, 대학, 연구기관, 연구조합, 사업자단체 등 관련 규정에 해당되는 기관(접수 마감일 기준) - 주관연구개발기관으로 신청하는 기업의 경우는 접수 마감일 현재 기업부설연구소를 보유하고 있는 법인사업자여야 함 * 역외 소재 기관이 주관연구개발기관으로 참여하는 경우, 협약체결 전까지 본사 또는 기업부설 연구소의 대구 이전 완료 필요 - 외국에서 외국 법령에 따라 설립된 외",
+            "locator": "PDF p.10 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "9f34e6c3856b38850481",
+            "category": "exclusion",
+            "excerpt": " 해당하는 경우(단, 비영리기관 및 공기업/공사는 비적용) - 기업의 부도 - 세무당국에 의하여 국세, 지방세 등의 체납처분을 받은 경우(단, 회생인가 받은 기업, 중소벤처기업진흥공단 등으로부터 재창업자금을 지원받은 기업은 예외) - 민사집행법에 기하여 채무불이행자명부에 등재되거나, 은행연합회 등 신용정보집중기관에 채무불이행자로 등록된 경우(단, 회생인가 받은 기업, 중소벤처기업진흥공단 등으로부터 재창업 자금",
+            "locator": "PDF p.11 / text-line 5",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "표 열 순서·이미지·주석의 의미는 검토하지 않았습니다.",
+          "OCR 미수행"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
+    },
+    "10005450b6f3507b533d2f05": {
+      "id": "10005450b6f3507b533d2f05",
+      "program_id": "BIZINFO-PBLN_000000000127523",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127523",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000777991&fileSn=1",
+      "name": "다운로드",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-26T13:42:07+09:00",
+      "last_success_at": "2026-11-26T13:42:07+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-11-26T13:42:07+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "269f4589ddef9e756dadddb4e6d523d67d0b8c1103596f1f740199a62ab23def",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "269f4589ddef9e756dadddb4e6d523d67d0b8c1103596f1f740199a62ab23def",
+      "sha256": "269f4589ddef9e756dadddb4e6d523d67d0b8c1103596f1f740199a62ab23def",
+      "extraction": {
+        "format": "hwpx",
+        "parser": "hwp-body/0.4.0",
+        "sha256": "269f4589ddef9e756dadddb4e6d523d67d0b8c1103596f1f740199a62ab23def",
+        "bytes": 100410,
+        "status": "text_extracted",
+        "text_characters": 807,
+        "units": 32,
+        "text_sha256": "dc447fcda44ef7e9e348d4da0f412cefe9f4ec70095bcb7c5c0320aca96fd8cd",
+        "pages": null,
+        "sections": 1,
+        "empty_pages": 0,
+        "candidate_facts": [],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "구역·문단 위치는 실제 인쇄 쪽번호가 아닙니다.",
+          "표 셀 관계·그림·각주 의미는 미검토"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
+    },
+    "c18c26c36c933428bdb770c5": {
+      "id": "c18c26c36c933428bdb770c5",
+      "program_id": "BIZINFO-PBLN_000000000127523",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127523",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000777991&fileSn=2",
+      "name": "다운로드",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
+    },
+    "bf3e9178754ba878fa4a9835": {
+      "id": "bf3e9178754ba878fa4a9835",
+      "program_id": "BIZINFO-PBLN_000000000127529",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127529",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000777989&fileSn=0",
+      "name": "다운로드",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
+    },
+    "cd24854fa69276f5bf651c14": {
+      "id": "cd24854fa69276f5bf651c14",
+      "program_id": "BIZINFO-PBLN_000000000127529",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127529",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000777990&fileSn=0",
+      "name": "다운로드",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
+    },
+    "0ec9be82a9191f21664f1fdd": {
+      "id": "0ec9be82a9191f21664f1fdd",
+      "program_id": "BIZINFO-PBLN_000000000127546",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127546",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000778104&fileSn=1",
+      "name": "다운로드",
+      "status": "text_extracted",
+      "last_attempt_at": "2026-11-26T13:42:07+09:00",
+      "last_success_at": "2026-11-26T13:42:07+09:00",
+      "last_error": null,
+      "review_required": false,
+      "history": [
+        {
+          "at": "2026-11-26T13:42:07+09:00",
+          "status": "text_extracted",
+          "observed_sha256": "cace3d09fe964081e07ef285abac87c9674cebd38b7e89d1cb297aacceb0e104",
+          "http_status": null,
+          "failure_kind": null
+        }
+      ],
+      "observed_sha256": "cace3d09fe964081e07ef285abac87c9674cebd38b7e89d1cb297aacceb0e104",
+      "sha256": "cace3d09fe964081e07ef285abac87c9674cebd38b7e89d1cb297aacceb0e104",
+      "extraction": {
+        "format": "pdf",
+        "parser": "pypdf/6.15.0",
+        "sha256": "cace3d09fe964081e07ef285abac87c9674cebd38b7e89d1cb297aacceb0e104",
+        "bytes": 405543,
+        "status": "text_extracted",
+        "text_characters": 5575,
+        "units": 21,
+        "text_sha256": "fffdf7fc3a26f8a7691fc02b8ecd83d51c55f48a6f6b9cd74d3484189cfbcd14",
+        "pages": 8,
+        "sections": null,
+        "empty_pages": 0,
+        "candidate_facts": [
+          {
+            "id": "384bff86d04c7362ae0f",
+            "category": "eligibility",
+            "excerpt": "화 □ 모집기간 ◦ 2026년 10월 28일(수) ~ 2026년 12월 11일(금) 18:00 까지 □ 모집대상 ◦ 창업도시 프로젝트 선정 기업 및 창업기업 Pool 등록 기업 중 공공기술 이전 및 도입을 희망하는 예비창업자 및 7년 이내 창업기업(신산업분야*[별첨참고] 최대 10년) * 딥테크 스튜디오 등 유사 사업에 선정되어 기술이전료를 지급받은 기술이전 건은 제외 ◦ 2026년 2월부터 12월까지 대전지",
+            "locator": "PDF p.1 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "feac7cad07341e4656f0",
+            "category": "amount",
+            "excerpt": "여 바랍니다. 2026년 10월 28일(재)대전창조경제혁신센터 대표이사❶모집 개요 □ 추진목적 ◦ 대전지역 대학 및 정부출연연구기관 등의 공공기술 이전 및 상용화를 지원하여, 공공기술을 활용한 스타트업의 창업·사업화 도모 및 투자 유치 활성화 □ 모집기간 ◦ 2026년 10월 28일(수) ~ 2026년 12월 11일(금) 18:00 까지 □ 모집대상 ◦ 창업도시 프로젝트 선정 기업 및 창업기업 Pool 등록 ",
+            "locator": "PDF p.1 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "0d01bb20ee0e21bb4143",
+            "category": "eligibility",
+            "excerpt": "행 가능연구소기업 설립 지원연구소 설립 예정 기업 대상 전문기관 연계(희망시)❷지원 내용□ 기술매칭 및 고도화 ◦ (지원대상) 선정기업 대상 ◦ (지원내용) 선정기업의 기존 보유·도입 기술 및 사업화 현황을 진단하고, (추가) 기술 확보 수요에 따라 타 출연연 보유 기술과의 융합 또는 동일 연구기관 내 후속·보완 기술 매칭 지원",
+            "locator": "PDF p.2 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "3758f42f19a45243cd41",
+            "category": "amount",
+            "excerpt": " 동일 기관 내 기술매칭 지원기술이전료 지원(추가)공공 기술 도입에 필요한 기술이전료(선급/정액기술료) 지원(기업별 최대 2,500만원) * 기술양도·전용실시·통상실시 및 노하우 이전 등을 포함하며, 기술이전료 비목으로만 집행 가능연구소기업 설립 지원연구소 설립 예정 기업 대상 전문기관 연계(희망시)❷지원 내용□ 기술매칭 및 고도화 ◦ (지원대상) 선정기업 대상 ◦ (지원내용) 선정기업의 기존 보유·도입 기술",
+            "locator": "PDF p.2 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "c4a370ecb7f9ec3aa567",
+            "category": "amount",
+            "excerpt": "◦ (협의기관) 지역 정부출연연구기관 등 주요 연구기관과의 매칭 추진 ◦ (추진절차) 선정기업 사전검토 및 수요기술 파악 → 공공기술 탐색(T-브릿지 협력) 및 기술 매칭 → 적용 가능성 검토 및 기술이전 협의 → 기술이전료 지원",
+            "locator": "PDF p.2 / text-line 3",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "ec1ed2c269e8e26d3aa3",
+            "category": "documents",
+            "excerpt": "원 ◦ (주요사항) 기술이전료 및 계약체결일 등이 명시된 기술이전 계약서, 세금계산서, 기술료 지급 청구서 등 관련 증빙서류 제출 필수 ◦ (지원내용) (추가) 기술 도입에 소요되는 기술이전료(선급/정액기술료) 지원을 통해 기업의 기술 확보 장벽 완화 및 초기 자금부담 경감",
+            "locator": "PDF p.3 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "d2a3a75e705f7765869a",
+            "category": "eligibility",
+            "excerpt": "◦ (추진절차) 선정기업 4개사 협약 체결 → 제출서류 검토 → 기술이전비 지급 □ 연구소기업 설립 연계 ◦ (지원대상) 선정기업 중 연구소기업 설립 예정 기업 ◦ (지원내용) 출연연 전문 인력을 활용하여 연구소기업 신규 설립 및 전환 등록을 위한 전문기관 연계 □ 후속 연계 지원 ◦ (목 적) 선정기업 대상으로 센터 내 지원 프로그램을 연계하여 사업화 촉진 및 지속 성장 지원 ◦ (지원대상) 선정기업 대상 ",
+            "locator": "PDF p.3 / text-line 3",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "8317a7b58bc9aaab2c93",
+            "category": "amount",
+            "excerpt": "필수조건>1 2026년 창업도시 프로젝트 최종 선정 기업 또는창업도시 창업기업 Pool 등록 기업2대전지역 대학 및 정부출연연구기관의 공공기술을 2026년 이전 받을 예정이거나,2026년 내 이전 계약을 체결한 기업<우대조건>1 2026년 연내 투자유치 기업2 2026년 설립(예정) 연구소 기업3 기술이전 2건 이상 완료(실적 보유) 기업",
+            "locator": "PDF p.3 / text-line 3",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "9b83c7d3c2ef08838127",
+            "category": "documents",
+            "excerpt": "◦ (추진절차) 선정기업 4개사 협약 체결 → 제출서류 검토 → 기술이전비 지급 □ 연구소기업 설립 연계 ◦ (지원대상) 선정기업 중 연구소기업 설립 예정 기업 ◦ (지원내용) 출연연 전문 인력을 활용하여 연구소기업 신규 설립 및 전환 등록을 위한 전문기관 연계 □ 후속 연계 지원 ◦ (목 적) 선정기업 대상으로 센터 내 지원 프로그램을 연계하여 사업화 촉진 및 지속 성장 지원 ◦ (지원대상) 선정기업 대상 ",
+            "locator": "PDF p.3 / text-line 3",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "59a8ee02b5b1f7436811",
+            "category": "documents",
+            "excerpt": "월 28일(수)~12월 11일(금)18:00까지 ◦ 신청방법 :담당자 이메일 접수([연락처 생략]) ◦ 제출서류 ① 참가신청서 및 가점여부확인서 1부(첨부양식) (필수) ② 사업계획서 1부(첨부양식) (필수) ③ 개인(기업)정보의 수집·이용·제공·조회 동의서 1부(첨부양식) (필수) ④ (예비창업자 대상) 사실증명(총사업자등록내역)* (필수) * 국세청 홈텍스 → 상단 [민원 증명] 탭 → [민원",
+            "locator": "PDF p.4 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": true,
+            "context_warning": true
+          },
+          {
+            "id": "a92a3c5fd8acdc097f8f",
+            "category": "exclusion",
+            "excerpt": "지원 등 * 추진 프로세스 및 일정은 운영 상황에 따라 변동될 수 있음 ** 평가 결과는 개별 연락 예정❺기타사항□ 신청 제외 대상• 「중소기업창업 지원법 시행령」 제4조에 따른 창업 제외 업종을 영위하는 기업 (※ 일반유흥주점업, 무도유흥주점업, 기타 사행시설 관리 및 운영업 등)• 국세 또는 지방세를 체납 중인 기업• 정부, 지방자치단체 또는 공공기관의 지원사업 참여 제한 등 제재를 받고 있는 기업• 신청",
+            "locator": "PDF p.6 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "678c9ddf2ddde15598f2",
+            "category": "overlap",
+            "excerpt": "영 취지에 부적합하다고 판단하는 기업• 선정 이후에도 신청 제외 대상에 해당하거나 신청서 및 제출서류의 허위 작성, 중복 지원 등의 사실이 확인 될 경우 선정 취소 및 지원금 환수 등의 조치를 받을 수 있음",
+            "locator": "PDF p.6 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "e6664cd41c032d3511aa",
+            "category": "amount",
+            "excerpt": " 신청 제외 대상에 해당하거나 신청서 및 제출서류의 허위 작성, 중복 지원 등의 사실이 확인 될 경우 선정 취소 및 지원금 환수 등의 조치를 받을 수 있음",
+            "locator": "PDF p.6 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          },
+          {
+            "id": "f99cc0bd85ad5467c1d4",
+            "category": "documents",
+            "excerpt": " 일정) 운영 단계일정주요내용1접수·모집~12/11(금) 까지· 담당자 이메일 접수2선정평가서류평가12/17(목)· 제출 서류 기반 서류 평가(8개사 내외 선정(2배수)) * 필 수 조 건 충 족 기 업 수 가 3배 수 미 만 일 경 우 서 류 평 가 생 략발표평가12/29(화)· 제출 서류(사업계획서) 기반 발표 평가 (4개사 내외 최종 선정) 3기술매칭1월~2월· 기업 기술 수요와 연구기관 기술 매칭4기술",
+            "locator": "PDF p.6 / text-line 2",
+            "status": "candidate_unverified",
+            "redacted": false,
+            "context_warning": true
+          }
+        ],
+        "coverage": "body_text_only_unreviewed",
+        "attachments_reviewed": false,
+        "limitations": [
+          "표 열 순서·이미지·주석의 의미는 검토하지 않았습니다.",
+          "OCR 미수행"
+        ]
+      },
+      "http_status": null,
+      "failure_kind": null,
+      "retryable": false
+    },
+    "96df7251415b7a5015bdd4f5": {
+      "id": "96df7251415b7a5015bdd4f5",
+      "program_id": "BIZINFO-PBLN_000000000127546",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127546",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000778105&fileSn=1",
+      "name": "다운로드",
+      "status": "queued",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "last_error": null,
+      "review_required": false,
+      "history": []
+    },
+    "7c4881c2dc84356bd25c5e35": {
+      "id": "7c4881c2dc84356bd25c5e35",
+      "program_id": "BIZINFO-PBLN_000000000127546",
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127546",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000778105&fileSn=2",
       "name": "다운로드",
       "status": "queued",
       "last_attempt_at": null,
@@ -24856,6 +25446,47 @@
         "51bfc756bd4f32f4b04efa7c",
         "d5980347933f5da13e65e13a",
         "af51858726c99f9abf080c28"
+      ],
+      "review_required": false,
+      "last_error": null
+    },
+    "BIZINFO-PBLN_000000000127523": {
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127523",
+      "last_notice_attempt_at": "2026-11-26T13:42:07+09:00",
+      "last_notice_success_at": "2026-11-26T13:42:07+09:00",
+      "notice_status": "links_available",
+      "manifest_sha256": "1b6141dd0ab83bc5589d34beac77a016f6117e7b123202879aae969b07b472a9",
+      "document_ids": [
+        "63e7a36c1c53db3e1826b3ef",
+        "10005450b6f3507b533d2f05",
+        "c18c26c36c933428bdb770c5"
+      ],
+      "review_required": false,
+      "last_error": null
+    },
+    "BIZINFO-PBLN_000000000127529": {
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127529",
+      "last_notice_attempt_at": "2026-11-26T13:42:07+09:00",
+      "last_notice_success_at": "2026-11-26T13:42:07+09:00",
+      "notice_status": "links_available",
+      "manifest_sha256": "f0f048869fc2932e1801ba50d0a3dba30908fe19042ad301d4107f3c969e4269",
+      "document_ids": [
+        "bf3e9178754ba878fa4a9835",
+        "cd24854fa69276f5bf651c14"
+      ],
+      "review_required": false,
+      "last_error": null
+    },
+    "BIZINFO-PBLN_000000000127546": {
+      "notice_source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127546",
+      "last_notice_attempt_at": "2026-11-26T13:42:07+09:00",
+      "last_notice_success_at": "2026-11-26T13:42:07+09:00",
+      "notice_status": "links_available",
+      "manifest_sha256": "11aa1cbea1ad63c465557f4ffc4e607acb3d7ce4f00931876e13dd3c66ea9bd8",
+      "document_ids": [
+        "0ec9be82a9191f21664f1fdd",
+        "96df7251415b7a5015bdd4f5",
+        "7c4881c2dc84356bd25c5e35"
       ],
       "review_required": false,
       "last_error": null

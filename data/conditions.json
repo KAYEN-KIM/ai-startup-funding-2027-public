@@ -1,8 +1,8 @@
 {
   "schema": "public-funding-conditions/v1",
   "version": "0.3.0",
-  "generated_at": "2026-11-24T15:43:17+09:00",
-  "input_fingerprint": "7f6c38e16f1e687c5399e050a63b642c4d7a385b11609fd649c50a5d6473d9b2",
+  "generated_at": "2026-11-26T13:40:37+09:00",
+  "input_fingerprint": "aaa429ee3484a6c3f743ff02b3ad75be9f29ad0ee39c2cf8bfa51a6f194f6cc0",
   "disclaimer": "요약에서 확인한 조건만 판정합니다. 자동 추출은 미검증 후보이며 기관의 최종 심사를 대체하지 않습니다.",
   "records": {
     "IBK-2027-1": {
@@ -5851,6 +5851,114 @@
         "amount": "지원금액 · 공고 원문 확인 필요",
         "opens": "2026-11-23",
         "deadline": "2026-11-30"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000128130": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000128130",
+      "basis_fingerprint": "3e7b315256d94d7fca40c7c438d5409ba504e15bfba3374543a73eddb03e6a49",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000128130",
+        "title": "[경남] 남해군 2027년 청년 창업농 맞춤형 지원사업 신청 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000128130",
+        "year": 2027,
+        "eligibility": "창업벤처",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": "2026-11-25",
+        "deadline": "2026-12-22"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000128120": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000128120",
+      "basis_fingerprint": "323caca533986de677c280ef3bfa5f10f35f528ead850245450ae06e25af0da2",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000128120",
+        "title": "[경남] 거제시 2027년 청년 창업농 맞춤형 지원사업 대상자 모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000128120",
+        "year": 2027,
+        "eligibility": "창업벤처",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": "2026-11-24",
+        "deadline": "2026-12-22"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000128118": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000128118",
+      "basis_fingerprint": "c8c4a4d71688f789702b7535a722bafe1333d68fc8fa16997a7e3ef314fff0f3",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000128118",
+        "title": "[경남] 밀양시 2027년 청년창업농 맞춤형지원사업 신청 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000128118",
+        "year": 2027,
+        "eligibility": "창업벤처",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": "2026-11-24",
+        "deadline": "2026-12-22"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000128116": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000128116",
+      "basis_fingerprint": "dd5f9d1c84d0f7f08943dd6c0d719257150b123f589bde560bc2b113538c5416",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000128116",
+        "title": "[경남] 산청군 2027년 청년창업농 맞춤형 지원사업 신청 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000128116",
+        "year": 2027,
+        "eligibility": "창업벤처",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": "2026-11-24",
+        "deadline": "2026-12-22"
       },
       "coverage": "unreviewed",
       "metadata_state": "current",

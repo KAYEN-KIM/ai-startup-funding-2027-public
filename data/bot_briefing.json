@@ -1,19 +1,19 @@
 {
   "schema": "public-funding-bot-briefing/v1",
   "engine_version": "0.15.0",
-  "generated_at": "2026-11-26T13:42:48+09:00",
+  "generated_at": "2026-11-27T13:46:24+09:00",
   "generation": "deterministic_no_model",
   "report_model_calls": 0,
   "ai_transport": "manual_cli_only",
   "automatic_rule_approval": false,
   "automatic_submission": false,
   "input_fingerprints": {
-    "data/programs.json": "df75bf64cacd4a743c7dff7f74bfe24ad279b1663e9daca0f122b4f70baecfb8",
-    "data/monitor.json": "df0d6b60988400fefd01f76450e605c420fc7ca17e86bd2786d7c4df73271ca2",
-    "data/evidence.json": "95614b8c5cc929cab1eff3319c40165ec7077a4140d5186f7df4aa47abbd6dea",
-    "data/change_reviews.json": "52188486519297deba5198d41654ff14ed5a9a57ff87d7c649e443bcc85a769e",
-    "data/attachments.json": "fd9e6edd48efa1ca3be6ca94b20fa69609950b1d29eff6be03d84ddca2b0fbea",
-    "data/startup_sources.json": "dd165c35cc6aa56dd822d027258a940abfb56f4e452ef89872e33829c6327bdc",
+    "data/programs.json": "d5717792206a59f57fccfd79e679bc16559773f2359bcae3c8469c112a3ed5e1",
+    "data/monitor.json": "ad297ef346e3fedefdbef8635001ec26d79e7edadb5a2b9f7e2297948e1dced3",
+    "data/evidence.json": "7dadc1ce85d0301f816c530fdd88d0563051cc989f7b6d51a4477ae83b1ee849",
+    "data/change_reviews.json": "7b4fff71c1792e2f6aca33d22c6d04344862008bb005ff860d54666b83f730d4",
+    "data/attachments.json": "04849851590b663b121bf33825dfc36f5d026ee1d91e33f807fb1bae9551b39c",
+    "data/startup_sources.json": "bd341ae8aa5ed6fd39f76c1d18f7eae2044778fb0a9e449611003256efb310e4",
     "config/automation_policy.json": "167611159390f47d645f4f831e909f79bf41cfb5173e618f607e351dfe309140"
   },
   "run_status": "ok_scoped",
@@ -24,16 +24,16 @@
       "id": "api",
       "name": "기업마당 API",
       "status": "ok_scoped",
-      "last_attempt_at": "2026-11-26T13:40:37+09:00",
-      "last_success_at": "2026-11-26T13:40:37+09:00",
+      "last_attempt_at": "2026-11-27T13:44:23+09:00",
+      "last_success_at": "2026-11-27T13:44:23+09:00",
       "freshness": "recent",
       "workflow_outcome": "success",
-      "checked": 1310,
+      "checked": 1318,
       "failed": 0,
       "detail": {
         "pages": 7,
-        "reported_total": 1310,
-        "added": 4,
+        "reported_total": 1318,
+        "added": 5,
         "modified": 0,
         "suggested": 0,
         "success": 0,
@@ -48,7 +48,7 @@
       "id": "html",
       "name": "공식 원문 HTML 순환",
       "status": "ok_scoped",
-      "last_attempt_at": "2026-11-26T13:40:37+09:00",
+      "last_attempt_at": "2026-11-27T13:44:23+09:00",
       "last_success_at": null,
       "freshness": "recent",
       "workflow_outcome": "success",
@@ -72,7 +72,7 @@
       "id": "attachments",
       "name": "첨부파일 순환",
       "status": "ok_scoped",
-      "last_attempt_at": "2026-11-26T13:42:07+09:00",
+      "last_attempt_at": "2026-11-27T13:45:54+09:00",
       "last_success_at": null,
       "freshness": "recent",
       "workflow_outcome": "success",
@@ -96,7 +96,7 @@
       "id": "startup",
       "name": "검토된 과거 원본",
       "status": "ok_scoped",
-      "last_attempt_at": "2026-11-26T13:42:35+09:00",
+      "last_attempt_at": "2026-11-27T13:46:14+09:00",
       "last_success_at": null,
       "freshness": "recent",
       "workflow_outcome": "success",
@@ -122,34 +122,22 @@
     "attachment_failures": 0,
     "notice_failures": 0,
     "attachment_limits": 21,
-    "queued_attachments": 119,
-    "changed_evidence": 93,
-    "unverified_programs": 158,
+    "queued_attachments": 124,
+    "changed_evidence": 94,
+    "unverified_programs": 163,
     "unverified_2027": 9,
     "unknown_dates": 84
   },
   "counts": {
-    "registered": 201,
-    "upcoming_deadlines": 4,
-    "queue_total": 142,
+    "registered": 206,
+    "upcoming_deadlines": 6,
+    "queue_total": 143,
     "queue_shown": 120,
     "queue_by_action": {
-      "review_original": 142
+      "review_original": 143
     }
   },
   "deadlines": [
-    {
-      "program_id": "BIZINFO-PBLN_000000000127603",
-      "title": "[인천] 대학 청년 창업펀드 2호 UniVest Scale-Up 참여기업 모집 공고",
-      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127603",
-      "mode": "discovery",
-      "deadline": "2026-11-26",
-      "status": "today_time_unknown",
-      "date": "2026-11-26",
-      "days": 0,
-      "precision": "date_only",
-      "qualification": "개별 신청자격 미판정"
-    },
     {
       "program_id": "BIZINFO-PBLN_000000000126833",
       "title": "2026년 AI 기반 바이오 소재 융복합 제품의 정보분석 및 특허 창출 지원 사업 수혜기업 모집 공고",
@@ -158,7 +146,7 @@
       "deadline": "2026-11-30",
       "status": "upcoming",
       "date": "2026-11-30",
-      "days": 4,
+      "days": 3,
       "precision": "date_only",
       "qualification": "개별 신청자격 미판정"
     },
@@ -170,7 +158,7 @@
       "deadline": "2026-11-30",
       "status": "upcoming",
       "date": "2026-11-30",
-      "days": 4,
+      "days": 3,
       "precision": "date_only",
       "qualification": "개별 신청자격 미판정"
     },
@@ -182,7 +170,43 @@
       "deadline": "2026-11-30",
       "status": "upcoming",
       "date": "2026-11-30",
+      "days": 3,
+      "precision": "date_only",
+      "qualification": "개별 신청자격 미판정"
+    },
+    {
+      "program_id": "BIZINFO-PBLN_000000000128147",
+      "title": "[전북] 2026년 식품기업 창업프로그램 지원사업 제품 및 서비스 홍보 영상 제작 수혜 기업 모집 공고",
+      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000128147",
+      "mode": "discovery",
+      "deadline": "2026-12-01",
+      "status": "upcoming",
+      "date": "2026-12-01",
       "days": 4,
+      "precision": "date_only",
+      "qualification": "개별 신청자격 미판정"
+    },
+    {
+      "program_id": "BIZINFO-PBLN_000000000128022",
+      "title": "2027년 AI데이터센터 서비스 이용자 정기모집(1트랙) 공고",
+      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000128022",
+      "mode": "discovery",
+      "deadline": "2026-12-04",
+      "status": "upcoming",
+      "date": "2026-12-04",
+      "days": 7,
+      "precision": "date_only",
+      "qualification": "개별 신청자격 미판정"
+    },
+    {
+      "program_id": "BIZINFO-PBLN_000000000128146",
+      "title": "2026년 2차 전남광주 AI 유망기업 맞춤형 사업화 지원사업 모집 공고",
+      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000128146",
+      "mode": "discovery",
+      "deadline": "2026-12-04",
+      "status": "upcoming",
+      "date": "2026-12-04",
+      "days": 7,
       "precision": "date_only",
       "qualification": "개별 신청자격 미판정"
     }
@@ -236,6 +260,18 @@
       "reason": "원문 내용 변경 신호. 실제 정책 변경인지는 미검증",
       "reference_id": "BIZINFO-PBLN_000000000119235",
       "observed_at": "2026-11-13T12:06:45+09:00"
+    },
+    {
+      "id": "8eb246543757f2168c3ba250",
+      "category": "notice_changed",
+      "priority": "P0",
+      "program_id": "BIZINFO-PBLN_000000000119373",
+      "title": "[인천] 2026년 신개념 세대융합 청년창업 지원 멘티 상시모집 공고",
+      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000119373",
+      "action": "review_original",
+      "reason": "원문 내용 변경 신호. 실제 정책 변경인지는 미검증",
+      "reference_id": "BIZINFO-PBLN_000000000119373",
+      "observed_at": "2026-11-27T13:44:23+09:00"
     },
     {
       "id": "d5b1405c0807f879d2dd8603",
@@ -1616,23 +1652,11 @@
       "reason": "기존 값과 새 관측값 차이: title — 자동 덮어쓰기·승인 없음",
       "reference_id": "6e5dbc70d16e085d743e409e",
       "observed_at": "2026-10-29T09:33:40+09:00"
-    },
-    {
-      "id": "b22d5304ed74d741780f0889",
-      "category": "source_difference",
-      "priority": "P1",
-      "program_id": "JUMPUP-2027",
-      "title": "2027년 도약(Jump-Up) 프로그램 참여기업",
-      "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127267",
-      "action": "review_original",
-      "reason": "기존 값과 새 관측값 차이: title — 자동 덮어쓰기·승인 없음",
-      "reference_id": "7c5e5d2fc3761b412c8f6d54",
-      "observed_at": "2026-10-29T09:33:40+09:00"
     }
   ],
   "queue_truncated": true,
   "scope": "기업마당 API, 기존 공식 원문·첨부 순환 수집 및 검토 원본 재확인. 전체 기관 독립 수집이나 자동 적격성 검증이 아님.",
   "notice": "이 보고서는 공개 저장자료의 규칙 기반 집계입니다. 후보·마감·우선순위는 신청 적격성, 선정 확률 또는 지원금 확정이 아닙니다. 자료 변경은 정책 변경 확정이 아니며 원문 대조가 필요합니다.",
   "ai_handoff": "공개 근거 검토요청 파일만 생성 가능. AI CLI 자동 실행·API 호출·결과 자동 반영 없음.",
-  "report_id": "f7160575599a637409f82f1f"
+  "report_id": "d952fccead1886fcbd0c967f"
 }

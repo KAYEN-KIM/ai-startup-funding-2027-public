@@ -1,8 +1,8 @@
 {
   "schema": "public-funding-conditions/v1",
   "version": "0.3.0",
-  "generated_at": "2026-11-26T13:40:37+09:00",
-  "input_fingerprint": "aaa429ee3484a6c3f743ff02b3ad75be9f29ad0ee39c2cf8bfa51a6f194f6cc0",
+  "generated_at": "2026-11-27T13:44:23+09:00",
+  "input_fingerprint": "5c148236735a8f4eb185bac2b29584102ce364f8cd4e6b24bef325c938e2450d",
   "disclaimer": "요약에서 확인한 조건만 판정합니다. 자동 추출은 미검증 후보이며 기관의 최종 심사를 대체하지 않습니다.",
   "records": {
     "IBK-2027-1": {
@@ -5959,6 +5959,141 @@
         "amount": "지원금액 · 공고 원문 확인 필요",
         "opens": "2026-11-24",
         "deadline": "2026-12-22"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000128155": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000128155",
+      "basis_fingerprint": "7c2e1df077d124951530f1d371df85e24afd88c4c2f730777613778d2e1e1683",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000128155",
+        "title": "여주(인천)휴게소 청년창업매장 입점자 모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000128155",
+        "year": 2026,
+        "eligibility": "창업벤처",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": "2026-11-25",
+        "deadline": "2026-12-07"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000128147": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000128147",
+      "basis_fingerprint": "9ca3def6585b02e4a8afb9bda78bfaf28b699518dbe40d1e055d7f0a2a152085",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000128147",
+        "title": "[전북] 2026년 식품기업 창업프로그램 지원사업 제품 및 서비스 홍보 영상 제작 수혜 기업 모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000128147",
+        "year": 2026,
+        "eligibility": "창업벤처",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": "2026-11-25",
+        "deadline": "2026-12-01"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000128146": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000128146",
+      "basis_fingerprint": "924b8d13897b5e5675efa80b99489db4e5c98db4816c2792e59856d265810f21",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000128146",
+        "title": "2026년 2차 전남광주 AI 유망기업 맞춤형 사업화 지원사업 모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000128146",
+        "year": 2026,
+        "eligibility": "중소기업",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": "2026-11-25",
+        "deadline": "2026-12-04"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000128137": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000128137",
+      "basis_fingerprint": "c5934e0b98e96ec035d43283bd786b9cff8596157201414d38655d6130884252",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000128137",
+        "title": "2026년 창업도시 프로젝트 친환경ㆍ에너지 분야 기술지원 및 장비ㆍSW 지원 프로그램 참여기업 모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000128137",
+        "year": 2026,
+        "eligibility": "창업벤처",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": "2026-11-24",
+        "deadline": "2026-12-31"
+      },
+      "coverage": "unreviewed",
+      "metadata_state": "current",
+      "reviewed_at": null,
+      "sources": {},
+      "clauses": [],
+      "candidate_facts": [],
+      "attachments_reviewed": false,
+      "exceptions_reviewed": false,
+      "reviewed_difference_ids": [],
+      "open_questions": [
+        "첨부 본문·예외조건·중복수혜·사업비 부담을 검토하지 않았습니다."
+      ]
+    },
+    "BIZINFO-PBLN_000000000128136": {
+      "schema": "program-conditions/v1",
+      "program_id": "BIZINFO-PBLN_000000000128136",
+      "basis_fingerprint": "74d92fa2cc2d919369926caab09fe5c57254b0a2fc7ed2686891a644bc5ec08b",
+      "bound_fields": {
+        "id": "BIZINFO-PBLN_000000000128136",
+        "title": "2026년 창업도시 조성 프로젝트 제조 스타트업-소공인 협업 프로젝트 참여자 모집 공고",
+        "source": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000128136",
+        "year": 2026,
+        "eligibility": "중소기업",
+        "amount": "지원금액 · 공고 원문 확인 필요",
+        "opens": "2026-11-25",
+        "deadline": "2026-12-09"
       },
       "coverage": "unreviewed",
       "metadata_state": "current",
